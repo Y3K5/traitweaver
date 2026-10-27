@@ -1,0 +1,12 @@
+.gitignore
+AGENTS.md
+PUBLIC_FILES.txt
+README.md
+docs/CONTRIBUTIONS.md
+docs/MISSION.md
+docs/TRAIT_LIBRARY_SPEC.md
+tasks/01_STUDY_LIBRARY.md
+docs/REPOSITORY_LAYOUT.md
+src/traitweaver/README.md
+tests/fixtures/README.md
+examples/README.md
