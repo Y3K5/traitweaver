@@ -1,0 +1,79 @@
+CLAUDE REVIEW BRIEF — PREPARED, NOT SENT
+
+Review this repository candidate read-only. Read AGENTS.md and README.md.
+Do not inspect parent/sibling projects, credential stores, local settings or
+original live-run packets. Do not install, fetch, call a provider, upload,
+commit, push or edit files. No API key is required. No Claude invocation or
+external transfer is authorized by this brief itself.
+
+GOAL
+Determine whether this bounded public/synthetic-only MVP is coherent, reliable
+and accurately described. Inspect code and run the supplied offline checks;
+README statements and self-reported totals are not sufficient evidence.
+
+PRODUCT CONTRACT
+One public algae study with six connected views and one authoritative revision.
+One pre-result decision, one registered local check, then a separate assessment.
+Changing goals/constraints preserves earlier work and marks affected claims.
+The two checks are descriptive same-source summary contrasts and endpoint/
+context coverage. Missing evidence must not become negative biology or a winner.
+GFP is a separate reference, never automatic algae evidence. No lab execution.
+
+REVIEW IN THIS ORDER
+1. Source/provenance: data/algae-public.v1.json, data/gfp, asset/font notices,
+   docs/SCOPE_AND_PROVENANCE.txt and HANDOFF_MANIFEST.json. Identify any private,
+   unsupported, unqualified synthetic or incorrectly attributed content.
+2. Scientific/data limits: units, measurement bases, SE/n, zero versus null,
+   distinct phosphorus endpoints, per-study controls and bounded calculations.
+3. History/store: parent hashes, atomic save publication, stale edits, interrupted
+   saves, result/assessment separation, context changes, restore validation.
+4. Model boundary: only registered actions, exact arguments, known citations,
+   result-compatible outcomes; unknown or rejected output cannot execute a tool.
+5. Transport controls: exact payload/destination/model approval, 1,024-output
+   cap, terminal gates before credentials/attempt markers, two-request ceiling, no redirects/proxy inheritance/retries/fallback;
+   reserve before dispatch, retain uncertain spend, duplicate lock, safe errors.
+   The byte-based input allowance is an application guard, not a provider hard
+   account cap. Identify any overspending or execution bypass without a call.
+6. Replay honesty: --demo is explicitly synthetic, uses a disabled synthetic
+   grant and has no owner live approval. A synthetic receipt cannot be relabeled
+   as a live run. The actual live contribution is a documentary summary only.
+7. Cycle-with-usage export/reopen: test separate picker, typed summary/receipt
+   links, original four revisions, stale/origin/session rejection, immutable
+   editable storage and correct headings for coverage and both contrast metrics.
+8. Local interface: loopback binding, same-origin/session mutation protection,
+   bounded input sizes, XSS/CSP, read-only review, no browser live-send route.
+9. Portability: startup/tests without private folders or sibling archives;
+   source/fixtures only, no machine paths, credentials, raw chats/responses,
+   real provider IDs, local configuration or response cookies.
+
+COMMANDS (from the repository root; no installation)
+PYTHONPATH=src python3 -B -m unittest discover -s tests -p 'test_*.py' -q
+PYTHONPATH=src python3 -B tests/check_workspace_http.py
+PYTHONPATH=src python3 -B tests/check_completed_cycle_http.py
+node tests/completed_cycle_ui_offline.cjs
+python3 -B tools/verify_handoff.py
+python3 -B run_workspace.py --demo
+
+The HTTP scripts need a permitted loopback socket and refuse external addresses.
+Do not run tools/muse_cycle.py run, --send, or supply any key. Offline transport
+tests already inject fake responses. Do not make a paid smoke test.
+
+RETURN
+- Verdict: ready for owner demo / changes required / blocked, with reasons.
+- Prioritized findings (P0–P3), exact file and line, concrete input → behavior →
+  consequence, a reproduction command and the smallest proposed fix.
+- Separate confirmed defects from assumptions or scientific unknowns.
+- Checks actually run, failures, skipped checks and environmental limitations.
+- Privacy/provenance/rights findings without quoting secret values.
+- Distinguish software acceptance, scientific qualification, provider receipt
+  authenticity, release rights and hackathon eligibility.
+
+Do not claim an independent review has happened until you actually perform it.
+Owner license/design-rights decisions and current event-rule review remain open.
+Public availability alone does not grant permission to reuse the software/assets.
+
+REFRESH QUALIFICATION
+110 unit tests and 14 memory-controller scenarios passed. Historical loopback
+and rendered-browser checks are distinct and were not rerun for these bytes.
+The owner supplied a focused Claude brief on the authoring checkout; this is
+a fresh screened-tree review, not presumed closure of those findings.

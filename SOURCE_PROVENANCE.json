@@ -1,0 +1,376 @@
+{
+  "schema_version": "traitweaver.candidate_provenance.v1",
+  "source_kind": "Explicit bounded-MVP selection; authoring portability repair recorded separately",
+  "source_head": "a7f671fc8161e31b8f71415630fe9df6093112c3",
+  "cached_origin_main": "a7f671fc8161e31b8f71415630fe9df6093112c3",
+  "remote_refreshed": false,
+  "mapping": [
+    {
+      "destination": ".gitignore",
+      "source": ".gitignore",
+      "source_sha256": "2aa7ad0935c0f951ea470d240db7e0418fea23d00bd3fb65922758356b307756",
+      "candidate_sha256": "2aa7ad0935c0f951ea470d240db7e0418fea23d00bd3fb65922758356b307756",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "tracked source; working bytes reviewed separately"
+    },
+    {
+      "destination": "THIRD_PARTY_NOTICES.md",
+      "source": "THIRD_PARTY_NOTICES.md",
+      "source_sha256": "c59d34cfd496c8752eaf768172e1f7da83054b3e612106e23a764046b94fb7b3",
+      "candidate_sha256": "c59d34cfd496c8752eaf768172e1f7da83054b3e612106e23a764046b94fb7b3",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "run_workspace.py",
+      "source": "run_workspace.py",
+      "source_sha256": "3c0b6b663eac1f1c825ab3a97ccba880d844121e6680f50af06016c04c74b443",
+      "candidate_sha256": "ec8d0ffb8d50097890cdff8a33b7a6aff525ef6b751ae931a2dd5822eb0e854c",
+      "transformation": "Bounded candidate adaptation; receipt privacy, typed usage, read-only cycle reopen, check-specific UI, terminal gates or self-contained tests as applicable. See docs/SCOPE_AND_PROVENANCE.txt. Authoring source preserved separately.",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "run_protein_card.py",
+      "source": "run_protein_card.py",
+      "source_sha256": "bd2d84fc15f95bf3e4fdbf674aa181347424ad880a31c4c5099b86dd31416eef",
+      "candidate_sha256": "bd2d84fc15f95bf3e4fdbf674aa181347424ad880a31c4c5099b86dd31416eef",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "schemas/protein-card.v1.schema.json",
+      "source": "schemas/protein-card.v1.schema.json",
+      "source_sha256": "8f1273e5e02aa242a3eae7ad2286130c0bd62e1b4a37a68a35c415b1a665cedd",
+      "candidate_sha256": "8f1273e5e02aa242a3eae7ad2286130c0bd62e1b4a37a68a35c415b1a665cedd",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/__init__.py",
+      "source": "src/traitweaver/__init__.py",
+      "source_sha256": "62adf7557442d691aac6011bb6794443bf584343c87ee69806996c1efd1a51f2",
+      "candidate_sha256": "62adf7557442d691aac6011bb6794443bf584343c87ee69806996c1efd1a51f2",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/study.py",
+      "source": "src/traitweaver/study.py",
+      "source_sha256": "c7313e148f54ccdc4f2d41ab4269a6ad3867893eb3cabef2404c36c07b4c43bf",
+      "candidate_sha256": "c7313e148f54ccdc4f2d41ab4269a6ad3867893eb3cabef2404c36c07b4c43bf",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/muse_boundary.py",
+      "source": "src/traitweaver/muse_boundary.py",
+      "source_sha256": "ac9dc037edffdce08334425fba288941f2b52e871f8485b167dcc4e4a2ce6636",
+      "candidate_sha256": "2d8f8ce58ca49037b13a49571637dd74e1e3842f370d194cb14224e1aa384183",
+      "transformation": "Bounded candidate adaptation; receipt privacy, typed usage, read-only cycle reopen, check-specific UI, terminal gates or self-contained tests as applicable. See docs/SCOPE_AND_PROVENANCE.txt. Authoring source preserved separately.",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/protein_card.py",
+      "source": "src/traitweaver/protein_card.py",
+      "source_sha256": "f4815ff952e5ab35b227e477728b5db6ca5bcf3204dcfc8d3a7e686446838052",
+      "candidate_sha256": "f4815ff952e5ab35b227e477728b5db6ca5bcf3204dcfc8d3a7e686446838052",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/protein_card.html",
+      "source": "src/traitweaver/protein_card.html",
+      "source_sha256": "130a822784c5b7f79089f5d93cda13686cdb10e3b5542481a7187742d00a2677",
+      "candidate_sha256": "130a822784c5b7f79089f5d93cda13686cdb10e3b5542481a7187742d00a2677",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "data/algae-public.v1.json",
+      "source": "data/algae-public.v1.json",
+      "source_sha256": "08329fe8052a3d4cf708a20da55e295721fa5c56c61a4dc1f6be0c0d9fc87347",
+      "candidate_sha256": "08329fe8052a3d4cf708a20da55e295721fa5c56c61a4dc1f6be0c0d9fc87347",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "data/gfp/MANIFEST.json",
+      "source": "data/gfp/MANIFEST.json",
+      "source_sha256": "fb8aca9c3c39b99ba4a6b0d9abf89e211e9a1e19ef9f84e64a66a32f57823d2e",
+      "candidate_sha256": "fb8aca9c3c39b99ba4a6b0d9abf89e211e9a1e19ef9f84e64a66a32f57823d2e",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "data/gfp/QUALIFICATION.json",
+      "source": "data/gfp/QUALIFICATION.json",
+      "source_sha256": "d5d91fc33412f8517940e106e1b69801aa210fdf16f0200e3e8b9437321cdf61",
+      "candidate_sha256": "d5d91fc33412f8517940e106e1b69801aa210fdf16f0200e3e8b9437321cdf61",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "data/gfp/accession.json",
+      "source": "data/gfp/accession.json",
+      "source_sha256": "3e7b6b6539e3a604aa9a824a58a4e8b84bca4788c346ac6bdcc695a4864fcc35",
+      "candidate_sha256": "3e7b6b6539e3a604aa9a824a58a4e8b84bca4788c346ac6bdcc695a4864fcc35",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "data/gfp/atlas-record.json",
+      "source": "data/gfp/atlas-record.json",
+      "source_sha256": "ef80ac9c0490014786868476916fb5614894be8872d5d8c0b5e292fb2bf7933a",
+      "candidate_sha256": "ef80ac9c0490014786868476916fb5614894be8872d5d8c0b5e292fb2bf7933a",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "tests/test_study_mvp.py",
+      "source": "tests/test_study_mvp.py",
+      "source_sha256": "20a18bdbd4ca6e01b2e8292be53937cbbed85b02aed30a41d272c9943afcde2b",
+      "candidate_sha256": "20a18bdbd4ca6e01b2e8292be53937cbbed85b02aed30a41d272c9943afcde2b",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "tests/test_muse_boundary.py",
+      "source": "tests/test_muse_boundary.py",
+      "source_sha256": "4230e1199a1e8b6e1deb88472709e2d642fd07d2f523cc54963f3ff57b33ba7e",
+      "candidate_sha256": "0e62c682ffcf029954e2e0f9df9e1a7c768c2ea22fec8607ed9bddb1dc69e93c",
+      "transformation": "Bounded candidate adaptation; receipt privacy, typed usage, read-only cycle reopen, check-specific UI, terminal gates or self-contained tests as applicable. See docs/SCOPE_AND_PROVENANCE.txt. Authoring source preserved separately.",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "tests/test_protein_card.py",
+      "source": "tests/test_protein_card.py",
+      "source_sha256": "5f16e7243cc16c12893469dcd5ccff3cde4a4356a9b20c5f53215284e9e303e7",
+      "candidate_sha256": "5f16e7243cc16c12893469dcd5ccff3cde4a4356a9b20c5f53215284e9e303e7",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "tests/check_workspace_http.py",
+      "source": "tests/check_workspace_http.py",
+      "source_sha256": "029e271b9dd7496d5c84fd4248ee728251310ae794b5f6741d1427c3ce4a47f2",
+      "candidate_sha256": "029e271b9dd7496d5c84fd4248ee728251310ae794b5f6741d1427c3ce4a47f2",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "tools/muse_diagnostics.py",
+      "source": "tools/muse_diagnostics.py",
+      "source_sha256": "63c522d01e5c2dc687223999f76660552b9c287aabfbae423989759c9303f18c",
+      "candidate_sha256": "63c522d01e5c2dc687223999f76660552b9c287aabfbae423989759c9303f18c",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "AGENTS.md",
+      "source": "docs/PUBLIC_AGENT_RULES.md",
+      "source_sha256": "f06496bf23f1927ae7f61582e7f1a568b8bb0f2dab0c167443aff46639b43d5c",
+      "candidate_sha256": "2ecb72d8e27c5215c247d1d30cb65223ce521bee4189727060e16df80dc820f1",
+      "transformation": "Bounded candidate adaptation; receipt privacy, typed usage, read-only cycle reopen, check-specific UI, terminal gates or self-contained tests as applicable. See docs/SCOPE_AND_PROVENANCE.txt. Authoring source preserved separately.",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/study_store.py",
+      "source": "handoff/mvp-v1/study_store.py",
+      "source_sha256": "1415cd7fcee7f7feb8d2cee906c5c69fe95f90975ec2f1e184fb66ad07dcade9",
+      "candidate_sha256": "1415cd7fcee7f7feb8d2cee906c5c69fe95f90975ec2f1e184fb66ad07dcade9",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/web/base.css",
+      "source": "src/traitweaver/web/base.css",
+      "source_sha256": "85a51dc70de92fa4deaf4a83f8dcf486b8a8aede26e48a97a7025767cae4bc7c",
+      "candidate_sha256": "85a51dc70de92fa4deaf4a83f8dcf486b8a8aede26e48a97a7025767cae4bc7c",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/web/assets/brand.css",
+      "source": "src/traitweaver/web/assets/brand.css",
+      "source_sha256": "a22f37353949b9b1fdf258bdc2fa511b6581c3b78a22b107ea7cbab0e9532755",
+      "candidate_sha256": "a22f37353949b9b1fdf258bdc2fa511b6581c3b78a22b107ea7cbab0e9532755",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/web/assets/traitweaver-lockup-dark.svg",
+      "source": "src/traitweaver/web/assets/traitweaver-lockup-dark.svg",
+      "source_sha256": "db6e01e88f53a7dffc52c49a347eed87e0aab16eb2ca7c22385d8842e8e5d5d4",
+      "candidate_sha256": "db6e01e88f53a7dffc52c49a347eed87e0aab16eb2ca7c22385d8842e8e5d5d4",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/web/assets/traitweaver-favicon.svg",
+      "source": "src/traitweaver/web/assets/traitweaver-favicon.svg",
+      "source_sha256": "9659c0eb0889238163ecb665c2b7fb9499a167320fc8c41ec81e0b04f6984386",
+      "candidate_sha256": "9659c0eb0889238163ecb665c2b7fb9499a167320fc8c41ec81e0b04f6984386",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/web/assets/fonts/Manrope-Variable.ttf",
+      "source": "src/traitweaver/web/assets/fonts/Manrope-Variable.ttf",
+      "source_sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+      "candidate_sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/web/assets/fonts/Newsreader-Variable.ttf",
+      "source": "src/traitweaver/web/assets/fonts/Newsreader-Variable.ttf",
+      "source_sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+      "candidate_sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/web/assets/fonts/Manrope-OFL.txt",
+      "source": "src/traitweaver/web/assets/fonts/Manrope-OFL.txt",
+      "source_sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+      "candidate_sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/web/assets/fonts/Newsreader-OFL.txt",
+      "source": "src/traitweaver/web/assets/fonts/Newsreader-OFL.txt",
+      "source_sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
+      "candidate_sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/web/ASSET_PROVENANCE.json",
+      "source": "src/traitweaver/web/ASSET_PROVENANCE.json",
+      "source_sha256": "18c1a158b84a3e3104e8da453afe3d852ee7942ed774bde6c10dabd3cfb09a92",
+      "candidate_sha256": "18c1a158b84a3e3104e8da453afe3d852ee7942ed774bde6c10dabd3cfb09a92",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/web/workspace.css",
+      "source": "src/traitweaver/web/workspace.css",
+      "source_sha256": "b6c0cc93cfb7fccf3133782f4f4c9c1cfb0bc08187cf4c0d60cbd8b5117d7720",
+      "candidate_sha256": "b6c0cc93cfb7fccf3133782f4f4c9c1cfb0bc08187cf4c0d60cbd8b5117d7720",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/web/index.html",
+      "source": "handoff/mvp-v1/web/index.html",
+      "source_sha256": "6d29b0ebf2f4c49e13a6a8a7b47189964f131b51ecee4f256dcedb7cda8d0e0d",
+      "candidate_sha256": "7f90bcd8c40bc81f592e7315de1f72e720cb4864b241c093e7826a83e6ee4c5c",
+      "transformation": "Bounded candidate adaptation; receipt privacy, typed usage, read-only cycle reopen, check-specific UI, terminal gates or self-contained tests as applicable. See docs/SCOPE_AND_PROVENANCE.txt. Authoring source preserved separately.",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/web/workspace.js",
+      "source": "src/traitweaver/web/workspace.js",
+      "source_sha256": "4868c392a2c79e8b3e2f16d0d54719fb2257bf3a3cc46f63e52d0ab9b9866e0c",
+      "candidate_sha256": "6ff474851f80e41fafd5a50a3b313712fcf5e887d4b036be70928e67e11f2a33",
+      "transformation": "Bounded candidate adaptation; receipt privacy, typed usage, read-only cycle reopen, check-specific UI, terminal gates or self-contained tests as applicable. See docs/SCOPE_AND_PROVENANCE.txt. Authoring source preserved separately.",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/workspace_server.py",
+      "source": "handoff/mvp-v1/workspace_server.py",
+      "source_sha256": "f6b126d85e32834cacf879f85d2dd6eb4ca41de69e6402b49815efa51cb5eccb",
+      "candidate_sha256": "1b132cf8cc7ebfa8ccef497eaadda09d5f15978fe813790f5e2874bf1a474315",
+      "transformation": "Bounded candidate adaptation; receipt privacy, typed usage, read-only cycle reopen, check-specific UI, terminal gates or self-contained tests as applicable. See docs/SCOPE_AND_PROVENANCE.txt. Authoring source preserved separately.",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/completed_cycle.py",
+      "source": "src/traitweaver/completed_cycle.py",
+      "source_sha256": "67178ddb391191edc9fef0a6a27e8d84811ec2965fd5da8b3ea7d1f5d44e6885",
+      "candidate_sha256": "320f60862a64a95fcb7bd2d41b1ccce0fda577dbf2022595cc0578336793695d",
+      "transformation": "Bounded candidate adaptation; receipt privacy, typed usage, read-only cycle reopen, check-specific UI, terminal gates or self-contained tests as applicable. See docs/SCOPE_AND_PROVENANCE.txt. Authoring source preserved separately.",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "src/traitweaver/web/completed-cycle-ui.js",
+      "source": "src/traitweaver/web/completed-cycle-ui.js",
+      "source_sha256": "e9945ae54fa13ab0c02b3dff0704f1808de36aadd9686d3596f8a6f88fdc8185",
+      "candidate_sha256": "dd7c79955bb73f37686e5a91b84c4e8e781183249b723412d79022956fc4f0da",
+      "transformation": "Bounded candidate adaptation; receipt privacy, typed usage, read-only cycle reopen, check-specific UI, terminal gates or self-contained tests as applicable. See docs/SCOPE_AND_PROVENANCE.txt. Authoring source preserved separately.",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "tools/muse_cycle.py",
+      "source": "tools/muse_cycle.py",
+      "source_sha256": "1d4df5e97b813e9b045be5629928e6750e4cb99613e4f0999621c2be9d7425e4",
+      "candidate_sha256": "7ab9c1005447ebceab6c55903705407a6e22c12f58712cdc1fefd7f2f2a016a7",
+      "transformation": "Bounded candidate adaptation; receipt privacy, typed usage, read-only cycle reopen, check-specific UI, terminal gates or self-contained tests as applicable. See docs/SCOPE_AND_PROVENANCE.txt. Authoring source preserved separately.",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "tools/muse_cycle_start.py",
+      "source": "tools/muse_cycle_start.py",
+      "source_sha256": "237150c6d94be00d43fb61edaf37a838fbe6d613f969970465015e2d6e2dffb7",
+      "candidate_sha256": "c3c3f1685e66f7dcb47f60852971723c0d4935fc50d8b5d48195bf99ab410ef1",
+      "transformation": "Bounded candidate adaptation; receipt privacy, typed usage, read-only cycle reopen, check-specific UI, terminal gates or self-contained tests as applicable. See docs/SCOPE_AND_PROVENANCE.txt. Authoring source preserved separately.",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "tests/test_muse_cycle_control.py",
+      "source": "tests/test_muse_cycle_control.py",
+      "source_sha256": "7e3411674d949ecd617017d595a14c9d721b9a5fc006d56b0f7ba7a439fe7e55",
+      "candidate_sha256": "6023d4c52a068057c2160aefe058749f0c75c5b092fe4f1e1d5156ede6a4b1aa",
+      "transformation": "Bounded candidate adaptation; receipt privacy, typed usage, read-only cycle reopen, check-specific UI, terminal gates or self-contained tests as applicable. See docs/SCOPE_AND_PROVENANCE.txt. Authoring source preserved separately.",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "tests/test_completed_cycle.py",
+      "source": "tests/test_completed_cycle.py",
+      "source_sha256": "ba9d0058862d1ce2d26234535a1dccf16529dff66646ad1ec0b665b644f4edd6",
+      "candidate_sha256": "16f59a2cc4387f78f95b4b79587797ebf6ad32eff48a6ed14cd631c32aaa6db5",
+      "transformation": "Bounded candidate adaptation; receipt privacy, typed usage, read-only cycle reopen, check-specific UI, terminal gates or self-contained tests as applicable. See docs/SCOPE_AND_PROVENANCE.txt. Authoring source preserved separately.",
+      "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "tests/check_completed_cycle_http.py",
+      "source": "tests/check_completed_cycle_http.py",
+      "source_sha256": "f1d752999e1b97686bc47be7b7bb1ebc5db24eefd3a5641e3382fa660f4ec988",
+      "candidate_sha256": "f1d752999e1b97686bc47be7b7bb1ebc5db24eefd3a5641e3382fa660f4ec988",
+      "transformation": "Byte-identical selected source",
+      "source_git_status": "untracked local source"
+    }
+  ],
+  "additional_candidate_authorship": "Public-facing docs, synthetic replay/review package, exact-byte verifier, memory handler/controller tests and bounded adaptations; Codex",
+  "candidate_authored_or_generated_files": [
+    "README.md",
+    "data/synthetic-cycle/01-selection.json",
+    "data/synthetic-cycle/02-reassessment-coverage.json",
+    "data/synthetic-cycle/FIXTURE_PROVENANCE.json",
+    "data/synthetic-cycle/PUBLIC_CYCLE.json",
+    "data/synthetic-cycle/RECEIPT-reassessment.json",
+    "data/synthetic-cycle/RECEIPT-selection.json",
+    "data/synthetic-cycle/REVIEW_PACKAGE.json",
+    "data/synthetic-cycle/STATUS.json",
+    "data/synthetic-cycle/STUDY_PACKAGE.json",
+    "data/synthetic-cycle/SYNTHETIC_APPROVAL.json",
+    "docs/CLAUDE_REVIEW_BRIEF.txt",
+    "docs/DEMO_SCRIPT_3_MIN.txt",
+    "docs/LIVE_RUN_SUMMARY.txt",
+    "docs/RELEASE_BLOCKERS.txt",
+    "docs/REVIEW_STATUS.txt",
+    "docs/SCOPE_AND_PROVENANCE.txt",
+    "docs/SCREENING_SUMMARY.txt",
+    "docs/VALIDATION.txt",
+    "docs/WHAT_WE_BUILT.txt",
+    "tests/completed_cycle_ui_offline.cjs",
+    "tests/test_review_handlers.py",
+    "tools/make_synthetic_cycle.py",
+    "tools/verify_handoff.py"
+  ],
+  "synthetic_fixture_source": "tools/make_synthetic_cycle.py using admitted public evidence and explicitly synthetic test helper",
+  "fixture_provenance": "data/synthetic-cycle/FIXTURE_PROVENANCE.json",
+  "live_run_material_included": false,
+  "rights_clearance": "Pending software license and design distribution decisions; retain component notices"
+}

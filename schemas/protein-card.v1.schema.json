@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:traitweaver:protein-card:v1",
+  "title": "Traitweaver qualified GFP protein card v1",
+  "description": "Closed singleton report schema for the owner-approved qualified GFP snapshot. JSON Schema const pins every field, role, value, identifier, null and component attribution. A different record or edited scientific content requires a separately reviewed version. This schema is local; no remote reference resolution is used.",
+  "const": {
+    "schema_version": "traitweaver.protein_card.v1",
+    "card_id": "GFP_P42212_ATLAS_F4AB4243",
+    "identity": {
+      "protein_name": "Green fluorescent protein",
+      "organism": "Aequorea victoria",
+      "gene_label": "GFP",
+      "uniprot_accession": "P42212",
+      "atlas_accession": "UPI0000002FB4",
+      "atlas_source": "uniparc",
+      "atlas_protein_hash_md5": "f4ab4243622ddcc76e0b9b6d249b172a",
+      "atlas_header": "f4ab4243622ddcc76e0b9b6d249b172a|UPI0000002FB4|uniparc",
+      "sequence_length": 238,
+      "sequence": "MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTFSYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKVNFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLEFVTAAGITHGMDELYK",
+      "sequence_sha256": "44f2688342a00e4b01e82be5e655b26499f981515d5da9a6076315627355b403",
+      "sequence_version": null
+    },
+    "database_annotations": [
+      {
+        "id": "DB_GFP_FUNCTION",
+        "role": "database_annotation",
+        "source_id": "S_UNIPROT_P42212",
+        "locator": "/function",
+        "value_state": "reported",
+        "value": "Energy-transfer acceptor. Its role is to transduce the blue chemiluminescence of the protein aequorin into green fluorescent light by energy transfer. Fluoresces in vivo upon receiving energy from the Ca(2+)-activated photoprotein aequorin",
+        "claim_limit": "Imported database annotation; independent assay and evidence-code verification not supplied here."
+      }
+    ],
+    "model_predictions": [
+      {
+        "id": "SAE_11271",
+        "role": "model_prediction",
+        "source_id": "S_ATLAS_GFP",
+        "locator": "/sae_features/0",
+        "value_state": "reported",
+        "feature_index": 11271,
+        "label": "Short glycine/alanine-rich membrane helices",
+        "description": "Short, glycine/alanine-rich hydrophobic alpha-helices that insert into or span membranes—including single-pass transmembrane anchors, fusion peptides, and pore/translocation helices—frequently containing GxxxG/glycine‑zipper motifs used for helix packing.",
+        "value": 0.3951131478760761,
+        "residue_regions": [
+          {
+            "start": 54,
+            "end": 70,
+            "peak_residue": 62,
+            "mean_activation": 2.5251
+          },
+          {
+            "start": 224,
+            "end": 228,
+            "peak_residue": 228,
+            "mean_activation": 2.0416
+          }
+        ],
+        "claim_limit": "Stored SAE activation and generic feature label; not experimentally demonstrated GFP function or a probability."
+      },
+      {
+        "id": "SAE_4790",
+        "role": "model_prediction",
+        "source_id": "S_ATLAS_GFP",
+        "locator": "/sae_features/1",
+        "value_state": "reported",
+        "feature_index": 4790,
+        "label": "Phage tail oligomerization interfaces",
+        "description": "Oligomerization/assembly interface segments of phage tail–like spikes and tubes (tail tube/sheath, terminator, baseplate hub/junction; gp27–gp5/VgrG core), generalized to analogous interface patches in other large macromolecular assemblies (Type II/IV pili, fimbriae, flagellar rings, viral scaffolds, CRISPR RAMP filaments, and ribosomal S6)",
+        "value": 0.3664169610351898,
+        "residue_regions": [
+          {
+            "start": 43,
+            "end": 45,
+            "peak_residue": 43,
+            "mean_activation": 4.701
+          }
+        ],
+        "claim_limit": "Stored SAE activation and generic feature label; not experimentally demonstrated GFP function or a probability."
+      },
+      {
+        "id": "SAE_11579",
+        "role": "model_prediction",
+        "source_id": "S_ATLAS_GFP",
+        "locator": "/sae_features/2",
+        "value_state": "reported",
+        "feature_index": 11579,
+        "label": "Exposed low-complexity surfaces",
+        "description": "Exposed regions on extracellular, virion, or secretory-pathway luminal proteins—often low-complexity and Ser/Thr‑rich/glycosylated—plus analogous exposed, repetitive or low‑complexity surfaces on large cytosolic assemblies (e.g., CRISPR/Cas backbones); excludes signal peptides, transmembranes, and short cytosolic tails.",
+        "value": 0.3649816369783474,
+        "residue_regions": [
+          {
+            "start": 0,
+            "end": 237,
+            "peak_residue": 157,
+            "mean_activation": 5.1272
+          }
+        ],
+        "claim_limit": "Stored SAE activation and generic feature label; not experimentally demonstrated GFP function or a probability."
+      }
+    ],
+    "coordinate_convention": "Original zero-based residue coordinates; interval-end convention not specified in qualification. No coordinate conversion applied.",
+    "normalization": {
+      "normalize_features": true,
+      "topk_features_requested": 3,
+      "limit": "Three requested ranked features, not all active features. Original supplied normalized scores are retained."
+    },
+    "unavailable": {
+      "pdb": null,
+      "ptm": null,
+      "mean_plddt": null,
+      "residues_plddt": null,
+      "cluster_rep_protein_hash": null,
+      "model_version": null,
+      "generation_date": null
+    },
+    "experimental_evidence": [],
+    "experimental_evidence_limit": "No assay records or experimental evidence codes supplied in this snapshot; no assertion that the literature contains none.",
+    "sources": [
+      {
+        "id": "S_UNIPROT_P42212",
+        "provider": "Biohub public UniProtKB resolver",
+        "source_identifiers": [
+          "P42212"
+        ],
+        "snapshot": "accession.json",
+        "snapshot_sha256": "3e7b6b6539e3a604aa9a824a58a4e8b84bca4788c346ac6bdcc695a4864fcc35",
+        "method": "GET",
+        "url": "https://biohub.ai/esm/protein/api/v1alpha1/uniprot/P42212",
+        "http_status": 200,
+        "bytes": 686,
+        "http_date": "Thu, 29 Oct 2026 13:21:22 GMT"
+      },
+      {
+        "id": "S_ATLAS_GFP",
+        "provider": "Biohub ESM Atlas; UniParc source",
+        "source_identifiers": [
+          "UPI0000002FB4",
+          "f4ab4243622ddcc76e0b9b6d249b172a"
+        ],
+        "snapshot": "atlas-record.json",
+        "snapshot_sha256": "ef80ac9c0490014786868476916fb5614894be8872d5d8c0b5e292fb2bf7933a",
+        "method": "GET",
+        "url": "https://biohub.ai/esm/protein/api/v1alpha1/proteins/f4ab4243622ddcc76e0b9b6d249b172a?fold_on_miss=false&topk_features=3&normalize_features=true",
+        "http_status": 200,
+        "bytes": 481470,
+        "http_date": "Thu, 29 Oct 2026 13:21:47 GMT"
+      }
+    ],
+    "attribution": {
+      "source": "https://registry.opendata.aws/biohub-esm-atlas/",
+      "atlas_generated_data": "CC BY 4.0 unless otherwise specified",
+      "sequences_and_all_data_collections": "CC BY-SA 4.0",
+      "upstream_uniparc": "CC BY 4.0",
+      "scope_limit": "Dataset/source-level license statements; response JSON does not include an individual-record license field. Preserve the split attribution; do not label the entire combined snapshot solely CC BY 4.0."
+    },
+    "provenance": {
+      "qualification_date": "2026-10-29",
+      "qualification_snapshot": "QUALIFICATION.json",
+      "qualification_sha256": "d5d91fc33412f8517940e106e1b69801aa210fdf16f0200e3e8b9437321cdf61",
+      "folded_on_demand": false,
+      "fold_on_miss": false,
+      "activation_data": {
+        "protein_activations": {
+          "shape": [
+            16384
+          ],
+          "stored_entries": 1143
+        },
+        "per_residue_activations": {
+          "shape": [
+            238,
+            16384
+          ],
+          "stored_entries": 15232
+        }
+      },
+      "activation_data_limit": "Full sparse arrays remain in the unchanged qualified source snapshot; this brief contains their dimensions and entry counts only."
+    },
+    "claim_limits": [
+      "Stored SAE activations and their generic labels are model-derived signals, not experimental GFP function. Null structure/confidence/cluster fields mean absent from this response, not proof of absence throughout Atlas. Exact generating model/version remains unknown. Schema extension still proposed only.",
+      "This card is a reference snapshot, not a study, biological comparison, validated mechanism or experimental result.",
+      "Unavailable values remain null. No 3D structure or confidence estimate is generated.",
+      "Dataset/source license statements are retained by component; the API supplies no individual-record license declaration."
+    ]
+  }
+}

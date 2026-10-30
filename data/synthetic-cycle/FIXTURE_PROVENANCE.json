@@ -1,0 +1,29 @@
+{
+  "schema_version": "traitweaver.synthetic_fixture_provenance.v1",
+  "kind": "clearly_synthetic_offline_demo",
+  "generator": "tools/make_synthetic_cycle.py",
+  "evidence": "Unmodified admitted public algae facts and source IDs",
+  "synthetic_fields": [
+    "model choices",
+    "accepted synthetic reply receipts",
+    "token counts",
+    "cost estimates",
+    "execution timing"
+  ],
+  "transport_calls": 0,
+  "credentials_used": false,
+  "provider_ids_included": false,
+  "approval_enabled": false,
+  "purpose": "Portable read-only walkthrough and software verification; not proof of a live contribution",
+  "files_sha256": {
+    "01-selection.json": "17cba6b29d11c013b8b6555220cb5e724269d782e1299cdf51d334c2ef2c7eae",
+    "02-reassessment-coverage.json": "22c559e77175ed95181b31a6fe062f0920c78767d0935b1579d36ee77d705c3e",
+    "PUBLIC_CYCLE.json": "db4dbafa3d4a75dbe49d63cdd055eeab0ff46fd089c33947950928e1662f55ec",
+    "SYNTHETIC_APPROVAL.json": "7bcfe55d9d82cbc39b1340a8a80e957ae15bcd23162673d31fc5822649529630",
+    "STATUS.json": "57e02f44eeb3723c514977c4dab3b380686716491509e958cfe36bc5d778d687",
+    "STUDY_PACKAGE.json": "7e922d178fe1280202c0099d9a9b91b4c5506a58676895479948997d957e2fb9",
+    "RECEIPT-selection.json": "ab2227833024fd71e211890f42f34c424b0b65805d9379860223dccb554bf042",
+    "RECEIPT-reassessment.json": "5b36a84b21a9c602575ec2648d22f85bce814ab75981c74eb7e9d8491ca3bb32",
+    "REVIEW_PACKAGE.json": "40d23281cbede227f77057fb869454e47404d7efc65d1e33977fff1953428a54"
+  }
+}

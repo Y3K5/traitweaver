@@ -1,0 +1,40 @@
+RECORDED LIVE CONTRIBUTION — DOCUMENTARY SUMMARY ONLY
+
+The owner separately approved and locally launched algae attempt 002 on
+October 29, 2026. Destination: POST https://api.meta.ai/v1/responses.
+Model: muse-spark-1.3, Standard mode. store:false. At most two requests;
+maximum 1,024 output tokens each, including reasoning. Additional approved
+application ceiling: USD 0.05. No retries or automatic fallback.
+
+Phase          Input tokens   Output tokens   Reasoning included   Estimate USD
+Selection      2,875          997             949                  0.007831
+Reassessment   3,064          416             366                  0.005598
+Total          5,939          1,413           1,315                0.013429
+
+Both typed replies were accepted against the closed schemas and source/result
+constraints. Selection chose endpoint_coverage. The actual local computation
+reported missing recovered-product phosphorus evidence for both admitted paths,
+different source contexts and an unknown growth margin. Reassessment outcome:
+unavailable; next action: researcher review of the proposed measurement plan.
+The accepted history contains initialize, decision acceptance, local result,
+and reassessment acceptance, with four immutable revisions.
+
+The local owner reviewed matching request/receipt hashes and revision links.
+Actual provider invoice/credit balance was not queried. Conservative token-cost
+estimates use the recorded uncached prices; they are not a provider account-wide
+hard cap. store:false is not a blanket zero-retention guarantee.
+
+Attempt 001 remains separate: one stopped attempt, no accepted response/usage,
+USD 0.02153825 held as an application reservation; actual charge unknown.
+
+Real packets, raw responses, provider identifiers, owner approval files,
+machine paths and local controls are deliberately absent from this repository.
+This summary is not independently authenticated provider evidence. A reviewer
+can ask the owner to show the existing local app/receipts without sending them
+or making a new request. The bundled --demo replay is visibly synthetic and
+must never be presented as this real run.
+
+Owner confirmation in the local project chat: "Yes, I approved both attempts".
+This confirms historical authorization only; no further sending or spending is
+authorized. Attempt 001 remains 1 started / 0 completed, stopped_requires_review;
+attempt 002 remains 2 / 2, complete. No billing query was made for this refresh.

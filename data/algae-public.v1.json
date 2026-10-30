@@ -1,0 +1,302 @@
+{
+  "schema_version": "traitweaver.public_algae.v1",
+  "sources": [
+    {
+      "id": "S_PSR1_2023",
+      "title": "Overexpression of PSR1 in Chlamydomonas reinhardtii induces luxury phosphorus uptake",
+      "authors": "Slocombe et al.",
+      "year": 2023,
+      "doi": "10.3389/fpls.2023.1208168",
+      "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2023.1208168/full",
+      "license": "CC BY 4.0",
+      "reviewed": "2026-10-29",
+      "locators": [
+        "Table 1, growth and phosphate uptake rows and footnotes",
+        "Figure 2 caption; sections 2.1 and 3.2"
+      ],
+      "admission": "Manual numeric transcription of two Table 1 rows; all four lines, stated SE and n. No raw replicates admitted."
+    },
+    {
+      "id": "S_OVERPLUS_2024",
+      "title": "Phosphate overplus response in Chlamydomonas reinhardtii: Polyphosphate dynamics to monitor phosphate uptake and turnover",
+      "authors": "Zuniga-Burgos et al.",
+      "year": 2024,
+      "doi": "10.1016/j.algal.2024.103589",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10198202/1/1-s2.0-S2211926424002017-main.pdf",
+      "license": "CC BY 4.0",
+      "reviewed": "2026-10-29",
+      "locators": [
+        "Results section 2.5, printed page 5; Figure 7, printed page 9",
+        "Discussion, printed pages 7-8; Figures 4-5"
+      ],
+      "admission": "Public full-text results/discussion reviewed. Qualitative endpoint/context admission only; no digitized graph values or supplementary numeric data."
+    }
+  ],
+  "paths": [
+    {
+      "id": "BASELINE",
+      "label": "Reference controls",
+      "kind": "source_bound_baselines",
+      "description": "UVM4 is the PSR1 study control. The preconditioning study has its own strain/condition controls; these do not form a shared cross-study baseline.",
+      "source_ids": [
+        "S_PSR1_2023",
+        "S_OVERPLUS_2024"
+      ]
+    },
+    {
+      "id": "PATH_PSR1",
+      "label": "PSR1 expression regulation",
+      "kind": "published_research_path",
+      "description": "Examine reported uptake and growth summaries against UVM4 within one source study. No organism engineering is performed.",
+      "source_ids": [
+        "S_PSR1_2023"
+      ]
+    },
+    {
+      "id": "PATH_PRECONDITION",
+      "label": "Nutrient preconditioning",
+      "kind": "published_research_path",
+      "description": "Examine source-specific nutrient context and endpoint coverage, retaining qualitative and missing numeric states.",
+      "source_ids": [
+        "S_OVERPLUS_2024"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E_GROWTH_UVM4",
+      "role": "published_observation",
+      "source_id": "S_PSR1_2023",
+      "path_id": "PATH_PSR1",
+      "subject": "UVM4",
+      "organism": "Chlamydomonas reinhardtii",
+      "background": "UVM4; source control",
+      "metric": "growth",
+      "endpoint": "growth",
+      "value_state": "reported_mean",
+      "value": 1.44,
+      "unit": "d^-1",
+      "uncertainty": {
+        "kind": "SE",
+        "value": 0.04,
+        "n": 3,
+        "independent_unit": "culture replicate"
+      },
+      "measurement_basis": "Specific growth rate during the exponential growth phase; batch study over 7 days.",
+      "locator": "Table 1 / Specific growth rate / UVM4",
+      "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate."
+    },
+    {
+      "id": "E_GROWTH_8_27",
+      "role": "published_observation",
+      "source_id": "S_PSR1_2023",
+      "path_id": "PATH_PSR1",
+      "subject": "8-27",
+      "organism": "Chlamydomonas reinhardtii",
+      "background": "PSR1 overexpression line in UVM4 background",
+      "metric": "growth",
+      "endpoint": "growth",
+      "value_state": "reported_mean",
+      "value": 1.33,
+      "unit": "d^-1",
+      "uncertainty": {
+        "kind": "SE",
+        "value": 0.03,
+        "n": 3,
+        "independent_unit": "culture replicate"
+      },
+      "measurement_basis": "Specific growth rate during the exponential growth phase; batch study over 7 days.",
+      "locator": "Table 1 / Specific growth rate / 8-27",
+      "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate."
+    },
+    {
+      "id": "E_GROWTH_8_42",
+      "role": "published_observation",
+      "source_id": "S_PSR1_2023",
+      "path_id": "PATH_PSR1",
+      "subject": "8-42",
+      "organism": "Chlamydomonas reinhardtii",
+      "background": "PSR1 overexpression line in UVM4 background",
+      "metric": "growth",
+      "endpoint": "growth",
+      "value_state": "reported_mean",
+      "value": 1.42,
+      "unit": "d^-1",
+      "uncertainty": {
+        "kind": "SE",
+        "value": 0.01,
+        "n": 3,
+        "independent_unit": "culture replicate"
+      },
+      "measurement_basis": "Specific growth rate during the exponential growth phase; batch study over 7 days.",
+      "locator": "Table 1 / Specific growth rate / 8-42",
+      "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate."
+    },
+    {
+      "id": "E_GROWTH_8_2",
+      "role": "published_observation",
+      "source_id": "S_PSR1_2023",
+      "path_id": "PATH_PSR1",
+      "subject": "8-2",
+      "organism": "Chlamydomonas reinhardtii",
+      "background": "PSR1 overexpression line in UVM4 background",
+      "metric": "growth",
+      "endpoint": "growth",
+      "value_state": "reported_mean",
+      "value": 1.42,
+      "unit": "d^-1",
+      "uncertainty": {
+        "kind": "SE",
+        "value": 0.02,
+        "n": 3,
+        "independent_unit": "culture replicate"
+      },
+      "measurement_basis": "Specific growth rate during the exponential growth phase; batch study over 7 days.",
+      "locator": "Table 1 / Specific growth rate / 8-2",
+      "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate."
+    },
+    {
+      "id": "E_PHOSPHATE_UPTAKE_UVM4",
+      "role": "published_observation",
+      "source_id": "S_PSR1_2023",
+      "path_id": "PATH_PSR1",
+      "subject": "UVM4",
+      "organism": "Chlamydomonas reinhardtii",
+      "background": "UVM4; source control",
+      "metric": "phosphate_uptake",
+      "endpoint": "phosphate_uptake",
+      "value_state": "reported_mean",
+      "value": 0.48,
+      "unit": "mmol P g dry_weight^-1 d^-1",
+      "uncertainty": {
+        "kind": "SE",
+        "value": 0.08,
+        "n": 3,
+        "independent_unit": "culture replicate"
+      },
+      "measurement_basis": "Source-stated log phase, days 1-4; rate as reported, not recalculated from raw measurements.",
+      "locator": "Table 1 / PO4 uptake rate / UVM4",
+      "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate."
+    },
+    {
+      "id": "E_PHOSPHATE_UPTAKE_8_27",
+      "role": "published_observation",
+      "source_id": "S_PSR1_2023",
+      "path_id": "PATH_PSR1",
+      "subject": "8-27",
+      "organism": "Chlamydomonas reinhardtii",
+      "background": "PSR1 overexpression line in UVM4 background",
+      "metric": "phosphate_uptake",
+      "endpoint": "phosphate_uptake",
+      "value_state": "reported_mean",
+      "value": 0.97,
+      "unit": "mmol P g dry_weight^-1 d^-1",
+      "uncertainty": {
+        "kind": "SE",
+        "value": 0.04,
+        "n": 3,
+        "independent_unit": "culture replicate"
+      },
+      "measurement_basis": "Source-stated log phase, days 1-4; rate as reported, not recalculated from raw measurements.",
+      "locator": "Table 1 / PO4 uptake rate / 8-27",
+      "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate."
+    },
+    {
+      "id": "E_PHOSPHATE_UPTAKE_8_42",
+      "role": "published_observation",
+      "source_id": "S_PSR1_2023",
+      "path_id": "PATH_PSR1",
+      "subject": "8-42",
+      "organism": "Chlamydomonas reinhardtii",
+      "background": "PSR1 overexpression line in UVM4 background",
+      "metric": "phosphate_uptake",
+      "endpoint": "phosphate_uptake",
+      "value_state": "reported_mean",
+      "value": 0.65,
+      "unit": "mmol P g dry_weight^-1 d^-1",
+      "uncertainty": {
+        "kind": "SE",
+        "value": 0.02,
+        "n": 3,
+        "independent_unit": "culture replicate"
+      },
+      "measurement_basis": "Source-stated log phase, days 1-4; rate as reported, not recalculated from raw measurements.",
+      "locator": "Table 1 / PO4 uptake rate / 8-42",
+      "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate."
+    },
+    {
+      "id": "E_PHOSPHATE_UPTAKE_8_2",
+      "role": "published_observation",
+      "source_id": "S_PSR1_2023",
+      "path_id": "PATH_PSR1",
+      "subject": "8-2",
+      "organism": "Chlamydomonas reinhardtii",
+      "background": "PSR1 overexpression line in UVM4 background",
+      "metric": "phosphate_uptake",
+      "endpoint": "phosphate_uptake",
+      "value_state": "reported_mean",
+      "value": 0.75,
+      "unit": "mmol P g dry_weight^-1 d^-1",
+      "uncertainty": {
+        "kind": "SE",
+        "value": 0.01,
+        "n": 3,
+        "independent_unit": "culture replicate"
+      },
+      "measurement_basis": "Source-stated log phase, days 1-4; rate as reported, not recalculated from raw measurements.",
+      "locator": "Table 1 / PO4 uptake rate / 8-2",
+      "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate."
+    },
+    {
+      "id": "E_OVERPLUS_REMOVAL",
+      "role": "published_observation",
+      "source_id": "S_OVERPLUS_2024",
+      "path_id": "PATH_PRECONDITION",
+      "organism": "Chlamydomonas reinhardtii",
+      "subjects": [
+        "CC-1690",
+        "CC-125",
+        "CC-5325",
+        "CC-4350"
+      ],
+      "metric": "medium_phosphate_removal",
+      "endpoint": "medium_phosphate_removal",
+      "value_state": "qualitative",
+      "value": null,
+      "unit": null,
+      "uncertainty": null,
+      "locator": "Results 2.5, printed page 5; Figure 7; Discussion printed pages 7-8",
+      "statement": "Complete-nutrient repletion supported greater medium phosphate removal than phosphate-only repletion in the reported preconditioning comparisons.",
+      "measurement_basis": "Source-specific deprivation/repletion comparisons; each strain and condition retains its own baseline.",
+      "claim_limit": "No numeric removal values admitted. Medium removal is distinct from harvested-product phosphorus recovery."
+    },
+    {
+      "id": "E_OVERPLUS_GROWTH",
+      "role": "published_observation",
+      "source_id": "S_OVERPLUS_2024",
+      "path_id": "PATH_PRECONDITION",
+      "organism": "Chlamydomonas reinhardtii",
+      "subjects": [
+        "CC-1690",
+        "CC-125",
+        "CC-5325",
+        "CC-4350"
+      ],
+      "metric": "growth",
+      "endpoint": "growth",
+      "value_state": "qualitative",
+      "value": null,
+      "unit": null,
+      "uncertainty": null,
+      "locator": "Results 2.3, printed page 4; Discussion printed page 7; Figures 4-5",
+      "statement": "Growth resumed with complete-nutrient repletion; phosphate-only repletion did not provide the same growth response in the reported comparisons.",
+      "measurement_basis": "Published nutrient-deprivation/repletion context; no new study conditions are prescribed.",
+      "claim_limit": "Qualitative admission only; cannot compute a cross-study growth contrast or establish equivalence."
+    }
+  ],
+  "limits": [
+    "Open-evidence literature review; not a hidden-data evaluation or independent experimental reproduction.",
+    "Source appraisal is limited to the named admissions; neither paper is a qualified field-deployment or recovered-product dataset.",
+    "No significance, growth-equivalence, causal-engineering or cross-study superiority conclusion is computed."
+  ]
+}

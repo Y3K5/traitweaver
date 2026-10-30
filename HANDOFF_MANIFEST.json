@@ -1,0 +1,393 @@
+{
+  "schema_version": "traitweaver.final_repository_handoff.v1",
+  "status": "screened_local_candidate_pending_owner_review",
+  "prepared_date": "2026-10-29",
+  "refresh": "Archive portability repair, bounded reliability and owner-selected midnight palette",
+  "publication_approved": false,
+  "claude_review_performed": false,
+  "review_status": "Owner supplied focused authoring fix brief; independent closure and final screened-tree review remain open",
+  "scope": "Bounded single-study MVP, gated Muse controls, validated cycle-with-usage reopen and clearly synthetic replay; real packets remain external",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 426,
+      "sha256": "2aa7ad0935c0f951ea470d240db7e0418fea23d00bd3fb65922758356b307756"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1637,
+      "sha256": "2ecb72d8e27c5215c247d1d30cb65223ce521bee4189727060e16df80dc820f1"
+    },
+    {
+      "path": "PUBLIC_FILES.txt",
+      "bytes": 2193,
+      "sha256": "bd154f757620d1b5b3c274a29346522356ec8135b7a57b5b41355d1c52839ef7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4400,
+      "sha256": "0b8e0083767cef2a2b7d842e741c073b60dd19a9b84d9ae708aef3472968012f"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 21945,
+      "sha256": "1f6cd76ecd8bc0db0558bf8fb85d77e3b50ce62f3bc51025f04da9c0bdefa3ac"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1646,
+      "sha256": "c59d34cfd496c8752eaf768172e1f7da83054b3e612106e23a764046b94fb7b3"
+    },
+    {
+      "path": "data/algae-public.v1.json",
+      "bytes": 12280,
+      "sha256": "08329fe8052a3d4cf708a20da55e295721fa5c56c61a4dc1f6be0c0d9fc87347"
+    },
+    {
+      "path": "data/gfp/MANIFEST.json",
+      "bytes": 772,
+      "sha256": "fb8aca9c3c39b99ba4a6b0d9abf89e211e9a1e19ef9f84e64a66a32f57823d2e"
+    },
+    {
+      "path": "data/gfp/QUALIFICATION.json",
+      "bytes": 6464,
+      "sha256": "d5d91fc33412f8517940e106e1b69801aa210fdf16f0200e3e8b9437321cdf61"
+    },
+    {
+      "path": "data/gfp/accession.json",
+      "bytes": 686,
+      "sha256": "3e7b6b6539e3a604aa9a824a58a4e8b84bca4788c346ac6bdcc695a4864fcc35"
+    },
+    {
+      "path": "data/gfp/atlas-record.json",
+      "bytes": 481470,
+      "sha256": "ef80ac9c0490014786868476916fb5614894be8872d5d8c0b5e292fb2bf7933a"
+    },
+    {
+      "path": "data/synthetic-cycle/01-selection.json",
+      "bytes": 12725,
+      "sha256": "17cba6b29d11c013b8b6555220cb5e724269d782e1299cdf51d334c2ef2c7eae"
+    },
+    {
+      "path": "data/synthetic-cycle/02-reassessment-coverage.json",
+      "bytes": 13795,
+      "sha256": "22c559e77175ed95181b31a6fe062f0920c78767d0935b1579d36ee77d705c3e"
+    },
+    {
+      "path": "data/synthetic-cycle/FIXTURE_PROVENANCE.json",
+      "bytes": 1501,
+      "sha256": "00489a48ec57b20f458ea7f0976aea16fe72e371215b7c61464ca54b336fbec2"
+    },
+    {
+      "path": "data/synthetic-cycle/PUBLIC_CYCLE.json",
+      "bytes": 635,
+      "sha256": "db4dbafa3d4a75dbe49d63cdd055eeab0ff46fd089c33947950928e1662f55ec"
+    },
+    {
+      "path": "data/synthetic-cycle/RECEIPT-reassessment.json",
+      "bytes": 469,
+      "sha256": "5b36a84b21a9c602575ec2648d22f85bce814ab75981c74eb7e9d8491ca3bb32"
+    },
+    {
+      "path": "data/synthetic-cycle/RECEIPT-selection.json",
+      "bytes": 466,
+      "sha256": "ab2227833024fd71e211890f42f34c424b0b65805d9379860223dccb554bf042"
+    },
+    {
+      "path": "data/synthetic-cycle/REVIEW_PACKAGE.json",
+      "bytes": 34523,
+      "sha256": "40d23281cbede227f77057fb869454e47404d7efc65d1e33977fff1953428a54"
+    },
+    {
+      "path": "data/synthetic-cycle/STATUS.json",
+      "bytes": 303,
+      "sha256": "57e02f44eeb3723c514977c4dab3b380686716491509e958cfe36bc5d778d687"
+    },
+    {
+      "path": "data/synthetic-cycle/STUDY_PACKAGE.json",
+      "bytes": 22249,
+      "sha256": "7e922d178fe1280202c0099d9a9b91b4c5506a58676895479948997d957e2fb9"
+    },
+    {
+      "path": "data/synthetic-cycle/SYNTHETIC_APPROVAL.json",
+      "bytes": 221,
+      "sha256": "7bcfe55d9d82cbc39b1340a8a80e957ae15bcd23162673d31fc5822649529630"
+    },
+    {
+      "path": "docs/CLAUDE_REVIEW_BRIEF.txt",
+      "bytes": 4896,
+      "sha256": "70ee8fcb9059a95a019b45b02ffab4efc318c02ae4e1e6716d6f4afa9d9b4f47"
+    },
+    {
+      "path": "docs/DEMO_SCRIPT_3_MIN.txt",
+      "bytes": 3516,
+      "sha256": "e66ec9f635797d4a2fb9e5ea0e6dbcadf981c4b426faf8202d831d177de56f96"
+    },
+    {
+      "path": "docs/LIVE_RUN_SUMMARY.txt",
+      "bytes": 2458,
+      "sha256": "e202b4f19a454d2d6f2cae1f054cb34f60cacf173a022a66454e8b4795f9c741"
+    },
+    {
+      "path": "docs/RELEASE_BLOCKERS.txt",
+      "bytes": 2151,
+      "sha256": "4e0e177e9cf6d3c53730f11a39a6ada152a522242d89bf8cfe3bd49dd4222a16"
+    },
+    {
+      "path": "docs/REVIEW_STATUS.txt",
+      "bytes": 677,
+      "sha256": "2f1937e644589f93f1d7c1185cb0fb455c125236ca83941b6e5348bf920add9a"
+    },
+    {
+      "path": "docs/SCOPE_AND_PROVENANCE.txt",
+      "bytes": 5645,
+      "sha256": "6ee33b5c829b7257c29dc27416c8cbeb929287a1bae272ffb0cc7715065ffd82"
+    },
+    {
+      "path": "docs/SCREENING_SUMMARY.txt",
+      "bytes": 1686,
+      "sha256": "e65bf41a788517625d0db4a4ea67639ab8505a39d5981f035ffbc0a0d24f9fb4"
+    },
+    {
+      "path": "docs/VALIDATION.txt",
+      "bytes": 3392,
+      "sha256": "03784052e8116feefbba4701ff0ad6679c23c4f36e2a5415f419042cda77ae1c"
+    },
+    {
+      "path": "docs/WHAT_WE_BUILT.txt",
+      "bytes": 4833,
+      "sha256": "6e1d8c6358384d6f9fa8acad4389681f0f41d654d0496a6c5a5d737a8ca993a0"
+    },
+    {
+      "path": "run_protein_card.py",
+      "bytes": 273,
+      "sha256": "bd2d84fc15f95bf3e4fdbf674aa181347424ad880a31c4c5099b86dd31416eef"
+    },
+    {
+      "path": "run_workspace.py",
+      "bytes": 275,
+      "sha256": "ec8d0ffb8d50097890cdff8a33b7a6aff525ef6b751ae931a2dd5822eb0e854c"
+    },
+    {
+      "path": "schemas/protein-card.v1.schema.json",
+      "bytes": 9064,
+      "sha256": "8f1273e5e02aa242a3eae7ad2286130c0bd62e1b4a37a68a35c415b1a665cedd"
+    },
+    {
+      "path": "src/traitweaver/__init__.py",
+      "bytes": 72,
+      "sha256": "62adf7557442d691aac6011bb6794443bf584343c87ee69806996c1efd1a51f2"
+    },
+    {
+      "path": "src/traitweaver/completed_cycle.py",
+      "bytes": 16646,
+      "sha256": "320f60862a64a95fcb7bd2d41b1ccce0fda577dbf2022595cc0578336793695d"
+    },
+    {
+      "path": "src/traitweaver/muse_boundary.py",
+      "bytes": 15425,
+      "sha256": "2d8f8ce58ca49037b13a49571637dd74e1e3842f370d194cb14224e1aa384183"
+    },
+    {
+      "path": "src/traitweaver/protein_card.html",
+      "bytes": 32110,
+      "sha256": "130a822784c5b7f79089f5d93cda13686cdb10e3b5542481a7187742d00a2677"
+    },
+    {
+      "path": "src/traitweaver/protein_card.py",
+      "bytes": 13603,
+      "sha256": "f4815ff952e5ab35b227e477728b5db6ca5bcf3204dcfc8d3a7e686446838052"
+    },
+    {
+      "path": "src/traitweaver/study.py",
+      "bytes": 15530,
+      "sha256": "c7313e148f54ccdc4f2d41ab4269a6ad3867893eb3cabef2404c36c07b4c43bf"
+    },
+    {
+      "path": "src/traitweaver/study_store.py",
+      "bytes": 9469,
+      "sha256": "1415cd7fcee7f7feb8d2cee906c5c69fe95f90975ec2f1e184fb66ad07dcade9"
+    },
+    {
+      "path": "src/traitweaver/web/ASSET_PROVENANCE.json",
+      "bytes": 2001,
+      "sha256": "18c1a158b84a3e3104e8da453afe3d852ee7942ed774bde6c10dabd3cfb09a92"
+    },
+    {
+      "path": "src/traitweaver/web/assets/brand.css",
+      "bytes": 1100,
+      "sha256": "a22f37353949b9b1fdf258bdc2fa511b6581c3b78a22b107ea7cbab0e9532755"
+    },
+    {
+      "path": "src/traitweaver/web/assets/fonts/Manrope-OFL.txt",
+      "bytes": 4387,
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+    },
+    {
+      "path": "src/traitweaver/web/assets/fonts/Manrope-Variable.ttf",
+      "bytes": 164700,
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "path": "src/traitweaver/web/assets/fonts/Newsreader-OFL.txt",
+      "bytes": 4394,
+      "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8"
+    },
+    {
+      "path": "src/traitweaver/web/assets/fonts/Newsreader-Variable.ttf",
+      "bytes": 451664,
+      "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1"
+    },
+    {
+      "path": "src/traitweaver/web/assets/traitweaver-favicon.svg",
+      "bytes": 822,
+      "sha256": "9659c0eb0889238163ecb665c2b7fb9499a167320fc8c41ec81e0b04f6984386"
+    },
+    {
+      "path": "src/traitweaver/web/assets/traitweaver-lockup-dark.svg",
+      "bytes": 3274,
+      "sha256": "db6e01e88f53a7dffc52c49a347eed87e0aab16eb2ca7c22385d8842e8e5d5d4"
+    },
+    {
+      "path": "src/traitweaver/web/base.css",
+      "bytes": 119338,
+      "sha256": "85a51dc70de92fa4deaf4a83f8dcf486b8a8aede26e48a97a7025767cae4bc7c"
+    },
+    {
+      "path": "src/traitweaver/web/completed-cycle-ui.js",
+      "bytes": 6559,
+      "sha256": "dd7c79955bb73f37686e5a91b84c4e8e781183249b723412d79022956fc4f0da"
+    },
+    {
+      "path": "src/traitweaver/web/index.html",
+      "bytes": 2673,
+      "sha256": "7f90bcd8c40bc81f592e7315de1f72e720cb4864b241c093e7826a83e6ee4c5c"
+    },
+    {
+      "path": "src/traitweaver/web/workspace.css",
+      "bytes": 11168,
+      "sha256": "b6c0cc93cfb7fccf3133782f4f4c9c1cfb0bc08187cf4c0d60cbd8b5117d7720"
+    },
+    {
+      "path": "src/traitweaver/web/workspace.js",
+      "bytes": 22635,
+      "sha256": "6ff474851f80e41fafd5a50a3b313712fcf5e887d4b036be70928e67e11f2a33"
+    },
+    {
+      "path": "src/traitweaver/workspace_server.py",
+      "bytes": 12792,
+      "sha256": "1b132cf8cc7ebfa8ccef497eaadda09d5f15978fe813790f5e2874bf1a474315"
+    },
+    {
+      "path": "tests/check_completed_cycle_http.py",
+      "bytes": 4400,
+      "sha256": "f1d752999e1b97686bc47be7b7bb1ebc5db24eefd3a5641e3382fa660f4ec988"
+    },
+    {
+      "path": "tests/check_workspace_http.py",
+      "bytes": 5711,
+      "sha256": "029e271b9dd7496d5c84fd4248ee728251310ae794b5f6741d1427c3ce4a47f2"
+    },
+    {
+      "path": "tests/completed_cycle_ui_offline.cjs",
+      "bytes": 8437,
+      "sha256": "819e789d4635d320138e736663a4a2b7a45379575fb92f93b7500c8629ab74e7"
+    },
+    {
+      "path": "tests/test_completed_cycle.py",
+      "bytes": 12617,
+      "sha256": "16f59a2cc4387f78f95b4b79587797ebf6ad32eff48a6ed14cd631c32aaa6db5"
+    },
+    {
+      "path": "tests/test_muse_boundary.py",
+      "bytes": 11177,
+      "sha256": "0e62c682ffcf029954e2e0f9df9e1a7c768c2ea22fec8607ed9bddb1dc69e93c"
+    },
+    {
+      "path": "tests/test_muse_cycle_control.py",
+      "bytes": 29356,
+      "sha256": "6023d4c52a068057c2160aefe058749f0c75c5b092fe4f1e1d5156ede6a4b1aa"
+    },
+    {
+      "path": "tests/test_protein_card.py",
+      "bytes": 9982,
+      "sha256": "5f16e7243cc16c12893469dcd5ccff3cde4a4356a9b20c5f53215284e9e303e7"
+    },
+    {
+      "path": "tests/test_review_handlers.py",
+      "bytes": 5886,
+      "sha256": "f1e91d671d525fa97ae1f8cf79c31cc28f468a59ada5c60a3945aa3bfa7ec15e"
+    },
+    {
+      "path": "tests/test_study_mvp.py",
+      "bytes": 11330,
+      "sha256": "20a18bdbd4ca6e01b2e8292be53937cbbed85b02aed30a41d272c9943afcde2b"
+    },
+    {
+      "path": "tools/make_synthetic_cycle.py",
+      "bytes": 2452,
+      "sha256": "6a7b73ed75d7a32db0f54bb88bf277a65391d6a28eee14949d2d554f1a52470e"
+    },
+    {
+      "path": "tools/muse_cycle.py",
+      "bytes": 29612,
+      "sha256": "7ab9c1005447ebceab6c55903705407a6e22c12f58712cdc1fefd7f2f2a016a7"
+    },
+    {
+      "path": "tools/muse_cycle_start.py",
+      "bytes": 2347,
+      "sha256": "c3c3f1685e66f7dcb47f60852971723c0d4935fc50d8b5d48195bf99ab410ef1"
+    },
+    {
+      "path": "tools/muse_diagnostics.py",
+      "bytes": 10895,
+      "sha256": "63c522d01e5c2dc687223999f76660552b9c287aabfbae423989759c9303f18c"
+    },
+    {
+      "path": "tools/verify_handoff.py",
+      "bytes": 2009,
+      "sha256": "d3a3adc40d8f6ed84040c8955836b05bd9ace08bd6dfb946ff4b6c9f7bfe3146"
+    }
+  ],
+  "manifest_self_hash_policy": "Excluded from its own hash list; manifest hash recorded in external local verification",
+  "tests": {
+    "offline_unit_tests": 110,
+    "memory_handler_tests_included_in_unit_total": 6,
+    "memory_js_controller_scenarios": 14,
+    "authoring_checkout_unit_tests": 164,
+    "fresh_authoring_copy_unit_tests": 164,
+    "fresh_candidate_copy_unit_tests": 110,
+    "historical_editable_http_checks": 28,
+    "historical_completed_cycle_http_checks": 21,
+    "http_integration_suites_rerun_for_refresh": false,
+    "rendered_palette_checks": [
+      "1440x1000 desktop",
+      "390x844 narrow",
+      "Separate public GFP reference"
+    ]
+  },
+  "history_screen": {
+    "reachable_commits": 1,
+    "screened_blobs": 12,
+    "unresolved_findings": 0,
+    "github_refreshed": false
+  },
+  "qualified_synthetic_test_matches": 2,
+  "blockers": [
+    "Owner exact-file/destination approval",
+    "Software license decision",
+    "Design distribution rights/component compatibility",
+    "Independent final review",
+    "Current event-rule/eligibility review",
+    "Native browser download/reopen rehearsal"
+  ],
+  "exclusions": [
+    "Git metadata",
+    "Credentials/local configuration",
+    "Private research/internal planning examples/chats",
+    "Real packets/owner controls/provider IDs/raw replies/cookies",
+    "Archive app/data",
+    "Separate comparison/Baseten pilot",
+    "Caches/installs/generated browser artifacts"
+  ]
+}

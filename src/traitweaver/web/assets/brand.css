@@ -1,0 +1,34 @@
+/* Traitweaver — self-hosted open typography. License notices live in fonts/. */
+@font-face {
+  font-family: 'Manrope';
+  src: url('./fonts/Manrope-Variable.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Newsreader';
+  src: url('./fonts/Newsreader-Variable.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+}
+:root {
+  --tw-navy: #23465a;
+  --tw-navy-deep: #193744;
+  --tw-green: #557d68;
+  --tw-green-tint: #e8f0e9;
+  /* Compatibility aliases for existing application styles. */
+  --tw-aubergine: var(--tw-navy);
+  --tw-aubergine-deep: var(--tw-navy-deep);
+  --tw-lilac: var(--tw-green);
+  --tw-lilac-tint: var(--tw-green-tint);
+  --tw-canvas: #f3f6f5;
+  --tw-paper: #fcfdfc;
+  --tw-ink: #243d47;
+  --tw-muted: #586b72;
+  --tw-line: #d8e2df;
+  --tw-sans: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --tw-serif: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --tw-mono: ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+}

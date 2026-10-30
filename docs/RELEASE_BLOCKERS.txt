@@ -1,0 +1,32 @@
+RELEASE / REVIEW BLOCKERS — NO PUBLICATION AUTHORIZED
+
+1. Owner approval of the exact final file list and destination is still required.
+   This task prepared local files only. Nothing was sent to Claude or GitHub.
+2. No blanket software license has been selected. The owner must choose an
+   appropriate license after component compatibility review; this handoff does
+   not grant one or silently invent licensing terms.
+3. Original brand artwork/stylesheet distribution rights need owner confirmation.
+   Font OFL notices and split GFP CC BY/CC BY-SA attribution must be retained.
+4. Independent final review of these refreshed screened bytes remains open.
+   The owner supplied a separate focused Claude brief for the authoring checkout;
+   local fixes/tests do not constitute Claude re-verification or release acceptance.
+5. Current event rules, reuse/disclosed-preparation dates and required Meta
+   contribution evidence need owner review. The actual live cycle is recorded
+   locally; this repo has a documentary summary, not authenticated provider logs.
+   No rules were fetched and no eligibility/submission certification is made.
+6. Actual provider billing and attempt 001's charge remain unknown. Do not call
+   again to resolve this. The owner can inspect the existing provider dashboard.
+
+NOT A SOFTWARE FAILURE: neither admitted research path quantifies the desired
+recovered-product phosphorus endpoint here. This is an explicit research gap,
+with a measurement plan and no biological winner. It does not prevent a useful
+guided-MVP demonstration, but it prevents unsupported recovery claims.
+
+Privacy/history screening found no excluded material in the proposed payload
+or locally reachable scaffold history after the documented synthetic/guard
+classifications. Pattern screening and local record checks are not a formal
+privacy proof, independent source reproduction or blanket rights clearance.
+
+7. Rehearse the refreshed demo in a restarted local browser, including native
+   download/reopen and narrow layout. Fresh checks used memory controllers and
+   handlers; earlier rendered-browser and loopback results remain historical.

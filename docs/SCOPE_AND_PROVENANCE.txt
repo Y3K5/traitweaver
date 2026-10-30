@@ -1,0 +1,88 @@
+EXACT SCOPE AND SOURCE SELECTION
+
+This candidate contains the agreed single-study guided MVP plus the bounded
+Muse controls and read-only completed-cycle walkthrough. The separate library/
+comparison/Baseten pilot and legacy application/case are preserved in the
+authoring project and excluded here. No original source/history was erased. The authoring default file preview was
+subsequently repaired to use repository assets; its optional historical
+--legacy-archive mode and case workflow remain outside this candidate.
+
+The earlier public handoff mapping was stale. This is a fresh, explicit-file
+copy with current hashes. Selected v1 store/server snapshots isolate the bounded
+scope from concurrent work. The server/JS copies are explicitly adapted to join
+the current completed-cycle view without comparison/library dependencies.
+The archive-preview branch is omitted because its archive/runtime is excluded.
+
+Public README/AGENTS and review documents are separately authored for this
+candidate, rather than copying private local coordination/history documents.
+The cycle-control tests use this repository root instead of a sibling checkout.
+The hidden-key starter uses hash-pinned sibling execution support copied into
+its prepared packet, instead of assuming a repository folder name or loading
+a runner from an arbitrary local-control path. All copied support is verified.
+The privacy guard uses generic patterns rather than authoring-only project
+labels. These are disclosed candidate-copy changes, not silent original edits.
+
+The viewer adds a distinct synthetic replay mode. The bundled fixture is built
+only from admitted public evidence and labeled synthetic model choices/usage.
+It includes SYNTHETIC_APPROVAL.json with approved:false, no OWNER_APPROVAL.json,
+no key, no real response identifier and no live transport. Its provenance file
+records exact component hashes. The fixture is not the owner's completed run.
+
+Public algae data: Slocombe et al. 2023 (10.3389/fpls.2023.1208168), Table 1,
+four lines × growth/phosphate-uptake rows; means, SE, n=3, units and measurement
+bases. Zuniga-Burgos et al. 2024 (10.1016/j.algal.2024.103589), source-located
+qualitative observations reviewed in public full text. No numeric graph
+digitization, invented summaries, private case or authored internal study plan.
+No full article, figure or raw replicate redistribution. Retain attribution.
+
+GFP: pinned previously qualified public accession/Atlas snapshots, including
+original numeric signals and nulls. Preserve component-specific CC BY / CC BY-SA
+statements in QUALIFICATION.json and MANIFEST.json; do not apply one blanket
+CC BY label. Sparse arrays remain byte-identical because the loader pins them.
+
+Design: selected original stylesheet, brand artwork and two font files only.
+ASSET_PROVENANCE.json and bundled OFL notices are retained. No original archive
+application logic or ten-study dataset is copied. The app extension stylesheet
+is separate from pinned base.css. Owner distribution-rights confirmation remains.
+
+Code authorship: Codex. Actual Muse contribution: owner-approved choice and
+constrained reassessment documented in LIVE_RUN_SUMMARY.txt, not Muse-authored
+application code. Synthetic software fixtures establish no new biology.
+
+HANDOFF EXCLUSIONS
+.git metadata; credentials/key files/.env; owner grants/local controls; real
+run packets/provider IDs/raw replies; response headers/cookies; local settings;
+private research/study-planning examples/chats; archive app/data; unrelated
+projects; caches, generated browser outputs, installed packages and build trees.
+
+Git history was screened locally: one reachable scaffold commit, twelve blobs;
+no excluded-content or personal-metadata pattern findings. Planning text was
+also reviewed for authored private studies. main and cached origin/main point
+to the same scaffold commit. No GitHub fetch/API or history rewrite occurred.
+Current GitHub freshness is unverified. No .git history is bundled here.
+
+The candidate is not an approved commit. The exact outgoing file list and
+checksums are in PUBLIC_FILES.txt / HANDOFF_MANIFEST.json. Future sharing,
+publication, rights review and owner-run pushing remain separate decisions.
+
+OCTOBER 29 LOCAL REPAIR / REFRESH
+The candidate retains its bounded store/server rather than copying the separate
+authoring comparison pilot. Candidate changes include: checking decoded JSON for
+escaped credential echoes before persisting receipts; retaining only typed
+numeric usage; validating and reopening cycle-with-usage exports read-only;
+check-specific walkthrough headings; and actual handler/controller regression
+checks. The cycle starter and runner now require a terminal before credential
+access or real sending. New tests use synthetic key literals and fake transport.
+The review wrapper remains traitweaver.completed_cycle_review.v1; no arbitrary
+provider response is admitted. Reopening switches the memory review view and
+does not overwrite the editable saved study or create another revision.
+Historical owner authorization is documented separately in LIVE_RUN_SUMMARY.txt;
+no further live send, spending or publication is authorized.
+
+OCTOBER 30 PALETTE UPDATE
+The owner selected midnight black #02070A, electric blue #0297DE and
+cantaloupe orange #FC734D. The guided UI and separate GFP reference use dark
+panels and off-white text, blue interactions and limited orange highlights.
+Changes live in extension CSS / the GFP template and theme-color metadata.
+Pinned base.css, brand/font source assets and all research data are unchanged.
+The original logotype is rendered white with a CSS filter; its source is intact.

@@ -1,0 +1,77 @@
+WHAT WE ACTUALLY DID — OCTOBER 29, 2026
+
+Input: one public question about algae phosphorus recovery while considering
+growth, two cited papers, and the existing screened Traitweaver visual design.
+Output: a guided local research workspace and a preserved, auditable study.
+
+1. We inspected actual source, launchers, tests, files and local Git state.
+   The local main and cached origin/main still point to the single initial
+   planning-scaffold commit. The application work is local and uncommitted.
+   GitHub was not contacted during this final handoff preparation.
+
+2. We admitted a fresh public algae evidence bundle: PSR1 growth and phosphate
+   uptake summaries for four lines, with units, original SE, n=3 and measurement
+   basis; plus two source-located qualitative preconditioning observations.
+   No internal study-planning example, graph digitization or invented numeric
+   observations were imported. Each paper retains its own controls/context.
+
+3. We built a connected Question / Paths / Evidence / Next check / Results /
+   Handoff journey in the existing design. GFP stays a separate qualified
+   reference with database annotations, model-derived signals and nulls intact.
+
+4. We added immutable hash-linked revisions, parent hashes, pre-result decisions,
+   stale-edit rejection, atomic saves, changed-context reassessment and readable/
+   JSON export/reopen. Older decisions/results remain available. Null is not zero.
+
+5. We implemented two registered local checks: source-bound published-mean
+   contrasts and endpoint/context coverage. There is one selected check per
+   cycle, followed by a separate assessment and a deliberate next action.
+   Measurement plans specify comparisons, controls, readouts and unresolved
+   decisions, with no executable laboratory instructions.
+
+6. We prepared bounded Muse requests and validated closed actions, citations,
+   arguments and reassessment outcomes. Live sending requires an exact reviewed
+   payload/destination/ceiling grant and an interactive terminal. Each cycle allows at most two requests,
+   1,024 output tokens per request (including reasoning), no automatic retry or
+   fallback. Keys stay in process memory; no .env or credential store is loaded.
+
+7. The owner authorized and locally launched real attempt 001. One selection
+   attempt stopped with generic diagnostics; no accepted reply/usage survived.
+   Its actual cost remains unknown. We retained its lock/reservation, then added
+   safe HTTP/network/validation failure details and tested them offline.
+
+8. With a separate additional approval, the owner launched real attempt 002.
+   Both muse-spark-1.3 replies were accepted. Muse selected endpoint coverage;
+   the actual local audit found recovered-product phosphorus unavailable in
+   the admitted bundle for both paths. Reassessment recorded unavailable and
+   proposed researcher review of the missing measurements. Four revisions were
+   saved. The recorded token-cost estimate was $0.013429. No winner was claimed.
+
+9. We joined the saved study and usage receipts in a read-only local app view.
+   It shows Decision / Result / Reassessment / Usage and preserves the original
+   cycle. Opening it makes no model call, tool dispatch or new revision.
+
+10. For this repository-only handoff, we made an explicit bounded source copy,
+    fixed sibling-checkout test dependencies, made the local starter portable,
+    and added a clearly labeled synthetic replay. The real run, owner grants,
+    local controls, private examples, raw chats/responses/cookies, archive app
+    logic and separate comparison/Baseten work are not included.
+
+Authorship: Codex implemented this software. Muse contributed the recorded
+selection and constrained reassessment; published science retains its authors.
+Reused design/font/GFP components retain their own provenance and rights limits.
+
+What this does not establish: biological recovery performance, causal transfer,
+statistical significance/equivalence, an independent reproduction, provider
+invoice verification, scientific validation, publication approval or event
+eligibility. No commit, push, upload, new live API call or submission was made
+while preparing this handoff. No additional model call is needed to demo it.
+
+Refreshed local reliability work: escaped credential echoes are rejected after
+JSON decoding, usage persistence is a numeric allowlist, decision/result headings
+reflect the chosen check, and cycle-with-usage JSON reopens read-only without
+losing usage or revision history. Both live command entry points require a
+terminal even if a key is present. The broader authoring checkout's required
+archive dependency was removed from its default preview; no archive application
+or ten-study data entered this screened payload. See VALIDATION.txt for fresh
+tests and historical/browser limits.

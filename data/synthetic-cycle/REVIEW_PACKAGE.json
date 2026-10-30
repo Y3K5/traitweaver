@@ -1,0 +1,756 @@
+{
+  "schema_version": "traitweaver.completed_cycle_review.v1",
+  "study_package": {
+    "limits": "Descriptive source-bound evidence only. No cross-study ranking, significance, equivalence, field performance or biological winner is established.",
+    "revisions": [
+      {
+        "action": {
+          "payload": {},
+          "type": "initialize"
+        },
+        "hash": "8fe6dad344e810e9dd8ee27a2c600779f98bc7f2026369fa12d9541233116552",
+        "parent_hash": null,
+        "revision": 1,
+        "saved_utc": "2026-10-29T19:06:53.518904+00:00",
+        "schema_version": "traitweaver.study_revision.v1",
+        "state": {
+          "brief": {
+            "context_notes": "",
+            "minimum_growth_ratio": null,
+            "question": "What evidence and next measurements would support phosphorus recovery using algae while considering growth?",
+            "target_endpoint": "recovered_product_phosphorus"
+          },
+          "cycles": [],
+          "recovery_winner": null,
+          "schema_version": "traitweaver.guided_study.v1",
+          "source_bundle_sha256": "08329fe8052a3d4cf708a20da55e295721fa5c56c61a4dc1f6be0c0d9fc87347",
+          "study_id": "ALGAE_001"
+        }
+      },
+      {
+        "action": {
+          "payload": {
+            "phase": "selection",
+            "proposal": {
+              "check": "endpoint_coverage",
+              "citations": [
+                "S_PSR1_2023",
+                "S_OVERPLUS_2024"
+              ],
+              "metric": null,
+              "rationale_code": "audit_target_before_comparison"
+            },
+            "receipt": {
+              "provenance": "synthetic_fixture",
+              "reported_model": "muse-spark-1.3",
+              "response_sha256": "2a310143f62b96577d64fdb2fa7f42b041ade2d333791a0aa4b24511da485cf0"
+            },
+            "request_sha256": "17cba6b29d11c013b8b6555220cb5e724269d782e1299cdf51d334c2ef2c7eae"
+          },
+          "type": "muse_accept"
+        },
+        "hash": "6384ff897954fd02da427bc23291f0bd80079b8ff4a5f00fdf0ccebabfde7dba",
+        "parent_hash": "8fe6dad344e810e9dd8ee27a2c600779f98bc7f2026369fa12d9541233116552",
+        "revision": 2,
+        "saved_utc": "2026-10-29T19:06:53.522799+00:00",
+        "schema_version": "traitweaver.study_revision.v1",
+        "state": {
+          "brief": {
+            "context_notes": "",
+            "minimum_growth_ratio": null,
+            "question": "What evidence and next measurements would support phosphorus recovery using algae while considering growth?",
+            "target_endpoint": "recovered_product_phosphorus"
+          },
+          "cycles": [
+            {
+              "applicability": "current",
+              "assessment": null,
+              "decision": {
+                "arguments": {},
+                "branches": {
+                  "contradictory": "Replan the stated point-mean constraint; do not infer statistical or biological failure.",
+                  "failed": "Inspect the software failure; no biological interpretation is permitted.",
+                  "inconclusive": "Specify the missing decision margin or obtain evidence for the target endpoint.",
+                  "invalid": "Correct the input identity, unit or measurement basis before interpreting it.",
+                  "supporting": "Retain the narrow descriptive statement; the wider recovery claim remains unqualified.",
+                  "unavailable": "Request the missing endpoint/context measurements; do not substitute another endpoint."
+                },
+                "brief_hash": "d78e8a17f04b9deb0ce632132b188e20d4bf5df4cdab87bfe8d5895ced651fab",
+                "check": "endpoint_coverage",
+                "deferred": [
+                  {
+                    "arguments": {
+                      "metric": "phosphate_uptake"
+                    },
+                    "id": "published_contrasts",
+                    "label": "Describe published phosphate_uptake contrasts"
+                  },
+                  {
+                    "arguments": {
+                      "metric": "growth"
+                    },
+                    "id": "published_contrasts",
+                    "label": "Describe published growth contrasts"
+                  }
+                ],
+                "policy": "muse_validated",
+                "provider_citations": [
+                  "S_PSR1_2023",
+                  "S_OVERPLUS_2024"
+                ],
+                "provider_receipt": {
+                  "provenance": "synthetic_fixture",
+                  "reported_model": "muse-spark-1.3",
+                  "response_sha256": "2a310143f62b96577d64fdb2fa7f42b041ade2d333791a0aa4b24511da485cf0"
+                },
+                "purpose": "Establish what the admitted endpoints can support before comparing paths.",
+                "source_ids": [
+                  "S_PSR1_2023",
+                  "S_OVERPLUS_2024"
+                ]
+              },
+              "id": "C1",
+              "result": null
+            }
+          ],
+          "recovery_winner": null,
+          "schema_version": "traitweaver.guided_study.v1",
+          "source_bundle_sha256": "08329fe8052a3d4cf708a20da55e295721fa5c56c61a4dc1f6be0c0d9fc87347",
+          "study_id": "ALGAE_001"
+        }
+      },
+      {
+        "action": {
+          "payload": {},
+          "type": "run"
+        },
+        "hash": "017ea7879f6acb9747735c1c68522dae016f83e8387e68fc1226f2c49db17c0a",
+        "parent_hash": "6384ff897954fd02da427bc23291f0bd80079b8ff4a5f00fdf0ccebabfde7dba",
+        "revision": 3,
+        "saved_utc": "2026-10-29T19:06:53.524408+00:00",
+        "schema_version": "traitweaver.study_revision.v1",
+        "state": {
+          "brief": {
+            "context_notes": "",
+            "minimum_growth_ratio": null,
+            "question": "What evidence and next measurements would support phosphorus recovery using algae while considering growth?",
+            "target_endpoint": "recovered_product_phosphorus"
+          },
+          "cycles": [
+            {
+              "applicability": "current",
+              "assessment": null,
+              "decision": {
+                "arguments": {},
+                "branches": {
+                  "contradictory": "Replan the stated point-mean constraint; do not infer statistical or biological failure.",
+                  "failed": "Inspect the software failure; no biological interpretation is permitted.",
+                  "inconclusive": "Specify the missing decision margin or obtain evidence for the target endpoint.",
+                  "invalid": "Correct the input identity, unit or measurement basis before interpreting it.",
+                  "supporting": "Retain the narrow descriptive statement; the wider recovery claim remains unqualified.",
+                  "unavailable": "Request the missing endpoint/context measurements; do not substitute another endpoint."
+                },
+                "brief_hash": "d78e8a17f04b9deb0ce632132b188e20d4bf5df4cdab87bfe8d5895ced651fab",
+                "check": "endpoint_coverage",
+                "deferred": [
+                  {
+                    "arguments": {
+                      "metric": "phosphate_uptake"
+                    },
+                    "id": "published_contrasts",
+                    "label": "Describe published phosphate_uptake contrasts"
+                  },
+                  {
+                    "arguments": {
+                      "metric": "growth"
+                    },
+                    "id": "published_contrasts",
+                    "label": "Describe published growth contrasts"
+                  }
+                ],
+                "policy": "muse_validated",
+                "provider_citations": [
+                  "S_PSR1_2023",
+                  "S_OVERPLUS_2024"
+                ],
+                "provider_receipt": {
+                  "provenance": "synthetic_fixture",
+                  "reported_model": "muse-spark-1.3",
+                  "response_sha256": "2a310143f62b96577d64fdb2fa7f42b041ade2d333791a0aa4b24511da485cf0"
+                },
+                "purpose": "Establish what the admitted endpoints can support before comparing paths.",
+                "source_ids": [
+                  "S_PSR1_2023",
+                  "S_OVERPLUS_2024"
+                ]
+              },
+              "id": "C1",
+              "result": {
+                "blockers": [
+                  {
+                    "code": "different_source_contexts",
+                    "meaning": "The research paths have different strain/condition controls and measurement bases; no common baseline or cross-study ranking is admitted."
+                  },
+                  {
+                    "code": "target_not_quantified",
+                    "meaning": "The requested endpoint is not quantitatively admitted for this path.",
+                    "path_id": "PATH_PSR1"
+                  },
+                  {
+                    "code": "target_not_quantified",
+                    "meaning": "The requested endpoint is not quantitatively admitted for this path.",
+                    "path_id": "PATH_PRECONDITION"
+                  },
+                  {
+                    "code": "growth_margin_unknown",
+                    "meaning": "No growth decision margin was specified."
+                  }
+                ],
+                "id": "C1_RESULT",
+                "kind": "actual_computation",
+                "limit": "Descriptive source-bound evidence only. No cross-study ranking, significance, equivalence, field performance or biological winner is established.",
+                "rows": [
+                  {
+                    "evidence_ids": [],
+                    "path_id": "PATH_PSR1",
+                    "state": "unavailable",
+                    "target_endpoint": "recovered_product_phosphorus"
+                  },
+                  {
+                    "evidence_ids": [],
+                    "path_id": "PATH_PRECONDITION",
+                    "state": "unavailable",
+                    "target_endpoint": "recovered_product_phosphorus"
+                  }
+                ],
+                "status": "completed",
+                "tool": "endpoint_coverage"
+              }
+            }
+          ],
+          "recovery_winner": null,
+          "schema_version": "traitweaver.guided_study.v1",
+          "source_bundle_sha256": "08329fe8052a3d4cf708a20da55e295721fa5c56c61a4dc1f6be0c0d9fc87347",
+          "study_id": "ALGAE_001"
+        }
+      },
+      {
+        "action": {
+          "payload": {
+            "phase": "reassessment",
+            "proposal": {
+              "citations": [
+                "S_PSR1_2023",
+                "S_OVERPLUS_2024"
+              ],
+              "next_action": "researcher_review_measurement_plan",
+              "outcome": "unavailable",
+              "result_id": "C1_RESULT"
+            },
+            "receipt": {
+              "provenance": "synthetic_fixture",
+              "reported_model": "muse-spark-1.3",
+              "response_sha256": "572df2f2e56ea47d51d161440c758c12f23fda4a6cfe75e97470df441adfbabc"
+            },
+            "request_sha256": "22c559e77175ed95181b31a6fe062f0920c78767d0935b1579d36ee77d705c3e"
+          },
+          "type": "muse_accept"
+        },
+        "hash": "0aa9204089671897922f78f31f32cffb8a16291160de6078838621d480406616",
+        "parent_hash": "017ea7879f6acb9747735c1c68522dae016f83e8387e68fc1226f2c49db17c0a",
+        "revision": 4,
+        "saved_utc": "2026-10-29T19:06:53.529744+00:00",
+        "schema_version": "traitweaver.study_revision.v1",
+        "state": {
+          "brief": {
+            "context_notes": "",
+            "minimum_growth_ratio": null,
+            "question": "What evidence and next measurements would support phosphorus recovery using algae while considering growth?",
+            "target_endpoint": "recovered_product_phosphorus"
+          },
+          "cycles": [
+            {
+              "applicability": "current",
+              "assessment": {
+                "constraint_limit": "Any growth-bound comparison concerns published point means only; it does not establish equivalence or performance in a new context.",
+                "interpretation": "Request the missing endpoint/context measurements; do not substitute another endpoint.",
+                "limit": "Descriptive source-bound evidence only. No cross-study ranking, significance, equivalence, field performance or biological winner is established.",
+                "measurement_plan": {
+                  "comparison": "Each proposed research path versus an explicitly qualified, matched reference; establish a common context before comparing paths.",
+                  "controls": [
+                    "Matched source/strain and nutrient-context reference",
+                    "Process/material accounting control",
+                    "Growth reference measured alongside the target endpoint"
+                  ],
+                  "execution": "Not executed. Researcher review required; no laboratory instructions or organism design.",
+                  "independent_units": "Independent culture/process units; technical readings are not independent replication.",
+                  "mode": "proposed_measurement_study_for_review",
+                  "question": "What evidence and next measurements would support phosphorus recovery using algae while considering growth?",
+                  "readouts": [
+                    "Phosphorus in recovered product and its accounting boundary",
+                    "Medium phosphate and biomass phosphorus as separate compartments",
+                    "Growth with explicit units and time basis"
+                  ],
+                  "target_endpoint": "recovered_product_phosphorus",
+                  "unresolved": [
+                    "Actual material/stock and target context",
+                    "Recovery compartment, denominator and assay qualification",
+                    "Growth margin and recovery decision threshold",
+                    "Independent sample count and justified analysis design"
+                  ]
+                },
+                "next_action": "researcher_review_measurement_plan",
+                "outcome": "unavailable",
+                "provider_receipt": {
+                  "provenance": "synthetic_fixture",
+                  "reported_model": "muse-spark-1.3",
+                  "response_sha256": "572df2f2e56ea47d51d161440c758c12f23fda4a6cfe75e97470df441adfbabc"
+                },
+                "recovery_winner": null,
+                "source_ids": [
+                  "S_PSR1_2023",
+                  "S_OVERPLUS_2024"
+                ]
+              },
+              "decision": {
+                "arguments": {},
+                "branches": {
+                  "contradictory": "Replan the stated point-mean constraint; do not infer statistical or biological failure.",
+                  "failed": "Inspect the software failure; no biological interpretation is permitted.",
+                  "inconclusive": "Specify the missing decision margin or obtain evidence for the target endpoint.",
+                  "invalid": "Correct the input identity, unit or measurement basis before interpreting it.",
+                  "supporting": "Retain the narrow descriptive statement; the wider recovery claim remains unqualified.",
+                  "unavailable": "Request the missing endpoint/context measurements; do not substitute another endpoint."
+                },
+                "brief_hash": "d78e8a17f04b9deb0ce632132b188e20d4bf5df4cdab87bfe8d5895ced651fab",
+                "check": "endpoint_coverage",
+                "deferred": [
+                  {
+                    "arguments": {
+                      "metric": "phosphate_uptake"
+                    },
+                    "id": "published_contrasts",
+                    "label": "Describe published phosphate_uptake contrasts"
+                  },
+                  {
+                    "arguments": {
+                      "metric": "growth"
+                    },
+                    "id": "published_contrasts",
+                    "label": "Describe published growth contrasts"
+                  }
+                ],
+                "policy": "muse_validated",
+                "provider_citations": [
+                  "S_PSR1_2023",
+                  "S_OVERPLUS_2024"
+                ],
+                "provider_receipt": {
+                  "provenance": "synthetic_fixture",
+                  "reported_model": "muse-spark-1.3",
+                  "response_sha256": "2a310143f62b96577d64fdb2fa7f42b041ade2d333791a0aa4b24511da485cf0"
+                },
+                "purpose": "Establish what the admitted endpoints can support before comparing paths.",
+                "source_ids": [
+                  "S_PSR1_2023",
+                  "S_OVERPLUS_2024"
+                ]
+              },
+              "id": "C1",
+              "result": {
+                "blockers": [
+                  {
+                    "code": "different_source_contexts",
+                    "meaning": "The research paths have different strain/condition controls and measurement bases; no common baseline or cross-study ranking is admitted."
+                  },
+                  {
+                    "code": "target_not_quantified",
+                    "meaning": "The requested endpoint is not quantitatively admitted for this path.",
+                    "path_id": "PATH_PSR1"
+                  },
+                  {
+                    "code": "target_not_quantified",
+                    "meaning": "The requested endpoint is not quantitatively admitted for this path.",
+                    "path_id": "PATH_PRECONDITION"
+                  },
+                  {
+                    "code": "growth_margin_unknown",
+                    "meaning": "No growth decision margin was specified."
+                  }
+                ],
+                "id": "C1_RESULT",
+                "kind": "actual_computation",
+                "limit": "Descriptive source-bound evidence only. No cross-study ranking, significance, equivalence, field performance or biological winner is established.",
+                "rows": [
+                  {
+                    "evidence_ids": [],
+                    "path_id": "PATH_PSR1",
+                    "state": "unavailable",
+                    "target_endpoint": "recovered_product_phosphorus"
+                  },
+                  {
+                    "evidence_ids": [],
+                    "path_id": "PATH_PRECONDITION",
+                    "state": "unavailable",
+                    "target_endpoint": "recovered_product_phosphorus"
+                  }
+                ],
+                "status": "completed",
+                "tool": "endpoint_coverage"
+              }
+            }
+          ],
+          "recovery_winner": null,
+          "schema_version": "traitweaver.guided_study.v1",
+          "source_bundle_sha256": "08329fe8052a3d4cf708a20da55e295721fa5c56c61a4dc1f6be0c0d9fc87347",
+          "study_id": "ALGAE_001"
+        }
+      }
+    ],
+    "schema_version": "traitweaver.study_package.v1",
+    "source_bundle": {
+      "evidence": [
+        {
+          "background": "UVM4; source control",
+          "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate.",
+          "endpoint": "growth",
+          "id": "E_GROWTH_UVM4",
+          "locator": "Table 1 / Specific growth rate / UVM4",
+          "measurement_basis": "Specific growth rate during the exponential growth phase; batch study over 7 days.",
+          "metric": "growth",
+          "organism": "Chlamydomonas reinhardtii",
+          "path_id": "PATH_PSR1",
+          "role": "published_observation",
+          "source_id": "S_PSR1_2023",
+          "subject": "UVM4",
+          "uncertainty": {
+            "independent_unit": "culture replicate",
+            "kind": "SE",
+            "n": 3,
+            "value": 0.04
+          },
+          "unit": "d^-1",
+          "value": 1.44,
+          "value_state": "reported_mean"
+        },
+        {
+          "background": "PSR1 overexpression line in UVM4 background",
+          "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate.",
+          "endpoint": "growth",
+          "id": "E_GROWTH_8_27",
+          "locator": "Table 1 / Specific growth rate / 8-27",
+          "measurement_basis": "Specific growth rate during the exponential growth phase; batch study over 7 days.",
+          "metric": "growth",
+          "organism": "Chlamydomonas reinhardtii",
+          "path_id": "PATH_PSR1",
+          "role": "published_observation",
+          "source_id": "S_PSR1_2023",
+          "subject": "8-27",
+          "uncertainty": {
+            "independent_unit": "culture replicate",
+            "kind": "SE",
+            "n": 3,
+            "value": 0.03
+          },
+          "unit": "d^-1",
+          "value": 1.33,
+          "value_state": "reported_mean"
+        },
+        {
+          "background": "PSR1 overexpression line in UVM4 background",
+          "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate.",
+          "endpoint": "growth",
+          "id": "E_GROWTH_8_42",
+          "locator": "Table 1 / Specific growth rate / 8-42",
+          "measurement_basis": "Specific growth rate during the exponential growth phase; batch study over 7 days.",
+          "metric": "growth",
+          "organism": "Chlamydomonas reinhardtii",
+          "path_id": "PATH_PSR1",
+          "role": "published_observation",
+          "source_id": "S_PSR1_2023",
+          "subject": "8-42",
+          "uncertainty": {
+            "independent_unit": "culture replicate",
+            "kind": "SE",
+            "n": 3,
+            "value": 0.01
+          },
+          "unit": "d^-1",
+          "value": 1.42,
+          "value_state": "reported_mean"
+        },
+        {
+          "background": "PSR1 overexpression line in UVM4 background",
+          "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate.",
+          "endpoint": "growth",
+          "id": "E_GROWTH_8_2",
+          "locator": "Table 1 / Specific growth rate / 8-2",
+          "measurement_basis": "Specific growth rate during the exponential growth phase; batch study over 7 days.",
+          "metric": "growth",
+          "organism": "Chlamydomonas reinhardtii",
+          "path_id": "PATH_PSR1",
+          "role": "published_observation",
+          "source_id": "S_PSR1_2023",
+          "subject": "8-2",
+          "uncertainty": {
+            "independent_unit": "culture replicate",
+            "kind": "SE",
+            "n": 3,
+            "value": 0.02
+          },
+          "unit": "d^-1",
+          "value": 1.42,
+          "value_state": "reported_mean"
+        },
+        {
+          "background": "UVM4; source control",
+          "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate.",
+          "endpoint": "phosphate_uptake",
+          "id": "E_PHOSPHATE_UPTAKE_UVM4",
+          "locator": "Table 1 / PO4 uptake rate / UVM4",
+          "measurement_basis": "Source-stated log phase, days 1-4; rate as reported, not recalculated from raw measurements.",
+          "metric": "phosphate_uptake",
+          "organism": "Chlamydomonas reinhardtii",
+          "path_id": "PATH_PSR1",
+          "role": "published_observation",
+          "source_id": "S_PSR1_2023",
+          "subject": "UVM4",
+          "uncertainty": {
+            "independent_unit": "culture replicate",
+            "kind": "SE",
+            "n": 3,
+            "value": 0.08
+          },
+          "unit": "mmol P g dry_weight^-1 d^-1",
+          "value": 0.48,
+          "value_state": "reported_mean"
+        },
+        {
+          "background": "PSR1 overexpression line in UVM4 background",
+          "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate.",
+          "endpoint": "phosphate_uptake",
+          "id": "E_PHOSPHATE_UPTAKE_8_27",
+          "locator": "Table 1 / PO4 uptake rate / 8-27",
+          "measurement_basis": "Source-stated log phase, days 1-4; rate as reported, not recalculated from raw measurements.",
+          "metric": "phosphate_uptake",
+          "organism": "Chlamydomonas reinhardtii",
+          "path_id": "PATH_PSR1",
+          "role": "published_observation",
+          "source_id": "S_PSR1_2023",
+          "subject": "8-27",
+          "uncertainty": {
+            "independent_unit": "culture replicate",
+            "kind": "SE",
+            "n": 3,
+            "value": 0.04
+          },
+          "unit": "mmol P g dry_weight^-1 d^-1",
+          "value": 0.97,
+          "value_state": "reported_mean"
+        },
+        {
+          "background": "PSR1 overexpression line in UVM4 background",
+          "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate.",
+          "endpoint": "phosphate_uptake",
+          "id": "E_PHOSPHATE_UPTAKE_8_42",
+          "locator": "Table 1 / PO4 uptake rate / 8-42",
+          "measurement_basis": "Source-stated log phase, days 1-4; rate as reported, not recalculated from raw measurements.",
+          "metric": "phosphate_uptake",
+          "organism": "Chlamydomonas reinhardtii",
+          "path_id": "PATH_PSR1",
+          "role": "published_observation",
+          "source_id": "S_PSR1_2023",
+          "subject": "8-42",
+          "uncertainty": {
+            "independent_unit": "culture replicate",
+            "kind": "SE",
+            "n": 3,
+            "value": 0.02
+          },
+          "unit": "mmol P g dry_weight^-1 d^-1",
+          "value": 0.65,
+          "value_state": "reported_mean"
+        },
+        {
+          "background": "PSR1 overexpression line in UVM4 background",
+          "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate.",
+          "endpoint": "phosphate_uptake",
+          "id": "E_PHOSPHATE_UPTAKE_8_2",
+          "locator": "Table 1 / PO4 uptake rate / 8-2",
+          "measurement_basis": "Source-stated log phase, days 1-4; rate as reported, not recalculated from raw measurements.",
+          "metric": "phosphate_uptake",
+          "organism": "Chlamydomonas reinhardtii",
+          "path_id": "PATH_PSR1",
+          "role": "published_observation",
+          "source_id": "S_PSR1_2023",
+          "subject": "8-2",
+          "uncertainty": {
+            "independent_unit": "culture replicate",
+            "kind": "SE",
+            "n": 3,
+            "value": 0.01
+          },
+          "unit": "mmol P g dry_weight^-1 d^-1",
+          "value": 0.75,
+          "value_state": "reported_mean"
+        },
+        {
+          "claim_limit": "No numeric removal values admitted. Medium removal is distinct from harvested-product phosphorus recovery.",
+          "endpoint": "medium_phosphate_removal",
+          "id": "E_OVERPLUS_REMOVAL",
+          "locator": "Results 2.5, printed page 5; Figure 7; Discussion printed pages 7-8",
+          "measurement_basis": "Source-specific deprivation/repletion comparisons; each strain and condition retains its own baseline.",
+          "metric": "medium_phosphate_removal",
+          "organism": "Chlamydomonas reinhardtii",
+          "path_id": "PATH_PRECONDITION",
+          "role": "published_observation",
+          "source_id": "S_OVERPLUS_2024",
+          "statement": "Complete-nutrient repletion supported greater medium phosphate removal than phosphate-only repletion in the reported preconditioning comparisons.",
+          "subjects": [
+            "CC-1690",
+            "CC-125",
+            "CC-5325",
+            "CC-4350"
+          ],
+          "uncertainty": null,
+          "unit": null,
+          "value": null,
+          "value_state": "qualitative"
+        },
+        {
+          "claim_limit": "Qualitative admission only; cannot compute a cross-study growth contrast or establish equivalence.",
+          "endpoint": "growth",
+          "id": "E_OVERPLUS_GROWTH",
+          "locator": "Results 2.3, printed page 4; Discussion printed page 7; Figures 4-5",
+          "measurement_basis": "Published nutrient-deprivation/repletion context; no new study conditions are prescribed.",
+          "metric": "growth",
+          "organism": "Chlamydomonas reinhardtii",
+          "path_id": "PATH_PRECONDITION",
+          "role": "published_observation",
+          "source_id": "S_OVERPLUS_2024",
+          "statement": "Growth resumed with complete-nutrient repletion; phosphate-only repletion did not provide the same growth response in the reported comparisons.",
+          "subjects": [
+            "CC-1690",
+            "CC-125",
+            "CC-5325",
+            "CC-4350"
+          ],
+          "uncertainty": null,
+          "unit": null,
+          "value": null,
+          "value_state": "qualitative"
+        }
+      ],
+      "limits": [
+        "Open-evidence literature review; not a hidden-data evaluation or independent experimental reproduction.",
+        "Source appraisal is limited to the named admissions; neither paper is a qualified field-deployment or recovered-product dataset.",
+        "No significance, growth-equivalence, causal-engineering or cross-study superiority conclusion is computed."
+      ],
+      "paths": [
+        {
+          "description": "UVM4 is the PSR1 study control. The preconditioning study has its own strain/condition controls; these do not form a shared cross-study baseline.",
+          "id": "BASELINE",
+          "kind": "source_bound_baselines",
+          "label": "Reference controls",
+          "source_ids": [
+            "S_PSR1_2023",
+            "S_OVERPLUS_2024"
+          ]
+        },
+        {
+          "description": "Examine reported uptake and growth summaries against UVM4 within one source study. No organism engineering is performed.",
+          "id": "PATH_PSR1",
+          "kind": "published_research_path",
+          "label": "PSR1 expression regulation",
+          "source_ids": [
+            "S_PSR1_2023"
+          ]
+        },
+        {
+          "description": "Examine source-specific nutrient context and endpoint coverage, retaining qualitative and missing numeric states.",
+          "id": "PATH_PRECONDITION",
+          "kind": "published_research_path",
+          "label": "Nutrient preconditioning",
+          "source_ids": [
+            "S_OVERPLUS_2024"
+          ]
+        }
+      ],
+      "schema_version": "traitweaver.public_algae.v1",
+      "sources": [
+        {
+          "admission": "Manual numeric transcription of two Table 1 rows; all four lines, stated SE and n. No raw replicates admitted.",
+          "authors": "Slocombe et al.",
+          "doi": "10.3389/fpls.2023.1208168",
+          "id": "S_PSR1_2023",
+          "license": "CC BY 4.0",
+          "locators": [
+            "Table 1, growth and phosphate uptake rows and footnotes",
+            "Figure 2 caption; sections 2.1 and 3.2"
+          ],
+          "reviewed": "2026-10-29",
+          "title": "Overexpression of PSR1 in Chlamydomonas reinhardtii induces luxury phosphorus uptake",
+          "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2023.1208168/full",
+          "year": 2023
+        },
+        {
+          "admission": "Public full-text results/discussion reviewed. Qualitative endpoint/context admission only; no digitized graph values or supplementary numeric data.",
+          "authors": "Zuniga-Burgos et al.",
+          "doi": "10.1016/j.algal.2024.103589",
+          "id": "S_OVERPLUS_2024",
+          "license": "CC BY 4.0",
+          "locators": [
+            "Results section 2.5, printed page 5; Figure 7, printed page 9",
+            "Discussion, printed pages 7-8; Figures 4-5"
+          ],
+          "reviewed": "2026-10-29",
+          "title": "Phosphate overplus response in Chlamydomonas reinhardtii: Polyphosphate dynamics to monitor phosphate uptake and turnover",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10198202/1/1-s2.0-S2211926424002017-main.pdf",
+          "year": 2024
+        }
+      ]
+    }
+  },
+  "summary": {
+    "schema_version": "traitweaver.completed_cycle_summary.v1",
+    "status": "complete",
+    "synthetic": true,
+    "model": "muse-spark-1.3",
+    "mode": "Synthetic offline replay",
+    "completed_utc": "2026-10-29T00:00:00+00:00",
+    "approval_sha256": "82debcb73df74922b288b0ec8650c8d5d10d337c04a20a8d159cafadcf30b741",
+    "request_count": 2,
+    "maximum_spend_usd": "0.05",
+    "requests": [
+      {
+        "phase": "selection",
+        "input_tokens": 100,
+        "output_tokens": 40,
+        "reasoning_tokens": 0,
+        "estimated_cost_usd": "0.000295",
+        "elapsed_seconds": 0.1,
+        "request_sha256": "17cba6b29d11c013b8b6555220cb5e724269d782e1299cdf51d334c2ef2c7eae",
+        "accepted_response_sha256": "2a310143f62b96577d64fdb2fa7f42b041ade2d333791a0aa4b24511da485cf0"
+      },
+      {
+        "phase": "reassessment",
+        "input_tokens": 100,
+        "output_tokens": 40,
+        "reasoning_tokens": 0,
+        "estimated_cost_usd": "0.000295",
+        "elapsed_seconds": 0.1,
+        "request_sha256": "22c559e77175ed95181b31a6fe062f0920c78767d0935b1579d36ee77d705c3e",
+        "accepted_response_sha256": "572df2f2e56ea47d51d161440c758c12f23fda4a6cfe75e97470df441adfbabc"
+      }
+    ],
+    "total_input_tokens": 200,
+    "total_output_tokens": 80,
+    "total_reasoning_tokens": 0,
+    "estimated_cost_usd": "0.000590",
+    "actual_provider_charge_usd": null,
+    "previous_attempt_unresolved_reservation_usd": null,
+    "provenance": "Synthetic fixture only; no provider request or charge.",
+    "reopen_behavior": "Saved records only. No tool execution, model request, credential read or new revision.",
+    "scientific_limit": "Descriptive source-bound evidence only. No cross-study ranking, significance, equivalence, field performance or biological winner is established."
+  }
+}

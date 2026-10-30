@@ -1,0 +1,10 @@
+LOCAL REVIEW CANDIDATE ONLY — REFRESHED OCTOBER 29, 2026
+The owner supplied a focused Claude fix brief for the authoring checkout.
+B2 terminal guards and B3 historical authorization records were fixed; B4 now
+targets the checkout and the remaining default archive dependency was repaired.
+These are implementer checks, not independent closure of reviewer findings.
+This refreshed screened payload still needs independent final review.
+Owner publication approval: NOT GIVEN. Software license/design rights: OPEN.
+Submission/eligibility acceptance: NOT CLAIMED.
+No API request, install, commit, push or upload by this refresh.
+Real owner cycles remain outside this repository.

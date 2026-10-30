@@ -1,0 +1,26 @@
+{
+  "scope": "Public one-record evidence; excludes raw HTTP headers and all private application examples",
+  "files": [
+    {
+      "path": "QUALIFICATION.json",
+      "bytes": 6464,
+      "sha256": "d5d91fc33412f8517940e106e1b69801aa210fdf16f0200e3e8b9437321cdf61"
+    },
+    {
+      "path": "QUALIFICATION.txt",
+      "bytes": 5290,
+      "sha256": "3ca90e480d62dcf137a1b9e17f813ad5c67e6c224023b39c3262323b3cc6b93b"
+    },
+    {
+      "path": "accession.json",
+      "bytes": 686,
+      "sha256": "3e7b6b6539e3a604aa9a824a58a4e8b84bca4788c346ac6bdcc695a4864fcc35"
+    },
+    {
+      "path": "atlas-record.json",
+      "bytes": 481470,
+      "sha256": "ef80ac9c0490014786868476916fb5614894be8872d5d8c0b5e292fb2bf7933a"
+    }
+  ],
+  "manifest_self_hash": "not included"
+}

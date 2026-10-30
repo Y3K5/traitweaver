@@ -1,0 +1,46 @@
+{
+  "scope": "Selected typography, brand artwork and stylesheet only; no original application logic or study records",
+  "archive_sha256": "c1723841b8b03292c09d0c8e5db69b42bbd7c18d24e786a183ccb2480d549d4e",
+  "assets": [
+    {
+      "source_member": "app.css",
+      "destination": "src/traitweaver/web/base.css",
+      "sha256": "85a51dc70de92fa4deaf4a83f8dcf486b8a8aede26e48a97a7025767cae4bc7c"
+    },
+    {
+      "source_member": "assets/brand.css",
+      "destination": "src/traitweaver/web/assets/brand.css",
+      "sha256": "a22f37353949b9b1fdf258bdc2fa511b6581c3b78a22b107ea7cbab0e9532755"
+    },
+    {
+      "source_member": "assets/traitweaver-lockup-dark.svg",
+      "destination": "src/traitweaver/web/assets/traitweaver-lockup-dark.svg",
+      "sha256": "db6e01e88f53a7dffc52c49a347eed87e0aab16eb2ca7c22385d8842e8e5d5d4"
+    },
+    {
+      "source_member": "assets/traitweaver-favicon.svg",
+      "destination": "src/traitweaver/web/assets/traitweaver-favicon.svg",
+      "sha256": "9659c0eb0889238163ecb665c2b7fb9499a167320fc8c41ec81e0b04f6984386"
+    },
+    {
+      "source_member": "assets/fonts/Manrope-Variable.ttf",
+      "destination": "src/traitweaver/web/assets/fonts/Manrope-Variable.ttf",
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "source_member": "assets/fonts/Newsreader-Variable.ttf",
+      "destination": "src/traitweaver/web/assets/fonts/Newsreader-Variable.ttf",
+      "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1"
+    },
+    {
+      "source_member": "assets/fonts/Manrope-OFL.txt",
+      "destination": "src/traitweaver/web/assets/fonts/Manrope-OFL.txt",
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+    },
+    {
+      "source_member": "assets/fonts/Newsreader-OFL.txt",
+      "destination": "src/traitweaver/web/assets/fonts/Newsreader-OFL.txt",
+      "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8"
+    }
+  ]
+}

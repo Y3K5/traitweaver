@@ -1,0 +1,58 @@
+VERIFICATION OF THIS REFRESHED SCREENED CANDIDATE — OCTOBER 29, 2026
+
+110 offline Python unit tests passed with zero failures/errors/skips:
+  20 guided-study/history
+  15 Muse boundary (including escaped credential echoes and typed usage)
+  12 qualified GFP/launcher
+  38 cycle controls/monitor/safe errors (including two terminal gates)
+  19 completed-cycle validation/export/reopen
+   6 real HTTP handler scenarios using in-memory connections only
+
+14 JavaScript controller scenarios passed with the actual shipped scripts and
+memory DOM/file/fetch fixtures. They cover audit/growth/uptake headings, download
+content, the separate cycle picker, usage/synthetic-label/four-revision retention,
+large and invalid file errors. These are not rendered-browser checks.
+
+The wider authoring checkout independently passed 164 tests, including nine
+workspace preview tests and nine shipped-JS routing scenarios. A fresh copy
+with neither archives nor review-handoffs siblings also passed 164 tests with
+zero skips, with original project file opens and sockets blocked. No archive
+application/data were admitted into the screened candidate to achieve this.
+
+The screened candidate was separately copied into a fresh temporary directory
+and passed its 110 tests and 14 controller scenarios with original project file
+opens and all sockets blocked. In-memory launcher checks verified synthetic
+demo, cycle-file review, editable startup and restart. Generated JSON/readable
+exports were screened. Detailed local audit receipts stay outside this payload.
+
+Earlier loopback suites recorded 28 editable and 21 completed-cycle scenarios.
+Those are historical results, not fresh acceptance for these changed bytes.
+No HTTP endpoint, live API, provider or rendered browser was called during this
+refresh. Native browser downloads/file dialogs and desktop/narrow rendering
+need a local rehearsal after restarting the app. Prior screenshots are historical.
+
+Reproduce offline, from this repository:
+PYTHONPATH=src python3 -B -m unittest discover -s tests -p 'test_*.py' -q
+node tests/completed_cycle_ui_offline.cjs
+python3 -B tools/verify_handoff.py
+Node is optional for the controller check, already installed for verification;
+it is not an application dependency. No installs were performed.
+
+Optional separately authorized loopback checks:
+PYTHONPATH=src python3 -B tests/check_workspace_http.py
+PYTHONPATH=src python3 -B tests/check_completed_cycle_http.py
+
+No software pass establishes biological performance, scientific validation,
+provider authentication, actual billing, licensing rights or event eligibility.
+No raw test/provider logs or owner paths belong in this screened repository.
+
+OCTOBER 30 PALETTE CHECK
+The existing authoring 164-test and screened 110-test suites passed after the
+style update; 14 existing controller scenarios passed. The final sealed
+screened copy was rechecked offline. The synthetic UI was rendered locally
+at desktop 1440x1000 and narrow 390x844; navigation, decision, usage and
+read-only question controls were inspected, plus the separate public GFP view.
+These browser checks used local read requests only, no model/provider call.
+Body/panel text, blue button text, links and orange highlights exceed 4.5:1
+contrast for the specified pairs; this is not a full accessibility certification.
+Native download/file-dialog rehearsal remains separate and was not performed.

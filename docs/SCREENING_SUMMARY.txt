@@ -1,0 +1,28 @@
+SCREENING SUMMARY — EXACT LOCAL CANDIDATE
+
+Only selected source, public facts, qualified public GFP snapshots, labeled
+synthetic fixtures, required assets/notices, tests and review docs are included.
+No Git metadata, owner live grant, local control, real provider ID, private study/
+planning example, chat, raw response/cookie, configuration or credential file
+is present. No secret store was opened.
+
+All refreshed proposed bytes and three generated study/cycle/readable exports
+were screened. Two home-path-shaped matches are literal
+negative privacy-test inputs; neither is an owner path or observed file, and
+the tests do not open them. They are retained and qualified, not silently removed.
+No unresolved content finding remains. Binary font metadata was also checked
+for machine-path fragments; font bytes match pins and retain OFL notices.
+
+Locally reachable history: one scaffold commit, twelve blobs; no excluded-content
+or personal-metadata pattern findings. Scaffold planning text was reviewed for
+private authored studies. main and cached origin/main match. No remote request
+or history rewrite occurred; current GitHub freshness is unknown.
+
+Proposed files respect the authoring repository's ignore rules. Nothing was
+force-added, staged, committed, pushed, uploaded or sent to Claude. This is not
+a formal privacy proof or rights clearance. Repeat exact-byte verification
+with tools/verify_handoff.py. Release blockers remain in RELEASE_BLOCKERS.txt.
+
+This refresh reran the local reachable-history screen: one commit, twelve
+blobs, zero content/metadata findings. No .git history is bundled. Actual
+GitHub freshness remains unverified; no remote service was contacted.
