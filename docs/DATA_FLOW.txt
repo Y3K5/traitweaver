@@ -1,0 +1,43 @@
+DATA FLOW — LOCAL WORKSPACE MAP
+
+Open Data flow in the sidebar, or add /#data-flow to the printed local URL.
+This is a read-only view over admitted source catalogs and saved session records.
+Stage clicks and Refresh saved state do not save, retrieve data, run tools or send
+model requests. Source intake is manual; a general importer is not implemented.
+
+1. Acquire: inspect the two admitted publications and five pinned public algae
+   reference files. Each raw reference record lists its filename, locator, byte
+   count and SHA-256. Inspect local source file rechecks the existing source pin.
+   Public publication links leave the app only when explicitly followed.
+2. Map & qualify: inspect protein XP_001700553.1, transcript XM_001700501.2,
+   the gene/assembly context and recorded sequence reconciliation checks. Open
+   public identity or exon maps directly. CC-503 does not establish UVM4 identity;
+   provisional annotation and absent alternate isoforms remain explicit limits.
+3. Use: inspect independent study/reference/model/intelligence revisions and the
+   saved intelligence scope, decisions, results, reassessments and provenance.
+   These are records, not active jobs. Zero differs from an unknown growth margin.
+   Unsaved independent review controls are flagged and stay out of saved exports.
+4. Export: inspect five independent package types. Only saved/open records enable
+   JSON/readable downloads. A loaded catalog is not a saved review checkpoint.
+   Completed-cycle usage is available only when a completed cycle is open.
+   Earlier-context reviews retain their reassessment label; imported reviews
+   remain read-only. Original study restore creates a successor revision.
+
+Downloads use existing screened export handlers with an optional expected-revision
+header. The check and export occur under the same workspace lock. A mismatch
+returns a safe refresh error and no download; existing clients remain compatible.
+No new data contract, automatic save, importer, live transport or biological
+inference was added. An export does not authorize publication. JSON reopening
+uses existing owning views, without dispatching tools or models.
+
+Qualification: seven new memory-handler Python tests and 26 new controller
+scenarios use actual shipped JavaScript and Python handlers, with sockets blocked.
+These cover disabled/guarded exports, exact revision identity, concurrency,
+zero/null, draft ordering, missing reference data, escaped source metadata,
+separate usage, readable downloads and original record preservation. Browser
+layout checks are separate; controller Blob tests do not claim native OS dialogs.
+
+Actual browser follow-up: Data flow intelligence JSON download and the separate
+intelligence-view native file-picker reopen preserved r18 and its accepted
+history read-only. Refresh retained the imported review. Automation stalled
+at the picker, so manual timed-demo performance remains unqualified.

@@ -1,12 +1,12 @@
 {
   "schema_version": "traitweaver.final_repository_handoff.v1",
-  "status": "screened_local_candidate_pending_owner_review",
-  "prepared_date": "2026-10-29",
-  "refresh": "Archive portability repair, bounded reliability and owner-selected midnight palette",
+  "status": "local_cinematic_showcase_candidate_pending_owner_review",
+  "prepared_date": "2026-10-31",
+  "refresh": "Development publication preparation: cinematic journey and bloom, read-only pilots, current README counts and exact-file screening notes. Owner publication decision pending.",
   "publication_approved": false,
   "claude_review_performed": false,
-  "review_status": "Owner supplied focused authoring fix brief; independent closure and final screened-tree review remain open",
-  "scope": "Bounded single-study MVP, gated Muse controls, validated cycle-with-usage reopen and clearly synthetic replay; real packets remain external",
+  "review_status": "Local software/browser verification; independent scientific and publication review pending",
+  "scope": "Local public/synthetic fixed-case research workbench and scientific showcase; no live provider contribution, laboratory execution or organism design",
   "files": [
     {
       "path": ".gitignore",
@@ -15,33 +15,53 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 1637,
-      "sha256": "2ecb72d8e27c5215c247d1d30cb65223ce521bee4189727060e16df80dc820f1"
+      "bytes": 14278,
+      "sha256": "4bde2a9f944db63a0d788b861b45bc83199f6e072bd260183a89bc278554ea23"
     },
     {
       "path": "PUBLIC_FILES.txt",
-      "bytes": 2193,
-      "sha256": "bd154f757620d1b5b3c274a29346522356ec8135b7a57b5b41355d1c52839ef7"
+      "bytes": 5349,
+      "sha256": "ff6baaacf0c736154bf3dcfd020c3c2c0d9ab1ccfb5f92aa1838e469a8284f1b"
     },
     {
       "path": "README.md",
-      "bytes": 4400,
-      "sha256": "0b8e0083767cef2a2b7d842e741c073b60dd19a9b84d9ae708aef3472968012f"
+      "bytes": 13107,
+      "sha256": "f08157896b1176a2cd121807eb2642a37e80297c2b73c00a4e5895dbcd5df3c6"
     },
     {
       "path": "SOURCE_PROVENANCE.json",
-      "bytes": 21945,
-      "sha256": "1f6cd76ecd8bc0db0558bf8fb85d77e3b50ce62f3bc51025f04da9c0bdefa3ac"
+      "bytes": 102674,
+      "sha256": "34c9ebbcd5adcdc703f137ad0b0e2f223b448b2f18356b90c58c27be7f22f8f6"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 1646,
-      "sha256": "c59d34cfd496c8752eaf768172e1f7da83054b3e612106e23a764046b94fb7b3"
+      "bytes": 2274,
+      "sha256": "062f7677328046393e49bea24e97ef61a0f3fbeaa0711fb200b2c32b642f2716"
     },
     {
       "path": "data/algae-public.v1.json",
       "bytes": 12280,
       "sha256": "08329fe8052a3d4cf708a20da55e295721fa5c56c61a4dc1f6be0c0d9fc87347"
+    },
+    {
+      "path": "data/assistant-cases.v1.json",
+      "bytes": 41503,
+      "sha256": "df752862c5afd728d7cb288830123380c9305833734d28ec53e5e0fcecd759f7"
+    },
+    {
+      "path": "data/assistant-evaluation.v1.json",
+      "bytes": 60752,
+      "sha256": "b802783f882f6cd907acc4c0c636960923a299f2aebe3072f3796e526fc61ffc"
+    },
+    {
+      "path": "data/completed-step-pilot.v1.json",
+      "bytes": 13214,
+      "sha256": "84d128f1cc4668426ba1ccdb509b63d8bd47a269f07a3f02ed8c9af8a1468a46"
+    },
+    {
+      "path": "data/evaluation-pilot-rna.v1.json",
+      "bytes": 4023,
+      "sha256": "9bb41bf00ba97d84fe92b40734d823395b6c9096fc085c45a7b755819bf45e60"
     },
     {
       "path": "data/gfp/MANIFEST.json",
@@ -62,6 +82,61 @@
       "path": "data/gfp/atlas-record.json",
       "bytes": 481470,
       "sha256": "ef80ac9c0490014786868476916fb5614894be8872d5d8c0b5e292fb2bf7933a"
+    },
+    {
+      "path": "data/molecular-demo.v1.json",
+      "bytes": 3984,
+      "sha256": "9811577f4b980c42f8f3314ea78a394b5a847542cfe03beddb0307fb0f282371"
+    },
+    {
+      "path": "data/public-algae/psr1-reference/README.txt",
+      "bytes": 3684,
+      "sha256": "7d9eb703fc3968fd82b90f8bc1357473191ba0d1e64bfb1133c4c8c4f5ebf096"
+    },
+    {
+      "path": "data/public-algae/psr1-reference/SOURCE_MANIFEST.json",
+      "bytes": 4261,
+      "sha256": "07060e0d0456daa36574552232ad1180dfb4efec4f7b93306c2d89adc4fe98e9"
+    },
+    {
+      "path": "data/public-algae/psr1-reference/assembly_report.txt",
+      "bytes": 6248,
+      "sha256": "e0df1adbb766bcba78f454990c01e43a7cba36ceeb299e3956e7a4a1e541da5d"
+    },
+    {
+      "path": "data/public-algae/psr1-reference/evidence-needed/REQUIREMENTS.json",
+      "bytes": 2614,
+      "sha256": "f35d305ded2aaccba921147c4c958d95d7563dc8e32d1312e04f72cb6a810248"
+    },
+    {
+      "path": "data/public-algae/psr1-reference/reference.v2.json",
+      "bytes": 16781,
+      "sha256": "836c407af55da476d8b042df822249ccb9e83090b839366dd059f8a3a21e2e28"
+    },
+    {
+      "path": "data/public-algae/psr1-reference/reference_gene_region.gb",
+      "bytes": 15331,
+      "sha256": "f22f6f94fb4f4aafa44cca169c9c3fbbca614f02357f529d805388f08e51743c"
+    },
+    {
+      "path": "data/public-algae/psr1-reference/refseq_XM_001700501.2.gb",
+      "bytes": 13047,
+      "sha256": "cd0732884392357bd563ee301a403667921e346df3444d79750976683d170330"
+    },
+    {
+      "path": "data/public-algae/psr1-reference/refseq_XP_001700553.1.gb",
+      "bytes": 7041,
+      "sha256": "15f435099cb200d32d3fdd4978acbeb2e6aafe12d6f3f762ae55697d1af06772"
+    },
+    {
+      "path": "data/public-algae/psr1-reference/uniprot_Q9S807.fasta",
+      "bytes": 875,
+      "sha256": "9194b898ce0b362dc96ffc84cfdcb7e162cd6fecd488028c40bd894b6fa11e54"
+    },
+    {
+      "path": "data/research-story.v1.json",
+      "bytes": 9929,
+      "sha256": "7584cda0ae8b8e9eb74b362bda1d02c1dd01acbd80d2e30846c855680f90538b"
     },
     {
       "path": "data/synthetic-cycle/01-selection.json",
@@ -114,14 +189,54 @@
       "sha256": "7bcfe55d9d82cbc39b1340a8a80e957ae15bcd23162673d31fc5822649529630"
     },
     {
+      "path": "docs/ASSISTANT_CONTRACT.txt",
+      "bytes": 7234,
+      "sha256": "b553d8ad77015dfc4860fea2d39e66cea165f6dfa014934897673aa5eb0cccca"
+    },
+    {
+      "path": "docs/ASSISTANT_EVALUATION.txt",
+      "bytes": 7497,
+      "sha256": "91bf6a7a5fc9948dacd8396ecf0c32cefe011263293e117bdd917e96a0bffed0"
+    },
+    {
+      "path": "docs/ASSISTANT_WORKSPACE.txt",
+      "bytes": 4368,
+      "sha256": "efef34dc0d960ef33988c5b47136575914e65fa73cb009272da49ae6a48b1562"
+    },
+    {
+      "path": "docs/CINEMATIC_SHOWCASE.txt",
+      "bytes": 2099,
+      "sha256": "0d72710fc4f31f39d67d9d442b450b17647910a1779335a5303fbe2d32bf3604"
+    },
+    {
       "path": "docs/CLAUDE_REVIEW_BRIEF.txt",
       "bytes": 4896,
       "sha256": "70ee8fcb9059a95a019b45b02ffab4efc318c02ae4e1e6716d6f4afa9d9b4f47"
     },
     {
+      "path": "docs/COMPLETED_STEPS.txt",
+      "bytes": 4479,
+      "sha256": "6980e5cab2a6fe575b671a0ef56fdfc1166a28c6abcc44f74932c4ab1bd981ab"
+    },
+    {
+      "path": "docs/DATA_FLOW.txt",
+      "bytes": 2936,
+      "sha256": "318222273dd780dcf5aa7bb912581cef4cf8f64fed78a0e087babe6cbb1d6635"
+    },
+    {
       "path": "docs/DEMO_SCRIPT_3_MIN.txt",
-      "bytes": 3516,
-      "sha256": "e66ec9f635797d4a2fb9e5ea0e6dbcadf981c4b426faf8202d831d177de56f96"
+      "bytes": 2372,
+      "sha256": "c26c9afd0fe1789ee2b149ea9c295cbc3084f408e712d6360839bfb9b3774024"
+    },
+    {
+      "path": "docs/FOUR_CASE_MUSE.txt",
+      "bytes": 10400,
+      "sha256": "163b9631577ad9e82f1cc71bec91d9c52e68c6a8495186905eea11939f67e3ea"
+    },
+    {
+      "path": "docs/INTELLIGENCE_LAYER.txt",
+      "bytes": 9350,
+      "sha256": "f00f8a50656f55ea0126c115e3eedbb2177ff33d2e2cea21554ab027bfcf341c"
     },
     {
       "path": "docs/LIVE_RUN_SUMMARY.txt",
@@ -129,9 +244,39 @@
       "sha256": "e202b4f19a454d2d6f2cae1f054cb34f60cacf173a022a66454e8b4795f9c741"
     },
     {
+      "path": "docs/MOLECULAR_WORKSPACE.txt",
+      "bytes": 6848,
+      "sha256": "18414e7f32aab8a32fb31e529796f7ce5e7ebf6583742ed176f69f14ba351ccc"
+    },
+    {
+      "path": "docs/MUSE_RNA_PILOT.txt",
+      "bytes": 7970,
+      "sha256": "b90b595ee00a5f8dbfffe760825c29c0ee4d82515f7932095a5f1f3b8e9b6ad7"
+    },
+    {
+      "path": "docs/MVP_FOCUS.txt",
+      "bytes": 6191,
+      "sha256": "308eb0e704e1e17b85240ae80b31ac9126e050632e70b1ae659fd029f964c0c3"
+    },
+    {
+      "path": "docs/PUBLIC_ALGAE_WORKSPACE.txt",
+      "bytes": 4971,
+      "sha256": "07ea449849187a56c0c9e5feb2cc9f5ac97ba328d921ff39b39074590a528649"
+    },
+    {
       "path": "docs/RELEASE_BLOCKERS.txt",
-      "bytes": 2151,
-      "sha256": "4e0e177e9cf6d3c53730f11a39a6ada152a522242d89bf8cfe3bd49dd4222a16"
+      "bytes": 4971,
+      "sha256": "a6889fb8a1553bc1a45262b04df9d03367696a1ac5ae5cac249d0e39d8b794b5"
+    },
+    {
+      "path": "docs/RESEARCH_EXPERIENCE.txt",
+      "bytes": 6132,
+      "sha256": "ef4c5675b223b7faf9dc5cf0d1e7036e11ec3089b385bb21bf5c964a136cba16"
+    },
+    {
+      "path": "docs/RESEARCH_JOURNEY.txt",
+      "bytes": 2477,
+      "sha256": "ec1a55cd05bf87684552d7b1b8e3998850b59659563ead6febc9d14fbf227c1b"
     },
     {
       "path": "docs/REVIEW_STATUS.txt",
@@ -139,24 +284,34 @@
       "sha256": "2f1937e644589f93f1d7c1185cb0fb455c125236ca83941b6e5348bf920add9a"
     },
     {
+      "path": "docs/SCIENTIFIC_STORY.txt",
+      "bytes": 6029,
+      "sha256": "a8db45dc4b35d31f190331734d4a23be64775cb06daa86a7fe14b1556f9c0cff"
+    },
+    {
       "path": "docs/SCOPE_AND_PROVENANCE.txt",
-      "bytes": 5645,
-      "sha256": "6ee33b5c829b7257c29dc27416c8cbeb929287a1bae272ffb0cc7715065ffd82"
+      "bytes": 11550,
+      "sha256": "3ce789f49ac01b9abf894ab1aac725d548254f40c6f9179d57bcc70608339bcc"
     },
     {
       "path": "docs/SCREENING_SUMMARY.txt",
-      "bytes": 1686,
-      "sha256": "e65bf41a788517625d0db4a4ea67639ab8505a39d5981f035ffbc0a0d24f9fb4"
+      "bytes": 5588,
+      "sha256": "acf96b16be1b55190f99e2a22ae664e7158064bb4d0e9db20729a427201b67be"
     },
     {
       "path": "docs/VALIDATION.txt",
-      "bytes": 3392,
-      "sha256": "03784052e8116feefbba4701ff0ad6679c23c4f36e2a5415f419042cda77ae1c"
+      "bytes": 33396,
+      "sha256": "238801d3d4b372f6c08062f681312d51bfe78b9028a7ea045fc37e8bf0c1d71c"
     },
     {
       "path": "docs/WHAT_WE_BUILT.txt",
-      "bytes": 4833,
-      "sha256": "6e1d8c6358384d6f9fa8acad4389681f0f41d654d0496a6c5a5d737a8ca993a0"
+      "bytes": 8362,
+      "sha256": "32132dec925be52e4d85726c778d8c76b155d8275a2ba3ac29b00553d33f226d"
+    },
+    {
+      "path": "docs/WORKBENCH.txt",
+      "bytes": 5948,
+      "sha256": "e39035997cd10478d040464539bfbfdea11e7518b18b62e1872a6d1776fc31af"
     },
     {
       "path": "run_protein_card.py",
@@ -179,9 +334,59 @@
       "sha256": "62adf7557442d691aac6011bb6794443bf584343c87ee69806996c1efd1a51f2"
     },
     {
+      "path": "src/traitweaver/assistant.py",
+      "bytes": 14231,
+      "sha256": "586b25f5a99f1add29f33e991a5ecb042f44c0b735cba8d5dda53118622616ed"
+    },
+    {
+      "path": "src/traitweaver/assistant_evaluation.py",
+      "bytes": 24785,
+      "sha256": "fd95395b323b880aa6135691d794a08714d893546fa85e717ab6ba42c96552dc"
+    },
+    {
+      "path": "src/traitweaver/assistant_workspace.py",
+      "bytes": 10404,
+      "sha256": "70a2e8eb73ea2d13b98ed5338246013e44a493e7dccb44095b48ffd1c3a69fcc"
+    },
+    {
       "path": "src/traitweaver/completed_cycle.py",
       "bytes": 16646,
       "sha256": "320f60862a64a95fcb7bd2d41b1ccce0fda577dbf2022595cc0578336793695d"
+    },
+    {
+      "path": "src/traitweaver/completion_pilot.py",
+      "bytes": 11926,
+      "sha256": "821db21be6dddae1120e40612ca7f006f90adc183550801dff41c0b38c877ee8"
+    },
+    {
+      "path": "src/traitweaver/evaluation_pilot.py",
+      "bytes": 11211,
+      "sha256": "161dafe38649264949edf785f21c9e0cbba22441a53063ec2777e88c7045a144"
+    },
+    {
+      "path": "src/traitweaver/intelligence.py",
+      "bytes": 17655,
+      "sha256": "bcb809d3aea942939bb219df82d3784ccdf18966f312a48450b70475e6010646"
+    },
+    {
+      "path": "src/traitweaver/intelligence_muse.py",
+      "bytes": 11819,
+      "sha256": "e9af5cf5620a7384b021dd5c9dabbda3f17397e5c1a558ffc3dc2742df5ec94a"
+    },
+    {
+      "path": "src/traitweaver/intelligence_store.py",
+      "bytes": 7306,
+      "sha256": "1610ed632440d7e2a69ec55bc36e7896985d9b65eeba3ac98ea2349805b579d8"
+    },
+    {
+      "path": "src/traitweaver/molecular.py",
+      "bytes": 14418,
+      "sha256": "f0e88324b6d00aa4af97c4c585320cda8159d43ef13288be2e6ed6724c83342c"
+    },
+    {
+      "path": "src/traitweaver/molecular_store.py",
+      "bytes": 11743,
+      "sha256": "ad6c15bb6d7766da92e22434f2538703b180dfdd79c3453ad7bf5896336f2ae8"
     },
     {
       "path": "src/traitweaver/muse_boundary.py",
@@ -195,8 +400,28 @@
     },
     {
       "path": "src/traitweaver/protein_card.py",
-      "bytes": 13603,
-      "sha256": "f4815ff952e5ab35b227e477728b5db6ca5bcf3204dcfc8d3a7e686446838052"
+      "bytes": 13712,
+      "sha256": "1eed6a5a7d907ea1f8945a0e70b5d7818fb40a5f0adbd97afc88c132a8d056cd"
+    },
+    {
+      "path": "src/traitweaver/public_algae.py",
+      "bytes": 14827,
+      "sha256": "837dd0d16e189a9f0e552c9fbf352b518cc103a1247dc13e3336e350f97a553c"
+    },
+    {
+      "path": "src/traitweaver/research_story.py",
+      "bytes": 13491,
+      "sha256": "3d5b0c2ffabddb2d3fb79bb10c54db825fd23709fac08112d60000cc6fb7335f"
+    },
+    {
+      "path": "src/traitweaver/showcase.py",
+      "bytes": 2031,
+      "sha256": "fd826091f613c935ed1492c92739f2a9f8b42a9884cbf2fcaf202b6588cfa380"
+    },
+    {
+      "path": "src/traitweaver/step_tracking.py",
+      "bytes": 12824,
+      "sha256": "6ee26ce0739276cddb4a688496b4a3a9d0fcfe9db8fa0f68a67c1e33be442c2e"
     },
     {
       "path": "src/traitweaver/study.py",
@@ -249,34 +474,99 @@
       "sha256": "db6e01e88f53a7dffc52c49a347eed87e0aab16eb2ca7c22385d8842e8e5d5d4"
     },
     {
+      "path": "src/traitweaver/web/assistant-ui.js",
+      "bytes": 14760,
+      "sha256": "1ec89ca83ef225fba60634b4fce545dda9b181cf5e66f551ee8633eddf9f4aa2"
+    },
+    {
       "path": "src/traitweaver/web/base.css",
       "bytes": 119338,
       "sha256": "85a51dc70de92fa4deaf4a83f8dcf486b8a8aede26e48a97a7025767cae4bc7c"
     },
     {
       "path": "src/traitweaver/web/completed-cycle-ui.js",
-      "bytes": 6559,
-      "sha256": "dd7c79955bb73f37686e5a91b84c4e8e781183249b723412d79022956fc4f0da"
+      "bytes": 7022,
+      "sha256": "536f1f3e72e8821524b2bd8d174ca7d41391286ce98c8d5438b4fbe04065fd68"
+    },
+    {
+      "path": "src/traitweaver/web/data-flow-ui.js",
+      "bytes": 19077,
+      "sha256": "0de115ddeba280d34116f7d4af54e3ae74e9540389155c9bcfb8a69abacd9960"
     },
     {
       "path": "src/traitweaver/web/index.html",
-      "bytes": 2673,
-      "sha256": "7f90bcd8c40bc81f592e7315de1f72e720cb4864b241c093e7826a83e6ee4c5c"
+      "bytes": 3219,
+      "sha256": "0c45fcd786f5c94c765580c13d252e71c5dcbf7a9ff8ec6728f5e2ce54aabceb"
+    },
+    {
+      "path": "src/traitweaver/web/intelligence-ui.js",
+      "bytes": 21988,
+      "sha256": "8478e70cbc252f5a60bcfb9e28d4f34dea9c402769d5ce8961e33e89f7a46728"
+    },
+    {
+      "path": "src/traitweaver/web/intelligence.css",
+      "bytes": 2202,
+      "sha256": "a3aa18aed8e2e3e5d5170aae66de2ca12279c7c32a27d24b049e49877869a1fa"
+    },
+    {
+      "path": "src/traitweaver/web/journey-ui.js",
+      "bytes": 30104,
+      "sha256": "7321f695ef84a4b2c63fb9e01d1f23aced48b6aa750a48187681f74858bfdce3"
+    },
+    {
+      "path": "src/traitweaver/web/journey.css",
+      "bytes": 13474,
+      "sha256": "d4d2c1d75626ccbe0ecea3b9f055c8e64341cdf964119f7f91b565ded07c3cd7"
+    },
+    {
+      "path": "src/traitweaver/web/molecular-ui.js",
+      "bytes": 25678,
+      "sha256": "827b9d0f4e832735ffca8d72c70d8c5597b75ec7d50be1849910059cef4b075b"
+    },
+    {
+      "path": "src/traitweaver/web/molecular.css",
+      "bytes": 5891,
+      "sha256": "b84cbcc2fec9e008e4a0174430236cae330a62b94e415a4c50089eaeecb3ec64"
+    },
+    {
+      "path": "src/traitweaver/web/public-algae-ui.js",
+      "bytes": 20857,
+      "sha256": "02e2e0560b8a193f4a8f8654a53d6667665ea53452206ddc034e4fbba67a22f9"
+    },
+    {
+      "path": "src/traitweaver/web/research-story-ui.js",
+      "bytes": 27199,
+      "sha256": "bfd3882f2ec90691a5de5ab963adac2f4c933f57f59fdb2092b65dccd8db7481"
+    },
+    {
+      "path": "src/traitweaver/web/workbench-ui.js",
+      "bytes": 39057,
+      "sha256": "948596b462daf4cf18cbc8a46986236c08716b6a7d5dc11da737cb5dcbcfd5dc"
     },
     {
       "path": "src/traitweaver/web/workspace.css",
-      "bytes": 11168,
-      "sha256": "b6c0cc93cfb7fccf3133782f4f4c9c1cfb0bc08187cf4c0d60cbd8b5117d7720"
+      "bytes": 40510,
+      "sha256": "87ddc63f1f03b79faf184446653bfded0b184bf853f2657f19ddf33563280146"
     },
     {
       "path": "src/traitweaver/web/workspace.js",
-      "bytes": 22635,
-      "sha256": "6ff474851f80e41fafd5a50a3b313712fcf5e887d4b036be70928e67e11f2a33"
+      "bytes": 25378,
+      "sha256": "635618382dce3d6090cd933c3870fe3518ede76c52e42d21511d9e3aa569a51d"
+    },
+    {
+      "path": "src/traitweaver/workbench.py",
+      "bytes": 12883,
+      "sha256": "af49e8cb5637cf5f8626df656253e9fa53b2c3c610130a0c79d0bba9aa5830ce"
     },
     {
       "path": "src/traitweaver/workspace_server.py",
-      "bytes": 12792,
-      "sha256": "1b132cf8cc7ebfa8ccef497eaadda09d5f15978fe813790f5e2874bf1a474315"
+      "bytes": 36869,
+      "sha256": "fe363a7c8fea88fee3ad510564c032b9340a7752d259d309ce68430278d8e42c"
+    },
+    {
+      "path": "tests/assistant_ui_offline.cjs",
+      "bytes": 12454,
+      "sha256": "b6dfe7c6aed5932ad239ae0ff7fdd2bc4158003decfc2332cc540c7330d807d8"
     },
     {
       "path": "tests/check_completed_cycle_http.py",
@@ -294,9 +584,94 @@
       "sha256": "819e789d4635d320138e736663a4a2b7a45379575fb92f93b7500c8629ab74e7"
     },
     {
+      "path": "tests/data_flow_ui_offline.cjs",
+      "bytes": 12178,
+      "sha256": "60f5c6bcef27953cb08c559b7e8587d075012d1a7d2765365ebcd6f7adb6db90"
+    },
+    {
+      "path": "tests/intelligence_memory_bridge.py",
+      "bytes": 1386,
+      "sha256": "b83eec2471cf385c24a53243b26b1e5122fe3ef47305663be286125312f3c1ce"
+    },
+    {
+      "path": "tests/intelligence_ui_offline.cjs",
+      "bytes": 13052,
+      "sha256": "d4f50952289c12664d347276dd16458accf1a389119793952c77b7310864f6e9"
+    },
+    {
+      "path": "tests/journey_ui_offline.cjs",
+      "bytes": 15671,
+      "sha256": "705b830e304903ec3260f5562290cbb1372dbebaee27db4978287239643341e2"
+    },
+    {
+      "path": "tests/molecular_ui_offline.cjs",
+      "bytes": 13012,
+      "sha256": "952f64487f166b04efac45ebb7be240b2d35dedd29f4f1a7737a020404b90f3f"
+    },
+    {
+      "path": "tests/public_algae_ui_offline.cjs",
+      "bytes": 13360,
+      "sha256": "7e1ae5aedfc2f50dcbf265912bf1c6135e842cd2f8b8e499b049b0b47740eada"
+    },
+    {
+      "path": "tests/research_story_ui_offline.cjs",
+      "bytes": 12219,
+      "sha256": "90c979355c8deab519789f8f935c29438d91f31bb0f517215fd7633f98f7b701"
+    },
+    {
+      "path": "tests/test_assistant.py",
+      "bytes": 15714,
+      "sha256": "040f6965284f794a915eda3edb801dd8e83c6f5950b8f78e4bd4bcf4682c5fa2"
+    },
+    {
+      "path": "tests/test_assistant_evaluation.py",
+      "bytes": 17037,
+      "sha256": "1b06d8821f2e9afa00008664ad66194b1b9a5dc7cc1f4a386cfb9c28b27e7a99"
+    },
+    {
+      "path": "tests/test_assistant_workspace.py",
+      "bytes": 9918,
+      "sha256": "bc43ef89aab56d128fa46eac34c39c7a9446108607d8ea0246ec186a96598d9b"
+    },
+    {
       "path": "tests/test_completed_cycle.py",
       "bytes": 12617,
       "sha256": "16f59a2cc4387f78f95b4b79587797ebf6ad32eff48a6ed14cd631c32aaa6db5"
+    },
+    {
+      "path": "tests/test_data_flow_exports.py",
+      "bytes": 4314,
+      "sha256": "708ec5363dfe356118112fde599e74104941355cb4890b05a12b50b826eea966"
+    },
+    {
+      "path": "tests/test_handoff_verifier.py",
+      "bytes": 2771,
+      "sha256": "7ac78a7f16d58912866d95910d6d02fc62db5664f652114082167d20ae3c262d"
+    },
+    {
+      "path": "tests/test_intelligence.py",
+      "bytes": 14537,
+      "sha256": "95aadc800af70b8169394859ae3c7c9964121eba4bb2ac30b56952b5b470d59c"
+    },
+    {
+      "path": "tests/test_intelligence_handlers.py",
+      "bytes": 8573,
+      "sha256": "423def0389daa06496b11fe5eab84c1f86a467eb221339d0590a6bd5a74f24cd"
+    },
+    {
+      "path": "tests/test_molecular.py",
+      "bytes": 10820,
+      "sha256": "380960a85097ba8f6d701aca7824e223b5c4a35b4d249841d49d741369b84736"
+    },
+    {
+      "path": "tests/test_molecular_handlers.py",
+      "bytes": 7423,
+      "sha256": "8a2f64c27f0629a2e945c1bc4513a76ad659244f083b29db6237a0218a6c6a23"
+    },
+    {
+      "path": "tests/test_muse_assistant_batch.py",
+      "bytes": 36513,
+      "sha256": "3270b54f41d18f16e4cf1325ec59a15f3cd78bcfccee1936a34364f31422429d"
     },
     {
       "path": "tests/test_muse_boundary.py",
@@ -304,19 +679,54 @@
       "sha256": "0e62c682ffcf029954e2e0f9df9e1a7c768c2ea22fec8607ed9bddb1dc69e93c"
     },
     {
+      "path": "tests/test_muse_completion_pilot.py",
+      "bytes": 22114,
+      "sha256": "2f558aab5085db53d33d73704a5fcad4052e4d6715354a0c40f8a77cdd6d1d6e"
+    },
+    {
       "path": "tests/test_muse_cycle_control.py",
       "bytes": 29356,
       "sha256": "6023d4c52a068057c2160aefe058749f0c75c5b092fe4f1e1d5156ede6a4b1aa"
     },
     {
+      "path": "tests/test_muse_evaluation_pilot.py",
+      "bytes": 20503,
+      "sha256": "bfda0c780c85a34dda4647a3cf0b305575108f8a3f6c95c969fe45892208f705"
+    },
+    {
       "path": "tests/test_protein_card.py",
-      "bytes": 9982,
-      "sha256": "5f16e7243cc16c12893469dcd5ccff3cde4a4356a9b20c5f53215284e9e303e7"
+      "bytes": 10312,
+      "sha256": "effe9485ff39dc2e5b92e3b9cfaa461a920698371f1300f7c22dcdb6ea6a3369"
+    },
+    {
+      "path": "tests/test_public_algae.py",
+      "bytes": 8684,
+      "sha256": "665d1fb4aec6006d4f0b98723315fc3c7fb0d21bc0de292bc22c5d0e9e7dafc1"
+    },
+    {
+      "path": "tests/test_public_algae_handlers.py",
+      "bytes": 5878,
+      "sha256": "fed519d9e424df5377f31853b3cc9b6939b43f6aed47e83c3ce9e07c95f0c727"
+    },
+    {
+      "path": "tests/test_research_story.py",
+      "bytes": 10687,
+      "sha256": "3bc592a5494f7e35da171eac417cf4a9d05b016ce33bab8b590515b0b751359b"
     },
     {
       "path": "tests/test_review_handlers.py",
-      "bytes": 5886,
-      "sha256": "f1e91d671d525fa97ae1f8cf79c31cc28f468a59ada5c60a3945aa3bfa7ec15e"
+      "bytes": 5883,
+      "sha256": "db1101f30a12ab08758914d1df810ede37aea09fbb2a83ab0419a231d43db55e"
+    },
+    {
+      "path": "tests/test_showcase.py",
+      "bytes": 3150,
+      "sha256": "3a1ea86b6d0c9caca89133af2e6d55e3a3281805dc392ab33948b65eb7f070db"
+    },
+    {
+      "path": "tests/test_step_tracking.py",
+      "bytes": 8947,
+      "sha256": "ec1e9b9de581a99a6b7e19fd1a261969efd63c70f26b7c8215b169b56489467e"
     },
     {
       "path": "tests/test_study_mvp.py",
@@ -324,9 +734,54 @@
       "sha256": "20a18bdbd4ca6e01b2e8292be53937cbbed85b02aed30a41d272c9943afcde2b"
     },
     {
+      "path": "tests/test_workbench.py",
+      "bytes": 15140,
+      "sha256": "8d480c32a38993bdc52010f768d8c120ece85d82cc9fb4ec82f4b81056325b5c"
+    },
+    {
+      "path": "tests/workbench_ui_offline.cjs",
+      "bytes": 16898,
+      "sha256": "d9c160649977f9db68ec88260411dd6af656c14431e1a6123deaaa2e8e2d9c08"
+    },
+    {
+      "path": "tools/assistant_review.py",
+      "bytes": 1801,
+      "sha256": "1cd2c8daef42e4a77fd3be6845573b8c4063c8b290bd3f7a662ee0d5f1b95260"
+    },
+    {
+      "path": "tools/evaluate_assistant.py",
+      "bytes": 7750,
+      "sha256": "fb99eaa234493681c74e9be5db7d20f34d02af02b0c11722a2ece586582f81db"
+    },
+    {
+      "path": "tools/exercise_workbench.py",
+      "bytes": 5071,
+      "sha256": "0e829494a2b7707ae542dd968edb8e5da84fd09b1bb52aa66f824966b59511ce"
+    },
+    {
       "path": "tools/make_synthetic_cycle.py",
       "bytes": 2452,
       "sha256": "6a7b73ed75d7a32db0f54bb88bf277a65391d6a28eee14949d2d554f1a52470e"
+    },
+    {
+      "path": "tools/muse_assistant_batch.py",
+      "bytes": 53175,
+      "sha256": "7fdb6d0eda3c5ad5594cf20c8e5727aff35fc1ae052bc6250a39d42bfe7e151a"
+    },
+    {
+      "path": "tools/muse_assistant_start.py",
+      "bytes": 2749,
+      "sha256": "27dd7f37cd000a54d7f5e094e6df513b1b5bf0b1d29b71ba756f0ad32069fb22"
+    },
+    {
+      "path": "tools/muse_completion_pilot.py",
+      "bytes": 51995,
+      "sha256": "8202436f027825a99dc138ec8a18a8bc3bbba261f8e779c4da15e6598f02ecad"
+    },
+    {
+      "path": "tools/muse_completion_pilot_start.py",
+      "bytes": 2809,
+      "sha256": "d6b04461a22bbdd0f765e056b513072b6bc9642e3c306d2e960b2a9026ee9c57"
     },
     {
       "path": "tools/muse_cycle.py",
@@ -344,42 +799,78 @@
       "sha256": "63c522d01e5c2dc687223999f76660552b9c287aabfbae423989759c9303f18c"
     },
     {
+      "path": "tools/muse_evaluation_pilot.py",
+      "bytes": 52784,
+      "sha256": "dbc209b6c02de4185a4f9d34f0481f409634e6d756da01bc1cc00253ca670c33"
+    },
+    {
+      "path": "tools/muse_evaluation_pilot_start.py",
+      "bytes": 2798,
+      "sha256": "69eed887518e400de57bd7b025fe2a4dda05f0931d3fc92a4caa314da88f44ee"
+    },
+    {
       "path": "tools/verify_handoff.py",
-      "bytes": 2009,
-      "sha256": "d3a3adc40d8f6ed84040c8955836b05bd9ace08bd6dfb946ff4b6c9f7bfe3146"
+      "bytes": 2426,
+      "sha256": "f6d203957b7e7b85b4c0929a8fc8d188d0a460f7662122803eff6a5affca9bf5"
+    },
+    {
+      "path": "tools/verify_public_algae.py",
+      "bytes": 546,
+      "sha256": "4deebed59767d21c376e8c9f08304321248f5fbc8ce629b6ff3cdeeffa47f428"
     }
   ],
   "manifest_self_hash_policy": "Excluded from its own hash list; manifest hash recorded in external local verification",
   "tests": {
-    "offline_unit_tests": 110,
-    "memory_handler_tests_included_in_unit_total": 6,
-    "memory_js_controller_scenarios": 14,
-    "authoring_checkout_unit_tests": 164,
-    "fresh_authoring_copy_unit_tests": 164,
-    "fresh_candidate_copy_unit_tests": 110,
-    "historical_editable_http_checks": 28,
-    "historical_completed_cycle_http_checks": 21,
-    "http_integration_suites_rerun_for_refresh": false,
-    "rendered_palette_checks": [
-      "1440x1000 desktop",
-      "390x844 narrow",
-      "Separate public GFP reference"
-    ]
+    "offline_unit_tests": 302,
+    "published_baseline_unit_tests": 110,
+    "new_model_journal_tests": 17,
+    "new_memory_handler_tests": 9,
+    "new_verifier_tests": 5,
+    "completed_cycle_controller_scenarios": 14,
+    "molecular_controller_scenarios": 22,
+    "cross_checked_coordinate_cases": 17,
+    "rendered_molecular_browser_checks": "Blocked by file-protocol policy; owner rehearsal pending",
+    "http_integration_suites_rerun": true,
+    "python_unit_tests": 302,
+    "public_algae_unit_tests": 19,
+    "public_algae_controller_scenarios": 25,
+    "rendered_public_algae_browser_checks": "Pending; controller and in-memory handler tests only",
+    "intelligence_unit_tests": 35,
+    "intelligence_controller_scenarios": 26,
+    "data_flow_unit_tests": 7,
+    "data_flow_controller_scenarios": 26,
+    "rendered_data_flow_browser_checks": "1440x1000 desktop and 390x844 narrow: stage navigation, history, refresh and export enablement; no page overflow; native dialogs not rerun",
+    "native_intelligence_json_browser": "Passed r18 native download and file-picker import; 18 history entries and five cycles preserved read-only after refresh; original 19 disk JSON records unchanged. Long automation stalls; manual timed demo unqualified.",
+    "new_workbench_unit_tests": 19,
+    "previous_python_unit_tests": 249,
+    "assistant_controller_scenarios": 28,
+    "scientific_story_unit_tests": 15,
+    "scientific_story_controller_scenarios": 25,
+    "workbench_controller_scenarios": 43,
+    "total_controller_scenarios": 209,
+    "http_workspace_checks": 28,
+    "http_completed_cycle_checks": 21,
+    "rendered_workbench_browser_checks": "1440px three columns and 390px stacked without page overflow; annotations editable over saved-cycle review; explicit local audit and labelled synthetic priorities; export privacy gate; native JSON download/read-only file-picker reopen; privacy canary blocks both buttons. Native transfer monitoring approximately 59/150 seconds; manual timed transfer rehearsal pending.",
+    "additional_offline_workflow_journeys": 24,
+    "workflow_case_count": 4,
+    "human_native_checks": "Desktop/narrow, four actual local case checks, original saved-real algae projection, other cases still pending, public request preview and original study-plan cards. Occasional long automation waits; smooth manual demo timing unqualified. No native download/picker repeat for this UI refresh.",
+    "four_case_runner_tests": 34,
+    "previous_python_unit_tests_before_runner": 268,
+    "four_case_fake_transport_rehearsal": "4 accepted synthetic proposal packages with actual local audit receipts; no real grant retained",
+    "new_live_provider_requests": 0
   },
   "history_screen": {
-    "reachable_commits": 1,
-    "screened_blobs": 12,
-    "unresolved_findings": 0,
-    "github_refreshed": false
+    "base_publication_commit": "cd3b1a99ef8a4ddc34f18bf299c7cd2ed778e4f7",
+    "local_reachable_commits": 2,
+    "basis": "Previously screened published history; no history changes in this extension",
+    "remote_contacted_for_extension": false
   },
-  "qualified_synthetic_test_matches": 2,
   "blockers": [
-    "Owner exact-file/destination approval",
+    "Owner review of this unpublished extension and exact outgoing files",
+    "Manual timed rehearsal: native download/file-picker automation is slow despite correct files and successful read-only reopen",
+    "Strain-specific sequence/transcript support, actual material/run records and experimental qualification before biological intervention claims",
     "Software license decision",
-    "Design distribution rights/component compatibility",
-    "Independent final review",
-    "Current event-rule/eligibility review",
-    "Native browser download/reopen rehearsal"
+    "Independent final review and event-rule review"
   ],
   "exclusions": [
     "Git metadata",
@@ -389,5 +880,10 @@
     "Archive app/data",
     "Separate comparison/Baseten pilot",
     "Caches/installs/generated browser artifacts"
-  ]
+  ],
+  "base_publication_commit": "cd3b1a99ef8a4ddc34f18bf299c7cd2ed778e4f7",
+  "qualified_source_screen_locations": 23,
+  "qualified_export_files_screened": 28,
+  "export_screen_findings": 0,
+  "screen_limit": "Seventeen retained guard/synthetic-test locations in a fresh broad scan; no actual credential value found. Pattern matching does not replace owner privacy/rights review."
 }

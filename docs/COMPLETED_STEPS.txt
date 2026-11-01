@@ -1,0 +1,66 @@
+COMPLETED CHECKS AND THE NEXT UNRESOLVED TASK — October 31, 2026
+
+Input -> an admitted synthetic RNA manifest with reconciled or conflicting
+labels/layouts. No private records, new biological evidence or read files.
+Action -> a deliberate local metadata check saves its purpose BEFORE dispatch,
+then saves the actual deterministic result in a separate immutable revision.
+Output -> source-hash-bound completed/blocked/failed/in-progress status, JSON
+history and readable receipts. Only reconciliation has a registered check.
+Design, gap ledger and future checklist remain unresolved; a model cannot finish
+them. A successful metadata check establishes neither replication nor analysis
+readiness, expression, editing or biological performance.
+
+In Research journey, scroll to the separate synthetic RNA example. Choose
+Synthetic reconciled manifest -> Validate manifest locally -> inspect Receipt
+and immutable history. Export check history, then Reopen check history; imports
+are read-only and do not rerun tools. Return to local example restores its prior
+history. Select Synthetic conflicting manifest: the previous completion becomes
+needs reassessment; its receipt cannot migrate to the changed source. Checking
+that input records a blocker. Returning to the EXACT earlier verified source can
+reuse its matching scoped receipt. This is not a blanket mark-complete checkbox.
+
+--demo stores this separate history in memory; export before server shutdown.
+With an explicit external --data-dir, completed-steps-v1 saves successive
+revisions and restores after restart. Reads do not create this directory. Stale
+hashes, forged receipts, source drift and duplicate checks are rejected. A failed
+or interrupted check never becomes completed; interrupted saves preserve earlier
+valid revisions. Consistent local hashes are not independent authentication.
+
+THE NEXT MUSE COMPARISON
+Previous saved real RNA responses recognized the changed labels but kept the
+same action order; this did not demonstrate adaptive task progression. The new
+comparison uses IDENTICAL reconciled records, with either no completion receipt
+or a valid scoped local receipt, crossed with original/reversed action cards.
+It keeps completed reconciliation selectable so repetition can be measured.
+Expected answers and human scores do not enter requests. The primary test is
+whether completed reconciliation is avoided throughout the three next actions.
+The authored preference for design review first is secondary; usefulness and
+source entailment still require human review. Well-formed mistakes are retained
+and scored, not replaced. No new real model result exists for this comparison.
+
+A new tools/muse_completion_pilot.py prepares four independent stateless reviews.
+Destination: https://api.meta.ai/v1/responses, model muse-spark-1.3 Standard,
+store:false; no provider tools or retrieval. Proposed limits: four requests,
+8192 output tokens each, additional USD0.20 application ceiling, 120 seconds each,
+no retries, resume or fallback. Exact bodies/source/code/protocol/location/price
+pins and a fresh owner approval are required. Older grants do not apply.
+Preparation/status/browser never read credentials or send. Every live entry and
+lowest POST guard require a real terminal; keys stay server-side in memory only.
+
+Pricing checked against official public Meta docs October 31: USD1.25 input and
+USD4.25 output per million tokens; cached input USD0.15 is not assumed. The new
+four-body conservative reservation is USD0.17749650, planning estimate
+USD0.1475421250 at full output budget. Input allowance uses entire UTF-8 body
+bytes plus 1024, not measured tokenization. This application guard is not a
+provider/account-wide billing cap; actual invoice remains unknown.
+https://dev.meta.ai/docs/pricing-rate-limits
+https://dev.meta.ai/docs/protocols/responses
+
+Monitoring uses atomic STATUS.json, append-only safe EVENTS.jsonl and local
+MONITOR.html, roughly one-second heartbeat and two-second local observer. Usage
+is accounted BEFORE response acceptance, including incomplete replies. Missing
+usage is unknown, not zero; uncertain reservations persist and stop later sends.
+Stop/timeout cannot revoke submitted work or its possible charge. No API polling,
+raw replies, hidden reasoning, response IDs, cookies or credentials are saved.
+Offline fake transports test completion, repetition, incomplete usage, refusals,
+timeouts, stale receipts and duplicate attempts; they are not Muse reliability.

@@ -1,0 +1,158 @@
+FOUR-CASE MUSE RUNNER — PREPARE, REVIEW, APPROVE SEPARATELY
+October 31, 2026. No new live run is authorized by this document.
+
+INPUT -> PROCESS -> OUTPUT
+Four fixed public/synthetic assistant cases -> one strict priority review per
+case, validated usage/claim/action IDs, saved proposal package and registered
+local record audit -> per-case assistant JSON/text, direct-transport/audit receipt
+and a safe local batch monitor. No original study, note, private folder or prior
+real packet is loaded. Model proposals cannot dispatch arbitrary tools/actions.
+This does not expand the original assistant/scientific schemas or live-enable
+the browser. Its public request preview and original CLI still never send.
+
+SCOPE
+ENV_ALGAE: public phosphorus/growth evidence; distinct removal, assimilation,
+collection and plant-use endpoints, source-specific controls, SE/n/units and gaps.
+PROTEIN_GFP: public qualified identity, annotations and predictions; no invented
+structure, experimental validation or claim that the literature has no assays.
+RNA_SYNTHETIC: incomplete invented design/metadata; duplicate IDs/layout conflict,
+zero supplied files versus unknown read count. No differential-expression result.
+REPRO_SYNTHETIC: invented incomplete versions/source/run records; exit zero is
+not verified reproducibility. No software installation or project execution.
+Every response prioritizes three authored proposals with task, why, required
+input, deliverable, completion check, readiness and exact citations. All required
+supported, unknown/contradictory and withheld claim IDs must remain in their
+original groups. This is bounded prioritization, not free-form discovery or
+independent scientific entailment/experimental validation.
+
+PREPARATION — NO KEY OR MODEL API
+From the checkout:
+  python3 -B tools/muse_assistant_batch.py prepare --app . --output /path/to/fresh-external-packet
+The output parent must exist. A packet must be outside the application. It has
+exact canonical HTTP bodies, PUBLIC_BATCH.json, current-price record, code/data
+fingerprints, unsigned approval template, approval HTML/Markdown and zero-call
+monitor. No OWNER_APPROVAL.json, attempt marker or live permission is created.
+LOCAL_CONTROL.json contains local paths and is excluded from any outgoing list.
+Only the four named payload bodies would go to Meta; no code/control/log files.
+
+PRICING / LIMITS VERIFIED OCTOBER 31
+Source: https://dev.meta.ai/docs/pricing-rate-limits
+Standard muse-spark-1.3: input USD 1.25/M tokens, output 4.25/M, cached input
+0.15/M. Calculations use uncached prices throughout. No web search/tools enabled.
+Destination: POST https://api.meta.ai/v1/responses. store:false, no prior response
+ID or conversation replay. max_output_tokens=8192 bounds reasoning + visible
+output together. Four requests total, fixed case order; no extra reassessment.
+
+Exact payload sizes: 15092, 11017, 6139, 5280 UTF-8 bytes. Per-case conservative
+input allowance = entire body byte count + 1024. Combined input allowance 41624,
+output allowance 32768. Conservative four-request reservation USD 0.191294.
+Bytes/4 input + full output cap planning estimate USD 0.1509915; not exact tokens.
+Proposed application ceiling USD 0.20, ADDITIONAL to prior runs. Current approval
+is zero until a matching owner grant exists. No balance, billing or token-count
+endpoint is queried; available credits/past approvals do not authorize sending.
+
+The client guard cannot impose an account-wide provider invoice limit. It
+reserves before dispatch, stops if a reported allowance/cost is exceeded, and
+retains uncertain charges after missing usage or interruption. A provider request
+already sent cannot be uncharged by the client. Pricing is pinned; the packet
+expires after 24 hours and must then be freshly prepared/reviewed. Standard is
+not Contributor mode; store:false is not a blanket zero-retention guarantee.
+
+APPROVAL / EXECUTION — A SEPARATE OWNER STEP
+Review APPROVAL.html or APPROVAL.md and all four body files. Approval binds exact
+body bytes, source case hashes, source/code fingerprints, destination, model,
+Standard mode, price record, request/token/deadline limits, USD 0.20 and packet
+location commitment. No inherited approval or provider fallback.
+Only after explicit approval may OWNER_APPROVAL.json contain approved:true with
+the exact fields in UNSIGNED_APPROVAL.json. The current task prepares/tests only.
+Then run START_REVIEWED_BATCH.py by its full local path in a real terminal.
+Starter, runner and lowest exposed send entry validate approval/terminal/packet
+constraints before sending. Non-interactive execution refuses even with a preset
+key, before any credential read, attempt marker or execution log. A masked prompt
+may read MODEL_API_KEY only after explicit live enablement and exact approval;
+no .env/config/key store, plaintext fallback or key argument is used.
+
+One BATCH.started lock and one POST-case.started marker per live case prevent
+reruns, concurrent duplicate sends and resumption. Location commitment prevents
+moving/copying a grant to another directory. Source or body drift is rejected;
+approved public bytes are regenerated/hashed in memory immediately before send.
+No proxy inheritance, redirects, cookies, automatic retries or SDK fallback.
+
+OUTPUT BUDGET EXTENSION (V2)
+Only the wire max_output_tokens changes from the original core's 1024 to 8192.
+Eightfold headroom includes reasoning and visible output; it cannot guarantee
+completion. Inputs, instructions, schemas and scientific claims stay unchanged.
+PUBLIC_BATCH v2 binds exact wire SHA and core_request_sha256 independently.
+The inner unchanged assistant v1 package retains the scientific-request hash;
+the separate v2 batch receipt records that hash, wire hash and token override.
+Neither an old grant nor changed/copied packet can authorize new sending.
+
+AFTER EACH RESPONSE
+The adapter validates nested input/output/total/reasoning/cached token counts,
+including zero versus missing, and charges input+output only (reasoning is part
+of output). It feeds only flat numeric usage into the unchanged core schema;
+the accepted receipt retains the original unmodified response-byte fingerprint.
+No raw response, reasoning text/summary, provider identifier or arbitrary header
+is saved. The core keeps its existing import-unverified provenance label; a
+separate direct-transport receipt establishes local execution consistency only.
+Fake transports always label core reviews synthetic and monitors OFFLINE.
+
+ACCOUNTING BEFORE ACCEPTANCE (V2)
+A rejected HTTP envelope still counts as a response observed. Its allowlisted
+numeric input/output usage appears in case and aggregate estimates. Valid pairs
+release that request's reservation even when the answer is incomplete/rejected;
+this is an estimate, never verified billing or an accepted scientific result.
+Missing or partial/invalid usage keeps an unsettled reservation and unknown case
+cost when either token count is absent. Numeric zero is not missing. Known-pair
+estimates with invalid extra usage fields retain reservation conservatively;
+those quantities may overlap. Reasoning is not charged twice. Repeated updates
+cannot double count. All failures still stop the remainder without retry.
+The initial HTTP200/max_output_tokens failure exposed the old accounting gap.
+Its original files and locks remain untouched; a separate local retrospective
+report derives the known-token estimate without rewriting historical records.
+
+The runner saves the accepted proposal package, then a local audit decision
+atomically BEFORE the registered check, then its actual result and a separate
+batch receipt. These are metadata/evidence checks, not laboratory execution or
+completion of proposed research actions. Any failure stops all remaining cases.
+Earlier accepted/valid files remain. There is no retry/resume command.
+
+MONITOR / STOP — LOCAL FILES ONLY
+From the packet directory in a second terminal:
+  python3 -B muse_assistant_batch.py monitor --packet .
+It can wait before the run, prints compact status every two seconds and exits
+on complete/failure/stale heartbeat. Closing the monitor does not stop the run.
+One snapshot: status --packet . (full JSON), or monitor --once --packet .
+MONITOR.html is a readable snapshot; refresh it locally. STATUS.json is atomic;
+EVENTS.jsonl appends fsynced safe states. In-flight heartbeat updates about once
+per second, with active case, elapsed time, started/received/accepted/completed
+counts, available usage, estimated spend and uncertain reservation. No API polls.
+
+Each request has a 120-second local deadline. Timeout/stop does not guarantee
+server cancellation or zero billing; the reservation remains uncertain. Ctrl-C
+in the RUN terminal, or in another terminal:
+  python3 -B muse_assistant_batch.py stop --packet .
+Only a local stop marker is written. No provider cancellation API is called.
+A stale heartbeat means possible interruption, not permission to restart. Any
+new attempt needs a fresh packet and separate approval.
+
+FAILURES / PRIVACY
+Safe fields include stage, known failure code, HTTP status, allowlisted provider
+error code/parameter, incomplete reason and bounded numeric usage when available.
+Unknown strings are withheld; no exception message, provider error prose,
+response cookie, authorization header, raw reasoning or key enters files/output.
+Missing usage is null/uncertain, never zero. Prepared private control paths stay
+local and never enter any payload or assistant package. Packet/control/monitor
+files use restrictive permissions; atomic saves preserve earlier valid files.
+
+OFFLINE QUALIFICATION
+New runner tests use fake transports/opener objects and synthetic credentials
+only, with sockets prohibited. They cover exact approvals/body/code/location,
+expiry, all terminal gates, duplicates/concurrency, stop/deadline/heartbeat,
+safe HTTP errors, nested usage, refusal/invalid claims/tool calls, original hashes,
+local decision-before-check, partial/interrupted saves and export/reopen binding.
+Run the standard offline suite plus tests/test_muse_assistant_batch.py. Passing
+tests does not establish live API compatibility, useful model prioritization or
+biological correctness. After an approved run, review each case's action quality
+and limitations separately from automated format/citation checks. One response
+per case is not reliability evidence. Real owner packets remain external.

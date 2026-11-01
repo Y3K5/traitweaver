@@ -1,0 +1,188 @@
+{
+  "schema_version": "traitweaver.molecular_models.v1",
+  "fixture_kind": "synthetic_coordinate_model",
+  "coordinate_system": "0-based half-open genomic and transcript intervals; amino-acid positions are model intervals, not sequence-verified translation; toy coding spans exclude stop-codon modeling",
+  "organism": "No real organism; software demonstration only",
+  "source": {
+    "id": "S_SYNTHETIC_MODEL",
+    "title": "Authored synthetic coordinate fixtures",
+    "role": "software_fixture",
+    "origin": "Fresh toy identifiers and intervals; not copied from a real genome or private study",
+    "limitations": "No DNA, RNA, peptide or guide sequences; no real edit sites, constructs, off-target predictions or laboratory procedures"
+  },
+  "genes": [
+    {
+      "id": "DEMO-GENE-1.1",
+      "label": "Synthetic plus-strand locus",
+      "assembly": "TOY-ASSEMBLY.1",
+      "chromosome": "toy_chr_1",
+      "strand": "+",
+      "start": 100,
+      "end": 1100,
+      "source_id": "S_SYNTHETIC_MODEL"
+    },
+    {
+      "id": "DEMO-GENE-2.1",
+      "label": "Synthetic minus-strand locus",
+      "assembly": "TOY-ASSEMBLY.1",
+      "chromosome": "toy_chr_2",
+      "strand": "-",
+      "start": 2000,
+      "end": 2700,
+      "source_id": "S_SYNTHETIC_MODEL"
+    }
+  ],
+  "exons": [
+    {
+      "id": "E1",
+      "gene_id": "DEMO-GENE-1.1",
+      "start": 100,
+      "end": 230,
+      "cds": [
+        140,
+        230
+      ]
+    },
+    {
+      "id": "E2",
+      "gene_id": "DEMO-GENE-1.1",
+      "start": 400,
+      "end": 460,
+      "cds": [
+        400,
+        460
+      ]
+    },
+    {
+      "id": "E3",
+      "gene_id": "DEMO-GENE-1.1",
+      "start": 700,
+      "end": 850,
+      "cds": [
+        700,
+        820
+      ]
+    },
+    {
+      "id": "U4",
+      "gene_id": "DEMO-GENE-1.1",
+      "start": 1000,
+      "end": 1100,
+      "cds": null
+    },
+    {
+      "id": "E2-short",
+      "gene_id": "DEMO-GENE-1.1",
+      "start": 400,
+      "end": 458,
+      "cds": [
+        400,
+        458
+      ]
+    },
+    {
+      "id": "M1",
+      "gene_id": "DEMO-GENE-2.1",
+      "start": 2500,
+      "end": 2700,
+      "cds": [
+        2500,
+        2620
+      ]
+    },
+    {
+      "id": "M2",
+      "gene_id": "DEMO-GENE-2.1",
+      "start": 2200,
+      "end": 2260,
+      "cds": [
+        2200,
+        2260
+      ]
+    },
+    {
+      "id": "M3",
+      "gene_id": "DEMO-GENE-2.1",
+      "start": 2000,
+      "end": 2100,
+      "cds": [
+        2040,
+        2100
+      ]
+    }
+  ],
+  "transcripts": [
+    {
+      "id": "DEMO-TX-A.1",
+      "label": "Full coding model",
+      "gene_id": "DEMO-GENE-1.1",
+      "exon_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "protein_id": "DEMO-P-A.1"
+    },
+    {
+      "id": "DEMO-TX-UTR.1",
+      "label": "Same coding model, extra noncoding exon",
+      "gene_id": "DEMO-GENE-1.1",
+      "exon_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "U4"
+      ],
+      "protein_id": "DEMO-P-A.1"
+    },
+    {
+      "id": "DEMO-TX-SKIP.1",
+      "label": "Alternative exon inclusion model",
+      "gene_id": "DEMO-GENE-1.1",
+      "exon_ids": [
+        "E1",
+        "E3"
+      ],
+      "protein_id": "DEMO-P-B.1"
+    },
+    {
+      "id": "DEMO-TX-PARTIAL.1",
+      "label": "Incomplete coding-length model",
+      "gene_id": "DEMO-GENE-1.1",
+      "exon_ids": [
+        "E1",
+        "E2-short",
+        "E3"
+      ],
+      "protein_id": null
+    },
+    {
+      "id": "DEMO-TX-MINUS.1",
+      "label": "Minus-strand coding model",
+      "gene_id": "DEMO-GENE-2.1",
+      "exon_ids": [
+        "M1",
+        "M2",
+        "M3"
+      ],
+      "protein_id": "DEMO-P-M.1"
+    }
+  ],
+  "proteins": [
+    {
+      "id": "DEMO-P-A.1",
+      "label": "Synthetic protein A",
+      "length_aa": 90
+    },
+    {
+      "id": "DEMO-P-B.1",
+      "label": "Synthetic protein B",
+      "length_aa": 70
+    },
+    {
+      "id": "DEMO-P-M.1",
+      "label": "Synthetic reverse-strand protein",
+      "length_aa": 80
+    }
+  ]
+}

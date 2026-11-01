@@ -97,7 +97,7 @@ class ReviewHandlerTests(unittest.TestCase):
             return MemoryServer(None,None)
         with patch.object(workspace_server,'make_server',factory),redirect_stdout(output):
             self.assertEqual(workspace_server.main(['--completed-cycle-file',str(filename)]),0)
-        self.assertIn('/#muse-cycle',output.getvalue());self.assertEqual(filename.read_bytes(),before)
+        self.assertIn('/#journey',output.getvalue());self.assertEqual(filename.read_bytes(),before)
 
 
 if __name__=='__main__':unittest.main()

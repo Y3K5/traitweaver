@@ -4,6 +4,7 @@ No network or Git mutation. The separate human/privacy screen remains required.
 """
 import hashlib
 import json
+import os
 from pathlib import Path
 import re
 
@@ -15,16 +16,19 @@ def verify():
     manifest=json.loads(manifest_path.read_text())
     expected={entry['path']:entry for entry in manifest['files']}
     if len(expected)!=len(manifest['files']):raise ValueError('Duplicate manifest entry')
+    # Only root Git metadata is omitted. Never traverse or open its contents.
     actual=set()
-    for path in ROOT.rglob('*'):
-        if path.is_symlink():raise ValueError('Symlinks are not permitted')
-        relative=path.relative_to(ROOT).as_posix()
-        if relative=='.git' or relative.startswith('.git/'):
-            raise ValueError('Git metadata is excluded')
-        if not path.is_file():continue
-        if re.search(r'(^|/)(\.env(?:\..*)?|credentials[^/]*|secrets[^/]*)$|\.(pem|key|p12|pfx)$',relative,re.I):
-            raise ValueError('Secret-named file found; no content read')
-        actual.add(relative)
+    for folder,directories,names in os.walk(ROOT,followlinks=False):
+        base=Path(folder)
+        if base==ROOT:directories[:]=[name for name in directories if name!='.git']
+        for name in directories+names:
+            path=base/name;relative=path.relative_to(ROOT).as_posix()
+            if relative=='.git':continue
+            if path.is_symlink():raise ValueError('Symlinks are not permitted')
+            if '.git' in path.relative_to(ROOT).parts:raise ValueError('Embedded Git metadata is excluded')
+            if re.search(r'(^|/)(\.env(?:\..*)?|credentials[^/]*|secrets[^/]*)(?:/|$)|\.(pem|key|p12|pfx)$',relative,re.I):
+                raise ValueError('Secret-named path found; no content read')
+            if path.is_file():actual.add(relative)
     if actual != set(expected)|{'HANDOFF_MANIFEST.json'}:
         raise ValueError('Candidate membership changed; review the exact file list again')
     for name,entry in expected.items():
@@ -35,7 +39,7 @@ def verify():
             raise ValueError('Candidate checksum mismatch')
     return {'status':'exact_candidate_verified','files':len(actual),
             'manifest_sha256':hashlib.sha256(manifest_path.read_bytes()).hexdigest(),
-            'publication_approved':False,'note':'Checksum/membership verification is not independent privacy, scientific or rights approval.'}
+            'publication_approved':False,'git_metadata':'Root .git ignored without inspection; never part of the candidate file list','note':'Checksum/membership verification is not independent privacy, scientific or rights approval.'}
 
 if __name__=='__main__':
     print(json.dumps(verify(),indent=2))

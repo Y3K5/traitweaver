@@ -1,0 +1,17 @@
+{
+  "schema_version": "traitweaver.evidence_requirements.v1",
+  "role": "measurement_questions_only",
+  "case_id": "psr1-reference",
+  "observations": [],
+  "admission_status": "No experimental files admitted; no automatic importer",
+  "source_catalog": "data/public-algae/psr1-reference/reference.v2.json",
+  "requirements": [
+    {"id": "strain-identity", "question": "Does the intended strain match the reference locus and transcript?", "currently_established": "Five pinned public files agree for the CC-503 reference context.", "missing": "Qualified comparison to a specified study strain and reference version; exact paper construct equivalence."},
+    {"id": "transcript-support", "question": "Which transcripts and exon junctions are supported in the intended condition?", "currently_established": "Three annotated exons for one admitted reference transcript.", "missing": "Condition-labelled expression, junction support and any alternative transcript evidence; absence of alternatives is not established."},
+    {"id": "protein-support", "question": "Is protein abundance or qualified activity associated with the endpoint?", "currently_established": "Conceptual translation reconciles to the RefSeq protein and cached unreviewed UniProt sequence.", "missing": "Qualified protein measurements, activity evidence and a justified causal comparison."},
+    {"id": "endpoint-support", "question": "What phosphorus endpoint changes while considering growth?", "currently_established": "Published uptake and growth summaries remain independently admitted in data/algae-public.v1.json.", "missing": "Recovered-product phosphorus evidence; qualified context, control, units, time basis and uncertainty for each distinct endpoint."}
+  ],
+  "required_receipt_fields": ["requirement_id", "public_or_authorized_source", "file_sha256", "record_locator", "organism_and_strain", "reference_versions", "condition_and_time_basis", "comparison_and_controls", "readout_and_units", "independent_biological_units", "technical_replication_distinction", "uncertainty", "decision_threshold_or_explicit_unknown", "limitations_and_admission_decision"],
+  "unresolved": ["Study strain and reference qualification", "Suitability of matched baseline, process and assay reference controls", "Independent biological units and replication", "Assay qualification, uncertainty and decision thresholds"],
+  "limit": "Requirements only, not an executable laboratory protocol. Zero observations; unknown values remain unknown. No guide sequences, edit sites or constructs. Do not place private experimental records in a publication tree."
+}

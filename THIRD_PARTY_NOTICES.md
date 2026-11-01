@@ -26,3 +26,12 @@ otherwise specified), Sequences/All Data collections (CC BY-SA 4.0), and upstrea
 UniParc (CC BY 4.0). The API snapshot has no individual-record license field.
 Do not label the entire combined record solely CC BY 4.0. This local admission
 and the source-level statements are not blanket publication approval.
+
+Public algae reference records added for local review: NCBI RefSeq / assembly
+records and the unreviewed UniProt Q9S807 FASTA, with exact source links and
+hashes in data/public-algae/psr1-reference/SOURCE_MANIFEST.json. Preserve source
+record attribution and comments; no blanket software license or independent
+experimental validation follows from public accessibility. UniProt attribution:
+UniProt Consortium, https://www.uniprot.org/uniprotkb/Q9S807/entry ; consult its
+source terms at https://www.uniprot.org/help/license before redistribution.
+The five records are frozen locally, with no new retrieval in this extension.

@@ -1,0 +1,73 @@
+FOUR-CASE RESEARCH ASSISTANT — LOCAL BROWSER WORKFLOW
+
+Start: python3 -B run_workspace.py --demo
+Open the printed 127.0.0.1 URL, then click Research assistant in the sidebar.
+The completed study remains read-only. The assistant is a separate session.
+
+1. Select Algae, GFP, synthetic RNA-seq, or synthetic reproducibility.
+2. Evidence: inspect supported claims, unknown/conflicting inputs and withheld
+   conclusions. Expand an exact source/record ID to see the supplied data.
+3. Local checks: click Run local readiness audit. A fixed purpose and case hash
+   are recorded before execution. Inspect the actual result receipt. This is a
+   local software/source audit, not model inference or biological measurement.
+4. Next actions: click Create synthetic action review. It validates a visibly
+   synthetic fixture through the unchanged assistant contract, then displays
+   three complete cards: why, inputs, deliverable, completion, readiness and
+   exact citations. Inspect cited inputs returns to the source records. These
+   cards propose work; they do not execute research.
+5. Export & reopen: download JSON and/or the readable brief. Select the JSON in
+   Reopen an assistant JSON package. Expect Reopened / read-only, the same case,
+   claims, three actions and audit receipt, without model/tool dispatch.
+   Return to this local case restores the earlier local session. Switching cases
+   preserves each local case session independently.
+
+TOOLS
+
+algae_endpoint_audit: source-bound phosphorus endpoint coverage; no winner.
+gfp_record_audit: qualified identity, evidence roles and unavailable fields.
+rna_metadata_audit: duplicates/layout conflicts/missing metadata; no expression.
+repro_record_audit: version/source/run completeness; no installs or project runs.
+
+Only admitted public/synthetic records enter these fixed audits. Zero and null
+remain distinct. One audit is permitted per case session. Failure is retained
+with a safe generic reason; no automatic retry. Navigation never runs a tool.
+
+TRAIT-DEVELOPMENT RESEARCH MAP
+
+On the algae Next actions page click Desired trait, Candidate mechanisms,
+Combination & recipient review, and Intervention questions. These explain knowns
+and gaps and link to the existing evidence, public protein/gene/transcript map,
+intelligence or bounded CRISPR planning view. They do not generate a design.
+
+PSR1 association does not prove necessity/sufficiency. Additional protein roles,
+cassette composition, multi-gene interactions and transferred adaptive capabilities
+are unqualified. UVM4 is a same-species context; no cross-species recipient is
+qualified. No cassette DNA, guide, edit site, construct or laboratory protocol is
+generated. Reference agreement and proposed work are not biological validation.
+
+CONTRACTS, STORAGE AND PRIVACY
+
+Browser schema: traitweaver.assistant_workspace_package.v1. It contains the
+unchanged traitweaver.assistant_package.v1 plus separate local audit receipts.
+Native CLI assistant packages also reopen (without an audit). Other study,
+intelligence and molecular packages retain their dedicated pickers and schemas.
+
+Accepted claims, action fields, roles, readiness, limits, zero/null values and
+receipt identities persist. Reopen validates pure receipt formulas without
+dispatching registered tools or synthesizing replies. Imported view changes only
+memory; it never overwrites the original study, local case slots or owner files.
+
+Sessions live in server memory, even with an external study directory. Refresh
+preserves them while the process runs. Export before shutdown; saved JSON is the
+way to retain/reopen assistant work after a process restart. No hidden autosave,
+localStorage, private-note intake or new disk journal is introduced.
+
+Mutations require same-origin session protection plus current original-study and
+assistant identities. Downloads bind to the displayed assistant identity and
+reject stale views. Invalid/oversized imports preserve the current review. Failed
+catalog validation disables this view without substituting private/archive data.
+
+No live-send endpoint, credentials, retrieval, spending, fallback or automatic
+retry exists in this UI/session. Priorities are labelled synthetic. Imported
+provider authenticity stays unverified. Raw responses, keys, paths and provider
+reasoning are not exported. Live use requires a separate exact-payload review.

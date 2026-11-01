@@ -17,13 +17,15 @@ function completedCycleView(){
  `<div class="cycle-stats"><div><strong>${synthetic?'Synthetic replay':'Complete'}</strong><span>One preserved cycle</span></div><div><strong>${synthetic?'2 simulated requests':'2 requests'}</strong><span>${esc(s.model)}</span></div><div><strong>$${esc(s.estimated_cost_usd)}</strong><span>Estimated token cost</span></div></div><nav class="cycle-steps" aria-label="Completed cycle walkthrough">${reviewSteps.map((title,i)=>`<button class="button ${i===reviewStep?'selected':''}" data-review-step="${i}" ${i===reviewStep?'aria-current="step"':''}>${i+1}. ${title}</button>`).join('')}</nav><section class="study-panel" aria-labelledby="review-step-heading"><span class="eyebrow" id="review-step-heading" tabindex="-1">${reviewStep+1} of 4 · ${reviewSteps[reviewStep]}</span>${[decision,result,assessment,usage][reviewStep]}</section><div class="actions">${reviewStep>0?'<button class="button" id="review-back">← Previous</button>':''}${reviewStep<3?'<button class="button-primary" id="review-next">Continue →</button>':'<a class="button-primary" href="#handoff">Review saved history and handoff →</a>'}</div>`;
 }
 function bindCompletedCycle(){
+ document.querySelectorAll('.demo-badge').forEach(element=>{element.textContent='Local · offline';});
  document.querySelectorAll('[data-review-step]').forEach(button=>button.addEventListener('click',()=>{reviewStep=Number(button.dataset.reviewStep);render();document.getElementById('review-step-heading').focus();}));
  document.getElementById('review-back')?.addEventListener('click',()=>{reviewStep--;render();});
  document.getElementById('review-next')?.addEventListener('click',()=>{reviewStep++;render();});
  document.getElementById('download-cycle-review')?.addEventListener('click',async()=>{try{download('traitweaver-completed-cycle.json',pretty(await api('/api/cycle-review.json'))+'\n','application/json');show('Completed cycle and usage exported locally. Nothing was sent.');}catch(error){show(error.message,true);}});
  if(snapshot.read_only){
-  document.querySelectorAll('form input,form textarea,form select,form button,#study-file').forEach(element=>{element.disabled=true;});
+  document.querySelectorAll('form input,form textarea,form select,form button,#study-file').forEach(element=>{if(!element.closest?.('#intelligence-scope-form')&&!element.closest?.('#wb-form'))element.disabled=true;});
   document.querySelectorAll('.demo-badge').forEach(element=>{element.textContent=snapshot.completed_cycle.synthetic?'Synthetic replay · read only':'Saved cycle · read only';});
-  show((snapshot.completed_cycle.synthetic?'Synthetic offline replay':'Completed Muse cycle')+' · read only. No edits, reruns or API calls are available.');
+  const separateMolecular=typeof molecularViews!=='undefined'&&(molecularViews.some(([id])=>id===location.hash.slice(1))||location.hash==='#intelligence');
+  show((snapshot.completed_cycle.synthetic?'Synthetic offline replay':'Completed Muse cycle')+(separateMolecular?' stays read-only. Molecular planning is a separate local review; the saved cycle cannot be changed.':' · read only. No edits, reruns or API calls are available.'));
  }
 }

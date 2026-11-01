@@ -1,0 +1,110 @@
+STRONGER EVALUATION — OPEN SYNTHETIC CHALLENGES, NO LIVE TRANSPORT
+October 31, 2026. This upgrade tests the evaluation machinery offline.
+
+INPUT -> PROCESS -> OUTPUT
+12 clearly synthetic scenarios -> schema/source checks, predeclared authored
+rubric, evidence-change pairs and supplied-action-order comparisons -> separate
+quality dimensions, source-linked action cards and unfilled human scoring sheet.
+No model/tool, biological experiment, installation or arbitrary script is run.
+No original assistant case, scientific contract or historical run is changed.
+
+WHAT IS NEW
+Six paired areas: algae/phosphorus evidence planning, protein identity/annotation,
+RNA-seq readiness, reproducibility, water-quality table curation and scientific-
+software benchmark review. Each area has a BEFORE and AFTER scenario. Only the
+specified evidence/status/readiness changes; not a new biological observation.
+Examples: reconcile mismatched identifiers before interpreting features; after
+reconciliation, check role/structure gaps. After sample-label conflicts resolve,
+independent units/contrast remain unknown. Zero files are not zero reads.
+
+Each scenario has four bounded documentation/data-check proposals; a response
+chooses three and briefly explains them with record IDs. Unlike the four-case
+v1 demonstration, it also judges supplied claims as supported, unknown or
+contradicted. Wrong but well-formed judgments remain visible as evaluation
+failures. This evaluation record cannot be imported as a v1 research conclusion.
+No new action, guide, cassette, edit site or laboratory protocol is admitted.
+
+THREE ACTION ORDERS / 36 DISTINCT REQUEST IDENTITIES
+Original, reversed and rotated candidate order. Compare first actions by stable
+ID, not list position. BEFORE/AFTER evidence pairs should change the first action
+under the authored criteria, while order changes should not. Missing pair/order
+members remain unknown/unscored. Duplicate results are refused.
+Expected labels, preferred first actions and human scores are excluded from
+model requests. Criteria are openly included in the evaluation package/repository;
+this is not a hidden benchmark. Request hashes bind both evidence and order.
+
+MEASURE QUALITY SEPARATELY
+- Does first-action choice match the authored scenario rubric?
+- Is its required input available now under the scenario's readiness label?
+- Do claim verdicts match authored criteria? Are required record citations present?
+- Are unsupported success claims withheld? Do action citations match their cards?
+- Does the choice respond to the changed evidence and resist presentation order?
+No aggregate pass score hides these dimensions. A valid citation ID or authored
+rubric match is not proof of source entailment or actual research usefulness.
+
+Synthetic controls: reference/oracle, supplied-order copying and false certainty.
+The supplied-order control holds correct claim labels constant to isolate order
+following. The false-certainty control can get priorities right while falsely
+supporting claims. They are authored fixtures, never Muse calls or independent
+expert answers. Synthetic control kinds and imported model responses cannot be
+pooled into a single score. General reliability is not established.
+
+HUMAN REVIEW
+Five separately anchored scores: relevance, feasibility, priority, completion
+check and source entailment. Each starts null, not zero. A human may enter 0, 1
+or 2, with bounded local notes; explicit review status and request identity are
+required. Rationale semantics, defensible alternative orders and practical
+usefulness require this review. No score or approval is fabricated automatically.
+Human notes are privacy-screened and never enter a model request. Screen hits
+block output rather than silently redact. Neither scoring nor a clean screen
+authorizes publication. Source/candidate/role fields and earlier work stay exact.
+
+RUN LOCALLY — FROM THE REPOSITORY ROOT, NO INSTALL
+Use a fresh existing-parent output location outside the repository:
+  python3 -B tools/evaluate_assistant.py offline --output /private/tmp/traitweaver-evaluation-review
+Open START_HERE.html in that output. It links all three synthetic-control reports,
+versioned JSON, exact synthetic inputs/criteria and human-review.json templates.
+The 108 synthetic responses are 3 controls x 12 scenarios x 3 orders, not 108
+model calls or scientific studies. The CLI forbids all socket events.
+
+Optionally review one explicitly selected completed four-case external packet:
+  python3 -B tools/evaluate_assistant.py offline --output /private/tmp/traitweaver-evaluation-with-saved-review --saved-batch /path/to/completed-packet
+Only the known assistant-review.json/text and BATCH_RECEIPT.json files are read.
+No control files, credentials, notes, raw provider response or private folder is
+searched. Original files stay unchanged. The saved four-case catalog and wire/
+response fingerprints, numeric usage and separate audit receipts are checked.
+A forged local receipt could imitate these fields; this is not independent
+provider authentication. Old unchanged priorities do not test presentation bias.
+Old live responses are never scored against the new synthetic scenarios.
+
+Show ONE exact unsent candidate body and response schema:
+  python3 -B tools/evaluate_assistant.py prepare --case RNA_BEFORE --permutation 0
+This prints a wrapper whose body is the exact candidate HTTP body. No transport,
+key access, grant or spending permission exists. The proposed model field is
+muse-spark-1.3 and output budget is 8192, but no live batch is authorized. A full
+12-scenario/three-order evaluation would require up to 36 calls, not the approved
+historical four calls. Past unused spending allowance does not carry over. New
+live evaluation requires a separately reviewed runner/payloads/pricing/cap and
+explicit approval; the old four-case runner does not support these scenarios.
+
+Score an explicitly supplied saved response, never sending it:
+  python3 -B tools/evaluate_assistant.py score --case RNA_BEFORE --permutation 0 --reply /path/to/saved-response.json --request-sha256 REVIEWED_REQUEST_SHA --output /private/tmp/traitweaver-scored-response
+Raw metadata/reasoning/IDs are discarded. Imported provenance remains unverified;
+quality scoring alone does not establish provider execution or actual billing.
+Malformed/refused/incomplete/tool-output replies, unknown/duplicate citations,
+stale requests and unavailable actions are refused, never executed. The refusal
+is a local scoring failure, not a retry or a hidden accepted scientific answer.
+
+Read-only package reopen:
+  python3 -B tools/evaluate_assistant.py reopen --package /path/to/evaluation.json
+Save edited human scoring separately, never overwriting the original package:
+  python3 -B tools/evaluate_assistant.py review --package /path/to/evaluation.json --human-review /path/to/edited-human-review.json --output /private/tmp/traitweaver-human-review
+JSON revalidates exact catalog, answers, actions/readiness, scores, source IDs,
+zero/null, limitations and request bindings. Reports escape untrusted prose and
+have no script/external asset. Native browser rendering is a separate check.
+
+BOUNDARY
+This is an evaluation capability, not a new research planner, model integration,
+source importer, laboratory workflow or proof of scientific reliability. The
+four-case UI/runner and original contracts remain unchanged. Tests/fixture scores,
+saved real responses and any future newly approved live results stay separate.

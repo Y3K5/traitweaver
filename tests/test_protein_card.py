@@ -25,6 +25,12 @@ sys.addaudithook(no_network)
 
 
 class ProteinCardTests(unittest.TestCase):
+    def test_readable_export_retains_exact_card_annotation_and_prediction_ids(self):
+        report=card.build_card();text=card.readable(report)
+        ids=[report['card_id']]+[r['id'] for r in report['database_annotations']+report['model_predictions']]
+        for identifier in ids:
+            self.assertIn(identifier,text)
+
     def setUp(self):
         self.scratch = tempfile.TemporaryDirectory(prefix='traitweaver-card-test-')
         self.addCleanup(self.scratch.cleanup)

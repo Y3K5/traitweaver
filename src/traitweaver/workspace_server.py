@@ -10,7 +10,11 @@ import sys
 import threading
 from urllib.parse import urlsplit
 
-from traitweaver import muse_boundary, protein_card, study
+from traitweaver import molecular, molecular_store, muse_boundary, protein_card, study, public_algae
+from traitweaver import intelligence, intelligence_muse, intelligence_store
+from traitweaver import assistant_workspace
+from traitweaver import research_story
+from traitweaver import workbench, step_tracking, showcase
 from traitweaver.study_store import Conflict, MAX_BYTES, Store
 from traitweaver.completed_cycle import CompletedCycle
 
@@ -23,10 +27,61 @@ class WorkspaceSession:
     def __init__(self, store):
         self.active=store
         self.mutex=threading.RLock()
+        self.molecular=None
+        self.molecular_error=None
+        try:
+            bundle=molecular.catalog()
+            self.molecular=molecular_store.Journal(bundle,store.root/'molecular-review' if isinstance(store,Store) else None)
+        except (ValueError,OSError):
+            self.molecular_error='Molecular sources or saved review failed validation. The original study remains available.'
+        self.public_algae=None
+        self.public_algae_error=None
+        try:
+            self.public_algae=molecular_store.Journal(public_algae.catalog(),store.root/'public-algae-review-v2' if isinstance(store,Store) else None)
+        except (ValueError,OSError):
+            self.public_algae_error='Public algae sources or saved review failed validation. No substitute data or retrieval was used.'
+        self.intelligence=None
+        self.intelligence_error=None
+        try:
+            self.intelligence=intelligence_store.Journal(intelligence.catalog(),store.root/'intelligence-review-v1' if isinstance(store,Store) else None)
+        except (ValueError,OSError):
+            self.intelligence_error='Intelligence sources or saved records failed validation. Original study and reference reviews remain available.'
+        self.assistant=None
+        self.assistant_error=None
+        try:
+            self.assistant=assistant_workspace.Session()
+        except (ValueError,OSError):
+            self.assistant_error='Assistant public/synthetic catalog failed validation. Other study views remain available.'
+        self.research_story=None
+        self.research_story_error=None
+        try:
+            self.research_story=research_story.Session()
+        except (ValueError,OSError):
+            self.research_story_error='Research story source qualification failed. Other study views remain available; no substitute data used.'
+        self.workbench=None
+        self.workbench_error=None
+        try:
+            self.workbench=workbench.Session(self.assistant,self.research_story)
+        except (ValueError,OSError):
+            self.workbench_error='Workbench requires qualified assistant records. Original study and other views remain available.'
+
+        self.steps=None;self.steps_error=None
+        try:
+            self.steps_local=step_tracking.Journal(store.root/'completed-steps-v1' if isinstance(store,Store) else None)
+            self.steps=self.steps_local
+        except (ValueError,OSError):
+            self.steps_error='Completed-step history/source failed validation. Other workspace records remain available.'
 
 
-def make_server(store, port=0, server_factory=ThreadingHTTPServer):
+class LoopbackHTTPServer(ThreadingHTTPServer):
+    # The workspace loads multiple local controllers/styles in parallel. Keep
+    # their initial connections from overflowing the standard five-slot queue.
+    request_queue_size = 64
+
+
+def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=None, completion_pilot_dir=None):
     workspace=WorkspaceSession(store)
+    workspace.showcase_pilots={"rna":showcase.load_pilot(rna_pilot_dir,"rna"),"completion":showcase.load_pilot(completion_pilot_dir,"completion")}
     token = secrets.token_urlsafe(32)
     assets = {'/'+p.relative_to(WEB).as_posix(): p for p in WEB.rglob('*') if p.is_file() and not p.is_symlink()}
 
@@ -70,6 +125,23 @@ def make_server(store, port=0, server_factory=ThreadingHTTPServer):
                 if path.startswith('/api/'):
                     if self.headers.get('X-Traitweaver-Client') != 'workspace':
                         self.send(403, {'error': 'Workspace client header required'}); return
+                    # Optional read identity used by Data flow. Keep the shown
+                    # revision and the exported bytes in the same mutex scope.
+                    exports={'/api/export.json':store,'/api/export.md':store,
+                             '/api/intelligence/export.json':workspace.intelligence,'/api/intelligence/export.txt':workspace.intelligence,
+                             '/api/public-algae/export.json':workspace.public_algae,'/api/public-algae/export.txt':workspace.public_algae,
+                             '/api/molecular/export.json':workspace.molecular,'/api/molecular/export.txt':workspace.molecular}
+                    exports.update({'/api/steps/export.json':workspace.steps,'/api/steps/export.txt':workspace.steps})
+                    exports.update({'/api/assistant/export.json':workspace.assistant,'/api/assistant/export.txt':workspace.assistant})
+                    exports.update({'/api/research-story/export.json':workspace.research_story,'/api/research-story/export.txt':workspace.research_story})
+                    exports.update({'/api/workbench/export.json':workspace.workbench,'/api/workbench/export.md':workspace.workbench})
+                    if isinstance(store,CompletedCycle):exports['/api/cycle-review.json']=store
+                    expected=self.headers.get('X-Traitweaver-Expected-Revision')
+                    if path in exports and expected is not None:
+                        owner=exports[path]
+                        if owner is None:raise ValueError('Selected export is unavailable')
+                        if expected!=owner.current()['hash']:
+                            self.send(409,{'error':'Saved state changed. Refresh Data flow before exporting; nothing was downloaded.'});return
                     if path == '/api/session':
                         self.send(200, {'token': token}); return
                     if path == '/api/state':
@@ -77,7 +149,58 @@ def make_server(store, port=0, server_factory=ThreadingHTTPServer):
                             current = store.current()
                             self.send(200, {'current': current, 'evidence': study.bundle(), 'eligible_checks': study.eligible_checks(current['state']),
                                             'history': [{'revision': r['revision'], 'saved_utc': r['saved_utc'], 'action': r['action']['type'], 'hash': r['hash']} for r in store.history],
-                                            'live_enabled': False, 'baseten_live_enabled': False, 'read_only': isinstance(store, CompletedCycle), 'completed_cycle': store.summary() if isinstance(store, CompletedCycle) else None}); return
+                                            'live_enabled': False, 'baseten_live_enabled': False, 'read_only': isinstance(store, CompletedCycle), 'completed_cycle': store.summary() if isinstance(store, CompletedCycle) else None,
+                                            'molecular':workspace.molecular.view(current) if workspace.molecular else None,'molecular_error':workspace.molecular_error,
+                                            'public_algae':workspace.public_algae.view(current) if workspace.public_algae else None,'public_algae_error':workspace.public_algae_error,
+                                            'intelligence':workspace.intelligence.view(current) if workspace.intelligence else None,'intelligence_error':workspace.intelligence_error,
+                                            'assistant':workspace.assistant.view() if workspace.assistant else None,'assistant_error':workspace.assistant_error,
+                                            'research_story':workspace.research_story.view() if workspace.research_story else None,'research_story_error':workspace.research_story_error,
+                                            'workbench':workspace.workbench.view() if workspace.workbench else None,'workbench_error':workspace.workbench_error,
+                                            'showcase_pilots':workspace.showcase_pilots,
+                                            'steps':workspace.steps.view() if workspace.steps else None,'steps_error':workspace.steps_error}); return
+                    if path in ('/api/workbench/export.json','/api/workbench/export.md'):
+                        owner=workspace.workbench
+                        if owner is None:raise ValueError('Workbench unavailable')
+                        reviewed=self.headers.get('X-Traitweaver-Privacy-Reviewed')
+                        if path.endswith('.json'):self.send(200,owner.export(reviewed),filename='traitweaver-workbench.json')
+                        else:self.send(200,owner.readable(reviewed),'text/markdown; charset=utf-8',filename='traitweaver-workbench.md')
+                        return
+                    if path in ('/api/research-story/export.json','/api/research-story/export.txt'):
+                        owner=workspace.research_story
+                        if owner is None:raise ValueError('Research story unavailable')
+                        if path.endswith('.json'):self.send(200,owner.export(),filename='traitweaver-research-story.json')
+                        else:self.send(200,owner.readable(),'text/plain; charset=utf-8',filename='traitweaver-research-story.txt')
+                        return
+                    if path in ('/api/steps/export.json','/api/steps/export.txt'):
+                        owner=workspace.steps
+                        if owner is None:raise ValueError('Completed-step review unavailable')
+                        if path.endswith('.json'):self.send(200,owner.export(),filename='traitweaver-completed-steps.json')
+                        else:self.send(200,owner.readable(),'text/plain; charset=utf-8',filename='traitweaver-completed-steps.txt')
+                        return
+                    if path in ('/api/assistant/export.json','/api/assistant/export.txt'):
+                        owner=workspace.assistant
+                        if owner is None:raise ValueError('Assistant review unavailable')
+                        if path.endswith('.json'):self.send(200,owner.export(),filename='traitweaver-assistant-review.json')
+                        else:self.send(200,owner.readable(),'text/plain; charset=utf-8',filename='traitweaver-assistant-review.txt')
+                        return
+                    if path in ('/api/intelligence/export.json','/api/intelligence/export.txt'):
+                        journal=workspace.intelligence
+                        if journal is None:raise ValueError('Intelligence review unavailable')
+                        if path.endswith('.json'):self.send(200,journal.export(),filename='traitweaver-intelligence-review.json')
+                        else:self.send(200,journal.readable(),'text/plain; charset=utf-8',filename='traitweaver-intelligence-review.txt')
+                        return
+                    if path in ('/api/public-algae/export.json','/api/public-algae/export.txt'):
+                        journal=workspace.public_algae
+                        if journal is None:raise ValueError('Public algae review unavailable')
+                        if path.endswith('.json'):self.send(200,journal.export(),filename='traitweaver-public-algae-review.json')
+                        else:self.send(200,journal.readable(),'text/plain; charset=utf-8',filename='traitweaver-public-algae-review.txt')
+                        return
+                    if path == '/api/molecular/export.json':
+                        if workspace.molecular is None:raise ValueError('Molecular review unavailable')
+                        self.send(200,workspace.molecular.export(),filename='traitweaver-molecular-review.json');return
+                    if path == '/api/molecular/export.txt':
+                        if workspace.molecular is None:raise ValueError('Molecular review unavailable')
+                        self.send(200,workspace.molecular.readable(),'text/plain; charset=utf-8',filename='traitweaver-molecular-review.txt');return
                     if path == '/api/cycle-review.json' and isinstance(store, CompletedCycle):
                         self.send(200, store.export_review(), filename='traitweaver-completed-cycle.json'); return
                     if path == '/api/export.json':
@@ -89,6 +212,10 @@ def make_server(store, port=0, server_factory=ThreadingHTTPServer):
                     self.send(404, {'error': 'Unknown endpoint'}); return
                 if path == '/gfp':
                     self.send(200, protein_card.render_html(protein_card.build_card()), 'text/html; charset=utf-8', csp=None); return
+                if path.startswith('/public-algae-source/'):
+                    if workspace.public_algae is None:raise ValueError('Public algae source validation failed')
+                    name=path.removeprefix('/public-algae-source/')
+                    self.send(200,public_algae.source_file(name),'text/plain; charset=utf-8');return
                 path = '/index.html' if path == '/' else path
                 if path not in assets:
                     self.send(404, {'error': 'Unknown resource'}); return
@@ -105,7 +232,7 @@ def make_server(store, port=0, server_factory=ThreadingHTTPServer):
             store=workspace.active
             if not self.safe_host() or not hmac.compare_digest(self.headers.get('X-Traitweaver-Token', ''), token):
                 self.send(403, {'error': 'Same-origin session authorization required'}); return
-            if isinstance(store, CompletedCycle) and urlsplit(self.path).path!='/api/cycle-review/open':
+            if isinstance(store, CompletedCycle) and urlsplit(self.path).path not in ('/api/steps/source','/api/steps/check','/api/steps/open','/api/steps/local','/api/cycle-review/open','/api/molecular/save','/api/molecular/open','/api/public-algae/save','/api/public-algae/open','/api/intelligence/revise','/api/intelligence/prepare','/api/intelligence/synthetic','/api/intelligence/accept','/api/intelligence/run','/api/intelligence/open','/api/assistant/select','/api/assistant/synthetic','/api/assistant/check','/api/assistant/open','/api/research-story/present','/api/research-story/open','/api/workbench/prepare','/api/workbench/select','/api/workbench/present','/api/workbench/save','/api/workbench/history','/api/workbench/check','/api/workbench/synthetic','/api/workbench/open'):
                 self.send(403, {'error':'Completed-cycle review is read-only. No edits, reruns or model calls are available.'}); return
             if self.headers.get('Content-Type', '').split(';')[0] != 'application/json':
                 self.send(415, {'error': 'JSON required'}); return
@@ -123,7 +250,141 @@ def make_server(store, port=0, server_factory=ThreadingHTTPServer):
                     if data['expected_hash'] != current['hash']:
                         raise Conflict('Study changed; reload before applying this action')
                     state = current['state']
-                    if path == '/api/cycle-review/open':
+                    if path.startswith('/api/steps/'):
+                        owner=workspace.steps
+                        if owner is None:raise ValueError('Completed-step review unavailable')
+                        if data.get('steps_hash')!=owner.current()['hash']:raise Conflict('Completed-step revision changed; refresh before acting')
+                        prefix=('expected_hash','steps_hash')
+                        if path=='/api/steps/source':
+                            study.fields(data,(*prefix,'case_id'));owner.apply(data['steps_hash'],{'type':'source','payload':{'case_id':data['case_id']}})
+                        elif path=='/api/steps/check':
+                            study.fields(data,prefix);owner.apply(data['steps_hash'],{'type':'check','payload':{}})
+                        elif path=='/api/steps/open':
+                            study.fields(data,(*prefix,'package_json'))
+                            if not isinstance(data['package_json'],str) or len(data['package_json'].encode())>step_tracking.MAX_BYTES:raise ValueError('Completed-step package too large')
+                            workspace.steps=step_tracking.Journal.from_package(study.decode(data['package_json']))
+                        elif path=='/api/steps/local':
+                            study.fields(data,prefix);workspace.steps=workspace.steps_local
+                        else:self.send(404,{'error':'No registered completion action or model transport'});return
+                        self.send(200,{'showcase_pilots':workspace.showcase_pilots,
+                                            'steps':workspace.steps.view()});return
+                    elif path.startswith('/api/workbench/'):
+
+                        owner=workspace.workbench
+                        if owner is None:raise ValueError('Workbench unavailable')
+                        if data.get('workbench_hash')!=owner.current()['hash']:raise Conflict('Workbench changed. Refresh before changing annotations, running a check or importing.')
+                        prefix=('expected_hash','workbench_hash')
+                        if path=='/api/workbench/prepare':
+                            study.fields(data,prefix)
+                            self.send(200,{'prepared':owner.prepare_muse(),'workbench_hash':owner.current()['hash']});return
+                        elif path=='/api/workbench/select':
+                            study.fields(data,(*prefix,'case_id'));owner.select(data['case_id'])
+                        elif path=='/api/workbench/present':
+                            study.fields(data,(*prefix,'checkpoint'));owner.present(data['checkpoint'])
+                        elif path=='/api/workbench/save':
+                            study.fields(data,(*prefix,'question','notes'));owner.save(data['question'],data['notes'])
+                        elif path=='/api/workbench/history':
+                            study.fields(data,(*prefix,'annotation_hash'));owner.history(data['annotation_hash'])
+                        elif path in ('/api/workbench/check','/api/workbench/synthetic'):
+                            study.fields(data,prefix);owner.act(path.rsplit('/',1)[-1])
+                        elif path=='/api/workbench/open':
+                            study.fields(data,(*prefix,'package_json'))
+                            if not isinstance(data['package_json'],str) or len(data['package_json'].encode())>workbench.MAX_BYTES:raise ValueError('Workbench JSON exceeds supported size')
+                            owner.open(study.decode(data['package_json']))
+                        else:self.send(404,{'error':'No registered workbench action or provider transport'});return
+                        self.send(200,{'workbench':owner.view(),'assistant':workspace.assistant.view(),
+                            'research_story':workspace.research_story.view() if workspace.research_story else None});return
+                    elif path.startswith('/api/research-story/'):
+                        owner=workspace.research_story
+                        if owner is None:raise ValueError('Research story unavailable')
+                        if data.get('story_hash')!=owner.current()['hash']:raise Conflict('Research story changed. Refresh before changing or importing a presentation.')
+                        prefix=('expected_hash','story_hash')
+                        if path=='/api/research-story/present':
+                            study.fields(data,(*prefix,'view'));owner.present(data['view'])
+                        elif path=='/api/research-story/open':
+                            study.fields(data,(*prefix,'package_json'))
+                            if not isinstance(data['package_json'],str) or len(data['package_json'].encode())>256*1024:raise ValueError('Research story package exceeds the supported size')
+                            owner.open(study.decode(data['package_json']))
+                        else:self.send(404,{'error':'No research-story tool, provider or laboratory endpoint exists'});return
+                        self.send(200,{'research_story':owner.view()});return
+                    elif path.startswith('/api/assistant/'):
+                        owner=workspace.assistant
+                        if owner is None:raise ValueError('Assistant review unavailable')
+                        if data.get('assistant_hash')!=owner.current()['hash']:raise Conflict('Assistant view changed. Refresh before changing or reopening a case.')
+                        prefix=('expected_hash','assistant_hash')
+                        if path=='/api/assistant/select':
+                            study.fields(data,(*prefix,'case_id'));owner.select(data['case_id'])
+                        elif path in ('/api/assistant/synthetic','/api/assistant/check'):
+                            study.fields(data,prefix)
+                            if path.endswith('/synthetic'):owner.synthetic()
+                            else:owner.check()
+                        elif path=='/api/assistant/open':
+                            study.fields(data,(*prefix,'package_json'))
+                            if not isinstance(data['package_json'],str) or len(data['package_json'].encode())>256*1024:raise ValueError('Assistant package must be bounded JSON text')
+                            owner.open(study.decode(data['package_json']))
+                        else:self.send(404,{'error':'No registered assistant endpoint or live transport'});return
+                        self.send(200,{'assistant':owner.view()});return
+                    elif path.startswith('/api/intelligence/'):
+                        j=workspace.intelligence
+                        if j is None:raise ValueError('Intelligence review unavailable')
+                        if data.get('intelligence_hash')!=j.current()['hash'] or 'intelligence_hash' not in data:raise Conflict('Current intelligence revision identity required')
+                        prefix=('expected_hash','intelligence_hash')
+                        if path=='/api/intelligence/open':
+                            study.fields(data,(*prefix,'package_json'))
+                            if not isinstance(data['package_json'],str):raise ValueError('Intelligence package must be JSON text')
+                            workspace.intelligence=intelligence_store.Journal.from_package(study.decode(data['package_json']),j.bundle)
+                            self.send(200,{'intelligence':workspace.intelligence.view(current)});return
+                        if j.read_only:raise ValueError('Imported intelligence review is read-only')
+                        if path=='/api/intelligence/revise':
+                            study.fields(data,(*prefix,'scope'));action={'type':'revise','payload':{'scope':data['scope'],'context':intelligence.context(current)}}
+                        else:
+                            if j.current()['state']['context']!=intelligence.context(current):raise Conflict('Save intelligence scope for the current owning study revision first')
+                            if path=='/api/intelligence/prepare':
+                                study.fields(data,(*prefix,'phase','focus'))
+                                self.send(200,{'prepared':intelligence_muse.prepare(j.current()['state'],data['phase'],j.bundle,data['focus'])});return
+                            if path in ('/api/intelligence/synthetic','/api/intelligence/accept'):
+                                if path.endswith('/synthetic'):
+                                    study.fields(data,(*prefix,'phase','focus'));raw=study.canonical(intelligence_muse.synthetic_reply(j.current()['state'],data['phase'],j.bundle,data['focus'])).encode()
+                                    fingerprint=intelligence_muse.prepare(j.current()['state'],data['phase'],j.bundle,data['focus'])['request_sha256']
+                                else:
+                                    study.fields(data,(*prefix,'phase','focus','request_sha256','reply'))
+                                    if not isinstance(data['reply'],str):raise ValueError('Saved intelligence reply must be text')
+                                    raw=data['reply'].encode();fingerprint=data['request_sha256']
+                                accepted=intelligence_muse.parse_reply(j.current()['state'],data['phase'],raw,fingerprint,j.bundle,data['focus'])
+                                action={'type':'accept','payload':accepted}
+                            elif path=='/api/intelligence/run':
+                                study.fields(data,prefix);action={'type':'run','payload':{}}
+                            else:self.send(404,{'error':'Unregistered intelligence endpoint; no transport available'});return
+                        j.apply(data['intelligence_hash'],action);self.send(200,{'intelligence':j.view(current)});return
+                    elif path in ('/api/public-algae/save','/api/public-algae/open'):
+                        journal=workspace.public_algae
+                        if journal is None:raise ValueError('Public algae review unavailable')
+                        if path.endswith('/save'):
+                            study.fields(data,('expected_hash','molecular_hash','selection','stage','note'))
+                            journal.save(data['molecular_hash'],{'selection':data['selection'],'stage':data['stage'],'note':data['note'],'context':molecular.context(current)})
+                        else:
+                            study.fields(data,('expected_hash','molecular_hash','package_json'))
+                            if data['molecular_hash']!=journal.current()['hash']:raise Conflict('Public algae review changed; reload before opening')
+                            if not isinstance(data['package_json'],str):raise ValueError('Public algae review must be JSON text')
+                            journal=molecular_store.Journal.from_package(study.decode(data['package_json']),journal.bundle)
+                            workspace.public_algae=journal
+                        self.send(200,{'public_algae':journal.view(current)});return
+                    elif path == '/api/molecular/save':
+                        study.fields(data, ('expected_hash','molecular_hash','selection','stage','note'))
+                        journal=workspace.molecular
+                        if journal is None:raise ValueError('Molecular review unavailable')
+                        journal.save(data['molecular_hash'],{'selection':data['selection'],'stage':data['stage'],'note':data['note'],'context':molecular.context(current)})
+                        self.send(200,{'molecular':journal.view(current)});return
+                    elif path == '/api/molecular/open':
+                        study.fields(data, ('expected_hash','molecular_hash','package_json'))
+                        journal=workspace.molecular
+                        if journal is None:raise ValueError('Molecular review unavailable')
+                        if data['molecular_hash']!=journal.current()['hash']:raise Conflict('Molecular review changed; reload before opening')
+                        if not isinstance(data['package_json'],str):raise ValueError('Molecular review must be JSON text')
+                        imported=molecular_store.Journal.from_package(study.decode(data['package_json']),journal.bundle)
+                        workspace.molecular=imported
+                        self.send(200,{'molecular':imported.view(current)});return
+                    elif path == '/api/cycle-review/open':
                         study.fields(data, ('expected_hash','review_json'))
                         if not isinstance(data['review_json'],str):
                             raise ValueError('Completed review must be JSON text')
@@ -183,6 +444,8 @@ def main(argv=None):
     source.add_argument('--completed-cycle-file', type=Path, help='Reopen exported cycle-with-usage JSON read-only')
     source.add_argument('--demo', action='store_true', help='Clearly synthetic offline replay; no provider calls')
     parser.add_argument('--port', type=int, default=0, help='Loopback port; default chooses an available port')
+    parser.add_argument('--rna-pilot-dir', type=Path, help='Explicit saved RNA comparison directory; read-only')
+    parser.add_argument('--completion-pilot-dir', type=Path, help='Explicit saved completion comparison directory; read-only')
     options = parser.parse_args(args)
     if not 0 <= options.port <= 65535:
         parser.error('Port must be between 0 and 65535')
@@ -191,8 +454,11 @@ def main(argv=None):
         store = (CompletedCycle(study.APP_ROOT/'data/synthetic-cycle') if options.demo else
                  CompletedCycle.from_file(options.completed_cycle_file) if options.completed_cycle_file else
                  CompletedCycle(options.completed_cycle_dir) if options.completed_cycle_dir else Store(options.data_dir))
-        server = make_server(store, options.port)
-        print('Open Traitweaver: http://127.0.0.1:'+str(server.server_port)+('/#muse-cycle' if isinstance(store,CompletedCycle) else ''), flush=True)
+        pilot_options={}
+        if options.rna_pilot_dir is not None:pilot_options['rna_pilot_dir']=options.rna_pilot_dir
+        if options.completion_pilot_dir is not None:pilot_options['completion_pilot_dir']=options.completion_pilot_dir
+        server = make_server(store, options.port, **pilot_options)
+        print('Open Traitweaver: http://127.0.0.1:'+str(server.server_port)+'/#journey', flush=True)
         print('Read-only recorded cycle. No execution.' if isinstance(store,CompletedCycle) else 'Local study storage. Browser transport disabled.', flush=True)
         server.serve_forever()
     except KeyboardInterrupt:

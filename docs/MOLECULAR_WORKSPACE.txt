@@ -1,0 +1,103 @@
+MOLECULAR PLANNING EXTENSION — LOCAL OWNER REVIEW, OCTOBER 30, 2026
+
+WHAT GOES IN → WHAT HAPPENS → WHAT COMES OUT
+A selected protein/reference and objective → explicit transcript/gene identity,
+isoform coordinate inspection and six planning checkpoints → a separately
+versioned molecular review with history, source qualification and blockers.
+No provider, retrieval, guide generation, edit-site selection or lab execution.
+
+OPEN
+From this local development checkout:
+  python3 -B run_workspace.py --demo
+The saved synthetic Muse cycle remains read-only. New molecular checkpoints are
+session-only in this mode; export them to keep them after stopping the server.
+
+For durable reviews with refresh/process-restart preservation:
+  python3 -B run_workspace.py --data-dir ../traitweaver-molecular-study
+Use an explicit directory outside the checkout; its parent must already exist.
+The existing study journal and molecular-review/review-NNNNNN.json files are
+separate. The enclosing workspace owner lock protects writes to both journals.
+The published baseline and previous screened snapshot are preserved separately.
+
+The completed real Muse packet may still be selected explicitly with the existing
+--completed-cycle-dir option. This extension never opens a real packet on its
+own and never attaches its synthetic models as evidence for that cycle.
+
+CLICK-THROUGH
+1. Protein ↔ gene: the default synthetic protein has two transcript candidates.
+   Nothing is chosen automatically. Inspect DEMO-TX-A.1 to resolve its synthetic
+   protein/transcript/gene/assembly chain. The related UTR transcript shares
+   that same protein model, demonstrating a one-to-many identity relationship.
+2. Splicing maps: choose DEMO-TX-UTR.1 as the comparison. It adds 100 transcript
+   nucleotides but zero coding nucleotides and zero model amino acids. Zero is
+   a computed difference, not an unknown. Inspect U4 to see null coding fields.
+3. Choose DEMO-TX-SKIP.1: E2 is absent from the comparison model. The coding-length
+   difference is -60 nt and the declared length-model difference is -20 aa.
+   This is invented exon membership, not an observed biological splice event.
+4. Choose DEMO-TX-PARTIAL.1: the coding length has remainder 1 modulo 3. Protein
+   projection stays unknown; no translation or functional effect is invented.
+5. Choose DEMO-P-M.1, then DEMO-TX-MINUS.1. Genomic coordinates increase left to
+   right; transcription goes right to left. Inspect M1 and its transcript offsets.
+6. Select public P42212. The saved public GFP record has a gene label only.
+   Versioned gene, transcript and assembly identities remain unavailable.
+7. CRISPR workflow: choose the planning objective and click each of six stages.
+   Expression increase/decrease, loss-of-function and isoform comparison select
+   high-level planning concepts. Identity, source/context suitability, controls,
+   independent units, readouts and thresholds remain explicit review questions.
+8. Record a planning checkpoint. It acknowledges review, not an experiment or
+   biological readiness. Changing selection/objective/context resets current
+   acknowledgments while preserving earlier revisions. Notes stay local.
+9. Export saved molecular review (JSON) and its readable plain-text brief. Open that JSON with its separate picker.
+   Reopening validates and displays a read-only molecular review; it never
+   overwrites the existing durable journal or an algae/Muse revision.
+   Unsaved control changes are not part of the exported saved record.
+
+DATA AND SCIENTIFIC LIMITS
+- data/molecular-demo.v1.json: authored synthetic coordinate fixture; no real
+  organism, genome, target sequence, guide, construct or private study input.
+  It has explicit source role software_fixture, TOY-ASSEMBLY.1, toy chromosomes,
+  invented versioned identifiers and genomic intervals. Its bytes are pinned.
+- Genomic/transcript and amino-acid model intervals are 0-based, half-open.
+  Exons are stored in transcript 5-prime order for the declared strand.
+  Toy coding spans exclude stop-codon modeling. This arithmetic does not verify
+  a translation, transcript abundance, splice junction, reading frame or activity.
+- The existing qualified public GFP snapshots supply accession/name/length/gene
+  label only to this extension. No new public retrieval was performed. No
+  synthetic gene identity is attributed to GFP or the algae PSR1 study.
+- Biological target readiness is always false in this bounded extension. A
+  consistent toy model does not qualify an intervention in a real organism.
+- No molecular material is added to the existing Muse request or action registry.
+  No model is called, and none of these views implies Muse chose a new target.
+
+CONTRACT AND STORAGE
+traitweaver.molecular_models.v1 identifies the fixture.
+traitweaver.molecular_catalog.v1 joins pinned models with qualified public gaps.
+traitweaver.molecular_review.v1 packages catalog, immutable revisions and limit.
+Each traitweaver.molecular_revision.v1 has a catalog SHA-256, revision/parent hash, timezone-qualified
+time, a closed selection/stage/note/context action, replayed state including
+the saved planning assessment, and SHA-256. Source changes cannot silently
+relabel earlier mappings: each revision is bound to the exact catalog hash.
+Selection has protein_id, explicit nullable transcript_id, nullable comparison_id
+and an allowlisted goal. Same-gene comparisons require matching versioned context.
+A note is limited to 1,000 characters and uses the existing export privacy gate.
+The context stores only study ID, study-revision hash and target endpoint; no
+study notes, credentials, provider responses or owner file paths are copied.
+
+Saves require both current study and molecular revision identities, same origin
+and the session token. Writes use a fresh temporary file and atomic no-overwrite
+publication. Stale/corrupt/oversized packages and unsupported fields are refused.
+An invalid molecular fixture/review blocks only this extension; the core study
+remains available. Exports replay and retain null versus zero and all blockers.
+The mutable browser draft is separate from a saved checkpoint. Export/reopen
+and planning reviews create no experiment, original study result or model call.
+
+OFFLINE VERIFICATION
+  PYTHONPATH=src python3 -B -m unittest discover -s tests -q
+  node tests/completed_cycle_ui_offline.cjs
+  node tests/molecular_ui_offline.cjs
+  python3 -B tools/verify_handoff.py
+The unit/controller checks use memory buffers and fake local fetch responses,
+not a real API/server. Native browser/real-file dialogs need an owner rehearsal.
+The verifier now works in a Git checkout: root .git is skipped without reading
+it; nested Git metadata, unknown files, secret-named paths, symlinks and changed
+manifest bytes still fail. No blanket license or publication approval is added.

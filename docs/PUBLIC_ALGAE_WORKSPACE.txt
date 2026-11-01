@@ -1,0 +1,81 @@
+PUBLIC ALGAE — REAL IDENTITIES, TRACEABLE FILES, HONEST UNKNOWNS
+
+START
+If an earlier app is still running, stop it with Ctrl-C in its own terminal.
+A browser refresh alone cannot replace already imported Python server code.
+From this checkout, start a new editable reference review:
+
+python3 -B run_workspace.py --data-dir ../traitweaver-public-reference-study
+
+The existing parent directory must exist; saved data stays outside the repo.
+Open the printed 127.0.0.1 URL. No installation, key or external connection.
+Alternatively --demo opens the synthetic completed Muse replay while permitting
+a separate public-reference review in memory. Export that review to retain it.
+The public molecular header says Public reference, while the completed Muse
+view retains its own real/synthetic provenance. These are different records.
+
+CLICK PATH
+1. CRISPR workflow → Define the question. Choose a planning objective. It changes
+   the concept for review, not the source annotation or biological evidence.
+2. Resolve identity → Inspect and select XM_001700501.2. Protein XP_001700553.1,
+   transcript XM_001700501.2 and GeneID:5726104 are linked in the raw records.
+   Alternatively open Protein ↔ gene in the sidebar to inspect this chain.
+3. Inspect transcripts, or Splicing maps in the sidebar. Choose REF-exon-1,
+   REF-exon-2 or REF-exon-3 (mouse or Enter/Space). The inspector explains
+   chromosome, transcript, coding and protein intervals and their units.
+4. Choose a concept → Plan measurements. Read what is established and what
+   would need experimental evidence. These cards come from the pinned
+   evidence-needed/REQUIREMENTS.json; observations is an empty list.
+5. Review and preserve → Save a checkpoint. Select Export saved reference
+   review and Export readable brief. Reopen the JSON in the reference picker
+   to inspect it read-only without rerunning any model or biological check.
+
+SOURCE FOLDER
+data/public-algae/psr1-reference/
+  README.txt — what goes in, what is calculated, what comes out, limits
+  SOURCE_MANIFEST.json — five exact source files, hashes, URLs and locators
+  refseq_XP_001700553.1.gb — versioned RefSeq protein and conceptual translation
+  refseq_XM_001700501.2.gb — transcript, gene/CDS identifiers and sequence
+  reference_gene_region.gb — extracted chromosome region, annotated exon/CDS joins
+  assembly_report.txt — assembly, reference strain and chromosome correspondence
+  uniprot_Q9S807.fasta — cached unreviewed sequence, locally reconciled to RefSeq
+  reference.v2.json — independently derived catalog, source trace and checks
+  evidence-needed/REQUIREMENTS.json — four requirements, no observations
+
+The source panel in every public molecular view links to the five raw files
+through a closed local allowlist. No directory browsing, arbitrary retrieval
+or source upload is implemented. Public website links open only when clicked;
+the app does not fetch them. Failure of source validation blocks this case,
+with no silent substitution. The synthetic mode is an explicit separate choice.
+
+REPRODUCE
+PYTHONPATH=src python3 -B tools/verify_public_algae.py
+This rechecks each public file's bytes, exact record accessions and qualifiers,
+joins the genomic exons and translates the CDS with standard genetic code 1.
+The checked translation equals the RefSeq protein and cached UniProt sequence.
+The generated catalog must equal the pinned reference.v2.json exactly.
+
+WHAT THIS DOES NOT ESTABLISH
+The reference strain is CC-503 cw92 mt+; the paper's UVM4 lines/construct are
+not automatically sequence-equivalent. PSR1 association is gene-level through
+the paper identifier; RefSeq still says uncharacterized protein / PROVISIONAL.
+One admitted transcript is not evidence that alternative splicing is absent.
+Neither splice-junction expression, protein activity nor phosphorus recovery
+has been measured by this software. A real isoform comparison remains blocked
+until another qualified transcript is admitted. No general importer, guide
+sequence, edit site, construct or executable laboratory protocol is provided.
+
+HISTORY
+v2 public-reference reviews live in external public-algae-review-v2, separate
+from earlier molecular-review v1 synthetic records and original study/Muse
+history. Catalog hashes, parent hashes, current study identity, atomic writes
+and stale-edit checks apply. Imported reviews are read-only. Changed goals or
+study contexts retain earlier assessments and reset affected acknowledgements.
+The original closed v1 study/Muse schemas and pinned evidence stay unchanged.
+
+QUALIFICATION
+The new mode is tested with primary-file reconciliation, fault injection,
+in-memory actual HTTP handlers and shipped JavaScript controllers. Isolated
+copies do not need the original caches/private folders. Fresh rendered-browser
+desktop/narrow checks and native download/file-picker rehearsal remain pending.
+No API/provider call, install, commit, push or upload was used for this addition.

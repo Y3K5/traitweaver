@@ -86,3 +86,90 @@ panels and off-white text, blue interactions and limited orange highlights.
 Changes live in extension CSS / the GFP template and theme-color metadata.
 Pinned base.css, brand/font source assets and all research data are unchanged.
 The original logotype is rendered white with a CSS filter; its source is intact.
+
+OCTOBER 30 UNPUBLISHED MOLECULAR EXTENSION
+The owner requested the three linked molecular views using only public or
+synthetic records, with no API calls or pushes before review. New synthetic
+coordinates are freshly authored and have a software_fixture source role.
+Qualified GFP accession/name/length/gene-label metadata comes only from the
+existing pinned local public snapshots. No real gene/transcript identity or
+genomic coordinates are invented for GFP or attached to the algae study.
+The separate molecular catalog/review/journal contracts preserve the closed
+algae/Muse interfaces and evidence bytes. No original contract is expanded.
+The user confirmed design distribution rights for the published baseline; the
+software license remains undecided. This local extension has no publication
+approval and is not covered by the earlier 69-file push authorization.
+
+OCTOBER 30 PUBLIC ALGAE REFERENCE
+Five raw public primary records were selected from already cached, provenance-
+qualified public downloads and copied byte-for-byte after hash checks. No new
+external retrieval was made. They are RefSeq XP_001700553.1 and XM_001700501.2,
+NC_057015.1 region 724592..729993, the GCF_000002595.2 assembly report and
+unreviewed UniProt Q9S807 FASTA. Their source URLs/hashes/locators and freshness
+limits are in data/public-algae/psr1-reference/SOURCE_MANIFEST.json.
+
+A fresh bounded parser derives reference.v2.json, independently joining genomic
+exons and translating the CDS from those records. The stop-inclusive source CDS
+and stop-exclusive peptide coding spans remain distinct. Reference agreement
+is demonstrated computationally, not experimentally. Gene-level association
+with PSR1 uses only the paper identifier and public section locator, checked in
+cached full text. No private identity map, internal planning example, fusion
+sequence, full paper/methods or previous authored reconciliation was imported.
+
+The new evidence requirements contain zero observations. They distinguish
+annotation, calculation, missing strain qualification, transcript support,
+protein evidence and separate phosphorus endpoints. Public-reference saves and
+exports use v2 in a separate journal; earlier synthetic v1 packages keep their
+catalog and replay behavior. Original study/evidence/Muse records remain intact.
+These local files require fresh owner review before any publication.
+
+OCTOBER 30 OFFLINE INTELLIGENCE IMPLEMENTATION
+New modules intelligence.py / intelligence_muse.py / intelligence_store.py and a
+separate UI implement the source-bound molecular reasoning contract. Fresh code
+uses the already admitted public study bundle and reference catalog. No private
+planning example, raw chat, authored internal scientific plan or owner run packet
+was copied. No new retrieval or live model call was made.
+Three registered checks audit trait evidence, role-based combination coverage
+and recipient-context qualification. Only one PSR1-associated candidate is
+admitted; no additional required proteins, pair effects or cross-species recipient
+is inferred. Closed claim codes, exact arguments/citations and state/source hashes
+are validated. Synthetic examples exercise the reasoning boundary and stay
+visibly labelled; imported authenticity remains unverified.
+New intelligence records and packages are distinct from all earlier contracts.
+Old study/Muse/evidence modules and reference pins remain unchanged. Source
+expansion, actual Muse inference and publication require separate owner review.
+
+OCTOBER 31 WORKBENCH ADAPTATION
+The owner supplied traitweaver-outline-demo.zip. Its reviewed archive SHA-256:
+51474e939f1b910c06c9eb720741b85e4da9f544cc7890a13e6854db9f1737b3
+Only its three-column question/checkpoint/audit presentation pattern and explicit
+unknown/human-review distinction were adapted into the current implementation.
+No archive runtime, example, source catalog, fixtures, schema or dependency was
+imported. Existing assistant, study, GFP, mapping, intelligence and story records
+remain authoritative and unchanged. Fresh workbench/history/privacy code and
+tests were authored locally; separate v1 package, no original contract expansion.
+No new source retrieval, API spending, Git mutation or publishing authorization.
+
+October 31 human experience reuses the same four pinned public/synthetic cases
+and unchanged study/assistant/mapping/intelligence contracts. Fresh presentation
+copy is an explanation, not new admitted evidence. Real Muse work is projected
+only from a separately loaded owner-local original algae cycle; no owner packet
+is copied into this tree. Request preparation uses only assistant.prepare's
+existing fixed-case public body, never notes, credentials or a new transport.
+The offline exercise emits public/synthetic qualification files externally.
+
+October31 local extension: independent source-bound synthetic RNA metadata journal,
+receipt-aware2x2 comparison protocol/unsigned transport adapter, and animated
+Research journey. All new design/transfer stages remain proposals; no CRISPR
+sequence, cassette, executable wet-lab method or engineered organism is produced.
+New files are authored locally using existing public/synthetic records. Original
+scientific contracts, source fixtures and earlier completed live packets remain
+byte-identical. This authorization included no new live call, credentials, install,
+Git mutation, upload or publication. New comparison needs exact fresh approval.
+
+October31 focused-MVP extension: authored frontend companions read existing public
+source snapshots and a validated loaded original cycle summary. New presentation
+state affects layout only. All existing scientific fixtures/contracts, Python
+logic, live transport and real owner packets are unchanged. No generated GIF or
+external media is copied into the candidate. Model calls/uploads/spending are0
+in this pass. Public event-page browsing supplies planning context only.

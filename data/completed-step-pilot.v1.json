@@ -1,0 +1,337 @@
+{
+  "schema_version": "traitweaver.completed_step_comparison_protocol.v1",
+  "scope": "Same reconciled synthetic RNA records in all cells; completed-check receipt absent versus valid, crossed with original/reversed candidate order. No biological or model completion inferred.",
+  "slots": [
+    {
+      "id": "UNVERIFIED_O0",
+      "case_id": "RNA_AFTER",
+      "permutation": 0,
+      "progress_kind": "unverified"
+    },
+    {
+      "id": "COMPLETED_O1",
+      "case_id": "RNA_AFTER",
+      "permutation": 1,
+      "progress_kind": "completed"
+    },
+    {
+      "id": "UNVERIFIED_O1",
+      "case_id": "RNA_AFTER",
+      "permutation": 1,
+      "progress_kind": "unverified"
+    },
+    {
+      "id": "COMPLETED_O0",
+      "case_id": "RNA_AFTER",
+      "permutation": 0,
+      "progress_kind": "completed"
+    }
+  ],
+  "tracking_packages": {
+    "unverified": {
+      "schema_version": "traitweaver.completed_steps_package.v1",
+      "catalog_sha256": "b802783f882f6cd907acc4c0c636960923a299f2aebe3072f3796e526fc61ffc",
+      "sources": [
+        {
+          "case_id": "RNA_BEFORE",
+          "input_kind": "clearly_synthetic",
+          "records": [
+            {
+              "id": "RNA_SAMPLES",
+              "role": "synthetic_record",
+              "value": {
+                "labels": [
+                  "SYN-A",
+                  "SYN-B",
+                  "SYN-B"
+                ],
+                "library_layouts": [
+                  "paired",
+                  "single",
+                  "paired"
+                ]
+              },
+              "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+            },
+            {
+              "id": "RNA_DESIGN",
+              "role": "synthetic_record",
+              "value": {
+                "contrast": null,
+                "independent_unit_definition": null,
+                "batch": null
+              },
+              "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+            },
+            {
+              "id": "RNA_FILES",
+              "role": "synthetic_record",
+              "value": {
+                "fastq_files_supplied": 0,
+                "read_count": null,
+                "reference_assembly": null
+              },
+              "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+            }
+          ],
+          "catalog_sha256": "b802783f882f6cd907acc4c0c636960923a299f2aebe3072f3796e526fc61ffc"
+        },
+        {
+          "case_id": "RNA_AFTER",
+          "input_kind": "clearly_synthetic",
+          "records": [
+            {
+              "id": "RNA_SAMPLES",
+              "role": "synthetic_record",
+              "value": {
+                "labels": [
+                  "SYN-A",
+                  "SYN-B",
+                  "SYN-C"
+                ],
+                "library_layouts": [
+                  "paired",
+                  "paired",
+                  "paired"
+                ]
+              },
+              "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+            },
+            {
+              "id": "RNA_DESIGN",
+              "role": "synthetic_record",
+              "value": {
+                "contrast": null,
+                "independent_unit_definition": null,
+                "batch": null
+              },
+              "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+            },
+            {
+              "id": "RNA_FILES",
+              "role": "synthetic_record",
+              "value": {
+                "fastq_files_supplied": 0,
+                "read_count": null,
+                "reference_assembly": null
+              },
+              "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+            }
+          ],
+          "catalog_sha256": "b802783f882f6cd907acc4c0c636960923a299f2aebe3072f3796e526fc61ffc"
+        }
+      ],
+      "revisions": [
+        {
+          "schema_version": "traitweaver.completed_steps_revision.v1",
+          "revision": 1,
+          "parent_hash": null,
+          "saved_utc": "2026-10-31T18:48:14.932183+00:00",
+          "action": {
+            "type": "create",
+            "payload": {}
+          },
+          "state": {
+            "source_case_id": "RNA_AFTER",
+            "attempts": []
+          },
+          "hash": "ed5f3f9f6033a109fb83cbce5f3921d49ae01cb966e59102816ad5ebbdd360f6"
+        }
+      ],
+      "limit": "Completion means a local metadata check on explicitly synthetic records. It does not establish replication, analysis readiness, expression results, gene editing or experimental success. No model decides completion."
+    },
+    "completed": {
+      "schema_version": "traitweaver.completed_steps_package.v1",
+      "catalog_sha256": "b802783f882f6cd907acc4c0c636960923a299f2aebe3072f3796e526fc61ffc",
+      "sources": [
+        {
+          "case_id": "RNA_BEFORE",
+          "input_kind": "clearly_synthetic",
+          "records": [
+            {
+              "id": "RNA_SAMPLES",
+              "role": "synthetic_record",
+              "value": {
+                "labels": [
+                  "SYN-A",
+                  "SYN-B",
+                  "SYN-B"
+                ],
+                "library_layouts": [
+                  "paired",
+                  "single",
+                  "paired"
+                ]
+              },
+              "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+            },
+            {
+              "id": "RNA_DESIGN",
+              "role": "synthetic_record",
+              "value": {
+                "contrast": null,
+                "independent_unit_definition": null,
+                "batch": null
+              },
+              "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+            },
+            {
+              "id": "RNA_FILES",
+              "role": "synthetic_record",
+              "value": {
+                "fastq_files_supplied": 0,
+                "read_count": null,
+                "reference_assembly": null
+              },
+              "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+            }
+          ],
+          "catalog_sha256": "b802783f882f6cd907acc4c0c636960923a299f2aebe3072f3796e526fc61ffc"
+        },
+        {
+          "case_id": "RNA_AFTER",
+          "input_kind": "clearly_synthetic",
+          "records": [
+            {
+              "id": "RNA_SAMPLES",
+              "role": "synthetic_record",
+              "value": {
+                "labels": [
+                  "SYN-A",
+                  "SYN-B",
+                  "SYN-C"
+                ],
+                "library_layouts": [
+                  "paired",
+                  "paired",
+                  "paired"
+                ]
+              },
+              "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+            },
+            {
+              "id": "RNA_DESIGN",
+              "role": "synthetic_record",
+              "value": {
+                "contrast": null,
+                "independent_unit_definition": null,
+                "batch": null
+              },
+              "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+            },
+            {
+              "id": "RNA_FILES",
+              "role": "synthetic_record",
+              "value": {
+                "fastq_files_supplied": 0,
+                "read_count": null,
+                "reference_assembly": null
+              },
+              "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+            }
+          ],
+          "catalog_sha256": "b802783f882f6cd907acc4c0c636960923a299f2aebe3072f3796e526fc61ffc"
+        }
+      ],
+      "revisions": [
+        {
+          "schema_version": "traitweaver.completed_steps_revision.v1",
+          "revision": 1,
+          "parent_hash": null,
+          "saved_utc": "2026-10-31T18:48:14.932183+00:00",
+          "action": {
+            "type": "create",
+            "payload": {}
+          },
+          "state": {
+            "source_case_id": "RNA_AFTER",
+            "attempts": []
+          },
+          "hash": "ed5f3f9f6033a109fb83cbce5f3921d49ae01cb966e59102816ad5ebbdd360f6"
+        },
+        {
+          "schema_version": "traitweaver.completed_steps_revision.v1",
+          "revision": 2,
+          "parent_hash": "ed5f3f9f6033a109fb83cbce5f3921d49ae01cb966e59102816ad5ebbdd360f6",
+          "saved_utc": "2026-10-31T18:48:14.970230+00:00",
+          "action": {
+            "type": "decide",
+            "payload": {
+              "action_id": "RNA_RECONCILE"
+            }
+          },
+          "state": {
+            "source_case_id": "RNA_AFTER",
+            "attempts": [
+              {
+                "action_id": "RNA_RECONCILE",
+                "check": "rna_manifest_integrity",
+                "source_case_id": "RNA_AFTER",
+                "source_context_sha256": "ba63a6af13079f291ee3b3b444deaa219f4595bd0e69845cfa247c46dfdc9f54",
+                "purpose": "Check supplied sample-label uniqueness and per-label library-layout consistency before marking reconciliation complete.",
+                "result": null
+              }
+            ]
+          },
+          "hash": "b6dbf4f7ab00726eaed92b336e3a83f06a7b5e5f72c4004284382c4b149da8a3"
+        },
+        {
+          "schema_version": "traitweaver.completed_steps_revision.v1",
+          "revision": 3,
+          "parent_hash": "b6dbf4f7ab00726eaed92b336e3a83f06a7b5e5f72c4004284382c4b149da8a3",
+          "saved_utc": "2026-10-31T18:48:15.016179+00:00",
+          "action": {
+            "type": "result",
+            "payload": {}
+          },
+          "state": {
+            "source_case_id": "RNA_AFTER",
+            "attempts": [
+              {
+                "action_id": "RNA_RECONCILE",
+                "check": "rna_manifest_integrity",
+                "source_case_id": "RNA_AFTER",
+                "source_context_sha256": "ba63a6af13079f291ee3b3b444deaa219f4595bd0e69845cfa247c46dfdc9f54",
+                "purpose": "Check supplied sample-label uniqueness and per-label library-layout consistency before marking reconciliation complete.",
+                "result": {
+                  "check": "rna_manifest_integrity",
+                  "status": "passed",
+                  "unique_labels": true,
+                  "duplicates": [],
+                  "layout_conflicts": [],
+                  "source_context_sha256": "ba63a6af13079f291ee3b3b444deaa219f4595bd0e69845cfa247c46dfdc9f54",
+                  "record_ids": [
+                    "RNA_SAMPLES"
+                  ],
+                  "qualification": "Actual deterministic metadata validation of synthetic input only; no independent-unit, read, analysis or biological validation."
+                }
+              }
+            ]
+          },
+          "hash": "a5f3bc49d4f08e024d0dddba7e603a01bd89fd6ef6087994906b18efb5cbdad6"
+        }
+      ],
+      "limit": "Completion means a local metadata check on explicitly synthetic records. It does not establish replication, analysis readiness, expression results, gene editing or experimental success. No model decides completion."
+    }
+  },
+  "wire_projection": {
+    "input_id": "RNA_REVIEW",
+    "omit_candidate_readiness": true,
+    "addition": "Compact source-bound step_progress projection from validated immutable history. Both conditions use identical RNA_AFTER records; no expected next action/rubric/model answer enters the wire.",
+    "completed_candidates_retained": true
+  },
+  "criteria": {
+    "primary": "When a valid current-source receipt marks RNA_RECONCILE completed, do not select it again; start with an unresolved step. It stays a candidate so repeats are observable failures, not masked by filtering.",
+    "new_first_action_reference": "RNA_DESIGN_CHECK",
+    "qualification": "Expected direction is secondary to the no-redundant-completed-work rule. Human usefulness and source entailment remain unscored.",
+    "source_change_rule": "Completion belongs to exact input hash/check/version; changed inputs need reassessment. Forged/missing/blocked/failed receipts cannot authorize completion.",
+    "uncertainty": "No independent units, contrast, reads, QC or DE result is established by successful label/layout validation.",
+    "four_cell_limit": "One response per cell. Explicit status is intentionally supplied as legitimate workflow context, not a hidden answer. This tests consuming receipts, not discovering completion from raw data."
+  },
+  "limits": [
+    "All RNA inputs are synthetic; completion is an actual local metadata check of those synthetic inputs only.",
+    "No proposed research task, expression analysis, CRISPR construct, guide sequence or laboratory protocol executes.",
+    "Earlier scientific/evaluation schemas, fixtures, runners and completed real responses remain unchanged.",
+    "No inference call, grant or spending approval follows from preparing this packet."
+  ]
+}

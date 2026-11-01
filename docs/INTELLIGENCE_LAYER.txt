@@ -1,0 +1,151 @@
+MOLECULAR MUSE INTELLIGENCE — OFFLINE IMPLEMENTATION
+
+WHAT GOES IN
+Controlled trait endpoint, an optional growth point-mean margin, a role-based
+combination question and an admitted recipient context. Inputs use the existing
+pinned public study and five public PSR1-associated reference files. The exact
+literature/reference catalog hashes are retained with every intelligence record.
+The source tables retain units, SE, n and measurement basis.
+
+WHAT HAPPENS
+Muse intelligence is a separate sidebar view with three review foci:
+  Trait → protein: publication association, exact reference identity and gaps.
+  Combinations: role slots, candidate coverage and absent interaction evidence.
+  Species / context transfer: recipient identity and compatibility requirements.
+
+A saved scope precedes reasoning. Prepare public Muse payload shows the exact
+request without sending it. Use synthetic offline example exercises the typed
+selection boundary; its label and response fingerprint remain in the record.
+One registered local check then runs from the saved decision. A separate typed
+reassessment classifies its actual receipt. Another cycle needs a deliberate
+action. Duplicate, stale and out-of-order actions are rejected.
+
+WHAT COMES OUT
+Source-cited candidate interpretations, exact public identity links, named
+blockers, comparison/control/readout/independent-unit requirements, preserved
+decision/result/reassessment records and JSON/readable exports. Saved packages
+reopen read-only without dispatching a registered check or model. Deterministic
+source-bound calculations are used only to validate the recorded receipts.
+
+THE THREE LOCAL CHECKS
+trait_evidence_audit — retains matching admitted observations. Uptake can support
+only a published source-context association, not necessary/sufficient proteins
+or a causal recovery effect. Growth ratios are descriptive same-study point
+means against UVM4; no significance/equivalence or recovery ranking. A conflicting
+chosen margin is called contradictory on this limited point-mean basis.
+combination_coverage — one candidate is admitted; at least two qualified distinct
+identities and comparison/interaction evidence are absent. Pair count 0 remains
+different from null combination effect, synergy, antagonism and stoichiometry.
+Role slots are hypotheses, not required proteins or proof that each role needs
+a different protein.
+transfer_coverage — the CC-503 reference can qualify reference identity only.
+UVM4 is a same-species study context, without an exact recipient assembly/sequence
+map here. No cross-species recipient is admitted. Orthology, regulation,
+localization, partners, expression, function, fitness and phenotype remain
+unqualified. No transfer-success probability is produced.
+
+SOURCE AND CLAIM BOUNDARY
+The reference product remains RefSeq PROVISIONAL / uncharacterized protein;
+UniProt Q9S807 is unreviewed. PSR1 association is gene-level through the public
+paper identifier. A CC-503 reference mapping is not a sequence-qualified mapping
+of UVM4 intervention lines. One public transcript is admitted.
+If reference validation fails, its exact identities stay unavailable while
+independently pinned public study observations can still be inspected. A changed
+source catalog cannot silently replay a saved intelligence journal.
+
+MUSE PREPARATION AND ACCEPTANCE
+intelligence_muse.py contains no network transport or credential access. It
+prepares a separate typed request targeting muse-spark-1.3, store:false and at
+most 1024 output tokens. A public state/catalog fingerprint binds the request
+to this cycle. Prepared payloads contain only admitted public evidence and
+controlled scope: owner study notes and raw earlier replies are excluded.
+Provider compatibility/live acceptance has not been tested for this new boundary.
+Future live sending requires a separate owner review of exact payload,
+destination and spending limit; no existing grant is reused.
+
+Closed claim codes prevent new protein identities, necessity/sufficiency claims,
+combination effects or transfer success from being invented. Required citations
+and exact action arguments are validated locally. Refusals, incomplete/wrong-model
+responses, unknown citations, altered scope, unrestricted tool outputs and
+unsupported claims cannot dispatch a check. Only accepted typed proposals,
+hashes and bounded numeric usage persist; raw provider responses are excluded.
+Imported authenticity is unverified. No cost estimate is invented. Synthetic
+examples have no reported actual token usage and invoke no live transport.
+
+CONTRACTS AND STORAGE
+New: traitweaver.intelligence_catalog.v1, intelligence_request.v1,
+intelligence_revision.v1, intelligence_result.v1, intelligence_package.v1.
+Existing study/Muse, completed-cycle, synthetic molecular v1 and public-reference
+v2 schemas/evidence pins remain unchanged. New records use intelligence-review-v1
+under the explicit external study directory, sharing its owner lock/mutex.
+Immutable parent hashes, current owning/intelligence revision IDs, same-origin
+session authorization, bounded packages and atomic no-overwrite saves apply.
+Changes to scope or owning study preserve prior results and mark them for review.
+Software failures are saved as failed with safe fixed detail; unavailable,
+inconclusive, contradictory and supported source association remain distinct.
+
+TRY IT
+python3 -B run_workspace.py --data-dir ../traitweaver-intelligence-study
+Open the printed loopback URL → Muse intelligence.
+1. Pick endpoint/context and Save review scope.
+2. Choose Trait → protein, Combinations or Species / context transfer.
+3. Prepare public Muse selection payload to inspect it; nothing is sent.
+4. Use synthetic offline selection example to record a labelled decision.
+5. Run the saved local check.
+6. Use synthetic offline reassessment example to save the separate assessment.
+7. Export saved intelligence JSON/readable brief; reopen its own JSON read-only.
+
+--demo also permits a separate session-only intelligence review while retaining
+the original completed synthetic Muse cycle read-only. Export that independent
+review to retain it after shutdown. Existing real owner packets are not bundled.
+
+VERIFY OFFLINE
+PYTHONPATH=src python3 -B -m unittest discover -s tests -p 'test_*.py' -q
+node tests/intelligence_ui_offline.cjs
+The controller suite runs shipped scripts against actual Python handlers/core
+over in-memory connections, with sockets denied and no generated file writes.
+
+LIMITS
+This implements the review/reasoning boundary and deterministic offline examples.
+It does not run new Muse inference, discover a sufficient protein set, qualify
+a cross-species recipient, generate guide/edit/construct sequences or executable
+laboratory protocols, or validate any biological intervention. No general evidence
+importer, arbitrary scripts/retrieval or live send/enable endpoint is provided.
+Source expansion and live provider approval remain separate decisions.
+
+SERIALIZATION QUALIFICATION
+Prepared-request schema arrays use deterministic ordering, so scope dictionary
+key ordering cannot change a request fingerprint after JSON persistence. Early
+local test records are validated against their bounded historical array order
+without rewriting them. New response admission requires the current deterministic
+request. Complete saved cycles are tested through canonical JSON and disk restart.
+
+ACTUAL BROWSER INTELLIGENCE JSON QUALIFICATION — OCTOBER 30, 2026
+
+Data flow -> Export -> Export Muse intelligence review JSON triggered the actual
+browser download event. The downloaded JSON was selected through the actual
+intelligence-file chooser, not substituted through a direct POST. The app then
+showed imported read-only status and disabled scope saving/selection/preparation.
+Browser refresh preserved that view. All 18 history rows, five cycles, five
+results, five reassessments and three earlier-context labels were retained.
+A subsequent read-only local export matched the downloaded package exactly as
+JSON. All 19 saved disk JSON records stayed byte-for-byte unchanged. The package
+matches the previously exported r18 review and retains synthetic provenance.
+
+No application-code defect was observed. A retained owner lock initially
+prevented startup; the recorded process was confirmed gone, no listener/open
+study handles remained, and only that stale lock was removed before restart.
+
+TIMING LIMIT: download automation returned after about 127 seconds; the native
+file-picker/import automation call returned after about 17,236 seconds. These
+are tool wall times, not isolated app processing times. Eventual functionality
+passed, but a manually timed three-minute export/reopen demonstration is not
+qualified. Do not repeat live inference or claim this proved smooth demo timing.
+Show the already imported review in a timed demo until manual timing is checked.
+Other package-family native dialogs and malformed-file picker cases were not
+rerun. Existing offline rejection/round-trip tests remain separate evidence.
+
+The browser-downloaded file passed the existing privacy-pattern screen. No live
+provider call, key access, new model/local check, install, upload, commit or push.
+The prior 202 Python tests / 113 controller scenarios remain the preceding
+qualification, not a newly rerun suite. Relevant controllers were rerun separately.

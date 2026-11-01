@@ -17,7 +17,7 @@
       "destination": "THIRD_PARTY_NOTICES.md",
       "source": "THIRD_PARTY_NOTICES.md",
       "source_sha256": "c59d34cfd496c8752eaf768172e1f7da83054b3e612106e23a764046b94fb7b3",
-      "candidate_sha256": "c59d34cfd496c8752eaf768172e1f7da83054b3e612106e23a764046b94fb7b3",
+      "candidate_sha256": "062f7677328046393e49bea24e97ef61a0f3fbeaa0711fb200b2c32b642f2716",
       "transformation": "Byte-identical selected source",
       "source_git_status": "untracked local source"
     },
@@ -73,9 +73,10 @@
       "destination": "src/traitweaver/protein_card.py",
       "source": "src/traitweaver/protein_card.py",
       "source_sha256": "f4815ff952e5ab35b227e477728b5db6ca5bcf3204dcfc8d3a7e686446838052",
-      "candidate_sha256": "f4815ff952e5ab35b227e477728b5db6ca5bcf3204dcfc8d3a7e686446838052",
+      "candidate_sha256": "1eed6a5a7d907ea1f8945a0e70b5d7818fb40a5f0adbd97afc88c132a8d056cd",
       "transformation": "Byte-identical selected source",
-      "source_git_status": "untracked local source"
+      "source_git_status": "untracked local source",
+      "assistant_followup": "GFP text-ID retention or separate offline assistant contract documentation; prior provenance retained."
     },
     {
       "destination": "src/traitweaver/protein_card.html",
@@ -145,9 +146,10 @@
       "destination": "tests/test_protein_card.py",
       "source": "tests/test_protein_card.py",
       "source_sha256": "5f16e7243cc16c12893469dcd5ccff3cde4a4356a9b20c5f53215284e9e303e7",
-      "candidate_sha256": "5f16e7243cc16c12893469dcd5ccff3cde4a4356a9b20c5f53215284e9e303e7",
+      "candidate_sha256": "effe9485ff39dc2e5b92e3b9cfaa461a920698371f1300f7c22dcdb6ea6a3369",
       "transformation": "Byte-identical selected source",
-      "source_git_status": "untracked local source"
+      "source_git_status": "untracked local source",
+      "assistant_followup": "GFP text-ID retention or separate offline assistant contract documentation; prior provenance retained."
     },
     {
       "destination": "tests/check_workspace_http.py",
@@ -169,9 +171,12 @@
       "destination": "AGENTS.md",
       "source": "docs/PUBLIC_AGENT_RULES.md",
       "source_sha256": "f06496bf23f1927ae7f61582e7f1a568b8bb0f2dab0c167443aff46639b43d5c",
-      "candidate_sha256": "2ecb72d8e27c5215c247d1d30cb65223ce521bee4189727060e16df80dc820f1",
-      "transformation": "Bounded candidate adaptation; receipt privacy, typed usage, read-only cycle reopen, check-specific UI, terminal gates or self-contained tests as applicable. See docs/SCOPE_AND_PROVENANCE.txt. Authoring source preserved separately.",
-      "source_git_status": "untracked local source"
+      "candidate_sha256": "4bde2a9f944db63a0d788b861b45bc83199f6e072bd260183a89bc278554ea23",
+      "transformation": "Published bounded source plus local molecular extension; see docs/MOLECULAR_WORKSPACE.txt. No original scientific records changed. October31 completed-check and animated-journey extension; original scientific inputs preserved. Focused MVP presentation, unchanged source contracts, local review only.",
+      "source_git_status": "untracked local source",
+      "assistant_followup": "GFP text-ID retention or separate offline assistant contract documentation; prior provenance retained.",
+      "assistant_browser_followup": "Independent local assistant view/session and demo documentation; original provenance retained.",
+      "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained."
     },
     {
       "destination": "src/traitweaver/study_store.py",
@@ -257,33 +262,41 @@
       "destination": "src/traitweaver/web/workspace.css",
       "source": "src/traitweaver/web/workspace.css",
       "source_sha256": "b6c0cc93cfb7fccf3133782f4f4c9c1cfb0bc08187cf4c0d60cbd8b5117d7720",
-      "candidate_sha256": "b6c0cc93cfb7fccf3133782f4f4c9c1cfb0bc08187cf4c0d60cbd8b5117d7720",
+      "candidate_sha256": "87ddc63f1f03b79faf184446653bfded0b184bf853f2657f19ddf33563280146",
       "transformation": "Byte-identical selected source",
-      "source_git_status": "untracked local source"
+      "source_git_status": "untracked local source",
+      "assistant_browser_followup": "Independent local assistant view/session and demo documentation; original provenance retained.",
+      "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained."
     },
     {
       "destination": "src/traitweaver/web/index.html",
       "source": "handoff/mvp-v1/web/index.html",
       "source_sha256": "6d29b0ebf2f4c49e13a6a8a7b47189964f131b51ecee4f256dcedb7cda8d0e0d",
-      "candidate_sha256": "7f90bcd8c40bc81f592e7315de1f72e720cb4864b241c093e7826a83e6ee4c5c",
-      "transformation": "Bounded candidate adaptation; receipt privacy, typed usage, read-only cycle reopen, check-specific UI, terminal gates or self-contained tests as applicable. See docs/SCOPE_AND_PROVENANCE.txt. Authoring source preserved separately.",
-      "source_git_status": "untracked local source"
+      "candidate_sha256": "0c45fcd786f5c94c765580c13d252e71c5dcbf7a9ff8ec6728f5e2ce54aabceb",
+      "transformation": "Published bounded source plus local molecular extension; see docs/MOLECULAR_WORKSPACE.txt. No original scientific records changed. October31 completed-check and animated-journey extension; original scientific inputs preserved.",
+      "source_git_status": "untracked local source",
+      "assistant_browser_followup": "Independent local assistant view/session and demo documentation; original provenance retained.",
+      "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained."
     },
     {
       "destination": "src/traitweaver/web/workspace.js",
       "source": "src/traitweaver/web/workspace.js",
       "source_sha256": "4868c392a2c79e8b3e2f16d0d54719fb2257bf3a3cc46f63e52d0ab9b9866e0c",
-      "candidate_sha256": "6ff474851f80e41fafd5a50a3b313712fcf5e887d4b036be70928e67e11f2a33",
-      "transformation": "Bounded candidate adaptation; receipt privacy, typed usage, read-only cycle reopen, check-specific UI, terminal gates or self-contained tests as applicable. See docs/SCOPE_AND_PROVENANCE.txt. Authoring source preserved separately.",
-      "source_git_status": "untracked local source"
+      "candidate_sha256": "635618382dce3d6090cd933c3870fe3518ede76c52e42d21511d9e3aa569a51d",
+      "transformation": "Published bounded source plus local molecular extension; see docs/MOLECULAR_WORKSPACE.txt. No original scientific records changed. October31 completed-check and animated-journey extension; original scientific inputs preserved. Focused MVP presentation, unchanged source contracts, local review only.",
+      "source_git_status": "untracked local source",
+      "assistant_browser_followup": "Independent local assistant view/session and demo documentation; original provenance retained.",
+      "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained."
     },
     {
       "destination": "src/traitweaver/workspace_server.py",
       "source": "handoff/mvp-v1/workspace_server.py",
       "source_sha256": "f6b126d85e32834cacf879f85d2dd6eb4ca41de69e6402b49815efa51cb5eccb",
-      "candidate_sha256": "1b132cf8cc7ebfa8ccef497eaadda09d5f15978fe813790f5e2874bf1a474315",
-      "transformation": "Bounded candidate adaptation; receipt privacy, typed usage, read-only cycle reopen, check-specific UI, terminal gates or self-contained tests as applicable. See docs/SCOPE_AND_PROVENANCE.txt. Authoring source preserved separately.",
-      "source_git_status": "untracked local source"
+      "candidate_sha256": "fe363a7c8fea88fee3ad510564c032b9340a7752d259d309ce68430278d8e42c",
+      "transformation": "Published bounded source plus local molecular extension; see docs/MOLECULAR_WORKSPACE.txt. No original scientific records changed. October31 completed-check and animated-journey extension; original scientific inputs preserved.",
+      "source_git_status": "untracked local source",
+      "assistant_browser_followup": "Independent local assistant view/session and demo documentation; original provenance retained.",
+      "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained."
     },
     {
       "destination": "src/traitweaver/completed_cycle.py",
@@ -297,8 +310,8 @@
       "destination": "src/traitweaver/web/completed-cycle-ui.js",
       "source": "src/traitweaver/web/completed-cycle-ui.js",
       "source_sha256": "e9945ae54fa13ab0c02b3dff0704f1808de36aadd9686d3596f8a6f88fdc8185",
-      "candidate_sha256": "dd7c79955bb73f37686e5a91b84c4e8e781183249b723412d79022956fc4f0da",
-      "transformation": "Bounded candidate adaptation; receipt privacy, typed usage, read-only cycle reopen, check-specific UI, terminal gates or self-contained tests as applicable. See docs/SCOPE_AND_PROVENANCE.txt. Authoring source preserved separately.",
+      "candidate_sha256": "536f1f3e72e8821524b2bd8d174ca7d41391286ce98c8d5438b4fbe04065fd68",
+      "transformation": "Published bounded source plus local molecular extension; see docs/MOLECULAR_WORKSPACE.txt. No original scientific records changed.",
       "source_git_status": "untracked local source"
     },
     {
@@ -340,6 +353,934 @@
       "candidate_sha256": "f1d752999e1b97686bc47be7b7bb1ebc5db24eefd3a5641e3382fa660f4ec988",
       "transformation": "Byte-identical selected source",
       "source_git_status": "untracked local source"
+    },
+    {
+      "destination": "data/assistant-evaluation.v1.json",
+      "source": "data/assistant-evaluation.v1.json",
+      "source_sha256": "b802783f882f6cd907acc4c0c636960923a299f2aebe3072f3796e526fc61ffc",
+      "candidate_sha256": "b802783f882f6cd907acc4c0c636960923a299f2aebe3072f3796e526fc61ffc",
+      "transformation": "New local evaluation code, explicitly synthetic fixture, tests or documentation; separate from all legacy scientific contracts.",
+      "source_git_status": "untracked local work; no Git mutation"
+    },
+    {
+      "destination": "docs/ASSISTANT_EVALUATION.txt",
+      "source": "docs/ASSISTANT_EVALUATION.txt",
+      "source_sha256": "91bf6a7a5fc9948dacd8396ecf0c32cefe011263293e117bdd917e96a0bffed0",
+      "candidate_sha256": "91bf6a7a5fc9948dacd8396ecf0c32cefe011263293e117bdd917e96a0bffed0",
+      "transformation": "New local evaluation code, explicitly synthetic fixture, tests or documentation; separate from all legacy scientific contracts.",
+      "source_git_status": "untracked local work; no Git mutation"
+    },
+    {
+      "destination": "src/traitweaver/assistant_evaluation.py",
+      "source": "src/traitweaver/assistant_evaluation.py",
+      "source_sha256": "fd95395b323b880aa6135691d794a08714d893546fa85e717ab6ba42c96552dc",
+      "candidate_sha256": "fd95395b323b880aa6135691d794a08714d893546fa85e717ab6ba42c96552dc",
+      "transformation": "New local evaluation code, explicitly synthetic fixture, tests or documentation; separate from all legacy scientific contracts.",
+      "source_git_status": "untracked local work; no Git mutation"
+    },
+    {
+      "destination": "tests/test_assistant_evaluation.py",
+      "source": "tests/test_assistant_evaluation.py",
+      "source_sha256": "1b06d8821f2e9afa00008664ad66194b1b9a5dc7cc1f4a386cfb9c28b27e7a99",
+      "candidate_sha256": "1b06d8821f2e9afa00008664ad66194b1b9a5dc7cc1f4a386cfb9c28b27e7a99",
+      "transformation": "New local evaluation code, explicitly synthetic fixture, tests or documentation; separate from all legacy scientific contracts.",
+      "source_git_status": "untracked local work; no Git mutation"
+    },
+    {
+      "destination": "tools/evaluate_assistant.py",
+      "source": "tools/evaluate_assistant.py",
+      "source_sha256": "fb99eaa234493681c74e9be5db7d20f34d02af02b0c11722a2ece586582f81db",
+      "candidate_sha256": "fb99eaa234493681c74e9be5db7d20f34d02af02b0c11722a2ece586582f81db",
+      "transformation": "New local evaluation code, explicitly synthetic fixture, tests or documentation; separate from all legacy scientific contracts.",
+      "source_git_status": "untracked local work; no Git mutation"
+    },
+    {
+      "destination": "data/evaluation-pilot-rna.v1.json",
+      "source": "data/evaluation-pilot-rna.v1.json",
+      "source_sha256": "9bb41bf00ba97d84fe92b40734d823395b6c9096fc085c45a7b755819bf45e60",
+      "candidate_sha256": "9bb41bf00ba97d84fe92b40734d823395b6c9096fc085c45a7b755819bf45e60",
+      "transformation": "Separate fixed RNA 2x2 pilot projection, reviewed criteria, approval-gated runner/starter or offline tests/docs; older contracts/source remain byte-identical.",
+      "source_git_status": "untracked local work; no Git mutation"
+    },
+    {
+      "destination": "docs/MUSE_RNA_PILOT.txt",
+      "source": "docs/MUSE_RNA_PILOT.txt",
+      "source_sha256": "b90b595ee00a5f8dbfffe760825c29c0ee4d82515f7932095a5f1f3b8e9b6ad7",
+      "candidate_sha256": "b90b595ee00a5f8dbfffe760825c29c0ee4d82515f7932095a5f1f3b8e9b6ad7",
+      "transformation": "Separate fixed RNA 2x2 pilot projection, reviewed criteria, approval-gated runner/starter or offline tests/docs; older contracts/source remain byte-identical.",
+      "source_git_status": "untracked local work; no Git mutation"
+    },
+    {
+      "destination": "src/traitweaver/evaluation_pilot.py",
+      "source": "src/traitweaver/evaluation_pilot.py",
+      "source_sha256": "161dafe38649264949edf785f21c9e0cbba22441a53063ec2777e88c7045a144",
+      "candidate_sha256": "161dafe38649264949edf785f21c9e0cbba22441a53063ec2777e88c7045a144",
+      "transformation": "Separate fixed RNA 2x2 pilot projection, reviewed criteria, approval-gated runner/starter or offline tests/docs; older contracts/source remain byte-identical.",
+      "source_git_status": "untracked local work; no Git mutation"
+    },
+    {
+      "destination": "tests/test_muse_evaluation_pilot.py",
+      "source": "tests/test_muse_evaluation_pilot.py",
+      "source_sha256": "bfda0c780c85a34dda4647a3cf0b305575108f8a3f6c95c969fe45892208f705",
+      "candidate_sha256": "bfda0c780c85a34dda4647a3cf0b305575108f8a3f6c95c969fe45892208f705",
+      "transformation": "Separate fixed RNA 2x2 pilot projection, reviewed criteria, approval-gated runner/starter or offline tests/docs; older contracts/source remain byte-identical.",
+      "source_git_status": "untracked local work; no Git mutation"
+    },
+    {
+      "destination": "tools/muse_evaluation_pilot.py",
+      "source": "tools/muse_evaluation_pilot.py",
+      "source_sha256": "dbc209b6c02de4185a4f9d34f0481f409634e6d756da01bc1cc00253ca670c33",
+      "candidate_sha256": "dbc209b6c02de4185a4f9d34f0481f409634e6d756da01bc1cc00253ca670c33",
+      "transformation": "Separate fixed RNA 2x2 pilot projection, reviewed criteria, approval-gated runner/starter or offline tests/docs; older contracts/source remain byte-identical.",
+      "source_git_status": "untracked local work; no Git mutation"
+    },
+    {
+      "destination": "tools/muse_evaluation_pilot_start.py",
+      "source": "tools/muse_evaluation_pilot_start.py",
+      "source_sha256": "69eed887518e400de57bd7b025fe2a4dda05f0931d3fc92a4caa314da88f44ee",
+      "candidate_sha256": "69eed887518e400de57bd7b025fe2a4dda05f0931d3fc92a4caa314da88f44ee",
+      "transformation": "Separate fixed RNA 2x2 pilot projection, reviewed criteria, approval-gated runner/starter or offline tests/docs; older contracts/source remain byte-identical.",
+      "source_git_status": "untracked local work; no Git mutation"
+    },
+    {
+      "destination": "PUBLIC_FILES.txt",
+      "source": "PUBLIC_FILES.txt",
+      "source_sha256": "2d8468a3c4d0d6701d6973470a5a3b128c2f30f2bcb1c62c44c004c1b19a39c3",
+      "candidate_sha256": "ff6baaacf0c736154bf3dcfd020c3c2c0d9ab1ccfb5f92aa1838e469a8284f1b",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "README.md",
+      "source": "README.md",
+      "source_sha256": "48bd81e91c4a69754d30551fb3ac3db3058b79c6d8223c1bc06f19992ca2ff24",
+      "candidate_sha256": "f08157896b1176a2cd121807eb2642a37e80297c2b73c00a4e5895dbcd5df3c6",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tools/exercise_workbench.py",
+      "source": "tools/exercise_workbench.py",
+      "source_sha256": "0e829494a2b7707ae542dd968edb8e5da84fd09b1bb52aa66f824966b59511ce",
+      "candidate_sha256": "0e829494a2b7707ae542dd968edb8e5da84fd09b1bb52aa66f824966b59511ce",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tools/muse_assistant_start.py",
+      "source": "tools/muse_assistant_start.py",
+      "source_sha256": "27dd7f37cd000a54d7f5e094e6df513b1b5bf0b1d29b71ba756f0ad32069fb22",
+      "candidate_sha256": "27dd7f37cd000a54d7f5e094e6df513b1b5bf0b1d29b71ba756f0ad32069fb22",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tools/assistant_review.py",
+      "source": "tools/assistant_review.py",
+      "source_sha256": "1cd2c8daef42e4a77fd3be6845573b8c4063c8b290bd3f7a662ee0d5f1b95260",
+      "candidate_sha256": "1cd2c8daef42e4a77fd3be6845573b8c4063c8b290bd3f7a662ee0d5f1b95260",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tools/verify_handoff.py",
+      "source": "tools/verify_handoff.py",
+      "source_sha256": "f6d203957b7e7b85b4c0929a8fc8d188d0a460f7662122803eff6a5affca9bf5",
+      "candidate_sha256": "f6d203957b7e7b85b4c0929a8fc8d188d0a460f7662122803eff6a5affca9bf5",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tools/make_synthetic_cycle.py",
+      "source": "tools/make_synthetic_cycle.py",
+      "source_sha256": "6a7b73ed75d7a32db0f54bb88bf277a65391d6a28eee14949d2d554f1a52470e",
+      "candidate_sha256": "6a7b73ed75d7a32db0f54bb88bf277a65391d6a28eee14949d2d554f1a52470e",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tools/muse_assistant_batch.py",
+      "source": "tools/muse_assistant_batch.py",
+      "source_sha256": "7fdb6d0eda3c5ad5594cf20c8e5727aff35fc1ae052bc6250a39d42bfe7e151a",
+      "candidate_sha256": "7fdb6d0eda3c5ad5594cf20c8e5727aff35fc1ae052bc6250a39d42bfe7e151a",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tools/verify_public_algae.py",
+      "source": "tools/verify_public_algae.py",
+      "source_sha256": "4deebed59767d21c376e8c9f08304321248f5fbc8ce629b6ff3cdeeffa47f428",
+      "candidate_sha256": "4deebed59767d21c376e8c9f08304321248f5fbc8ce629b6ff3cdeeffa47f428",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tools/muse_completion_pilot.py",
+      "source": "tools/muse_completion_pilot.py",
+      "source_sha256": "8202436f027825a99dc138ec8a18a8bc3bbba261f8e779c4da15e6598f02ecad",
+      "candidate_sha256": "8202436f027825a99dc138ec8a18a8bc3bbba261f8e779c4da15e6598f02ecad",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tools/muse_completion_pilot_start.py",
+      "source": "tools/muse_completion_pilot_start.py",
+      "source_sha256": "d6b04461a22bbdd0f765e056b513072b6bc9642e3c306d2e960b2a9026ee9c57",
+      "candidate_sha256": "d6b04461a22bbdd0f765e056b513072b6bc9642e3c306d2e960b2a9026ee9c57",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/test_molecular.py",
+      "source": "tests/test_molecular.py",
+      "source_sha256": "380960a85097ba8f6d701aca7824e223b5c4a35b4d249841d49d741369b84736",
+      "candidate_sha256": "380960a85097ba8f6d701aca7824e223b5c4a35b4d249841d49d741369b84736",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/test_assistant_workspace.py",
+      "source": "tests/test_assistant_workspace.py",
+      "source_sha256": "bc43ef89aab56d128fa46eac34c39c7a9446108607d8ea0246ec186a96598d9b",
+      "candidate_sha256": "bc43ef89aab56d128fa46eac34c39c7a9446108607d8ea0246ec186a96598d9b",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/test_molecular_handlers.py",
+      "source": "tests/test_molecular_handlers.py",
+      "source_sha256": "8a2f64c27f0629a2e945c1bc4513a76ad659244f083b29db6237a0218a6c6a23",
+      "candidate_sha256": "8a2f64c27f0629a2e945c1bc4513a76ad659244f083b29db6237a0218a6c6a23",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/data_flow_ui_offline.cjs",
+      "source": "tests/data_flow_ui_offline.cjs",
+      "source_sha256": "60f5c6bcef27953cb08c559b7e8587d075012d1a7d2765365ebcd6f7adb6db90",
+      "candidate_sha256": "60f5c6bcef27953cb08c559b7e8587d075012d1a7d2765365ebcd6f7adb6db90",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/assistant_ui_offline.cjs",
+      "source": "tests/assistant_ui_offline.cjs",
+      "source_sha256": "b6dfe7c6aed5932ad239ae0ff7fdd2bc4158003decfc2332cc540c7330d807d8",
+      "candidate_sha256": "b6dfe7c6aed5932ad239ae0ff7fdd2bc4158003decfc2332cc540c7330d807d8",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/test_workbench.py",
+      "source": "tests/test_workbench.py",
+      "source_sha256": "8d480c32a38993bdc52010f768d8c120ece85d82cc9fb4ec82f4b81056325b5c",
+      "candidate_sha256": "8d480c32a38993bdc52010f768d8c120ece85d82cc9fb4ec82f4b81056325b5c",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/test_data_flow_exports.py",
+      "source": "tests/test_data_flow_exports.py",
+      "source_sha256": "708ec5363dfe356118112fde599e74104941355cb4890b05a12b50b826eea966",
+      "candidate_sha256": "708ec5363dfe356118112fde599e74104941355cb4890b05a12b50b826eea966",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/test_review_handlers.py",
+      "source": "tests/test_review_handlers.py",
+      "source_sha256": "f1e91d671d525fa97ae1f8cf79c31cc28f468a59ada5c60a3945aa3bfa7ec15e",
+      "candidate_sha256": "db1101f30a12ab08758914d1df810ede37aea09fbb2a83ab0419a231d43db55e",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/research_story_ui_offline.cjs",
+      "source": "tests/research_story_ui_offline.cjs",
+      "source_sha256": "90c979355c8deab519789f8f935c29438d91f31bb0f517215fd7633f98f7b701",
+      "candidate_sha256": "90c979355c8deab519789f8f935c29438d91f31bb0f517215fd7633f98f7b701",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/test_muse_completion_pilot.py",
+      "source": "tests/test_muse_completion_pilot.py",
+      "source_sha256": "2f558aab5085db53d33d73704a5fcad4052e4d6715354a0c40f8a77cdd6d1d6e",
+      "candidate_sha256": "2f558aab5085db53d33d73704a5fcad4052e4d6715354a0c40f8a77cdd6d1d6e",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/intelligence_ui_offline.cjs",
+      "source": "tests/intelligence_ui_offline.cjs",
+      "source_sha256": "d4f50952289c12664d347276dd16458accf1a389119793952c77b7310864f6e9",
+      "candidate_sha256": "d4f50952289c12664d347276dd16458accf1a389119793952c77b7310864f6e9",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/test_step_tracking.py",
+      "source": "tests/test_step_tracking.py",
+      "source_sha256": "ec1e9b9de581a99a6b7e19fd1a261969efd63c70f26b7c8215b169b56489467e",
+      "candidate_sha256": "ec1e9b9de581a99a6b7e19fd1a261969efd63c70f26b7c8215b169b56489467e",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/test_public_algae.py",
+      "source": "tests/test_public_algae.py",
+      "source_sha256": "665d1fb4aec6006d4f0b98723315fc3c7fb0d21bc0de292bc22c5d0e9e7dafc1",
+      "candidate_sha256": "665d1fb4aec6006d4f0b98723315fc3c7fb0d21bc0de292bc22c5d0e9e7dafc1",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/test_intelligence.py",
+      "source": "tests/test_intelligence.py",
+      "source_sha256": "95aadc800af70b8169394859ae3c7c9964121eba4bb2ac30b56952b5b470d59c",
+      "candidate_sha256": "95aadc800af70b8169394859ae3c7c9964121eba4bb2ac30b56952b5b470d59c",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/intelligence_memory_bridge.py",
+      "source": "tests/intelligence_memory_bridge.py",
+      "source_sha256": "b83eec2471cf385c24a53243b26b1e5122fe3ef47305663be286125312f3c1ce",
+      "candidate_sha256": "b83eec2471cf385c24a53243b26b1e5122fe3ef47305663be286125312f3c1ce",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/workbench_ui_offline.cjs",
+      "source": "tests/workbench_ui_offline.cjs",
+      "source_sha256": "d9c160649977f9db68ec88260411dd6af656c14431e1a6123deaaa2e8e2d9c08",
+      "candidate_sha256": "d9c160649977f9db68ec88260411dd6af656c14431e1a6123deaaa2e8e2d9c08",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/public_algae_ui_offline.cjs",
+      "source": "tests/public_algae_ui_offline.cjs",
+      "source_sha256": "7e1ae5aedfc2f50dcbf265912bf1c6135e842cd2f8b8e499b049b0b47740eada",
+      "candidate_sha256": "7e1ae5aedfc2f50dcbf265912bf1c6135e842cd2f8b8e499b049b0b47740eada",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/molecular_ui_offline.cjs",
+      "source": "tests/molecular_ui_offline.cjs",
+      "source_sha256": "952f64487f166b04efac45ebb7be240b2d35dedd29f4f1a7737a020404b90f3f",
+      "candidate_sha256": "952f64487f166b04efac45ebb7be240b2d35dedd29f4f1a7737a020404b90f3f",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/test_muse_assistant_batch.py",
+      "source": "tests/test_muse_assistant_batch.py",
+      "source_sha256": "3270b54f41d18f16e4cf1325ec59a15f3cd78bcfccee1936a34364f31422429d",
+      "candidate_sha256": "3270b54f41d18f16e4cf1325ec59a15f3cd78bcfccee1936a34364f31422429d",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/journey_ui_offline.cjs",
+      "source": "tests/journey_ui_offline.cjs",
+      "source_sha256": "fe930c191b32b186fd3666e3e2ea5907177e36651f80c8461e0e70f3e08d9a20",
+      "candidate_sha256": "705b830e304903ec3260f5562290cbb1372dbebaee27db4978287239643341e2",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/test_research_story.py",
+      "source": "tests/test_research_story.py",
+      "source_sha256": "3bc592a5494f7e35da171eac417cf4a9d05b016ce33bab8b590515b0b751359b",
+      "candidate_sha256": "3bc592a5494f7e35da171eac417cf4a9d05b016ce33bab8b590515b0b751359b",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/test_intelligence_handlers.py",
+      "source": "tests/test_intelligence_handlers.py",
+      "source_sha256": "423def0389daa06496b11fe5eab84c1f86a467eb221339d0590a6bd5a74f24cd",
+      "candidate_sha256": "423def0389daa06496b11fe5eab84c1f86a467eb221339d0590a6bd5a74f24cd",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/test_assistant.py",
+      "source": "tests/test_assistant.py",
+      "source_sha256": "040f6965284f794a915eda3edb801dd8e83c6f5950b8f78e4bd4bcf4682c5fa2",
+      "candidate_sha256": "040f6965284f794a915eda3edb801dd8e83c6f5950b8f78e4bd4bcf4682c5fa2",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/test_public_algae_handlers.py",
+      "source": "tests/test_public_algae_handlers.py",
+      "source_sha256": "fed519d9e424df5377f31853b3cc9b6939b43f6aed47e83c3ce9e07c95f0c727",
+      "candidate_sha256": "fed519d9e424df5377f31853b3cc9b6939b43f6aed47e83c3ce9e07c95f0c727",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/completed_cycle_ui_offline.cjs",
+      "source": "tests/completed_cycle_ui_offline.cjs",
+      "source_sha256": "819e789d4635d320138e736663a4a2b7a45379575fb92f93b7500c8629ab74e7",
+      "candidate_sha256": "819e789d4635d320138e736663a4a2b7a45379575fb92f93b7500c8629ab74e7",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "tests/test_handoff_verifier.py",
+      "source": "tests/test_handoff_verifier.py",
+      "source_sha256": "7ac78a7f16d58912866d95910d6d02fc62db5664f652114082167d20ae3c262d",
+      "candidate_sha256": "7ac78a7f16d58912866d95910d6d02fc62db5664f652114082167d20ae3c262d",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/INTELLIGENCE_LAYER.txt",
+      "source": "docs/INTELLIGENCE_LAYER.txt",
+      "source_sha256": "f00f8a50656f55ea0126c115e3eedbb2177ff33d2e2cea21554ab027bfcf341c",
+      "candidate_sha256": "f00f8a50656f55ea0126c115e3eedbb2177ff33d2e2cea21554ab027bfcf341c",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/SCREENING_SUMMARY.txt",
+      "source": "docs/SCREENING_SUMMARY.txt",
+      "source_sha256": "41d8ebab636d1ac24474f19b244c66efad9070d43fc5149b9269a633dfd91647",
+      "candidate_sha256": "acf96b16be1b55190f99e2a22ae664e7158064bb4d0e9db20729a427201b67be",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/MOLECULAR_WORKSPACE.txt",
+      "source": "docs/MOLECULAR_WORKSPACE.txt",
+      "source_sha256": "18414e7f32aab8a32fb31e529796f7ce5e7ebf6583742ed176f69f14ba351ccc",
+      "candidate_sha256": "18414e7f32aab8a32fb31e529796f7ce5e7ebf6583742ed176f69f14ba351ccc",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/CLAUDE_REVIEW_BRIEF.txt",
+      "source": "docs/CLAUDE_REVIEW_BRIEF.txt",
+      "source_sha256": "70ee8fcb9059a95a019b45b02ffab4efc318c02ae4e1e6716d6f4afa9d9b4f47",
+      "candidate_sha256": "70ee8fcb9059a95a019b45b02ffab4efc318c02ae4e1e6716d6f4afa9d9b4f47",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/ASSISTANT_CONTRACT.txt",
+      "source": "docs/ASSISTANT_CONTRACT.txt",
+      "source_sha256": "b553d8ad77015dfc4860fea2d39e66cea165f6dfa014934897673aa5eb0cccca",
+      "candidate_sha256": "b553d8ad77015dfc4860fea2d39e66cea165f6dfa014934897673aa5eb0cccca",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/DEMO_SCRIPT_3_MIN.txt",
+      "source": "docs/DEMO_SCRIPT_3_MIN.txt",
+      "source_sha256": "e4cdc7815306f79679c383e2128dbd8befad9ef428e2dbfd49907b98085db588",
+      "candidate_sha256": "c26c9afd0fe1789ee2b149ea9c295cbc3084f408e712d6360839bfb9b3774024",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/COMPLETED_STEPS.txt",
+      "source": "docs/COMPLETED_STEPS.txt",
+      "source_sha256": "6980e5cab2a6fe575b671a0ef56fdfc1166a28c6abcc44f74932c4ab1bd981ab",
+      "candidate_sha256": "6980e5cab2a6fe575b671a0ef56fdfc1166a28c6abcc44f74932c4ab1bd981ab",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/RELEASE_BLOCKERS.txt",
+      "source": "docs/RELEASE_BLOCKERS.txt",
+      "source_sha256": "75afb70ed173725c513e3f81c23d8f53177c12c38ec1c2ff4e092b5228b0474d",
+      "candidate_sha256": "a6889fb8a1553bc1a45262b04df9d03367696a1ac5ae5cac249d0e39d8b794b5",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/RESEARCH_JOURNEY.txt",
+      "source": "docs/RESEARCH_JOURNEY.txt",
+      "source_sha256": "ec1a55cd05bf87684552d7b1b8e3998850b59659563ead6febc9d14fbf227c1b",
+      "candidate_sha256": "ec1a55cd05bf87684552d7b1b8e3998850b59659563ead6febc9d14fbf227c1b",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/VALIDATION.txt",
+      "source": "docs/VALIDATION.txt",
+      "source_sha256": "67943a61bdc6161d26f4ea70a9496a861ad2590ddfa9d310b2213ef4c5fdef10",
+      "candidate_sha256": "238801d3d4b372f6c08062f681312d51bfe78b9028a7ea045fc37e8bf0c1d71c",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/ASSISTANT_WORKSPACE.txt",
+      "source": "docs/ASSISTANT_WORKSPACE.txt",
+      "source_sha256": "efef34dc0d960ef33988c5b47136575914e65fa73cb009272da49ae6a48b1562",
+      "candidate_sha256": "efef34dc0d960ef33988c5b47136575914e65fa73cb009272da49ae6a48b1562",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/DATA_FLOW.txt",
+      "source": "docs/DATA_FLOW.txt",
+      "source_sha256": "318222273dd780dcf5aa7bb912581cef4cf8f64fed78a0e087babe6cbb1d6635",
+      "candidate_sha256": "318222273dd780dcf5aa7bb912581cef4cf8f64fed78a0e087babe6cbb1d6635",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/LIVE_RUN_SUMMARY.txt",
+      "source": "docs/LIVE_RUN_SUMMARY.txt",
+      "source_sha256": "e202b4f19a454d2d6f2cae1f054cb34f60cacf173a022a66454e8b4795f9c741",
+      "candidate_sha256": "e202b4f19a454d2d6f2cae1f054cb34f60cacf173a022a66454e8b4795f9c741",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/SCOPE_AND_PROVENANCE.txt",
+      "source": "docs/SCOPE_AND_PROVENANCE.txt",
+      "source_sha256": "ac2db93bebffd707e7ef3f3f688c11b3f0081eb0c5371c0e6295b26f7b9b911f",
+      "candidate_sha256": "3ce789f49ac01b9abf894ab1aac725d548254f40c6f9179d57bcc70608339bcc",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/SCIENTIFIC_STORY.txt",
+      "source": "docs/SCIENTIFIC_STORY.txt",
+      "source_sha256": "a8db45dc4b35d31f190331734d4a23be64775cb06daa86a7fe14b1556f9c0cff",
+      "candidate_sha256": "a8db45dc4b35d31f190331734d4a23be64775cb06daa86a7fe14b1556f9c0cff",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/FOUR_CASE_MUSE.txt",
+      "source": "docs/FOUR_CASE_MUSE.txt",
+      "source_sha256": "163b9631577ad9e82f1cc71bec91d9c52e68c6a8495186905eea11939f67e3ea",
+      "candidate_sha256": "163b9631577ad9e82f1cc71bec91d9c52e68c6a8495186905eea11939f67e3ea",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/REVIEW_STATUS.txt",
+      "source": "docs/REVIEW_STATUS.txt",
+      "source_sha256": "2f1937e644589f93f1d7c1185cb0fb455c125236ca83941b6e5348bf920add9a",
+      "candidate_sha256": "2f1937e644589f93f1d7c1185cb0fb455c125236ca83941b6e5348bf920add9a",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/WHAT_WE_BUILT.txt",
+      "source": "docs/WHAT_WE_BUILT.txt",
+      "source_sha256": "32132dec925be52e4d85726c778d8c76b155d8275a2ba3ac29b00553d33f226d",
+      "candidate_sha256": "32132dec925be52e4d85726c778d8c76b155d8275a2ba3ac29b00553d33f226d",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/RESEARCH_EXPERIENCE.txt",
+      "source": "docs/RESEARCH_EXPERIENCE.txt",
+      "source_sha256": "ef4c5675b223b7faf9dc5cf0d1e7036e11ec3089b385bb21bf5c964a136cba16",
+      "candidate_sha256": "ef4c5675b223b7faf9dc5cf0d1e7036e11ec3089b385bb21bf5c964a136cba16",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/WORKBENCH.txt",
+      "source": "docs/WORKBENCH.txt",
+      "source_sha256": "e39035997cd10478d040464539bfbfdea11e7518b18b62e1872a6d1776fc31af",
+      "candidate_sha256": "e39035997cd10478d040464539bfbfdea11e7518b18b62e1872a6d1776fc31af",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/PUBLIC_ALGAE_WORKSPACE.txt",
+      "source": "docs/PUBLIC_ALGAE_WORKSPACE.txt",
+      "source_sha256": "07ea449849187a56c0c9e5feb2cc9f5ac97ba328d921ff39b39074590a528649",
+      "candidate_sha256": "07ea449849187a56c0c9e5feb2cc9f5ac97ba328d921ff39b39074590a528649",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/assistant-cases.v1.json",
+      "source": "data/assistant-cases.v1.json",
+      "source_sha256": "df752862c5afd728d7cb288830123380c9305833734d28ec53e5e0fcecd759f7",
+      "candidate_sha256": "df752862c5afd728d7cb288830123380c9305833734d28ec53e5e0fcecd759f7",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/completed-step-pilot.v1.json",
+      "source": "data/completed-step-pilot.v1.json",
+      "source_sha256": "84d128f1cc4668426ba1ccdb509b63d8bd47a269f07a3f02ed8c9af8a1468a46",
+      "candidate_sha256": "84d128f1cc4668426ba1ccdb509b63d8bd47a269f07a3f02ed8c9af8a1468a46",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/molecular-demo.v1.json",
+      "source": "data/molecular-demo.v1.json",
+      "source_sha256": "9811577f4b980c42f8f3314ea78a394b5a847542cfe03beddb0307fb0f282371",
+      "candidate_sha256": "9811577f4b980c42f8f3314ea78a394b5a847542cfe03beddb0307fb0f282371",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/research-story.v1.json",
+      "source": "data/research-story.v1.json",
+      "source_sha256": "7584cda0ae8b8e9eb74b362bda1d02c1dd01acbd80d2e30846c855680f90538b",
+      "candidate_sha256": "7584cda0ae8b8e9eb74b362bda1d02c1dd01acbd80d2e30846c855680f90538b",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/research_story.py",
+      "source": "src/traitweaver/research_story.py",
+      "source_sha256": "3d5b0c2ffabddb2d3fb79bb10c54db825fd23709fac08112d60000cc6fb7335f",
+      "candidate_sha256": "3d5b0c2ffabddb2d3fb79bb10c54db825fd23709fac08112d60000cc6fb7335f",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/assistant_workspace.py",
+      "source": "src/traitweaver/assistant_workspace.py",
+      "source_sha256": "70a2e8eb73ea2d13b98ed5338246013e44a493e7dccb44095b48ffd1c3a69fcc",
+      "candidate_sha256": "70a2e8eb73ea2d13b98ed5338246013e44a493e7dccb44095b48ffd1c3a69fcc",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/assistant.py",
+      "source": "src/traitweaver/assistant.py",
+      "source_sha256": "586b25f5a99f1add29f33e991a5ecb042f44c0b735cba8d5dda53118622616ed",
+      "candidate_sha256": "586b25f5a99f1add29f33e991a5ecb042f44c0b735cba8d5dda53118622616ed",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/completion_pilot.py",
+      "source": "src/traitweaver/completion_pilot.py",
+      "source_sha256": "821db21be6dddae1120e40612ca7f006f90adc183550801dff41c0b38c877ee8",
+      "candidate_sha256": "821db21be6dddae1120e40612ca7f006f90adc183550801dff41c0b38c877ee8",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/intelligence.py",
+      "source": "src/traitweaver/intelligence.py",
+      "source_sha256": "bcb809d3aea942939bb219df82d3784ccdf18966f312a48450b70475e6010646",
+      "candidate_sha256": "bcb809d3aea942939bb219df82d3784ccdf18966f312a48450b70475e6010646",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/public_algae.py",
+      "source": "src/traitweaver/public_algae.py",
+      "source_sha256": "837dd0d16e189a9f0e552c9fbf352b518cc103a1247dc13e3336e350f97a553c",
+      "candidate_sha256": "837dd0d16e189a9f0e552c9fbf352b518cc103a1247dc13e3336e350f97a553c",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/intelligence_muse.py",
+      "source": "src/traitweaver/intelligence_muse.py",
+      "source_sha256": "e9af5cf5620a7384b021dd5c9dabbda3f17397e5c1a558ffc3dc2742df5ec94a",
+      "candidate_sha256": "e9af5cf5620a7384b021dd5c9dabbda3f17397e5c1a558ffc3dc2742df5ec94a",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/workbench.py",
+      "source": "src/traitweaver/workbench.py",
+      "source_sha256": "af49e8cb5637cf5f8626df656253e9fa53b2c3c610130a0c79d0bba9aa5830ce",
+      "candidate_sha256": "af49e8cb5637cf5f8626df656253e9fa53b2c3c610130a0c79d0bba9aa5830ce",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/intelligence_store.py",
+      "source": "src/traitweaver/intelligence_store.py",
+      "source_sha256": "1610ed632440d7e2a69ec55bc36e7896985d9b65eeba3ac98ea2349805b579d8",
+      "candidate_sha256": "1610ed632440d7e2a69ec55bc36e7896985d9b65eeba3ac98ea2349805b579d8",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/molecular.py",
+      "source": "src/traitweaver/molecular.py",
+      "source_sha256": "f0e88324b6d00aa4af97c4c585320cda8159d43ef13288be2e6ed6724c83342c",
+      "candidate_sha256": "f0e88324b6d00aa4af97c4c585320cda8159d43ef13288be2e6ed6724c83342c",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/step_tracking.py",
+      "source": "src/traitweaver/step_tracking.py",
+      "source_sha256": "6ee26ce0739276cddb4a688496b4a3a9d0fcfe9db8fa0f68a67c1e33be442c2e",
+      "candidate_sha256": "6ee26ce0739276cddb4a688496b4a3a9d0fcfe9db8fa0f68a67c1e33be442c2e",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/molecular_store.py",
+      "source": "src/traitweaver/molecular_store.py",
+      "source_sha256": "ad6c15bb6d7766da92e22434f2538703b180dfdd79c3453ad7bf5896336f2ae8",
+      "candidate_sha256": "ad6c15bb6d7766da92e22434f2538703b180dfdd79c3453ad7bf5896336f2ae8",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/web/intelligence.css",
+      "source": "src/traitweaver/web/intelligence.css",
+      "source_sha256": "a3aa18aed8e2e3e5d5170aae66de2ca12279c7c32a27d24b049e49877869a1fa",
+      "candidate_sha256": "a3aa18aed8e2e3e5d5170aae66de2ca12279c7c32a27d24b049e49877869a1fa",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/web/intelligence-ui.js",
+      "source": "src/traitweaver/web/intelligence-ui.js",
+      "source_sha256": "8478e70cbc252f5a60bcfb9e28d4f34dea9c402769d5ce8961e33e89f7a46728",
+      "candidate_sha256": "8478e70cbc252f5a60bcfb9e28d4f34dea9c402769d5ce8961e33e89f7a46728",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/web/data-flow-ui.js",
+      "source": "src/traitweaver/web/data-flow-ui.js",
+      "source_sha256": "0de115ddeba280d34116f7d4af54e3ae74e9540389155c9bcfb8a69abacd9960",
+      "candidate_sha256": "0de115ddeba280d34116f7d4af54e3ae74e9540389155c9bcfb8a69abacd9960",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/web/molecular.css",
+      "source": "src/traitweaver/web/molecular.css",
+      "source_sha256": "b84cbcc2fec9e008e4a0174430236cae330a62b94e415a4c50089eaeecb3ec64",
+      "candidate_sha256": "b84cbcc2fec9e008e4a0174430236cae330a62b94e415a4c50089eaeecb3ec64",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/web/journey.css",
+      "source": "src/traitweaver/web/journey.css",
+      "source_sha256": "96fd0a253e4cfb19363a0daec886d479c3c8029839099ef3356034213f40e5ec",
+      "candidate_sha256": "d4d2c1d75626ccbe0ecea3b9f055c8e64341cdf964119f7f91b565ded07c3cd7",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/web/research-story-ui.js",
+      "source": "src/traitweaver/web/research-story-ui.js",
+      "source_sha256": "bfd3882f2ec90691a5de5ab963adac2f4c933f57f59fdb2092b65dccd8db7481",
+      "candidate_sha256": "bfd3882f2ec90691a5de5ab963adac2f4c933f57f59fdb2092b65dccd8db7481",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/web/journey-ui.js",
+      "source": "src/traitweaver/web/journey-ui.js",
+      "source_sha256": "5e4cc6cb6c1bd9ec6c625dd2d551144b2509f88a686ebe54dd4777c612e946eb",
+      "candidate_sha256": "7321f695ef84a4b2c63fb9e01d1f23aced48b6aa750a48187681f74858bfdce3",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/web/public-algae-ui.js",
+      "source": "src/traitweaver/web/public-algae-ui.js",
+      "source_sha256": "02e2e0560b8a193f4a8f8654a53d6667665ea53452206ddc034e4fbba67a22f9",
+      "candidate_sha256": "02e2e0560b8a193f4a8f8654a53d6667665ea53452206ddc034e4fbba67a22f9",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/web/assistant-ui.js",
+      "source": "src/traitweaver/web/assistant-ui.js",
+      "source_sha256": "1ec89ca83ef225fba60634b4fce545dda9b181cf5e66f551ee8633eddf9f4aa2",
+      "candidate_sha256": "1ec89ca83ef225fba60634b4fce545dda9b181cf5e66f551ee8633eddf9f4aa2",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/web/workbench-ui.js",
+      "source": "src/traitweaver/web/workbench-ui.js",
+      "source_sha256": "948596b462daf4cf18cbc8a46986236c08716b6a7d5dc11da737cb5dcbcfd5dc",
+      "candidate_sha256": "948596b462daf4cf18cbc8a46986236c08716b6a7d5dc11da737cb5dcbcfd5dc",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "src/traitweaver/web/molecular-ui.js",
+      "source": "src/traitweaver/web/molecular-ui.js",
+      "source_sha256": "827b9d0f4e832735ffca8d72c70d8c5597b75ec7d50be1849910059cef4b075b",
+      "candidate_sha256": "827b9d0f4e832735ffca8d72c70d8c5597b75ec7d50be1849910059cef4b075b",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/synthetic-cycle/STUDY_PACKAGE.json",
+      "source": "data/synthetic-cycle/STUDY_PACKAGE.json",
+      "source_sha256": "7e922d178fe1280202c0099d9a9b91b4c5506a58676895479948997d957e2fb9",
+      "candidate_sha256": "7e922d178fe1280202c0099d9a9b91b4c5506a58676895479948997d957e2fb9",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/synthetic-cycle/01-selection.json",
+      "source": "data/synthetic-cycle/01-selection.json",
+      "source_sha256": "17cba6b29d11c013b8b6555220cb5e724269d782e1299cdf51d334c2ef2c7eae",
+      "candidate_sha256": "17cba6b29d11c013b8b6555220cb5e724269d782e1299cdf51d334c2ef2c7eae",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/synthetic-cycle/RECEIPT-selection.json",
+      "source": "data/synthetic-cycle/RECEIPT-selection.json",
+      "source_sha256": "ab2227833024fd71e211890f42f34c424b0b65805d9379860223dccb554bf042",
+      "candidate_sha256": "ab2227833024fd71e211890f42f34c424b0b65805d9379860223dccb554bf042",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/synthetic-cycle/PUBLIC_CYCLE.json",
+      "source": "data/synthetic-cycle/PUBLIC_CYCLE.json",
+      "source_sha256": "db4dbafa3d4a75dbe49d63cdd055eeab0ff46fd089c33947950928e1662f55ec",
+      "candidate_sha256": "db4dbafa3d4a75dbe49d63cdd055eeab0ff46fd089c33947950928e1662f55ec",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/synthetic-cycle/FIXTURE_PROVENANCE.json",
+      "source": "data/synthetic-cycle/FIXTURE_PROVENANCE.json",
+      "source_sha256": "00489a48ec57b20f458ea7f0976aea16fe72e371215b7c61464ca54b336fbec2",
+      "candidate_sha256": "00489a48ec57b20f458ea7f0976aea16fe72e371215b7c61464ca54b336fbec2",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/synthetic-cycle/RECEIPT-reassessment.json",
+      "source": "data/synthetic-cycle/RECEIPT-reassessment.json",
+      "source_sha256": "5b36a84b21a9c602575ec2648d22f85bce814ab75981c74eb7e9d8491ca3bb32",
+      "candidate_sha256": "5b36a84b21a9c602575ec2648d22f85bce814ab75981c74eb7e9d8491ca3bb32",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/synthetic-cycle/02-reassessment-coverage.json",
+      "source": "data/synthetic-cycle/02-reassessment-coverage.json",
+      "source_sha256": "22c559e77175ed95181b31a6fe062f0920c78767d0935b1579d36ee77d705c3e",
+      "candidate_sha256": "22c559e77175ed95181b31a6fe062f0920c78767d0935b1579d36ee77d705c3e",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/synthetic-cycle/STATUS.json",
+      "source": "data/synthetic-cycle/STATUS.json",
+      "source_sha256": "57e02f44eeb3723c514977c4dab3b380686716491509e958cfe36bc5d778d687",
+      "candidate_sha256": "57e02f44eeb3723c514977c4dab3b380686716491509e958cfe36bc5d778d687",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/synthetic-cycle/REVIEW_PACKAGE.json",
+      "source": "data/synthetic-cycle/REVIEW_PACKAGE.json",
+      "source_sha256": "40d23281cbede227f77057fb869454e47404d7efc65d1e33977fff1953428a54",
+      "candidate_sha256": "40d23281cbede227f77057fb869454e47404d7efc65d1e33977fff1953428a54",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/synthetic-cycle/SYNTHETIC_APPROVAL.json",
+      "source": "data/synthetic-cycle/SYNTHETIC_APPROVAL.json",
+      "source_sha256": "7bcfe55d9d82cbc39b1340a8a80e957ae15bcd23162673d31fc5822649529630",
+      "candidate_sha256": "7bcfe55d9d82cbc39b1340a8a80e957ae15bcd23162673d31fc5822649529630",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/public-algae/psr1-reference/reference.v2.json",
+      "source": "data/public-algae/psr1-reference/reference.v2.json",
+      "source_sha256": "836c407af55da476d8b042df822249ccb9e83090b839366dd059f8a3a21e2e28",
+      "candidate_sha256": "836c407af55da476d8b042df822249ccb9e83090b839366dd059f8a3a21e2e28",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/public-algae/psr1-reference/refseq_XM_001700501.2.gb",
+      "source": "data/public-algae/psr1-reference/refseq_XM_001700501.2.gb",
+      "source_sha256": "cd0732884392357bd563ee301a403667921e346df3444d79750976683d170330",
+      "candidate_sha256": "cd0732884392357bd563ee301a403667921e346df3444d79750976683d170330",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/public-algae/psr1-reference/SOURCE_MANIFEST.json",
+      "source": "data/public-algae/psr1-reference/SOURCE_MANIFEST.json",
+      "source_sha256": "07060e0d0456daa36574552232ad1180dfb4efec4f7b93306c2d89adc4fe98e9",
+      "candidate_sha256": "07060e0d0456daa36574552232ad1180dfb4efec4f7b93306c2d89adc4fe98e9",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/public-algae/psr1-reference/uniprot_Q9S807.fasta",
+      "source": "data/public-algae/psr1-reference/uniprot_Q9S807.fasta",
+      "source_sha256": "9194b898ce0b362dc96ffc84cfdcb7e162cd6fecd488028c40bd894b6fa11e54",
+      "candidate_sha256": "9194b898ce0b362dc96ffc84cfdcb7e162cd6fecd488028c40bd894b6fa11e54",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/public-algae/psr1-reference/reference_gene_region.gb",
+      "source": "data/public-algae/psr1-reference/reference_gene_region.gb",
+      "source_sha256": "f22f6f94fb4f4aafa44cca169c9c3fbbca614f02357f529d805388f08e51743c",
+      "candidate_sha256": "f22f6f94fb4f4aafa44cca169c9c3fbbca614f02357f529d805388f08e51743c",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/public-algae/psr1-reference/refseq_XP_001700553.1.gb",
+      "source": "data/public-algae/psr1-reference/refseq_XP_001700553.1.gb",
+      "source_sha256": "15f435099cb200d32d3fdd4978acbeb2e6aafe12d6f3f762ae55697d1af06772",
+      "candidate_sha256": "15f435099cb200d32d3fdd4978acbeb2e6aafe12d6f3f762ae55697d1af06772",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/public-algae/psr1-reference/README.txt",
+      "source": "data/public-algae/psr1-reference/README.txt",
+      "source_sha256": "7d9eb703fc3968fd82b90f8bc1357473191ba0d1e64bfb1133c4c8c4f5ebf096",
+      "candidate_sha256": "7d9eb703fc3968fd82b90f8bc1357473191ba0d1e64bfb1133c4c8c4f5ebf096",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/public-algae/psr1-reference/assembly_report.txt",
+      "source": "data/public-algae/psr1-reference/assembly_report.txt",
+      "source_sha256": "e0df1adbb766bcba78f454990c01e43a7cba36ceeb299e3956e7a4a1e541da5d",
+      "candidate_sha256": "e0df1adbb766bcba78f454990c01e43a7cba36ceeb299e3956e7a4a1e541da5d",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "data/public-algae/psr1-reference/evidence-needed/REQUIREMENTS.json",
+      "source": "data/public-algae/psr1-reference/evidence-needed/REQUIREMENTS.json",
+      "source_sha256": "f35d305ded2aaccba921147c4c958d95d7563dc8e32d1312e04f72cb6a810248",
+      "candidate_sha256": "f35d305ded2aaccba921147c4c958d95d7563dc8e32d1312e04f72cb6a810248",
+      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
+      "source_git_status": "local only; not committed or pushed"
+    },
+    {
+      "destination": "docs/MVP_FOCUS.txt",
+      "source": "docs/MVP_FOCUS.txt",
+      "source_sha256": "08d192ce04fd8ad6e08f27a0fc31dcba18b27cc8cd4381f9c4477f1b1cd45de5",
+      "candidate_sha256": "308eb0e704e1e17b85240ae80b31ac9126e050632e70b1ae659fd029f964c0c3",
+      "transformation": "Locally authored focused MVP scope and finish-line guide; public event pages linked with qualification.",
+      "source_git_status": "local only; no commit or push"
     }
   ],
   "additional_candidate_authorship": "Public-facing docs, synthetic replay/review package, exact-byte verifier, memory handler/controller tests and bounded adaptations; Codex",
@@ -372,5 +1313,310 @@
   "synthetic_fixture_source": "tools/make_synthetic_cycle.py using admitted public evidence and explicitly synthetic test helper",
   "fixture_provenance": "data/synthetic-cycle/FIXTURE_PROVENANCE.json",
   "live_run_material_included": false,
-  "rights_clearance": "Pending software license and design distribution decisions; retain component notices"
+  "rights_clearance": "Pending software license and design distribution decisions; retain component notices",
+  "local_extension": {
+    "date": "2026-10-30",
+    "base_publication_commit": "cd3b1a99ef8a4ddc34f18bf299c7cd2ed778e4f7",
+    "scope": "Dynamic molecular planning, identity and isoform maps; versioned independent review journal",
+    "authorship": "Codex; no model calls",
+    "model_fixture": "data/molecular-demo.v1.json",
+    "model_fixture_sha256": "9811577f4b980c42f8f3314ea78a394b5a847542cfe03beddb0307fb0f282371",
+    "source_role": "Fresh synthetic software coordinate models; qualified public GFP metadata gaps retained",
+    "old_study_contracts_and_evidence_unchanged": true,
+    "api_calls": 0,
+    "published": false,
+    "history_note": "Existing mapping origins describe the published baseline. Changed candidate hashes and new files belong to this local extension.",
+    "new_authored_paths": [
+      "data/molecular-demo.v1.json",
+      "docs/MOLECULAR_WORKSPACE.txt",
+      "src/traitweaver/molecular.py",
+      "src/traitweaver/molecular_store.py",
+      "src/traitweaver/web/molecular-ui.js",
+      "src/traitweaver/web/molecular.css",
+      "tests/test_molecular.py",
+      "tests/test_molecular_handlers.py",
+      "tests/test_handoff_verifier.py",
+      "tests/molecular_ui_offline.cjs"
+    ]
+  },
+  "public_algae_extension": {
+    "date": "2026-10-30",
+    "public_source_folder": "data/public-algae/psr1-reference",
+    "primary_public_files": 5,
+    "raw_source_handling": "Byte-identical to previously cached public records; verified against recorded hashes before copying",
+    "source_manifest": "data/public-algae/psr1-reference/SOURCE_MANIFEST.json",
+    "derived_catalog": "data/public-algae/psr1-reference/reference.v2.json",
+    "derivation_code": "src/traitweaver/public_algae.py",
+    "requirements": "data/public-algae/psr1-reference/evidence-needed/REQUIREMENTS.json",
+    "authorship": "Fresh public-only curation and bounded parser/UI; Codex",
+    "excluded": "Private authored identity/planning/reconciliation reports, constructs, laboratory protocols, full text and real provider packets",
+    "role": "Frozen public reference annotation, not experimental evidence",
+    "external_requests": 0,
+    "published": false,
+    "v1_contracts_preserved": true
+  },
+  "intelligence_extension": {
+    "date": "2026-10-30",
+    "authorship": "Fresh local application code and public-only curation; Codex",
+    "inputs": [
+      "data/algae-public.v1.json",
+      "data/public-algae/psr1-reference/reference.v2.json"
+    ],
+    "source_roles": "Published source-context associations, exact reference annotations, local curation gaps and clearly synthetic model fixtures remain separate",
+    "contracts": [
+      "traitweaver.intelligence_catalog.v1",
+      "traitweaver.intelligence_request.v1",
+      "traitweaver.intelligence_revision.v1",
+      "traitweaver.intelligence_result.v1",
+      "traitweaver.intelligence_package.v1"
+    ],
+    "checks": [
+      "trait_evidence_audit",
+      "combination_coverage",
+      "transfer_coverage"
+    ],
+    "public_candidate_count": 1,
+    "qualified_pairs": 0,
+    "qualified_cross_species_recipients": 0,
+    "transport_available": false,
+    "new_model_calls": 0,
+    "legacy_study_and_muse_schemas_changed": false,
+    "private_authored_plans_imported": false,
+    "published": false,
+    "new_paths": [
+      "docs/INTELLIGENCE_LAYER.txt",
+      "src/traitweaver/intelligence.py",
+      "src/traitweaver/intelligence_muse.py",
+      "src/traitweaver/intelligence_store.py",
+      "src/traitweaver/web/intelligence-ui.js",
+      "src/traitweaver/web/intelligence.css",
+      "tests/intelligence_memory_bridge.py",
+      "tests/intelligence_ui_offline.cjs",
+      "tests/test_intelligence.py",
+      "tests/test_intelligence_handlers.py"
+    ]
+  },
+  "data_flow_extension": {
+    "basis": "Fresh local source-bound UI projection over existing public/synthetic contracts",
+    "new_files": [
+      "src/traitweaver/web/data-flow-ui.js",
+      "docs/DATA_FLOW.txt",
+      "tests/test_data_flow_exports.py",
+      "tests/data_flow_ui_offline.cjs"
+    ],
+    "source_fixtures_changed": false,
+    "live_acquisition": false,
+    "provider_calls": 0
+  },
+  "assistant_contract_extension": {
+    "prepared_date": "2026-10-30",
+    "publication_approved": false,
+    "scope": "Separate transport-free four-case contract; reviewed authored claims/proposals; synthetic offline responses only; GFP text IDs restored.",
+    "catalog_sha256": "df752862c5afd728d7cb288830123380c9305833734d28ec53e5e0fcecd759f7",
+    "sources": [
+      "Existing pinned algae-public.v1.json",
+      "Existing qualified public GFP card and component attribution",
+      "Clearly synthetic incomplete RNA-seq metadata",
+      "Clearly synthetic incomplete reproducibility records"
+    ],
+    "no_private_example_import": true,
+    "live_calls": 0,
+    "original_schemas_changed": false,
+    "new_files": [
+      "data/assistant-cases.v1.json",
+      "docs/ASSISTANT_CONTRACT.txt",
+      "src/traitweaver/assistant.py",
+      "tests/test_assistant.py",
+      "tools/assistant_review.py"
+    ]
+  },
+  "assistant_browser_extension": {
+    "prepared_date": "2026-10-30",
+    "publication_approved": false,
+    "scope": "Four-case selector, evidence, actual local audits, three synthetic proposal cards, read-only JSON/text export/reopen, bounded trait-planning navigation. No organism/cassette sequence design or live transport.",
+    "storage": "Server memory only; explicit export preserves work across process restart.",
+    "wrapper_schema": "traitweaver.assistant_workspace_package.v1",
+    "underlying_assistant_contract_unchanged": true,
+    "new_files": [
+      "docs/ASSISTANT_WORKSPACE.txt",
+      "src/traitweaver/assistant_workspace.py",
+      "src/traitweaver/web/assistant-ui.js",
+      "tests/test_assistant_workspace.py",
+      "tests/assistant_ui_offline.cjs"
+    ],
+    "primary_source_fixtures_changed": false,
+    "provider_calls": 0,
+    "provenance": "Existing pinned public/synthetic assistant cases; all new model responses synthetic. No private archive/planning example imported."
+  },
+  "scientific_story_extension": {
+    "prepared_date": "2026-10-31",
+    "publication_approved": false,
+    "sources": "Existing pinned public algae summaries, qualified one-locus CC-503 reference and separate GFP reference; newly authored proposed measurement-design cards and explicitly synthetic arithmetic fixtures only.",
+    "new_files": [
+      "data/research-story.v1.json",
+      "docs/SCIENTIFIC_STORY.txt",
+      "src/traitweaver/research_story.py",
+      "src/traitweaver/web/research-story-ui.js",
+      "tests/test_research_story.py",
+      "tests/research_story_ui_offline.cjs"
+    ],
+    "fixture_sha256": "7584cda0ae8b8e9eb74b362bda1d02c1dd01acbd80d2e30846c855680f90538b",
+    "scope": "Read-only source projections, identity/custody distinctions, measurement-plan gates and optional synthetic examples; no experimental, cassette/guide/organism design or live-provider result.",
+    "original_schemas_and_primary_fixtures_changed": false,
+    "provider_calls": 0,
+    "native_limit": "Download monitor stalled despite valid actual downloaded JSON. Smooth timed export/native picker reopen unqualified."
+  },
+  "workbench_extension": {
+    "prepared_date": "2026-10-31",
+    "publication_approved": false,
+    "archive_sha256": "51474e939f1b910c06c9eb720741b85e4da9f544cc7890a13e6854db9f1737b3",
+    "scope": "Owner-requested layout-pattern adaptation only. New implementation wraps existing qualified assistant/story services; archive runtime, references, fixtures, contracts and dependencies not imported.",
+    "wrapper_schema": "traitweaver.workbench_package.v1",
+    "annotations": "Uninterpreted server-memory revisions, separate from evidence/model/tool inputs; immutable parent/base hashes; export before shutdown.",
+    "privacy": "All included annotation history screened; blocked findings name only field/revision/category; exact-view owner acknowledgment even when clean; JSON exact and Markdown encoded; no redaction.",
+    "original_scientific_fixtures_changed": false,
+    "original_contracts_changed": false,
+    "new_files": [
+      "docs/WORKBENCH.txt",
+      "src/traitweaver/workbench.py",
+      "src/traitweaver/web/workbench-ui.js",
+      "tests/test_workbench.py",
+      "tests/workbench_ui_offline.cjs"
+    ],
+    "provider_calls": 0,
+    "native_limit": "JSON download and file-picker read-only reopen passed; approximately 59/150-second automation delays leave timed native transfers unqualified."
+  },
+  "human_research_experience": {
+    "prepared_date": "2026-10-31",
+    "publication_approved": false,
+    "source_basis": "Same four public/synthetic case fixtures and existing public scientific story; no new literature or experimental claims admitted. Human copy is explanatory projection, not replacement evidence.",
+    "new_files": [
+      "docs/RESEARCH_EXPERIENCE.txt",
+      "tools/exercise_workbench.py"
+    ],
+    "real_muse_boundary": "Only separately owner-loaded original algae completed-cycle records can display saved-real status; no packet is included in the repository or workbench exports, and no other case or new action card inherits this status.",
+    "public_request_preview": "Existing assistant.prepare exact fixed case; annotations excluded; current-view/session/origin validation; not_sent and live_transport_available false.",
+    "workflow_exercise": "24 offline software journeys, 4 existing cases x 6 orders; actual local checks and synthetic priorities; no new scientific study or live-model qualification.",
+    "new_provider_calls": 0,
+    "new_spend_usd": 0,
+    "original_primary_data_changed": false,
+    "original_contracts_changed": false
+  },
+  "four_case_runner_preparation": {
+    "date": "2026-10-31",
+    "scope": "Separate approval-gated stdlib four-case transport/usage/monitor adapter, original assistant/scientific contracts unchanged",
+    "new_files": [
+      "docs/FOUR_CASE_MUSE.txt",
+      "tools/muse_assistant_batch.py",
+      "tools/muse_assistant_start.py",
+      "tests/test_muse_assistant_batch.py"
+    ],
+    "request_body_hashes": [
+      "5b592ac6e6f51e673363cfa6a8477c1286d1a5abd45faf78e76a2015752a44f7",
+      "3ded7536ce23bd7c4485f7b32e72c38fb8ddd80afa1ea6bebbe114f619f9d4f6",
+      "e299f1abcd45b08823d4d54018bff5474597f31ad1380dec35ab84b50ab439c3",
+      "13d8d5eadb60645dae64e962b66de1e4d575aa6e4ee57e2f3e37932f5e7c8b4f"
+    ],
+    "provider": "Meta",
+    "model": "muse-spark-1.3",
+    "new_live_requests": 0,
+    "pricing_source": "https://dev.meta.ai/docs/pricing-rate-limits",
+    "price_checked_date": "2026-10-31",
+    "prepared_packets_in_public_candidate": false,
+    "approval_status": "Unsigned and pending; no owner grant created",
+    "core_reply_adapter": "Validate nested numeric usage, retain original response fingerprint, preserve core import-unverified/synthetic labels; outer receipt records transport separately.",
+    "real_credentials_or_raw_live_replies_read": false
+  },
+  "four_case_accounting_v2": {
+    "date": "2026-10-31",
+    "scope": "Separate transport adapter: rejected-response usage accounting and output-budget-only extension; original scientific and assistant contracts preserved",
+    "new_tests": 11,
+    "runner_tests_total": 45,
+    "offline_unit_tests_total": 313,
+    "max_output_tokens_per_request_proposed": 8192,
+    "new_ceiling_usd_proposed": "0.20",
+    "max_requests": 4,
+    "retries": 0,
+    "fallback": false,
+    "new_live_requests_during_repair": 0,
+    "owner_grant_created": false,
+    "historical_attempts_modified": false,
+    "wire_binding": "Separate exact wire SHA and original core-request SHA; only max_output_tokens differs",
+    "billing_limit": "Usage estimate and conservative sending guard; never an independently verified invoice cap"
+  },
+  "stronger_assistant_evaluation": {
+    "date": "2026-10-31",
+    "scope": "Open synthetic paired-evidence/action-order evaluation; rubric agreement separate from human usefulness",
+    "scenario_count": 12,
+    "families": 6,
+    "order_variants": 3,
+    "synthetic_control_responses": 108,
+    "new_live_requests": 0,
+    "credentials_read": false,
+    "source_catalog_sha256": "b802783f882f6cd907acc4c0c636960923a299f2aebe3072f3796e526fc61ffc",
+    "original_scientific_inputs_or_v1_contract_changed": false,
+    "historical_packets_modified": false,
+    "new_live_transport_available": false,
+    "human_usefulness": "not_reviewed",
+    "publication_approved": false
+  },
+  "rna_pilot_preparation": {
+    "date": "2026-10-31",
+    "scope": "One clearly synthetic RNA family, changed evidence x original/reversed action order; four independent requests pending exact new approval",
+    "new_live_calls": 0,
+    "credentials_read": false,
+    "old_scientific_evaluation_and_runner_files_changed": false,
+    "protocol_sha256": "9bb41bf00ba97d84fe92b40734d823395b6c9096fc085c45a7b755819bf45e60",
+    "request_count_proposed": 4,
+    "output_cap_each_proposed": 8192,
+    "additional_application_ceiling_usd_proposed": "0.20",
+    "maximum_seconds_per_request": 120,
+    "retries": 0,
+    "fallback": false,
+    "human_usefulness": "not_reviewed",
+    "criteria_review": "Factual unique-label contrast primary; uncertainty/citation alternatives qualified; priority agreement secondary; phase/readiness hints omitted from wire.",
+    "offline_tests": "333 baseline plus 22 pilot tests; initial heartbeat failure preserved, repaired in new adapter; full 355 pass; isolated copy checked separately."
+  },
+  "completed_step_and_journey": {
+    "date": "2026-10-31",
+    "new_live_calls": 0,
+    "credentials_read": false,
+    "publication_approved": false,
+    "original_scientific_contracts_changed": false,
+    "historical_real_packets_changed": false,
+    "source": "Existing pinned public reference chain and explicitly synthetic RNA records",
+    "scope": "Source-bound metadata receipts, illustrated pathway, unsigned four-request receipt/order comparison",
+    "completion_authority": "Fixed actual local check only; never a model or presentation stage",
+    "tests": "390 Python tests,233 controller scenarios; isolated copy evidence external",
+    "limitations": "No CRISPR/cassette sequences, executable laboratory methods, validated transfer or human usefulness claim."
+  },
+  "focused_mvp": {
+    "date": "2026-10-31",
+    "scope": "Read-only presentation and evidence companions, grouped navigation, qualified real/synthetic provenance",
+    "original_source_fixture_and_python_contract_changes": false,
+    "new_live_calls": 0,
+    "credentials_read": false,
+    "private_or_generated_media_added": false,
+    "publication_approved": false,
+    "checks": "390 offline Python tests;249 controller scenarios (209 prior plus40 journey); independent review and human usefulness remain unverified",
+    "event_primary_sources": [
+      "https://dev.meta.ai/events/global-hackathon",
+      "https://cerebralvalley.ai/e/meta-ai-developer-hackathon",
+      "https://cerebralvalley.ai/e/meta-ai-developer-hackathon/waiver"
+    ],
+    "current_deadline": "November4,2026,9pm Eastern; recheck before owner submission",
+    "entry_status": "Not certified; participant acceptance,track,final rules and submission artifacts remain owner review.",
+    "project_weights_verified": {
+      "impact": 30,
+      "meta_tooling": 25,
+      "execution": 20,
+      "demo": 25
+    }
+  },
+  "github_development_review": {
+    "baseline_commit": "cd3b1a99ef8a4ddc34f18bf299c7cd2ed778e4f7",
+    "remote_refreshed": false,
+    "scope": "163-file public/synthetic code candidate; external owner packets and media excluded",
+    "prior_source_fields": "Historical source selection, not current remote state"
+  }
 }

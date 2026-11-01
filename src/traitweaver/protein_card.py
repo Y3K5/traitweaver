@@ -155,7 +155,8 @@ def open_report(path):
 def readable(card):
     validate_card(card)
     identity = card['identity']
-    lines = ['Traitweaver — offline GFP protein card', 'Schema: ' + SCHEMA, '', 'GFP identity']
+    lines = ['Traitweaver — offline GFP protein card', 'Schema: ' + SCHEMA,
+             'Card ID: ' + card['card_id'], '', 'GFP identity']
     for label, key in [('Protein', 'protein_name'), ('Organism', 'organism'), ('Gene label (database)', 'gene_label'),
                        ('UniProtKB', 'uniprot_accession'), ('Atlas accession', 'atlas_accession'),
                        ('Atlas source', 'atlas_source'), ('Atlas sequence MD5', 'atlas_protein_hash_md5'),
@@ -164,11 +165,11 @@ def readable(card):
         lines.append(label + ': ' + str(identity[key]))
     lines += ['Sequence version: Unavailable (null)', 'Original sequence:', identity['sequence'], '', 'Database annotation']
     for annotation in card['database_annotations']:
-        lines += ['Role: ' + annotation['role'], annotation['value'],
+        lines += ['Record ID: ' + annotation['id'], 'Role: ' + annotation['role'], annotation['value'],
                   'Source: ' + annotation['source_id'] + ' · ' + annotation['locator'], annotation['claim_limit'], '']
     lines += ['Three supplied SAE features — model predictions', card['coordinate_convention']]
     for feature in card['model_predictions']:
-        lines += ['', str(feature['feature_index']) + ' — ' + feature['label'],
+        lines += ['', 'Record ID: ' + feature['id'], str(feature['feature_index']) + ' — ' + feature['label'],
                   'Role: ' + feature['role'], 'Original score: ' + str(feature['value']), feature['description']]
         for region in feature['residue_regions']:
             lines.append('Original coordinates: start ' + str(region['start']) + '; end ' + str(region['end'])

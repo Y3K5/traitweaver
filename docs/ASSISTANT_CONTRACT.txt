@@ -1,0 +1,122 @@
+THREE-ACTION ASSISTANT — LOCAL, TRANSPORT-FREE v1
+
+Inputs -> validation -> outputs
+
+Four pinned cases enter the new assistant module. A typed synthetic or imported
+reply names all required claim IDs and prioritizes exactly three eligible action
+IDs. Local validation expands those IDs into source-linked statements and full
+action cards. The output is a readable brief plus a versioned JSON package.
+No action, research analysis, shell command, laboratory protocol or model call
+is executed. Unknown/contradictory and withheld statements cannot be omitted.
+
+This is a new independent contract, not an expansion of the original case,
+study, completed-cycle, molecular or intelligence schemas. It has a local CLI
+and now powers the separate Research assistant browser view described in
+docs/ASSISTANT_WORKSPACE.txt. The browser adds a wrapper for local audit receipts;
+it does not expand this core contract. Existing owner studies are never opened by
+the CLI. No key, transport, retry, provider fallback or spending approval exists
+in this module. Prepared requests remain not_sent and live_transport_available
+is false. Historical approvals do not carry over to these new hashes.
+
+CASES AND QUALIFICATION
+
+ENV_ALGAE: admitted public algae/phosphorus summaries, original source controls,
+SE, n, units and source locators. Removal, assimilation, collection and plant use
+are distinct; uptake/removal does not establish harvested-product or plant-use
+performance. The operational definitions are evaluation scope, not measurements.
+
+PROTEIN_GFP: subset of the qualified public P42212 card. Identity/database
+annotation/model predictions retain distinct roles. Structure/confidence and
+model-version gaps remain null; admitted experimental evidence remains empty.
+This does not assert no relevant structures/experiments exist elsewhere. Source
+component attribution is retained. Generic SAE labels are not assay results or
+probabilities. The original GFP JSON schema and public snapshots are unchanged.
+
+RNA_SYNTHETIC: clearly invented incomplete metadata; duplicate SYN-T2, conflicting
+SYN-T1 library layout, unknown independent units/contrast/context/reference/QC.
+Zero supplied FASTQ files is not zero reads. No differential expression result.
+
+REPRO_SYNTHETIC: clearly invented incomplete project; README claims unsupported
+by versions, source IDs, hashes and run receipt. Exit code zero is not proof of
+a documented successful run. Unknown command/timestamps remain null. No install
+or project execution occurs.
+
+data/assistant-cases.v1.json contains only screened public/synthetic inputs and
+authored reference claims/action proposals. A code-pinned SHA-256 prevents silent
+fixture changes. Public algae and GFP snapshots are also checked against their
+existing canonical loaders. There is no arbitrary importer, editable context,
+private-note field, archive dependency or live retrieval. A new case or changed
+evidence requires separate review/versioning; it cannot be silently substituted.
+
+RESPONSE AND ACCEPTED RECORD
+
+Response schema: traitweaver_assistant_v1, compiled per case by response_schema.
+The reply contains supports, unknown_or_contradictory, withheld (lists of exact
+claim IDs), and prioritized_action_ids (three distinct permitted action IDs).
+Every registered claim is required in its original group. IDs from other cases,
+unknown IDs, duplicate IDs, missing fields, tool outputs, refusals, incomplete
+responses and free-form winner/measurement fields are rejected. A model can
+prioritize these authored proposals; this is not unrestricted task generation
+or an automated scientific entailment judge.
+
+Accepted schema: traitweaver.assistant_review.v1. Each action has id, priority,
+task, why, required_input, expected_deliverable, completion_check, readiness,
+citations and kind=proposal. Readiness is now, needs_evidence or
+needs_human_approval; a model cannot change it or the required inputs/arguments.
+Each claim preserves text, category, citations and source_roles. Exact binding
+rejects prediction-to-observation promotion and changed claims/action wording.
+Case and prepared-request hashes, limitations and a sanitized receipt are saved.
+
+Synthetic replies are labelled synthetic_fixture. Imported replies are labelled
+owner_imported_reply_authenticity_unverified; a matching hash is not independent
+provider authentication. Missing reported token usage stays null, distinct from
+zero. Only bounded numeric input/output/total counts are admitted in this v1
+receipt; provider billing is never marked verified. Raw provider responses,
+reasoning text, arbitrary metadata and provider identifiers are not exported.
+
+Package schema: traitweaver.assistant_package.v1. It binds the exact case,
+accepted review, catalog identity and package checksum. JSON reopen revalidates
+all bindings without inference or tool execution. Text retains exact claim and
+action objects, every source/record ID, original zero/null values and limits.
+Exports require a fresh external directory; interrupted writes clean temporary
+work and preserve earlier exports. Reopen is read-only. These packages are not
+original-study or intelligence packages; use their dedicated CLI to reopen.
+
+RUN FROM THE REPOSITORY ROOT — NO INSTALLATION
+
+Show one synthetic review:
+  python3 -B tools/assistant_review.py --synthetic ENV_ALGAE
+
+Other case IDs: PROTEIN_GFP, RNA_SYNTHETIC, REPRO_SYNTHETIC.
+
+Save to a new directory outside the application (replace the example path):
+  python3 -B tools/assistant_review.py --synthetic RNA_SYNTHETIC --output /tmp/traitweaver-rna-review
+
+Reopen, without running a tool or model:
+  python3 -B tools/assistant_review.py --reopen /tmp/traitweaver-rna-review/assistant-review.json
+
+Print a candidate public request without sending:
+  python3 -B tools/assistant_review.py --prepare PROTEIN_GFP
+
+The CLI intentionally has no live-send flag. Do not pass these requests to the
+old two-call algae runner. They are not covered by any existing approval or
+four-case aggregate spending guard. No real Muse batch was run for this change.
+
+QUALIFICATION LIMITS
+
+Automated tests can establish schema/ID/role binding, preserved missing values,
+rejection, exports and offline behavior. They do not prove biological correctness,
+independent scientific review, useful prioritization by a live model or reliability
+across repeated requests. All new demonstration responses are synthetic. Human
+review of source entailment, practical priorities and completion criteria remains
+necessary. The original endpoint selector still lacks a full four-stage matrix;
+this new assistant preserves those distinctions without changing that selector.
+
+OCTOBER 31 SEPARATE TRANSPORT ADAPTER
+The core contract/CLI above remain transport-free and unchanged. The owner has
+requested an independent four-case runner in tools/muse_assistant_batch.py; it
+prepares exact current bodies and requires a fresh exact grant/terminal/budget
+before sending. It adapts nested numeric usage without widening this schema,
+retains original response fingerprints and saves a separate transport/audit
+receipt. See FOUR_CASE_MUSE.txt. No new live run is authorized or performed by
+the preparation task; prior approvals and the old two-call runner do not apply.

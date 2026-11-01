@@ -1,0 +1,426 @@
+{
+  "schema_version": "traitweaver.molecular_catalog.v2",
+  "case_id": "psr1-reference",
+  "role": "public_reference_annotation",
+  "title": "Public algae \u00b7 PSR1-associated reference",
+  "organism": "Chlamydomonas reinhardtii",
+  "strain": "CC-503 cw92 mt+",
+  "record_status": "RefSeq PROVISIONAL; product uncharacterized protein; UniProt Q9S807 unreviewed. Protein is conceptually translated, not experimental protein evidence.",
+  "models": {
+    "coordinate_system": "0-based, half-open; chromosome NC_057015.1; transcript 5-prime order",
+    "genes": [
+      {
+        "id": "GeneID:5726104",
+        "label": "CHLRE_12g495100v5 / Cre12.g495100",
+        "assembly": "GCF_000002595.2",
+        "chromosome": "NC_057015.1",
+        "strand": "+",
+        "start": 724591,
+        "end": 729993,
+        "source_id": "reference_gene_region.gb"
+      }
+    ],
+    "exons": [
+      {
+        "id": "REF-exon-1",
+        "gene_id": "GeneID:5726104",
+        "start": 724591,
+        "end": 725902,
+        "cds": [
+          725358,
+          725902
+        ]
+      },
+      {
+        "id": "REF-exon-2",
+        "gene_id": "GeneID:5726104",
+        "start": 726139,
+        "end": 726807,
+        "cds": [
+          726139,
+          726807
+        ]
+      },
+      {
+        "id": "REF-exon-3",
+        "gene_id": "GeneID:5726104",
+        "start": 727200,
+        "end": 729993,
+        "cds": [
+          727200,
+          728244
+        ]
+      }
+    ],
+    "transcripts": [
+      {
+        "id": "XM_001700501.2",
+        "label": "One admitted reference transcript",
+        "gene_id": "GeneID:5726104",
+        "exon_ids": [
+          "REF-exon-1",
+          "REF-exon-2",
+          "REF-exon-3"
+        ],
+        "protein_id": "XP_001700553.1"
+      }
+    ],
+    "proteins": [
+      {
+        "id": "XP_001700553.1",
+        "label": "PSR1-associated reference; RefSeq product uncharacterized protein",
+        "length_aa": 752
+      }
+    ]
+  },
+  "transcript_maps": {
+    "XM_001700501.2": {
+      "transcript": {
+        "id": "XM_001700501.2",
+        "label": "One admitted reference transcript",
+        "gene_id": "GeneID:5726104",
+        "exon_ids": [
+          "REF-exon-1",
+          "REF-exon-2",
+          "REF-exon-3"
+        ],
+        "protein_id": "XP_001700553.1"
+      },
+      "gene": {
+        "id": "GeneID:5726104",
+        "label": "CHLRE_12g495100v5 / Cre12.g495100",
+        "assembly": "GCF_000002595.2",
+        "chromosome": "NC_057015.1",
+        "strand": "+",
+        "start": 724591,
+        "end": 729993,
+        "source_id": "reference_gene_region.gb"
+      },
+      "rows": [
+        {
+          "exon_id": "REF-exon-1",
+          "genomic_interval": [
+            724591,
+            725902
+          ],
+          "transcript_interval": [
+            0,
+            1311
+          ],
+          "transcript_coding_interval": [
+            767,
+            1311
+          ],
+          "coding_interval": [
+            0,
+            544
+          ],
+          "phase_at_coding_start": 0,
+          "protein_interval": [
+            0,
+            182
+          ]
+        },
+        {
+          "exon_id": "REF-exon-2",
+          "genomic_interval": [
+            726139,
+            726807
+          ],
+          "transcript_interval": [
+            1311,
+            1979
+          ],
+          "transcript_coding_interval": [
+            1311,
+            1979
+          ],
+          "coding_interval": [
+            544,
+            1212
+          ],
+          "phase_at_coding_start": 1,
+          "protein_interval": [
+            181,
+            404
+          ]
+        },
+        {
+          "exon_id": "REF-exon-3",
+          "genomic_interval": [
+            727200,
+            729993
+          ],
+          "transcript_interval": [
+            1979,
+            4772
+          ],
+          "transcript_coding_interval": [
+            1979,
+            3023
+          ],
+          "coding_interval": [
+            1212,
+            2256
+          ],
+          "phase_at_coding_start": 0,
+          "protein_interval": [
+            404,
+            752
+          ]
+        }
+      ],
+      "transcript_length_nt": 4772,
+      "coding_length_nt": 2256,
+      "coding_remainder": 0,
+      "protein_length_aa": 752,
+      "translation_status": "exact_offline_reference_sequence_reconciliation",
+      "coordinate_system": "0-based, half-open; chromosome NC_057015.1; transcript 5-prime order",
+      "limit": "Public reference annotation and offline sequence reconciliation only. No experimental splice support, intervention result or strain equivalence is established. No guide, edit site, construct or laboratory protocol is generated."
+    }
+  },
+  "sources": {
+    "schema_version": "traitweaver.public_source_manifest.v1",
+    "case_id": "psr1-reference",
+    "role": "public_reference_annotation",
+    "retrieval": "Existing locally cached primary public records; copied byte-for-byte and checked against recorded public-source hashes. No external retrieval in this build. Original retrieval time not independently established.",
+    "freshness": "Frozen records, not a current database query. Source record dates are not retrieval dates.",
+    "sources": [
+      {
+        "id": "refseq_XP_001700553.1.gb",
+        "file": "refseq_XP_001700553.1.gb",
+        "bytes": 7041,
+        "sha256": "15f435099cb200d32d3fdd4978acbeb2e6aafe12d6f3f762ae55697d1af06772",
+        "title": "RefSeq protein XP_001700553.1",
+        "url": "https://www.ncbi.nlm.nih.gov/protein/XP_001700553.1",
+        "origin_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=XP_001700553.1&rettype=gb&retmode=text",
+        "locator": "VERSION; DBSOURCE; FEATURES/source; ORIGIN",
+        "role": "public_reference_annotation"
+      },
+      {
+        "id": "refseq_XM_001700501.2.gb",
+        "file": "refseq_XM_001700501.2.gb",
+        "bytes": 13047,
+        "sha256": "cd0732884392357bd563ee301a403667921e346df3444d79750976683d170330",
+        "title": "RefSeq transcript XM_001700501.2",
+        "url": "https://www.ncbi.nlm.nih.gov/nuccore/XM_001700501.2",
+        "origin_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_001700501.2&rettype=gb&retmode=text",
+        "locator": "VERSION; FEATURES/gene; FEATURES/CDS; ORIGIN",
+        "role": "public_reference_annotation"
+      },
+      {
+        "id": "reference_gene_region.gb",
+        "file": "reference_gene_region.gb",
+        "bytes": 15331,
+        "sha256": "f22f6f94fb4f4aafa44cca169c9c3fbbca614f02357f529d805388f08e51743c",
+        "title": "Chromosome 12 reference region",
+        "url": "https://www.ncbi.nlm.nih.gov/nuccore/NC_057015.1?from=724592&to=729993",
+        "origin_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_057015.1&seq_start=724592&seq_stop=729993&rettype=gb&retmode=text",
+        "locator": "ACCESSION REGION; FEATURES/gene, mRNA and CDS with GeneID:5726104; ORIGIN",
+        "role": "public_reference_annotation"
+      },
+      {
+        "id": "assembly_report.txt",
+        "file": "assembly_report.txt",
+        "bytes": 6248,
+        "sha256": "e0df1adbb766bcba78f454990c01e43a7cba36ceeb299e3956e7a4a1e541da5d",
+        "title": "Reference assembly v5.5 report",
+        "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000002595.2/",
+        "origin_url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/595/GCF_000002595.2_Chlamydomonas_reinhardtii_v5.5/GCF_000002595.2_Chlamydomonas_reinhardtii_v5.5_assembly_report.txt",
+        "locator": "Assembly name, RefSeq assembly accession, organism, infraspecific name; chromosome 12 row",
+        "role": "public_reference_annotation"
+      },
+      {
+        "id": "uniprot_Q9S807.fasta",
+        "file": "uniprot_Q9S807.fasta",
+        "bytes": 875,
+        "sha256": "9194b898ce0b362dc96ffc84cfdcb7e162cd6fecd488028c40bd894b6fa11e54",
+        "title": "UniProt Q9S807 unreviewed sequence",
+        "url": "https://www.uniprot.org/uniprotkb/Q9S807/entry",
+        "origin_url": "https://rest.uniprot.org/uniprotkb/Q9S807.fasta",
+        "locator": "FASTA header and complete amino-acid sequence",
+        "role": "public_reference_annotation"
+      }
+    ],
+    "publication_identity": {
+      "source_id": "S_SLOCOMBE_2023",
+      "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2023.1208168/full",
+      "doi": "10.3389/fpls.2023.1208168",
+      "locator": "Materials and methods / Generation of the pCL8 construct for PSR1-OE (section s2_2)",
+      "reported_identifier": "Cre12.g495100.t1.1",
+      "reference_gene_cross_reference": "Cre12.g495100",
+      "basis": "Paper identifier shares a gene-level identifier with the RefSeq db_xref. This is an identity association, not proof that the reference transcript, strain or sequence is the paper construct.",
+      "public_fulltext_snapshot_sha256": "4850dda5aa761016a8e7850b29a06c444f534e2659af2c9df9337ace841f64b7",
+      "admitted_content": "Identifier and section locator only; no construct, protocol or private planning content copied."
+    }
+  },
+  "claims": [
+    {
+      "id": "identity",
+      "statement": "XP_001700553.1 \u2194 XM_001700501.2 \u2194 GeneID:5726104 / CHLRE_12g495100v5 / Cre12.g495100.",
+      "files": [
+        "refseq_XP_001700553.1.gb",
+        "refseq_XM_001700501.2.gb",
+        "reference_gene_region.gb"
+      ],
+      "locator": "DBSOURCE; gene/CDS/mRNA qualifiers; versioned accessions",
+      "kind": "reference_annotation"
+    },
+    {
+      "id": "exons",
+      "statement": "One admitted forward-strand transcript has three annotated exons, 4772 transcript nt and a 752 aa reference protein.",
+      "files": [
+        "reference_gene_region.gb",
+        "refseq_XM_001700501.2.gb",
+        "refseq_XP_001700553.1.gb"
+      ],
+      "locator": "mRNA join(1..1311,1549..2216,2610..5402); CDS joins; ORIGIN",
+      "kind": "annotation_and_offline_calculation"
+    },
+    {
+      "id": "sequence",
+      "statement": "Spliced genomic sequence matches the transcript; translated CDS matches RefSeq protein; cached unreviewed Q9S807 has the same sequence.",
+      "files": [
+        "reference_gene_region.gb",
+        "refseq_XM_001700501.2.gb",
+        "refseq_XP_001700553.1.gb",
+        "uniprot_Q9S807.fasta"
+      ],
+      "locator": "ORIGIN / FASTA; reproducible derive() checks and normalized sequence hashes",
+      "kind": "offline_sequence_reconciliation"
+    },
+    {
+      "id": "context",
+      "statement": "Reference assembly v5.5 / GCF_000002595.2, chromosome NC_057015.1, strain CC-503 cw92 mt+. This does not establish equivalence to UVM4 study lines.",
+      "files": [
+        "assembly_report.txt",
+        "reference_gene_region.gb"
+      ],
+      "locator": "Assembly header; chromosome 12 row; source strain qualifier",
+      "kind": "reference_context"
+    }
+  ],
+  "checks": {
+    "spliced_genomic_equals_refseq_transcript": true,
+    "translated_cds_equals_refseq_protein": true,
+    "unreviewed_uniprot_equals_refseq_protein": true,
+    "annotated_cds_length_nt": 2259,
+    "peptide_coding_length_nt": 2256,
+    "terminal_stop_codon": "TAG",
+    "stop_genomic_interval": [
+      728244,
+      728247
+    ],
+    "stop_transcript_interval": [
+      3023,
+      3026
+    ],
+    "annotated_cds_genomic_intervals": [
+      [
+        725358,
+        725902
+      ],
+      [
+        726139,
+        726807
+      ],
+      [
+        727200,
+        728247
+      ]
+    ],
+    "sequence_sha256": {
+      "genomic": "5966ef25b4fae982bbf2c18971b88123b55beb304db53705c35a008c6ee3c9cc",
+      "transcript": "3ea0a0417d4e796ed17169ef168a18ec6dd7c938e1c638c666624692055c7118",
+      "refseq_protein": "d434d427fabb680d7ebc22f503953158127e63d42126035a34f49e1ac811e9f1",
+      "uniprot_protein": "d434d427fabb680d7ebc22f503953158127e63d42126035a34f49e1ac811e9f1"
+    },
+    "basis": "Standard genetic code 1, forward-strand joined CDS, codon_start=1; source CDS includes the terminal stop, peptide projection excludes it. Exact byte/sequence agreement is not experimental validation."
+  },
+  "evidence_requirements": {
+    "schema_version": "traitweaver.evidence_requirements.v1",
+    "role": "measurement_questions_only",
+    "case_id": "psr1-reference",
+    "observations": [],
+    "admission_status": "No experimental files admitted; no automatic importer",
+    "source_catalog": "data/public-algae/psr1-reference/reference.v2.json",
+    "requirements": [
+      {
+        "id": "strain-identity",
+        "question": "Does the intended strain match the reference locus and transcript?",
+        "currently_established": "Five pinned public files agree for the CC-503 reference context.",
+        "missing": "Qualified comparison to a specified study strain and reference version; exact paper construct equivalence."
+      },
+      {
+        "id": "transcript-support",
+        "question": "Which transcripts and exon junctions are supported in the intended condition?",
+        "currently_established": "Three annotated exons for one admitted reference transcript.",
+        "missing": "Condition-labelled expression, junction support and any alternative transcript evidence; absence of alternatives is not established."
+      },
+      {
+        "id": "protein-support",
+        "question": "Is protein abundance or qualified activity associated with the endpoint?",
+        "currently_established": "Conceptual translation reconciles to the RefSeq protein and cached unreviewed UniProt sequence.",
+        "missing": "Qualified protein measurements, activity evidence and a justified causal comparison."
+      },
+      {
+        "id": "endpoint-support",
+        "question": "What phosphorus endpoint changes while considering growth?",
+        "currently_established": "Published uptake and growth summaries remain independently admitted in data/algae-public.v1.json.",
+        "missing": "Recovered-product phosphorus evidence; qualified context, control, units, time basis and uncertainty for each distinct endpoint."
+      }
+    ],
+    "required_receipt_fields": [
+      "requirement_id",
+      "public_or_authorized_source",
+      "file_sha256",
+      "record_locator",
+      "organism_and_strain",
+      "reference_versions",
+      "condition_and_time_basis",
+      "comparison_and_controls",
+      "readout_and_units",
+      "independent_biological_units",
+      "technical_replication_distinction",
+      "uncertainty",
+      "decision_threshold_or_explicit_unknown",
+      "limitations_and_admission_decision"
+    ],
+    "unresolved": [
+      "Study strain and reference qualification",
+      "Suitability of matched baseline, process and assay reference controls",
+      "Independent biological units and replication",
+      "Assay qualification, uncertainty and decision thresholds"
+    ],
+    "limit": "Requirements only, not an executable laboratory protocol. Zero observations; unknown values remain unknown. No guide sequences, edit sites or constructs. Do not place private experimental records in a publication tree."
+  },
+  "goals": {
+    "increase_expression": {
+      "label": "Expression increase",
+      "concept": "CRISPR activation concept",
+      "readout_question": "Assess transcript and protein abundance alongside the study endpoint."
+    },
+    "decrease_expression": {
+      "label": "Expression decrease",
+      "concept": "CRISPR interference concept",
+      "readout_question": "Assess transcript and protein reduction alongside the study endpoint."
+    },
+    "loss_of_function": {
+      "label": "Loss-of-function question",
+      "concept": "Gene disruption concept",
+      "readout_question": "Review evidence for loss of function and effects on other isoforms."
+    },
+    "isoform_comparison": {
+      "label": "Isoform comparison",
+      "concept": "Transcript evidence review",
+      "readout_question": "Compare isoform support and protein consequences before choosing an intervention."
+    }
+  },
+  "unknowns": [
+    "Alternative isoforms and splice-junction abundance are not admitted; one annotation is not proof of a single biological isoform.",
+    "Reference-strain identity is established for these files; UVM4 sequence, current assembly and exact paper construct equivalence remain unqualified.",
+    "PSR1 association is gene-level via the paper identifier; RefSeq retains an uncharacterized product label.",
+    "No guide specificity, suitable intervention, protein activity, causal effect or recovered-product phosphorus measurement is established."
+  ],
+  "limit": "Public reference annotation and offline sequence reconciliation only. No experimental splice support, intervention result or strain equivalence is established. No guide, edit site, construct or laboratory protocol is generated."
+}

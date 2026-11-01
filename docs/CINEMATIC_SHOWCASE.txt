@@ -1,0 +1,34 @@
+TRAITWEAVER — CINEMATIC META SHOWCASE
+Local implementation, October 31, 2026. No new provider calls or publication.
+
+OPEN
+python3 -B run_workspace.py --demo
+This portable mode is visibly synthetic. The default entry is #journey, full width.
+For explicitly selected saved records use --completed-cycle-dir or
+--completed-cycle-file, plus optional --rna-pilot-dir and --completion-pilot-dir.
+The optional pilot adapters read only known slot/pilot-result.json files, validate
+with the owning pilot contract and recompute comparisons. They never read keys,
+control files or raw replies. Nothing is copied into the repository. Missing cells
+stay unknown; malformed, misplaced, mixed or corrupt records invalidate the view.
+Local receipts establish consistency, not independent provider authentication.
+
+FIVE SCENES
+Question -> Evidence -> Muse decision -> Tool result -> Next study.
+Follow the evidence selects Evidence. Scene buttons support arrow keys/Home/End.
+Play/replay is illustration only, six seconds per scene. Reduced motion disables
+automatic playback. Manual controls remain available. Navigation restores when
+leaving the presentation. Published evidence, reference mapping and next measurement
+are expandable views of existing scientific records. Exact saved decision/result/
+assessment are expandable, with provenance and usage. No hidden reasoning shown.
+
+STRONGER PROOF
+The existing RNA pilot compares changed synthetic labels/layouts in two orders.
+The recorded four-cell result changes factual judgments but not first action.
+The separate completion pilot uses identical records with/without a valid scoped
+receipt, in two orders. Its old preparation/runner/protocol are unchanged. No new
+live permission is inferred. A completed check may still be selected, and repeats
+remain failures. Missing results cannot become a successful demonstration.
+
+Three-minute edited screen walkthrough and review materials are outside the
+candidate repository. Independent comprehension/domain review and final submission
+form constraints remain pending. Exact outgoing files require owner review.

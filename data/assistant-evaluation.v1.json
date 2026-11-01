@@ -1,0 +1,1632 @@
+{
+  "schema_version": "traitweaver.assistant_evaluation_catalog.v1",
+  "qualification": "12 clearly synthetic open evaluation scenarios in six paired families. No legacy evidence/case is changed. Expected judgments are excluded from model inputs, but this is not a hidden benchmark.",
+  "cases": [
+    {
+      "id": "NUTRIENT_BEFORE",
+      "family_id": "NUTRIENT",
+      "phase": "before",
+      "area": "Algae/phosphorus evidence planning",
+      "input_kind": "clearly_synthetic",
+      "question": "Which documentation check should come first before assessing recovered-product phosphorus?",
+      "records": [
+        {
+          "id": "NUTRIENT_CHAIN",
+          "role": "synthetic_record",
+          "value": {
+            "endpoints": [
+              "medium_removal",
+              "cellular_assimilation",
+              "collected_product",
+              "plant_use"
+            ],
+            "same_endpoint": false
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "NUTRIENT_PRODUCT",
+          "role": "synthetic_record",
+          "value": {
+            "source_record_id": null,
+            "measurement_basis": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "NUTRIENT_UPTAKE",
+          "role": "synthetic_record",
+          "value": {
+            "numeric_value": 0,
+            "unit": "mg P/L",
+            "role": "synthetic_measurement",
+            "plant_use_value": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        }
+      ],
+      "candidate_claims": [
+        {
+          "id": "NUTRIENT_PRODUCT_SOURCE",
+          "text": "A collected-product source identifier is supplied."
+        },
+        {
+          "id": "NUTRIENT_UPTAKE_PROVES_PLANT_USE",
+          "text": "The uptake record establishes a plant-use benefit."
+        },
+        {
+          "id": "NUTRIENT_SUCCESS",
+          "text": "A completed scientific, experimental or reproducibility outcome is established by these records."
+        }
+      ],
+      "candidate_actions": [
+        {
+          "id": "NUTRIENT_LOCATE",
+          "task": "Locate a collected-product source identifier",
+          "why": "Avoid substituting uptake for recovered material",
+          "required_input": "Source register or an explicit unavailable finding",
+          "expected_deliverable": "Source-identity ledger",
+          "completion_check": "Every entry has a located identifier or remains unavailable",
+          "readiness": "now",
+          "citations": [
+            "NUTRIENT_PRODUCT"
+          ]
+        },
+        {
+          "id": "NUTRIENT_BASIS",
+          "task": "Audit collected-product measurement-basis metadata",
+          "why": "A source identifier is not a compatible measurement",
+          "required_input": "Located source identifier",
+          "expected_deliverable": "Mass-basis metadata checklist",
+          "completion_check": "Endpoint, denominator and uncertainty are explicit or blocked",
+          "readiness": "needs_evidence",
+          "citations": [
+            "NUTRIENT_PRODUCT",
+            "NUTRIENT_CHAIN"
+          ]
+        },
+        {
+          "id": "NUTRIENT_LEDGER",
+          "task": "Document evidence gaps and unresolved decisions",
+          "why": "Preserve unknowns before later interpretation",
+          "required_input": "Supplied synthetic records",
+          "expected_deliverable": "Gap ledger",
+          "completion_check": "Every gap cites a record and a required input",
+          "readiness": "now",
+          "citations": [
+            "NUTRIENT_CHAIN"
+          ]
+        },
+        {
+          "id": "NUTRIENT_CHECKLIST",
+          "task": "Draft a future software/documentation validation checklist",
+          "why": "Make later completion auditable",
+          "required_input": "Supplied records and explicit unknowns",
+          "expected_deliverable": "Non-executable validation checklist",
+          "completion_check": "No installation, analysis, laboratory step or success claim is executed",
+          "readiness": "now",
+          "citations": [
+            "NUTRIENT_UPTAKE"
+          ]
+        }
+      ],
+      "limits": [
+        "All inputs are explicitly synthetic; no actual biological observation, personal data or private project.",
+        "Actions are evidence collection, metadata checks, documentation or software-validation planning only.",
+        "No analysis, new measurement, laboratory protocol, organism design or biological winner is produced."
+      ],
+      "rubric": {
+        "first_action_id": "NUTRIENT_LOCATE",
+        "claim_judgments": {
+          "NUTRIENT_PRODUCT_SOURCE": {
+            "verdict": "unknown",
+            "required_record_ids": [
+              "NUTRIENT_PRODUCT"
+            ]
+          },
+          "NUTRIENT_UPTAKE_PROVES_PLANT_USE": {
+            "verdict": "contradicted",
+            "required_record_ids": [
+              "NUTRIENT_CHAIN",
+              "NUTRIENT_UPTAKE"
+            ]
+          },
+          "NUTRIENT_SUCCESS": {
+            "verdict": "unknown",
+            "required_record_ids": [
+              "NUTRIENT_UPTAKE"
+            ]
+          }
+        },
+        "note": "Open authored evaluation criteria; agreement is not independent scientific entailment or universal usefulness."
+      }
+    },
+    {
+      "id": "NUTRIENT_AFTER",
+      "family_id": "NUTRIENT",
+      "phase": "after",
+      "area": "Algae/phosphorus evidence planning",
+      "input_kind": "clearly_synthetic",
+      "question": "Which documentation check should come first before assessing recovered-product phosphorus?",
+      "records": [
+        {
+          "id": "NUTRIENT_CHAIN",
+          "role": "synthetic_record",
+          "value": {
+            "endpoints": [
+              "medium_removal",
+              "cellular_assimilation",
+              "collected_product",
+              "plant_use"
+            ],
+            "same_endpoint": false
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "NUTRIENT_PRODUCT",
+          "role": "synthetic_record",
+          "value": {
+            "source_record_id": "SYN-PRODUCT-REGISTER",
+            "measurement_basis": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "NUTRIENT_UPTAKE",
+          "role": "synthetic_record",
+          "value": {
+            "numeric_value": 0,
+            "unit": "mg P/L",
+            "role": "synthetic_measurement",
+            "plant_use_value": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        }
+      ],
+      "candidate_claims": [
+        {
+          "id": "NUTRIENT_PRODUCT_SOURCE",
+          "text": "A collected-product source identifier is supplied."
+        },
+        {
+          "id": "NUTRIENT_UPTAKE_PROVES_PLANT_USE",
+          "text": "The uptake record establishes a plant-use benefit."
+        },
+        {
+          "id": "NUTRIENT_SUCCESS",
+          "text": "A completed scientific, experimental or reproducibility outcome is established by these records."
+        }
+      ],
+      "candidate_actions": [
+        {
+          "id": "NUTRIENT_LOCATE",
+          "task": "Locate a collected-product source identifier",
+          "why": "Avoid substituting uptake for recovered material",
+          "required_input": "Source register or an explicit unavailable finding",
+          "expected_deliverable": "Source-identity ledger",
+          "completion_check": "Every entry has a located identifier or remains unavailable",
+          "readiness": "now",
+          "citations": [
+            "NUTRIENT_PRODUCT"
+          ]
+        },
+        {
+          "id": "NUTRIENT_BASIS",
+          "task": "Audit collected-product measurement-basis metadata",
+          "why": "A source identifier is not a compatible measurement",
+          "required_input": "Located source identifier",
+          "expected_deliverable": "Mass-basis metadata checklist",
+          "completion_check": "Endpoint, denominator and uncertainty are explicit or blocked",
+          "readiness": "now",
+          "citations": [
+            "NUTRIENT_PRODUCT",
+            "NUTRIENT_CHAIN"
+          ]
+        },
+        {
+          "id": "NUTRIENT_LEDGER",
+          "task": "Document evidence gaps and unresolved decisions",
+          "why": "Preserve unknowns before later interpretation",
+          "required_input": "Supplied synthetic records",
+          "expected_deliverable": "Gap ledger",
+          "completion_check": "Every gap cites a record and a required input",
+          "readiness": "now",
+          "citations": [
+            "NUTRIENT_CHAIN"
+          ]
+        },
+        {
+          "id": "NUTRIENT_CHECKLIST",
+          "task": "Draft a future software/documentation validation checklist",
+          "why": "Make later completion auditable",
+          "required_input": "Supplied records and explicit unknowns",
+          "expected_deliverable": "Non-executable validation checklist",
+          "completion_check": "No installation, analysis, laboratory step or success claim is executed",
+          "readiness": "now",
+          "citations": [
+            "NUTRIENT_UPTAKE"
+          ]
+        }
+      ],
+      "limits": [
+        "All inputs are explicitly synthetic; no actual biological observation, personal data or private project.",
+        "Actions are evidence collection, metadata checks, documentation or software-validation planning only.",
+        "No analysis, new measurement, laboratory protocol, organism design or biological winner is produced."
+      ],
+      "rubric": {
+        "first_action_id": "NUTRIENT_BASIS",
+        "claim_judgments": {
+          "NUTRIENT_PRODUCT_SOURCE": {
+            "verdict": "supported",
+            "required_record_ids": [
+              "NUTRIENT_PRODUCT"
+            ]
+          },
+          "NUTRIENT_UPTAKE_PROVES_PLANT_USE": {
+            "verdict": "contradicted",
+            "required_record_ids": [
+              "NUTRIENT_CHAIN",
+              "NUTRIENT_UPTAKE"
+            ]
+          },
+          "NUTRIENT_SUCCESS": {
+            "verdict": "unknown",
+            "required_record_ids": [
+              "NUTRIENT_UPTAKE"
+            ]
+          }
+        },
+        "note": "Open authored evaluation criteria; agreement is not independent scientific entailment or universal usefulness."
+      }
+    },
+    {
+      "id": "IDENTITY_BEFORE",
+      "family_id": "IDENTITY",
+      "phase": "before",
+      "area": "Protein evidence review",
+      "input_kind": "clearly_synthetic",
+      "question": "What should be checked first before interpreting a protein feature annotation?",
+      "records": [
+        {
+          "id": "IDENTITY_IDENTITY",
+          "role": "synthetic_record",
+          "value": {
+            "resolver_hash": "SYN-A",
+            "feature_record_hash": "SYN-B"
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "IDENTITY_FEATURE",
+          "role": "synthetic_record",
+          "value": {
+            "role": "model_prediction",
+            "generic_label": "synthetic_binding_feature",
+            "experimental_assay": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "IDENTITY_STRUCTURE",
+          "role": "synthetic_record",
+          "value": {
+            "coordinates": null,
+            "confidence": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        }
+      ],
+      "candidate_claims": [
+        {
+          "id": "IDENTITY_HASH_AGREEMENT",
+          "text": "The two supplied sequence identifiers agree."
+        },
+        {
+          "id": "IDENTITY_PREDICTION_IS_ASSAY",
+          "text": "The model-derived feature is an experimental assay result."
+        },
+        {
+          "id": "IDENTITY_SUCCESS",
+          "text": "A completed scientific, experimental or reproducibility outcome is established by these records."
+        }
+      ],
+      "candidate_actions": [
+        {
+          "id": "IDENTITY_RECONCILE",
+          "task": "Reconcile conflicting sequence identifiers",
+          "why": "Features require the intended protein identity",
+          "required_input": "Resolver and feature-record identifiers",
+          "expected_deliverable": "Identity conflict ledger",
+          "completion_check": "Both identifiers agree or the mismatch remains blocked",
+          "readiness": "now",
+          "citations": [
+            "IDENTITY_IDENTITY"
+          ]
+        },
+        {
+          "id": "IDENTITY_ROLE_AUDIT",
+          "task": "Audit feature evidence roles and missing structure fields",
+          "why": "Identifier agreement does not validate function",
+          "required_input": "Reconciled identity record and feature metadata",
+          "expected_deliverable": "Role-separated evidence checklist",
+          "completion_check": "Prediction, annotation and assay assertions retain their roles",
+          "readiness": "needs_evidence",
+          "citations": [
+            "IDENTITY_IDENTITY",
+            "IDENTITY_FEATURE",
+            "IDENTITY_STRUCTURE"
+          ]
+        },
+        {
+          "id": "IDENTITY_LEDGER",
+          "task": "Document evidence gaps and unresolved decisions",
+          "why": "Preserve unknowns before later interpretation",
+          "required_input": "Supplied synthetic records",
+          "expected_deliverable": "Gap ledger",
+          "completion_check": "Every gap cites a record and a required input",
+          "readiness": "now",
+          "citations": [
+            "IDENTITY_IDENTITY"
+          ]
+        },
+        {
+          "id": "IDENTITY_CHECKLIST",
+          "task": "Draft a future software/documentation validation checklist",
+          "why": "Make later completion auditable",
+          "required_input": "Supplied records and explicit unknowns",
+          "expected_deliverable": "Non-executable validation checklist",
+          "completion_check": "No installation, analysis, laboratory step or success claim is executed",
+          "readiness": "now",
+          "citations": [
+            "IDENTITY_STRUCTURE"
+          ]
+        }
+      ],
+      "limits": [
+        "All inputs are explicitly synthetic; no actual biological observation, personal data or private project.",
+        "Actions are evidence collection, metadata checks, documentation or software-validation planning only.",
+        "No analysis, new measurement, laboratory protocol, organism design or biological winner is produced."
+      ],
+      "rubric": {
+        "first_action_id": "IDENTITY_RECONCILE",
+        "claim_judgments": {
+          "IDENTITY_HASH_AGREEMENT": {
+            "verdict": "contradicted",
+            "required_record_ids": [
+              "IDENTITY_IDENTITY"
+            ]
+          },
+          "IDENTITY_PREDICTION_IS_ASSAY": {
+            "verdict": "contradicted",
+            "required_record_ids": [
+              "IDENTITY_FEATURE"
+            ]
+          },
+          "IDENTITY_SUCCESS": {
+            "verdict": "unknown",
+            "required_record_ids": [
+              "IDENTITY_STRUCTURE"
+            ]
+          }
+        },
+        "note": "Open authored evaluation criteria; agreement is not independent scientific entailment or universal usefulness."
+      }
+    },
+    {
+      "id": "IDENTITY_AFTER",
+      "family_id": "IDENTITY",
+      "phase": "after",
+      "area": "Protein evidence review",
+      "input_kind": "clearly_synthetic",
+      "question": "What should be checked first before interpreting a protein feature annotation?",
+      "records": [
+        {
+          "id": "IDENTITY_IDENTITY",
+          "role": "synthetic_record",
+          "value": {
+            "resolver_hash": "SYN-A",
+            "feature_record_hash": "SYN-A"
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "IDENTITY_FEATURE",
+          "role": "synthetic_record",
+          "value": {
+            "role": "model_prediction",
+            "generic_label": "synthetic_binding_feature",
+            "experimental_assay": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "IDENTITY_STRUCTURE",
+          "role": "synthetic_record",
+          "value": {
+            "coordinates": null,
+            "confidence": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        }
+      ],
+      "candidate_claims": [
+        {
+          "id": "IDENTITY_HASH_AGREEMENT",
+          "text": "The two supplied sequence identifiers agree."
+        },
+        {
+          "id": "IDENTITY_PREDICTION_IS_ASSAY",
+          "text": "The model-derived feature is an experimental assay result."
+        },
+        {
+          "id": "IDENTITY_SUCCESS",
+          "text": "A completed scientific, experimental or reproducibility outcome is established by these records."
+        }
+      ],
+      "candidate_actions": [
+        {
+          "id": "IDENTITY_RECONCILE",
+          "task": "Reconcile conflicting sequence identifiers",
+          "why": "Features require the intended protein identity",
+          "required_input": "Resolver and feature-record identifiers",
+          "expected_deliverable": "Identity conflict ledger",
+          "completion_check": "Both identifiers agree or the mismatch remains blocked",
+          "readiness": "now",
+          "citations": [
+            "IDENTITY_IDENTITY"
+          ]
+        },
+        {
+          "id": "IDENTITY_ROLE_AUDIT",
+          "task": "Audit feature evidence roles and missing structure fields",
+          "why": "Identifier agreement does not validate function",
+          "required_input": "Reconciled identity record and feature metadata",
+          "expected_deliverable": "Role-separated evidence checklist",
+          "completion_check": "Prediction, annotation and assay assertions retain their roles",
+          "readiness": "now",
+          "citations": [
+            "IDENTITY_IDENTITY",
+            "IDENTITY_FEATURE",
+            "IDENTITY_STRUCTURE"
+          ]
+        },
+        {
+          "id": "IDENTITY_LEDGER",
+          "task": "Document evidence gaps and unresolved decisions",
+          "why": "Preserve unknowns before later interpretation",
+          "required_input": "Supplied synthetic records",
+          "expected_deliverable": "Gap ledger",
+          "completion_check": "Every gap cites a record and a required input",
+          "readiness": "now",
+          "citations": [
+            "IDENTITY_IDENTITY"
+          ]
+        },
+        {
+          "id": "IDENTITY_CHECKLIST",
+          "task": "Draft a future software/documentation validation checklist",
+          "why": "Make later completion auditable",
+          "required_input": "Supplied records and explicit unknowns",
+          "expected_deliverable": "Non-executable validation checklist",
+          "completion_check": "No installation, analysis, laboratory step or success claim is executed",
+          "readiness": "now",
+          "citations": [
+            "IDENTITY_STRUCTURE"
+          ]
+        }
+      ],
+      "limits": [
+        "All inputs are explicitly synthetic; no actual biological observation, personal data or private project.",
+        "Actions are evidence collection, metadata checks, documentation or software-validation planning only.",
+        "No analysis, new measurement, laboratory protocol, organism design or biological winner is produced."
+      ],
+      "rubric": {
+        "first_action_id": "IDENTITY_ROLE_AUDIT",
+        "claim_judgments": {
+          "IDENTITY_HASH_AGREEMENT": {
+            "verdict": "supported",
+            "required_record_ids": [
+              "IDENTITY_IDENTITY"
+            ]
+          },
+          "IDENTITY_PREDICTION_IS_ASSAY": {
+            "verdict": "contradicted",
+            "required_record_ids": [
+              "IDENTITY_FEATURE"
+            ]
+          },
+          "IDENTITY_SUCCESS": {
+            "verdict": "unknown",
+            "required_record_ids": [
+              "IDENTITY_STRUCTURE"
+            ]
+          }
+        },
+        "note": "Open authored evaluation criteria; agreement is not independent scientific entailment or universal usefulness."
+      }
+    },
+    {
+      "id": "RNA_BEFORE",
+      "family_id": "RNA",
+      "phase": "before",
+      "area": "RNA-seq study planning",
+      "input_kind": "clearly_synthetic",
+      "question": "Which design-readiness check should come first for this synthetic RNA study?",
+      "records": [
+        {
+          "id": "RNA_SAMPLES",
+          "role": "synthetic_record",
+          "value": {
+            "labels": [
+              "SYN-A",
+              "SYN-B",
+              "SYN-B"
+            ],
+            "library_layouts": [
+              "paired",
+              "single",
+              "paired"
+            ]
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "RNA_DESIGN",
+          "role": "synthetic_record",
+          "value": {
+            "contrast": null,
+            "independent_unit_definition": null,
+            "batch": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "RNA_FILES",
+          "role": "synthetic_record",
+          "value": {
+            "fastq_files_supplied": 0,
+            "read_count": null,
+            "reference_assembly": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        }
+      ],
+      "candidate_claims": [
+        {
+          "id": "RNA_UNIQUE_LABELS",
+          "text": "The supplied sample labels are unique."
+        },
+        {
+          "id": "RNA_ZERO_FILES_ZERO_READS",
+          "text": "Zero supplied files establishes a measured read count of zero."
+        },
+        {
+          "id": "RNA_SUCCESS",
+          "text": "A completed scientific, experimental or reproducibility outcome is established by these records."
+        }
+      ],
+      "candidate_actions": [
+        {
+          "id": "RNA_RECONCILE",
+          "task": "Reconcile sample-label and layout conflicts",
+          "why": "Conflicts prevent a trustworthy manifest",
+          "required_input": "Synthetic sample sheet",
+          "expected_deliverable": "Unresolved conflict table",
+          "completion_check": "Each label and layout is unique/consistent or explicitly blocked",
+          "readiness": "now",
+          "citations": [
+            "RNA_SAMPLES"
+          ]
+        },
+        {
+          "id": "RNA_DESIGN_CHECK",
+          "task": "Request independent-unit and contrast decisions",
+          "why": "Unique labels do not establish replication",
+          "required_input": "Reconciled sample sheet and researcher design decisions",
+          "expected_deliverable": "Design-readiness checklist",
+          "completion_check": "Each sample has a confirmed unit, group and contrast or stays blocked",
+          "readiness": "needs_evidence",
+          "citations": [
+            "RNA_SAMPLES",
+            "RNA_DESIGN"
+          ]
+        },
+        {
+          "id": "RNA_LEDGER",
+          "task": "Document evidence gaps and unresolved decisions",
+          "why": "Preserve unknowns before later interpretation",
+          "required_input": "Supplied synthetic records",
+          "expected_deliverable": "Gap ledger",
+          "completion_check": "Every gap cites a record and a required input",
+          "readiness": "now",
+          "citations": [
+            "RNA_SAMPLES"
+          ]
+        },
+        {
+          "id": "RNA_CHECKLIST",
+          "task": "Draft a future software/documentation validation checklist",
+          "why": "Make later completion auditable",
+          "required_input": "Supplied records and explicit unknowns",
+          "expected_deliverable": "Non-executable validation checklist",
+          "completion_check": "No installation, analysis, laboratory step or success claim is executed",
+          "readiness": "now",
+          "citations": [
+            "RNA_FILES"
+          ]
+        }
+      ],
+      "limits": [
+        "All inputs are explicitly synthetic; no actual biological observation, personal data or private project.",
+        "Actions are evidence collection, metadata checks, documentation or software-validation planning only.",
+        "No analysis, new measurement, laboratory protocol, organism design or biological winner is produced."
+      ],
+      "rubric": {
+        "first_action_id": "RNA_RECONCILE",
+        "claim_judgments": {
+          "RNA_UNIQUE_LABELS": {
+            "verdict": "contradicted",
+            "required_record_ids": [
+              "RNA_SAMPLES"
+            ]
+          },
+          "RNA_ZERO_FILES_ZERO_READS": {
+            "verdict": "contradicted",
+            "required_record_ids": [
+              "RNA_FILES"
+            ]
+          },
+          "RNA_SUCCESS": {
+            "verdict": "unknown",
+            "required_record_ids": [
+              "RNA_FILES"
+            ]
+          }
+        },
+        "note": "Open authored evaluation criteria; agreement is not independent scientific entailment or universal usefulness."
+      }
+    },
+    {
+      "id": "RNA_AFTER",
+      "family_id": "RNA",
+      "phase": "after",
+      "area": "RNA-seq study planning",
+      "input_kind": "clearly_synthetic",
+      "question": "Which design-readiness check should come first for this synthetic RNA study?",
+      "records": [
+        {
+          "id": "RNA_SAMPLES",
+          "role": "synthetic_record",
+          "value": {
+            "labels": [
+              "SYN-A",
+              "SYN-B",
+              "SYN-C"
+            ],
+            "library_layouts": [
+              "paired",
+              "paired",
+              "paired"
+            ]
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "RNA_DESIGN",
+          "role": "synthetic_record",
+          "value": {
+            "contrast": null,
+            "independent_unit_definition": null,
+            "batch": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "RNA_FILES",
+          "role": "synthetic_record",
+          "value": {
+            "fastq_files_supplied": 0,
+            "read_count": null,
+            "reference_assembly": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        }
+      ],
+      "candidate_claims": [
+        {
+          "id": "RNA_UNIQUE_LABELS",
+          "text": "The supplied sample labels are unique."
+        },
+        {
+          "id": "RNA_ZERO_FILES_ZERO_READS",
+          "text": "Zero supplied files establishes a measured read count of zero."
+        },
+        {
+          "id": "RNA_SUCCESS",
+          "text": "A completed scientific, experimental or reproducibility outcome is established by these records."
+        }
+      ],
+      "candidate_actions": [
+        {
+          "id": "RNA_RECONCILE",
+          "task": "Reconcile sample-label and layout conflicts",
+          "why": "Conflicts prevent a trustworthy manifest",
+          "required_input": "Synthetic sample sheet",
+          "expected_deliverable": "Unresolved conflict table",
+          "completion_check": "Each label and layout is unique/consistent or explicitly blocked",
+          "readiness": "now",
+          "citations": [
+            "RNA_SAMPLES"
+          ]
+        },
+        {
+          "id": "RNA_DESIGN_CHECK",
+          "task": "Request independent-unit and contrast decisions",
+          "why": "Unique labels do not establish replication",
+          "required_input": "Reconciled sample sheet and researcher design decisions",
+          "expected_deliverable": "Design-readiness checklist",
+          "completion_check": "Each sample has a confirmed unit, group and contrast or stays blocked",
+          "readiness": "now",
+          "citations": [
+            "RNA_SAMPLES",
+            "RNA_DESIGN"
+          ]
+        },
+        {
+          "id": "RNA_LEDGER",
+          "task": "Document evidence gaps and unresolved decisions",
+          "why": "Preserve unknowns before later interpretation",
+          "required_input": "Supplied synthetic records",
+          "expected_deliverable": "Gap ledger",
+          "completion_check": "Every gap cites a record and a required input",
+          "readiness": "now",
+          "citations": [
+            "RNA_SAMPLES"
+          ]
+        },
+        {
+          "id": "RNA_CHECKLIST",
+          "task": "Draft a future software/documentation validation checklist",
+          "why": "Make later completion auditable",
+          "required_input": "Supplied records and explicit unknowns",
+          "expected_deliverable": "Non-executable validation checklist",
+          "completion_check": "No installation, analysis, laboratory step or success claim is executed",
+          "readiness": "now",
+          "citations": [
+            "RNA_FILES"
+          ]
+        }
+      ],
+      "limits": [
+        "All inputs are explicitly synthetic; no actual biological observation, personal data or private project.",
+        "Actions are evidence collection, metadata checks, documentation or software-validation planning only.",
+        "No analysis, new measurement, laboratory protocol, organism design or biological winner is produced."
+      ],
+      "rubric": {
+        "first_action_id": "RNA_DESIGN_CHECK",
+        "claim_judgments": {
+          "RNA_UNIQUE_LABELS": {
+            "verdict": "supported",
+            "required_record_ids": [
+              "RNA_SAMPLES"
+            ]
+          },
+          "RNA_ZERO_FILES_ZERO_READS": {
+            "verdict": "contradicted",
+            "required_record_ids": [
+              "RNA_FILES"
+            ]
+          },
+          "RNA_SUCCESS": {
+            "verdict": "unknown",
+            "required_record_ids": [
+              "RNA_FILES"
+            ]
+          }
+        },
+        "note": "Open authored evaluation criteria; agreement is not independent scientific entailment or universal usefulness."
+      }
+    },
+    {
+      "id": "REPRO_BEFORE",
+      "family_id": "REPRO",
+      "phase": "before",
+      "area": "Reproducible research",
+      "input_kind": "clearly_synthetic",
+      "question": "What is the first evidence repair needed before a reproducibility claim?",
+      "records": [
+        {
+          "id": "REPRO_ENV",
+          "role": "synthetic_record",
+          "value": {
+            "language_version": null,
+            "package_version": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "REPRO_INPUTS",
+          "role": "synthetic_record",
+          "value": {
+            "source_identifier": null,
+            "checksum": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "REPRO_RUN",
+          "role": "synthetic_record",
+          "value": {
+            "exit_code": 0,
+            "command": null,
+            "timestamps": null,
+            "output_hashes": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        }
+      ],
+      "candidate_claims": [
+        {
+          "id": "REPRO_VERSIONS_PRESENT",
+          "text": "Both required software version identifiers are supplied."
+        },
+        {
+          "id": "REPRO_EXIT_IS_PROOF",
+          "text": "Exit code zero alone verifies a reproducible run."
+        },
+        {
+          "id": "REPRO_SUCCESS",
+          "text": "A completed scientific, experimental or reproducibility outcome is established by these records."
+        }
+      ],
+      "candidate_actions": [
+        {
+          "id": "REPRO_VERSIONS",
+          "task": "Collect the missing software version identifiers",
+          "why": "Version drift prevents traceability",
+          "required_input": "Environment metadata",
+          "expected_deliverable": "Version-identity manifest",
+          "completion_check": "Every required version is explicit or remains unknown",
+          "readiness": "now",
+          "citations": [
+            "REPRO_ENV"
+          ]
+        },
+        {
+          "id": "REPRO_INPUT_IDENTITIES",
+          "task": "Locate source identifiers and input checksums",
+          "why": "Versions alone do not identify the analyzed inputs",
+          "required_input": "Environment version record and input register",
+          "expected_deliverable": "Input provenance ledger",
+          "completion_check": "Each analyzed input has an identifier and checksum or is blocked",
+          "readiness": "needs_evidence",
+          "citations": [
+            "REPRO_ENV",
+            "REPRO_INPUTS"
+          ]
+        },
+        {
+          "id": "REPRO_LEDGER",
+          "task": "Document evidence gaps and unresolved decisions",
+          "why": "Preserve unknowns before later interpretation",
+          "required_input": "Supplied synthetic records",
+          "expected_deliverable": "Gap ledger",
+          "completion_check": "Every gap cites a record and a required input",
+          "readiness": "now",
+          "citations": [
+            "REPRO_ENV"
+          ]
+        },
+        {
+          "id": "REPRO_CHECKLIST",
+          "task": "Draft a future software/documentation validation checklist",
+          "why": "Make later completion auditable",
+          "required_input": "Supplied records and explicit unknowns",
+          "expected_deliverable": "Non-executable validation checklist",
+          "completion_check": "No installation, analysis, laboratory step or success claim is executed",
+          "readiness": "now",
+          "citations": [
+            "REPRO_RUN"
+          ]
+        }
+      ],
+      "limits": [
+        "All inputs are explicitly synthetic; no actual biological observation, personal data or private project.",
+        "Actions are evidence collection, metadata checks, documentation or software-validation planning only.",
+        "No analysis, new measurement, laboratory protocol, organism design or biological winner is produced."
+      ],
+      "rubric": {
+        "first_action_id": "REPRO_VERSIONS",
+        "claim_judgments": {
+          "REPRO_VERSIONS_PRESENT": {
+            "verdict": "unknown",
+            "required_record_ids": [
+              "REPRO_ENV"
+            ]
+          },
+          "REPRO_EXIT_IS_PROOF": {
+            "verdict": "contradicted",
+            "required_record_ids": [
+              "REPRO_RUN",
+              "REPRO_INPUTS"
+            ]
+          },
+          "REPRO_SUCCESS": {
+            "verdict": "unknown",
+            "required_record_ids": [
+              "REPRO_RUN"
+            ]
+          }
+        },
+        "note": "Open authored evaluation criteria; agreement is not independent scientific entailment or universal usefulness."
+      }
+    },
+    {
+      "id": "REPRO_AFTER",
+      "family_id": "REPRO",
+      "phase": "after",
+      "area": "Reproducible research",
+      "input_kind": "clearly_synthetic",
+      "question": "What is the first evidence repair needed before a reproducibility claim?",
+      "records": [
+        {
+          "id": "REPRO_ENV",
+          "role": "synthetic_record",
+          "value": {
+            "language_version": "synthetic-runtime-v1",
+            "package_version": "synthetic-package-v2"
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "REPRO_INPUTS",
+          "role": "synthetic_record",
+          "value": {
+            "source_identifier": null,
+            "checksum": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "REPRO_RUN",
+          "role": "synthetic_record",
+          "value": {
+            "exit_code": 0,
+            "command": null,
+            "timestamps": null,
+            "output_hashes": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        }
+      ],
+      "candidate_claims": [
+        {
+          "id": "REPRO_VERSIONS_PRESENT",
+          "text": "Both required software version identifiers are supplied."
+        },
+        {
+          "id": "REPRO_EXIT_IS_PROOF",
+          "text": "Exit code zero alone verifies a reproducible run."
+        },
+        {
+          "id": "REPRO_SUCCESS",
+          "text": "A completed scientific, experimental or reproducibility outcome is established by these records."
+        }
+      ],
+      "candidate_actions": [
+        {
+          "id": "REPRO_VERSIONS",
+          "task": "Collect the missing software version identifiers",
+          "why": "Version drift prevents traceability",
+          "required_input": "Environment metadata",
+          "expected_deliverable": "Version-identity manifest",
+          "completion_check": "Every required version is explicit or remains unknown",
+          "readiness": "now",
+          "citations": [
+            "REPRO_ENV"
+          ]
+        },
+        {
+          "id": "REPRO_INPUT_IDENTITIES",
+          "task": "Locate source identifiers and input checksums",
+          "why": "Versions alone do not identify the analyzed inputs",
+          "required_input": "Environment version record and input register",
+          "expected_deliverable": "Input provenance ledger",
+          "completion_check": "Each analyzed input has an identifier and checksum or is blocked",
+          "readiness": "now",
+          "citations": [
+            "REPRO_ENV",
+            "REPRO_INPUTS"
+          ]
+        },
+        {
+          "id": "REPRO_LEDGER",
+          "task": "Document evidence gaps and unresolved decisions",
+          "why": "Preserve unknowns before later interpretation",
+          "required_input": "Supplied synthetic records",
+          "expected_deliverable": "Gap ledger",
+          "completion_check": "Every gap cites a record and a required input",
+          "readiness": "now",
+          "citations": [
+            "REPRO_ENV"
+          ]
+        },
+        {
+          "id": "REPRO_CHECKLIST",
+          "task": "Draft a future software/documentation validation checklist",
+          "why": "Make later completion auditable",
+          "required_input": "Supplied records and explicit unknowns",
+          "expected_deliverable": "Non-executable validation checklist",
+          "completion_check": "No installation, analysis, laboratory step or success claim is executed",
+          "readiness": "now",
+          "citations": [
+            "REPRO_RUN"
+          ]
+        }
+      ],
+      "limits": [
+        "All inputs are explicitly synthetic; no actual biological observation, personal data or private project.",
+        "Actions are evidence collection, metadata checks, documentation or software-validation planning only.",
+        "No analysis, new measurement, laboratory protocol, organism design or biological winner is produced."
+      ],
+      "rubric": {
+        "first_action_id": "REPRO_INPUT_IDENTITIES",
+        "claim_judgments": {
+          "REPRO_VERSIONS_PRESENT": {
+            "verdict": "supported",
+            "required_record_ids": [
+              "REPRO_ENV"
+            ]
+          },
+          "REPRO_EXIT_IS_PROOF": {
+            "verdict": "contradicted",
+            "required_record_ids": [
+              "REPRO_RUN",
+              "REPRO_INPUTS"
+            ]
+          },
+          "REPRO_SUCCESS": {
+            "verdict": "unknown",
+            "required_record_ids": [
+              "REPRO_RUN"
+            ]
+          }
+        },
+        "note": "Open authored evaluation criteria; agreement is not independent scientific entailment or universal usefulness."
+      }
+    },
+    {
+      "id": "WATER_BEFORE",
+      "family_id": "WATER",
+      "phase": "before",
+      "area": "Water-quality table curation",
+      "input_kind": "clearly_synthetic",
+      "question": "Which metadata check comes first before combining these synthetic water-quality records?",
+      "records": [
+        {
+          "id": "WATER_TABLE",
+          "role": "synthetic_record",
+          "value": {
+            "record_a_unit": null,
+            "record_b_unit": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "WATER_CONTEXT",
+          "role": "synthetic_record",
+          "value": {
+            "sampling_context": "SYN-WATER-A",
+            "comparison_context": "SYN-WATER-B",
+            "equivalence_verified": false
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "WATER_ZERO",
+          "role": "synthetic_record",
+          "value": {
+            "reported_value": 0,
+            "meaning": "synthetic numeric observation",
+            "missing_value": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        }
+      ],
+      "candidate_claims": [
+        {
+          "id": "WATER_UNITS_PRESENT",
+          "text": "Both reported unit strings are available."
+        },
+        {
+          "id": "WATER_DIRECT_POOLING",
+          "text": "The supplied records establish directly poolable measurements."
+        },
+        {
+          "id": "WATER_SUCCESS",
+          "text": "A completed scientific, experimental or reproducibility outcome is established by these records."
+        }
+      ],
+      "candidate_actions": [
+        {
+          "id": "WATER_UNIT_METADATA",
+          "task": "Locate the missing unit metadata",
+          "why": "Unspecified quantities cannot be combined",
+          "required_input": "Source table headers and quantity definitions",
+          "expected_deliverable": "Unit-identity ledger",
+          "completion_check": "Every value has an explicit quantity and unit or remains unavailable",
+          "readiness": "now",
+          "citations": [
+            "WATER_TABLE"
+          ]
+        },
+        {
+          "id": "WATER_BASIS_AUDIT",
+          "task": "Audit phosphorus basis and context compatibility",
+          "why": "P and phosphate units are not interchangeable by label",
+          "required_input": "Located unit strings and sampling context",
+          "expected_deliverable": "Compatibility blocker table",
+          "completion_check": "No values pool until quantity/basis/context compatibility is established",
+          "readiness": "needs_evidence",
+          "citations": [
+            "WATER_TABLE",
+            "WATER_CONTEXT"
+          ]
+        },
+        {
+          "id": "WATER_LEDGER",
+          "task": "Document evidence gaps and unresolved decisions",
+          "why": "Preserve unknowns before later interpretation",
+          "required_input": "Supplied synthetic records",
+          "expected_deliverable": "Gap ledger",
+          "completion_check": "Every gap cites a record and a required input",
+          "readiness": "now",
+          "citations": [
+            "WATER_TABLE"
+          ]
+        },
+        {
+          "id": "WATER_CHECKLIST",
+          "task": "Draft a future software/documentation validation checklist",
+          "why": "Make later completion auditable",
+          "required_input": "Supplied records and explicit unknowns",
+          "expected_deliverable": "Non-executable validation checklist",
+          "completion_check": "No installation, analysis, laboratory step or success claim is executed",
+          "readiness": "now",
+          "citations": [
+            "WATER_ZERO"
+          ]
+        }
+      ],
+      "limits": [
+        "All inputs are explicitly synthetic; no actual biological observation, personal data or private project.",
+        "Actions are evidence collection, metadata checks, documentation or software-validation planning only.",
+        "No analysis, new measurement, laboratory protocol, organism design or biological winner is produced."
+      ],
+      "rubric": {
+        "first_action_id": "WATER_UNIT_METADATA",
+        "claim_judgments": {
+          "WATER_UNITS_PRESENT": {
+            "verdict": "unknown",
+            "required_record_ids": [
+              "WATER_TABLE"
+            ]
+          },
+          "WATER_DIRECT_POOLING": {
+            "verdict": "unknown",
+            "required_record_ids": [
+              "WATER_TABLE",
+              "WATER_CONTEXT"
+            ]
+          },
+          "WATER_SUCCESS": {
+            "verdict": "unknown",
+            "required_record_ids": [
+              "WATER_ZERO"
+            ]
+          }
+        },
+        "note": "Open authored evaluation criteria; agreement is not independent scientific entailment or universal usefulness."
+      }
+    },
+    {
+      "id": "WATER_AFTER",
+      "family_id": "WATER",
+      "phase": "after",
+      "area": "Water-quality table curation",
+      "input_kind": "clearly_synthetic",
+      "question": "Which metadata check comes first before combining these synthetic water-quality records?",
+      "records": [
+        {
+          "id": "WATER_TABLE",
+          "role": "synthetic_record",
+          "value": {
+            "record_a_unit": "mg P/L",
+            "record_b_unit": "mg PO4/L"
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "WATER_CONTEXT",
+          "role": "synthetic_record",
+          "value": {
+            "sampling_context": "SYN-WATER-A",
+            "comparison_context": "SYN-WATER-B",
+            "equivalence_verified": false
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "WATER_ZERO",
+          "role": "synthetic_record",
+          "value": {
+            "reported_value": 0,
+            "meaning": "synthetic numeric observation",
+            "missing_value": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        }
+      ],
+      "candidate_claims": [
+        {
+          "id": "WATER_UNITS_PRESENT",
+          "text": "Both reported unit strings are available."
+        },
+        {
+          "id": "WATER_DIRECT_POOLING",
+          "text": "The supplied records establish directly poolable measurements."
+        },
+        {
+          "id": "WATER_SUCCESS",
+          "text": "A completed scientific, experimental or reproducibility outcome is established by these records."
+        }
+      ],
+      "candidate_actions": [
+        {
+          "id": "WATER_UNIT_METADATA",
+          "task": "Locate the missing unit metadata",
+          "why": "Unspecified quantities cannot be combined",
+          "required_input": "Source table headers and quantity definitions",
+          "expected_deliverable": "Unit-identity ledger",
+          "completion_check": "Every value has an explicit quantity and unit or remains unavailable",
+          "readiness": "now",
+          "citations": [
+            "WATER_TABLE"
+          ]
+        },
+        {
+          "id": "WATER_BASIS_AUDIT",
+          "task": "Audit phosphorus basis and context compatibility",
+          "why": "P and phosphate units are not interchangeable by label",
+          "required_input": "Located unit strings and sampling context",
+          "expected_deliverable": "Compatibility blocker table",
+          "completion_check": "No values pool until quantity/basis/context compatibility is established",
+          "readiness": "now",
+          "citations": [
+            "WATER_TABLE",
+            "WATER_CONTEXT"
+          ]
+        },
+        {
+          "id": "WATER_LEDGER",
+          "task": "Document evidence gaps and unresolved decisions",
+          "why": "Preserve unknowns before later interpretation",
+          "required_input": "Supplied synthetic records",
+          "expected_deliverable": "Gap ledger",
+          "completion_check": "Every gap cites a record and a required input",
+          "readiness": "now",
+          "citations": [
+            "WATER_TABLE"
+          ]
+        },
+        {
+          "id": "WATER_CHECKLIST",
+          "task": "Draft a future software/documentation validation checklist",
+          "why": "Make later completion auditable",
+          "required_input": "Supplied records and explicit unknowns",
+          "expected_deliverable": "Non-executable validation checklist",
+          "completion_check": "No installation, analysis, laboratory step or success claim is executed",
+          "readiness": "now",
+          "citations": [
+            "WATER_ZERO"
+          ]
+        }
+      ],
+      "limits": [
+        "All inputs are explicitly synthetic; no actual biological observation, personal data or private project.",
+        "Actions are evidence collection, metadata checks, documentation or software-validation planning only.",
+        "No analysis, new measurement, laboratory protocol, organism design or biological winner is produced."
+      ],
+      "rubric": {
+        "first_action_id": "WATER_BASIS_AUDIT",
+        "claim_judgments": {
+          "WATER_UNITS_PRESENT": {
+            "verdict": "supported",
+            "required_record_ids": [
+              "WATER_TABLE"
+            ]
+          },
+          "WATER_DIRECT_POOLING": {
+            "verdict": "contradicted",
+            "required_record_ids": [
+              "WATER_TABLE",
+              "WATER_CONTEXT"
+            ]
+          },
+          "WATER_SUCCESS": {
+            "verdict": "unknown",
+            "required_record_ids": [
+              "WATER_ZERO"
+            ]
+          }
+        },
+        "note": "Open authored evaluation criteria; agreement is not independent scientific entailment or universal usefulness."
+      }
+    },
+    {
+      "id": "BENCH_BEFORE",
+      "family_id": "BENCH",
+      "phase": "before",
+      "area": "Scientific-software benchmark review",
+      "input_kind": "clearly_synthetic",
+      "question": "What blocks a defensible comparison of these synthetic software benchmark records?",
+      "records": [
+        {
+          "id": "BENCH_META",
+          "role": "synthetic_record",
+          "value": {
+            "hardware_id": null,
+            "timing_unit": null
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "BENCH_INPUTS",
+          "role": "synthetic_record",
+          "value": {
+            "baseline_hash": "SYN-INPUT-A",
+            "candidate_hash": "SYN-INPUT-B"
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "BENCH_RUN",
+          "role": "synthetic_record",
+          "value": {
+            "baseline_time": 0,
+            "candidate_time": null,
+            "speedup_verified": false
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        }
+      ],
+      "candidate_claims": [
+        {
+          "id": "BENCH_METADATA_PRESENT",
+          "text": "Hardware and timing-unit identifiers are supplied."
+        },
+        {
+          "id": "BENCH_MATCHED_INPUTS",
+          "text": "The baseline and candidate runs used matching input identifiers."
+        },
+        {
+          "id": "BENCH_SUCCESS",
+          "text": "A completed scientific, experimental or reproducibility outcome is established by these records."
+        }
+      ],
+      "candidate_actions": [
+        {
+          "id": "BENCH_METADATA",
+          "task": "Collect hardware and timing-unit identifiers",
+          "why": "A timing comparison requires explicit measurement context",
+          "required_input": "Benchmark metadata record",
+          "expected_deliverable": "Measurement-context manifest",
+          "completion_check": "Hardware and timing units are explicit or unknown",
+          "readiness": "now",
+          "citations": [
+            "BENCH_META"
+          ]
+        },
+        {
+          "id": "BENCH_INPUT_AUDIT",
+          "task": "Reconcile benchmark input identifiers",
+          "why": "Different inputs cannot establish a controlled speed comparison",
+          "required_input": "Located hardware/unit metadata and run input identifiers",
+          "expected_deliverable": "Input-comparability checklist",
+          "completion_check": "Inputs match or speedup comparison remains blocked",
+          "readiness": "needs_evidence",
+          "citations": [
+            "BENCH_META",
+            "BENCH_INPUTS"
+          ]
+        },
+        {
+          "id": "BENCH_LEDGER",
+          "task": "Document evidence gaps and unresolved decisions",
+          "why": "Preserve unknowns before later interpretation",
+          "required_input": "Supplied synthetic records",
+          "expected_deliverable": "Gap ledger",
+          "completion_check": "Every gap cites a record and a required input",
+          "readiness": "now",
+          "citations": [
+            "BENCH_META"
+          ]
+        },
+        {
+          "id": "BENCH_CHECKLIST",
+          "task": "Draft a future software/documentation validation checklist",
+          "why": "Make later completion auditable",
+          "required_input": "Supplied records and explicit unknowns",
+          "expected_deliverable": "Non-executable validation checklist",
+          "completion_check": "No installation, analysis, laboratory step or success claim is executed",
+          "readiness": "now",
+          "citations": [
+            "BENCH_RUN"
+          ]
+        }
+      ],
+      "limits": [
+        "All inputs are explicitly synthetic; no actual biological observation, personal data or private project.",
+        "Actions are evidence collection, metadata checks, documentation or software-validation planning only.",
+        "No analysis, new measurement, laboratory protocol, organism design or biological winner is produced."
+      ],
+      "rubric": {
+        "first_action_id": "BENCH_METADATA",
+        "claim_judgments": {
+          "BENCH_METADATA_PRESENT": {
+            "verdict": "unknown",
+            "required_record_ids": [
+              "BENCH_META"
+            ]
+          },
+          "BENCH_MATCHED_INPUTS": {
+            "verdict": "contradicted",
+            "required_record_ids": [
+              "BENCH_INPUTS"
+            ]
+          },
+          "BENCH_SUCCESS": {
+            "verdict": "unknown",
+            "required_record_ids": [
+              "BENCH_RUN"
+            ]
+          }
+        },
+        "note": "Open authored evaluation criteria; agreement is not independent scientific entailment or universal usefulness."
+      }
+    },
+    {
+      "id": "BENCH_AFTER",
+      "family_id": "BENCH",
+      "phase": "after",
+      "area": "Scientific-software benchmark review",
+      "input_kind": "clearly_synthetic",
+      "question": "What blocks a defensible comparison of these synthetic software benchmark records?",
+      "records": [
+        {
+          "id": "BENCH_META",
+          "role": "synthetic_record",
+          "value": {
+            "hardware_id": "SYN-CPU-A",
+            "timing_unit": "seconds"
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "BENCH_INPUTS",
+          "role": "synthetic_record",
+          "value": {
+            "baseline_hash": "SYN-INPUT-A",
+            "candidate_hash": "SYN-INPUT-B"
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        },
+        {
+          "id": "BENCH_RUN",
+          "role": "synthetic_record",
+          "value": {
+            "baseline_time": 0,
+            "candidate_time": null,
+            "speedup_verified": false
+          },
+          "provenance": "Authored synthetic evaluation input; not an observation from a real study."
+        }
+      ],
+      "candidate_claims": [
+        {
+          "id": "BENCH_METADATA_PRESENT",
+          "text": "Hardware and timing-unit identifiers are supplied."
+        },
+        {
+          "id": "BENCH_MATCHED_INPUTS",
+          "text": "The baseline and candidate runs used matching input identifiers."
+        },
+        {
+          "id": "BENCH_SUCCESS",
+          "text": "A completed scientific, experimental or reproducibility outcome is established by these records."
+        }
+      ],
+      "candidate_actions": [
+        {
+          "id": "BENCH_METADATA",
+          "task": "Collect hardware and timing-unit identifiers",
+          "why": "A timing comparison requires explicit measurement context",
+          "required_input": "Benchmark metadata record",
+          "expected_deliverable": "Measurement-context manifest",
+          "completion_check": "Hardware and timing units are explicit or unknown",
+          "readiness": "now",
+          "citations": [
+            "BENCH_META"
+          ]
+        },
+        {
+          "id": "BENCH_INPUT_AUDIT",
+          "task": "Reconcile benchmark input identifiers",
+          "why": "Different inputs cannot establish a controlled speed comparison",
+          "required_input": "Located hardware/unit metadata and run input identifiers",
+          "expected_deliverable": "Input-comparability checklist",
+          "completion_check": "Inputs match or speedup comparison remains blocked",
+          "readiness": "now",
+          "citations": [
+            "BENCH_META",
+            "BENCH_INPUTS"
+          ]
+        },
+        {
+          "id": "BENCH_LEDGER",
+          "task": "Document evidence gaps and unresolved decisions",
+          "why": "Preserve unknowns before later interpretation",
+          "required_input": "Supplied synthetic records",
+          "expected_deliverable": "Gap ledger",
+          "completion_check": "Every gap cites a record and a required input",
+          "readiness": "now",
+          "citations": [
+            "BENCH_META"
+          ]
+        },
+        {
+          "id": "BENCH_CHECKLIST",
+          "task": "Draft a future software/documentation validation checklist",
+          "why": "Make later completion auditable",
+          "required_input": "Supplied records and explicit unknowns",
+          "expected_deliverable": "Non-executable validation checklist",
+          "completion_check": "No installation, analysis, laboratory step or success claim is executed",
+          "readiness": "now",
+          "citations": [
+            "BENCH_RUN"
+          ]
+        }
+      ],
+      "limits": [
+        "All inputs are explicitly synthetic; no actual biological observation, personal data or private project.",
+        "Actions are evidence collection, metadata checks, documentation or software-validation planning only.",
+        "No analysis, new measurement, laboratory protocol, organism design or biological winner is produced."
+      ],
+      "rubric": {
+        "first_action_id": "BENCH_INPUT_AUDIT",
+        "claim_judgments": {
+          "BENCH_METADATA_PRESENT": {
+            "verdict": "supported",
+            "required_record_ids": [
+              "BENCH_META"
+            ]
+          },
+          "BENCH_MATCHED_INPUTS": {
+            "verdict": "contradicted",
+            "required_record_ids": [
+              "BENCH_INPUTS"
+            ]
+          },
+          "BENCH_SUCCESS": {
+            "verdict": "unknown",
+            "required_record_ids": [
+              "BENCH_RUN"
+            ]
+          }
+        },
+        "note": "Open authored evaluation criteria; agreement is not independent scientific entailment or universal usefulness."
+      }
+    }
+  ]
+}

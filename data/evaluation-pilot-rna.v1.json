@@ -1,0 +1,79 @@
+{
+  "schema_version": "traitweaver.rna_pilot_protocol.v1",
+  "input_kind": "clearly_synthetic",
+  "scope": "Four independent model reviews of the same synthetic RNA planning problem: two evidence states by two action orders. No reads, expression analysis or laboratory workflow.",
+  "slots": [
+    {
+      "id": "RNA_BEFORE_O0",
+      "case_id": "RNA_BEFORE",
+      "permutation": 0
+    },
+    {
+      "id": "RNA_AFTER_O1",
+      "case_id": "RNA_AFTER",
+      "permutation": 1
+    },
+    {
+      "id": "RNA_BEFORE_O1",
+      "case_id": "RNA_BEFORE",
+      "permutation": 1
+    },
+    {
+      "id": "RNA_AFTER_O0",
+      "case_id": "RNA_AFTER",
+      "permutation": 0
+    }
+  ],
+  "wire_projection": {
+    "input_id": "RNA_REVIEW",
+    "omit_candidate_readiness": true,
+    "unchanged": "Question, candidate claims, action card text/IDs, source IDs and response schema; shared instructions correct the old statement that readiness is supplied. Across cells only supplied sample metadata and displayed candidate order vary.",
+    "excluded": "Authored rubric, expected first actions/verdicts, phase names, readiness hints, human reviews/notes, credentials, paths, prior replies.",
+    "shared_instruction_change": "Replace readiness-supplied wording with: infer input dependencies only from supplied records. Same instruction in every cell."
+  },
+  "criteria": {
+    "primary_unique_label_judgment": {
+      "claim_id": "RNA_UNIQUE_LABELS",
+      "RNA_BEFORE": "contradicted",
+      "RNA_AFTER": "supported",
+      "requires_citation": "RNA_SAMPLES",
+      "limit": "Judges unique supplied labels only; never independent units, replication or readiness."
+    },
+    "missing_read_count": {
+      "claim_id": "RNA_ZERO_FILES_ZERO_READS",
+      "allowed_verdicts": [
+        "unknown",
+        "contradicted"
+      ],
+      "requires_citation": "RNA_FILES",
+      "must_not_infer": "A measured read count of zero or a nonzero count from absent files."
+    },
+    "unsupported_success": {
+      "claim_id": "RNA_SUCCESS",
+      "allowed_verdicts": [
+        "unknown",
+        "contradicted"
+      ],
+      "at_least_one_citation": [
+        "RNA_DESIGN",
+        "RNA_FILES"
+      ],
+      "limit": "No differential-expression, analysis-ready, biological or reproducibility success is established."
+    },
+    "priority_reference": {
+      "RNA_BEFORE": "RNA_RECONCILE",
+      "RNA_AFTER": "RNA_DESIGN_CHECK",
+      "qualification": "Secondary authored-rubric agreement, not a truth criterion. A gap-ledger-first choice can be defensible; retain the rationale for human review."
+    },
+    "citation_coverage": "Known IDs required. For actions, required card citations may be supplemented by other supplied records; exact-equality score is retained only as strict v1 secondary metric. IDs alone do not establish entailment.",
+    "order_comparison": "Compare first ID, selected set, and rank order under original/reversed presentation separately in each evidence state. Disagreement is an observation, not proof of position bias from one response per cell.",
+    "evidence_comparison": "Compare the unique-label verdict and first action across evidence states within each presentation. Evidence changes resolve duplicate labels AND conflicting layouts together; effects cannot be attributed to either alone.",
+    "human_review": "Relevance, feasibility, priority, completion check and source entailment remain unscored pending human review. Expected alternatives are not silently recoded."
+  },
+  "limits": [
+    "No hidden benchmark: all criteria are openly inspectable, but withheld from model bodies.",
+    "One response per cell, one synthetic RNA scenario family. No repeated-run reliability, causal estimate, statistical significance or generalization across research areas.",
+    "Only fixed documentation/data-check proposals are ranked. Card text is authored; model rationale and ordering are evaluated separately.",
+    "All earlier cases, fixtures, criteria versions and completed run records are preserved."
+  ]
+}

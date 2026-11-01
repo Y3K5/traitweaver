@@ -1,0 +1,124 @@
+LOCUS       XP_001700553             752 aa            linear   PLN 17-AUG-2021
+DEFINITION  uncharacterized protein CHLRE_12g495100v5 [Chlamydomonas
+            reinhardtii].
+ACCESSION   XP_001700553
+VERSION     XP_001700553.1
+DBLINK      BioProject: PRJNA21061
+            BioSample: SAMN02953692
+DBSOURCE    REFSEQ: accession XM_001700501.2
+KEYWORDS    RefSeq.
+SOURCE      Chlamydomonas reinhardtii
+  ORGANISM  Chlamydomonas reinhardtii
+            Eukaryota; Viridiplantae; Chlorophyta; core chlorophytes;
+            Chlorophyceae; CS clade; Chlamydomonadales; Chlamydomonadaceae;
+            Chlamydomonas.
+REFERENCE   1  (residues 1 to 752)
+  AUTHORS   Merchant,S.S., Prochnik,S.E., Vallon,O., Harris,E.H.,
+            Karpowicz,S.J., Witman,G.B., Terry,A., Salamov,A.,
+            Fritz-Laylin,L.K., Marechal-Drouard,L., Marshall,W.F., Qu,L.H.,
+            Nelson,D.R., Sanderfoot,A.A., Spalding,M.H., Kapitonov,V.V.,
+            Ren,Q., Ferris,P., Lindquist,E., Shapiro,H., Lucas,S.M.,
+            Grimwood,J., Schmutz,J., Cardol,P., Cerutti,H., Chanfreau,G.,
+            Chen,C.L., Cognat,V., Croft,M.T., Dent,R., Dutcher,S.,
+            Fernandez,E., Fukuzawa,H., Gonzalez-Ballester,D.,
+            Gonzalez-Halphen,D., Hallmann,A., Hanikenne,M., Hippler,M.,
+            Inwood,W., Jabbari,K., Kalanon,M., Kuras,R., Lefebvre,P.A.,
+            Lemaire,S.D., Lobanov,A.V., Lohr,M., Manuell,A., Meier,I., Mets,L.,
+            Mittag,M., Mittelmeier,T., Moroney,J.V., Moseley,J., Napoli,C.,
+            Nedelcu,A.M., Niyogi,K., Novoselov,S.V., Paulsen,I.T., Pazour,G.,
+            Purton,S., Ral,J.P., Riano-Pachon,D.M., Riekhof,W., Rymarquis,L.,
+            Schroda,M., Stern,D., Umen,J., Willows,R., Wilson,N., Zimmer,S.L.,
+            Allmer,J., Balk,J., Bisova,K., Chen,C.J., Elias,M., Gendler,K.,
+            Hauser,C., Lamb,M.R., Ledford,H., Long,J.C., Minagawa,J.,
+            Page,M.D., Pan,J., Pootakham,W., Roje,S., Rose,A., Stahlberg,E.,
+            Terauchi,A.M., Yang,P., Ball,S., Bowler,C., Dieckmann,C.L.,
+            Gladyshev,V.N., Green,P., Jorgensen,R., Mayfield,S.,
+            Mueller-Roeber,B., Rajamani,S., Sayre,R.T., Brokstein,P.,
+            Dubchak,I., Goodstein,D., Hornick,L., Huang,Y.W., Jhaveri,J.,
+            Luo,Y., Martinez,D., Ngau,W.C., Otillar,B., Poliakov,A., Porter,A.,
+            Szajkowski,L., Werner,G., Zhou,K., Grigoriev,I.V., Rokhsar,D.S. and
+            Grossman,A.R.
+  TITLE     The Chlamydomonas genome reveals the evolution of key animal and
+            plant functions
+  JOURNAL   Science 318 (5848), 245-250 (2007)
+   PUBMED   17932292
+REFERENCE   2  (residues 1 to 752)
+  AUTHORS   Merchant,S.S., Prochnik,S.E., Vallon,O., Harris,E.H.,
+            Karpowicz,S.J., Witman,G.B., Terry,A., Salamov,A.,
+            Fritz-Laylin,L.K., Marechal-Drouard,L., Marshall,W.F., Qu,L.H.,
+            Nelson,D.R., Sanderfoot,A.A., Spalding,M.H., Kapitonov,V.V.,
+            Ren,Q., Ferris,P., Lindquist,E., Shapiro,H., Lucas,S.M.,
+            Grimwood,J., Schmutz,J., Grigoriev,I.V. and Rokhsar,D.S.
+  CONSRTM   Chlamydomonas Annotation Team; JGI Annotation Team
+  TITLE     WGS assembly of Chlamydomonas reinhardtii
+  JOURNAL   Unpublished
+REFERENCE   3  (residues 1 to 752)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-AUG-2021) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   4  (residues 1 to 752)
+  AUTHORS   Merchant,S.S., Prochnik,S.E., Vallon,O., Harris,E.H.,
+            Karpowicz,S.J., Witman,G.B., Terry,A., Salamov,A.,
+            Fritz-Laylin,L.K., Marechal-Drouard,L., Marshall,W.F., Qu,L.H.,
+            Nelson,D.R., Sanderfoot,A.A., Spalding,M.H., Kapitonov,V.V.,
+            Ren,Q., Ferris,P., Lindquist,E., Shapiro,H., Lucas,S.M.,
+            Grimwood,J., Schmutz,J., Grigoriev,I.V. and Rokhsar,D.S.
+  CONSRTM   Chlamydomonas Annotation Team; JGI Annotation Team
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-JUL-2017) US DOE Joint Genome Institute, 400 Mitchell
+            Drive, Walnut Creek, CA 94598, USA
+REFERENCE   5  (residues 1 to 752)
+  AUTHORS   Merchant,S.S., Prochnik,S.E., Vallon,O., Harris,E.H.,
+            Karpowicz,S.J., Witman,G.B., Terry,A., Salamov,A.,
+            Fritz-Laylin,L.K., Marechal-Drouard,L., Marshall,W.F., Qu,L.H.,
+            Nelson,D.R., Sanderfoot,A.A., Spalding,M.H., Kapitonov,V.V.,
+            Ren,Q., Ferris,P., Lindquist,E., Shapiro,H., Lucas,S.M.,
+            Grimwood,J., Schmutz,J., Grigoriev,I.V. and Rokhsar,D.S.
+  CONSRTM   Chlamydomonas Annotation Team; JGI Annotation Team
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUL-2007) US DOE Joint Genome Institute, 2800
+            Mitchell Drive B100, Walnut Creek, CA 94598-1698, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to PNW74555.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..752
+                     /organism="Chlamydomonas reinhardtii"
+                     /strain="CC-503 cw92 mt+"
+                     /db_xref="taxon:3055"
+                     /chromosome="12"
+     Protein         1..752
+                     /product="uncharacterized protein"
+                     /calculated_mol_wt=75668
+     Region          187..241
+                     /region_name="myb_SHAQKYF"
+                     /note="myb-like DNA-binding domain, SHAQKYF class;
+                     TIGR01557"
+                     /db_xref="CDD:130620"
+     Region          387..426
+                     /region_name="Myb_CC_LHEQLE"
+                     /note="MYB-CC type transfactor, LHEQLE motif; pfam14379"
+                     /db_xref="CDD:464160"
+     CDS             1..752
+                     /locus_tag="CHLRE_12g495100v5"
+                     /old_locus_tag="CHLREDRAFT_196473"
+                     /coded_by="XM_001700501.2:768..3026"
+                     /db_xref="GeneID:5726104"
+                     /db_xref="Phytozome:Cre12.g495100"
+ORIGIN      
+        1 mdkaeraagg pnaaseddwl lefwpepaad fpapvapmls qhqdaaqlpe ampqqqglal
+       61 ggygltqqps dfmqtgmpgf dafssgkaat lglplladpq rastdgasal mnaaqqssey
+      121 mlapgmggmp hllapsvgta lpgtghtgfa dlsmggmagg ipglggpgim hgqyfmqpqr
+      181 aatgpaksrl rwtpelhnrf vnavnslggp dkatpkgilk lmgvdgltiy hikshlqkyr
+      241 lnirlpgesg lagdsadgsd gersdgeggv rratslerad tmsgmaggaa aalgraggtp
+      301 ggalispgla ggtsstggma aggggggglv tepsisrgtv lnaagavata apaaaapagg
+      361 saavkrpagt slssgstasa trrnleeall fqmelqkklh eqletqrqlq lsleahgryi
+      421 aslmeqeglt srlpelsgga paaapvaagg aaggmiappp pqqqlqhqpq llqpqgslpa
+      481 ggsseahaaa gagtmvvhqq qqqhvhhhhq qqqvqmqqha rhcdtcgagg aggapsggss
+      541 mqqlqaaeqq rtelvvagrl gsmpapasss plagqahqqq plaggaahlv hvhshtpggq
+      601 phvqhqdafa gaataaahas pglpqshshl lpadlssnag pdtsagqikp epdmsqqqqq
+      661 qeqqeaeqla qgllndssag agavsgsdgg glgdfdfgdf gdldggaqgg llgpgdligi
+      721 aeleaaaahe qqqeqehdpl dadrakrqrv ep
+//
+

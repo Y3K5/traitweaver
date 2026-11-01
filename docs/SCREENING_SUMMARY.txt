@@ -1,3 +1,15 @@
+CURRENT DEVELOPMENT REVIEW — NOVEMBER 1, 2026
+
+The exact 163-file candidate and both locally reachable commits were screened.
+No actual owner home path, live credential or private research packet was found.
+Matches are detector patterns, deliberately synthetic test canaries, generic
+approval wording and references to excluded local-control filenames. They remain
+visible; no silent redaction was performed. Both commits use GitHub noreply
+identities. Earlier one-commit/scaffold-only statements below are historical.
+Real Muse packets, recorded video, narration drafts and review folders remain
+outside this checkout. Remote freshness is unverified. Pattern screening cannot
+prove absence of every private fact or replace owner review of these exact bytes.
+
 SCREENING SUMMARY — EXACT LOCAL CANDIDATE
 
 Only selected source, public facts, qualified public GFP snapshots, labeled
@@ -26,3 +38,48 @@ with tools/verify_handoff.py. Release blockers remain in RELEASE_BLOCKERS.txt.
 This refresh reran the local reachable-history screen: one commit, twelve
 blobs, zero content/metadata findings. No .git history is bundled. Actual
 GitHub freshness remains unverified; no remote service was contacted.
+
+October 31 workbench: final source/export screen is recorded in the local review
+packet outside the publishing tree. Fixed public/synthetic scientific fixtures
+are byte-unchanged. New test canaries are intentionally fake and qualified as
+screening inputs; never actual keys/cookies. Actual native JSON was validated
+and screened. Annotations are not added to any original-schema exports. All
+workbench JSON/Markdown exports screen every included annotation revision,
+refuse hard findings and require exact-view owner acknowledgment. Pattern
+checks cannot replace owner review of private names/prose or publication rights.
+
+October 31 accounting repair: original attempted packet preserved separately;
+new approval packet, control paths, safe historical usage supplement and synthetic
+rehearsal outputs remain external. No live call, key read, upload or Git mutation
+was performed during repair/preparation. Only the four screened public/synthetic
+wire bodies are eligible for a future approved send. Wire changes are limited to
+an output-token cap; source claims and evidence pins remain unchanged. Exact
+candidate/payload/generated-output scan and qualified synthetic/guard locations
+are recorded in the external follow-up review. No silent redaction or publication.
+
+October 31 evaluation extension: new catalog is wholly authored synthetic data,
+separate from unchanged scientific snapshots and the four admitted cases. All
+requests exclude authored expected judgments and human notes/scores. Generated
+reports, raw reply imports and human scoring stay in fresh external folders;
+privacy findings block output without silent redaction. Real saved responses
+are reviewed only through known accepted exports/receipts, not controls, keys or
+private files. No new model call, raw-provider-response retention, upload or Git
+mutation. The external review records exact candidate/request/export scans.
+
+October31 addition: twelve locally authored code/test/guide/synthetic fixture files
+plus bounded interface/server/doc edits. Actual four wire bodies and generated
+check/evaluation exports are screened separately from code canaries. Source pins
+and earlier real packets stay unchanged. Exact request manifest excludes owner
+notes, raw chats, credentials, response headers/reasoning and machine paths.
+LOCAL_CONTROL.json is intentionally local-only and contains the execution paths;
+it is outside the publishing tree and must never enter a shared/public handoff.
+Detector patterns and explicitly named synthetic privacy canaries in tests are
+reported as such; matched values are never printed or silently removed.
+
+October31 focused-MVP pass: only locally authored frontend/CSS/test/docs/manifest
+updates. New companions read admitted public observations and existing source
+roles. Real-cycle screenshots/summary stay in external local review; the real
+packet is not part of the repository. The provided GIF, raw chats, credentials,
+private planning and cloud-generation packets remain excluded. Actual candidate
+bytes and generated exports are re-screened; guard/test canary findings remain
+visible for owner review, with no silent removal.

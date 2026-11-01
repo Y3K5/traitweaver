@@ -1,0 +1,95 @@
+TRAITWEAVER STUDY WORKBENCH — LOCAL GUIDE
+October 31, 2026. Current human-facing controls.
+
+OPEN
+python3 -B run_workspace.py --demo
+Choose Study workbench in the menu or change the printed URL fragment to
+#workbench. That mode is synthetic. To inspect your saved real Muse cycle:
+python3 -B run_workspace.py --completed-cycle-dir /path/to/your-approved-cycle
+The owner packet stays external; the launcher reads saved records, not a key.
+Choose Study workbench. Only the algae card can show that historical contribution.
+
+CHOOSE AN IDEA
+Use the four area cards: Algae & phosphorus / Understand GFP / Plan an RNA study /
+Make it repeatable. Two use qualified public inputs; two are synthetic practice
+examples. Nothing is sent when a card is selected. Each card retains its own
+notes, check and proposal record. Do not use private research in review notes.
+
+FOLLOW THE STUDY
+What we know: source-backed statements, open questions and withheld conclusions.
+Follow the biology / Know your inputs: existing gene/protein/transcript or study
+input records. Source identities and strain limits remain available.
+Check what’s missing: explicitly run the registered local record/metadata audit.
+Its purpose is saved before execution. A navigation click cannot execute it.
+Choose the next step: three complete authored proposals. What this involves
+shows inputs, deliverable and completion check. Try sample priorities is explicitly
+synthetic. It is not a fresh Muse response or an executed scientific action.
+Shape the study: existing algae measurement modules, or source-linked repair
+requirements for the other cases. Comparisons, controls, readouts, independent
+units and scientist decisions remain required; no executable laboratory protocol.
+Save for review: the full-history privacy check, JSON/Markdown and read-only reopen.
+
+WHY THIS STEP?
+The right-hand panel explains purpose, what happened and what remains open.
+The evidence tab and Show evidence display source records locally. Open the
+saved record reveals exact IDs/input/output/roles/limits. These remain canonical;
+plain-language UI copy never rewrites underlying scientific claims.
+
+MUSE, HONESTLY
+A loaded real algae packet shows the saved AI -> local tool -> AI cycle and a
+link to its original decision/result/reassessment/usage view. --demo instead says
+Synthetic replay loaded. Other cases say their first real review is pending.
+Current action cards are authored/synthetic/imported proposals, separate from
+the historical original algae cycle. Review public inputs for Muse prepares the
+exact fixed-case payload, excluding notes. No transport, key access or budget.
+See RESEARCH_EXPERIENCE.txt and LIVE_RUN_SUMMARY.txt for scope and limits.
+
+YOUR NOTES AND HISTORY
+Expand Your notes & earlier versions to edit your review question/notes or inspect
+earlier saved versions. These are uninterpreted annotations to a fixed starter
+case. They cannot change original study evidence/objectives, model inputs or tool
+arguments. Original study goal/constraint editing remains in its owning views.
+Each save creates an immutable successor with source/parent/selected-base hashes;
+maximum 32 revisions per case. Reopening cannot edit or rerun an imported record.
+Notes are held in server memory; refresh preserves them while that process runs.
+Export before shutdown. Unsaved browser drafts are not durable.
+
+PRIVACY BEFORE EXPORT
+Save/reset the current draft. Expand Review all saved notes in
+Save for review. The server scans ALL included versions, not just selected/current
+notes. Suspected personal paths, credential-shaped text/assignments, cookies,
+active embeds, sensitive URL parameters or explicit private markings block both
+JSON/Markdown, even direct endpoint attempts. Findings contain category, revision
+and field only; no matched values. Nothing is silently scrubbed or removed.
+A clean successor or selecting an old clean note does not remove an earlier
+finding. There is no bypass or automatic history deletion. Keep a blocked case
+local for owner review; a fresh session is not a scrubbed original history.
+Even clean exports require acknowledgment bound to the current saved view. The
+scan cannot identify all personal names/private prose. Privacy acknowledgment
+is not scientific approval or permission to publish; human_review stays
+not_reviewed. JSON preserves exact strings; Markdown safely encodes markup.
+
+WHAT A WORKBENCH PACKAGE INCLUDES
+All of the active case's notes, qualified case snapshot, accepted assistant
+record and actual local audit receipts if present, plus available algae story.
+It does not bundle other case slots, original study history, separate intelligence
+journals or real Muse-cycle usage. Those keep their existing exports/pickers and
+contracts. Workbench annotations never enter their original-schema exports.
+
+REOPEN
+Use Open a saved review (JSON) in Save for review, at most 512 KiB. Source pins,
+history links, accepted records, receipts and checksum validate before the view
+changes. Corrupt/stale/oversized input preserves the last valid view. Imported
+workbenches are read-only; navigation/unsent public request preparation are safe,
+annotation edits and tool/synthetic execution are blocked. Return to this local
+case restores the separate local history. Reopening needs no model/tool rerun.
+All included notes remain inspectable in the full-history export panel.
+
+QUALIFICATION
+268 Python tests and 209 controller scenarios pass offline; the new workbench
+has 19 Python tests and 43 controller scenarios. 24 additional offline software
+journeys cover four cases in six orders; no real model or experiment is implied.
+Existing 49 loopback HTTP checks and native export/reopen remain separately
+accounted for in VALIDATION.txt. Native human-interface checks pass; occasional
+long automation delays leave timed smoothness unqualified. Scientific validation,
+new live-model reviews and publication remain separate owner-controlled steps.

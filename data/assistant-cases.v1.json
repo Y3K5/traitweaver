@@ -1,0 +1,1026 @@
+{
+  "schema_version": "traitweaver.assistant_catalog.v1",
+  "provenance": "Public pinned snapshots and explicitly synthetic metadata; claims/actions are reviewed authored proposals, not model outputs.",
+  "cases": [
+    {
+      "case_id": "ENV_ALGAE",
+      "input_kind": "pinned_public_snapshot_with_evaluation_scope",
+      "objective": "Plan evidence-linked phosphorus recovery research while considering growth. Keep removal, assimilation, collection, and plant use separate.",
+      "sources": [
+        {
+          "id": "S_PSR1_2023",
+          "title": "Overexpression of PSR1 in Chlamydomonas reinhardtii induces luxury phosphorus uptake",
+          "authors": "Slocombe et al.",
+          "year": 2023,
+          "doi": "10.3389/fpls.2023.1208168",
+          "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2023.1208168/full",
+          "license": "CC BY 4.0",
+          "reviewed": "2026-10-29",
+          "locators": [
+            "Table 1, growth and phosphate uptake rows and footnotes",
+            "Figure 2 caption; sections 2.1 and 3.2"
+          ],
+          "admission": "Manual numeric transcription of two Table 1 rows; all four lines, stated SE and n. No raw replicates admitted."
+        },
+        {
+          "id": "S_OVERPLUS_2024",
+          "title": "Phosphate overplus response in Chlamydomonas reinhardtii: Polyphosphate dynamics to monitor phosphate uptake and turnover",
+          "authors": "Zuniga-Burgos et al.",
+          "year": 2024,
+          "doi": "10.1016/j.algal.2024.103589",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10198202/1/1-s2.0-S2211926424002017-main.pdf",
+          "license": "CC BY 4.0",
+          "reviewed": "2026-10-29",
+          "locators": [
+            "Results section 2.5, printed page 5; Figure 7, printed page 9",
+            "Discussion, printed pages 7-8; Figures 4-5"
+          ],
+          "admission": "Public full-text results/discussion reviewed. Qualitative endpoint/context admission only; no digitized graph values or supplementary numeric data."
+        }
+      ],
+      "records": [
+        {
+          "id": "E_GROWTH_UVM4",
+          "role": "published_observation",
+          "source_id": "S_PSR1_2023",
+          "path_id": "PATH_PSR1",
+          "subject": "UVM4",
+          "organism": "Chlamydomonas reinhardtii",
+          "background": "UVM4; source control",
+          "metric": "growth",
+          "endpoint": "growth",
+          "value_state": "reported_mean",
+          "value": 1.44,
+          "unit": "d^-1",
+          "uncertainty": {
+            "kind": "SE",
+            "value": 0.04,
+            "n": 3,
+            "independent_unit": "culture replicate"
+          },
+          "measurement_basis": "Specific growth rate during the exponential growth phase; batch study over 7 days.",
+          "locator": "Table 1 / Specific growth rate / UVM4",
+          "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate."
+        },
+        {
+          "id": "E_GROWTH_8_27",
+          "role": "published_observation",
+          "source_id": "S_PSR1_2023",
+          "path_id": "PATH_PSR1",
+          "subject": "8-27",
+          "organism": "Chlamydomonas reinhardtii",
+          "background": "PSR1 overexpression line in UVM4 background",
+          "metric": "growth",
+          "endpoint": "growth",
+          "value_state": "reported_mean",
+          "value": 1.33,
+          "unit": "d^-1",
+          "uncertainty": {
+            "kind": "SE",
+            "value": 0.03,
+            "n": 3,
+            "independent_unit": "culture replicate"
+          },
+          "measurement_basis": "Specific growth rate during the exponential growth phase; batch study over 7 days.",
+          "locator": "Table 1 / Specific growth rate / 8-27",
+          "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate."
+        },
+        {
+          "id": "E_GROWTH_8_42",
+          "role": "published_observation",
+          "source_id": "S_PSR1_2023",
+          "path_id": "PATH_PSR1",
+          "subject": "8-42",
+          "organism": "Chlamydomonas reinhardtii",
+          "background": "PSR1 overexpression line in UVM4 background",
+          "metric": "growth",
+          "endpoint": "growth",
+          "value_state": "reported_mean",
+          "value": 1.42,
+          "unit": "d^-1",
+          "uncertainty": {
+            "kind": "SE",
+            "value": 0.01,
+            "n": 3,
+            "independent_unit": "culture replicate"
+          },
+          "measurement_basis": "Specific growth rate during the exponential growth phase; batch study over 7 days.",
+          "locator": "Table 1 / Specific growth rate / 8-42",
+          "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate."
+        },
+        {
+          "id": "E_GROWTH_8_2",
+          "role": "published_observation",
+          "source_id": "S_PSR1_2023",
+          "path_id": "PATH_PSR1",
+          "subject": "8-2",
+          "organism": "Chlamydomonas reinhardtii",
+          "background": "PSR1 overexpression line in UVM4 background",
+          "metric": "growth",
+          "endpoint": "growth",
+          "value_state": "reported_mean",
+          "value": 1.42,
+          "unit": "d^-1",
+          "uncertainty": {
+            "kind": "SE",
+            "value": 0.02,
+            "n": 3,
+            "independent_unit": "culture replicate"
+          },
+          "measurement_basis": "Specific growth rate during the exponential growth phase; batch study over 7 days.",
+          "locator": "Table 1 / Specific growth rate / 8-2",
+          "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate."
+        },
+        {
+          "id": "E_PHOSPHATE_UPTAKE_UVM4",
+          "role": "published_observation",
+          "source_id": "S_PSR1_2023",
+          "path_id": "PATH_PSR1",
+          "subject": "UVM4",
+          "organism": "Chlamydomonas reinhardtii",
+          "background": "UVM4; source control",
+          "metric": "phosphate_uptake",
+          "endpoint": "phosphate_uptake",
+          "value_state": "reported_mean",
+          "value": 0.48,
+          "unit": "mmol P g dry_weight^-1 d^-1",
+          "uncertainty": {
+            "kind": "SE",
+            "value": 0.08,
+            "n": 3,
+            "independent_unit": "culture replicate"
+          },
+          "measurement_basis": "Source-stated log phase, days 1-4; rate as reported, not recalculated from raw measurements.",
+          "locator": "Table 1 / PO4 uptake rate / UVM4",
+          "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate."
+        },
+        {
+          "id": "E_PHOSPHATE_UPTAKE_8_27",
+          "role": "published_observation",
+          "source_id": "S_PSR1_2023",
+          "path_id": "PATH_PSR1",
+          "subject": "8-27",
+          "organism": "Chlamydomonas reinhardtii",
+          "background": "PSR1 overexpression line in UVM4 background",
+          "metric": "phosphate_uptake",
+          "endpoint": "phosphate_uptake",
+          "value_state": "reported_mean",
+          "value": 0.97,
+          "unit": "mmol P g dry_weight^-1 d^-1",
+          "uncertainty": {
+            "kind": "SE",
+            "value": 0.04,
+            "n": 3,
+            "independent_unit": "culture replicate"
+          },
+          "measurement_basis": "Source-stated log phase, days 1-4; rate as reported, not recalculated from raw measurements.",
+          "locator": "Table 1 / PO4 uptake rate / 8-27",
+          "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate."
+        },
+        {
+          "id": "E_PHOSPHATE_UPTAKE_8_42",
+          "role": "published_observation",
+          "source_id": "S_PSR1_2023",
+          "path_id": "PATH_PSR1",
+          "subject": "8-42",
+          "organism": "Chlamydomonas reinhardtii",
+          "background": "PSR1 overexpression line in UVM4 background",
+          "metric": "phosphate_uptake",
+          "endpoint": "phosphate_uptake",
+          "value_state": "reported_mean",
+          "value": 0.65,
+          "unit": "mmol P g dry_weight^-1 d^-1",
+          "uncertainty": {
+            "kind": "SE",
+            "value": 0.02,
+            "n": 3,
+            "independent_unit": "culture replicate"
+          },
+          "measurement_basis": "Source-stated log phase, days 1-4; rate as reported, not recalculated from raw measurements.",
+          "locator": "Table 1 / PO4 uptake rate / 8-42",
+          "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate."
+        },
+        {
+          "id": "E_PHOSPHATE_UPTAKE_8_2",
+          "role": "published_observation",
+          "source_id": "S_PSR1_2023",
+          "path_id": "PATH_PSR1",
+          "subject": "8-2",
+          "organism": "Chlamydomonas reinhardtii",
+          "background": "PSR1 overexpression line in UVM4 background",
+          "metric": "phosphate_uptake",
+          "endpoint": "phosphate_uptake",
+          "value_state": "reported_mean",
+          "value": 0.75,
+          "unit": "mmol P g dry_weight^-1 d^-1",
+          "uncertainty": {
+            "kind": "SE",
+            "value": 0.01,
+            "n": 3,
+            "independent_unit": "culture replicate"
+          },
+          "measurement_basis": "Source-stated log phase, days 1-4; rate as reported, not recalculated from raw measurements.",
+          "locator": "Table 1 / PO4 uptake rate / 8-2",
+          "claim_limit": "Published controlled-culture summary; not a new measurement, recovered-product result, causal transfer proof or field-performance estimate."
+        },
+        {
+          "id": "E_OVERPLUS_REMOVAL",
+          "role": "published_observation",
+          "source_id": "S_OVERPLUS_2024",
+          "path_id": "PATH_PRECONDITION",
+          "organism": "Chlamydomonas reinhardtii",
+          "subjects": [
+            "CC-1690",
+            "CC-125",
+            "CC-5325",
+            "CC-4350"
+          ],
+          "metric": "medium_phosphate_removal",
+          "endpoint": "medium_phosphate_removal",
+          "value_state": "qualitative",
+          "value": null,
+          "unit": null,
+          "uncertainty": null,
+          "locator": "Results 2.5, printed page 5; Figure 7; Discussion printed pages 7-8",
+          "statement": "Complete-nutrient repletion supported greater medium phosphate removal than phosphate-only repletion in the reported preconditioning comparisons.",
+          "measurement_basis": "Source-specific deprivation/repletion comparisons; each strain and condition retains its own baseline.",
+          "claim_limit": "No numeric removal values admitted. Medium removal is distinct from harvested-product phosphorus recovery."
+        },
+        {
+          "id": "E_OVERPLUS_GROWTH",
+          "role": "published_observation",
+          "source_id": "S_OVERPLUS_2024",
+          "path_id": "PATH_PRECONDITION",
+          "organism": "Chlamydomonas reinhardtii",
+          "subjects": [
+            "CC-1690",
+            "CC-125",
+            "CC-5325",
+            "CC-4350"
+          ],
+          "metric": "growth",
+          "endpoint": "growth",
+          "value_state": "qualitative",
+          "value": null,
+          "unit": null,
+          "uncertainty": null,
+          "locator": "Results 2.3, printed page 4; Discussion printed page 7; Figures 4-5",
+          "statement": "Growth resumed with complete-nutrient repletion; phosphate-only repletion did not provide the same growth response in the reported comparisons.",
+          "measurement_basis": "Published nutrient-deprivation/repletion context; no new study conditions are prescribed.",
+          "claim_limit": "Qualitative admission only; cannot compute a cross-study growth contrast or establish equivalence."
+        },
+        {
+          "id": "ENV_SCOPE",
+          "role": "evaluation_scope",
+          "value": {
+            "removal": "Change in phosphorus in surrounding medium; not automatically intracellular assimilation.",
+            "assimilation": "Cell-associated phosphorus requires a defined cellular measurement basis.",
+            "collection": "Phosphorus in a collected product requires collection yield and product phosphorus evidence.",
+            "plant_use": "Requires a defined plant-availability or uptake endpoint; none admitted.",
+            "scope": "Operational distinctions for evaluation, not new measurements."
+          }
+        },
+        {
+          "id": "ENV_GAPS",
+          "role": "admission_gap",
+          "value": {
+            "minimum_growth_ratio": null,
+            "recovered_product_data": null,
+            "plant_use_data": null,
+            "common_control_across_publications": false
+          }
+        }
+      ],
+      "limits": [
+        "No common experimental baseline across publications.",
+        "Qualitative removal observations are not numeric zero.",
+        "No recovered-product or plant-use outcome is admitted. No recovery winner."
+      ],
+      "claims": [
+        {
+          "id": "ENV_SUPPORTED",
+          "category": "supports",
+          "text": "The admitted PSR1 growth and phosphate-uptake summaries are within-study observations with source-specific controls, units, SE and n.",
+          "citations": [
+            "S_PSR1_2023",
+            "E_GROWTH_UVM4",
+            "E_PHOSPHATE_UPTAKE_UVM4"
+          ],
+          "source_roles": [
+            "published_observation",
+            "source_reference"
+          ]
+        },
+        {
+          "id": "ENV_REMOVAL",
+          "category": "supports",
+          "text": "The preconditioning snapshot admits a qualitative medium-removal observation; it does not supply a numeric removal value.",
+          "citations": [
+            "E_OVERPLUS_REMOVAL"
+          ],
+          "source_roles": [
+            "published_observation"
+          ]
+        },
+        {
+          "id": "ENV_CONTEXT",
+          "category": "unknown_or_contradictory",
+          "text": "The publications do not establish a common experimental control; the growth margin remains unknown.",
+          "citations": [
+            "ENV_GAPS"
+          ],
+          "source_roles": [
+            "admission_gap"
+          ]
+        },
+        {
+          "id": "ENV_ENDPOINTS",
+          "category": "unknown_or_contradictory",
+          "text": "Admitted uptake/removal evidence does not quantify all assimilation, collected-product and plant-use endpoints.",
+          "citations": [
+            "ENV_SCOPE",
+            "ENV_GAPS"
+          ],
+          "source_roles": [
+            "admission_gap",
+            "evaluation_scope"
+          ]
+        },
+        {
+          "id": "ENV_WITHHELD",
+          "category": "withheld",
+          "text": "No recovery winner, plant-use benefit or cross-study ranking is established.",
+          "citations": [
+            "ENV_SCOPE",
+            "ENV_GAPS"
+          ],
+          "source_roles": [
+            "admission_gap",
+            "evaluation_scope"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "id": "ENV_ALGAE_A1",
+          "task": "Inventory four phosphorus endpoints",
+          "why": "Prevent endpoint substitution",
+          "required_input": "Admitted observations and locators",
+          "expected_deliverable": "Removal/assimilation/collection/plant-use evidence matrix",
+          "completion_check": "Every cell cites an admitted record or says unavailable",
+          "readiness": "now",
+          "citations": [
+            "ENV_SCOPE",
+            "E_OVERPLUS_REMOVAL",
+            "ENV_GAPS"
+          ],
+          "kind": "proposal"
+        },
+        {
+          "id": "ENV_ALGAE_A2",
+          "task": "Check within-study growth and uptake transcription",
+          "why": "Retain source-specific controls and uncertainty",
+          "required_input": "Table 1 summaries, units, SE and n",
+          "expected_deliverable": "Source-bound arithmetic and transcription checklist",
+          "completion_check": "All four lines retain original units, SE, n and control; no cross-study ranking",
+          "readiness": "now",
+          "citations": [
+            "S_PSR1_2023",
+            "E_GROWTH_UVM4",
+            "E_PHOSPHATE_UPTAKE_UVM4"
+          ],
+          "kind": "proposal"
+        },
+        {
+          "id": "ENV_ALGAE_A3",
+          "task": "Specify collection and plant-use evidence requirements",
+          "why": "Recovery and plant use are unmeasured in this bundle",
+          "required_input": "Researcher endpoint definitions and growth margin",
+          "expected_deliverable": "Non-executable evidence/measurement requirements card",
+          "completion_check": "Owner agrees endpoint, comparison, readout and unknown margin before any new experiment",
+          "readiness": "needs_human_approval",
+          "citations": [
+            "ENV_SCOPE",
+            "ENV_GAPS"
+          ],
+          "kind": "proposal"
+        }
+      ]
+    },
+    {
+      "case_id": "PROTEIN_GFP",
+      "input_kind": "qualified_public_snapshot",
+      "objective": "Review the qualified GFP reference and plan source/annotation validation without inventing a structure or experimental confirmation.",
+      "sources": [
+        {
+          "id": "S_UNIPROT_P42212",
+          "provider": "Biohub public UniProtKB resolver",
+          "source_identifiers": [
+            "P42212"
+          ],
+          "snapshot": "accession.json",
+          "snapshot_sha256": "3e7b6b6539e3a604aa9a824a58a4e8b84bca4788c346ac6bdcc695a4864fcc35",
+          "method": "GET",
+          "url": "https://biohub.ai/esm/protein/api/v1alpha1/uniprot/P42212",
+          "http_status": 200,
+          "bytes": 686,
+          "http_date": "Thu, 29 Oct 2026 13:21:22 GMT"
+        },
+        {
+          "id": "S_ATLAS_GFP",
+          "provider": "Biohub ESM Atlas; UniParc source",
+          "source_identifiers": [
+            "UPI0000002FB4",
+            "f4ab4243622ddcc76e0b9b6d249b172a"
+          ],
+          "snapshot": "atlas-record.json",
+          "snapshot_sha256": "ef80ac9c0490014786868476916fb5614894be8872d5d8c0b5e292fb2bf7933a",
+          "method": "GET",
+          "url": "https://biohub.ai/esm/protein/api/v1alpha1/proteins/f4ab4243622ddcc76e0b9b6d249b172a?fold_on_miss=false&topk_features=3&normalize_features=true",
+          "http_status": 200,
+          "bytes": 481470,
+          "http_date": "Thu, 29 Oct 2026 13:21:47 GMT"
+        }
+      ],
+      "records": [
+        {
+          "id": "GFP_P42212_ATLAS_F4AB4243",
+          "role": "identity_record",
+          "value": {
+            "protein_name": "Green fluorescent protein",
+            "organism": "Aequorea victoria",
+            "gene_label": "GFP",
+            "uniprot_accession": "P42212",
+            "atlas_accession": "UPI0000002FB4",
+            "atlas_source": "uniparc",
+            "atlas_protein_hash_md5": "f4ab4243622ddcc76e0b9b6d249b172a",
+            "atlas_header": "f4ab4243622ddcc76e0b9b6d249b172a|UPI0000002FB4|uniparc",
+            "sequence_length": 238,
+            "sequence_sha256": "44f2688342a00e4b01e82be5e655b26499f981515d5da9a6076315627355b403",
+            "sequence_version": null
+          }
+        },
+        {
+          "id": "DB_GFP_FUNCTION",
+          "role": "database_annotation",
+          "source_id": "S_UNIPROT_P42212",
+          "locator": "/function",
+          "value_state": "reported",
+          "value": "Energy-transfer acceptor. Its role is to transduce the blue chemiluminescence of the protein aequorin into green fluorescent light by energy transfer. Fluoresces in vivo upon receiving energy from the Ca(2+)-activated photoprotein aequorin",
+          "claim_limit": "Imported database annotation; independent assay and evidence-code verification not supplied here."
+        },
+        {
+          "id": "SAE_11271",
+          "role": "model_prediction",
+          "source_id": "S_ATLAS_GFP",
+          "locator": "/sae_features/0",
+          "value_state": "reported",
+          "feature_index": 11271,
+          "label": "Short glycine/alanine-rich membrane helices",
+          "description": "Short, glycine/alanine-rich hydrophobic alpha-helices that insert into or span membranes—including single-pass transmembrane anchors, fusion peptides, and pore/translocation helices—frequently containing GxxxG/glycine‑zipper motifs used for helix packing.",
+          "value": 0.3951131478760761,
+          "residue_regions": [
+            {
+              "start": 54,
+              "end": 70,
+              "peak_residue": 62,
+              "mean_activation": 2.5251
+            },
+            {
+              "start": 224,
+              "end": 228,
+              "peak_residue": 228,
+              "mean_activation": 2.0416
+            }
+          ],
+          "claim_limit": "Stored SAE activation and generic feature label; not experimentally demonstrated GFP function or a probability."
+        },
+        {
+          "id": "SAE_4790",
+          "role": "model_prediction",
+          "source_id": "S_ATLAS_GFP",
+          "locator": "/sae_features/1",
+          "value_state": "reported",
+          "feature_index": 4790,
+          "label": "Phage tail oligomerization interfaces",
+          "description": "Oligomerization/assembly interface segments of phage tail–like spikes and tubes (tail tube/sheath, terminator, baseplate hub/junction; gp27–gp5/VgrG core), generalized to analogous interface patches in other large macromolecular assemblies (Type II/IV pili, fimbriae, flagellar rings, viral scaffolds, CRISPR RAMP filaments, and ribosomal S6)",
+          "value": 0.3664169610351898,
+          "residue_regions": [
+            {
+              "start": 43,
+              "end": 45,
+              "peak_residue": 43,
+              "mean_activation": 4.701
+            }
+          ],
+          "claim_limit": "Stored SAE activation and generic feature label; not experimentally demonstrated GFP function or a probability."
+        },
+        {
+          "id": "SAE_11579",
+          "role": "model_prediction",
+          "source_id": "S_ATLAS_GFP",
+          "locator": "/sae_features/2",
+          "value_state": "reported",
+          "feature_index": 11579,
+          "label": "Exposed low-complexity surfaces",
+          "description": "Exposed regions on extracellular, virion, or secretory-pathway luminal proteins—often low-complexity and Ser/Thr‑rich/glycosylated—plus analogous exposed, repetitive or low‑complexity surfaces on large cytosolic assemblies (e.g., CRISPR/Cas backbones); excludes signal peptides, transmembranes, and short cytosolic tails.",
+          "value": 0.3649816369783474,
+          "residue_regions": [
+            {
+              "start": 0,
+              "end": 237,
+              "peak_residue": 157,
+              "mean_activation": 5.1272
+            }
+          ],
+          "claim_limit": "Stored SAE activation and generic feature label; not experimentally demonstrated GFP function or a probability."
+        },
+        {
+          "id": "GFP_MISSING",
+          "role": "admission_gap",
+          "value": {
+            "pdb": null,
+            "ptm": null,
+            "mean_plddt": null,
+            "residues_plddt": null,
+            "cluster_rep_protein_hash": null,
+            "model_version": null,
+            "generation_date": null
+          }
+        },
+        {
+          "id": "GFP_ASSAYS",
+          "role": "admission_gap",
+          "value": [],
+          "limit": "No assay records or experimental evidence codes supplied in this snapshot; no assertion that the literature contains none."
+        }
+      ],
+      "attribution": {
+        "source": "https://registry.opendata.aws/biohub-esm-atlas/",
+        "atlas_generated_data": "CC BY 4.0 unless otherwise specified",
+        "sequences_and_all_data_collections": "CC BY-SA 4.0",
+        "upstream_uniparc": "CC BY 4.0",
+        "scope_limit": "Dataset/source-level license statements; response JSON does not include an individual-record license field. Preserve the split attribution; do not label the entire combined snapshot solely CC BY 4.0."
+      },
+      "limits": [
+        "Stored SAE activations and their generic labels are model-derived signals, not experimental GFP function. Null structure/confidence/cluster fields mean absent from this response, not proof of absence throughout Atlas. Exact generating model/version remains unknown. Schema extension still proposed only.",
+        "This card is a reference snapshot, not a study, biological comparison, validated mechanism or experimental result.",
+        "Unavailable values remain null. No 3D structure or confidence estimate is generated.",
+        "Dataset/source license statements are retained by component; the API supplies no individual-record license declaration.",
+        "SAE labels and activations are model predictions, not assay results or probabilities.",
+        "Empty admitted experimental evidence does not assert absence of experiments in the literature."
+      ],
+      "claims": [
+        {
+          "id": "GFP_IDENTITY",
+          "category": "supports",
+          "text": "The qualified snapshot links P42212 to Aequorea victoria and the supplied sequence identifiers; identity is not mechanism validation.",
+          "citations": [
+            "GFP_P42212_ATLAS_F4AB4243",
+            "S_UNIPROT_P42212"
+          ],
+          "source_roles": [
+            "identity_record",
+            "source_reference"
+          ]
+        },
+        {
+          "id": "GFP_ANNOTATION",
+          "category": "supports",
+          "text": "The fluorescence-related function is a database annotation, not an independently verified assay in this snapshot.",
+          "citations": [
+            "DB_GFP_FUNCTION"
+          ],
+          "source_roles": [
+            "database_annotation"
+          ]
+        },
+        {
+          "id": "GFP_PREDICTIONS",
+          "category": "supports",
+          "text": "The supplied SAE labels and activation values are model predictions, not experimental GFP functions or probabilities.",
+          "citations": [
+            "SAE_11271",
+            "SAE_4790",
+            "SAE_11579"
+          ],
+          "source_roles": [
+            "model_prediction"
+          ]
+        },
+        {
+          "id": "GFP_UNKNOWN",
+          "category": "unknown_or_contradictory",
+          "text": "Structure/confidence and generating model-version fields are missing, and no experimental evidence is admitted here; this does not prove absence elsewhere.",
+          "citations": [
+            "GFP_MISSING",
+            "GFP_ASSAYS"
+          ],
+          "source_roles": [
+            "admission_gap"
+          ]
+        },
+        {
+          "id": "GFP_WITHHELD",
+          "category": "withheld",
+          "text": "No structure, experimentally confirmed function from the SAE features, or new experimental validation is inferred.",
+          "citations": [
+            "GFP_MISSING",
+            "GFP_ASSAYS",
+            "SAE_11271"
+          ],
+          "source_roles": [
+            "admission_gap",
+            "model_prediction"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "id": "PROTEIN_GFP_A1",
+          "task": "Verify qualified accession and sequence provenance",
+          "why": "Keep identity separate from mechanism",
+          "required_input": "Pinned resolver and Atlas snapshots",
+          "expected_deliverable": "Accession/hash/length provenance checklist",
+          "completion_check": "P42212 and supplied sequence hashes agree; sequence-version unknown retained",
+          "readiness": "now",
+          "citations": [
+            "GFP_P42212_ATLAS_F4AB4243",
+            "S_UNIPROT_P42212",
+            "S_ATLAS_GFP"
+          ],
+          "kind": "proposal"
+        },
+        {
+          "id": "PROTEIN_GFP_A2",
+          "task": "Audit annotation evidence and conflicting feature labels",
+          "why": "SAE activations do not establish GFP function",
+          "required_input": "Database annotation and three labeled predictions",
+          "expected_deliverable": "Role-separated annotation review",
+          "completion_check": "Each assertion retains its role; generic labels are not promoted to assay support",
+          "readiness": "now",
+          "citations": [
+            "DB_GFP_FUNCTION",
+            "SAE_11271",
+            "SAE_4790",
+            "SAE_11579"
+          ],
+          "kind": "proposal"
+        },
+        {
+          "id": "PROTEIN_GFP_A3",
+          "task": "List evidence needed for structural or assay claims",
+          "why": "Absent snapshot values cannot support those claims",
+          "required_input": "Qualified external structure/assay identifiers and provenance, if later supplied",
+          "expected_deliverable": "Missing-evidence checklist",
+          "completion_check": "No structure, confidence or assay claim accepted without located evidence",
+          "readiness": "needs_evidence",
+          "citations": [
+            "GFP_MISSING",
+            "GFP_ASSAYS"
+          ],
+          "kind": "proposal"
+        }
+      ]
+    },
+    {
+      "case_id": "RNA_SYNTHETIC",
+      "input_kind": "clearly_synthetic_incomplete",
+      "objective": "Assess RNA-seq design and analysis readiness only. No expression data or differential-expression results are supplied.",
+      "sources": [],
+      "records": [
+        {
+          "id": "RNA_DESIGN",
+          "role": "synthetic_record",
+          "value": {
+            "intended_groups": [
+              "synthetic_control",
+              "synthetic_treatment"
+            ],
+            "planned_independent_units_per_group": 3,
+            "contrast": null,
+            "organism": null,
+            "timepoint": null,
+            "independent_unit_definition": null,
+            "blocking_or_batch": null
+          }
+        },
+        {
+          "id": "RNA_SHEET",
+          "role": "synthetic_record",
+          "value": {
+            "rows": [
+              {
+                "sample_id": "SYN-C1",
+                "group": "synthetic_control",
+                "independent_unit_id": null,
+                "layout": "paired"
+              },
+              {
+                "sample_id": "SYN-C2",
+                "group": "synthetic_control",
+                "independent_unit_id": null,
+                "layout": "paired"
+              },
+              {
+                "sample_id": "SYN-T1",
+                "group": "synthetic_treatment",
+                "independent_unit_id": null,
+                "layout": "single"
+              },
+              {
+                "sample_id": "SYN-T2",
+                "group": null,
+                "independent_unit_id": null,
+                "layout": "paired"
+              },
+              {
+                "sample_id": "SYN-T2",
+                "group": "synthetic_treatment",
+                "independent_unit_id": null,
+                "layout": "paired"
+              }
+            ]
+          }
+        },
+        {
+          "id": "RNA_MANIFEST",
+          "role": "synthetic_record",
+          "value": {
+            "SYN-T1_layout": "paired",
+            "fastq_files_supplied": 0,
+            "read_count": null,
+            "counts": null,
+            "qc": null,
+            "reference_assembly": null,
+            "annotation_release": null,
+            "source_file_identifiers": null,
+            "source_checksums": null
+          }
+        }
+      ],
+      "limits": [
+        "Entirely synthetic; no human sample data.",
+        "Six planned units are not six verified independent units.",
+        "Five rows contain four unique labels and one duplicate. Library layout conflicts for SYN-T1.",
+        "Zero supplied files is not a measured zero read count. No differential-expression conclusion."
+      ],
+      "claims": [
+        {
+          "id": "RNA_SUPPORTED",
+          "category": "supports",
+          "text": "This synthetic design plans two groups with three independent units per group; supplied rows do not verify those units.",
+          "citations": [
+            "RNA_DESIGN",
+            "RNA_SHEET"
+          ],
+          "source_roles": [
+            "synthetic_record"
+          ]
+        },
+        {
+          "id": "RNA_CONFLICT",
+          "category": "unknown_or_contradictory",
+          "text": "Five sheet rows contain four unique labels, duplicate SYN-T2 and an unresolved group; SYN-T1 library layout conflicts between records.",
+          "citations": [
+            "RNA_SHEET",
+            "RNA_MANIFEST"
+          ],
+          "source_roles": [
+            "synthetic_record"
+          ]
+        },
+        {
+          "id": "RNA_METADATA",
+          "category": "unknown_or_contradictory",
+          "text": "Contrast, organism, timepoint, independent-unit definition, batch, reference, annotation and QC metadata remain incomplete.",
+          "citations": [
+            "RNA_DESIGN",
+            "RNA_MANIFEST"
+          ],
+          "source_roles": [
+            "synthetic_record"
+          ]
+        },
+        {
+          "id": "RNA_ZERO",
+          "category": "unknown_or_contradictory",
+          "text": "There are zero supplied FASTQ files, while read count, counts and QC are unknown rather than measured zero.",
+          "citations": [
+            "RNA_MANIFEST"
+          ],
+          "source_roles": [
+            "synthetic_record"
+          ]
+        },
+        {
+          "id": "RNA_WITHHELD",
+          "category": "withheld",
+          "text": "No analysis-ready design, verified six-unit replication or differential-expression result is established.",
+          "citations": [
+            "RNA_DESIGN",
+            "RNA_MANIFEST"
+          ],
+          "source_roles": [
+            "synthetic_record"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "id": "RNA_SYNTHETIC_A1",
+          "task": "Reconcile duplicate sample IDs and layout conflict",
+          "why": "Conflicts block a trustworthy sample manifest",
+          "required_input": "Synthetic sheet and manifest",
+          "expected_deliverable": "Conflict table and unresolved reconciliation requests",
+          "completion_check": "Duplicate SYN-T2 and SYN-T1 single/paired conflict explicitly flagged; no guessed correction",
+          "readiness": "now",
+          "citations": [
+            "RNA_SHEET",
+            "RNA_MANIFEST"
+          ],
+          "kind": "proposal"
+        },
+        {
+          "id": "RNA_SYNTHETIC_A2",
+          "task": "Confirm contrast and independent experimental units",
+          "why": "Planned counts cannot establish replication",
+          "required_input": "Owner definition of groups, units, timing and batch/covariates",
+          "expected_deliverable": "Design decision checklist",
+          "completion_check": "Each unique sample maps to a confirmed independent unit and contrast or remains blocked",
+          "readiness": "needs_human_approval",
+          "citations": [
+            "RNA_DESIGN",
+            "RNA_SHEET"
+          ],
+          "kind": "proposal"
+        },
+        {
+          "id": "RNA_SYNTHETIC_A3",
+          "task": "Define analysis-readiness input and QC gates",
+          "why": "No reads, reference or counts are admitted",
+          "required_input": "File identifiers/checksums, assembly, annotation release and QC records",
+          "expected_deliverable": "Readiness checklist without DE results",
+          "completion_check": "All mandatory inputs identified and QC decisions recorded before analysis",
+          "readiness": "needs_evidence",
+          "citations": [
+            "RNA_MANIFEST",
+            "RNA_DESIGN"
+          ],
+          "kind": "proposal"
+        }
+      ]
+    },
+    {
+      "case_id": "REPRO_SYNTHETIC",
+      "input_kind": "clearly_synthetic_incomplete",
+      "objective": "Produce a bounded documentation and software-validation repair checklist for an incomplete synthetic project record.",
+      "sources": [],
+      "records": [
+        {
+          "id": "REP_README",
+          "role": "synthetic_record",
+          "value": {
+            "claims": [
+              "environment frozen",
+              "analysis completed"
+            ],
+            "status": "unverified claims"
+          }
+        },
+        {
+          "id": "REP_ENV",
+          "role": "synthetic_record",
+          "value": {
+            "language_version": null,
+            "package_versions": null,
+            "environment_lock": null
+          }
+        },
+        {
+          "id": "REP_INPUTS",
+          "role": "synthetic_record",
+          "value": {
+            "source_identifiers": null,
+            "checksums": null,
+            "result_files_identified": 0
+          }
+        },
+        {
+          "id": "REP_RUN",
+          "role": "synthetic_record",
+          "value": {
+            "exit_code": 0,
+            "command": null,
+            "started_at": null,
+            "finished_at": null,
+            "run_records_count": 0,
+            "input_manifest": null,
+            "output_hashes": null
+          }
+        }
+      ],
+      "limits": [
+        "Entirely synthetic. No software is installed or executed for this case.",
+        "Exit code zero alone does not verify a run without provenance.",
+        "Missing records do not prove an analysis never ran. Reproducibility is unverified."
+      ],
+      "claims": [
+        {
+          "id": "REP_SUPPORTED",
+          "category": "supports",
+          "text": "The synthetic README claims a frozen environment and completed analysis; those are unverified supplied assertions.",
+          "citations": [
+            "REP_README"
+          ],
+          "source_roles": [
+            "synthetic_record"
+          ]
+        },
+        {
+          "id": "REP_CONFLICT",
+          "category": "unknown_or_contradictory",
+          "text": "The completion claims lack software versions, source identifiers, checksums and complete run records.",
+          "citations": [
+            "REP_README",
+            "REP_ENV",
+            "REP_INPUTS",
+            "REP_RUN"
+          ],
+          "source_roles": [
+            "synthetic_record"
+          ]
+        },
+        {
+          "id": "REP_ZERO",
+          "category": "unknown_or_contradictory",
+          "text": "Exit code zero is supplied, but command and timestamps are unknown and run-record count is zero; this is not an authenticated successful run.",
+          "citations": [
+            "REP_RUN"
+          ],
+          "source_roles": [
+            "synthetic_record"
+          ]
+        },
+        {
+          "id": "REP_WITHHELD",
+          "category": "withheld",
+          "text": "Reproducibility and successful execution remain unverified; missing records do not prove that no analysis ever ran.",
+          "citations": [
+            "REP_README",
+            "REP_RUN"
+          ],
+          "source_roles": [
+            "synthetic_record"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "id": "REPRO_SYNTHETIC_A1",
+          "task": "Inventory reproducibility claims against available records",
+          "why": "README assertions exceed supplied evidence",
+          "required_input": "Supplied README, environment, input and run records",
+          "expected_deliverable": "Gap ledger",
+          "completion_check": "Every completion claim maps to a receipt or is marked unverified; zero is not null",
+          "readiness": "now",
+          "citations": [
+            "REP_README",
+            "REP_ENV",
+            "REP_INPUTS",
+            "REP_RUN"
+          ],
+          "kind": "proposal"
+        },
+        {
+          "id": "REPRO_SYNTHETIC_A2",
+          "task": "Collect environment and source identities",
+          "why": "Version and input drift prevent a reproducible handoff",
+          "required_input": "Actual version/lock records and source IDs/checksums when provided",
+          "expected_deliverable": "Versioned environment and input manifest",
+          "completion_check": "All required versions and source hashes are explicit, with unresolved entries left unknown",
+          "readiness": "needs_evidence",
+          "citations": [
+            "REP_ENV",
+            "REP_INPUTS"
+          ],
+          "kind": "proposal"
+        },
+        {
+          "id": "REPRO_SYNTHETIC_A3",
+          "task": "Specify and validate a complete run receipt",
+          "why": "An isolated zero exit code does not establish provenance",
+          "required_input": "Owner-approved bounded validation scope, command, timestamps and input/output IDs",
+          "expected_deliverable": "Receipt schema and software-validation checklist",
+          "completion_check": "Receipt binds command, software, inputs, outputs, timestamps and exit status",
+          "readiness": "needs_human_approval",
+          "citations": [
+            "REP_RUN",
+            "REP_README"
+          ],
+          "kind": "proposal"
+        }
+      ]
+    }
+  ]
+}

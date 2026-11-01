@@ -1,3 +1,35 @@
+OCTOBER 30 DATA FLOW ADDITION
+A read-only map connects admitted files -> qualified mapping -> saved consumers
+-> explicit exports. It preserves independent records and existing source pins.
+No acquisition engine or new inference transport is implied. See DATA_FLOW.txt.
+
+OCTOBER 30 ADDITION — OFFLINE MOLECULAR MUSE INTELLIGENCE
+Three linked review foci now use a separate typed reasoning workflow: trait-to-
+protein association, role-based combination coverage and species/context transfer.
+Prepared public payloads are inspectable and unsent. Labelled synthetic replies
+exercise validated selection and separate reassessment around one actual local
+check. New protein identities, necessity/sufficiency, pair effects and transfer
+success are rejected when unsupported. Separate durable history, export/reopen,
+source/context hashes, no-overwrite saves and stale-edit checks are implemented.
+No new model inference or provider transport is enabled. See INTELLIGENCE_LAYER.txt.
+
+PRECEDING IMPLEMENTATION RECORD
+
+OCTOBER 30 ADDITION — REAL PUBLIC ALGAE REFERENCE
+The molecular workspace now defaults to a real PSR1-associated reference chain:
+XP_001700553.1 ↔ XM_001700501.2 ↔ GeneID:5726104. A fresh parser checks five
+primary public records, splices the annotated genomic exons, reconciles the
+transcript/translation and retains source links, exact files and SHA-256s.
+One transcript / three exons / 4772 nt / 752 aa. No public alternate isoform is
+invented. The UI explains what is annotated, calculated, unknown and needed as
+experimental evidence, with a traceable requirements file and no observations.
+The separate v2 reference review supports local checkpoints, history and
+read-only reopen. Prior synthetic v1 and original study/Muse records remain.
+These additions use no model/provider call and have no publication approval.
+See docs/PUBLIC_ALGAE_WORKSPACE.txt for the exact walkthrough and limits.
+
+PRECEDING IMPLEMENTATION RECORD
+
 WHAT WE ACTUALLY DID — OCTOBER 29, 2026
 
 Input: one public question about algae phosphorus recovery while considering
@@ -75,3 +107,26 @@ terminal even if a key is present. The broader authoring checkout's required
 archive dependency was removed from its default preview; no archive application
 or ten-study data entered this screened payload. See VALIDATION.txt for fresh
 tests and historical/browser limits.
+
+October 31 addition: Study workbench connects a case/question annotation column,
+six reasoning checkpoints and a source/audit drawer. Same admitted science and
+registered tools; new immutable annotation wrapper and JSON/Markdown privacy
+gate with all-history screening, current acknowledgment and read-only reopen.
+Original source data/mapping and model/biological limitations are preserved.
+This is a local offline review UI, not general free-text model research.
+
+October 31 human experience: four idea-led study cards, six plain-language steps,
+Why this step and Show evidence disclosures, context-correct real/synthetic/pending
+Muse labels and an exact unsent public-input preview. The source-bound scientific
+records and real-cycle provider limitations remain unchanged. 24 exercised local
+software journeys are not 24 new studies or fresh AI contribution. More traits
+need qualified public bundles and a reviewed/versioned case extension.
+
+October31 addition: Research journey animates eight evidence-to-plan stages with
+play/pause/select controls, stage highlighting, existing tool/mapping links and a
+standalone SVG export. It illustrates Muse's proposed role and source mapping;
+playback never runs inference or tools. Orange recipient/design states are open
+questions. A separate synthetic RNA example saves decisions before actual local
+metadata checks, then bound receipts; other tasks remain unresolved. JSON
+reopens read-only. External data directories preserve immutable journal history.
+A fresh four-request receipt/order comparison is prepared but has not run.

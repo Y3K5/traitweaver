@@ -1,3 +1,292 @@
+SCIENTIFIC STORY SHOWCASE — OCTOBER 31, 2026
+
+Scientific story now connects seven selectable schematic panels: source evidence,
+genome/protein reference identity, planned material lineage, fluorescence,
+phosphorus accounting, reactor comparison and study design. Overview/scientist
+detail and standalone stage-SVG exports share the same qualified content.
+
+249 Python tests pass with sockets denied: 234 preceding plus 15 new scientific
+quantity/package/handler tests. The 141 preceding controller scenarios pass;
+25 new scientific-story scenarios pass separately using actual shipped scripts
+and Python handlers in memory. Published means/SE/n/units/control are preserved;
+null/zero, incompatible units/P basis, overlapping compartments, altered roles,
+source/plan/custody tampering, stale identities, source-only reopen, oversized or
+malformed files and pre-result/no-tool-dispatch boundaries are covered.
+
+Published 8-27 point means: uptake 0.97 +/- 0.04 SE mmol P g dry weight^-1 d^-1;
+growth 1.33 +/- 0.03 SE d^-1; source n=3. Ratios against UVM4 means are descriptive
+only. Reference quantities: 5,402 nt extracted region, 4,772 nt transcript,
+three annotated exons, 752 aa reference protein; no whole edited genome claim.
+Actual material/run/genotype IDs and decision thresholds remain unknown.
+
+Synthetic examples are opt-in: 1,000 net RFU / 0.4 g -> 2,500 RFU/g; phosphorus
+60% concentration decline versus 64% liquid-inventory decrease, 10% collected
+product fraction, 96% mass closure and 0.8 mg P unaccounted. These are invented
+arithmetic inputs, not laboratory results, performance forecasts or an acceptable
+closure criterion. No actual microbial effect, transformation or plant use is
+inferred. Plan cards retain missing SOPs, controls, independent units and gates.
+
+Actual browser: published quantities, reference lineage, uninstantiated material
+records, fluorescence missing/illustrative modes, phosphorus accounting and
+expanded study-design gates were inspected. At 1440px the four metric cards are
+192px columns (document width 1425px). At 390px cards use two 144.5px columns
+(document width 375px); step/plot scrolling stays within its container. The
+viewport override was reset. No external source or provider URL was opened.
+
+The native SVG download produced a valid standalone file. The native JSON monitor
+stalled about 284 seconds and timed out, yet the downloaded file exists and passes
+independent package validation. This is tool wall time, not an isolated app timing
+measurement. New native file-picker reopen and smooth timed export remain
+unqualified; use prepared artifacts for the timed walkthrough and rehearse the
+native picker separately. Controller/handler export and reopen pass and remain
+distinct from native-browser qualification.
+
+A Python/JavaScript JSON roundtrip initially exposed whole-valued derived floats
+(60.0 vs 60); canonical integral-number projection fixed it without accepting
+changed source values, booleans, missing data or promoted synthetic observations.
+No old contract or scientific fixture was expanded/rewritten. Package mutations
+change presentation only; source data are read-only and no registered tool/model/
+laboratory action runs on navigation or reopen. Existing assistant/real-cycle
+records remain separate. No live call, key access, install, commit, push or upload.
+
+EARLIER FOUR-CASE ASSISTANT BROWSER FOLLOW-UP — OCTOBER 30, 2026
+
+Research assistant now runs in the existing browser shell: four-case selector,
+evidence/unknown/withheld cards, fixed local readiness audit, three complete
+action cards, cited-input inspection, trait-development links, JSON/text export
+and dedicated read-only reopen. Its session/package wrapper is separate from
+the unchanged original case, study, assistant, intelligence and mapping contracts.
+
+234 Python tests pass with sockets denied: 222 preceding tests plus 12 new
+assistant-workspace tests. Existing controllers still pass 113 scenarios; the
+new assistant controller passes 28 separately, using actual scripts and Python
+handlers in memory. They cover all four cases and actual download/file handlers,
+corrupt/oversized imports, escaped content, case switching, read-only behavior,
+refresh, exact action/receipt preservation and unchanged original records.
+
+Actual browser checks: all four cases selected, each local audit executed and
+labelled synthetic review accepted. Algae JSON downloaded through the browser
+event, then selected through the actual native file picker. Reopened view showed
+read-only, same action cards and receipt, no model/tool rerun; refresh retained
+the read-only view. The actual downloaded package passed independent local
+contract validation. Desktop 1440px showed three columns (document width 1425px);
+narrow 390px showed one column (document width 375px), without horizontal overflow.
+Screenshots were inspected. Viewport override was reset. No third-party sources
+were opened. The optional timed three-minute rehearsal remains unmeasured.
+
+The first rendered desktop exposed missing assistant-specific style application.
+Moving its rules into the existing workspace stylesheet corrected the actual
+computed layout. A contradictory completed-cycle banner was also scoped so the
+independent assistant session is clearly distinguished from the read-only study.
+Initial sandbox startup could not bind loopback; permitted local startup passed.
+
+Local audit receipts are actual source/metadata computations, not observations
+from new experiments. All new model replies are synthetic fixtures. Tools cannot
+execute arbitrary scripts, perform RNA-seq, install software or design an organism.
+The trait-development map links reference/combination/CRISPR questions while
+cassette content, multi-gene interaction and cross-species transfer remain unknown.
+No guide, edit site, construct, sequence or laboratory protocol is generated.
+
+The browser session is memory-only. Export/reopen after restart is the supported
+preservation path; no hidden autosave is claimed. Final loopback reruns, isolated
+copy, exact manifest/provenance and privacy results are in the separate local
+assistant-app review packet. No provider call, key access, spending, install,
+commit, push, upload or publication occurred. Software checks are not biological
+validation or evidence of live Muse's four-domain research quality.
+
+EARLIER ASSISTANT CONTRACT / GFP EXPORT FOLLOW-UP — OCTOBER 30, 2026
+
+GFP readable text now prints exact card ID plus the four annotation/prediction
+IDs. The singleton JSON schema and all pinned observations remain unchanged.
+The formerly failing five-ID preservation probe now passes without weakening it.
+
+The separate assistant v1 contract covers public algae, qualified GFP, synthetic
+incomplete RNA-seq planning and synthetic reproducibility records. Three complete
+source-linked proposed actions, immutable evidence roles, unknowns, conflicts,
+withheld conclusions and readiness survive native assistant JSON/text export and
+read-only reopen. No original study/intelligence schema was expanded. The new
+assistant is exposed through an offline CLI, not a new browser sidebar view.
+
+Actual checks: 222 Python tests pass with all sockets denied (202 existing plus
+19 assistant tests and one GFP ID test). The five existing controller suites
+still pass 113 scenarios. Separately, the unchanged earlier evaluation harness
+passes all 20 probes, including the formerly failed GFP text-ID requirement.
+The two existing HTTP checks first encountered sandbox loopback-bind denial;
+permitted local reruns pass 28 workspace and 21 completed-cycle scenarios with
+zero external connections. These totals are separate qualification categories.
+
+Adversarial tests reject altered/cross-case/unknown IDs, promoted predictions,
+missing unknowns, invented conclusions, changed action task/readiness/arguments,
+refusals, incomplete/wrong-model/tool-call responses, malformed/duplicate/nonfinite
+JSON, invalid usage, stale request hashes, corrupt packages and overwrite attempts.
+Interrupted saves preserve earlier exports. Zero supplied files/exit status stay
+distinct from null read counts/commands. Actual CLI export and reopen are tested.
+
+All new responses are synthetic software fixtures; no provider call, credential
+access, model usage, install or live spending occurred. Imported responses would
+remain authenticity-unverified; raw provider responses/reasoning are not saved.
+The authored claim/action catalogs constrain output; passing these checks does
+not establish scientific truth or the usefulness/reliability of live priorities.
+No new rendered-browser layout or native picker check is claimed for this CLI.
+Source and generated export screens, isolated-copy results and file fingerprints
+are retained in the separate local assistant-contract review packet. Publishing,
+live batch approval, broader importing and biological validation remain open.
+
+EARLIER BROWSER INTELLIGENCE JSON QUALIFICATION — OCTOBER 30, 2026
+
+Data flow -> Export -> Export Muse intelligence review JSON triggered the actual
+browser download event. The downloaded JSON was selected through the actual
+intelligence-file chooser, not substituted through a direct POST. The app then
+showed imported read-only status and disabled scope saving/selection/preparation.
+Browser refresh preserved that view. All 18 history rows, five cycles, five
+results, five reassessments and three earlier-context labels were retained.
+A subsequent read-only local export matched the downloaded package exactly as
+JSON. All 19 saved disk JSON records stayed byte-for-byte unchanged. The package
+matches the previously exported r18 review and retains synthetic provenance.
+
+No application-code defect was observed. A retained owner lock initially
+prevented startup; the recorded process was confirmed gone, no listener/open
+study handles remained, and only that stale lock was removed before restart.
+
+TIMING LIMIT: download automation returned after about 127 seconds; the native
+file-picker/import automation call returned after about 17,236 seconds. These
+are tool wall times, not isolated app processing times. Eventual functionality
+passed, but a manually timed three-minute export/reopen demonstration is not
+qualified. Do not repeat live inference or claim this proved smooth demo timing.
+Show the already imported review in a timed demo until manual timing is checked.
+Other package-family native dialogs and malformed-file picker cases were not
+rerun. Existing offline rejection/round-trip tests remain separate evidence.
+
+The browser-downloaded file passed the existing privacy-pattern screen. No live
+provider call, key access, new model/local check, install, upload, commit or push.
+The prior 202 Python tests / 113 controller scenarios remain the preceding
+qualification, not a newly rerun suite. Relevant controllers were rerun separately.
+
+DATA FLOW EXTENSION — OCTOBER 30, 2026
+
+Current Python suite: 202 = preceding 195 + seven revision-bound export handler
+checks. Controller suites remain separate: 14 completed-cycle, 22 molecular,
+25 public-reference, 26 intelligence and 26 new Data flow scenarios (113 total).
+New controller checks execute shipped scripts against actual Python handlers over
+memory buffers. Sockets are blocked; no external/provider requests are made.
+
+Reproduce the new checks:
+PYTHONPATH=src python3 -B -m unittest discover -s tests -p 'test_*.py' -q
+node tests/data_flow_ui_offline.cjs
+
+The map is read-only; explicit fixture saves in controller qualification test
+saved-versus-draft and concurrent-export behavior. Frozen source inventory is
+not live acquisition. Data flow was rendered at desktop 1440 x 1000 and narrow 390 x 844 widths.
+Stage navigation, saved history, export enablement and refresh were checked.
+No page overflow was observed; wider cycle tables scroll inside their panel.
+The narrow map uses two compact stage columns. Native OS dialogs were not rerun. Prior sections below describe earlier byte versions.
+
+OFFLINE INTELLIGENCE EXTENSION — OCTOBER 30, 2026
+
+Current Python suite: 195 = preceding 160 + 24 intelligence core/boundary/journal
+and 11 actual intelligence handler checks. Existing controller suites remain
+separate: 14 completed-cycle, 22 molecular and 25 public-reference scenarios.
+New intelligence controller suite: 26 shipped-JS scenarios routed through actual
+Python handlers/core over memory I/O, not a handwritten response stub. No sockets
+or external/provider requests are used in these automated checks.
+
+Coverage includes source association versus necessity/sufficiency, exact reference
+maps and source degradation, growth point means/zero/null/boolean distinctions,
+combination gaps and unknown effects, same-reference versus same-species/unknown
+recipient contexts, strict citations/arguments/claim ceilings, refusal/incomplete/
+wrong-model/tool-output handling, bounded typed usage, credential-echo rejection,
+pre-result decisions, duplicate/stale/cross-cycle rejection, separate reassessment,
+safe failed results, immutable histories, interrupted writes, source-bound import,
+no tool/model dispatch on reopen and original completed-cycle preservation.
+
+The browser rehearsal exercised the three foci, public request preparation,
+labelled offline selection, actual checks and reassessment on a separate saved
+study. It caught a numeric-input event issue; scope submission now reads the
+visible fields directly and has an exact zero-entry regression check. Current
+source totals and limitations are recorded outside this tree in the intelligence
+review handoff. A fresh-copy restart check also caught schema-array ordering drift; request
+fingerprints now use deterministic ordering. Earlier local typed records validate
+without rewriting, and complete canonical-JSON/disk restarts have regression tests.
+Prior sections below describe earlier byte versions.
+
+Reproduce:
+PYTHONPATH=src python3 -B -m unittest discover -s tests -p 'test_*.py' -q
+node tests/completed_cycle_ui_offline.cjs
+node tests/molecular_ui_offline.cjs
+node tests/public_algae_ui_offline.cjs
+node tests/intelligence_ui_offline.cjs
+python3 -B tools/verify_handoff.py
+
+No software check validates biological function, transfer, a necessary/sufficient
+protein set or live Meta compatibility. New inference remains disabled.
+
+PUBLIC ALGAE REFERENCE EXTENSION — OCTOBER 30, 2026
+
+Current suite: 160 Python tests = preceding 141 + 12 public-reference model /
+reconciliation/journal tests + 7 actual public handler tests using memory I/O.
+Controller scenarios pass separately: 14 completed-cycle, 22 synthetic molecular,
+25 real-public-reference controller scenarios. No test called an external API,
+provider, HTTP endpoint or socket. No installs, commits or pushes.
+
+New checks cover exact versioned record identity, three exon joins, complete
+sequence reconciliation, inclusion/exclusion of the terminal stop, junction
+codon projection, annotation status, strain limits, absent alternate isoforms,
+corrupted source pins, incompatible coordinates, missing/ambiguous translation,
+requirements with no observations, separate v2 durable journals, stale edits,
+interrupted saves, context reassessment, source-file allowlisting, read-only
+reopening and preservation of v1 synthetic and completed Muse records.
+The public UI defaults to real identifiers; source failure does not silently
+substitute synthetic data. Goal, stage and exon controls, note escaping,
+mode switching, save/export/reopen and safe errors are exercised in memory.
+
+These are computational checks, not experimental validation. New public mode
+rendering at desktop/narrow widths and native downloads/dialogs are pending.
+The running old process must be restarted to load the new Python module/state.
+Earlier rendered-browser checks below concern older bytes and examples.
+Detailed isolated-copy, generated-export and privacy receipts remain outside
+this repository in the local review handoff. No private raw test logs are bundled.
+
+Reproduce:
+PYTHONPATH=src python3 -B -m unittest discover -s tests -p 'test_*.py' -q
+node tests/completed_cycle_ui_offline.cjs
+node tests/molecular_ui_offline.cjs
+node tests/public_algae_ui_offline.cjs
+PYTHONPATH=src python3 -B tools/verify_public_algae.py
+python3 -B tools/verify_handoff.py
+
+The following qualification is historical; do not add it to current test totals.
+
+LOCAL MOLECULAR EXTENSION — OCTOBER 30, 2026
+
+Current offline suite: 141 Python tests (110 published-baseline checks +
+17 molecular model/journal + 9 memory-handler + 5 manifest-verifier checks).
+The existing 14 completed-cycle controller scenarios pass separately. The new
+22 molecular controller scenarios compare 17 valid coordinate selections with
+the authoritative Python assessment and exercise actual shipped event handlers.
+No real API requests, sockets, providers or new commits/pushes were used.
+
+Coverage includes explicit one-to-many selection, forward/reverse strand,
+contiguous transcript coding spans, noncoding null versus computed zero,
+unknown protein projection, incompatible gene contexts, immutable histories,
+context/goal reassessment, stale tokens/revisions, interrupted saves, corrupt
+and oversized records, exported/reopened reviews, escaped notes and unchanged
+original algae/Muse state. The root-Git verifier issue is fixed without reading
+Git metadata or relaxing unknown/secret-file checks.
+
+Rendered-browser verification was blocked by the browser file-protocol policy.
+No workaround or live/local HTTP API call was made. Native dialogs and responsive
+layout remain pending owner review. A fresh metadata-free copy runs the same
+checks with original-project file opens and sockets blocked.
+
+Reproduce from this checkout:
+PYTHONPATH=src python3 -B -m unittest discover -s tests -q
+node tests/completed_cycle_ui_offline.cjs
+node tests/molecular_ui_offline.cjs
+python3 -B tools/verify_handoff.py
+
+The following sections are historical baseline qualification, not new browser
+or biological acceptance for this unpublished extension.
+
 VERIFICATION OF THIS REFRESHED SCREENED CANDIDATE — OCTOBER 29, 2026
 
 110 offline Python unit tests passed with zero failures/errors/skips:
@@ -56,3 +345,172 @@ These browser checks used local read requests only, no model/provider call.
 Body/panel text, blue button text, links and orange highlights exceed 4.5:1
 contrast for the specified pairs; this is not a full accessibility certification.
 Native download/file-dialog rehearsal remains separate and was not performed.
+
+OCTOBER 31 WORKBENCH REFRESH — CURRENT CANDIDATE
+266 Python tests pass with all socket audit events prohibited: previous 249 +
+17 new workbench tests. Eight controller suites pass separately: completed cycle
+14, molecular 22, public algae 25, intelligence 26, Data flow 26, assistant 28,
+scientific story 25 and workbench 35 = 201 scenarios. New workbench controllers
+use shipped JS and actual Python handlers/core via memory I/O, not fake science.
+Existing HTTP scripts pass 28 workspace + 21 completed-cycle loopback checks.
+Initial sandbox loopback bind denial is retained as an environment limitation;
+permitted-local rerun passed. No live provider calls, installations or spending.
+
+New coverage: immutable parent/based-on annotation history, all four qualified
+cases, no annotation-to-tool/model leakage, explicit-only check/synthetic actions,
+null versus zero and role labels, current-view export acknowledgment, full-history
+privacy blocking with no matched values in findings/errors, escaped Markdown and
+exact JSON text, corrupt/stale/oversized packages, imported read-only state and
+original study/mapping preservation. Existing scientific fixtures remain pinned.
+Native browser found and fixed the saved-cycle global form guard disabling the
+independent workbench annotations; the controller form mock now covers it.
+
+Native checks: three columns at 1440px; stacked panels at 390px without horizontal
+page overflow; save public annotation, identity checkpoint, actual audit receipt,
+labelled synthetic priority acceptance, privacy acknowledgment and local JSON
+download. Actual downloaded JSON: 55,749 bytes, 2 annotations, 1 actual check,
+synthetic_fixture priorities, human_review not_reviewed. Native file-picker reopen
+passed read-only; no registered check/model reran. Native synthetic cookie canary
+blocked both export buttons; earlier-history blocking also covered offline.
+Download/picker monitoring took approximately 59/150 seconds despite short
+requested timeouts. Smooth timed transfers are not qualified. JSON/Markdown
+claims/limits and reopening are checked separately from layout/manual judgment.
+An offline privacy screen is heuristic and cannot certify all private prose.
+
+OCTOBER 31 HUMAN RESEARCH EXPERIENCE — CURRENT REFRESH
+268 Python tests pass with sockets prohibited: preceding 266 + 2 public Muse-input
+preparation tests. New workbench subtotal: 19. Controller suites total 209: preceding
+166 + 43 workbench scenarios. The workbench now checks question-led cards, hidden
+technical details, source-name endpoint fidelity, synthetic vs loaded-real labels,
+public-only unsent requests and no real-algae-label promotion to other areas.
+Renderer fixture branches are display checks, not independently real-model proof.
+24 additional offline journeys (4 cases x 6 orders) passed with actual local
+audits, synthetic priorities, branched immutable notes and JSON/Markdown reopen.
+No real model or experimental reliability follows from those counts.
+Native browser loaded the owner's external completed algae packet read-only:
+2 accepted original requests, 5939/1413 input/output tokens, USD 0.013429 estimated;
+provider identity/billing unverified. All four current-case local checks ran in
+the browser. GFP/RNA/reproducibility retain first-real-review-pending labels.
+Public request preview was tested without transmission. Desktop and narrow
+layouts retain evidence, unknowns and collapsible saved records. Long browser
+automation waits persist; smooth timed interaction remains unqualified. Existing
+native download/picker limits remain separate; those dialogs were not repeated.
+
+OCTOBER 31 FOUR-CASE MUSE PREPARATION
+Existing baseline 268 tests passed before changes. Full suite now 302/302: 34
+new runner/HTTP-boundary tests use fake transports/synthetic credentials only.
+All socket audit events prohibited. Existing controller suites pass separately
+209 scenarios. Four-case fake-transport rehearsal saved 4 labelled synthetic
+reviews and actual local audit receipts; no fake live grant retained.
+Coverage: exact grants/payloads/code/data/location/expiry, terminal gates even
+with a preset fake key, lowest-send approval/reservation checks, per-case POST
+markers, duplicate/concurrent attempts, heartbeat/deadline/stop, private HTTP
+errors, nested usage/zero/null, refusal/unavailable action rejection, original
+response fingerprints, pre-result local decision persistence, partial/atomic
+saves and replay package validation. No live API compatibility, billing or
+scientific-reliability claim. Public Meta pricing/protocol docs were read; no
+provider inference/token-count/billing API was called. Prepared packet is
+external, unsigned, zero calls and zero currently authorized spend.
+
+OCTOBER 31 INCOMPLETE-RESPONSE ACCOUNTING / V2 BUDGET PREPARATION
+The preceding 302-test suite passed before repair. Current full suite: 313/313
+with every socket audit event prohibited. Runner subtotal 45: preceding 34 plus
+11 regressions. No live provider requests, real credential reads or retries.
+Synthetic bytes pass through the actual CaptureOpener/CaptureResponse rejection
+path. HTTP200/incomplete/max_output_tokens now records 1 observed, 0 accepted,
+3378/1024 input/output and USD 0.0085745 estimated. Missing/partial/invalid usage
+retains reservation; zero counts stay zero, absent counts unknown. First valid
+packages survive a later failure; repeated accounting cannot double count.
+All original assistant/scientific data and schemas are byte-unchanged. A v2 wire
+adapter changes only max_output_tokens to 8192 and binds wire/core hashes
+separately. New proposed four-call ceiling USD 0.20 requires new owner approval;
+headroom is not provider-completion evidence. Historical attempt files are
+preserved, with a separate external read-only accounting supplement. Original
+unit tests, new runner tests, offline rehearsal exports and rendered-monitor
+checks are recorded separately; no fresh biological/provider reliability claim.
+
+OCTOBER 31 STRONGER EVALUATION — SEPARATE SYNTHETIC CONTRACT
+Baseline: 313 tests passed with all socket events prohibited. The separate
+assistant_evaluation module and CLI add 20 evaluation tests. Original assistant,
+public scientific fixtures, provider runner and completed owner packets remain
+unchanged. 12 clearly synthetic scenarios in six paired areas, three action
+orders each. Authored reference, supplied-order copying and false-certainty
+controls exercise 108 synthetic answers; these are not model calls/studies.
+Tests distinguish wrong known citations from unknown citations, stale requests,
+unsupported certainty, prediction/observation roles, zero/null, evidence-change
+response and order sensitivity. Missing pair members stay unscored, controls and
+model imports cannot pool into one metric, and human scores remain separate/null.
+JSON/textual reports retain exact synthetic inputs, limits, rubric and bindings.
+Reopen recomputes scores without inference or registered tool dispatch. Saved
+real four-case reviews are inspected separately and read-only. Actual model
+usefulness/independent scientific entailment still need separately approved
+execution and human review; no API client or budget permission was introduced.
+
+OCTOBER 31 RNA COMPARISON PREPARATION
+333-test baseline passed before additions. Dedicated RNA 2x2 projection/protocol
+and terminal transport adapter add 22 tests; the original four-case runner and
+all legacy scientific/evaluation files remain unchanged. Expected judgments,
+phase labels and readiness hints are absent from the four exact wire bodies.
+Tests demonstrate only sample metadata changes across evidence states and only
+candidate presentation changes across order cells. Primary factual/uncertainty
+criteria stay separate from secondary strict v1/priority agreement and unfilled
+human judgments. Wrong but well-formed answers remain scored, not science passes.
+Safe usage accounting before rejection, incomplete responses, terminal/grant/
+expiry/code/price/body/location/protocol guards, no duplicates/proxies/redirects,
+deadline/heartbeat/stop, rejected-output no-dispatch and partial-save preservation
+are qualified offline. No new inference/token-count/billing API or real key read.
+Native browser rendering is not requalified. Public Meta docs verify price/cap
+semantics; only a separately approved new live run could qualify compatibility.
+
+OCTOBER 31 — COMPLETED CHECKS / ANIMATED JOURNEY
+355 baseline Python tests passed before this work. New tests: 12 source-bound
+tracking/handler tests and 23 comparison/runner tests; full suite 390/390 offline
+with socket events prohibited. All 209 previous controller scenarios plus 24
+journey scenarios pass (233 total). Controller tests use actual scripts, handlers
+and Python core through memory I/O; native layout/transfer are separate checks.
+A corrupt-import error-display regression was preserved then fixed: rerender no
+longer hides the error behind the general synthetic-replay banner.
+
+Native browser: playback, mapping selection, source labels, desktop/narrow layout,
+actual local metadata validation, JSON download and read-only file-picker reopen
+verified. Requested narrow viewport 390; measured document/scroll widths both375,
+with a650px diagram scrolling within its panel. No page overflow. Native transfer
+automation stalled; timed-demo download duration remains unqualified. Standalone
+SVG content/absence of scripts/external assets verified in controller tests; a
+native SVG click was observed but its final download was not confirmed.
+
+Native loading exposed a small connection queue:32 concurrent localhost asset
+requests gave13 successes. Increasing the local server queue to64 gave32/32; the
+next browser load restored the styled animation and all existing menu routes.
+The127.0.0.1 binding/same-origin protections remain. Sandbox initially refused
+loopback bind; a permitted local launch was used, no external scientific request.
+
+The new comparison was rehearsed with visibly synthetic transports: four accepted
+fake responses and a one-request incomplete response that stops later sends while
+retaining reported usage. Tests also retain/score repeated completed actions.
+These are software controls, not new Muse results or evidence of plan usefulness.
+Separate isolated-copy suite/logs and exact candidate verification accompany the
+external review. Existing real packet byte fingerprints are preserved.
+
+October31 focused-MVP pass: frontend presentation/navigation and read-only source
+companions only. No Python scientific/core/transport changes. Expanded journey
+controller suite from24to40 meaningful scenarios; old suites are accounted for
+separately. Zero/null, unavailable sources, synthetic/no-cycle provenance, source
+units/context, preserved routes and presentation navigation/exit are exercised.
+A local-name collision caught in testing was fixed; no validator or claim gate
+was weakened. Current full/isolated logs and browser evidence live in the external
+focused-MVP review folder. Native narrow evidence/reference layout has no page
+overflow; the wide illustration scrolls within its panel. Native mapping access,
+working-study audit and three authored action cards were checked against the
+saved-real-cycle viewer. Existing actual download/reopen qualification remains
+separate and historical; this cosmetic pass does not requalify transfer timing.
+
+OCTOBER 31 CINEMATIC SHOWCASE
+395 Python tests, 251 controller scenarios (42 journey), and 49 loopback HTTP
+checks passed. Five new adapter tests preserve absent/partial/corrupt/misplaced/
+symlinked records and repeated completed actions. The default-route test was
+updated to the deliberate #journey entry. Five public reference files requalified.
+Desktop and 390px layouts, keyboard scene navigation and saved real provenance
+were browser-verified. Local edited video plays: 180.046 seconds, installed local
+Samantha narration. No new provider calls. Manual human timing, comprehension,
+scientific usefulness and publication review remain pending.

@@ -1,0 +1,241 @@
+LOCUS       NC_057015               5402 bp    DNA     linear   CON 17-AUG-2021
+DEFINITION  Chlamydomonas reinhardtii strain CC-503 cw92 mt+ chromosome 12,
+            whole genome shotgun sequence.
+ACCESSION   NC_057015 REGION: 724592..729993
+VERSION     NC_057015.1
+DBLINK      BioProject: PRJNA21061
+            BioSample: SAMN02953692
+            Assembly: GCF_000002595.2
+KEYWORDS    WGS; RefSeq.
+SOURCE      Chlamydomonas reinhardtii
+  ORGANISM  Chlamydomonas reinhardtii
+            Eukaryota; Viridiplantae; Chlorophyta; core chlorophytes;
+            Chlorophyceae; CS clade; Chlamydomonadales; Chlamydomonadaceae;
+            Chlamydomonas.
+REFERENCE   1  (bases 1 to 5402)
+  AUTHORS   Merchant,S.S., Prochnik,S.E., Vallon,O., Harris,E.H.,
+            Karpowicz,S.J., Witman,G.B., Terry,A., Salamov,A.,
+            Fritz-Laylin,L.K., Marechal-Drouard,L., Marshall,W.F., Qu,L.H.,
+            Nelson,D.R., Sanderfoot,A.A., Spalding,M.H., Kapitonov,V.V.,
+            Ren,Q., Ferris,P., Lindquist,E., Shapiro,H., Lucas,S.M.,
+            Grimwood,J., Schmutz,J., Cardol,P., Cerutti,H., Chanfreau,G.,
+            Chen,C.L., Cognat,V., Croft,M.T., Dent,R., Dutcher,S.,
+            Fernandez,E., Fukuzawa,H., Gonzalez-Ballester,D.,
+            Gonzalez-Halphen,D., Hallmann,A., Hanikenne,M., Hippler,M.,
+            Inwood,W., Jabbari,K., Kalanon,M., Kuras,R., Lefebvre,P.A.,
+            Lemaire,S.D., Lobanov,A.V., Lohr,M., Manuell,A., Meier,I., Mets,L.,
+            Mittag,M., Mittelmeier,T., Moroney,J.V., Moseley,J., Napoli,C.,
+            Nedelcu,A.M., Niyogi,K., Novoselov,S.V., Paulsen,I.T., Pazour,G.,
+            Purton,S., Ral,J.P., Riano-Pachon,D.M., Riekhof,W., Rymarquis,L.,
+            Schroda,M., Stern,D., Umen,J., Willows,R., Wilson,N., Zimmer,S.L.,
+            Allmer,J., Balk,J., Bisova,K., Chen,C.J., Elias,M., Gendler,K.,
+            Hauser,C., Lamb,M.R., Ledford,H., Long,J.C., Minagawa,J.,
+            Page,M.D., Pan,J., Pootakham,W., Roje,S., Rose,A., Stahlberg,E.,
+            Terauchi,A.M., Yang,P., Ball,S., Bowler,C., Dieckmann,C.L.,
+            Gladyshev,V.N., Green,P., Jorgensen,R., Mayfield,S.,
+            Mueller-Roeber,B., Rajamani,S., Sayre,R.T., Brokstein,P.,
+            Dubchak,I., Goodstein,D., Hornick,L., Huang,Y.W., Jhaveri,J.,
+            Luo,Y., Martinez,D., Ngau,W.C., Otillar,B., Poliakov,A., Porter,A.,
+            Szajkowski,L., Werner,G., Zhou,K., Grigoriev,I.V., Rokhsar,D.S. and
+            Grossman,A.R.
+  TITLE     The Chlamydomonas genome reveals the evolution of key animal and
+            plant functions
+  JOURNAL   Science 318 (5848), 245-250 (2007)
+   PUBMED   17932292
+REFERENCE   2  (bases 1 to 5402)
+  AUTHORS   Merchant,S.S., Prochnik,S.E., Vallon,O., Harris,E.H.,
+            Karpowicz,S.J., Witman,G.B., Terry,A., Salamov,A.,
+            Fritz-Laylin,L.K., Marechal-Drouard,L., Marshall,W.F., Qu,L.H.,
+            Nelson,D.R., Sanderfoot,A.A., Spalding,M.H., Kapitonov,V.V.,
+            Ren,Q., Ferris,P., Lindquist,E., Shapiro,H., Lucas,S.M.,
+            Grimwood,J., Schmutz,J., Grigoriev,I.V. and Rokhsar,D.S.
+  CONSRTM   Chlamydomonas Annotation Team; JGI Annotation Team
+  TITLE     WGS assembly of Chlamydomonas reinhardtii
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 5402)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-AUG-2021) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   4  (bases 1 to 5402)
+  AUTHORS   Merchant,S.S., Prochnik,S.E., Vallon,O., Harris,E.H.,
+            Karpowicz,S.J., Witman,G.B., Terry,A., Salamov,A.,
+            Fritz-Laylin,L.K., Marechal-Drouard,L., Marshall,W.F., Qu,L.H.,
+            Nelson,D.R., Sanderfoot,A.A., Spalding,M.H., Kapitonov,V.V.,
+            Ren,Q., Ferris,P., Lindquist,E., Shapiro,H., Lucas,S.M.,
+            Grimwood,J., Schmutz,J., Grigoriev,I.V. and Rokhsar,D.S.
+  CONSRTM   Chlamydomonas Annotation Team; JGI Annotation Team
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-JUL-2017) US DOE Joint Genome Institute, 400 Mitchell
+            Drive, Walnut Creek, CA 94598, USA
+REFERENCE   5  (bases 1 to 5402)
+  AUTHORS   Merchant,S.S., Prochnik,S.E., Vallon,O., Harris,E.H.,
+            Karpowicz,S.J., Witman,G.B., Terry,A., Salamov,A.,
+            Fritz-Laylin,L.K., Marechal-Drouard,L., Marshall,W.F., Qu,L.H.,
+            Nelson,D.R., Sanderfoot,A.A., Spalding,M.H., Kapitonov,V.V.,
+            Ren,Q., Ferris,P., Lindquist,E., Shapiro,H., Lucas,S.M.,
+            Grimwood,J., Schmutz,J., Grigoriev,I.V. and Rokhsar,D.S.
+  CONSRTM   Chlamydomonas Annotation Team; JGI Annotation Team
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUL-2007) US DOE Joint Genome Institute, 2800
+            Mitchell Drive B100, Walnut Creek, CA 94598-1698, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to CM008973.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: ARACHNE v. 20071016_modified
+            Assembly Name         :: Chlamydomonas_reinhardtii_v5.5
+            Genome Coverage       :: 11.12x
+            Sequencing Technology :: ABI 3739
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..5402
+                     /organism="Chlamydomonas reinhardtii"
+                     /mol_type="genomic DNA"
+                     /strain="CC-503 cw92 mt+"
+                     /db_xref="taxon:3055"
+                     /chromosome="12"
+     gene            1..5402
+                     /locus_tag="CHLRE_12g495100v5"
+                     /old_locus_tag="CHLREDRAFT_196473"
+                     /db_xref="GeneID:5726104"
+                     /db_xref="Phytozome:Cre12.g495100"
+     mRNA            join(1..1311,1549..2216,2610..5402)
+                     /locus_tag="CHLRE_12g495100v5"
+                     /old_locus_tag="CHLREDRAFT_196473"
+                     /product="uncharacterized protein"
+                     /transcript_id="XM_001700501.2"
+                     /db_xref="GeneID:5726104"
+                     /db_xref="Phytozome:Cre12.g495100"
+     CDS             join(768..1311,1549..2216,2610..3656)
+                     /locus_tag="CHLRE_12g495100v5"
+                     /old_locus_tag="CHLREDRAFT_196473"
+                     /codon_start=1
+                     /product="uncharacterized protein"
+                     /protein_id="XP_001700553.1"
+                     /db_xref="GeneID:5726104"
+                     /db_xref="Phytozome:Cre12.g495100"
+                     /translation="MDKAERAAGGPNAASEDDWLLEFWPEPAADFPAPVAPMLSQHQD
+                     AAQLPEAMPQQQGLALGGYGLTQQPSDFMQTGMPGFDAFSSGKAATLGLPLLADPQRA
+                     STDGASALMNAAQQSSEYMLAPGMGGMPHLLAPSVGTALPGTGHTGFADLSMGGMAGG
+                     IPGLGGPGIMHGQYFMQPQRAATGPAKSRLRWTPELHNRFVNAVNSLGGPDKATPKGI
+                     LKLMGVDGLTIYHIKSHLQKYRLNIRLPGESGLAGDSADGSDGERSDGEGGVRRATSL
+                     ERADTMSGMAGGAAAALGRAGGTPGGALISPGLAGGTSSTGGMAAGGGGGGGLVTEPS
+                     ISRGTVLNAAGAVATAAPAAAAPAGGSAAVKRPAGTSLSSGSTASATRRNLEEALLFQ
+                     MELQKKLHEQLETQRQLQLSLEAHGRYIASLMEQEGLTSRLPELSGGAPAAAPVAAGG
+                     AAGGMIAPPPPQQQLQHQPQLLQPQGSLPAGGSSEAHAAAGAGTMVVHQQQQQHVHHH
+                     HQQQQVQMQQHARHCDTCGAGGAGGAPSGGSSMQQLQAAEQQRTELVVAGRLGSMPAP
+                     ASSSPLAGQAHQQQPLAGGAAHLVHVHSHTPGGQPHVQHQDAFAGAATAAAHASPGLP
+                     QSHSHLLPADLSSNAGPDTSAGQIKPEPDMSQQQQQQEQQEAEQLAQGLLNDSSAGAG
+                     AVSGSDGGGLGDFDFGDFGDLDGGAQGGLLGPGDLIGIAELEAAAAHEQQQEQEHDPL
+                     DADRAKRQRVEP"
+     gene            complement(5385..>5402)
+                     /locus_tag="CHLRE_12g495138v5"
+                     /db_xref="GeneID:66055440"
+                     /db_xref="Phytozome:Cre12.g495138"
+     mRNA            complement(5385..>5402)
+                     /locus_tag="CHLRE_12g495138v5"
+                     /product="uncharacterized protein"
+                     /transcript_id="XM_043067985.1"
+                     /db_xref="GeneID:66055440"
+                     /db_xref="Phytozome:Cre12.g495138"
+ORIGIN      
+        1 ctgacgcgac ctactttcga tttccaaaga gtcgtctgaa acccccgtat tggcccatgc
+       61 ctgatgcccc acgatttatg cgccagctgg gcgccggttc tgcttccggg agcgggagcg
+      121 ggacgcagca tgtgtgctca aaacacctca gctttccaat tcggaaatcg agtgcggtga
+      181 aagtgaaacc ccacgtggtg ccattcagag cacttaggcg cctaacgcag ggttaaatca
+      241 cgctcagacc cggtaaccga taggcacgta tgtgcggacc attgaaggct gaacggattg
+      301 tactgcgcct aactatgcaa aaaggcctgt gtaatcctaa gccctagacc tgaacgctca
+      361 cgcgttctct cgcttactgc attattggtg gcagggctac atacacgctc cgagtgaagt
+      421 ctataccgct caggagctcc gccaagggag cgcgagcaag ttttgagcaa acgcgcagtt
+      481 aggacgccgt acgccataga ttccattctg atgccttgcg cagagtcctt tgcaaaggtg
+      541 gtgtacgcgc caagttgacg actggcatgc gtctgcgggg ccgcagcaag ctttcgatcc
+      601 aggcgacgtt ccaatttcac gaactagcgc cgcttgtcag tttcaaggtc gcacctatcg
+      661 ctatgcaacg atctacgttt tgcggccttc ttatacttga tagagcatag aacggatgga
+      721 agcgagctgg ttggaatcgc catttagtag acctgccctg gggcccgatg gacaaagctg
+      781 aacgcgctgc tggtggccct aacgctgcaa gcgaggacga ctggctgctg gagttttggc
+      841 cggagcctgc agcggacttt cctgcaccgg tcgctccgat gctgtcgcag catcaagacg
+      901 cagcacagct gcctgaggcc atgccgcagc agcaaggact ggcgctgggt ggatatggtc
+      961 tcacgcagca gccttctgac tttatgcaaa cgggcatgcc cggcttcgac gcgttcagca
+     1021 gcgggaaggc tgcaaccctc gggctgcccc tgcttgccga cccccagcgc gcctccaccg
+     1081 acggcgcctc tgcgcttatg aacgcggcgc agcagtcctc agagtacatg ctggcccccg
+     1141 gcatgggcgg catgccgcat ctactagcac cgagcgttgg cacggcgctg cccggcactg
+     1201 ggcacaccgg cttcgcggac ctgtccatgg ggggcatggc ggggggcatc ccgggcctcg
+     1261 gggggccagg cattatgcat gggcagtact tcatgcagcc gcagcgagca ggtgcgtcag
+     1321 atgcaggctg tgcctgcagg gcctgggaat gggcggggct tgggaagcgg tgcaagtgct
+     1381 gataacctga ggccctcaac acctgggcag caggagggag cgcaagccag cttgcccagc
+     1441 cgcaagatgg cgcctcctga ttaccattta cctgcgcaag caggaataca ggacgcctgt
+     1501 cctatcctgt ccacatcaca cacgatcccg gtctctccct gcctgcagcc acgggccccg
+     1561 ccaagagccg gctgcgctgg acgccggagc tgcacaaccg cttcgtcaac gcggtgaact
+     1621 cgctgggggg gccggacaag gccacgccca agggcatcct taagctcatg ggcgtcgacg
+     1681 gcctcaccat ctaccacatc aagtcgcacc tgcagaagta ccgcctcaac atccggctgc
+     1741 cgggagagag cggcctcgcg ggcgactcgg cggacggctc ggacggcgag cgctcggacg
+     1801 gcgagggcgg cgtgcggcgc gccacctcgc tggagcgggc agacaccatg tcggggatgg
+     1861 cgggaggggc cgccgcagcg ttagggagag cgggcgggac gccgggcggt gcgctaatct
+     1921 cccccggcct tgccggcggg acgtcaagca ccggtgggat ggcagccggc ggcggcgggg
+     1981 gtggcggctt ggtgactgag cccagcatct ctaggggcac ggtcctcaac gcggccggcg
+     2041 cagttgccac cgccgcgccg gctgcggcgg cgcctgccgg cgggtccgcc gccgtgaagc
+     2101 ggccggcggg tacgtctctg agcagcggca gcactgcctc ggctactcgg cgcaatctgg
+     2161 aggaggcgct gctgttccaa atggagctgc agaagaagct gcacgagcag ctggaggtga
+     2221 gagccacagc ggctgcgtgg cgggcggttg gtgtggttgt gcgcatggtg gtgtggacgg
+     2281 gcgggtgtca gggtgtgtgt gggtctgcgt gttggggcag ggctcgccgt gggtggaact
+     2341 gctgttgagg ttttggctag caaatgcagg ttggggcagt ggtggcgcga gggcgtgtgc
+     2401 gtgcgggcac gtcgcgaggg gccaggtctt gcggaggggc aggtggctat tccatgctgc
+     2461 tctgctgtgc accaggtggc ccttatggcg tctcattgca tgaaaaccgc gtagagccac
+     2521 gccttgatgc ggctcgtgtg ttgccttgct cgactagcac tcattttgac gcgcgccgtg
+     2581 tttgctctgg tcccctttgt gctccacaga cgcagcgtca actgcagctg agcttggagg
+     2641 cgcacgggcg ctacatcgcc agcctcatgg agcaggaggg actcacctcg cgactgcccg
+     2701 agctcagcgg cggcgcgccg gcggcggcgc ctgtggccgc aggcggcgca gcgggcggca
+     2761 tgattgcgcc gccgccaccg cagcagcagc tgcagcacca gccgcagctg ctgcagccgc
+     2821 agggcagctt gccagccggc ggttcctctg aagcccatgc cgcagccggc gccggcacga
+     2881 tggtggtgca ccagcagcag cagcagcacg tgcaccatca tcaccagcag cagcaggtgc
+     2941 agatgcagca gcatgcccgc cactgcgaca cgtgtggcgc cggtggcgct gggggtgcgc
+     3001 ccagcggcgg cagcagcatg cagcagcttc aggctgcgga gcagcagcgc acggagcttg
+     3061 ttgtggcggg gcggctaggc tccatgccgg cgcccgcctc ttcgtcgccg ctagcagggc
+     3121 aggcacacca gcagcagccg ctggccggcg gggcggcgca cttggtgcac gtgcactcgc
+     3181 acacgcctgg ggggcagccg cacgtgcagc accaggacgc gtttgccggc gcggctacgg
+     3241 cggcagcgca cgcttcgccg gggctgccgc agtcacattc gcacctgctc ccagccgacc
+     3301 tctccagcaa cgccggtcct gacacaagcg cggggcagat taagcctgag cctgatatgt
+     3361 cgcagcaaca gcagcaacaa gagcaacagg aggcggagca gcttgcgcag ggtttgctca
+     3421 atgacagcag cgctggcgcg ggggctgtca gcggcagcga tggtgggggc cttggggact
+     3481 ttgacttcgg tgatttcggg gacctggacg ggggagccca gggcggccta ctaggccccg
+     3541 gagacctcat tggcatcgcc gagctggagg cagcggccgc gcacgagcag cagcaagagc
+     3601 aagagcacga cccactagat gcggatcgcg caaagcggca gcgagtggag ccataggttc
+     3661 agagctagca ggtgtgttag gcagcggaac agcagctgtt gcgctcccga caggctaacc
+     3721 agccaagcca cagacgtctg gtgccccagt cggttgcgcg tgcagctgtg gcgccagggg
+     3781 cccctgcctg gtagacagag cccctcgtcc gctgaaagga gagcgagcac gggacgcgac
+     3841 gagccgtcgc caagttggca gaaggcacct gcgcatgcat ctgttgactc tgtctttctg
+     3901 ttgttggctg atgtcttgaa gtgtcattga ctaccgtcct gcatacgttc acgtggtaca
+     3961 tgctgggtgc cgccgccatc tggcgctccc gccgttttga gctgattgcg ctcggcgcca
+     4021 gacagcggtt ggcccttgct ttggggctcg tgtcgattgc gtttgtatgc cgctcgtttg
+     4081 gccggcagag cgcgccggcc cacggggccg tgcggacgtt acgtgtgtga ggccccagcc
+     4141 gaagtaccgc agtgtgctgt cgctcactcg cgcactgccg ctcgacttgc ggtgtgtgga
+     4201 cgggtgctct caggtgcctg cgcatgctgc gtagttgcat tgcgcccgct ccgcgcttga
+     4261 ggtcagaggc ggggctgtgc agcctgctgg agtgtgcggc agggggtgcg tgtgccagga
+     4321 ccctcacgac aggaggagga cgcgttgcgc cccgctggtg tggccggctg ctcgggccgg
+     4381 ccattgtacc attcttaccg gtttgtactg ttcacggcag ccgtgcgcac ggggtggccg
+     4441 gccgcgaggc ctcagtattt gaggctgaca tgcgtgtgtg tttggtgcgt cgtggtgcga
+     4501 ttgactcaga gcctgccggt tgagactcag gagggcccag tgtgcatgga aaggttgcat
+     4561 gagagtccgg cggccgcttt gcgacgagtt gccagtcgaa tcatagttgg tggggcttct
+     4621 ggcggagcga tgggtgaggc atggttgtgt gaacaggaag ggggttgagt cgccaatgac
+     4681 cgccaatgaa cgatgatcac gaaacattag taagtggaac gcgttggttg gcatgtgtgc
+     4741 cgattaggag ccggtagggg aaattataac gtcatggcaa acatgagggg aggaacaaac
+     4801 tggatgcggg gcatagtcaa cagctgaaca acctagcatt tgctttttat cggggacgac
+     4861 gctcaatcga aagggcaatg cacggaaagg tcacagcatg ggcaagggac tgggagaggg
+     4921 cgctgtgtga gtcgctcctg cgagctggtg gccacagggg ctcctggcac aggcgagcgg
+     4981 ctgaagttgt gcgcgcggcc ggcgtctgga tggcgtgtca acactgcacg tgcatctaga
+     5041 tgtcgacact gcggccgaat aacattgcag gagcaacggt aatgagggag cgctaaggag
+     5101 agagcgtcct cggagtgttc gaaggcggca aggcatgggc atgggctgtt gcgcctgcat
+     5161 gcgtggtcag caggctgctt ctcaatgcca gggggttgcg gtgaggtatg cgccggcgcc
+     5221 acgctcggag caccgcgccg agtcgcctca gaagtcaggc gtgttggatt tgctgcgaga
+     5281 ggagagggag cggaattgga gacgcgctat tgtcatgaca catgcgtgcg ccgtacaccg
+     5341 tgcgtgcggt tccaggagtt caggtcgaat gtaagggagc ccgtgaatgt ctttccgcgc
+     5401 gg
+//
+

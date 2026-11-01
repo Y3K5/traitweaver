@@ -1,67 +1,43 @@
-TRAITWEAVER — THREE-MINUTE LOCAL MVP DEMO
+TRAITWEAVER — CINEMATIC THREE-MINUTE WALKTHROUGH
+October 31, 2026. Working duration; verify actual submission-form limits.
 
-SETUP BEFORE THE TIMER
-From this screened repository: python3 -B run_workspace.py --demo
-Open the printed loopback URL. Leave the terminal running. Check the banner
-says Synthetic offline replay. No key, provider call or sibling archive is needed.
-Use a private local download location for the exported file. Rehearse native
-file selection/download once before presenting; this refresh tested controller
-wiring in memory, not a fresh rendered browser or native download dialog.
+PREPARE
+Open #journey with the original saved algae cycle and optional saved RNA pilot.
+Confirm Saved real Muse cycle; --demo is synthetic and must be narrated as such.
+Never label a synthetic replay as real. No new provider calls during playback.
 
-0:00–0:20 — QUESTION
-Click Question.
-“Traitweaver turns a biological question into a traceable next study. Here we
-ask about phosphorus recovery using algae while considering growth. Unknown
-thresholds stay unknown. This portable replay is explicitly synthetic.”
+0:00–0:20 / PROBLEM
+Can algae help us recover phosphorus, and what should we test next?
+Traitweaver connects published science, Meta Muse and traceable next steps.
+The animation is an illustration, not experimental footage.
 
-0:20–0:45 — PATHS AND EVIDENCE
-Click Paths, then Evidence.
-“We consider PSR1 regulation and nutrient preconditioning. Each publication
-keeps its own controls and context. We preserve reported means, SE, sample
-counts and source locations. Uptake, cellular phosphorus and recovered-product
-phosphorus stay separate. GFP is available separately, not attached evidence.”
+0:20–0:55 / EVIDENCE
+Open Inspect the science / Published evidence. Point to separate uptake and growth
+cards, source controls, units, SE and n. Uptake is not collected-product recovery.
+Reference mapping is one click away; CC-503 annotation is distinct from UVM4 data.
 
-0:45–1:10 — DECISION
-Click Completed Muse cycle, then Decision.
-“This fixture shows the bounded decision flow: audit endpoint coverage before
-comparing the paths. Purpose, cited sources, deferred alternatives and
-conditional next steps are recorded before execution. The heading follows the
-actual selected check; contrasts instead name growth or phosphate uptake.”
+0:55–2:00 / META + LOCAL CHECK
+Select Muse decision, then Tool result. Inspect the three connected saved cards.
+Muse selected endpoint coverage; local software found no quantified collected-
+product phosphorus in either supplied path; Muse reassessed the missing evidence.
+Open exact records/citations if needed. This is a saved real cycle, not a live call.
+The new measurement cards are authored proposals, separate from those responses.
 
-1:10–1:35 — RESULT
-Click Result.
-“The local audit finds no quantified recovered-product phosphorus endpoint in
-this admitted bundle for either path. Source contexts differ and the growth
-acceptance margin is unknown. Missing support is not biological failure.
-We do not manufacture a winner.”
+2:00–2:40 / MEASURE THE REASONING
+Show the saved RNA comparison if loaded. Synthetic inputs, recorded model replies:
+factual judgments change correctly in both action orders, but first action does
+not change. Adaptive progression is unproven. The completion-receipt comparison
+has no loaded results unless an independently approved run is supplied. Missing
+or unsuccessful results remain visible. Never claim a successful future test.
 
-1:35–2:00 — REASSESSMENT
-Click Reassessment.
-“A separate assessment records unavailable and proposes the missing
-measurements. The plan states the comparison, controls, readouts, independent
-units and unresolved decisions. It is for researcher review, not an executable
-laboratory protocol. Another cycle requires a deliberate action.”
+2:40–3:00 / HANDOFF
+Open Next measurement: question, readouts, controls, required inputs and completion.
+Show the existing save/reopen path or prepared package outside the timed segment.
+Conclude: an evidence-backed next step for researcher review. Human usefulness
+and biological validation remain unestablished.
 
-2:00–2:25 — USAGE
-Click Usage.
-“These counts and costs are synthetic fixtures. This screen can also review
-an owner's saved real receipts locally. The separately documented real Muse
-cycle used two accepted requests, with an estimated cost of $0.013429.
-That is an estimate; actual billing, including attempt 001, remains unverified.”
-
-2:25–3:00 — EXPORT AND REOPEN
-Click Handoff, then Export cycle with usage. Select that downloaded JSON in
-the separate completed-cycle file picker. Return to Usage and point to history.
-“The package retains public sources, the pre-result decision, actual local
-result, separate assessment, four revisions and usage. Reopening validates and
-restores a read-only review without rerunning a tool or model. The synthetic
-label stays visible. This MVP delivers a defensible next step when better
-evidence is needed.”
-
-PRESENTATION LIMITS
-Do not enter a key, run --send or open the owner's real packet during this
-portable demo. A study-only export is different from a cycle-with-usage export;
-use the latter's separate picker to preserve usage. Exported model text is
-closed and validated; rejected replies cannot execute a check. A software demo
-is not biological validation, provider authentication or release approval.
-Publication and submission remain owner-controlled.
+LOCAL EDITED VIDEO
+The separate local kit includes actual browser captures edited to this timing,
+with installed macOS speech narration and optional captions. It is not continuous
+screen recording or a completed human rehearsal. Manual timing and reviewer
+feedback remain separate acceptance checks.

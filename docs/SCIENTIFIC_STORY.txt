@@ -1,0 +1,98 @@
+SCIENTIFIC STORY — OCTOBER 31, 2026 / LOCAL SHOWCASE
+
+Open the existing app and select Scientific story in the sidebar. The seven
+panels connect source evidence, genome/protein identity, material lineage,
+fluorescence qualification, phosphorus compartments, reactor comparison and
+proposed study design. Overview is for the visual narrative; Scientist detail
+expands measurement bases, source records and the design gates.
+
+MEANINGFUL QUANTITIES
+
+The source selector compares four lines only within Slocombe et al. (2023),
+Table 1 / S_PSR1_2023. Example 8-27: uptake 0.97 +/- 0.04 SE mmol P g dry
+weight^-1 d^-1; growth 1.33 +/- 0.03 SE d^-1; n=3 culture replicates per line.
+Against that study's UVM4 means, descriptive ratios are about 2.02 and 0.924.
+Original SE, n, units, control and measurement basis stay beside the values.
+Ratio/difference uncertainty is not estimated. No p-value, equivalence claim,
+cross-study ranking or new-material/reactor performance follows. Preconditioning
+observations are qualitative and are not pooled into this numeric comparison.
+
+The public reference chain has one 5,402 nt extracted locus, one 4,772 nt
+transcript, three annotated exons and a 752 aa protein. Versioned assembly,
+gene/transcript/protein IDs, source files, parent relationships and sequence hashes
+remain available. The region hash is not a whole-genome hash. CC-503 reference
+annotation/sequence agreement does not establish expression, biological function,
+UVM4 equivalence, another isoform or a sequenced edited organism.
+
+MATERIAL AND READOUT TRACEABILITY
+
+Reference annotation links are separate from physical sample custody. Planned
+DNA, RNA/protein readout and reactor records have stable PLAN IDs and parent
+links; actual sample/material IDs, sequence files, genotype evidence and run
+records remain null. No physical material has been instantiated by these cards.
+DNA expression into RNA/protein is not physical conversion of a DNA sample.
+Cassette composition, multiple additions and cross-species transfer are unknown.
+
+The qualified GFP record stays a separate 238 aa reference. No reporter construct,
+GFP/PSR1 fusion or inserted GFP is linked. Fluorescence requires acquisition,
+background, calibration, normalization and identity evidence. It alone cannot
+verify a genotype, a functional trait or phosphorus recovery.
+
+SYNTHETIC MATH IS OPT-IN
+
+Show synthetic math example reveals invented inputs under a persistent label:
+- fluorescence: 1,200 - 200 = 1,000 RFU; divided by 0.4 g dry weight = 2,500
+  RFU/g. Instrument qualification, independent replicates and genotype remain
+  unknown. These are arithmetic examples, not expression results.
+- phosphorus: 10 -> 4 mg P/L is a 60% concentration decline; with 2 -> 1.8 L,
+  liquid inventory is 20 -> 7.2 mg P, a different 64% decline. Disjoint final
+  liquid, retained biomass, collected product and sample/outflow are 7.2, 8, 2,
+  2 mg P: 19.2/20 = 96% closure, 0.8 mg P unaccounted. Collected product is
+  10% of input. Uncertainty/closure criteria are unknown. No microbial causality,
+  assimilation, chemical transformation or plant-use benefit is demonstrated.
+
+Zero and unknown remain distinct; incompatible P/PO4 bases, units and overlapping
+compartments cannot be silently combined. Hiding examples restores unavailable
+fluorescence/reactor values; it does not replace them with zero.
+
+MEASUREMENT DESIGN FOR A WET-LAB RESEARCHER
+
+Six proposed modules cover identity, fluorescence, growth, phosphorus accounting,
+a contained reactor comparison and separate plant use. Each gives the question,
+comparison, controls to qualify, readouts/record fields, independent-unit
+requirements, prerequisites and a completion check. The reactor graphic is a
+study schematic, not apparatus or inoculation instructions. Independent reactors
+are not replaced by repeated timepoints/aliquots. Published n=3 is not a sample
+size prescription. Required material identity, approved laboratory SOP IDs,
+replication/analysis plan, growth/recovery/closure thresholds and authorizations
+remain researcher decisions. No executable editing, culture, inoculation,
+cassette/guide/construct sequence or laboratory protocol is generated.
+
+PRESERVE AND SHOW
+
+Export study-design JSON retains the complete read-only content and presentation.
+Export scientist brief contains all design fields and exact accepted content.
+Export stage graphic produces a standalone, script-free local SVG with its source,
+proposal or synthetic label. It is a showcase schematic, not a microscopy image
+or experimentally validated molecular/bioreactor model. Actual source IDs and
+limits remain in the package and brief. Nothing is uploaded or published.
+
+Reopen a scientific-story package validates exact admitted source identities,
+derived numbers, roles, proposal fields and checksum, then restores presentation
+only. It cannot introduce real observations into these pinned public/synthetic
+cases. Import requires a current same-origin session and view identity; malformed,
+oversized, stale or altered packages preserve the prior view. No registered tool,
+provider or laboratory action runs on navigation or reopen. Calculations are pure
+local descriptive projections. Whole-valued derived numbers are normalized for
+Python/JavaScript JSON portability without conflating boolean, zero and null.
+
+Native browser values, panels, SVG download and scientist gates were checked.
+An actual JSON download exists and validates, but the native download-monitor
+tool stalled for about 284 seconds and timed out. Smooth timed native export and
+file-picker reopen remain unqualified for this new package. Use the prepared
+local package/brief in a timed demo; rehearse native import separately. The
+passing controller/handler export/reopen tests remain separate evidence.
+
+The new research-story contract is independent from the original study, mapping,
+assistant and intelligence contracts. It contains no live transport, private
+research input, credentials, raw provider response or inferred biological winner.

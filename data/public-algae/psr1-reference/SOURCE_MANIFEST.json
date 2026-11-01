@@ -1,0 +1,75 @@
+{
+  "schema_version": "traitweaver.public_source_manifest.v1",
+  "case_id": "psr1-reference",
+  "role": "public_reference_annotation",
+  "retrieval": "Existing locally cached primary public records; copied byte-for-byte and checked against recorded public-source hashes. No external retrieval in this build. Original retrieval time not independently established.",
+  "freshness": "Frozen records, not a current database query. Source record dates are not retrieval dates.",
+  "sources": [
+    {
+      "id": "refseq_XP_001700553.1.gb",
+      "file": "refseq_XP_001700553.1.gb",
+      "bytes": 7041,
+      "sha256": "15f435099cb200d32d3fdd4978acbeb2e6aafe12d6f3f762ae55697d1af06772",
+      "title": "RefSeq protein XP_001700553.1",
+      "url": "https://www.ncbi.nlm.nih.gov/protein/XP_001700553.1",
+      "origin_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=XP_001700553.1&rettype=gb&retmode=text",
+      "locator": "VERSION; DBSOURCE; FEATURES/source; ORIGIN",
+      "role": "public_reference_annotation"
+    },
+    {
+      "id": "refseq_XM_001700501.2.gb",
+      "file": "refseq_XM_001700501.2.gb",
+      "bytes": 13047,
+      "sha256": "cd0732884392357bd563ee301a403667921e346df3444d79750976683d170330",
+      "title": "RefSeq transcript XM_001700501.2",
+      "url": "https://www.ncbi.nlm.nih.gov/nuccore/XM_001700501.2",
+      "origin_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=XM_001700501.2&rettype=gb&retmode=text",
+      "locator": "VERSION; FEATURES/gene; FEATURES/CDS; ORIGIN",
+      "role": "public_reference_annotation"
+    },
+    {
+      "id": "reference_gene_region.gb",
+      "file": "reference_gene_region.gb",
+      "bytes": 15331,
+      "sha256": "f22f6f94fb4f4aafa44cca169c9c3fbbca614f02357f529d805388f08e51743c",
+      "title": "Chromosome 12 reference region",
+      "url": "https://www.ncbi.nlm.nih.gov/nuccore/NC_057015.1?from=724592&to=729993",
+      "origin_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_057015.1&seq_start=724592&seq_stop=729993&rettype=gb&retmode=text",
+      "locator": "ACCESSION REGION; FEATURES/gene, mRNA and CDS with GeneID:5726104; ORIGIN",
+      "role": "public_reference_annotation"
+    },
+    {
+      "id": "assembly_report.txt",
+      "file": "assembly_report.txt",
+      "bytes": 6248,
+      "sha256": "e0df1adbb766bcba78f454990c01e43a7cba36ceeb299e3956e7a4a1e541da5d",
+      "title": "Reference assembly v5.5 report",
+      "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000002595.2/",
+      "origin_url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/595/GCF_000002595.2_Chlamydomonas_reinhardtii_v5.5/GCF_000002595.2_Chlamydomonas_reinhardtii_v5.5_assembly_report.txt",
+      "locator": "Assembly name, RefSeq assembly accession, organism, infraspecific name; chromosome 12 row",
+      "role": "public_reference_annotation"
+    },
+    {
+      "id": "uniprot_Q9S807.fasta",
+      "file": "uniprot_Q9S807.fasta",
+      "bytes": 875,
+      "sha256": "9194b898ce0b362dc96ffc84cfdcb7e162cd6fecd488028c40bd894b6fa11e54",
+      "title": "UniProt Q9S807 unreviewed sequence",
+      "url": "https://www.uniprot.org/uniprotkb/Q9S807/entry",
+      "origin_url": "https://rest.uniprot.org/uniprotkb/Q9S807.fasta",
+      "locator": "FASTA header and complete amino-acid sequence",
+      "role": "public_reference_annotation"
+    }
+  ],
+  "publication_identity": {
+    "source_id": "S_SLOCOMBE_2023",
+    "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2023.1208168/full",
+    "doi": "10.3389/fpls.2023.1208168",
+    "locator": "Materials and methods / Generation of the pCL8 construct for PSR1-OE (section s2_2)",
+    "reported_identifier": "Cre12.g495100.t1.1",
+    "reference_gene_cross_reference": "Cre12.g495100",
+    "basis": "Paper identifier shares a gene-level identifier with the RefSeq db_xref. This is an identity association, not proof that the reference transcript, strain or sequence is the paper construct.",
+    "public_fulltext_snapshot_sha256": "4850dda5aa761016a8e7850b29a06c444f534e2659af2c9df9337ace841f64b7",
+    "admitted_content": "Identifier and section locator only; no construct, protocol or private planning content copied."
+  }
+}

@@ -1,0 +1,84 @@
+# Assembly name:  Chlamydomonas_reinhardtii_v5.5
+# Organism name:  Chlamydomonas reinhardtii (green algae)
+# Infraspecific name:  strain=CC-503 cw92 mt+
+# Taxid:          3055
+# BioSample:      SAMN02953692
+# BioProject:     PRJNA12260
+# Submitter:      DOE Joint Genome Institute
+# Date:           2018-01-26
+# Assembly type:  haploid
+# Release type:   major
+# Assembly level: Chromosome
+# Genome representation: full
+# WGS project:    ABCN02
+# Assembly method: ARACHNE v. 20071016_modified
+# Genome coverage: 11.12x
+# Sequencing technology: ABI 3739
+# RefSeq category: Reference Genome
+# GenBank assembly accession: GCA_000002595.3
+# RefSeq assembly accession: GCF_000002595.2
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_000000775.3	GCF_000000775.2	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+chromosome_1	assembled-molecule	1	Chromosome	CM008962.1	=	NC_057004.1	Primary Assembly	8033585	na
+chromosome_2	assembled-molecule	2	Chromosome	CM008963.1	=	NC_057005.1	Primary Assembly	9223677	na
+chromosome_3	assembled-molecule	3	Chromosome	CM008964.1	=	NC_057006.1	Primary Assembly	9219486	na
+chromosome_4	assembled-molecule	4	Chromosome	CM008965.1	=	NC_057007.1	Primary Assembly	4091191	na
+chromosome_5	assembled-molecule	5	Chromosome	CM008966.1	=	NC_057008.1	Primary Assembly	3500558	na
+chromosome_6	assembled-molecule	6	Chromosome	CM008967.1	=	NC_057009.1	Primary Assembly	9023763	na
+chromosome_7	assembled-molecule	7	Chromosome	CM008968.1	=	NC_057010.1	Primary Assembly	6421821	na
+chromosome_8	assembled-molecule	8	Chromosome	CM008969.1	=	NC_057011.1	Primary Assembly	5033832	na
+chromosome_9	assembled-molecule	9	Chromosome	CM008970.1	=	NC_057012.1	Primary Assembly	7956127	na
+chromosome_10	assembled-molecule	10	Chromosome	CM008971.1	=	NC_057013.1	Primary Assembly	6576019	na
+chromosome_11	assembled-molecule	11	Chromosome	CM008972.1	=	NC_057014.1	Primary Assembly	3826814	na
+chromosome_12	assembled-molecule	12	Chromosome	CM008973.1	=	NC_057015.1	Primary Assembly	9730733	na
+chromosome_13	assembled-molecule	13	Chromosome	CM008974.1	=	NC_057016.1	Primary Assembly	5206065	na
+chromosome_14	assembled-molecule	14	Chromosome	CM008975.1	=	NC_057017.1	Primary Assembly	4157777	na
+chromosome_15	assembled-molecule	15	Chromosome	CM008976.1	=	NC_057018.1	Primary Assembly	1922860	na
+chromosome_16	assembled-molecule	16	Chromosome	CM008977.1	=	NC_057019.1	Primary Assembly	7783580	na
+chromosome_17	assembled-molecule	17	Chromosome	CM008978.1	=	NC_057020.1	Primary Assembly	7188315	na
+scaffold_18	unplaced-scaffold	na	na	KZ454945.1	=	NW_025061531.1	Primary Assembly	271631	na
+scaffold_19	unplaced-scaffold	na	na	KZ454946.1	=	NW_025061532.1	Primary Assembly	219038	na
+scaffold_20	unplaced-scaffold	na	na	KZ454947.1	=	NW_025061533.1	Primary Assembly	200793	na
+scaffold_21	unplaced-scaffold	na	na	KZ454948.1	=	NW_025061534.1	Primary Assembly	189560	na
+scaffold_22	unplaced-scaffold	na	na	KZ454949.1	=	NW_025061535.1	Primary Assembly	163774	na
+scaffold_23	unplaced-scaffold	na	na	KZ454950.1	=	NW_025061536.1	Primary Assembly	127913	na
+scaffold_24	unplaced-scaffold	na	na	KZ454951.1	=	NW_025061537.1	Primary Assembly	127161	na
+scaffold_25	unplaced-scaffold	na	na	KZ454952.1	=	NW_025061538.1	Primary Assembly	102191	na
+scaffold_26	unplaced-scaffold	na	na	KZ454953.1	=	NW_025061539.1	Primary Assembly	80213	na
+scaffold_27	unplaced-scaffold	na	na	KZ454954.1	=	NW_025061540.1	Primary Assembly	55320	na
+scaffold_28	unplaced-scaffold	na	na	KZ454955.1	=	NW_025061541.1	Primary Assembly	55278	na
+scaffold_29	unplaced-scaffold	na	na	KZ454956.1	=	NW_025061542.1	Primary Assembly	52813	na
+scaffold_30	unplaced-scaffold	na	na	KZ454957.1	=	NW_025061543.1	Primary Assembly	52376	na
+scaffold_31	unplaced-scaffold	na	na	KZ454958.1	=	NW_025061544.1	Primary Assembly	48183	na
+scaffold_32	unplaced-scaffold	na	na	KZ454959.1	=	NW_025061545.1	Primary Assembly	42264	na
+scaffold_33	unplaced-scaffold	na	na	KZ454960.1	=	NW_025061546.1	Primary Assembly	39192	na
+scaffold_34	unplaced-scaffold	na	na	KZ454961.1	=	NW_025061547.1	Primary Assembly	33576	na
+scaffold_35	unplaced-scaffold	na	na	KZ454962.1	=	NW_025061548.1	Primary Assembly	32450	na
+scaffold_36	unplaced-scaffold	na	na	KZ454963.1	=	NW_025061549.1	Primary Assembly	25399	na
+scaffold_37	unplaced-scaffold	na	na	KZ454964.1	=	NW_025061550.1	Primary Assembly	24537	na
+scaffold_38	unplaced-scaffold	na	na	KZ454965.1	=	NW_025061551.1	Primary Assembly	24437	na
+scaffold_39	unplaced-scaffold	na	na	KZ454966.1	=	NW_025061552.1	Primary Assembly	22408	na
+scaffold_40	unplaced-scaffold	na	na	KZ454967.1	=	NW_025061553.1	Primary Assembly	22082	na
+scaffold_41	unplaced-scaffold	na	na	KZ454968.1	=	NW_025061554.1	Primary Assembly	21325	na
+scaffold_42	unplaced-scaffold	na	na	KZ454969.1	=	NW_025061555.1	Primary Assembly	21000	na
+scaffold_43	unplaced-scaffold	na	na	KZ454970.1	=	NW_025061556.1	Primary Assembly	20974	na
+scaffold_44	unplaced-scaffold	na	na	KZ454971.1	=	NW_025061557.1	Primary Assembly	17736	na
+scaffold_45	unplaced-scaffold	na	na	KZ454972.1	=	NW_025061558.1	Primary Assembly	16939	na
+scaffold_46	unplaced-scaffold	na	na	KZ454973.1	=	NW_025061559.1	Primary Assembly	16627	na
+scaffold_47	unplaced-scaffold	na	na	KZ454974.1	=	NW_025061560.1	Primary Assembly	14746	na
+scaffold_48	unplaced-scaffold	na	na	KZ454975.1	=	NW_025061561.1	Primary Assembly	14165	na
+scaffold_49	unplaced-scaffold	na	na	KZ454976.1	=	NW_025061562.1	Primary Assembly	13462	na
+scaffold_50	unplaced-scaffold	na	na	KZ454977.1	=	NW_025061563.1	Primary Assembly	12727	na
+scaffold_51	unplaced-scaffold	na	na	KZ454978.1	=	NW_025061564.1	Primary Assembly	11225	na
+scaffold_52	unplaced-scaffold	na	na	KZ454979.1	=	NW_025061565.1	Primary Assembly	6241	na
+scaffold_53	unplaced-scaffold	na	na	KZ454980.1	=	NW_025061566.1	Primary Assembly	2479	na

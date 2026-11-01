@@ -1,0 +1,242 @@
+{
+  "schema_version": "traitweaver.research_story_fixture.v1",
+  "role": "authored_measurement_plan_and_synthetic_math_only",
+  "plan": [
+    {
+      "id": "PLAN_IDENTITY",
+      "title": "Qualify material identity",
+      "question": "Which exact strain, reference and material does the hypothesis concern?",
+      "comparison": "Intended study material against its own qualified reference; CC-503 reference annotation does not establish UVM4 equivalence.",
+      "controls": [
+        "Source-version and sequence-identity checks",
+        "Matched parent/reference identity record"
+      ],
+      "readouts": [
+        "Material ID and parent ID",
+        "Assembly and sequence-file hashes",
+        "Genotype-verification evidence ID"
+      ],
+      "independent_units": "Define biological material lots and their relationship; technical sequence checks are not independent organisms.",
+      "required_before_run": [
+        "Actual material and parent identifiers",
+        "Strain/reference qualification",
+        "Approved identity/verification SOP ID"
+      ],
+      "completion_check": "All identity links resolve, or unresolved links remain explicitly blocked.",
+      "sources": [
+        "reference_gene_region.gb",
+        "assembly_report.txt"
+      ]
+    },
+    {
+      "id": "PLAN_FLUORESCENCE",
+      "title": "Qualify the fluorescence readout",
+      "question": "What does the reporter signal measure in this proposed system?",
+      "comparison": "Researcher-qualified reporter condition against matched background and reference; no algae/GFP construct is linked here.",
+      "controls": [
+        "Instrument/media blank",
+        "Matched non-reporter background",
+        "Assay-appropriate positive reference, if qualified"
+      ],
+      "readouts": [
+        "Raw signal and background with units",
+        "Acquisition-setting and calibration IDs",
+        "Normalization basis and independent-unit ID",
+        "Separate genotype and protein identity evidence"
+      ],
+      "independent_units": "Specify independently prepared biological units; repeated instrument reads are technical observations.",
+      "required_before_run": [
+        "Reporter relevance and construct/material identity",
+        "Approved fluorescence SOP and instrument-setting IDs",
+        "Background/normalization plan and acceptance threshold"
+      ],
+      "completion_check": "A traceable assay report separates signal, background, normalization and limitations; fluorescence alone cannot confirm an edit or phosphorus recovery.",
+      "sources": [
+        "ENV_SCOPE",
+        "S_UNIPROT_P42212",
+        "S_ATLAS_GFP"
+      ]
+    },
+    {
+      "id": "PLAN_GROWTH",
+      "title": "Measure growth alongside the target",
+      "question": "Can the intended endpoint be interpreted alongside growth in the same qualified context?",
+      "comparison": "Candidate and matched study reference; published lines retain their own source controls.",
+      "controls": [
+        "Matched strain/material context",
+        "Matched measurement basis and observation window"
+      ],
+      "readouts": [
+        "Growth endpoint, unit and time basis",
+        "Independent-unit identifier",
+        "Uncertainty and exclusions",
+        "Predeclared growth margin"
+      ],
+      "independent_units": "Set a justified biological replication plan; published n=3 is not a sample-size prescription for this study.",
+      "required_before_run": [
+        "Growth definition and decision margin",
+        "Approved growth measurement SOP",
+        "Independent-unit and analysis plan"
+      ],
+      "completion_check": "Source/context and uncertainty are documented; unknown margin cannot be reported as an equivalence pass.",
+      "sources": [
+        "S_PSR1_2023",
+        "E_GROWTH_UVM4"
+      ]
+    },
+    {
+      "id": "PLAN_PHOSPHORUS",
+      "title": "Separate phosphorus compartments",
+      "question": "Where did the phosphorus move, and which chemical form was measured?",
+      "comparison": "Input inventory and disjoint measured output/storage compartments in a qualified material comparison.",
+      "controls": [
+        "Process/material accounting reference",
+        "Assay blanks and recovery/calibration checks",
+        "Researcher-qualified abiotic/process control"
+      ],
+      "readouts": [
+        "Medium concentration and volume",
+        "Retained biomass phosphorus",
+        "Separate collected-product phosphorus",
+        "Sample/outflow and other inventory terms",
+        "Chemical-species basis, uncertainty and units"
+      ],
+      "independent_units": "Independent material/process units; aliquots from one unit are not independent replication.",
+      "required_before_run": [
+        "Disjoint compartment definitions and units",
+        "Approved phosphorus assay SOPs and uncertainty plan",
+        "Sampling/outflow accounting and collection boundary"
+      ],
+      "completion_check": "Report concentration change, inventory change, recovered product and unaccounted mass separately; no assimilation or transformation claim from disappearance alone.",
+      "sources": [
+        "ENV_SCOPE",
+        "ENV_GAPS",
+        "E_OVERPLUS_REMOVAL"
+      ]
+    },
+    {
+      "id": "PLAN_REACTOR",
+      "title": "Assess a contained reactor comparison",
+      "question": "Does a qualified material comparison support a reproducible endpoint change in the intended reactor context?",
+      "comparison": "Researcher-defined candidate versus matched reference and process controls; no edited microbe or reactor batch is linked yet.",
+      "controls": [
+        "Matched reference/process units",
+        "Qualified abiotic/background comparison",
+        "Documented inlet/outlet and material boundaries"
+      ],
+      "readouts": [
+        "Reactor/run IDs and independent units",
+        "Input/output phosphorus mass and time basis",
+        "Growth/biomass and collected-product measurements",
+        "Material identity and end-of-run verification records"
+      ],
+      "independent_units": "Independent reactor runs/units; timepoints within one run do not substitute for independent runs.",
+      "required_before_run": [
+        "Qualified organism/material and contained-study authorization",
+        "Approved reactor/handling SOP IDs",
+        "Context, randomization/blocking, replication and analysis decisions",
+        "Endpoint thresholds and stop/reassessment criteria"
+      ],
+      "completion_check": "A complete run receipt binds material identity, controls, measurements and uncertainty. No deployment, inoculation recipe or improvement claim is supplied.",
+      "sources": [
+        "ENV_SCOPE",
+        "ENV_GAPS"
+      ]
+    },
+    {
+      "id": "PLAN_PLANT_USE",
+      "title": "Keep plant use as a separate question",
+      "question": "Is recovered phosphorus useful under a separately defined plant-use endpoint?",
+      "comparison": "Researcher-qualified recovered material against appropriate reference and background conditions.",
+      "controls": [
+        "Material characterization reference",
+        "Assay/background reference chosen for the plant-use endpoint"
+      ],
+      "readouts": [
+        "Recovered-material identity and phosphorus basis",
+        "Separately qualified plant-use endpoint",
+        "Independent-unit and uncertainty records"
+      ],
+      "independent_units": "Define independent units for this separate question; upstream reactor runs are not plant-use replicates.",
+      "required_before_run": [
+        "Actual recovered-product record",
+        "Plant-use question, assay SOP and acceptance criteria",
+        "Appropriate study authorization and independent-unit plan"
+      ],
+      "completion_check": "Plant-use evidence is reported separately; reactor removal or product phosphorus cannot stand in for this result.",
+      "sources": [
+        "ENV_SCOPE",
+        "ENV_GAPS"
+      ]
+    }
+  ],
+  "planned_materials": [
+    {
+      "id": "PLAN_DNA",
+      "form": "Proposed DNA/material record",
+      "parent_reference": "GeneID:5726104",
+      "actual_material_id": null,
+      "sequence_sha256": null,
+      "cassette_composition": null,
+      "edit_verification_record": null
+    },
+    {
+      "id": "PLAN_RNA",
+      "form": "Proposed transcript/readout record",
+      "parent_plan_id": "PLAN_DNA",
+      "actual_sample_id": null,
+      "source_file_sha256": null,
+      "splice_support_record": null
+    },
+    {
+      "id": "PLAN_PROTEIN",
+      "form": "Proposed protein/reporter readout",
+      "parent_plan_id": "PLAN_RNA",
+      "actual_sample_id": null,
+      "protein_identity_record": null,
+      "fluorescence_record": null
+    },
+    {
+      "id": "PLAN_REACTOR_BATCH",
+      "form": "Proposed reactor material/run",
+      "parent_plan_id": "PLAN_DNA",
+      "actual_material_id": null,
+      "actual_run_id": null,
+      "genotype_record": null,
+      "phosphorus_result_record": null
+    }
+  ],
+  "synthetic_math": {
+    "role": "clearly_synthetic_worked_example_NOT_experimental_results",
+    "fluorescence": {
+      "signal": 1200,
+      "background": 200,
+      "signal_unit": "RFU",
+      "background_unit": "RFU",
+      "normalization_mass": 0.4,
+      "normalization_unit": "g dry_weight",
+      "instrument_setting_id": null,
+      "genotype_confirmation": null,
+      "biological_replicates": null
+    },
+    "phosphorus": {
+      "basis": "elemental_P",
+      "concentration_unit": "mg P/L",
+      "volume_unit": "L",
+      "mass_unit": "mg P",
+      "initial_concentration": 10,
+      "initial_volume": 2,
+      "final_concentration": 4,
+      "final_volume": 1.8,
+      "retained_biomass_P": 8,
+      "collected_product_P": 2,
+      "sample_outflow_P": 2,
+      "other_input_P": 0,
+      "compartments_disjoint": true,
+      "uncertainty": null,
+      "plant_use_result": null,
+      "chemical_speciation_result": null,
+      "matched_control_result": null
+    }
+  }
+}

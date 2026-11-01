@@ -1,0 +1,122 @@
+RNA 2x2 MUSE COMPARISON — PREPARED, NOT AUTHORIZED
+October 31, 2026. No live request or credential access during preparation.
+
+INPUT -> PROCESS -> OUTPUT
+One explicitly synthetic RNA planning problem, two evidence states crossed with
+two candidate orders -> exact independent Muse requests, structural validation,
+reviewed local scoring and separate source-binding audit -> four scored records,
+usage receipts, comparison JSON/readable page and unfilled human-scoring sheets.
+Real provider responses, synthetic inputs, offline fakes and prior real runs must
+stay distinct. No original four-case or evaluation v1 contract/fixture is changed.
+
+CRITERIA REVIEW AND DESIGN
+The v1 rubric conflates some defensible uncertainty labels and citation choices
+with errors, and its first-action preference is authored rather than scientific
+truth. The old input also exposes phase IDs/readiness labels that can hint at
+preferred ordering. A separate pinned pilot protocol preserves v1 records while
+making these qualifications explicit; it never silently recodes a response.
+
+Hard factual comparison: BEFORE has duplicate SYN-B labels and conflicting
+layouts; AFTER has three distinct labels and paired layouts. The unique-label
+judgment should change from contradicted to supported, citing RNA_SAMPLES.
+This establishes nothing about independent units, replication or analysis-ready
+status. Contrast/unit/batch/reference/QC remain incomplete. No reads are supplied.
+Zero supplied files is not a measured read count of zero or a nonzero count.
+
+For missing-read-count and success claims, unknown OR contradicted both withhold
+unsupported conclusions in this pilot; the exact verdict/rationale stays saved.
+Source entailment remains human-reviewed. Known action citations may supplement
+required references; exact-equality v1 scores are only secondary. An alternative
+first action such as a gap ledger can be reasonable: do not equate a different
+priority with an incorrect scientific answer. Human relevance, feasibility,
+priority, completion and entailment scores all start null.
+
+Four cells, fixed counterbalanced dispatch:
+1. RNA_BEFORE_O0: conflicting metadata, original candidate order.
+2. RNA_AFTER_O1: reconciled metadata, reversed order.
+3. RNA_BEFORE_O1: conflicting metadata, reversed order.
+4. RNA_AFTER_O0: reconciled metadata, original order.
+No conversation/history sharing. One response per cell, no repeated-run test.
+The evidence treatment changes both labels and layout; neither component's
+individual contribution is identified. No causal/statistical or cross-area claim.
+
+Wire projection uses neutral id RNA_REVIEW and omits candidate readiness labels.
+Expected judgments, phase names, preferred first actions, rubric, human scores/
+notes, prior responses, local paths and credentials are absent. Shared instructions
+correct the old statement that readiness is supplied. Cross-evidence bodies vary
+only RNA_SAMPLES; cross-order bodies vary only candidate presentation order.
+
+The outer pilot record binds exact wire bytes and the original raw-response SHA.
+The unchanged nested evaluation record uses its original reference-request SHA,
+which includes the original phase/readiness representation. Both hashes and the
+projection are explicit; neither is claimed to identify the other's bytes.
+
+PROVIDER / BUDGET — REQUIRES NEW EXACT APPROVAL
+POST https://api.meta.ai/v1/responses, muse-spark-1.3 Standard, store:false.
+At most 4 independent requests, 8192 output tokens each including reasoning,
+120 seconds each, additional USD 0.20 application ceiling. No retries/resume,
+fallback, provider tools, search, background continuation or API polling.
+Public pricing verified October 31: https://dev.meta.ai/docs/pricing-rate-limits
+Uncached input USD 1.25/M, output 4.25/M; cached 0.15/M not assumed. Actual packet
+bytes, planning estimate and conservative reservation appear in PUBLIC_BATCH.json.
+Reservation uses each full UTF-8 body byte+1024 as an input allowance plus the
+full output cap; no token-count, balance or billing API queried. This is a local
+sending/reservation guard, not a provider/account-wide invoice cap or guarantee
+that an in-flight request can be uncharged. Past unused approval is not reused.
+
+FROM CHECKOUT — PREPARE ONLY
+  python3 -B tools/muse_evaluation_pilot.py prepare --app . --output /path/to/fresh-external-packet
+The output parent must exist; no archive/private folder is loaded. The packet
+copies exact code/bodies/criteria, an unsigned template, approval HTML/Markdown,
+price/source/code/location pins, 24-hour expiry and zero-call monitor. It creates
+no owner grant, attempt marker or sending authorization. Never run the old
+four-case starter for this pilot. Legacy real and failed packets stay unchanged.
+
+ONLY AFTER exact chat approval may OWNER_APPROVAL.json be created with the
+fields from UNSIGNED_APPROVAL.json, approved:true. Then START_REVIEWED_BATCH.py
+requires a real terminal, even with a preset key, before key access or markers.
+A hidden key prompt has no plaintext fallback; no .env/key-store reading.
+Both runner and lowest send entry recheck exact grant, body, source/code/price,
+location, expiry, reservation and stop flags. Per-batch/per-slot exclusive markers
+prevent duplicate/concurrent sends. No authorization or real grant is made in
+offline tests; temporary synthetic test grants cannot authorize the real packet.
+
+MONITOR / STOP — LOCAL FILES ONLY
+  python3 -B muse_evaluation_pilot.py monitor --packet .
+One snapshot: status --packet .; stop: stop --packet .
+STATUS.json updates atomically, EVENTS.jsonl appends safe states, MONITOR.html
+shows heartbeat (~1 second), slots, elapsed time, observed/accepted/completed
+counts, reported input/output/reasoning usage, estimates and unsettled reserves.
+A separate-terminal observer reads local files every two seconds, never Meta.
+Closing only the observer does not stop the run. Ctrl-C in the run terminal or
+a local stop marker prevents later sends; cannot revoke an already submitted
+request. A stale heartbeat means possible interruption, never safe resumption.
+
+Incomplete/rejected HTTP responses still count and reported numeric usage is
+accounted before acceptance. Missing/partial/invalid usage stays unknown with
+reservation retained. Zero is distinct; reasoning is not charged twice. Safe
+HTTP/allowlisted error enums are saved, never raw body/error prose/headers/cookies.
+No raw provider IDs/reasoning/responses, key or machine path enters result exports.
+LOCAL_CONTROL.json and local run instructions contain paths and stay excluded.
+
+QUALITY IS NOT API SUCCESS
+Well-formed wrong labels/priority choices remain scored observations and do not
+abort comparison. Refusal, incomplete output, unknown citations/actions, changed
+structure, model mismatch, malformed/invalid usage, stop/deadline or save failure
+stops remaining calls without retry. Prior accepted/scored exports remain.
+No response can execute a proposed action. The only separate audit revalidates
+source/protocol/wire bindings, with its decision saved before execution.
+
+After four scored replies, COMPARISON.json/RESULTS.html compare evidence judgments,
+first IDs, selected sets and rank order. Each slot exports pilot-result.json,
+pilot-brief.txt, evaluation.json, REPORT.html, human-review.json and local audit/
+transport receipts. "Completed/scored" is not a quality pass. Reopen validates
+bindings and scores read-only; no new model or proposed-action execution.
+
+OFFLINE QUALIFICATION
+Use tests/test_muse_evaluation_pilot.py and the complete offline suite. Synthetic
+fakes, including incomplete and wrong-answer cases, never read a real key or use
+a socket. Terminal/expiry/location/code/body/criteria/grant guards, duplicates,
+accounting, no-proxy/no-redirect POST, stop/deadline/heartbeat, error privacy and
+partial exports are checked independently from future live usefulness. No live
+compatibility, repeated reliability or actual billing claim follows from tests.
