@@ -1,3 +1,60 @@
+CURRENT PROVENANCE INTERPRETATION — NOVEMBER 1, 2026
+
+Remote main was verified at 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. The
+scaffold/source_head/cached_origin_main fields and extension publication flags
+in SOURCE_PROVENANCE.json are historical selection/preparation records, not
+current remote status. current_repository_observation records the dated check.
+The current documentation is an unpushed review patch against that public commit.
+
+CONTRIBUTIONS.md separates verified Git commit metadata from document-reported build
+dates and unknown prior reuse. META_CONTRIBUTION.md explains the documentary real
+algae cycle without copying or changing historical provider/approval records.
+No scientific inputs, app code, tests, styles or media changed in this cleanup.
+
+Four mapping rows had unequal source/candidate hashes but a "Byte-identical"
+label: THIRD_PARTY_NOTICES.md, protein_card.py, test_protein_card.py and
+web/workspace.css. Their prior labels are preserved as history and their current
+transformations identify modified descendants. Original source hashes remain
+untouched and unverified against unavailable authoring sources; no source hash
+was fabricated. Candidate hashes identify actual present bytes, not original
+creation dates. New documents have an explicitly absent external source hash.
+
+The prior text below is historical and retained unchanged. Statements about no
+GitHub refresh/publication or pending rights describe the recorded preparation,
+not a fresh assessment of current visibility or retroactive owner approval.
+
+RECONCILED CURRENT SCOPE
+The exact candidate has 167 admitted files. Only the 13 documentation, license
+and inventory paths in this review differ from the public base. No application
+code, tests, source evidence, fonts, branding, styles or media are changed.
+The local five-scene navigation and current-versus-historical verification
+qualifications are retained. No private authoring workspace is imported.
+
+The three local showcase mappings (guide, read-only adapter and its five tests)
+are retained alongside the four new ZIP license/document mappings. Historical
+source hashes remain unchanged. Candidate hashes describe current bytes.
+HANDOFF_MANIFEST.json and SOURCE_PROVENANCE.json are excluded from provenance
+self-mapping; the manifest hashes SOURCE_PROVENANCE.json, and external review
+records hash the manifest. No recursive hash claim is made.
+
+The original algae cycle remains a documentary record. The owner confirmed
+retaining the owner-reported completed later four-case batch; its private packets
+are excluded and not independently authenticated. The existing showcase guide
+records changed RNA factual judgments but unchanged first action. No completion-
+receipt pilot result or broad adaptive-planning success is established here.
+
+MIT is approved for original code/documentation only; Yuvraj Patel is the sole
+human contributor. Data, fonts, branding, archive-derived CSS and separately
+identified third-party material retain their separate terms and unresolved
+rights questions. Earlier baseline design-distribution confirmation is retained
+without extending it to new components.
+
+The owner-supplied participant guide requires a three-minute demo video and a
+public repository. Exact submission-form fields and hosted deployment remain
+unverified. Indie/pre-existing-code eligibility remains unresolved.
+
+HISTORICAL SOURCE-SELECTION NOTES
+
 EXACT SCOPE AND SOURCE SELECTION
 
 This candidate contains the agreed single-study guided MVP plus the bounded

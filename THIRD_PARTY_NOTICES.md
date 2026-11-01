@@ -1,8 +1,12 @@
 # Component attribution and distribution review
 
 Guided-workspace application logic: Codex, October 29, 2026. No blanket software
-license has been selected by the owner. Public availability alone would not
-grant a software reuse license.
+license covered all components in the historical base snapshot. On November 1,
+2026 the owner selected MIT for original application code and associated original
+documentation; see LICENSE and README.md (License and component scope). Fonts,
+datasets/source records, branding and third-party design stylesheets are excluded
+from that grant and retain their own terms. Current component-rights confirmations
+remain scoped and pending as described in docs/COMPONENT_RIGHTS.md.
 
 Public algae facts/summary data: Slocombe et al. (2023), DOI
 10.3389/fpls.2023.1208168; Zuniga-Burgos et al. (2024), DOI

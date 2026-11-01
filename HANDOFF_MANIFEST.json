@@ -1,12 +1,12 @@
 {
   "schema_version": "traitweaver.final_repository_handoff.v1",
-  "status": "local_cinematic_showcase_candidate_pending_owner_review",
-  "prepared_date": "2026-10-31",
-  "refresh": "Development publication preparation: cinematic journey and bloom, read-only pilots, current README counts and exact-file screening notes. Owner publication decision pending.",
+  "status": "documentation_cleanup_candidate_pending_owner_review",
+  "prepared_date": "2026-11-01",
+  "refresh": "Local reconciliation of the supplied ZIP documentation/MIT patch and six selected public-checkout metadata edits against 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. No application/data/test/asset/media changes; guide requirements corrected; owner review, component rights and Indie reuse eligibility remain open.",
   "publication_approved": false,
   "claude_review_performed": false,
-  "review_status": "Local software/browser verification; independent scientific and publication review pending",
-  "scope": "Local public/synthetic fixed-case research workbench and scientific showcase; no live provider contribution, laboratory execution or organism design",
+  "review_status": "Documentation cleanup and owner-selected original-code MIT; sole human contributor confirmed. Final patch review, reuse/track confirmation, remaining component rights, video and entry decisions pending.",
+  "scope": "Public/synthetic research-workspace code plus documentation. Documentary real Meta contribution is described; real packets, media and new provider execution are excluded.",
   "files": [
     {
       "path": ".gitignore",
@@ -19,24 +19,29 @@
       "sha256": "4bde2a9f944db63a0d788b861b45bc83199f6e072bd260183a89bc278554ea23"
     },
     {
+      "path": "LICENSE",
+      "bytes": 1069,
+      "sha256": "e3b5a2dcffb675dd251d15acf51f93623eb14ce16dc32990e078b80674c3729e"
+    },
+    {
       "path": "PUBLIC_FILES.txt",
-      "bytes": 5349,
-      "sha256": "ff6baaacf0c736154bf3dcfd020c3c2c0d9ab1ccfb5f92aa1838e469a8284f1b"
+      "bytes": 5430,
+      "sha256": "8208fdd10d3d6e1d77b825f94a60bdd541fa176005c2f8ee344e0ecbc7451761"
     },
     {
       "path": "README.md",
-      "bytes": 13107,
-      "sha256": "f08157896b1176a2cd121807eb2642a37e80297c2b73c00a4e5895dbcd5df3c6"
+      "bytes": 16757,
+      "sha256": "93dc8259589c48086da1dab4bdd6e8e1cd05630b2f6d8268f49f23678afbedce"
     },
     {
       "path": "SOURCE_PROVENANCE.json",
-      "bytes": 102674,
-      "sha256": "34c9ebbcd5adcdc703f137ad0b0e2f223b448b2f18356b90c58c27be7f22f8f6"
+      "bytes": 117957,
+      "sha256": "190022f71c07846cc9fa26a6af1c6366efc78def5b16234053ba8d1527143c8c"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 2274,
-      "sha256": "062f7677328046393e49bea24e97ef61a0f3fbeaa0711fb200b2c32b642f2716"
+      "bytes": 2639,
+      "sha256": "9574e8a47e852f7e166c085a308d00589400a646644427a9f34b30a3eedf35e7"
     },
     {
       "path": "data/algae-public.v1.json",
@@ -219,6 +224,16 @@
       "sha256": "6980e5cab2a6fe575b671a0ef56fdfc1166a28c6abcc44f74932c4ab1bd981ab"
     },
     {
+      "path": "docs/COMPONENT_RIGHTS.md",
+      "bytes": 8570,
+      "sha256": "a885d0778b01a8c9bc5e291d2e0d70c0b9dff92adc3cb1a959d8e53ed83436a7"
+    },
+    {
+      "path": "docs/CONTRIBUTIONS.md",
+      "bytes": 6794,
+      "sha256": "5b99638e978a1149a8248d237735a839730f17a39b6a0ce027564b14fb6ca994"
+    },
+    {
       "path": "docs/DATA_FLOW.txt",
       "bytes": 2936,
       "sha256": "318222273dd780dcf5aa7bb912581cef4cf8f64fed78a0e087babe6cbb1d6635"
@@ -244,6 +259,11 @@
       "sha256": "e202b4f19a454d2d6f2cae1f054cb34f60cacf173a022a66454e8b4795f9c741"
     },
     {
+      "path": "docs/META_CONTRIBUTION.md",
+      "bytes": 3713,
+      "sha256": "026fe00a34d50c4325f351f1173d329bf228e286e2c8aa4dcf31b3cf64cc99de"
+    },
+    {
       "path": "docs/MOLECULAR_WORKSPACE.txt",
       "bytes": 6848,
       "sha256": "18414e7f32aab8a32fb31e529796f7ce5e7ebf6583742ed176f69f14ba351ccc"
@@ -265,8 +285,8 @@
     },
     {
       "path": "docs/RELEASE_BLOCKERS.txt",
-      "bytes": 4971,
-      "sha256": "a6889fb8a1553bc1a45262b04df9d03367696a1ac5ae5cac249d0e39d8b794b5"
+      "bytes": 9213,
+      "sha256": "015dea9eef5bba310a885e00b4ce556bccf5e9384c0418927067df8b2fd56cfe"
     },
     {
       "path": "docs/RESEARCH_EXPERIENCE.txt",
@@ -280,8 +300,8 @@
     },
     {
       "path": "docs/REVIEW_STATUS.txt",
-      "bytes": 677,
-      "sha256": "2f1937e644589f93f1d7c1185cb0fb455c125236ca83941b6e5348bf920add9a"
+      "bytes": 2352,
+      "sha256": "776697c722603f64b1d22211822759e00465f0bceca38a6442d613743bce3195"
     },
     {
       "path": "docs/SCIENTIFIC_STORY.txt",
@@ -290,13 +310,13 @@
     },
     {
       "path": "docs/SCOPE_AND_PROVENANCE.txt",
-      "bytes": 11550,
-      "sha256": "3ce789f49ac01b9abf894ab1aac725d548254f40c6f9179d57bcc70608339bcc"
+      "bytes": 14963,
+      "sha256": "effe00fe714344932b44247d56706c1614450940c33714ac364195b6985637c2"
     },
     {
       "path": "docs/SCREENING_SUMMARY.txt",
-      "bytes": 5588,
-      "sha256": "acf96b16be1b55190f99e2a22ae664e7158064bb4d0e9db20729a427201b67be"
+      "bytes": 11452,
+      "sha256": "4728fdb402c8ff5bf21d2d9d6bb0c3299f29118069ebceb7a541f86d1ecda37d"
     },
     {
       "path": "docs/VALIDATION.txt",
@@ -820,57 +840,13 @@
     }
   ],
   "manifest_self_hash_policy": "Excluded from its own hash list; manifest hash recorded in external local verification",
-  "tests": {
-    "offline_unit_tests": 302,
-    "published_baseline_unit_tests": 110,
-    "new_model_journal_tests": 17,
-    "new_memory_handler_tests": 9,
-    "new_verifier_tests": 5,
-    "completed_cycle_controller_scenarios": 14,
-    "molecular_controller_scenarios": 22,
-    "cross_checked_coordinate_cases": 17,
-    "rendered_molecular_browser_checks": "Blocked by file-protocol policy; owner rehearsal pending",
-    "http_integration_suites_rerun": true,
-    "python_unit_tests": 302,
-    "public_algae_unit_tests": 19,
-    "public_algae_controller_scenarios": 25,
-    "rendered_public_algae_browser_checks": "Pending; controller and in-memory handler tests only",
-    "intelligence_unit_tests": 35,
-    "intelligence_controller_scenarios": 26,
-    "data_flow_unit_tests": 7,
-    "data_flow_controller_scenarios": 26,
-    "rendered_data_flow_browser_checks": "1440x1000 desktop and 390x844 narrow: stage navigation, history, refresh and export enablement; no page overflow; native dialogs not rerun",
-    "native_intelligence_json_browser": "Passed r18 native download and file-picker import; 18 history entries and five cycles preserved read-only after refresh; original 19 disk JSON records unchanged. Long automation stalls; manual timed demo unqualified.",
-    "new_workbench_unit_tests": 19,
-    "previous_python_unit_tests": 249,
-    "assistant_controller_scenarios": 28,
-    "scientific_story_unit_tests": 15,
-    "scientific_story_controller_scenarios": 25,
-    "workbench_controller_scenarios": 43,
-    "total_controller_scenarios": 209,
-    "http_workspace_checks": 28,
-    "http_completed_cycle_checks": 21,
-    "rendered_workbench_browser_checks": "1440px three columns and 390px stacked without page overflow; annotations editable over saved-cycle review; explicit local audit and labelled synthetic priorities; export privacy gate; native JSON download/read-only file-picker reopen; privacy canary blocks both buttons. Native transfer monitoring approximately 59/150 seconds; manual timed transfer rehearsal pending.",
-    "additional_offline_workflow_journeys": 24,
-    "workflow_case_count": 4,
-    "human_native_checks": "Desktop/narrow, four actual local case checks, original saved-real algae projection, other cases still pending, public request preview and original study-plan cards. Occasional long automation waits; smooth manual demo timing unqualified. No native download/picker repeat for this UI refresh.",
-    "four_case_runner_tests": 34,
-    "previous_python_unit_tests_before_runner": 268,
-    "four_case_fake_transport_rehearsal": "4 accepted synthetic proposal packages with actual local audit receipts; no real grant retained",
-    "new_live_provider_requests": 0
-  },
-  "history_screen": {
-    "base_publication_commit": "cd3b1a99ef8a4ddc34f18bf299c7cd2ed778e4f7",
-    "local_reachable_commits": 2,
-    "basis": "Previously screened published history; no history changes in this extension",
-    "remote_contacted_for_extension": false
-  },
   "blockers": [
-    "Owner review of this unpublished extension and exact outgoing files",
-    "Manual timed rehearsal: native download/file-picker automation is slow despite correct files and successful read-only reopen",
-    "Strain-specific sequence/transcript support, actual material/run records and experimental qualification before biological intervention claims",
-    "Software license decision",
-    "Independent final review and event-rule review"
+    "Owner review of exact staged documentation/license/inventory changes before commit and owner push",
+    "Finish required three-minute demo video and verify accessible URL; public repository required by supplied guide",
+    "Original creation/reuse dates, chosen track and Indie/pre-existing-code eligibility remain unresolved",
+    "Exact submission-form fields and any hosted-deployment requirement remain unverified",
+    "Current component-rights questions remain; MIT for original code/documentation and sole human contributor already confirmed",
+    "Manual timed/native-browser rehearsal, human usefulness and independent scientific review remain pending"
   ],
   "exclusions": [
     "Git metadata",
@@ -882,8 +858,208 @@
     "Caches/installs/generated browser artifacts"
   ],
   "base_publication_commit": "cd3b1a99ef8a4ddc34f18bf299c7cd2ed778e4f7",
-  "qualified_source_screen_locations": 23,
-  "qualified_export_files_screened": 28,
-  "export_screen_findings": 0,
-  "screen_limit": "Seventeen retained guard/synthetic-test locations in a fresh broad scan; no actual credential value found. Pattern matching does not replace owner privacy/rights review."
+  "historical_preparation_status": {
+    "status": "local_cinematic_showcase_candidate_pending_owner_review",
+    "prepared_date": "2026-10-31",
+    "refresh": "Development publication preparation: cinematic journey and bloom, read-only pilots, current README counts and exact-file screening notes. Owner publication decision pending.",
+    "publication_approved": false,
+    "review_status": "Local software/browser verification; independent scientific and publication review pending",
+    "scope": "Local public/synthetic fixed-case research workbench and scientific showcase; no live provider contribution, laboratory execution or organism design"
+  },
+  "base_public_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
+  "historical_validation_and_screening": {
+    "tests": {
+      "offline_unit_tests": 302,
+      "published_baseline_unit_tests": 110,
+      "new_model_journal_tests": 17,
+      "new_memory_handler_tests": 9,
+      "new_verifier_tests": 5,
+      "completed_cycle_controller_scenarios": 14,
+      "molecular_controller_scenarios": 22,
+      "cross_checked_coordinate_cases": 17,
+      "rendered_molecular_browser_checks": "Blocked by file-protocol policy; owner rehearsal pending",
+      "http_integration_suites_rerun": true,
+      "python_unit_tests": 302,
+      "public_algae_unit_tests": 19,
+      "public_algae_controller_scenarios": 25,
+      "rendered_public_algae_browser_checks": "Pending; controller and in-memory handler tests only",
+      "intelligence_unit_tests": 35,
+      "intelligence_controller_scenarios": 26,
+      "data_flow_unit_tests": 7,
+      "data_flow_controller_scenarios": 26,
+      "rendered_data_flow_browser_checks": "1440x1000 desktop and 390x844 narrow: stage navigation, history, refresh and export enablement; no page overflow; native dialogs not rerun",
+      "native_intelligence_json_browser": "Passed r18 native download and file-picker import; 18 history entries and five cycles preserved read-only after refresh; original 19 disk JSON records unchanged. Long automation stalls; manual timed demo unqualified.",
+      "new_workbench_unit_tests": 19,
+      "previous_python_unit_tests": 249,
+      "assistant_controller_scenarios": 28,
+      "scientific_story_unit_tests": 15,
+      "scientific_story_controller_scenarios": 25,
+      "workbench_controller_scenarios": 43,
+      "total_controller_scenarios": 209,
+      "http_workspace_checks": 28,
+      "http_completed_cycle_checks": 21,
+      "rendered_workbench_browser_checks": "1440px three columns and 390px stacked without page overflow; annotations editable over saved-cycle review; explicit local audit and labelled synthetic priorities; export privacy gate; native JSON download/read-only file-picker reopen; privacy canary blocks both buttons. Native transfer monitoring approximately 59/150 seconds; manual timed transfer rehearsal pending.",
+      "additional_offline_workflow_journeys": 24,
+      "workflow_case_count": 4,
+      "human_native_checks": "Desktop/narrow, four actual local case checks, original saved-real algae projection, other cases still pending, public request preview and original study-plan cards. Occasional long automation waits; smooth manual demo timing unqualified. No native download/picker repeat for this UI refresh.",
+      "four_case_runner_tests": 34,
+      "previous_python_unit_tests_before_runner": 268,
+      "four_case_fake_transport_rehearsal": "4 accepted synthetic proposal packages with actual local audit receipts; no real grant retained",
+      "new_live_provider_requests": 0
+    },
+    "history_screen": {
+      "base_publication_commit": "cd3b1a99ef8a4ddc34f18bf299c7cd2ed778e4f7",
+      "local_reachable_commits": 2,
+      "basis": "Previously screened published history; no history changes in this extension",
+      "remote_contacted_for_extension": false
+    },
+    "qualified_source_screen_locations": 23,
+    "qualified_export_files_screened": 28,
+    "export_screen_findings": 0,
+    "screen_limit": "Seventeen retained guard/synthetic-test locations in a fresh broad scan; no actual credential value found. Pattern matching does not replace owner privacy/rights review."
+  },
+  "historical_validation_scope": "Retained verbatim from the base manifest. Counters, test counts and remote-refresh flags refer to earlier development snapshots, not this documentation patch. See current_validation for fresh checks.",
+  "historical_zip_preparer_validation": {
+    "status": "passed_offline_checks",
+    "checked_date_utc": "2026-11-01",
+    "base_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
+    "python_unit_tests": 395,
+    "python_unit_exit_code": 0,
+    "controller_scenarios": 251,
+    "controller_suites": 9,
+    "controller_exit_codes": "All zero",
+    "loopback_workspace_checks": 28,
+    "loopback_completed_cycle_checks": 21,
+    "loopback_exit_codes": "Both zero",
+    "exact_candidate_files": 167,
+    "code_data_tests_media_changed": false,
+    "source_hashes_preserved": true,
+    "candidate_mapping_hashes_match": true,
+    "diff_whitespace_check": "passed",
+    "independent_documentation_review": "Reviewed current patch; identified timestamp/historical-counter issues corrected; no remaining concrete defect reported. Not an eligibility, rights or scientific certification.",
+    "rendered_browser": "Not reverified during this cleanup. Memory controllers and loopback checks are distinct from native rendering/dialog tests.",
+    "provider_calls_performed": 0,
+    "software_license_selected": "MIT, original-code scope only, explicit owner approval November 1, 2026",
+    "final_documentation_addendum": "Rights inventory and owner-selected original-code MIT added after full 395 Python / 251 controller / 49 HTTP pass. Application, tests and data unchanged. Final inventory verifier and five verifier tests rerun; full suites not rerun for documentation/license-only addendum."
+  },
+  "historical_local_metadata_refresh": {
+    "status": "local_metadata_refresh_pending_owner_review",
+    "prepared_date": "2026-10-31",
+    "refresh": "October 31: six-file metadata closeout; three showcase provenance mappings, current five-scene README, current vs historical test/Git/provider records, refreshed exact hashes. No code, fixture, test or asset change.",
+    "publication_approved": false,
+    "claude_review_performed": false,
+    "tests": {
+      "date": "2026-10-31",
+      "offline_unit_tests": 395,
+      "python_unit_tests": 395,
+      "python_sockets": "All socket audit events rejected; minimal environment without real credentials; fake transports only.",
+      "controller_suites": 9,
+      "completed_cycle_controller_scenarios": 14,
+      "molecular_controller_scenarios": 22,
+      "public_algae_controller_scenarios": 25,
+      "intelligence_controller_scenarios": 26,
+      "data_flow_controller_scenarios": 26,
+      "assistant_controller_scenarios": 28,
+      "scientific_story_controller_scenarios": 25,
+      "workbench_controller_scenarios": 43,
+      "journey_controller_scenarios": 42,
+      "total_controller_scenarios": 251,
+      "additional_offline_workflow_journeys": 24,
+      "workflow_case_count": 4,
+      "evaluation_synthetic_responses": 108,
+      "human_usefulness": "not_reviewed",
+      "http_integration_suites_rerun": false,
+      "rendered_browser_checks_rerun": false,
+      "native_download_checks_rerun": false,
+      "fresh_checks_scope": "Isolated exact repository copy; unit/controller/export tests only. Full logs and exit status remain external. Earlier browser and 49 loopback checks are historical.",
+      "new_live_provider_requests": 0,
+      "new_spend_usd": 0
+    },
+    "history_screen": {
+      "observed_head": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
+      "base_publication_commit": "cd3b1a99ef8a4ddc34f18bf299c7cd2ed778e4f7",
+      "local_reachable_commits": 3,
+      "unique_blobs": 195,
+      "basis": "Preceding exact local review plus unchanged Git history in this metadata refresh. Only generic detector/test/exclusion findings qualified; existing email attribution is GitHub noreply, values withheld.",
+      "remote_contacted_for_extension": false,
+      "unreachable_objects_screened": false,
+      "current_github_state": "unverified"
+    },
+    "privacy_screen": {
+      "candidate_files": 163,
+      "prior_review_context_classified_source_findings": 63,
+      "current_candidate_and_changed_metadata_rescreened": true,
+      "generated_export_files_screened": 64,
+      "generated_export_findings": 0,
+      "real_packets_included": false,
+      "fixtures_and_interface_assets_unchanged": true,
+      "gitignore_respected": true,
+      "matched_values_printed": false,
+      "findings_detail": "External local metadata-closeout packet; pattern/negative-test canaries remain disclosed, not silently scrubbed."
+    },
+    "screen_limit": "No unresolved actual private-content finding after contextual classification. Pattern matching is not an absence proof, provider authentication, scientific validation or rights clearance. Current and historical checks are separate.",
+    "historical_verification": {
+      "basis": "Preserved pre-refresh fields from local commit 0987c1b. Counts/browser claims describe earlier stages; not rerun by this metadata review.",
+      "tests": {
+        "offline_unit_tests": 302,
+        "published_baseline_unit_tests": 110,
+        "new_model_journal_tests": 17,
+        "new_memory_handler_tests": 9,
+        "new_verifier_tests": 5,
+        "completed_cycle_controller_scenarios": 14,
+        "molecular_controller_scenarios": 22,
+        "cross_checked_coordinate_cases": 17,
+        "rendered_molecular_browser_checks": "Blocked by file-protocol policy; owner rehearsal pending",
+        "http_integration_suites_rerun": true,
+        "python_unit_tests": 302,
+        "public_algae_unit_tests": 19,
+        "public_algae_controller_scenarios": 25,
+        "rendered_public_algae_browser_checks": "Pending; controller and in-memory handler tests only",
+        "intelligence_unit_tests": 35,
+        "intelligence_controller_scenarios": 26,
+        "data_flow_unit_tests": 7,
+        "data_flow_controller_scenarios": 26,
+        "rendered_data_flow_browser_checks": "1440x1000 desktop and 390x844 narrow: stage navigation, history, refresh and export enablement; no page overflow; native dialogs not rerun",
+        "native_intelligence_json_browser": "Passed r18 native download and file-picker import; 18 history entries and five cycles preserved read-only after refresh; original 19 disk JSON records unchanged. Long automation stalls; manual timed demo unqualified.",
+        "new_workbench_unit_tests": 19,
+        "previous_python_unit_tests": 249,
+        "assistant_controller_scenarios": 28,
+        "scientific_story_unit_tests": 15,
+        "scientific_story_controller_scenarios": 25,
+        "workbench_controller_scenarios": 43,
+        "total_controller_scenarios": 209,
+        "http_workspace_checks": 28,
+        "http_completed_cycle_checks": 21,
+        "rendered_workbench_browser_checks": "1440px three columns and 390px stacked without page overflow; annotations editable over saved-cycle review; explicit local audit and labelled synthetic priorities; export privacy gate; native JSON download/read-only file-picker reopen; privacy canary blocks both buttons. Native transfer monitoring approximately 59/150 seconds; manual timed transfer rehearsal pending.",
+        "additional_offline_workflow_journeys": 24,
+        "workflow_case_count": 4,
+        "human_native_checks": "Desktop/narrow, four actual local case checks, original saved-real algae projection, other cases still pending, public request preview and original study-plan cards. Occasional long automation waits; smooth manual demo timing unqualified. No native download/picker repeat for this UI refresh.",
+        "four_case_runner_tests": 34,
+        "previous_python_unit_tests_before_runner": 268,
+        "four_case_fake_transport_rehearsal": "4 accepted synthetic proposal packages with actual local audit receipts; no real grant retained",
+        "new_live_provider_requests": 0
+      },
+      "history_screen": {
+        "base_publication_commit": "cd3b1a99ef8a4ddc34f18bf299c7cd2ed778e4f7",
+        "local_reachable_commits": 2,
+        "basis": "Previously screened published history; no history changes in this extension",
+        "remote_contacted_for_extension": false
+      },
+      "qualified_source_screen_locations": 23,
+      "qualified_export_files_screened": 28,
+      "export_screen_findings": 0,
+      "screen_limit": "Seventeen retained guard/synthetic-test locations in a fresh broad scan; no actual credential value found. Pattern matching does not replace owner privacy/rights review."
+    }
+  },
+  "current_validation": {
+    "status": "local_results_recorded_in_external_exact_stage_review",
+    "base_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
+    "exact_candidate_files": 167,
+    "code_data_tests_media_changed": false,
+    "provider_calls_performed": 0,
+    "software_license_selected": "MIT for original code/documentation only; separate component terms retained.",
+    "independent_review": "Not performed by this local reconciliation; implementer checks do not establish independent review.",
+    "rendered_browser": "Not run by this documentation reconciliation; controller/HTTP checks do not establish native rendering or transfer timing.",
+    "results_policy": "Fresh pass/fail/unrun outcomes and exact export hashes are recorded outside the repository. This field is not a self-asserted test pass; historical ZIP/local results remain separate."
+  }
 }

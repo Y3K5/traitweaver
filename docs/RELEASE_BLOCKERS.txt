@@ -1,3 +1,68 @@
+CURRENT SUBMISSION / DOCUMENTATION DECISIONS — NOVEMBER 1, 2026
+
+The repository is already public at 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e.
+The older no-publication/no-push statements below are historical preparation
+records. They do not establish current visibility or retrospectively revoke or
+grant an owner's approval. This documentation patch has not been pushed.
+
+Before calling the entry ready:
+1. List owner-confirmed sole human contributor Yuvraj Patel and confirm the
+   representative and track. Review the restored CONTRIBUTIONS.md and fill original-creation/reuse uncertainties from
+   actual records, not commit dates. Obtain organizer clarification if Indie reuse
+   applies; the supplied guide expressly discusses startup reuse.
+2. The supplied participant guide explicitly requires a three-minute demo
+   video and a public repository. Finish the video and verify its accessible URL;
+   show clearly identified event contributions. Video editing is ongoing. Exact
+   submission-form fields and any hosted-deployment requirement remain unverified.
+   Keep synthetic replay, illustration and saved real model work distinguishable.
+3. Review META_CONTRIBUTION.md against the existing saved real cycle. No raw packet,
+   credential publication or new paid call is authorized or needed for this review.
+4. MIT for original code was selected by the owner on November 1; LICENSE and
+   COMPONENT_RIGHTS.md record the exclusions. Confirm remaining component rights.
+   Preserve all existing notices; the license choice does not supply missing rights.
+   The October 30 commit message records owner-confirmed design
+   rights for that exact earlier snapshot; confirm scope for current components.
+5. Rehearse the final demonstration and review its claims. Offline tests do not
+   qualify human usefulness, scientific outcomes, native transfer timing or the
+   authenticity of provider billing. No claim of clinical/biological success.
+6. Owner reviews the exact final submission, all required people/URLs and governing
+   terms. The supplied participant guide gives November 4, 2026, 9 p.m. EST. Verify
+   any later official updates; this review does not accept terms or submit an entry.
+
+RETAINED LOCAL RUN / SCIENCE QUALIFICATIONS
+Owner confirmed retention of the qualified later-batch completion report.
+Private packets were not reopened or independently authenticated.
+
+The original algae cycle is documented separately from the synthetic replay.
+The first later four-case batch stopped at an incomplete output-token response;
+no case was accepted in that stopped batch. The owner subsequently approved and
+reported completion of the larger-output four-case batch. It is not still an
+unsigned first attempt. Its private execution packet is excluded and is not
+reopened, authenticated or repriced by this metadata pass.
+
+The existing showcase guide records the RNA changed-evidence/action-order pilot:
+factual judgments changed in both orders, first action did not. This does not
+establish adaptive task progression. The completion-receipt comparison is a
+separate prepared test with no completed result established here. Every new run
+requires its own exact payload, destination, token/budget approval and monitoring;
+no automatic retry, resume, fallback, grant or new live call is authorized.
+
+SCIENCE LIMITS
+Neither admitted algae path quantifies the desired collected-product phosphorus
+endpoint here. Removal, assimilation, collection and plant use stay separate;
+no recovered-product yield or biological winner follows from uptake data.
+Reference sequence agreement is not experimental splice/strain qualification.
+Actual material/run records and qualified measurements remain required.
+CRISPR guide/cassette sequences, executable laboratory methods, validated
+cross-species transfer and a successfully engineered organism are not implemented.
+Authored measurement cards are proposals for researcher review, not protocols or
+results. This limits claims without preventing a useful evidence-gap demo.
+
+Keep credentials, private research, raw responses, grants and media outside
+the candidate. Offline checks do not establish usefulness or rights clearance.
+
+HISTORICAL RELEASE / REVIEW NOTES — retained verbatim below
+
 RELEASE / REVIEW BLOCKERS — NO PUBLICATION AUTHORIZED
 
 1. Owner approval of the exact final file list and destination is still required.

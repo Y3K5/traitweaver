@@ -1,3 +1,38 @@
+CURRENT LOCAL RECONCILIATION SCREEN — NOVEMBER 1, 2026 UTC
+
+The candidate is limited to the supplied public base, the ZIP documentation/
+license patch and reviewed clarifications from the six explicitly selected
+local metadata files. The original checkout remains untouched. No private
+authoring files, real execution packets, credentials or media are imported.
+Fresh exact staged-export screen locations, contextual classifications, inventory
+hashes and passed/failed/unrun checks are recorded in the external local review
+packet. This document does not substitute a historical scan for a new pass.
+The fresh screen examines all admitted text and binary bytes for personal paths,
+private project names, secret-shaped strings, credential assignments and email
+addresses, and checks candidate paths for excluded/generated material. Findings
+are retained for review, never silently scrubbed. Exact membership/hashes and
+unchanged source/data/asset pins are checked separately. Pattern screening cannot
+certify absence of every private fact, rights or scientific validity.
+
+HISTORICAL ZIP PREPARER AUDIT — retained below; not a new local scan
+
+DATED AUDIT / CLEANUP ADDENDUM — NOVEMBER 1, 2026
+
+Public remote main was checked at 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e.
+A read-only audit examined 195 reachable Git blobs using limited patterns for
+private-key headers, GitHub tokens, AWS access IDs, provider-key shapes and personal
+paths. No matches to those key patterns were found. Three path matches were literal
+negative-test canaries, not observed owner paths. This is not a complete secret
+scan, private-fact clearance or rights certification. Older one/two-commit counts
+and remote-unverified wording below belong to earlier snapshots.
+
+This follow-up changes documentation/provenance/inventory only. Historical source
+hashes and approval/usage records are preserved; no real packet or media is added.
+The final exact-byte manifest is regenerated for the review patch. Owner review
+is still required before publication or submission.
+
+HISTORICAL SCREENING RECORDS — retained below
+
 CURRENT DEVELOPMENT REVIEW — NOVEMBER 1, 2026
 
 The exact 163-file candidate and both locally reachable commits were screened.
@@ -83,3 +118,66 @@ packet is not part of the repository. The provided GIF, raw chats, credentials,
 private planning and cloud-generation packets remain excluded. Actual candidate
 bytes and generated exports are re-screened; guard/test canary findings remain
 visible for owner review, with no silent removal.
+
+HISTORICAL SIX-FILE LOCAL METADATA REVIEW — retained below
+
+SCREENING SUMMARY — CURRENT METADATA REFRESH, OCTOBER 31, 2026
+
+SCOPE
+Exactly 163 admitted public/synthetic files. This refresh changes only README.md,
+SOURCE_PROVENANCE.json, HANDOFF_MANIFEST.json, SCOPE_AND_PROVENANCE.txt,
+SCREENING_SUMMARY.txt and RELEASE_BLOCKERS.txt. All source code, scientific
+fixtures, tests, interface assets and notices remain byte-identical to the
+reviewed local commit. No secret store or real Muse packet is opened.
+
+EXCLUSIONS
+Credentials, owner grants/local controls, real run packets, provider identifiers,
+raw replies/reasoning, response cookies/headers, local configuration, private
+research/internal planning examples/chats, unrelated projects, generated media,
+review folders, caches, installations and Git metadata are not candidate files.
+Public reference sequences retain their accession/source qualification; no
+private genomic record is admitted. A documentary historical-run summary is
+included; it is not a provider packet or independent authentication.
+
+CONTENT SCREEN
+The earlier exact-byte review classified 63 source matches as generic privacy
+patterns, explicitly synthetic negative-test canaries or exclusion/qualification
+prose. They remain visible; no silent redaction or file removal is performed.
+The six changed metadata files and final exact candidate are screened again.
+No unresolved actual owner path/identifier, credential, private project material
+or private research packet is found. Two bundled fonts match existing pins and
+OFL notices; all eight interface asset pins and five primary algae records pass.
+Pattern matching cannot prove the absence of every private fact. Qualified test
+canaries do not authorize including an actual key, cookie or personal path.
+
+HISTORY
+The preceding read-only review found three locally reachable commits and 195
+unique blobs, including local feature commit 0987c1b. Values of existing Git
+attribution are withheld; all three use GitHub noreply email identities. This
+refresh leaves HEAD/index unchanged. Unreachable objects, remote-only refs and
+current GitHub state are not verified. No API, fetch, history rewrite or push.
+Earlier one-commit/twelve-blob and two-commit/eighty-blob counts were snapshots
+before later local commits, not current history claims.
+
+OFFLINE OUTPUTS AND LIMITS
+Fresh external software exercises produce 24 four-case workbench journeys and
+108 synthetic evaluation responses; all 64 generated files are screened. JSON
+and readable exports preserve source IDs, missing values, claim roles and
+limitations; imported packages remain read-only. These are synthetic software
+checks, not new scientific studies, real model calls or human-usefulness results.
+All included annotation history must pass the application's privacy gate; even
+clean exports require exact-view owner acknowledgment. Notes stay outside model
+inputs and source evidence. Original source/fixture pins remain unchanged.
+
+All 163 candidate paths respect .gitignore. No force-add, staging, installation,
+commit, API request, upload or push is performed by this refresh. New verification
+records, before/after fingerprints, full logs and the exact six-file commit
+proposal stay in the external local metadata-closeout packet, not this tree.
+The full prior screening notes remain in local Git history and the preceding
+external review packet; they are superseded here, not silently scrubbed.
+
+OWNER REVIEW
+Software license remains undecided; retain font and split GFP attribution.
+Prior baseline design-rights confirmation is recorded without renewing it.
+Exact-file publication, independent release review and event submission remain
+separate owner decisions. See RELEASE_BLOCKERS.txt and tools/verify_handoff.py.

@@ -17,9 +17,10 @@
       "destination": "THIRD_PARTY_NOTICES.md",
       "source": "THIRD_PARTY_NOTICES.md",
       "source_sha256": "c59d34cfd496c8752eaf768172e1f7da83054b3e612106e23a764046b94fb7b3",
-      "candidate_sha256": "062f7677328046393e49bea24e97ef61a0f3fbeaa0711fb200b2c32b642f2716",
-      "transformation": "Byte-identical selected source",
-      "source_git_status": "untracked local source"
+      "candidate_sha256": "9574e8a47e852f7e166c085a308d00589400a646644427a9f34b30a3eedf35e7",
+      "transformation": "Modified descendant: recorded source and candidate hashes differ. See existing follow-up notes and docs/SCOPE_AND_PROVENANCE.txt. Original source hash retained; original authoring bytes were not independently reverified.",
+      "source_git_status": "untracked local source",
+      "historical_transformation_label": "Byte-identical selected source"
     },
     {
       "destination": "run_workspace.py",
@@ -74,9 +75,10 @@
       "source": "src/traitweaver/protein_card.py",
       "source_sha256": "f4815ff952e5ab35b227e477728b5db6ca5bcf3204dcfc8d3a7e686446838052",
       "candidate_sha256": "1eed6a5a7d907ea1f8945a0e70b5d7818fb40a5f0adbd97afc88c132a8d056cd",
-      "transformation": "Byte-identical selected source",
+      "transformation": "Modified descendant: recorded source and candidate hashes differ. See existing follow-up notes and docs/SCOPE_AND_PROVENANCE.txt. Original source hash retained; original authoring bytes were not independently reverified.",
       "source_git_status": "untracked local source",
-      "assistant_followup": "GFP text-ID retention or separate offline assistant contract documentation; prior provenance retained."
+      "assistant_followup": "GFP text-ID retention or separate offline assistant contract documentation; prior provenance retained.",
+      "historical_transformation_label": "Byte-identical selected source"
     },
     {
       "destination": "src/traitweaver/protein_card.html",
@@ -147,9 +149,10 @@
       "source": "tests/test_protein_card.py",
       "source_sha256": "5f16e7243cc16c12893469dcd5ccff3cde4a4356a9b20c5f53215284e9e303e7",
       "candidate_sha256": "effe9485ff39dc2e5b92e3b9cfaa461a920698371f1300f7c22dcdb6ea6a3369",
-      "transformation": "Byte-identical selected source",
+      "transformation": "Modified descendant: recorded source and candidate hashes differ. See existing follow-up notes and docs/SCOPE_AND_PROVENANCE.txt. Original source hash retained; original authoring bytes were not independently reverified.",
       "source_git_status": "untracked local source",
-      "assistant_followup": "GFP text-ID retention or separate offline assistant contract documentation; prior provenance retained."
+      "assistant_followup": "GFP text-ID retention or separate offline assistant contract documentation; prior provenance retained.",
+      "historical_transformation_label": "Byte-identical selected source"
     },
     {
       "destination": "tests/check_workspace_http.py",
@@ -263,10 +266,11 @@
       "source": "src/traitweaver/web/workspace.css",
       "source_sha256": "b6c0cc93cfb7fccf3133782f4f4c9c1cfb0bc08187cf4c0d60cbd8b5117d7720",
       "candidate_sha256": "87ddc63f1f03b79faf184446653bfded0b184bf853f2657f19ddf33563280146",
-      "transformation": "Byte-identical selected source",
+      "transformation": "Modified descendant: recorded source and candidate hashes differ. See existing follow-up notes and docs/SCOPE_AND_PROVENANCE.txt. Original source hash retained; original authoring bytes were not independently reverified.",
       "source_git_status": "untracked local source",
       "assistant_browser_followup": "Independent local assistant view/session and demo documentation; original provenance retained.",
-      "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained."
+      "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained.",
+      "historical_transformation_label": "Byte-identical selected source"
     },
     {
       "destination": "src/traitweaver/web/index.html",
@@ -446,17 +450,23 @@
       "destination": "PUBLIC_FILES.txt",
       "source": "PUBLIC_FILES.txt",
       "source_sha256": "2d8468a3c4d0d6701d6973470a5a3b128c2f30f2bcb1c62c44c004c1b19a39c3",
-      "candidate_sha256": "ff6baaacf0c736154bf3dcfd020c3c2c0d9ab1ccfb5f92aa1838e469a8284f1b",
-      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
-      "source_git_status": "local only; not committed or pushed"
+      "candidate_sha256": "8208fdd10d3d6e1d77b825f94a60bdd541fa176005c2f8ee344e0ecbc7451761",
+      "transformation": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged.",
+      "source_git_status": "local only; not committed or pushed",
+      "pre_cleanup_candidate_sha256": "ff6baaacf0c736154bf3dcfd020c3c2c0d9ab1ccfb5f92aa1838e469a8284f1b",
+      "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only."
     },
     {
       "destination": "README.md",
       "source": "README.md",
       "source_sha256": "48bd81e91c4a69754d30551fb3ac3db3058b79c6d8223c1bc06f19992ca2ff24",
-      "candidate_sha256": "f08157896b1176a2cd121807eb2642a37e80297c2b73c00a4e5895dbcd5df3c6",
-      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
-      "source_git_status": "local only; not committed or pushed"
+      "candidate_sha256": "93dc8259589c48086da1dab4bdd6e8e1cd05630b2f6d8268f49f23678afbedce",
+      "transformation": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications.",
+      "source_git_status": "local only; not committed or pushed",
+      "pre_cleanup_candidate_sha256": "f08157896b1176a2cd121807eb2642a37e80297c2b73c00a4e5895dbcd5df3c6",
+      "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+      "retained_local_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only. October 31 six-file metadata refresh: current five-scene instructions, dated history/check scope and historical authorization qualification; no source evidence changed.",
+      "retained_local_candidate_sha256": "72d94b79dbd4664708253851c68e18bd63037172b3138a2f8f50c30ace32728c"
     },
     {
       "destination": "tools/exercise_workbench.py",
@@ -750,9 +760,13 @@
       "destination": "docs/SCREENING_SUMMARY.txt",
       "source": "docs/SCREENING_SUMMARY.txt",
       "source_sha256": "41d8ebab636d1ac24474f19b244c66efad9070d43fc5149b9269a633dfd91647",
-      "candidate_sha256": "acf96b16be1b55190f99e2a22ae664e7158064bb4d0e9db20729a427201b67be",
-      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
-      "source_git_status": "local only; not committed or pushed"
+      "candidate_sha256": "4728fdb402c8ff5bf21d2d9d6bb0c3299f29118069ebceb7a541f86d1ecda37d",
+      "transformation": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications.",
+      "source_git_status": "local only; not committed or pushed",
+      "pre_cleanup_candidate_sha256": "acf96b16be1b55190f99e2a22ae664e7158064bb4d0e9db20729a427201b67be",
+      "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+      "retained_local_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only. October 31 six-file metadata refresh: current five-scene instructions, dated history/check scope and historical authorization qualification; no source evidence changed.",
+      "retained_local_candidate_sha256": "55530f559f5d17dbf146441846ef2116861c3d40192ae93fb7ba60c31fe3096a"
     },
     {
       "destination": "docs/MOLECULAR_WORKSPACE.txt",
@@ -798,9 +812,13 @@
       "destination": "docs/RELEASE_BLOCKERS.txt",
       "source": "docs/RELEASE_BLOCKERS.txt",
       "source_sha256": "75afb70ed173725c513e3f81c23d8f53177c12c38ec1c2ff4e092b5228b0474d",
-      "candidate_sha256": "a6889fb8a1553bc1a45262b04df9d03367696a1ac5ae5cac249d0e39d8b794b5",
-      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
-      "source_git_status": "local only; not committed or pushed"
+      "candidate_sha256": "015dea9eef5bba310a885e00b4ce556bccf5e9384c0418927067df8b2fd56cfe",
+      "transformation": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications.",
+      "source_git_status": "local only; not committed or pushed",
+      "pre_cleanup_candidate_sha256": "a6889fb8a1553bc1a45262b04df9d03367696a1ac5ae5cac249d0e39d8b794b5",
+      "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+      "retained_local_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only. October 31 six-file metadata refresh: current five-scene instructions, dated history/check scope and historical authorization qualification; no source evidence changed.",
+      "retained_local_candidate_sha256": "97fe14f0da6deacc00fa197355730dc99a09164d5fd0f8a114cabc7316746be3"
     },
     {
       "destination": "docs/RESEARCH_JOURNEY.txt",
@@ -846,9 +864,13 @@
       "destination": "docs/SCOPE_AND_PROVENANCE.txt",
       "source": "docs/SCOPE_AND_PROVENANCE.txt",
       "source_sha256": "ac2db93bebffd707e7ef3f3f688c11b3f0081eb0c5371c0e6295b26f7b9b911f",
-      "candidate_sha256": "3ce789f49ac01b9abf894ab1aac725d548254f40c6f9179d57bcc70608339bcc",
-      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
-      "source_git_status": "local only; not committed or pushed"
+      "candidate_sha256": "effe00fe714344932b44247d56706c1614450940c33714ac364195b6985637c2",
+      "transformation": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications.",
+      "source_git_status": "local only; not committed or pushed",
+      "pre_cleanup_candidate_sha256": "3ce789f49ac01b9abf894ab1aac725d548254f40c6f9179d57bcc70608339bcc",
+      "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+      "retained_local_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only. October 31 six-file metadata refresh: current five-scene instructions, dated history/check scope and historical authorization qualification; no source evidence changed.",
+      "retained_local_candidate_sha256": "26f20c9382b3d73ebcfce2da2538aa05d77a7474d8448e8217bd0d04a5e9fe1c"
     },
     {
       "destination": "docs/SCIENTIFIC_STORY.txt",
@@ -870,9 +892,11 @@
       "destination": "docs/REVIEW_STATUS.txt",
       "source": "docs/REVIEW_STATUS.txt",
       "source_sha256": "2f1937e644589f93f1d7c1185cb0fb455c125236ca83941b6e5348bf920add9a",
-      "candidate_sha256": "2f1937e644589f93f1d7c1185cb0fb455c125236ca83941b6e5348bf920add9a",
-      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
-      "source_git_status": "local only; not committed or pushed"
+      "candidate_sha256": "776697c722603f64b1d22211822759e00465f0bceca38a6442d613743bce3195",
+      "transformation": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged.",
+      "source_git_status": "local only; not committed or pushed",
+      "pre_cleanup_candidate_sha256": "2f1937e644589f93f1d7c1185cb0fb455c125236ca83941b6e5348bf920add9a",
+      "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval."
     },
     {
       "destination": "docs/WHAT_WE_BUILT.txt",
@@ -1281,6 +1305,65 @@
       "candidate_sha256": "308eb0e704e1e17b85240ae80b31ac9126e050632e70b1ae659fd029f964c0c3",
       "transformation": "Locally authored focused MVP scope and finish-line guide; public event pages linked with qualification.",
       "source_git_status": "local only; no commit or push"
+    },
+    {
+      "destination": "docs/CONTRIBUTIONS.md",
+      "source": null,
+      "source_sha256": null,
+      "candidate_sha256": "5b99638e978a1149a8248d237735a839730f17a39b6a0ce027564b14fb6ca994",
+      "transformation": "New review documentation synthesized from explicitly cited Git history, existing documentary records and owner instructions; not a copy of an external source file.",
+      "source_git_status": "New uncommitted documentation against 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e"
+    },
+    {
+      "destination": "docs/META_CONTRIBUTION.md",
+      "source": null,
+      "source_sha256": null,
+      "candidate_sha256": "026fe00a34d50c4325f351f1173d329bf228e286e2c8aa4dcf31b3cf64cc99de",
+      "transformation": "New review documentation synthesized from explicitly cited Git history, existing documentary records and owner instructions; not a copy of an external source file.",
+      "source_git_status": "New uncommitted documentation against 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e"
+    },
+    {
+      "destination": "docs/COMPONENT_RIGHTS.md",
+      "source": null,
+      "source_sha256": null,
+      "candidate_sha256": "a885d0778b01a8c9bc5e291d2e0d70c0b9dff92adc3cb1a959d8e53ed83436a7",
+      "transformation": "New scoped rights inventory synthesized from repository notices, independently reviewed primary-source terms and owner instructions; not a copy of an external source file. Original-code MIT is selected; separate component-rights clearance remains pending.",
+      "source_git_status": "New uncommitted documentation against 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e"
+    },
+    {
+      "destination": "LICENSE",
+      "source": null,
+      "source_sha256": null,
+      "candidate_sha256": "e3b5a2dcffb675dd251d15acf51f93623eb14ce16dc32990e078b80674c3729e",
+      "transformation": "MIT license text from https://opensource.org/license/mit with owner-approved original-code scope and copyright (c) 2026 Yuvraj Patel. No external source-file hash asserted. See README.md and docs/COMPONENT_RIGHTS.md for exclusions.",
+      "source_git_status": "New uncommitted license against 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e"
+    },
+    {
+      "destination": "docs/CINEMATIC_SHOWCASE.txt",
+      "source": "docs/CINEMATIC_SHOWCASE.txt",
+      "source_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
+      "source_sha256": "0d72710fc4f31f39d67d9d442b450b17647910a1779335a5303fbe2d32bf3604",
+      "candidate_sha256": "0d72710fc4f31f39d67d9d442b450b17647910a1779335a5303fbe2d32bf3604",
+      "transformation": "Locally authored cinematic showcase guide, transport-free saved-pilot projection or five adapter regression tests. Existing public/synthetic contracts and source records reused; no new retrieval or provider call. Byte-identical to the selected local feature commit.",
+      "source_git_status": "Tracked in local feature commit 0987c1b; remote state not checked."
+    },
+    {
+      "destination": "src/traitweaver/showcase.py",
+      "source": "src/traitweaver/showcase.py",
+      "source_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
+      "source_sha256": "fd826091f613c935ed1492c92739f2a9f8b42a9884cbf2fcaf202b6588cfa380",
+      "candidate_sha256": "fd826091f613c935ed1492c92739f2a9f8b42a9884cbf2fcaf202b6588cfa380",
+      "transformation": "Locally authored cinematic showcase guide, transport-free saved-pilot projection or five adapter regression tests. Existing public/synthetic contracts and source records reused; no new retrieval or provider call. Byte-identical to the selected local feature commit.",
+      "source_git_status": "Tracked in local feature commit 0987c1b; remote state not checked."
+    },
+    {
+      "destination": "tests/test_showcase.py",
+      "source": "tests/test_showcase.py",
+      "source_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
+      "source_sha256": "3a1ea86b6d0c9caca89133af2e6d55e3a3281805dc392ab33948b65eb7f070db",
+      "candidate_sha256": "3a1ea86b6d0c9caca89133af2e6d55e3a3281805dc392ab33948b65eb7f070db",
+      "transformation": "Locally authored cinematic showcase guide, transport-free saved-pilot projection or five adapter regression tests. Existing public/synthetic contracts and source records reused; no new retrieval or provider call. Byte-identical to the selected local feature commit.",
+      "source_git_status": "Tracked in local feature commit 0987c1b; remote state not checked."
     }
   ],
   "additional_candidate_authorship": "Public-facing docs, synthetic replay/review package, exact-byte verifier, memory handler/controller tests and bounded adaptations; Codex",
@@ -1308,12 +1391,17 @@
     "tests/completed_cycle_ui_offline.cjs",
     "tests/test_review_handlers.py",
     "tools/make_synthetic_cycle.py",
-    "tools/verify_handoff.py"
+    "tools/verify_handoff.py",
+    "docs/CONTRIBUTIONS.md",
+    "docs/META_CONTRIBUTION.md",
+    "docs/CINEMATIC_SHOWCASE.txt",
+    "src/traitweaver/showcase.py",
+    "tests/test_showcase.py"
   ],
   "synthetic_fixture_source": "tools/make_synthetic_cycle.py using admitted public evidence and explicitly synthetic test helper",
   "fixture_provenance": "data/synthetic-cycle/FIXTURE_PROVENANCE.json",
   "live_run_material_included": false,
-  "rights_clearance": "Pending software license and design distribution decisions; retain component notices",
+  "rights_clearance": "MIT selected for original code/documentation only; separate font/data/branding/design terms retained. Current component-rights questions remain unresolved.",
   "local_extension": {
     "date": "2026-10-30",
     "base_publication_commit": "cd3b1a99ef8a4ddc34f18bf299c7cd2ed778e4f7",
@@ -1618,5 +1706,76 @@
     "remote_refreshed": false,
     "scope": "163-file public/synthetic code candidate; external owner packets and media excluded",
     "prior_source_fields": "Historical source selection, not current remote state"
+  },
+  "source_fields_scope": "Top-level source_head/cached_origin_main/remote_refreshed and nested extension publication/approval fields are historical preparation observations. See current_repository_observation for the current remote check. They are not retrospectively rewritten.",
+  "current_repository_observation": {
+    "checked_date_utc": "2026-11-01",
+    "repository": "https://github.com/Y3K5/traitweaver",
+    "visibility": "public",
+    "main_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
+    "documentation_patch_pushed": false,
+    "submission_verified": false,
+    "scope": "Read-only remote verification and unpushed documentation cleanup; not owner approval or eligibility certification."
+  },
+  "documentation_cleanup": {
+    "date": "2026-11-01",
+    "base_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
+    "authoring_tool": "Codex",
+    "scope": "Restore contribution/reuse ledger, explain recorded Meta contribution and synthetic replay, qualify historical status, repair four contradictory transformation labels, regenerate inventories. No code/data/media or historical grants/receipts changed.",
+    "video_status": "Owner reports editing in progress; no final URL asserted",
+    "license_selected": "MIT for original application code and associated original documentation only; owner approval November 1, 2026; third-party/data/font/branding exclusions retained.",
+    "source_hash_policy": "Original source_sha256 values retained without claiming source bytes were available; new documents have no external source hash.",
+    "human_contributor_confirmation": {
+      "name": "Yuvraj Patel",
+      "sole_human_contributor": true,
+      "basis": "Explicit owner confirmation November 1, 2026 UTC (October 31 Eastern); AI tools are separate from human contributors."
+    },
+    "reuse_and_track_confirmation": "pending owner review",
+    "component_rights_inventory": "docs/COMPONENT_RIGHTS.md; scoped primary-source inventory, not legal certification; remaining component-rights decisions retained; original-code MIT selection confirmed."
+  },
+  "historical_field_policy": "source_head, cached_origin_main, source_sha256, source_git_status and earlier extension records describe selection/preparation time, not current working tree or remote state. candidate_sha256 always identifies current admitted bytes.",
+  "mapping_self_hash_policy": {
+    "excluded": [
+      "HANDOFF_MANIFEST.json",
+      "SOURCE_PROVENANCE.json"
+    ],
+    "reason": "Self-managed metadata; a provenance self-hash or manifest/provenance cross-hash would be recursive. HANDOFF_MANIFEST.json hashes SOURCE_PROVENANCE.json; its own hash is recorded in external verification."
+  },
+  "historical_local_metadata_refresh": {
+    "date": "2026-10-31",
+    "baseline_local_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
+    "scope": "Six metadata files only; code/tests/fixtures/assets unchanged.",
+    "candidate_files": 163,
+    "new_showcase_mappings": [
+      "docs/CINEMATIC_SHOWCASE.txt",
+      "src/traitweaver/showcase.py",
+      "tests/test_showcase.py"
+    ],
+    "current_verification": "395 Python tests, 251 memory-controller checks, 24 offline workflow journeys and 108 synthetic evaluation responses. Fresh external logs are authoritative; browser/loopback results remain historical.",
+    "historical_muse_contribution": "Original algae cycle documentary summary retained; owner-reported completed later four-case batch and recorded RNA comparison acknowledged without copying/reopening real packets. No authentication or billing claim added.",
+    "new_api_calls": 0,
+    "credentials_read": false,
+    "real_packets_included": false,
+    "commit_or_push_authorized": false,
+    "software_license": "undecided"
+  },
+  "local_documentation_reconciliation": {
+    "base_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
+    "patch_sha256": "41ddc3b3a5e8bf02210bb8f2888d23e70e9e1dc0fc14b6eaa3648c37037e10ee",
+    "scope": "13 documentation/license/inventory files; no code, tests, data, styles, assets or media changed.",
+    "local_edits": "Six selected public-checkout metadata edits reconciled file by file; original checkout untouched. No private authoring files imported.",
+    "later_batch": "Owner confirmed retaining owner-reported completion; private packets excluded and not independently authenticated.",
+    "guide_requirements": [
+      "Three-minute demo video",
+      "Public repository"
+    ],
+    "unverified": [
+      "Exact submission-form fields",
+      "Hosted-deployment requirement",
+      "Indie/pre-existing-code eligibility"
+    ],
+    "source_hash_policy": "Preserve original source_sha256 values and historical fields; update only current candidate hashes. No original authoring source reopened.",
+    "commit_push_submission_performed": false,
+    "retained_confirmed_batch_basis": "Explicit owner instruction during this reconciliation: retain qualified owner-reported completion, not independent provider authentication."
   }
 }

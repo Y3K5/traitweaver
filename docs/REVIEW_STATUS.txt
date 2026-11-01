@@ -1,3 +1,30 @@
+CURRENT STATUS — NOVEMBER 1, 2026
+
+Observed public GitHub main: 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e.
+Publication of that snapshot is observable; entry acceptance and approval of
+this documentation patch are separate and are not asserted. No push or submission
+is performed by this cleanup. Earlier "NOT GIVEN" statements below describe their
+preparation-time snapshot, not current repository visibility.
+
+Video editing remains in progress. Yuvraj Patel has confirmed he is the sole human contributor. Contribution/reuse
+dates still need owner confirmation; see CONTRIBUTIONS.md. Meta's recorded contribution and
+synthetic replay are separated in META_CONTRIBUTION.md. The owner selected MIT
+for original code on November 1; LICENSE and COMPONENT_RIGHTS.md record the scope.
+Component-rights confirmation remains pending, with notices retained. Code tests
+are not independent scientific review, billing authentication or eligibility proof.
+
+CURRENT RECONCILIATION QUALIFICATIONS
+The owner-supplied participant guide requires a three-minute demo video and a
+public repository. Exact submission-form fields and any hosted deployment
+requirement are unverified. Indie/pre-existing-code eligibility remains open.
+The owner confirmed retaining the qualified owner-reported later four-case
+completion; private packets remain excluded and independently unauthenticated.
+The current code is unchanged; fresh local checks are reported separately from
+the dated historical records. Manual timed/native-browser and human scientific
+usefulness review remain pending. No new model execution or publication approval.
+
+HISTORICAL OCTOBER 29 REVIEW RECORD — retained verbatim below
+
 LOCAL REVIEW CANDIDATE ONLY — REFRESHED OCTOBER 29, 2026
 The owner supplied a focused Claude fix brief for the authoring checkout.
 B2 terminal guards and B3 historical authorization records were fixed; B4 now

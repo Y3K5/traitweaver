@@ -1,3 +1,33 @@
+# Traitweaver — research-workspace submission review
+
+Start with the [hackathon contribution and reuse ledger](docs/CONTRIBUTIONS.md)
+[what Meta contributed](docs/META_CONTRIBUTION.md), and the
+[component rights inventory](docs/COMPONENT_RIGHTS.md). The public repository was
+verified at commit `0987c1bdd29fbae68050aeb1ff440c1c17d91d7e` on November 1, 2026.
+Public availability is not submission acceptance, a software license or proof
+that every component was first created during the event.
+
+**Try it:** Python 3.10+ standard library, no installation or key:
+`python3 -B run_workspace.py --demo`. Open the printed loopback URL. This is a
+**synthetic offline replay**, not the private saved real Muse run. The new default
+is the five-scene Research journey; exact records and other tools remain available.
+
+**Entry status:** video editing is in progress; no final video URL is asserted here.
+Yuvraj Patel has confirmed he is the sole human contributor. Original
+creation/reuse dates, track eligibility and component rights still require
+owner confirmation. The owner selected MIT for original application code on
+November 1, 2026; see [LICENSE](LICENSE) and the scope below. See
+[review status](docs/REVIEW_STATUS.txt) and [remaining decisions](docs/RELEASE_BLOCKERS.txt).
+No submission, acceptance of third-party terms, new provider request or publication permission
+is implied by these instructions. Earlier development notes below retain their dated verification scope.
+
+**Participant-guide requirements:** the owner-supplied guide requires a
+**three-minute demo video and a public repository**. These are guide requirements,
+not optional planning targets. Exact submission-form fields and any hosted
+deployment requirement remain unverified. Indie eligibility when reusing
+pre-existing code remains open; obtain organizer clarification before claiming
+eligibility. No private guide or execution packet is included here.
+
 **Cinematic Meta showcase (October 31):** the default entry now opens five scenes,
 Question → Evidence → Muse decision → Tool result → Next study, in full width.
 Inspect the science opens existing evidence, reference and measurement panels.
@@ -7,20 +37,18 @@ Missing results remain missing. See [showcase usage](docs/CINEMATIC_SHOWCASE.txt
 
 # Traitweaver — local research workspace
 
-**Focused MVP entry:** open **Research journey**, then choose **Presentation view**.
-The illustration now has source-linked evidence, reference and measurement cards,
-plus a provenance-aware Muse decision → check → reassessment panel. **Show supporting
-records** and **How Muse helped** jump directly to them. Four primary menu entries
-lead to the journey, working study, loaded cycle and handoff; all other tools stay
-under **Evidence, mapping & tools**. See [the focused MVP and finish line](docs/MVP_FOCUS.txt).
-No new model calls or generated-video dependency are introduced.
-
-**Animated research journey:** choose **Research journey** or append `#journey`
-to the printed local URL. Play, pause or inspect eight stages from trait and
-public reference mapping to a recipient proposal and measurement requirements.
-Playback is explicitly illustrative, with no model or tool execution. Export a
-source-labelled SVG. CRISPR sequences and laboratory methods remain pending
-qualified inputs. See [the journey guide](docs/RESEARCH_JOURNEY.txt).
+**Start the walkthrough:** choose **Research journey** or append `#journey`
+to the printed local URL. It opens in full width by default. Select **Question**,
+**Evidence**, **Muse decision**, **Tool result** or **Next study**. **Inspect the
+science** contains **Published evidence**, **Reference mapping** and **Next
+measurement**. Saved decision/result/reassessment records and usage remain
+separate from authored planning cards. Playback is illustrative: it neither
+calls a model nor executes a tool. The four primary menu entries lead to the
+journey, working study, loaded cycle and handoff; other tools remain under
+**Evidence, mapping & tools**. See [the current showcase guide](docs/CINEMATIC_SHOWCASE.txt)
+and [the three-minute demo](docs/DEMO_SCRIPT_3_MIN.txt).
+Earlier eight-stage/presentation-toggle guides describe historical layouts.
+CRISPR sequences and executable laboratory methods are not implemented.
 
 **Completed checks:** a separate synthetic RNA example now saves pre-result
 decisions and actual source-bound local metadata receipts; changed inputs require
@@ -32,14 +60,19 @@ approvals do not cover it. See [tracking and comparison](docs/COMPLETED_STEPS.tx
 Plan an RNA study or Make it repeatable. Follow six plain-language steps; open
 “Why this step?” for the reasoning and “Show evidence” for sources. Exact records
 stay expandable. The new view shows a loaded saved real Muse algae cycle without
-attributing it to the other cases. Their first real model reviews remain pending.
+attributing it to the other cases. The owner reported completion of a later
+four-case batch; its real packets are excluded and are not loaded by default.
+The app's synthetic cards do not inherit that batch's real-model status.
 “Review public inputs for Muse” prepares an exact request and sends nothing.
 See [the research experience](docs/RESEARCH_EXPERIENCE.txt).
 
-**Small Muse comparison proposal:** a separate four-request RNA pilot crosses
+**RNA comparison:** a separate four-request RNA pilot crosses
 changed synthetic sample metadata with original/reversed action order. It removes
 phase/readiness hints, keeps factual checks separate from authored priorities,
-and requires a fresh exact payload/budget approval. Preparation never sends.
+and requires exact payload/budget approval for every new run. The recorded
+comparison described in the showcase guide changed factual judgments in both
+orders but did not change the first action. This metadata refresh did not reopen
+or authenticate the excluded real packets. Preparation never sends.
 See [the reviewed pilot criteria and monitoring boundary](docs/MUSE_RNA_PILOT.txt).
 
 **Evaluate plan quality:** a separate offline harness now tests 12 explicitly
@@ -85,10 +118,12 @@ The algae trait-development map connects the existing reference, combination/
 recipient and CRISPR views. Cassette composition and cross-species effects remain
 unqualified. Export before shutdown: assistant sessions are held in memory.
 
-**Unpublished local extension:** offline Muse intelligence for trait candidates,
-combination coverage and species/context-transfer review, plus real public algae protein-to-gene/transcript
-mapping, reference exon maps and bounded CRISPR planning. The published 69-file baseline remains at the
-published commit cd3b1a9. These changes have not been committed or pushed.
+**Published code snapshot; documentation update under review:** offline Muse intelligence
+for trait candidates, combination coverage and species/context-transfer review,
+plus public algae protein-to-gene/transcript mapping, reference exon maps and
+bounded CRISPR planning are in public commit `0987c1bdd29fbae68050aeb1ff440c1c17d91d7e`.
+The 69-file `cd3b1a9` snapshot is an earlier baseline. This documentation/license
+reconciliation is uncommitted and unpushed; its publication still requires owner review.
 
 Open the app with the commands below, then use **CRISPR workflow**,
 **Protein ↔ gene** and **Splicing maps** in the sidebar.
@@ -109,7 +144,7 @@ See [the data-flow walkthrough](docs/DATA_FLOW.txt). It performs no live retriev
 Question → source-bound paths → evidence gaps → pre-result decision → one local
 check → separate reassessment → saved study package.
 
-This is a **local review candidate**, not an approved publication or submission.
+The code snapshot is public; this documentation update and the event entry remain under review.
 It contains one curated public algae study, required interface assets, qualified
 GFP reference data, code/tests and a clearly synthetic portable replay. It contains no credentials, private study example or real provider-run packet.
 Root Git metadata is excluded from manifest checks without being inspected.
@@ -187,11 +222,21 @@ PYTHONPATH=src python3 -B tools/verify_public_algae.py
 python3 -B tools/verify_handoff.py
 ```
 
-The 395 Python tests (390 preceding checks plus five showcase-adapter tests)
-pass offline with sockets prohibited. Controller checks pass separately: 14 completed-cycle,
+For this documentation reconciliation, fresh exact staged-export outcomes are
+recorded in the external local review packet; the dated checks below are historical.
+
+**Historical October 31 metadata checks:** that review verified the same code with 395 Python tests
+(390 preceding checks plus five showcase-adapter tests), with socket events
+prohibited and no real credentials. Controller checks pass separately: 14 completed-cycle,
 22 synthetic molecular, 25 public-reference, 26 intelligence and 26 Data flow
 scenarios, plus 28 assistant, 25 scientific-story and 43 workbench and 42 journey scenarios (251 total). New controllers execute actual Python handlers/core over memory I/O,
-with sockets blocked. Data flow layout/navigation were checked at 1440px and
+with sockets blocked. The fresh offline export exercises cover 24 workbench
+journeys and 108 synthetic evaluation responses; human usefulness remains
+unreviewed. No provider request, browser session or HTTP integration script is
+run by this metadata review.
+
+Historical browser/loopback qualification, not rerun in that October 31 metadata review: Data flow
+layout/navigation were checked at 1440px and
 390px widths; download contents and stale/unsaved rejection were tested offline.
 Actual intelligence JSON browser download/file-picker reopen and refresh now
 pass for r18. Long automation stalls leave manual demo timing unqualified; other
@@ -214,5 +259,16 @@ exports before a timed demo. See docs/VALIDATION.txt for results and limits.
 
 No biological winner, significance test, cross-study ranking, recovery yield or
 laboratory protocol is produced. Missing recovery evidence is a useful finding.
-No blanket software license has been chosen. Retain THIRD_PARTY_NOTICES.md,
-font OFL notices and the component-specific GFP attribution.
+## License and component scope
+
+The original application code and associated original documentation are licensed
+under [MIT](LICENSE), copyright (c) 2026 Yuvraj Patel, as owner-selected on
+November 1, 2026. This grant covers only rights the owner can grant. It does not
+relicense bundled fonts, datasets/source records, brand artwork, logos, trademarks
+or third-party design stylesheets. In particular, `data/`,
+`src/traitweaver/web/assets/` and the archive-derived `src/traitweaver/web/base.css`
+are excluded from the original-code MIT grant; retain their applicable terms.
+Other separately identified third-party material remains under its own terms.
+See [component rights and outstanding confirmations](docs/COMPONENT_RIGHTS.md)
+and [third-party notices](THIRD_PARTY_NOTICES.md). No rights clearance or patent
+guarantee is implied; unresolved design and mixed GFP scope remain unresolved.
