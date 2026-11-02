@@ -3,7 +3,8 @@
 Start with the [hackathon contribution and reuse ledger](docs/CONTRIBUTIONS.md)
 [what Meta contributed](docs/META_CONTRIBUTION.md), and the
 [component rights inventory](docs/COMPONENT_RIGHTS.md). The public repository was
-verified at commit `0987c1bdd29fbae68050aeb1ff440c1c17d91d7e` on November 1, 2026.
+rechecked at commit `5e14721cce8568e0eeae67ed188fa3c5b5f8a8e4` on November 2, 2026.
+That published commit includes the original-code MIT license and contribution/rights cleanup.
 Public availability is not submission acceptance, a software license or proof
 that every component was first created during the event.
 
@@ -118,12 +119,13 @@ The algae trait-development map connects the existing reference, combination/
 recipient and CRISPR views. Cassette composition and cross-species effects remain
 unqualified. Export before shutdown: assistant sessions are held in memory.
 
-**Published code snapshot; documentation update under review:** offline Muse intelligence
+**Published code and documentation:** offline Muse intelligence
 for trait candidates, combination coverage and species/context-transfer review,
 plus public algae protein-to-gene/transcript mapping, reference exon maps and
 bounded CRISPR planning are in public commit `0987c1bdd29fbae68050aeb1ff440c1c17d91d7e`.
-The 69-file `cd3b1a9` snapshot is an earlier baseline. This documentation/license
-reconciliation is uncommitted and unpushed; its publication still requires owner review.
+The 69-file `cd3b1a9` snapshot is an earlier baseline. The subsequent documentation/
+license reconciliation is published in `5e14721`. This November 2 status-only
+follow-up is a local candidate; it has not been committed or pushed.
 
 Open the app with the commands below, then use **CRISPR workflow**,
 **Protein ↔ gene** and **Splicing maps** in the sidebar.
@@ -144,7 +146,8 @@ See [the data-flow walkthrough](docs/DATA_FLOW.txt). It performs no live retriev
 Question → source-bound paths → evidence gaps → pre-result decision → one local
 check → separate reassessment → saved study package.
 
-The code snapshot is public; this documentation update and the event entry remain under review.
+The code and November 1 documentation/license update are public. This status-only
+follow-up and the event entry remain under review.
 It contains one curated public algae study, required interface assets, qualified
 GFP reference data, code/tests and a clearly synthetic portable replay. It contains no credentials, private study example or real provider-run packet.
 Root Git metadata is excluded from manifest checks without being inspected.
@@ -222,8 +225,9 @@ PYTHONPATH=src python3 -B tools/verify_public_algae.py
 python3 -B tools/verify_handoff.py
 ```
 
-For this documentation reconciliation, fresh exact staged-export outcomes are
-recorded in the external local review packet; the dated checks below are historical.
+For the November 2 status reconciliation, fresh exact-candidate outcomes and
+file hashes are recorded in the external local review packet. No files are staged.
+The dated checks below are historical; test counts do not establish scientific validity.
 
 **Historical October 31 metadata checks:** that review verified the same code with 395 Python tests
 (390 preceding checks plus five showcase-adapter tests), with socket events

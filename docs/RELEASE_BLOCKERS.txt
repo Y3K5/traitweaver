@@ -1,3 +1,27 @@
+CURRENT SUBMISSION DECISIONS — NOVEMBER 2, 2026 (AMERICA/NEW_YORK)
+
+GitHub main was rechecked at 5e14721cce8568e0eeae67ed188fa3c5b5f8a8e4.
+The November 1 MIT/contribution/rights documentation is already published.
+The six older local metadata edits have already been reconciled into that commit;
+reapplying them would regress the newer license, rights and inventory records.
+This seven-file status-only follow-up is local, unstaged and uncommitted.
+No new publication or submission authorization is asserted.
+
+Confirmed: MIT for original code/documentation; Yuvraj Patel as sole human
+contributor. Separate component terms, attribution and unresolved rights remain.
+The qualified owner-reported later Muse batch status is retained on its recorded
+owner-confirmation basis in SOURCE_PROVENANCE.json; no private packet was opened
+or independently authenticated. It supplies no new execution permission.
+
+Still open for final submission: exact final video and reviewer-accessible URL;
+track/representative and original creation/reuse confirmation; Indie reuse
+eligibility; remaining component rights; actual form fields and hosting rules;
+final demo/claim review and owner entry/terms decision. The prior checklist below
+records these questions and its dated event information. Event rules/deadline
+were not refreshed in this repository-only reconciliation.
+
+HISTORICAL NOVEMBER 1 PREPUBLICATION CHECKLIST — retained verbatim below
+
 CURRENT SUBMISSION / DOCUMENTATION DECISIONS — NOVEMBER 1, 2026
 
 The repository is already public at 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e.

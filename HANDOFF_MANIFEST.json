@@ -1,11 +1,11 @@
 {
   "schema_version": "traitweaver.final_repository_handoff.v1",
-  "status": "documentation_cleanup_candidate_pending_owner_review",
-  "prepared_date": "2026-11-01",
-  "refresh": "Local reconciliation of the supplied ZIP documentation/MIT patch and six selected public-checkout metadata edits against 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. No application/data/test/asset/media changes; guide requirements corrected; owner review, component rights and Indie reuse eligibility remain open.",
+  "status": "submission_status_followup_pending_owner_review",
+  "prepared_date": "2026-11-02",
+  "refresh": "Status-only reconciliation over refreshed public main 5e14721. Six original local edits preserved; already-incorporated useful changes are not reapplied.",
   "publication_approved": false,
   "claude_review_performed": false,
-  "review_status": "Documentation cleanup and owner-selected original-code MIT; sole human contributor confirmed. Final patch review, reuse/track confirmation, remaining component rights, video and entry decisions pending.",
+  "review_status": "November 1 cleanup is published. This status-only follow-up is local, unstaged and uncommitted; exact-byte publication and final entry remain owner decisions.",
   "scope": "Public/synthetic research-workspace code plus documentation. Documentary real Meta contribution is described; real packets, media and new provider execution are excluded.",
   "files": [
     {
@@ -30,13 +30,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 16757,
-      "sha256": "93dc8259589c48086da1dab4bdd6e8e1cd05630b2f6d8268f49f23678afbedce"
+      "bytes": 17010,
+      "sha256": "68715973ec40fef56941854b9bbb62611d1d1c288de53452fdc4f88194d786e4"
     },
     {
       "path": "SOURCE_PROVENANCE.json",
-      "bytes": 117957,
-      "sha256": "190022f71c07846cc9fa26a6af1c6366efc78def5b16234053ba8d1527143c8c"
+      "bytes": 119794,
+      "sha256": "0794df8bc126618da394cbc9d4118f1692b1f35e22a7a9e75c85c3c8218b6613"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -285,8 +285,8 @@
     },
     {
       "path": "docs/RELEASE_BLOCKERS.txt",
-      "bytes": 9213,
-      "sha256": "015dea9eef5bba310a885e00b4ce556bccf5e9384c0418927067df8b2fd56cfe"
+      "bytes": 10647,
+      "sha256": "623568af511ed94712fcb28f0b4fced8cb0849746cb687a87cf29eb265408b4e"
     },
     {
       "path": "docs/RESEARCH_EXPERIENCE.txt",
@@ -300,8 +300,8 @@
     },
     {
       "path": "docs/REVIEW_STATUS.txt",
-      "bytes": 2352,
-      "sha256": "776697c722603f64b1d22211822759e00465f0bceca38a6442d613743bce3195"
+      "bytes": 3669,
+      "sha256": "cf4ed3da78775402b9b5d0ae8d20fd2cc39dc5c1bb16024d430388d32803a78b"
     },
     {
       "path": "docs/SCIENTIFIC_STORY.txt",
@@ -310,13 +310,13 @@
     },
     {
       "path": "docs/SCOPE_AND_PROVENANCE.txt",
-      "bytes": 14963,
-      "sha256": "effe00fe714344932b44247d56706c1614450940c33714ac364195b6985637c2"
+      "bytes": 16772,
+      "sha256": "e60aa2ae69d7ea3a6e5b54b6586aecf2cc979c762c1591fd0c9839d28fba8e9c"
     },
     {
       "path": "docs/SCREENING_SUMMARY.txt",
-      "bytes": 11452,
-      "sha256": "4728fdb402c8ff5bf21d2d9d6bb0c3299f29118069ebceb7a541f86d1ecda37d"
+      "bytes": 12946,
+      "sha256": "28a936dcc7006ac372b9b87b49d3856eabcd4726bf27a2877e3ac278510e5f0d"
     },
     {
       "path": "docs/VALIDATION.txt",
@@ -841,7 +841,7 @@
   ],
   "manifest_self_hash_policy": "Excluded from its own hash list; manifest hash recorded in external local verification",
   "blockers": [
-    "Owner review of exact staged documentation/license/inventory changes before commit and owner push",
+    "Owner review of exact status-only candidate bytes before any future commit or owner push; November 1 cleanup already published",
     "Finish required three-minute demo video and verify accessible URL; public repository required by supplied guide",
     "Original creation/reuse dates, chosen track and Indie/pre-existing-code eligibility remain unresolved",
     "Exact submission-form fields and any hosted-deployment requirement remain unverified",
@@ -866,7 +866,7 @@
     "review_status": "Local software/browser verification; independent scientific and publication review pending",
     "scope": "Local public/synthetic fixed-case research workbench and scientific showcase; no live provider contribution, laboratory execution or organism design"
   },
-  "base_public_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
+  "base_public_commit": "5e14721cce8568e0eeae67ed188fa3c5b5f8a8e4",
   "historical_validation_and_screening": {
     "tests": {
       "offline_unit_tests": 302,
@@ -1052,14 +1052,52 @@
     }
   },
   "current_validation": {
-    "status": "local_results_recorded_in_external_exact_stage_review",
-    "base_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
+    "status": "fresh_results_recorded_in_external_exact_candidate_review",
+    "base_commit": "5e14721cce8568e0eeae67ed188fa3c5b5f8a8e4",
     "exact_candidate_files": 167,
+    "changed_files": [
+      "README.md",
+      "docs/RELEASE_BLOCKERS.txt",
+      "docs/SCOPE_AND_PROVENANCE.txt",
+      "docs/SCREENING_SUMMARY.txt",
+      "docs/REVIEW_STATUS.txt",
+      "SOURCE_PROVENANCE.json",
+      "HANDOFF_MANIFEST.json"
+    ],
+    "unchanged_files": 160,
     "code_data_tests_media_changed": false,
     "provider_calls_performed": 0,
-    "software_license_selected": "MIT for original code/documentation only; separate component terms retained.",
-    "independent_review": "Not performed by this local reconciliation; implementer checks do not establish independent review.",
-    "rendered_browser": "Not run by this documentation reconciliation; controller/HTTP checks do not establish native rendering or transfer timing.",
-    "results_policy": "Fresh pass/fail/unrun outcomes and exact export hashes are recorded outside the repository. This field is not a self-asserted test pass; historical ZIP/local results remain separate."
+    "software_license_selected": "MIT for original code/documentation; separate component terms retained.",
+    "independent_review": "Not performed; software checks do not establish independent scientific review.",
+    "rendered_browser": "Not rerun for this documentation-only candidate.",
+    "results_policy": "External logs and exact outgoing hashes record fresh pass/fail/unrun outcomes. Historical approvals and checks remain unchanged."
+  },
+  "historical_prepublication_metadata_2026_11_01": {
+    "status": "documentation_cleanup_candidate_pending_owner_review",
+    "prepared_date": "2026-11-01",
+    "refresh": "Local reconciliation of the supplied ZIP documentation/MIT patch and six selected public-checkout metadata edits against 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. No application/data/test/asset/media changes; guide requirements corrected; owner review, component rights and Indie reuse eligibility remain open.",
+    "publication_approved": false,
+    "review_status": "Documentation cleanup and owner-selected original-code MIT; sole human contributor confirmed. Final patch review, reuse/track confirmation, remaining component rights, video and entry decisions pending.",
+    "scope": "Public/synthetic research-workspace code plus documentation. Documentary real Meta contribution is described; real packets, media and new provider execution are excluded.",
+    "blockers": [
+      "Owner review of exact staged documentation/license/inventory changes before commit and owner push",
+      "Finish required three-minute demo video and verify accessible URL; public repository required by supplied guide",
+      "Original creation/reuse dates, chosen track and Indie/pre-existing-code eligibility remain unresolved",
+      "Exact submission-form fields and any hosted-deployment requirement remain unverified",
+      "Current component-rights questions remain; MIT for original code/documentation and sole human contributor already confirmed",
+      "Manual timed/native-browser rehearsal, human usefulness and independent scientific review remain pending"
+    ],
+    "base_public_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
+    "current_validation": {
+      "status": "local_results_recorded_in_external_exact_stage_review",
+      "base_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
+      "exact_candidate_files": 167,
+      "code_data_tests_media_changed": false,
+      "provider_calls_performed": 0,
+      "software_license_selected": "MIT for original code/documentation only; separate component terms retained.",
+      "independent_review": "Not performed by this local reconciliation; implementer checks do not establish independent review.",
+      "rendered_browser": "Not run by this documentation reconciliation; controller/HTTP checks do not establish native rendering or transfer timing.",
+      "results_policy": "Fresh pass/fail/unrun outcomes and exact export hashes are recorded outside the repository. This field is not a self-asserted test pass; historical ZIP/local results remain separate."
+    }
   }
 }

@@ -1,3 +1,32 @@
+CURRENT PROVENANCE INTERPRETATION — NOVEMBER 2, 2026 (AMERICA/NEW_YORK)
+
+GitHub main and the fresh public clone agree at 5e14721cce8568e0eeae67ed188fa3c5b5f8a8e4.
+This includes the November 1 documentation/license reconciliation over 0987c1b.
+The six older local edits remain untouched in their original checkout; all their
+useful mappings and qualified narrative are already represented in this base.
+The five-scene focused walkthrough is retained and agrees with the shipped UI.
+
+This follow-up changes seven documentation/provenance/inventory files only.
+All 160 other files, including application code, tests, data, assets, notices,
+LICENSE and PUBLIC_FILES.txt, remain byte-identical to the published base.
+No private authoring source, separate prototype, local showcase extension,
+private research, media or real model packet is imported.
+
+Original source hashes, source-selection fields and prior approval records stay
+unchanged. The prior repository observation and preparation status are retained
+as historical records; current observations and candidate hashes are separate.
+The inventory remains 167 files, with 165 provenance mappings and a nonrecursive
+manifest policy. Fresh exact-candidate checks and findings stay in the external
+local review packet; they are not independent scientific or rights clearance.
+
+The recorded owner confirmation for the qualified later four-case Muse report
+is retained in local_documentation_reconciliation in SOURCE_PROVENANCE.json and
+the published November 1 review record. No additional run or authenticity claim
+is inferred. MIT for original code/documentation and the sole human contributor
+are confirmed; third-party terms and unresolved component rights remain separate.
+
+HISTORICAL NOVEMBER 1 PREPUBLICATION INTERPRETATION — retained verbatim below
+
 CURRENT PROVENANCE INTERPRETATION — NOVEMBER 1, 2026
 
 Remote main was verified at 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. The

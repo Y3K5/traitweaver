@@ -460,7 +460,7 @@
       "destination": "README.md",
       "source": "README.md",
       "source_sha256": "48bd81e91c4a69754d30551fb3ac3db3058b79c6d8223c1bc06f19992ca2ff24",
-      "candidate_sha256": "93dc8259589c48086da1dab4bdd6e8e1cd05630b2f6d8268f49f23678afbedce",
+      "candidate_sha256": "68715973ec40fef56941854b9bbb62611d1d1c288de53452fdc4f88194d786e4",
       "transformation": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "f08157896b1176a2cd121807eb2642a37e80297c2b73c00a4e5895dbcd5df3c6",
@@ -760,7 +760,7 @@
       "destination": "docs/SCREENING_SUMMARY.txt",
       "source": "docs/SCREENING_SUMMARY.txt",
       "source_sha256": "41d8ebab636d1ac24474f19b244c66efad9070d43fc5149b9269a633dfd91647",
-      "candidate_sha256": "4728fdb402c8ff5bf21d2d9d6bb0c3299f29118069ebceb7a541f86d1ecda37d",
+      "candidate_sha256": "28a936dcc7006ac372b9b87b49d3856eabcd4726bf27a2877e3ac278510e5f0d",
       "transformation": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "acf96b16be1b55190f99e2a22ae664e7158064bb4d0e9db20729a427201b67be",
@@ -812,7 +812,7 @@
       "destination": "docs/RELEASE_BLOCKERS.txt",
       "source": "docs/RELEASE_BLOCKERS.txt",
       "source_sha256": "75afb70ed173725c513e3f81c23d8f53177c12c38ec1c2ff4e092b5228b0474d",
-      "candidate_sha256": "015dea9eef5bba310a885e00b4ce556bccf5e9384c0418927067df8b2fd56cfe",
+      "candidate_sha256": "623568af511ed94712fcb28f0b4fced8cb0849746cb687a87cf29eb265408b4e",
       "transformation": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "a6889fb8a1553bc1a45262b04df9d03367696a1ac5ae5cac249d0e39d8b794b5",
@@ -864,7 +864,7 @@
       "destination": "docs/SCOPE_AND_PROVENANCE.txt",
       "source": "docs/SCOPE_AND_PROVENANCE.txt",
       "source_sha256": "ac2db93bebffd707e7ef3f3f688c11b3f0081eb0c5371c0e6295b26f7b9b911f",
-      "candidate_sha256": "effe00fe714344932b44247d56706c1614450940c33714ac364195b6985637c2",
+      "candidate_sha256": "e60aa2ae69d7ea3a6e5b54b6586aecf2cc979c762c1591fd0c9839d28fba8e9c",
       "transformation": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "3ce789f49ac01b9abf894ab1aac725d548254f40c6f9179d57bcc70608339bcc",
@@ -892,7 +892,7 @@
       "destination": "docs/REVIEW_STATUS.txt",
       "source": "docs/REVIEW_STATUS.txt",
       "source_sha256": "2f1937e644589f93f1d7c1185cb0fb455c125236ca83941b6e5348bf920add9a",
-      "candidate_sha256": "776697c722603f64b1d22211822759e00465f0bceca38a6442d613743bce3195",
+      "candidate_sha256": "cf4ed3da78775402b9b5d0ae8d20fd2cc39dc5c1bb16024d430388d32803a78b",
       "transformation": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "2f1937e644589f93f1d7c1185cb0fb455c125236ca83941b6e5348bf920add9a",
@@ -1709,13 +1709,15 @@
   },
   "source_fields_scope": "Top-level source_head/cached_origin_main/remote_refreshed and nested extension publication/approval fields are historical preparation observations. See current_repository_observation for the current remote check. They are not retrospectively rewritten.",
   "current_repository_observation": {
-    "checked_date_utc": "2026-11-01",
+    "checked_date": "2026-11-02",
+    "timezone": "America/New_York",
     "repository": "https://github.com/Y3K5/traitweaver",
     "visibility": "public",
-    "main_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
-    "documentation_patch_pushed": false,
+    "main_commit": "5e14721cce8568e0eeae67ed188fa3c5b5f8a8e4",
+    "documentation_patch_pushed": true,
+    "documentation_patch_commit": "5e14721cce8568e0eeae67ed188fa3c5b5f8a8e4",
     "submission_verified": false,
-    "scope": "Read-only remote verification and unpushed documentation cleanup; not owner approval or eligibility certification."
+    "scope": "Read-only GitHub branch refresh and clean public clone; the November 1 documentation/license update is published. No historical approval is rewritten."
   },
   "documentation_cleanup": {
     "date": "2026-11-01",
@@ -1777,5 +1779,38 @@
     "source_hash_policy": "Preserve original source_sha256 values and historical fields; update only current candidate hashes. No original authoring source reopened.",
     "commit_push_submission_performed": false,
     "retained_confirmed_batch_basis": "Explicit owner instruction during this reconciliation: retain qualified owner-reported completion, not independent provider authentication."
+  },
+  "historical_repository_observation_2026_11_01": {
+    "checked_date_utc": "2026-11-01",
+    "repository": "https://github.com/Y3K5/traitweaver",
+    "visibility": "public",
+    "main_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
+    "documentation_patch_pushed": false,
+    "submission_verified": false,
+    "scope": "Read-only remote verification and unpushed documentation cleanup; not owner approval or eligibility certification."
+  },
+  "submission_status_followup": {
+    "date": "2026-11-02",
+    "base_commit": "5e14721cce8568e0eeae67ed188fa3c5b5f8a8e4",
+    "changed_files": [
+      "README.md",
+      "docs/RELEASE_BLOCKERS.txt",
+      "docs/SCOPE_AND_PROVENANCE.txt",
+      "docs/SCREENING_SUMMARY.txt",
+      "docs/REVIEW_STATUS.txt",
+      "SOURCE_PROVENANCE.json",
+      "HANDOFF_MANIFEST.json"
+    ],
+    "scope": "Seven metadata/documentation files only; 167-file inventory unchanged, 160 other files byte-identical.",
+    "original_local_edits": "All six preserved unchanged; useful content already incorporated by the published base.",
+    "confirmation_basis": "Retain the recorded explicit owner confirmation in local_documentation_reconciliation.retained_confirmed_batch_basis. No private packets reopened or independent provider authentication performed.",
+    "historical_policy": "Existing source hashes, approval fields and preparation records retained verbatim; dated current state is separate.",
+    "new_provider_calls": 0,
+    "private_authoring_imported": false,
+    "separate_prototype_imported": false,
+    "committed": false,
+    "pushed": false,
+    "submitted": false,
+    "fresh_checks": "See external exact-candidate reconciliation records."
   }
 }

@@ -1,3 +1,27 @@
+CURRENT SCREENING SCOPE — NOVEMBER 2, 2026 (AMERICA/NEW_YORK)
+
+The candidate is derived solely from the refreshed public repository. Membership
+remains exactly 167 files. Seven documentation/provenance/inventory files change;
+the remaining 160 files retain their published hashes. Original local edits are
+preserved separately and are not copied over the current public tree.
+
+Screen the exact outgoing copy, including generated manifests and binary assets,
+and record all file hashes and findings in the external local review packet.
+Fresh offline test logs, pattern classifications and passed/failed/unrun checks
+belong to that packet; the dated records below are not substitutes for this pass.
+Retain findings for owner review without silently removing or rewriting content.
+Public author attribution, source accessions, privacy detectors and synthetic
+canaries must remain distinguishable from private data or real credentials.
+
+No private authoring files, research packets, media, credentials, local controls,
+separate prototype, or unreviewed local application changes are imported. Review
+reports, backups, test outputs and Git metadata stay outside the outgoing tree.
+No model call, dependency installation, staging, commit, push or upload is part
+of this reconciliation. Pattern screening is not proof of absence of all private
+facts or clearance of third-party rights. Publication remains an owner decision.
+
+HISTORICAL NOVEMBER 1 RECONCILIATION SCREEN — retained verbatim below
+
 CURRENT LOCAL RECONCILIATION SCREEN — NOVEMBER 1, 2026 UTC
 
 The candidate is limited to the supplied public base, the ZIP documentation/

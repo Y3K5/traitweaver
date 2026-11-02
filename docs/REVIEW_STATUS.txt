@@ -1,3 +1,25 @@
+CURRENT STATUS — NOVEMBER 2, 2026 (AMERICA/NEW_YORK)
+
+Refreshed public GitHub main: 5e14721cce8568e0eeae67ed188fa3c5b5f8a8e4.
+The MIT/contribution-ledger cleanup is published. Its November 1 preparation
+statements below are historical; their original approval fields are preserved.
+This seven-file status-only follow-up is local, unstaged and uncommitted.
+
+The six older local edits are preserved unchanged. Their useful five-scene demo
+instructions, source mappings and qualified model/test records are already in
+the published base. This candidate imports no private or separate prototype work.
+MIT for original code/documentation and sole human contributor Yuvraj Patel are
+confirmed. Component terms, rights, creation/reuse facts and entry review remain
+separate. The recorded owner-confirmed, owner-reported later batch status remains
+qualified; it is not independent provider authentication or new model permission.
+
+Fresh offline results and exact outgoing inventory/hashes/findings are recorded
+in the external local reconciliation packet. Historical software/browser results
+remain dated. No new human/scientific review, media verification, final video URL,
+event-rule confirmation, terms acceptance or submission is asserted here.
+
+HISTORICAL NOVEMBER 1 PREPUBLICATION STATUS — retained verbatim below
+
 CURRENT STATUS — NOVEMBER 1, 2026
 
 Observed public GitHub main: 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e.
