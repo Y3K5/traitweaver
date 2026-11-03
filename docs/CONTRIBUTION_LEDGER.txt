@@ -103,3 +103,13 @@ not approved fertilizer or evidence of general contaminant removal.
 existing review tests passed with the documented PYTHONPATH=src environment;
 an initial missing-module test invocation is retained outside this candidate.
 No new model calls, installations, uploads, commits or pushes.
+
+NOVEMBER 3 — TRAITWEAVER CLOUD EVIDENCE MAP
+Codex added a read-only intelligence evidence projection, interactive source and
+relationship inspection, accessible narrow/desktop layouts, explicit cycle
+provenance/purpose, and focused regression checks. Existing public science and
+Muse request/package contracts are unchanged. The user authorized Traitweaver-only
+cloud implementation, tests, screened commits and normal pushes; that permission
+does not cover another project, new model spending or hackathon submission.
+No new real Muse inference, biological validation or scientific source admission.
+This records the development date, not an independent event-eligibility judgment.

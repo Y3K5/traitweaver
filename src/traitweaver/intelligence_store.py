@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 import uuid
 
-from traitweaver import intelligence, study
+from traitweaver import evidence_map, intelligence, study
 from traitweaver.study_store import Conflict, MAX_BYTES, screen_export
 
 MAX_REVISIONS=128
@@ -60,7 +60,8 @@ class Journal:
         return {'catalog':deepcopy(self.bundle),'current':r,'history':[{'revision':v['revision'],'hash':v['hash'],'saved_utc':v['saved_utc'],'action':v['action']['type']} for v in self.history],
           'context_status':'not_saved' if r['state']['context'] is None else ('current' if r['state']['context']==ctx else 'needs_review'),
           'owning_context':ctx,'storage':'imported_read_only' if self.read_only else ('external_data_directory' if self.root else 'session_only_export_to_keep'),
-          'read_only':self.read_only,'live_enabled':False,'transport_calls':0}
+          'read_only':self.read_only,'live_enabled':False,'transport_calls':0,
+          'evidence_map':evidence_map.project(self.bundle,r['state']['scope']['target_endpoint'])}
 
     @classmethod
     def from_package(cls,value,bundle):

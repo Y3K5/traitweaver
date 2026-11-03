@@ -218,3 +218,16 @@ Software license remains undecided; retain font and split GFP attribution.
 Prior baseline design-rights confirmation is recorded without renewing it.
 Exact-file publication, independent release review and event submission remain
 separate owner decisions. See RELEASE_BLOCKERS.txt and tools/verify_handoff.py.
+
+November 3 cloud evidence-map slice: the initial checkout was clean and public
+main matched a6ac30f. Changes are limited to the read-only intelligence map,
+cycle presentation, tests and supporting release metadata. The outgoing text
+screen checks secret-shaped strings, personal filesystem paths, sensitive
+headers and email-like strings; only findings' categories/locations are logged.
+The initial changed-file screen found none. The final staged screen includes
+refreshed manifests and provenance; its exact result is retained outside this tree. No private
+study packet, model response, credential, screenshot or generated review export
+is included. Existing scientific sources and synthetic fixture bytes stay pinned.
+The owner explicitly authorized screened Traitweaver-only cloud commits and a
+normal push. This does not authorize another project, model spending or entry
+submission. A pattern screen cannot prove absence of every possible private fact.

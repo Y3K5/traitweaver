@@ -79,6 +79,7 @@ src/traitweaver/assistant_workspace.py
 src/traitweaver/completed_cycle.py
 src/traitweaver/completion_pilot.py
 src/traitweaver/evaluation_pilot.py
+src/traitweaver/evidence_map.py
 src/traitweaver/intelligence.py
 src/traitweaver/intelligence_muse.py
 src/traitweaver/intelligence_store.py
@@ -138,6 +139,7 @@ tests/test_assistant_evaluation.py
 tests/test_assistant_workspace.py
 tests/test_completed_cycle.py
 tests/test_data_flow_exports.py
+tests/test_evidence_map.py
 tests/test_handoff_verifier.py
 tests/test_intelligence.py
 tests/test_intelligence_handlers.py

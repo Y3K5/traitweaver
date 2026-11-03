@@ -1,3 +1,10 @@
+**November 3 evidence map:** open **Muse intelligence** to trace endpoints →
+observations → sources and inspect the qualified PSR1 reference connections.
+Browsing is read-only; the saved scope still drives the existing decision → local
+check → separate reassessment workflow. Synthetic and imported response labels
+remain explicit. Start with `python3 -B run_workspace.py --demo`; no new model
+call or key is needed. See [the evidence-map guide](docs/INTELLIGENCE_LAYER.txt).
+
 **November 2 release review:** run `python3 -B run_workspace.py --demo`, then choose
 **Finish & review study**. Trace evidence and reference mappings, organize proposed
 traits, import typed existing records, record a content-bound human judgment and

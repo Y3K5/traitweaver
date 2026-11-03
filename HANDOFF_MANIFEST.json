@@ -1,11 +1,11 @@
 {
   "schema_version": "traitweaver.final_repository_handoff.v1",
-  "status": "release_documentation_reconciliation_pending_owner_review",
-  "prepared_date": "2026-11-02",
-  "refresh": "Documentation-only reconciliation of published status, contributions, unresolved rights and real/synthetic/teaching demo labels over febe18b0.",
-  "publication_approved": false,
+  "status": "traitweaver_cloud_evidence_map_screened_for_publication",
+  "prepared_date": "2026-11-03",
+  "refresh": "Read-only intelligence evidence map and cycle provenance over a6ac30f; scientific fixtures and saved contracts unchanged.",
+  "publication_approved": true,
   "claude_review_performed": false,
-  "review_status": "Local uncommitted documentation; no commit, push, final video, eligibility, rights clearance or submission approval granted.",
+  "review_status": "Owner authorized screened Traitweaver-only cloud build and normal push. No provider spending, biological validation, event submission or rights-clearance approval.",
   "scope": "Public/synthetic research-workspace code plus documentation. Documentary real Meta contribution is described; real packets, media and new provider execution are excluded.",
   "files": [
     {
@@ -25,18 +25,18 @@
     },
     {
       "path": "PUBLIC_FILES.txt",
-      "sha256": "33dd79b89708c6a3a60d119aa498d6d1a7b4a7aea1c8326535485f02e9b73dfe",
-      "bytes": 5715
+      "sha256": "82bd5a1416eba08ec22ee3a112937057b28e7c92890058d6dd95b174a986fdb1",
+      "bytes": 5774
     },
     {
       "path": "README.md",
-      "sha256": "d68d1bcafb87056b48e12c6aefaa07b7ad25ff065e8a46c9d8cafd81800ce96c",
-      "bytes": 18385
+      "sha256": "18f294b11d30ef3e41357917a1486e567026776d2e9c5b6b374fe6d288a4a22d",
+      "bytes": 18870
     },
     {
       "path": "SOURCE_PROVENANCE.json",
-      "sha256": "5a76b5d97ed6bac0d4319a91b534ade9a7225f7ea96c46447d39adb0b99c34b2",
-      "bytes": 135484
+      "sha256": "06b58b4eedcd8f3c60a7d73b375ced41c5b60727a735b3c0eb51c062afb33510",
+      "bytes": 146582
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -235,8 +235,8 @@
     },
     {
       "path": "docs/CONTRIBUTION_LEDGER.txt",
-      "sha256": "d2713fd09c78e6f29e600841a659dcea16a5787b79dd8eaea09052159ff3295a",
-      "bytes": 7023
+      "sha256": "48a6d6db9dca4044a2e09492b4aa3161e4efb3932116a1dd3ec4091e6f4b2e13",
+      "bytes": 7709
     },
     {
       "path": "docs/DATA_FLOW.txt",
@@ -265,8 +265,8 @@
     },
     {
       "path": "docs/INTELLIGENCE_LAYER.txt",
-      "sha256": "f00f8a50656f55ea0126c115e3eedbb2177ff33d2e2cea21554ab027bfcf341c",
-      "bytes": 9350
+      "sha256": "377fd798d60110b157f25f9af92c8c719650e594bb5aac1af253d31686b11965",
+      "bytes": 12182
     },
     {
       "path": "docs/LIVE_RUN_SUMMARY.txt",
@@ -335,13 +335,13 @@
     },
     {
       "path": "docs/SCREENING_SUMMARY.txt",
-      "sha256": "058b4c2f93a98f7d1074e70bf3907526ec401b5d0699c92f6fc2cc6dd3d3bd3c",
-      "bytes": 13656
+      "sha256": "1810c9e1cf732ff9df6690fe03fff255bc6e5ad733712856fb4db08fbee5e80a",
+      "bytes": 14616
     },
     {
       "path": "docs/VALIDATION.txt",
-      "sha256": "238801d3d4b372f6c08062f681312d51bfe78b9028a7ea045fc37e8bf0c1d71c",
-      "bytes": 33396
+      "sha256": "b8c734e6be867c6da392ee6fd07b152cf9946f382d5f51863936718bca157c8c",
+      "bytes": 35261
     },
     {
       "path": "docs/WHAT_WE_BUILT.txt",
@@ -409,6 +409,11 @@
       "bytes": 11211
     },
     {
+      "path": "src/traitweaver/evidence_map.py",
+      "sha256": "8443f6d7f47ca03c1608dfcc8f1745ed6ef24f36eff2e7c89ad9c5dea91efe83",
+      "bytes": 7271
+    },
+    {
       "path": "src/traitweaver/intelligence.py",
       "sha256": "bcb809d3aea942939bb219df82d3784ccdf18966f312a48450b70475e6010646",
       "bytes": 17655
@@ -420,8 +425,8 @@
     },
     {
       "path": "src/traitweaver/intelligence_store.py",
-      "sha256": "1610ed632440d7e2a69ec55bc36e7896985d9b65eeba3ac98ea2349805b579d8",
-      "bytes": 7306
+      "sha256": "72b19b19f95ab7ce72408b8be2222bb93c8a71385c78b5e9e6c062e2649de613",
+      "bytes": 7419
     },
     {
       "path": "src/traitweaver/molecular.py",
@@ -550,13 +555,13 @@
     },
     {
       "path": "src/traitweaver/web/intelligence-ui.js",
-      "sha256": "8478e70cbc252f5a60bcfb9e28d4f34dea9c402769d5ce8961e33e89f7a46728",
-      "bytes": 21988
+      "sha256": "c772fc8ea9546b57019eb538e206dddd8096a4f7ba9eca74985d7555cf804d1d",
+      "bytes": 29096
     },
     {
       "path": "src/traitweaver/web/intelligence.css",
-      "sha256": "a3aa18aed8e2e3e5d5170aae66de2ca12279c7c32a27d24b049e49877869a1fa",
-      "bytes": 2202
+      "sha256": "14d0fbf9f92c4e5567f0641f835cfa7b5a040885160dac1c4d8fd1a51024bc27",
+      "bytes": 4232
     },
     {
       "path": "src/traitweaver/web/journey-ui.js",
@@ -655,8 +660,8 @@
     },
     {
       "path": "tests/intelligence_ui_offline.cjs",
-      "sha256": "d4f50952289c12664d347276dd16458accf1a389119793952c77b7310864f6e9",
-      "bytes": 13052
+      "sha256": "42a0765775e635f4d2f8880a04aaac8348990d04306416ca61a1884b54a9ab85",
+      "bytes": 14823
     },
     {
       "path": "tests/journey_ui_offline.cjs",
@@ -702,6 +707,11 @@
       "path": "tests/test_data_flow_exports.py",
       "sha256": "708ec5363dfe356118112fde599e74104941355cb4890b05a12b50b826eea966",
       "bytes": 4314
+    },
+    {
+      "path": "tests/test_evidence_map.py",
+      "sha256": "8f4415fd81d52a2d0a26b9e9d07fa91bd2e9d144b3ed4ef6a09ab41199d978a3",
+      "bytes": 6300
     },
     {
       "path": "tests/test_handoff_verifier.py",

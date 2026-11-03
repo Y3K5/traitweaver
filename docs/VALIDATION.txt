@@ -514,3 +514,31 @@ Desktop and 390px layouts, keyboard scene navigation and saved real provenance
 were browser-verified. Local edited video plays: 180.046 seconds, installed local
 Samantha narration. No new provider calls. Manual human timing, comprehension,
 scientific usefulness and publication review remain pending.
+
+NOVEMBER 3 — CLOUD EVIDENCE-MAP VALIDATION
+Baseline: clean work branch at a6ac30f1e3861d96c4f369a86b44fb6b63b91615;
+public main independently matched that commit before implementation. The baseline
+Python suite passed 410 tests. New projection acceptance checks passed 8 tests.
+The final aggregate Python suite passed all 418 tests in 146.886 seconds.
+
+All nine offline UI controller suites passed: 258 scenarios in total, including
+33 intelligence scenarios (7 new map/provenance/navigation/reopen checks). Actual
+Python handlers run behind the memory DOM; this alone is not browser validation.
+Both loopback HTTP suites passed (28 workspace and 21 completed-cycle checks).
+The five pinned primary public-reference records and derivation checks passed.
+
+Separately, installed Chromium/Playwright exercised the actual application at
+1440px and 390px widths. Passed: missing recovery display, exact source locator
+and UVM4 observation context, mutation-free graph browsing, keyboard source
+selection and inspector focus, public-source link, explicit synthetic decision,
+actual registered local check, separate reassessment, native JSON download,
+file-picker read-only reopen, reload preservation and no horizontal overflow.
+No page errors or external browser requests were observed. Browser artifacts
+and generated review JSON stayed outside the publishing tree. An initial browser
+harness wait used CSP-blocked string evaluation; the harness was corrected to
+wait on visible DOM states, without changing the application's CSP. The completed
+browser run passed. Other browsers and a human-timed demo remain untested here.
+
+No new provider request, key access, biological experiment or arbitrary source
+admission occurred. Tests establish software behavior, not biological validity,
+source entailment, real-model usefulness, event eligibility or rights clearance.

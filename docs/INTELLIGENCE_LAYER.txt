@@ -149,3 +149,45 @@ The browser-downloaded file passed the existing privacy-pattern screen. No live
 provider call, key access, new model/local check, install, upload, commit or push.
 The prior 202 Python tests / 113 controller scenarios remain the preceding
 qualification, not a newly rerun suite. Relevant controllers were rerun separately.
+
+NOVEMBER 3 — READ-ONLY EVIDENCE MAP
+The Muse intelligence view now projects the unchanged admitted catalog as a typed
+map: endpoint -> observation -> published source, with a separate gene-level
+publication association -> CC-503 reference chain. Select an endpoint to browse,
+then select a record to inspect incoming/outgoing relationships and their exact
+provenance. Browsing does not save scope, prepare a payload or execute a check.
+The saved scope remains visible and governs the existing decision/check workflow.
+
+Reported means, SE, n, independent units, measurement basis, source location and
+organism/background are retained together. Qualitative overplus observations keep
+their own strain/condition context; medium phosphate removal remains distinct
+from uptake and recovered product. Missing cellular/recovered-product records
+are coverage gaps: count zero, effect unknown. The PSR1 candidate has no invented
+edge to the overplus paper or a recovered-product outcome. Reference annotations,
+gene-level identity association and offline sequence agreement have separate
+relationship types. RefSeq PROVISIONAL and UniProt unreviewed status persist.
+If reference validation fails, exact reference nodes are unavailable while
+independently admitted publication observations remain inspectable.
+
+The inspector uses keyboard-operable native buttons; selecting a record focuses
+its details, and narrow screens stack the columns. Continue to decision, check
+and reassessment moves focus without changing route or running anything.
+The decision's purpose and synthetic/imported-unverified provenance are now shown
+beside the saved cycle, including a separate provenance label for reassessment.
+These intelligence records never inherit a saved-real label from an original
+algae cycle. No new Muse call was made for this development.
+
+Implementation: evidence_map.py is a pure view projection of the already
+validated intelligence catalog. It is returned with the workspace view and
+reconstructed on reopen. No scientific source, catalog, model payload or saved
+package/revision schema changed. JSON export retains the original catalog and
+history; importing it validates the existing contract before rebuilding the map.
+There is no graph importer, arbitrary source discovery, new tool or live sender.
+
+Acceptance checks: source/edge resolution; exact observation preservation;
+zero versus missing; uptake/removal/recovery separation; UVM4 versus CC-503;
+missing/mismatched reference failure; unchanged package and request bytes;
+read-only navigation; keyboard inspection; actual local check and separately
+labelled reassessment; native browser download/reopen and refresh. Existing
+intelligence tests additionally cover contradictory growth margins, unsafe
+imports, stale decisions and no tool dispatch during package reopening.
