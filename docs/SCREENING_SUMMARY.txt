@@ -254,3 +254,14 @@ the external cloud review packet before publication. Raw owner identifiers/notes
 and raw provider replies are not included in the new preview. Local consistency
 and a clean content screen do not establish provider authenticity or biological
 validity. No live call, spending approval or event submission follows.
+
+November 3 UTC offline v2 slice: base public main is 0565773. Changes comprise
+the independent history-informed request/review module, same-origin session
+handlers, explicit-review UI, focused tests and supporting documentation/metadata.
+The outgoing full-content and staged-tree screen is recorded with exact hashes
+outside the repository. Generated review packages, browser downloads/screenshots,
+fake provider outputs and logs are excluded. The v2 wire projection excludes
+owning identifiers/notes and raw model content; local review exports embed their
+owning v1 history and require separate scrutiny before external sharing. No
+private source or real provider packet was used in this public implementation.
+Existing scientific data and v1 request/package bytes remain pinned.

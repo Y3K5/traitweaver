@@ -45,6 +45,15 @@ rules are deterministic application logic. They are not new Muse output, and the
 unchanged v1 model payload does not contain that preview. Preventing redundant
 local checks is software behavior, not evidence of model adaptation.
 
+A separate v2 request now includes that reviewed history for a proposed next
+selection: prior decisions, exact saved results, reassessments and unresolved
+requirements. Its closed schema excludes already checked/failed inputs and adds
+explicit result/requirement references. Development used synthetic fixtures only;
+the v2 request was not sent to Meta. Local validation yields a proposal review,
+not an accepted cycle or executed check. Imported replies remain unverified.
+Correct references or a forced single eligible choice do not establish model
+understanding, adaptive planning or independent scientific usefulness.
+
 The source summary reports 5,939 input and 1,413 output tokens, including 1,315
 reasoning tokens, with a USD 0.013429 token-cost estimate. These are documentary
 figures, not independently authenticated provider usage, a verified invoice,

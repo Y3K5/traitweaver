@@ -1,11 +1,11 @@
 {
   "schema_version": "traitweaver.final_repository_handoff.v1",
-  "status": "traitweaver_cloud_continuation_screened_for_publication",
+  "status": "traitweaver_cloud_offline_muse_v2_screened_for_publication",
   "prepared_date": "2026-11-03",
-  "refresh": "Source-bound local continuation preview and repeat-admission policy over e2bec6bf; historical v1 request/schema/package bytes preserved.",
+  "refresh": "Distinct offline history-informed next-selection request and proposal-review artifact; exact human acknowledgment, eligible-only choices, prior result/requirement references and read-only archives. Original v1 contracts retained.",
   "publication_approved": true,
   "claude_review_performed": false,
-  "review_status": "User authorized continued screened Traitweaver-only cloud development and normal publication. Parallel Codex technical/UX review plus offline and browser checks completed; human scientific/usefulness and entry decisions remain separate.",
+  "review_status": "User authorized retry and continued screened Traitweaver-only cloud development with normal publication. Parallel Codex technical/UX review and offline/native checks completed; human scientific/usefulness, live-model payload/cost and event entry remain separate.",
   "scope": "Public/synthetic research-workspace code plus documentation. Documentary real Meta contribution is described; real packets, media and new provider execution are excluded.",
   "files": [
     {
@@ -25,18 +25,18 @@
     },
     {
       "path": "PUBLIC_FILES.txt",
-      "sha256": "d1f26c44c59822bbec2d21c336765b175786fecad04e90c8de55e3fbdc9ecbe2",
-      "bytes": 5859
+      "sha256": "0803d70cae6d3556b19f669ad6dfba1d7a813fb293f7f7646850686cd022f2ba",
+      "bytes": 5934
     },
     {
       "path": "README.md",
-      "sha256": "4bba106990d5c989053f45c9c649fd82a34f2157e1675f84aca2ccdae30af058",
-      "bytes": 19970
+      "sha256": "3f6214f7b48536f8e748b6418115c40ade2bf4159a31e8b63ede86d71af9beeb",
+      "bytes": 20606
     },
     {
       "path": "SOURCE_PROVENANCE.json",
-      "sha256": "14d66067f4becac18015f775d4b1a6c49d15eaa217e3a41f13804abea75ad04b",
-      "bytes": 174668
+      "sha256": "5dfcbd67356d3a3206ff271583eb8775eb68ab75a9ee254b2198ca2282de282f",
+      "bytes": 189391
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -235,8 +235,8 @@
     },
     {
       "path": "docs/CONTRIBUTION_LEDGER.txt",
-      "sha256": "f246078ad3aa82c40530c1a1957b09ea084d430f66379e642571e8a386ac64a7",
-      "bytes": 9674
+      "sha256": "80d498e28f51207dbf88d0b98642733c14bcd358a4f944ba5c4a34cd9ae3d7f6",
+      "bytes": 10603
     },
     {
       "path": "docs/DATA_FLOW.txt",
@@ -245,8 +245,8 @@
     },
     {
       "path": "docs/DEMO_RELEASE_3_MIN.txt",
-      "sha256": "34cc1c0ee35617cb184a99c5c67cc06670034db42d01f51548d9ad7a3e485bb0",
-      "bytes": 5089
+      "sha256": "e419b6af3d6abb330598d2888536ea189dbfcaf97d55b9603f840485451d002a",
+      "bytes": 5429
     },
     {
       "path": "docs/DEMO_SCRIPT_3_MIN.txt",
@@ -265,8 +265,8 @@
     },
     {
       "path": "docs/INTELLIGENCE_LAYER.txt",
-      "sha256": "b9edace581eaa019aca94dc423770c9a4b75c31a702a25b7f08486264260e39c",
-      "bytes": 17184
+      "sha256": "05cf7bc910dc81cf7efbde055393e70c37fb9992f660ea0e677862ef47fa2fe1",
+      "bytes": 22089
     },
     {
       "path": "docs/LIVE_RUN_SUMMARY.txt",
@@ -275,8 +275,8 @@
     },
     {
       "path": "docs/META_CONTRIBUTION.md",
-      "sha256": "ce8b949b85bd391594bc013542e29ed9fc2c5c49bcc9187d8b327364bdf1947e",
-      "bytes": 6212
+      "sha256": "daf2cbd2b730198a605026516075ec21b82955489ef7af82da5b0c2acd0ca36d",
+      "bytes": 6835
     },
     {
       "path": "docs/MOLECULAR_WORKSPACE.txt",
@@ -335,13 +335,13 @@
     },
     {
       "path": "docs/SCREENING_SUMMARY.txt",
-      "sha256": "d2701b24f2019333e7e938d0574ce1a42999366cc225de8758ac3b5cbc5e5cc6",
-      "bytes": 16287
+      "sha256": "c0c6bc64f03d64cc484c3d2e8a52a162e190833a45d251d84f50c3d9d77c86c3",
+      "bytes": 17069
     },
     {
       "path": "docs/VALIDATION.txt",
-      "sha256": "429652cb2bccb911a5d975712efad470ad98cc8d752a06b2a9fe0a2362f598a0",
-      "bytes": 39669
+      "sha256": "bbd73a949f3eab542e69b2f83c2efc143a515b72286a61f08b5690668d725248",
+      "bytes": 42195
     },
     {
       "path": "docs/WHAT_WE_BUILT.txt",
@@ -427,6 +427,11 @@
       "path": "src/traitweaver/intelligence_muse.py",
       "sha256": "e9af5cf5620a7384b021dd5c9dabbda3f17397e5c1a558ffc3dc2742df5ec94a",
       "bytes": 11819
+    },
+    {
+      "path": "src/traitweaver/intelligence_muse_v2.py",
+      "sha256": "8db62fde2676e006754872a0a9a2c03c5de4b1f0817a2c9691c37d4020e22a40",
+      "bytes": 17631
     },
     {
       "path": "src/traitweaver/intelligence_store.py",
@@ -560,13 +565,13 @@
     },
     {
       "path": "src/traitweaver/web/intelligence-ui.js",
-      "sha256": "ea11c4b1f830cad078cdebb9d593eed743c5082e094d246884a52f6b11959ca2",
-      "bytes": 33857
+      "sha256": "6c47b4561f4b70c2a917cba3fa28112752179a560a3b49510f316c0756dba51f",
+      "bytes": 47506
     },
     {
       "path": "src/traitweaver/web/intelligence.css",
-      "sha256": "e090b571ce10f420d33fb50daff1b2ff88ace07bf84c0c3dd66d0141ac6741c9",
-      "bytes": 4955
+      "sha256": "57afafe38e11e80d7f097b0f274a39ab9eba399a18aa4ca53a5244624064ae54",
+      "bytes": 6454
     },
     {
       "path": "src/traitweaver/web/journey-ui.js",
@@ -630,8 +635,8 @@
     },
     {
       "path": "src/traitweaver/workspace_server.py",
-      "sha256": "601179aa4a379423c5ec483aa87a89dcba30efd981bb292d7ee9608a0c1e1e4f",
-      "bytes": 39611
+      "sha256": "4c58bb1e5e31d0c1732159d9958b5f6fd306fad839439e49927c8b6115d4a707",
+      "bytes": 42262
     },
     {
       "path": "tests/assistant_ui_offline.cjs",
@@ -665,8 +670,8 @@
     },
     {
       "path": "tests/intelligence_ui_offline.cjs",
-      "sha256": "f7a2a554f1ad88423a1e24df06992fe475a4e3b83724a9b0f8ffea01a3b7747f",
-      "bytes": 17611
+      "sha256": "6b5d2e25ef35bc72eb087be5c3bd3e9cf74a6514efc2e8e955cef93875402097",
+      "bytes": 20775
     },
     {
       "path": "tests/journey_ui_offline.cjs",
@@ -735,8 +740,13 @@
     },
     {
       "path": "tests/test_intelligence_handlers.py",
-      "sha256": "1b3d171465b1d980d7795eb064873a976cea78f46c7c01b9f5fa9492026d917c",
-      "bytes": 10942
+      "sha256": "0ebbb64a2a40c4a923360f18c39b1fc4470fc621525ef1f71a4da963e69bf4fe",
+      "bytes": 15808
+    },
+    {
+      "path": "tests/test_intelligence_muse_v2.py",
+      "sha256": "a5fd0a0fa4f6659a428040bf2a382950a2f2d5041358fb616482c3647881ecd5",
+      "bytes": 15977
     },
     {
       "path": "tests/test_molecular.py",
@@ -929,7 +939,7 @@
     "review_status": "Local software/browser verification; independent scientific and publication review pending",
     "scope": "Local public/synthetic fixed-case research workbench and scientific showcase; no live provider contribution, laboratory execution or organism design"
   },
-  "base_public_commit": "e2bec6bf3d8655671f49d1822ea3b5b9c898f348",
+  "base_public_commit": "056577379c188784d1cec60276774a5e8a966123",
   "historical_validation_and_screening": {
     "tests": {
       "offline_unit_tests": 302,
@@ -1115,20 +1125,28 @@
     }
   },
   "current_validation": {
-    "base_commit": "e2bec6bf3d8655671f49d1822ea3b5b9c898f348",
-    "exact_candidate_files": 180,
-    "python_suite": {
-      "tests": 436,
+    "base_commit": "056577379c188784d1cec60276774a5e8a966123",
+    "exact_candidate_files": 182,
+    "python_full_suite": {
+      "tests": 456,
       "status": "passed",
-      "seconds": 152.441
+      "seconds": 166.698
     },
-    "controller_scenarios": 283,
-    "intelligence_scenarios": 39,
+    "python_final_v2_suite": {
+      "tests": 17,
+      "status": "passed",
+      "seconds": 4.605,
+      "new_regressions_after_full_suite": 2
+    },
+    "unique_python_tests_qualified": 458,
+    "controller_scenarios": 291,
+    "intelligence_scenarios": 47,
     "loopback_checks": 49,
     "source_pins": "passed",
     "rendered_browser": {
       "status": "passed",
-      "checks": 30,
+      "workflow_checks": 23,
+      "readonly_owner_checks": 9,
       "engine": "installed Chromium via Playwright",
       "viewports": [
         [
@@ -1140,16 +1158,16 @@
           844
         ]
       ],
-      "two_synthetic_cycles": true,
-      "blocked_repeats": true,
-      "native_download_reopen_refresh": true,
+      "v1_unchanged": true,
+      "native_download_reopen": true,
       "page_errors": 0,
-      "external_requests": 0
+      "external_requests": 0,
+      "imported_response_test": "Locally constructed fixture for the imported-unverified branch; no real provider packet."
     },
     "new_provider_calls": 0,
     "scientific_inputs_changed": false,
     "v1_request_and_package_contracts_changed": false,
-    "scope": "Software verification and synthetic browser exercise only; no private real-packet inspection, provider authentication, independent scientific validation or evidence of adaptive Muse planning."
+    "scope": "Software and synthetic browser tests only; no private packet, provider compatibility test, scientific validation or demonstration of model adaptation."
   },
   "historical_prepublication_metadata_2026_11_01": {
     "status": "documentation_cleanup_candidate_pending_owner_review",
@@ -1309,6 +1327,56 @@
       "scientific_inputs_changed": false,
       "model_request_and_saved_contracts_changed": false,
       "scope": "Software and synthetic-display checks only; no private saved-real record opened, provider authentication, independent scientific review or biological validation."
+    },
+    "blockers": [
+      "No final three-minute video supplied and checked; final media/rights/access review and link remain open.",
+      "Original creation/reuse facts, final track/representative and Indie reuse eligibility remain unresolved.",
+      "Remaining component/design/GFP/media rights and exact submission-form/terms decisions remain open.",
+      "Human-timed demonstration, comprehension and independent scientific/usefulness review remain pending."
+    ]
+  },
+  "historical_before_cloud_muse_v2": {
+    "status": "traitweaver_cloud_continuation_screened_for_publication",
+    "prepared_date": "2026-11-03",
+    "refresh": "Source-bound local continuation preview and repeat-admission policy over e2bec6bf; historical v1 request/schema/package bytes preserved.",
+    "review_status": "User authorized continued screened Traitweaver-only cloud development and normal publication. Parallel Codex technical/UX review plus offline and browser checks completed; human scientific/usefulness and entry decisions remain separate.",
+    "base_public_commit": "e2bec6bf3d8655671f49d1822ea3b5b9c898f348",
+    "current_validation": {
+      "base_commit": "e2bec6bf3d8655671f49d1822ea3b5b9c898f348",
+      "exact_candidate_files": 180,
+      "python_suite": {
+        "tests": 436,
+        "status": "passed",
+        "seconds": 152.441
+      },
+      "controller_scenarios": 283,
+      "intelligence_scenarios": 39,
+      "loopback_checks": 49,
+      "source_pins": "passed",
+      "rendered_browser": {
+        "status": "passed",
+        "checks": 30,
+        "engine": "installed Chromium via Playwright",
+        "viewports": [
+          [
+            1440,
+            1000
+          ],
+          [
+            390,
+            844
+          ]
+        ],
+        "two_synthetic_cycles": true,
+        "blocked_repeats": true,
+        "native_download_reopen_refresh": true,
+        "page_errors": 0,
+        "external_requests": 0
+      },
+      "new_provider_calls": 0,
+      "scientific_inputs_changed": false,
+      "v1_request_and_package_contracts_changed": false,
+      "scope": "Software verification and synthetic browser exercise only; no private real-packet inspection, provider authentication, independent scientific validation or evidence of adaptive Muse planning."
     },
     "blockers": [
       "No final three-minute video supplied and checked; final media/rights/access review and link remain open.",

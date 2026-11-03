@@ -605,3 +605,39 @@ experiment was used. The new preview is local deterministic logic and is not
 included in v1 Muse payloads. Human scientific/usefulness review, a checked final
 video and adaptive-model evidence remain open. Same-input failed checks stop for
 review; this slice does not add a repair/retry approval workflow.
+
+NOVEMBER 3 UTC — OFFLINE MUSE NEXT-SELECTION REQUEST V2
+Base local/public main: 056577379c188784d1cec60276774a5e8a966123.
+The full Python suite passed 456 tests in 166.698 seconds. Two final regressions
+were then added for a reassessed failed first result and read-only owning history;
+the final focused v2 suite passed all 17 tests in 4.605 seconds. This qualifies
+458 unique Python tests across the aggregate and focused runs, not a second full
+458-test run. Five new handler tests cover exact acknowledgment, current revision
+identities, no dispatch/v1 mutation, duplicate rejection, stale read-only reopening,
+same-origin controls and independent use beside the completed original cycle.
+
+All nine UI suites passed 291 scenarios, including 47 intelligence scenarios.
+Both loopback HTTP suites passed 49 checks; five primary source pins and their
+derivations passed unchanged. Existing v1 request fingerprint and historical
+package equality remain explicitly tested. V2 tests cover actual prior records,
+source/claim roles, only-eligible schemas, one-option constraints, exact references,
+altered/rehashable lineage, failed/unfinished/exhausted states, malformed responses,
+unknown versus zero usage, human-acknowledgment types and bounded archive failure.
+
+Native Chromium passed 23 workflow assertions at 1440x1000 and 390x844: original
+synthetic v1 cycle, exact-preview acknowledgment/reset, v2 request containing two
+eligible options, synthetic proposal, imported-unverified branch using a locally
+constructed response fixture, request/review downloads, read-only reopen, changed
+scope/stale applicability and archive selection. All v2 actions left v1 bytes
+unchanged; original demo records were unchanged. Nine additional native assertions
+verified that reopening the identical owning v1 package read-only disables v2
+controls even when lineage still matches. No errors, overflow, external browser
+requests or check dispatch from v2/reopen. Screenshots, exports and logs are external.
+
+Technical review found no substantive lineage/privacy/dispatch defect. A UI
+read-only-owner guard was aligned with the server, with controller and native
+regressions passing. Provider acceptance of the new schema remains untested;
+no live model, key, private research packet or laboratory work was used. Typed
+references and synthetic compliance do not establish adaptation or scientific
+usefulness. V2 execution approval/dispatch and a real evidence-sensitive model
+evaluation remain separate work and authorization boundaries.

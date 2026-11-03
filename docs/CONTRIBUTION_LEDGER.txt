@@ -140,3 +140,16 @@ unchanged. UI options change focus only and require explicit acceptance/executio
 failed inputs stop for review. Tests cover compatibility, failures, stale/tampered
 lineage, two cycles and no-dispatch reopen. No new Muse request or adaptive-model
 claim, private data, source admission or laboratory protocol is introduced.
+
+NOVEMBER 3 UTC — OFFLINE HISTORY-INFORMED MUSE REQUEST V2
+Codex added a distinct next-selection request and proposal-review package with
+exact-preview acknowledgment, prior decision/result/reassessment context,
+source-linked unresolved requirements, eligible-check constraints and explicit
+result/requirement citations. Local typed response validation retains synthetic
+or imported-unverified provenance and never writes a v1 decision or dispatches
+a check. A bounded session archive preserves earlier v2 artifacts; reopening
+validates archived source history and separately labels current applicability.
+The UI supports preparation, exact request download, synthetic/imported proposal
+review, export and read-only reopening. Existing v1 records, request hashes,
+scientific fixtures and provider transports are unchanged. No real v2 model call,
+private packet, source admission, scientific validation or laboratory execution.

@@ -261,6 +261,78 @@ not validate it. Raw owner identifiers/notes and raw model replies are excluded.
 The view has the existing bounded-history/package-size limit and never silently
 truncates cycles. This establishes local consistency, not provider authentication.
 
-Next gap: a separately versioned model request could carry a reviewed bounded
-summary and demonstrate changed choices under changed evidence. This preview does
-not establish adaptive Muse planning, source entailment or scientific usefulness.
+At that checkpoint, a separate model-request version remained to be implemented.
+The offline contract below now carries reviewed history; neither software
+validation nor synthetic fixtures establish adaptive Muse planning, source
+entailment or scientific usefulness.
+
+NOVEMBER 3 UTC — OFFLINE NEXT-SELECTION REQUEST V2
+The separate traitweaver.intelligence_request.v2 contract carries the current
+reviewed continuation into a proposed next Muse selection. The owning v1 journal,
+request bodies, response schemas and historical packages are unchanged. V2 never
+manufactures a v1 receipt, accepts a v1 cycle or executes a local check.
+
+WORKFLOW
+1. Save scope and complete an original intelligence decision/check/reassessment.
+   A reassessed failed result is retained as a software failure; other unchecked
+   audits may remain eligible, but its failed inputs cannot be retried here.
+2. Inspect the exact continuation, source roles and eligible choices. A fresh,
+   unchecked acknowledgment binds the current preview. Scope, focus or preview
+   changes clear the browser acknowledgment. Server preparation requires the
+   exact current preview hash and boolean acknowledgment; this records local
+   preparation review, not scientific approval, identity authentication or spend.
+3. Prepare and inspect/download the exact v2 request. It is unsent. The body
+   includes controlled public scope/catalog, original prior selections, actual
+   saved results, separate reassessments, claim qualifications and unresolved
+   requirements. Owning study identifiers, timestamps, notes, raw model replies
+   and raw reasoning are excluded from the wire input. Historical provenance and
+   original scope remain explicit; stale findings are not made current.
+4. Choose an eligible check for a visibly synthetic fixture, or validate a saved
+   response for this exact request locally. Only a typed proposal and receipt
+   persist. Synthetic fixtures are deterministic examples, never Muse inference.
+   Imported responses remain authenticity-unverified, never automatically real.
+5. Export the independent traitweaver.intelligence_next_review.v2 package. It
+   includes unchanged owning v1 source history, exact request and optional typed
+   proposal review. This local artifact is broader than the provider wire body;
+   inspect its owning-history identifiers before any external sharing.
+
+The response schema and server admit only eligible check IDs, exact controlled
+arguments, qualified claim codes/citations, the reviewed preview hash and the
+selected check-input hash. Explicit reviewed_result_ids cite actual supplied
+receipts. unresolved_requirement_ids identify authored requirements (REQ_0001,
+etc.) and must belong to a cited result. Unknown/duplicate/mismatched references,
+altered arguments, false-success claims, refusals, tool calls, multiple outputs,
+malformed synthetic markers and invalid usage are rejected. A valid reference
+does not prove entailment or understanding. A sole eligible option cannot
+demonstrate prioritization or adaptation merely by being selected.
+
+Preparation requires current saved scope, at least one prior result with separate
+reassessment and an eligible next check. Initial, unfinished, stale or exhausted
+states stop explicitly. Completed and failed-input repeats stay excluded under
+the existing relevant-input policy. Fresh response validation regenerates the
+request from current trusted source history and checks all lineage/eligibility;
+rehashing altered content is insufficient. Concurrent or duplicate updates cannot
+overwrite a validated proposal. No retry, execution or v1-conversion route exists.
+
+ARCHIVE AND LIMITS
+Earlier v2 reviews remain in a session-only archive (at most eight reviews and
+4 MiB total); export before server shutdown. New preparation preserves earlier
+artifacts. Imports and archived selections are read-only. Reopening validates
+against the embedded archived v1 source package and its context, then separately
+reports current versus stale applicability. A valid old artifact remains readable
+after the current scope changes. Reopen/navigation may recompute pure validation,
+but cannot dispatch checks, read credentials or invoke providers. Current v1
+history, both revision identities and the v2 review identity are required for
+stateful HTTP actions. The original same-origin/session protections still apply.
+
+Wire bodies are capped at 128 KiB; responses at 256 KiB and 1024 reported output
+tokens; review packages and the session archive at 4 MiB. Oversize input fails
+without dropping earlier cycles or replacing saved reviews. Unknown usage/cost
+stays unknown; a reported zero is distinct. These are local software bounds, not
+provider token estimation, an account spending cap or permission to send.
+Provider acceptance of the v2 JSON schema has not been tested. No new live Meta
+request or private research transmission was performed.
+
+Next gap: an explicitly approved execution journal/bridge for a reviewed v2
+proposal, without pretending it was a v1 response, plus evidence-sensitive model
+evaluation. Live testing still needs separate exact provider/payload/cost approval.

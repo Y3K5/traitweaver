@@ -1,3 +1,11 @@
+**November 3 offline Muse v2 request:** after an intelligence result and separate
+reassessment, review and acknowledge the continuation, then prepare a distinct
+history-informed next-selection request. It carries prior records and unresolved
+requirements, restricts choices to eligible checks, and can validate a synthetic
+or imported response locally. The result is a proposal review, never an accepted
+cycle or executed check. Export/reopen its separate artifact to retain it.
+No request is sent. See [the v2 contract and limits](docs/INTELLIGENCE_LAYER.txt).
+
 **November 3 continuation preview:** **Muse intelligence** now carries saved
 decisions, results, reassessments and unresolved evidence into a versioned local
 review preview. It explains which checks have already covered the relevant inputs
@@ -36,8 +44,8 @@ controls change assumptions, not measured treatment performance.
 Start with the [hackathon contribution and reuse ledger](docs/CONTRIBUTIONS.md)
 [what Meta contributed](docs/META_CONTRIBUTION.md), and the
 [component rights inventory](docs/COMPONENT_RIGHTS.md). The public repository was
-rechecked at commit `e2bec6bf3d8655671f49d1822ea3b5b9c898f348` before this continuation
-refresh. That published snapshot includes the journey proof, intelligence evidence map, study
+rechecked at commit `056577379c188784d1cec60276774a5e8a966123` before this v2 request
+refresh. That published snapshot includes continuation review, journey proof, intelligence evidence map, study
 review, trait illustrations and phosphorus teaching explorer, plus the earlier
 scoped MIT license and contribution/rights records. Publication does not establish
 entry acceptance, component-rights clearance or original creation dates. Historical
@@ -163,8 +171,9 @@ The 69-file `cd3b1a9` snapshot is an earlier baseline. The documentation/license
 reconciliation is published in `5e14721`, the status reconciliation in `82645b9`,
 and the study-review/teaching additions in `febe18b0`. Those are historical
 published changes; `49a3a4ab` adds the intelligence evidence map and `e2bec6bf`
-exposes saved Muse proof in the journey. The current continuation preview and
-repeat-admission policy preserve scientific records and model request contracts.
+exposes saved Muse proof in the journey. `0565773` adds the continuation preview
+and repeat-admission policy. The current v2 request/review is separate from the
+unchanged v1 model request and saved journal contracts.
 
 Open the app with the commands below, then use **CRISPR workflow**,
 **Protein ↔ gene** and **Splicing maps** in the sidebar.

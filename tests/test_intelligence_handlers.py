@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from traitweaver import intelligence as m, intelligence_muse as ai, study, workspace_server
+from traitweaver import intelligence as m, intelligence_muse as ai, intelligence_muse_v2 as ai_v2, study, workspace_server
 from traitweaver.completed_cycle import CompletedCycle
 from traitweaver.study_store import Store
 from test_completed_cycle import fixture
@@ -32,6 +32,67 @@ class IntelligenceHandlerTests(unittest.TestCase):
 
     def example(self,phase='selection',focus='trait'):
         return self.request('/api/intelligence/synthetic',self.body(phase=phase,focus=focus))
+
+    def next_body(self,**items):
+        return self.body(next_review_hash=self.server.workspace.intelligence_next.fingerprint(),**items)
+
+    def next_prepare(self,ack=True):
+        j=self.server.workspace.intelligence;current=self.server.workspace.active.current()
+        preview=j.continuation(m.context(current))
+        return self.request('/api/intelligence/next/prepare',self.next_body(reviewed_preview_sha256=preview['preview_sha256'],acknowledged=ack,focus='combinations'))
+
+    def complete_first(self):
+        self.save_scope();self.example();self.request('/api/intelligence/run',self.body());self.example('reassessment')
+
+    def test_v2_requires_exact_acknowledgment_and_keeps_v1_unchanged(self):
+        self.complete_first();j=self.server.workspace.intelligence;before=j.export()
+        for ack in (False,1,'true'):self.assertEqual(self.next_prepare(ack)[0],400)
+        code,value=self.next_prepare();self.assertEqual(code,200)
+        v=value['intelligence_next'];self.assertEqual(v['request']['schema_version'],ai_v2.REQUEST)
+        self.assertEqual(v['request']['eligible_checks'],['combination_coverage','transfer_coverage'])
+        self.assertEqual(j.export(),before);self.assertEqual(v['applicability'],'current')
+        stale=self.next_body(check='combination_coverage');stale['intelligence_hash']='a'*64
+        self.assertEqual(self.request('/api/intelligence/next/synthetic',stale)[0],409)
+
+    def test_v2_validation_never_executes_and_cannot_overwrite_a_validated_proposal(self):
+        self.complete_first();self.next_prepare();before=self.server.workspace.intelligence.export()
+        body=self.next_body(check='combination_coverage')
+        with patch.object(m,'run_check',side_effect=AssertionError('No v2 dispatch')):
+            code,value=self.request('/api/intelligence/next/synthetic',body)
+            self.assertEqual(code,200);self.assertEqual(value['intelligence_next']['proposal_review']['status'],'valid_proposal_only')
+            self.assertEqual(self.request('/api/intelligence/next/synthetic',body)[0],409)
+            self.assertEqual(self.request('/api/intelligence/next/synthetic',self.next_body(check='combination_coverage'))[0],400)
+        self.assertEqual(self.server.workspace.intelligence.export(),before)
+
+    def test_v2_historical_open_is_readonly_and_current_scope_change_is_visible(self):
+        self.complete_first();self.next_prepare();self.request('/api/intelligence/next/synthetic',self.next_body(check='combination_coverage'))
+        package=deepcopy(self.server.workspace.intelligence_next.current())
+        code,value=self.save_scope(target_endpoint='growth');self.assertEqual(code,200)
+        self.assertEqual(value['intelligence_next']['applicability'],'stale')
+        before=self.server.workspace.intelligence.export()
+        with patch.object(m,'run_check',side_effect=AssertionError('No reopen dispatch')):
+            code,value=self.request('/api/intelligence/next/open',self.next_body(package_json=study.canonical(package)))
+            self.assertEqual(code,200);self.assertTrue(value['intelligence_next']['read_only'])
+            self.assertEqual(value['intelligence_next']['package'],package)
+            self.assertEqual(value['intelligence_next']['applicability'],'stale')
+        self.assertEqual(self.server.workspace.intelligence.export(),before)
+
+    def test_v2_invalid_input_origin_and_unregistered_routes_preserve_draft(self):
+        self.complete_first();self.next_prepare();before=deepcopy(self.server.workspace.intelligence_next.current())
+        for headers in ({'Origin':'https://outside.invalid'},{'X-Traitweaver-Token':''}):
+            self.assertEqual(self.request('/api/intelligence/next/synthetic',self.next_body(check='combination_coverage'),headers)[0],403)
+        self.assertEqual(self.request('/api/intelligence/next/open',self.next_body(package_json='{bad'))[0],400)
+        self.assertEqual(self.request('/api/intelligence/next/validate',self.next_body(reply='{}'))[0],400)
+        for route in ('send','retrieve','arbitrary/prepare'):
+            self.assertEqual(self.request('/api/intelligence/next/'+route,self.next_body())[0],404)
+        self.assertEqual(self.server.workspace.intelligence_next.current(),before)
+
+    def test_v2_is_available_beside_a_completed_original_cycle_without_mutating_it(self):
+        cycle=CompletedCycle(fixture(self.folder/'v2-cycle',synthetic=True));before=cycle.export_review()
+        self.server=workspace_server.make_server(cycle,server_factory=MemoryServer);self.token=self.request('/api/session')[1]['token']
+        self.complete_first();self.assertEqual(self.next_prepare()[0],200)
+        self.assertEqual(self.request('/api/intelligence/next/synthetic',self.next_body(check='combination_coverage'))[0],200)
+        self.assertEqual(cycle.export_review(),before)
 
     def test_state_adds_public_intelligence_and_never_enables_transport(self):
         code,value=self.request('/api/state');self.assertEqual(code,200)

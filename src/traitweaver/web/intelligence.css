@@ -20,3 +20,17 @@
 @media(max-width:800px){.intelligence-continuation{padding:12px}.intelligence-continuation .intelligence-role-grid{grid-template-columns:1fr}}
 #intelligence-cycle{scroll-margin-top:80px}
 .intelligence-continuation button[aria-pressed="true"]{border-color:#34c1eb;background:#113e51}
+
+.intelligence-next-review{border:1px solid #557263;border-radius:14px;background:#0c211e;padding:20px;margin:24px 0;overflow-wrap:anywhere;scroll-margin-top:80px}
+.intelligence-next-review h4{margin:24px 0 10px}.intelligence-next-review>h3{margin-top:8px}
+.intelligence-next-review .field{margin-top:16px}.intelligence-next-review textarea{min-height:150px}
+.intelligence-next-review .button{max-width:100%;white-space:normal;text-align:center}
+.intelligence-next-ack{display:flex;align-items:flex-start;gap:12px;padding:14px 0;min-height:44px;cursor:pointer}
+.intelligence-next-ack input{width:20px;height:20px;flex:0 0 20px;margin-top:3px;accent-color:#34c1eb}
+.intelligence-next-review pre{white-space:pre-wrap;overflow-wrap:anywhere;max-height:340px;overflow:auto}
+.intelligence-next-review summary{min-height:44px;padding:12px 0;cursor:pointer}
+.intelligence-next-proposal{border-left:3px solid #68c6a1;padding:16px;margin-top:20px;background:#081b19}
+.intelligence-next-history{list-style:none;padding:0!important}.intelligence-next-history small{display:block;margin:8px 0;color:#a8c4bb}
+.intelligence-next-history [aria-pressed="true"]{border-color:#68c6a1}
+.intelligence-next-review:focus-visible,.intelligence-next-review :is(button,input,select,textarea,summary):focus-visible{outline:3px solid #f7a185;outline-offset:3px}
+@media(max-width:800px){.intelligence-next-review{padding:12px}.intelligence-next-review .field input,.intelligence-next-review select{min-width:0;max-width:100%}}

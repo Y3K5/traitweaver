@@ -300,8 +300,8 @@
       "destination": "src/traitweaver/workspace_server.py",
       "source": "handoff/mvp-v1/workspace_server.py",
       "source_sha256": "f6b126d85e32834cacf879f85d2dd6eb4ca41de69e6402b49815efa51cb5eccb",
-      "candidate_sha256": "601179aa4a379423c5ec483aa87a89dcba30efd981bb292d7ee9608a0c1e1e4f",
-      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
+      "candidate_sha256": "4c58bb1e5e31d0c1732159d9958b5f6fd306fad839439e49927c8b6115d4a707",
+      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
       "source_git_status": "untracked local source",
       "assistant_browser_followup": "Independent local assistant view/session and demo documentation; original provenance retained.",
       "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained.",
@@ -458,8 +458,8 @@
       "destination": "PUBLIC_FILES.txt",
       "source": "PUBLIC_FILES.txt",
       "source_sha256": "2d8468a3c4d0d6701d6973470a5a3b128c2f30f2bcb1c62c44c004c1b19a39c3",
-      "candidate_sha256": "d1f26c44c59822bbec2d21c336765b175786fecad04e90c8de55e3fbdc9ecbe2",
-      "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+      "candidate_sha256": "0803d70cae6d3556b19f669ad6dfba1d7a813fb293f7f7646850686cd022f2ba",
+      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "ff6baaacf0c736154bf3dcfd020c3c2c0d9ab1ccfb5f92aa1838e469a8284f1b",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
@@ -470,8 +470,8 @@
       "destination": "README.md",
       "source": "README.md",
       "source_sha256": "48bd81e91c4a69754d30551fb3ac3db3058b79c6d8223c1bc06f19992ca2ff24",
-      "candidate_sha256": "4bba106990d5c989053f45c9c649fd82a34f2157e1675f84aca2ccdae30af058",
-      "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+      "candidate_sha256": "3f6214f7b48536f8e748b6418115c40ade2bf4159a31e8b63ede86d71af9beeb",
+      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "f08157896b1176a2cd121807eb2642a37e80297c2b73c00a4e5895dbcd5df3c6",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
@@ -636,8 +636,8 @@
       "destination": "tests/intelligence_ui_offline.cjs",
       "source": "tests/intelligence_ui_offline.cjs",
       "source_sha256": "d4f50952289c12664d347276dd16458accf1a389119793952c77b7310864f6e9",
-      "candidate_sha256": "f7a2a554f1ad88423a1e24df06992fe475a4e3b83724a9b0f8ffea01a3b7747f",
-      "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+      "candidate_sha256": "6b5d2e25ef35bc72eb087be5c3bd3e9cf74a6514efc2e8e955cef93875402097",
+      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
       "source_git_status": "local only; not committed or pushed"
     },
     {
@@ -724,8 +724,8 @@
       "destination": "tests/test_intelligence_handlers.py",
       "source": "tests/test_intelligence_handlers.py",
       "source_sha256": "423def0389daa06496b11fe5eab84c1f86a467eb221339d0590a6bd5a74f24cd",
-      "candidate_sha256": "1b3d171465b1d980d7795eb064873a976cea78f46c7c01b9f5fa9492026d917c",
-      "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+      "candidate_sha256": "0ebbb64a2a40c4a923360f18c39b1fc4470fc621525ef1f71a4da963e69bf4fe",
+      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
       "source_git_status": "local only; not committed or pushed"
     },
     {
@@ -764,16 +764,16 @@
       "destination": "docs/INTELLIGENCE_LAYER.txt",
       "source": "docs/INTELLIGENCE_LAYER.txt",
       "source_sha256": "f00f8a50656f55ea0126c115e3eedbb2177ff33d2e2cea21554ab027bfcf341c",
-      "candidate_sha256": "b9edace581eaa019aca94dc423770c9a4b75c31a702a25b7f08486264260e39c",
-      "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+      "candidate_sha256": "05cf7bc910dc81cf7efbde055393e70c37fb9992f660ea0e677862ef47fa2fe1",
+      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
       "source_git_status": "local only; not committed or pushed"
     },
     {
       "destination": "docs/SCREENING_SUMMARY.txt",
       "source": "docs/SCREENING_SUMMARY.txt",
       "source_sha256": "41d8ebab636d1ac24474f19b244c66efad9070d43fc5149b9269a633dfd91647",
-      "candidate_sha256": "d2701b24f2019333e7e938d0574ce1a42999366cc225de8758ac3b5cbc5e5cc6",
-      "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+      "candidate_sha256": "c0c6bc64f03d64cc484c3d2e8a52a162e190833a45d251d84f50c3d9d77c86c3",
+      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "acf96b16be1b55190f99e2a22ae664e7158064bb4d0e9db20729a427201b67be",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
@@ -848,8 +848,8 @@
       "destination": "docs/VALIDATION.txt",
       "source": "docs/VALIDATION.txt",
       "source_sha256": "67943a61bdc6161d26f4ea70a9496a861ad2590ddfa9d310b2213ef4c5fdef10",
-      "candidate_sha256": "429652cb2bccb911a5d975712efad470ad98cc8d752a06b2a9fe0a2362f598a0",
-      "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+      "candidate_sha256": "bbd73a949f3eab542e69b2f83c2efc143a515b72286a61f08b5690668d725248",
+      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
       "source_git_status": "local only; not committed or pushed"
     },
     {
@@ -1080,16 +1080,16 @@
       "destination": "src/traitweaver/web/intelligence.css",
       "source": "src/traitweaver/web/intelligence.css",
       "source_sha256": "a3aa18aed8e2e3e5d5170aae66de2ca12279c7c32a27d24b049e49877869a1fa",
-      "candidate_sha256": "e090b571ce10f420d33fb50daff1b2ff88ace07bf84c0c3dd66d0141ac6741c9",
-      "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+      "candidate_sha256": "57afafe38e11e80d7f097b0f274a39ab9eba399a18aa4ca53a5244624064ae54",
+      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
       "source_git_status": "local only; not committed or pushed"
     },
     {
       "destination": "src/traitweaver/web/intelligence-ui.js",
       "source": "src/traitweaver/web/intelligence-ui.js",
       "source_sha256": "8478e70cbc252f5a60bcfb9e28d4f34dea9c402769d5ce8961e33e89f7a46728",
-      "candidate_sha256": "ea11c4b1f830cad078cdebb9d593eed743c5082e094d246884a52f6b11959ca2",
-      "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+      "candidate_sha256": "6c47b4561f4b70c2a917cba3fa28112752179a560a3b49510f316c0756dba51f",
+      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
       "source_git_status": "local only; not committed or pushed"
     },
     {
@@ -1338,8 +1338,8 @@
       "destination": "docs/META_CONTRIBUTION.md",
       "source": null,
       "source_sha256": null,
-      "candidate_sha256": "ce8b949b85bd391594bc013542e29ed9fc2c5c49bcc9187d8b327364bdf1947e",
-      "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+      "candidate_sha256": "daf2cbd2b730198a605026516075ec21b82955489ef7af82da5b0c2acd0ca36d",
+      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
       "source_git_status": "New uncommitted documentation against 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e"
     },
     {
@@ -1389,8 +1389,8 @@
       "destination": "docs/CONTRIBUTION_LEDGER.txt",
       "source": "docs/CONTRIBUTION_LEDGER.txt",
       "source_sha256": "b6c327f410f22e7df7dc3841101a9635c0250e6e86052068d8ef809b0af33734",
-      "candidate_sha256": "f246078ad3aa82c40530c1a1957b09ea084d430f66379e642571e8a386ac64a7",
-      "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+      "candidate_sha256": "80d498e28f51207dbf88d0b98642733c14bcd358a4f944ba5c4a34cd9ae3d7f6",
+      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
       "source_git_status": "uncommitted local addition",
       "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt.",
       "trait_infographic_followup": "Local authored schematic SVG/CSS and presentation controls; scientific records unchanged.",
@@ -1401,8 +1401,8 @@
       "destination": "docs/DEMO_RELEASE_3_MIN.txt",
       "source": "docs/DEMO_RELEASE_3_MIN.txt",
       "source_sha256": "4d7a25afa2bdf45d00d98728941bcb588b8f42053720762769c22ce8a70f63d6",
-      "candidate_sha256": "34cc1c0ee35617cb184a99c5c67cc06670034db42d01f51548d9ad7a3e485bb0",
-      "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+      "candidate_sha256": "e419b6af3d6abb330598d2888536ea189dbfcaf97d55b9603f840485451d002a",
+      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
       "source_git_status": "uncommitted local addition",
       "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt."
     },
@@ -1509,6 +1509,22 @@
       "candidate_sha256": "33ed1ae5910fce3bbd4ca5a5e56ef8ddf07da0d522fe0a58dcab9335914e2651",
       "transformation": "New local public/synthetic continuation implementation or focused regression tests; no private source imported.",
       "source_git_status": "new cloud implementation"
+    },
+    {
+      "destination": "src/traitweaver/intelligence_muse_v2.py",
+      "source": null,
+      "source_sha256": null,
+      "candidate_sha256": "8db62fde2676e006754872a0a9a2c03c5de4b1f0817a2c9691c37d4020e22a40",
+      "transformation": "New offline v2 request/proposal-review contract or focused regression tests; public/synthetic inputs only.",
+      "source_git_status": "new cloud implementation"
+    },
+    {
+      "destination": "tests/test_intelligence_muse_v2.py",
+      "source": null,
+      "source_sha256": null,
+      "candidate_sha256": "a5fd0a0fa4f6659a428040bf2a382950a2f2d5041358fb616482c3647881ecd5",
+      "transformation": "New offline v2 request/proposal-review contract or focused regression tests; public/synthetic inputs only.",
+      "source_git_status": "new cloud implementation"
     }
   ],
   "additional_candidate_authorship": "Public-facing docs, synthetic replay/review package, exact-byte verifier, memory handler/controller tests and bounded adaptations; Codex",
@@ -1545,7 +1561,9 @@
     "src/traitweaver/evidence_map.py",
     "tests/test_evidence_map.py",
     "src/traitweaver/intelligence_continuation.py",
-    "tests/test_intelligence_continuation.py"
+    "tests/test_intelligence_continuation.py",
+    "src/traitweaver/intelligence_muse_v2.py",
+    "tests/test_intelligence_muse_v2.py"
   ],
   "synthetic_fixture_source": "tools/make_synthetic_cycle.py using admitted public evidence and explicitly synthetic test helper",
   "fixture_provenance": "data/synthetic-cycle/FIXTURE_PROVENANCE.json",
@@ -2471,6 +2489,153 @@
     "new_paths": [
       "src/traitweaver/intelligence_continuation.py",
       "tests/test_intelligence_continuation.py"
+    ]
+  },
+  "cloud_muse_next_request_v2": {
+    "date": "2026-11-03",
+    "timezone": "UTC",
+    "base_public_commit": "056577379c188784d1cec60276774a5e8a966123",
+    "base_remote_verified": true,
+    "scope": "Independent versioned offline Muse next-selection request containing reviewed source-bound history; typed proposal review and bounded read-only archive, UI/handlers/tests/docs. No execution bridge into v1.",
+    "authorization": "Continued user-authorized Traitweaver-only cloud implementation, screened commits and normal push; no provider calls or private research transmission.",
+    "scientific_fixtures_changed": false,
+    "v1_request_and_package_contracts_changed": false,
+    "new_provider_calls": 0,
+    "private_packets_included": false,
+    "previous_mapping_fields": [
+      {
+        "destination": "src/traitweaver/workspace_server.py",
+        "source": "handoff/mvp-v1/workspace_server.py",
+        "source_sha256": "f6b126d85e32834cacf879f85d2dd6eb4ca41de69e6402b49815efa51cb5eccb",
+        "candidate_sha256": "601179aa4a379423c5ec483aa87a89dcba30efd981bb292d7ee9608a0c1e1e4f",
+        "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
+        "source_git_status": "untracked local source",
+        "assistant_browser_followup": "Independent local assistant view/session and demo documentation; original provenance retained.",
+        "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained.",
+        "previous_candidate_sha256": "fe363a7c8fea88fee3ad510564c032b9340a7752d259d309ce68430278d8e42c",
+        "historical_transformation_label": "Published bounded source plus local molecular extension; see docs/MOLECULAR_WORKSPACE.txt. No original scientific records changed. October31 completed-check and animated-journey extension; original scientific inputs preserved."
+      },
+      {
+        "destination": "PUBLIC_FILES.txt",
+        "source": "PUBLIC_FILES.txt",
+        "source_sha256": "2d8468a3c4d0d6701d6973470a5a3b128c2f30f2bcb1c62c44c004c1b19a39c3",
+        "candidate_sha256": "d1f26c44c59822bbec2d21c336765b175786fecad04e90c8de55e3fbdc9ecbe2",
+        "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+        "source_git_status": "local only; not committed or pushed",
+        "pre_cleanup_candidate_sha256": "ff6baaacf0c736154bf3dcfd020c3c2c0d9ab1ccfb5f92aa1838e469a8284f1b",
+        "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+        "previous_candidate_sha256": "8208fdd10d3d6e1d77b825f94a60bdd541fa176005c2f8ee344e0ecbc7451761",
+        "historical_transformation_label": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged."
+      },
+      {
+        "destination": "README.md",
+        "source": "README.md",
+        "source_sha256": "48bd81e91c4a69754d30551fb3ac3db3058b79c6d8223c1bc06f19992ca2ff24",
+        "candidate_sha256": "4bba106990d5c989053f45c9c649fd82a34f2157e1675f84aca2ccdae30af058",
+        "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+        "source_git_status": "local only; not committed or pushed",
+        "pre_cleanup_candidate_sha256": "f08157896b1176a2cd121807eb2642a37e80297c2b73c00a4e5895dbcd5df3c6",
+        "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+        "retained_local_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only. October 31 six-file metadata refresh: current five-scene instructions, dated history/check scope and historical authorization qualification; no source evidence changed.",
+        "retained_local_candidate_sha256": "72d94b79dbd4664708253851c68e18bd63037172b3138a2f8f50c30ace32728c",
+        "previous_candidate_sha256": "68715973ec40fef56941854b9bbb62611d1d1c288de53452fdc4f88194d786e4",
+        "historical_transformation_label": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications."
+      },
+      {
+        "destination": "tests/intelligence_ui_offline.cjs",
+        "source": "tests/intelligence_ui_offline.cjs",
+        "source_sha256": "d4f50952289c12664d347276dd16458accf1a389119793952c77b7310864f6e9",
+        "candidate_sha256": "f7a2a554f1ad88423a1e24df06992fe475a4e3b83724a9b0f8ffea01a3b7747f",
+        "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "tests/test_intelligence_handlers.py",
+        "source": "tests/test_intelligence_handlers.py",
+        "source_sha256": "423def0389daa06496b11fe5eab84c1f86a467eb221339d0590a6bd5a74f24cd",
+        "candidate_sha256": "1b3d171465b1d980d7795eb064873a976cea78f46c7c01b9f5fa9492026d917c",
+        "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "docs/INTELLIGENCE_LAYER.txt",
+        "source": "docs/INTELLIGENCE_LAYER.txt",
+        "source_sha256": "f00f8a50656f55ea0126c115e3eedbb2177ff33d2e2cea21554ab027bfcf341c",
+        "candidate_sha256": "b9edace581eaa019aca94dc423770c9a4b75c31a702a25b7f08486264260e39c",
+        "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "docs/SCREENING_SUMMARY.txt",
+        "source": "docs/SCREENING_SUMMARY.txt",
+        "source_sha256": "41d8ebab636d1ac24474f19b244c66efad9070d43fc5149b9269a633dfd91647",
+        "candidate_sha256": "d2701b24f2019333e7e938d0574ce1a42999366cc225de8758ac3b5cbc5e5cc6",
+        "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+        "source_git_status": "local only; not committed or pushed",
+        "pre_cleanup_candidate_sha256": "acf96b16be1b55190f99e2a22ae664e7158064bb4d0e9db20729a427201b67be",
+        "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+        "retained_local_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only. October 31 six-file metadata refresh: current five-scene instructions, dated history/check scope and historical authorization qualification; no source evidence changed.",
+        "retained_local_candidate_sha256": "55530f559f5d17dbf146441846ef2116861c3d40192ae93fb7ba60c31fe3096a",
+        "previous_candidate_sha256": "28a936dcc7006ac372b9b87b49d3856eabcd4726bf27a2877e3ac278510e5f0d",
+        "historical_transformation_label": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications."
+      },
+      {
+        "destination": "docs/VALIDATION.txt",
+        "source": "docs/VALIDATION.txt",
+        "source_sha256": "67943a61bdc6161d26f4ea70a9496a861ad2590ddfa9d310b2213ef4c5fdef10",
+        "candidate_sha256": "429652cb2bccb911a5d975712efad470ad98cc8d752a06b2a9fe0a2362f598a0",
+        "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "src/traitweaver/web/intelligence.css",
+        "source": "src/traitweaver/web/intelligence.css",
+        "source_sha256": "a3aa18aed8e2e3e5d5170aae66de2ca12279c7c32a27d24b049e49877869a1fa",
+        "candidate_sha256": "e090b571ce10f420d33fb50daff1b2ff88ace07bf84c0c3dd66d0141ac6741c9",
+        "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "src/traitweaver/web/intelligence-ui.js",
+        "source": "src/traitweaver/web/intelligence-ui.js",
+        "source_sha256": "8478e70cbc252f5a60bcfb9e28d4f34dea9c402769d5ce8961e33e89f7a46728",
+        "candidate_sha256": "ea11c4b1f830cad078cdebb9d593eed743c5082e094d246884a52f6b11959ca2",
+        "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "docs/META_CONTRIBUTION.md",
+        "source": null,
+        "source_sha256": null,
+        "candidate_sha256": "ce8b949b85bd391594bc013542e29ed9fc2c5c49bcc9187d8b327364bdf1947e",
+        "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+        "source_git_status": "New uncommitted documentation against 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e"
+      },
+      {
+        "destination": "docs/CONTRIBUTION_LEDGER.txt",
+        "source": "docs/CONTRIBUTION_LEDGER.txt",
+        "source_sha256": "b6c327f410f22e7df7dc3841101a9635c0250e6e86052068d8ef809b0af33734",
+        "candidate_sha256": "f246078ad3aa82c40530c1a1957b09ea084d430f66379e642571e8a386ac64a7",
+        "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+        "source_git_status": "uncommitted local addition",
+        "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt.",
+        "trait_infographic_followup": "Local authored schematic SVG/CSS and presentation controls; scientific records unchanged.",
+        "cell_recovery_followup": "Layered schematic cells, storage clusters and proposed processing flow; presentation only, source contracts unchanged.",
+        "spill_followup": "Microscopy-informed original anatomy and independent hypothetical P mass-balance explorer; fixed evidence and backend unchanged."
+      },
+      {
+        "destination": "docs/DEMO_RELEASE_3_MIN.txt",
+        "source": "docs/DEMO_RELEASE_3_MIN.txt",
+        "source_sha256": "4d7a25afa2bdf45d00d98728941bcb588b8f42053720762769c22ce8a70f63d6",
+        "candidate_sha256": "34cc1c0ee35617cb184a99c5c67cc06670034db42d01f51548d9ad7a3e485bb0",
+        "transformation": "November 3 UTC cloud continuation preview and new-admission repeat policy over e2bec6bf. Historical source fields retained; prior mappings in cloud_continuation_preview_extension. Existing scientific fixtures and v1 request/package schemas unchanged.",
+        "source_git_status": "uncommitted local addition",
+        "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt."
+      }
+    ],
+    "new_paths": [
+      "src/traitweaver/intelligence_muse_v2.py",
+      "tests/test_intelligence_muse_v2.py"
     ]
   }
 }
