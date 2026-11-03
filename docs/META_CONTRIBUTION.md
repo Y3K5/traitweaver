@@ -47,6 +47,21 @@ responses, keys, provider identifiers, owner grants and private packets stay out
 of this repository. A video may show selected reviewed UI records with accurate
 labels; no new paid request or raw-packet publication is required by this plan.
 
+## Labels for the current release demonstration
+
+| What is shown | Required description | Limit |
+| --- | --- | --- |
+| Default `--demo` cycle | Synthetic offline replay | Illustrates the workflow; these responses are not the saved real run. |
+| Explicitly loaded, validated non-synthetic original cycle | Saved real Muse work | Historical execution; local consistency validation is not independent provider authentication. |
+| Research-journey playback and authored action cards | Illustrative playback / authored proposal | Neither new inference nor tool execution; cards do not inherit another run's model status. |
+| Traits and Landfill water explorer | Authored teaching visuals / hypothetical simulation | Controls change assumptions, not measured treatment performance or a Muse prediction. |
+
+The November 2 study-review layer and teaching additions do not add a real Meta
+run. This documentation reconciliation did not open private packets, call a model
+or independently authenticate the existing documentary summary. Review the exact
+selected records before a public demonstration; publication requires separate
+owner approval. A new paid call is not required to explain existing saved work.
+
 ## Later comparisons and limits
 
 The public RNA/completion/evaluation contracts and controllers are separate from
@@ -60,5 +75,5 @@ completed action; that must not be relabelled a success.
 Human usefulness, independent source entailment, biological performance and
 adaptive planning reliability remain unestablished. This project demonstrates
 research-study review and evidence tracking, not medical advice or validated
-interventions. Video editing is still in progress; final access, duration and
-entry claims require owner review.
+interventions. No final video has been supplied and checked for this reconciliation;
+final access, duration, rights and entry claims require owner review.

@@ -1,11 +1,11 @@
 # Component rights inventory — owner decisions pending
 
-Reviewed November 1, 2026 against public commit
-`0987c1bdd29fbae68050aeb1ff440c1c17d91d7e` and this unpushed documentation patch.
-This is an evidence-backed inventory, not legal certification, a blanket rights
-warranty, or submission approval. The owner selected MIT for original application
-code on November 1, 2026; this patch adds LICENSE. Component clearance remains pending.
-Existing notices and source qualifications remain in force.
+Current publication status reconciled November 2, 2026 against public main
+`febe18b0b16e53a49aee71d3f8f4142b4a828618`. The original November 1 rights review
+used `0987c1b`; its scoped MIT/license documentation was subsequently published
+in `5e14721`. This update does not independently re-audit upstream terms or grant
+new clearance. Existing notices, qualifications and unanswered rights questions
+remain in force. The current documentation-only edits are uncommitted.
 
 ## Original application code, tests and documentation
 
@@ -14,9 +14,9 @@ Yuvraj Patel confirmed he is the sole human contributor on November 1 UTC
 implementation; Meta runtime contributions are separately described in
 [META_CONTRIBUTION.md](META_CONTRIBUTION.md). Sole-human status does not itself
 establish employer, university or client rights, or copyrightability of AI output.
-The reviewed base had no root LICENSE. On November 1, 2026 the owner expressly
+The earlier `0987c1b` base had no root LICENSE. The recorded November 1 owner decision expressly
 approved MIT for original application code, with fonts, datasets and branding
-kept under their own terms. This patch adds [LICENSE](../LICENSE), copyright
+kept under their own terms. Published commit `5e14721` added [LICENSE](../LICENSE), copyright
 (c) 2026 Yuvraj Patel, using the [official MIT text](https://opensource.org/license/mit).
 It permits commercial reuse and requires retention of the copyright and
 permission notice. This records a license choice, not independent ownership
@@ -59,6 +59,20 @@ this review does not erase it. **Pending:** confirm that its scope covers the
 exact current CSS, logo/favicon and newer adaptations, and disclose any external
 templates, icons or snippets beyond named components. No clearance of untracked
 video, music or other submission assets is established here.
+
+## November 2 release additions and final media
+
+`docs/CONTRIBUTION_LEDGER.txt` attributes the study-review presentation and trait/
+landfill-water teaching visuals to Codex-assisted work at the owner's request.
+They are included in `febe18b0`, including `src/traitweaver/web/study-review-ui.js`, its stylesheet
+and `docs/INTEGRATION.svg`. That attribution is not independent rights clearance.
+Confirm the scope of design permissions and any external reference adaptations;
+background/scientific citations do not establish ownership of every visual asset.
+Existing font/data notices and outstanding branding/mixed-GFP questions remain
+in force.
+No final video or accessible video link has been supplied and checked in this
+reconciliation. Video, narration, music and other media need their own review;
+no new media license or publication authorization is inferred.
 
 ## Public algae evidence
 
@@ -134,8 +148,8 @@ Hosted sites and video assets outside this tracked repository are out of scope.
 3. Confirm the earlier design grant covers the exact current assets/adaptations,
    and identify any unlisted third-party templates, icons or snippets.
 4. Resolve the mixed GFP component's precise distribution/adaptation scope.
-5. Separately clear final video/music/assets and submission terms. The video is
-   still being edited; neither its contents nor a final accessible URL is cleared.
+5. Separately clear final video/narration/music/assets and submission terms. No
+   final video has been supplied and checked here; no final accessible URL is cleared.
 
 These pending decisions do not negate the confirmed sole-human roster. They
 also must not be converted into an all-rights warranty or eligibility certificate.

@@ -1,5 +1,6 @@
 CURRENT THREE-MINUTE WALKTHROUGH — NOVEMBER 2
-Narration script, not a claim that a new video has been recorded.
+Narration script, not a claim that a new video has been recorded. No final video
+has been supplied and checked for this reconciliation; no final URL is added.
 Use one phosphorus-recovery case. Pre-open the saved cycle and prepared export.
 With --demo, always say synthetic replay. Only an explicitly loaded, validated
 non-synthetic existing cycle can be described as saved real Muse work.
@@ -17,9 +18,13 @@ lines or a future receiving host. A gene match is not a transferable trait.
 
 0:55–1:40 — META CONTRIBUTION
 Show Research journey / Muse decision / Tool result, or expand the saved cycle.
-Muse selected a source-cited endpoint check. Deterministic software checked the
-admitted records: neither path quantified collected-product phosphorus. Muse
-reassessed that result and requested missing measurements. No new call is running.
+For a validated loaded real cycle: "This saved Muse run selected a source-cited
+endpoint check. The recorded local result found no quantified collected-product
+phosphorus endpoint in either admitted path. Muse reassessed that result and
+requested researcher review of the measurement plan. No new call is running."
+For --demo: "This synthetic replay illustrates the documented decision, local
+check and reassessment workflow. These displayed responses are fixtures, not
+recorded real Muse output; the real run is described in LIVE_RUN_SUMMARY.txt."
 This demonstrates a useful missing-evidence result, not a biological failure.
 
 1:40–2:10 — STUDY AND MULTIPLE TRAITS
@@ -41,10 +46,18 @@ Sources, unknowns, blockers, model/tool records and review history travel togeth
 The next step is better evidence and human review. Biological validity, broad
 model usefulness and engineering success remain unestablished.
 
+OPTIONAL TEACHING VISUALS
+If Traits or Landfill water is shown, say "authored teaching illustration" or
+"hypothetical simulation." Motion, capacity and harvest controls change assumed
+behavior; they are not measured recovery, field predictions or Muse output.
+Do not let this optional view replace the evidence/check/reassessment story.
+
 EVENT-BUILT DISCLOSURE
 November 2: new typed-import/review contract, navigable integrated evidence view,
 multi-trait questions, content-bound human judgments and combined review export.
 October 29–31: existing guided workspaces, maps, audit boundaries and showcase.
 October 29: separately approved saved real Meta cycle. Earlier prototype and
 preparation remain disclosed prior work. Only Yuvraj Patel is a human contributor;
-Codex assisted implementation. Confirm Indie reuse terms with the event guide.
+Codex assisted implementation. CONTRIBUTIONS.md separates document-reported
+work dates from verified commit timestamps; original creation/reuse facts and
+Indie eligibility remain open. This reconciliation makes no eligibility decision.

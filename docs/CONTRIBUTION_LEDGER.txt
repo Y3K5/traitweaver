@@ -1,5 +1,15 @@
 CONTRIBUTION / EVIDENCE LEDGER — NOVEMBER 2, 2026
 
+PUBLICATION CONTEXT
+The application and records below are published in
+febe18b0b16e53a49aee71d3f8f4142b4a828618, rechecked on November 2 Eastern.
+Dated implementation/test entries retain their original preparation scope;
+statements that no commit/push occurred describe those steps, not today's public
+visibility. CONTRIBUTIONS.md records commit timestamps separately from original
+creation/reuse facts. This new documentation-only reconciliation is uncommitted.
+Historical test counts below were not rerun or upgraded into scientific evidence.
+No final video has been supplied and checked for this reconciliation.
+
 Sole human contributor: Yuvraj Patel.
 Codex: implementation, software review/tests and release preparation.
 Meta Muse: existing saved source-cited selection and reassessment, not authorship

@@ -15,17 +15,20 @@ controls change assumptions, not measured treatment performance.
 Start with the [hackathon contribution and reuse ledger](docs/CONTRIBUTIONS.md)
 [what Meta contributed](docs/META_CONTRIBUTION.md), and the
 [component rights inventory](docs/COMPONENT_RIGHTS.md). The public repository was
-rechecked at commit `5e14721cce8568e0eeae67ed188fa3c5b5f8a8e4` on November 2, 2026.
-That published commit includes the original-code MIT license and contribution/rights cleanup.
-Public availability is not submission acceptance, a software license or proof
-that every component was first created during the event.
+rechecked at commit `febe18b0b16e53a49aee71d3f8f4142b4a828618` on November 2, 2026
+(Eastern Time). That published snapshot includes the study-review layer, trait
+illustrations and phosphorus teaching explorer, plus the earlier scoped MIT
+license and contribution/rights records. Publication does not establish entry
+acceptance, component-rights clearance or original creation dates. This release
+documentation reconciliation is a local, uncommitted update over that snapshot.
 
 **Try it:** Python 3.10+ standard library, no installation or key:
 `python3 -B run_workspace.py --demo`. Open the printed loopback URL. This is a
 **synthetic offline replay**, not the private saved real Muse run. The new default
 is the five-scene Research journey; exact records and other tools remain available.
 
-**Entry status:** video editing is in progress; no final video URL is asserted here.
+**Entry status:** no final video has been supplied and checked for this
+reconciliation; no final video URL is asserted here.
 Yuvraj Patel has confirmed he is the sole human contributor. Original
 creation/reuse dates, track eligibility and component rights still require
 owner confirmation. The owner selected MIT for original application code on
@@ -59,7 +62,7 @@ separate from authored planning cards. Playback is illustrative: it neither
 calls a model nor executes a tool. The four primary menu entries lead to the
 journey, working study, loaded cycle and handoff; other tools remain under
 **Evidence, mapping & tools**. See [the current showcase guide](docs/CINEMATIC_SHOWCASE.txt)
-and [the three-minute demo](docs/DEMO_SCRIPT_3_MIN.txt).
+and [the current three-minute script](docs/DEMO_RELEASE_3_MIN.txt).
 Earlier eight-stage/presentation-toggle guides describe historical layouts.
 CRISPR sequences and executable laboratory methods are not implemented.
 
@@ -126,7 +129,7 @@ completion checks. Model priorities are labelled synthetic; no live call.
 Start the demo below and click **Research assistant** in the sidebar.
 See [the browser walkthrough](docs/ASSISTANT_WORKSPACE.txt),
 [the independent contract/CLI](docs/ASSISTANT_CONTRACT.txt) and
-[the refreshed three-minute demo](docs/DEMO_SCRIPT_3_MIN.txt).
+[the current three-minute script](docs/DEMO_RELEASE_3_MIN.txt).
 The algae trait-development map connects the existing reference, combination/
 recipient and CRISPR views. Cassette composition and cross-species effects remain
 unqualified. Export before shutdown: assistant sessions are held in memory.
@@ -135,9 +138,10 @@ unqualified. Export before shutdown: assistant sessions are held in memory.
 for trait candidates, combination coverage and species/context-transfer review,
 plus public algae protein-to-gene/transcript mapping, reference exon maps and
 bounded CRISPR planning are in public commit `0987c1bdd29fbae68050aeb1ff440c1c17d91d7e`.
-The 69-file `cd3b1a9` snapshot is an earlier baseline. The subsequent documentation/
-license reconciliation is published in `5e14721`. This November 2 status-only
-follow-up is a local candidate; it has not been committed or pushed.
+The 69-file `cd3b1a9` snapshot is an earlier baseline. The documentation/license
+reconciliation is published in `5e14721`, the status reconciliation in `82645b9`,
+and the study-review/teaching additions in `febe18b0`. Those are historical
+published changes; the present documentation-only edits remain uncommitted.
 
 Open the app with the commands below, then use **CRISPR workflow**,
 **Protein ↔ gene** and **Splicing maps** in the sidebar.
@@ -158,8 +162,8 @@ See [the data-flow walkthrough](docs/DATA_FLOW.txt). It performs no live retriev
 Question → source-bound paths → evidence gaps → pre-result decision → one local
 check → separate reassessment → saved study package.
 
-The code and November 1 documentation/license update are public. This status-only
-follow-up and the event entry remain under review.
+The application and earlier documentation updates are public through `febe18b0`.
+The present documentation-only update and final event entry remain under review.
 It contains one curated public algae study, required interface assets, qualified
 GFP reference data, code/tests and a clearly synthetic portable replay. It contains no credentials, private study example or real provider-run packet.
 Root Git metadata is excluded from manifest checks without being inspected.
@@ -237,8 +241,9 @@ PYTHONPATH=src python3 -B tools/verify_public_algae.py
 python3 -B tools/verify_handoff.py
 ```
 
-For the November 2 status reconciliation, fresh exact-candidate outcomes and
-file hashes are recorded in the external local review packet. No files are staged.
+For this documentation-only reconciliation, exact-file, manifest, provenance,
+link and whitespace checks are recorded in an external local review packet.
+Application/controller/browser suites are not rerun, and no files are staged.
 The dated checks below are historical; test counts do not establish scientific validity.
 
 **Historical October 31 metadata checks:** that review verified the same code with 395 Python tests
@@ -267,7 +272,8 @@ exports before a timed demo. See docs/VALIDATION.txt for results and limits.
 ## Start the human review
 
 - docs/WHAT_WE_BUILT.txt — exactly what was implemented and what was not.
-- docs/DEMO_SCRIPT_3_MIN.txt — timed narration, including real/synthetic distinctions.
+- docs/DEMO_RELEASE_3_MIN.txt — current script with separate saved-real and synthetic narration.
+- docs/DEMO_SCRIPT_3_MIN.txt — earlier showcase script, retained for historical context.
 - docs/CLAUDE_REVIEW_BRIEF.txt — read-only review request; no Claude call was made.
 - docs/SCOPE_AND_PROVENANCE.txt — source selection and explicit transformations.
 - docs/RELEASE_BLOCKERS.txt — owner decisions still required before distribution.

@@ -1,3 +1,31 @@
+CURRENT RELEASE DOCUMENTATION CHECKPOINT — NOVEMBER 2, 2026 (AMERICA/NEW_YORK)
+
+Observed public main: febe18b0b16e53a49aee71d3f8f4142b4a828618.
+The application update and previous documentation/license records below are
+published. This documentation-only reconciliation is uncommitted and has no new
+commit, push or submission authorization. Historical approvals apply to their
+original snapshots, not these changed bytes.
+
+Remaining decisions and checks:
+1. Supply the exact finished three-minute video for content/rights/privacy review;
+   verify its duration and accessible destination before adding a final link.
+2. Confirm original creation/reuse facts, final track/representative and Indie
+   reuse eligibility. Commit dates alone do not establish original authorship dates.
+3. Resolve remaining component/design/GFP and final-media rights. Retain the
+   existing original-code MIT scope; it does not resolve third-party questions.
+4. Complete the final timed/native-browser demo and exact-candidate checks needed
+   for submission. Historical software passes are not a fresh demo qualification.
+5. Review actual submission-form requirements and governing terms, then approve
+   the exact outgoing artifacts/destinations. The owner performs every push.
+
+Keep default synthetic replay, documented saved real Muse work and authored
+teaching simulations distinct. Private packets were not opened here. Human
+scientific/usefulness review and biological transfer/recovery claims remain open;
+a clearly labeled evidence-gap demo does not require inventing those outcomes.
+No model call or new scientific workflow is needed for this documentation cleanup.
+
+HISTORICAL NOVEMBER 2 APPLICATION PUBLICATION REQUEST — retained verbatim below
+
 NOVEMBER 2 APPLICATION UPDATE
 
 The owner requested publication of the review layer, trait illustrations and

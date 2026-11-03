@@ -470,8 +470,8 @@
       "destination": "README.md",
       "source": "README.md",
       "source_sha256": "48bd81e91c4a69754d30551fb3ac3db3058b79c6d8223c1bc06f19992ca2ff24",
-      "candidate_sha256": "767bb8bc7413eed59cafe6e7ecefa40aefc46c2701d4a92bd85b1784d770a442",
-      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
+      "candidate_sha256": "d68d1bcafb87056b48e12c6aefaa07b7ad25ff065e8a46c9d8cafd81800ce96c",
+      "transformation": "Release documentation reconciled against published febe18b0; historical source fields retained. See release_documentation_reconciliation.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "f08157896b1176a2cd121807eb2642a37e80297c2b73c00a4e5895dbcd5df3c6",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
@@ -826,8 +826,8 @@
       "destination": "docs/RELEASE_BLOCKERS.txt",
       "source": "docs/RELEASE_BLOCKERS.txt",
       "source_sha256": "75afb70ed173725c513e3f81c23d8f53177c12c38ec1c2ff4e092b5228b0474d",
-      "candidate_sha256": "6b1677befbc5038258889c1d51259ea63459fe771fbac0b021aa1e0f2ca47101",
-      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
+      "candidate_sha256": "5dc7e704bba6b72ffdcb99b2ca2819586084fd1507def1c6c6f345ff45d158e2",
+      "transformation": "Release documentation reconciled against published febe18b0; historical source fields retained. See release_documentation_reconciliation.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "a6889fb8a1553bc1a45262b04df9d03367696a1ac5ae5cac249d0e39d8b794b5",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
@@ -910,8 +910,8 @@
       "destination": "docs/REVIEW_STATUS.txt",
       "source": "docs/REVIEW_STATUS.txt",
       "source_sha256": "2f1937e644589f93f1d7c1185cb0fb455c125236ca83941b6e5348bf920add9a",
-      "candidate_sha256": "cf4ed3da78775402b9b5d0ae8d20fd2cc39dc5c1bb16024d430388d32803a78b",
-      "transformation": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged.",
+      "candidate_sha256": "79fbed108e98aedf5fc74460dcfcd000b9d545179d3e7374f4337e8a7e1940d8",
+      "transformation": "Release documentation reconciled against published febe18b0; historical source fields retained. See release_documentation_reconciliation.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "2f1937e644589f93f1d7c1185cb0fb455c125236ca83941b6e5348bf920add9a",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval."
@@ -1330,24 +1330,24 @@
       "destination": "docs/CONTRIBUTIONS.md",
       "source": null,
       "source_sha256": null,
-      "candidate_sha256": "5b99638e978a1149a8248d237735a839730f17a39b6a0ce027564b14fb6ca994",
-      "transformation": "New review documentation synthesized from explicitly cited Git history, existing documentary records and owner instructions; not a copy of an external source file.",
+      "candidate_sha256": "1ef06c8509469dabf7237539a56a6a14fddb9f07724d9903522b80ccb4d3df75",
+      "transformation": "Release documentation reconciled against published febe18b0; historical source fields retained. See release_documentation_reconciliation.",
       "source_git_status": "New uncommitted documentation against 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e"
     },
     {
       "destination": "docs/META_CONTRIBUTION.md",
       "source": null,
       "source_sha256": null,
-      "candidate_sha256": "026fe00a34d50c4325f351f1173d329bf228e286e2c8aa4dcf31b3cf64cc99de",
-      "transformation": "New review documentation synthesized from explicitly cited Git history, existing documentary records and owner instructions; not a copy of an external source file.",
+      "candidate_sha256": "4635d5466ecca9298d1c9c53117f5e9104e567737c69c792fcb3dafe50741e7f",
+      "transformation": "Release documentation reconciled against published febe18b0; historical source fields retained. See release_documentation_reconciliation.",
       "source_git_status": "New uncommitted documentation against 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e"
     },
     {
       "destination": "docs/COMPONENT_RIGHTS.md",
       "source": null,
       "source_sha256": null,
-      "candidate_sha256": "a885d0778b01a8c9bc5e291d2e0d70c0b9dff92adc3cb1a959d8e53ed83436a7",
-      "transformation": "New scoped rights inventory synthesized from repository notices, independently reviewed primary-source terms and owner instructions; not a copy of an external source file. Original-code MIT is selected; separate component-rights clearance remains pending.",
+      "candidate_sha256": "644cc2babe58c5528d0f3ea861dae1927de4de35cf146c74736225df0321d8e3",
+      "transformation": "Release documentation reconciled against published febe18b0; historical source fields retained. See release_documentation_reconciliation.",
       "source_git_status": "New uncommitted documentation against 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e"
     },
     {
@@ -1389,8 +1389,8 @@
       "destination": "docs/CONTRIBUTION_LEDGER.txt",
       "source": "docs/CONTRIBUTION_LEDGER.txt",
       "source_sha256": "b6c327f410f22e7df7dc3841101a9635c0250e6e86052068d8ef809b0af33734",
-      "candidate_sha256": "bed04279265f67a1ad9ced09ec97e77ab1acd756a224f354d8fc451400f16289",
-      "transformation": "New Codex-authored local mission implementation/documentation or metadata-only synthetic fixture, November 2, 2026",
+      "candidate_sha256": "d2713fd09c78e6f29e600841a659dcea16a5787b79dd8eaea09052159ff3295a",
+      "transformation": "Release documentation reconciled against published febe18b0; historical source fields retained. See release_documentation_reconciliation.",
       "source_git_status": "uncommitted local addition",
       "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt.",
       "trait_infographic_followup": "Local authored schematic SVG/CSS and presentation controls; scientific records unchanged.",
@@ -1401,8 +1401,8 @@
       "destination": "docs/DEMO_RELEASE_3_MIN.txt",
       "source": "docs/DEMO_RELEASE_3_MIN.txt",
       "source_sha256": "4d7a25afa2bdf45d00d98728941bcb588b8f42053720762769c22ce8a70f63d6",
-      "candidate_sha256": "4d7a25afa2bdf45d00d98728941bcb588b8f42053720762769c22ce8a70f63d6",
-      "transformation": "New Codex-authored local mission implementation/documentation or metadata-only synthetic fixture, November 2, 2026",
+      "candidate_sha256": "6f09fb53de83dda92d088e94a7c1ef7b2fb84565a4440b3c14c8c170103a9473",
+      "transformation": "Release documentation reconciled against published febe18b0; historical source fields retained. See release_documentation_reconciliation.",
       "source_git_status": "uncommitted local addition",
       "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt."
     },
@@ -1421,8 +1421,8 @@
       "destination": "docs/RELEASE_CANDIDATE.txt",
       "source": "docs/RELEASE_CANDIDATE.txt",
       "source_sha256": "9eb0b390dc147f5051ad956eb679657dc0c760600953afc34afd47136fd5c28a",
-      "candidate_sha256": "178409904a619ddb872b5bf370e41186bbd1d4de78da4a6cac1e96a91c1a0aad",
-      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
+      "candidate_sha256": "fc323d0f1519d02fcc1f8ebed0120758fc865e438e2ec23c891c9af2a361ccd7",
+      "transformation": "Release documentation reconciled against published febe18b0; historical source fields retained. See release_documentation_reconciliation.",
       "source_git_status": "uncommitted local addition",
       "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt.",
       "previous_candidate_sha256": "d5c123b09ac46a9b171b5e74f43de89801c5f0578a8a410fa042512d590046b5",
@@ -1826,11 +1826,12 @@
     "timezone": "America/New_York",
     "repository": "https://github.com/Y3K5/traitweaver",
     "visibility": "public",
-    "main_commit": "5e14721cce8568e0eeae67ed188fa3c5b5f8a8e4",
-    "documentation_patch_pushed": true,
-    "documentation_patch_commit": "5e14721cce8568e0eeae67ed188fa3c5b5f8a8e4",
+    "main_commit": "febe18b0b16e53a49aee71d3f8f4142b4a828618",
+    "documentation_patch_pushed": false,
+    "documentation_patch_commit": null,
     "submission_verified": false,
-    "scope": "Read-only GitHub branch refresh and clean public clone; the November 1 documentation/license update is published. No historical approval is rewritten."
+    "scope": "Current documentation-only edits are uncommitted; historical publication and source/creation records retain their original scope.",
+    "method": "Read-only GitHub branch API; local release worktree HEAD matches."
   },
   "documentation_cleanup": {
     "date": "2026-11-01",
@@ -1948,5 +1949,85 @@
     "source_evidence_changed": false,
     "scientific_status": "Illustrative teaching model; not field validation.",
     "historical_records": "Earlier preparation records retained without retroactive approval."
+  },
+  "historical_repository_observation_before_release_docs": {
+    "checked_date": "2026-11-02",
+    "timezone": "America/New_York",
+    "repository": "https://github.com/Y3K5/traitweaver",
+    "visibility": "public",
+    "main_commit": "5e14721cce8568e0eeae67ed188fa3c5b5f8a8e4",
+    "documentation_patch_pushed": true,
+    "documentation_patch_commit": "5e14721cce8568e0eeae67ed188fa3c5b5f8a8e4",
+    "submission_verified": false,
+    "scope": "Read-only GitHub branch refresh and clean public clone; the November 1 documentation/license update is published. No historical approval is rewritten."
+  },
+  "release_documentation_reconciliation": {
+    "date": "2026-11-02",
+    "base_public_commit": "febe18b0b16e53a49aee71d3f8f4142b4a828618",
+    "scope": "Current publication status, contribution/reuse records, unresolved rights and demo provenance only. No application, scientific source, test, asset, license, media or model-run changes.",
+    "status": "local_uncommitted_documentation",
+    "publication_approved": false,
+    "changed_documentation": [
+      "README.md",
+      "docs/REVIEW_STATUS.txt",
+      "docs/RELEASE_BLOCKERS.txt",
+      "docs/CONTRIBUTIONS.md",
+      "docs/CONTRIBUTION_LEDGER.txt",
+      "docs/COMPONENT_RIGHTS.md",
+      "docs/META_CONTRIBUTION.md",
+      "docs/RELEASE_CANDIDATE.txt",
+      "docs/DEMO_RELEASE_3_MIN.txt"
+    ],
+    "previous_mapping_fields": [
+      {
+        "destination": "README.md",
+        "candidate_sha256": "767bb8bc7413eed59cafe6e7ecefa40aefc46c2701d4a92bd85b1784d770a442",
+        "transformation": "Modified descendant in the November 2 application publication update; original source fields retained."
+      },
+      {
+        "destination": "docs/RELEASE_BLOCKERS.txt",
+        "candidate_sha256": "6b1677befbc5038258889c1d51259ea63459fe771fbac0b021aa1e0f2ca47101",
+        "transformation": "Modified descendant in the November 2 application publication update; original source fields retained."
+      },
+      {
+        "destination": "docs/REVIEW_STATUS.txt",
+        "candidate_sha256": "cf4ed3da78775402b9b5d0ae8d20fd2cc39dc5c1bb16024d430388d32803a78b",
+        "transformation": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged."
+      },
+      {
+        "destination": "docs/CONTRIBUTIONS.md",
+        "candidate_sha256": "5b99638e978a1149a8248d237735a839730f17a39b6a0ce027564b14fb6ca994",
+        "transformation": "New review documentation synthesized from explicitly cited Git history, existing documentary records and owner instructions; not a copy of an external source file."
+      },
+      {
+        "destination": "docs/META_CONTRIBUTION.md",
+        "candidate_sha256": "026fe00a34d50c4325f351f1173d329bf228e286e2c8aa4dcf31b3cf64cc99de",
+        "transformation": "New review documentation synthesized from explicitly cited Git history, existing documentary records and owner instructions; not a copy of an external source file."
+      },
+      {
+        "destination": "docs/COMPONENT_RIGHTS.md",
+        "candidate_sha256": "a885d0778b01a8c9bc5e291d2e0d70c0b9dff92adc3cb1a959d8e53ed83436a7",
+        "transformation": "New scoped rights inventory synthesized from repository notices, independently reviewed primary-source terms and owner instructions; not a copy of an external source file. Original-code MIT is selected; separate component-rights clearance remains pending."
+      },
+      {
+        "destination": "docs/CONTRIBUTION_LEDGER.txt",
+        "candidate_sha256": "bed04279265f67a1ad9ced09ec97e77ab1acd756a224f354d8fc451400f16289",
+        "transformation": "New Codex-authored local mission implementation/documentation or metadata-only synthetic fixture, November 2, 2026"
+      },
+      {
+        "destination": "docs/DEMO_RELEASE_3_MIN.txt",
+        "candidate_sha256": "4d7a25afa2bdf45d00d98728941bcb588b8f42053720762769c22ce8a70f63d6",
+        "transformation": "New Codex-authored local mission implementation/documentation or metadata-only synthetic fixture, November 2, 2026"
+      },
+      {
+        "destination": "docs/RELEASE_CANDIDATE.txt",
+        "candidate_sha256": "178409904a619ddb872b5bf370e41186bbd1d4de78da4a6cac1e96a91c1a0aad",
+        "transformation": "Modified descendant in the November 2 application publication update; original source fields retained."
+      }
+    ],
+    "historical_field_policy": "All source hashes and source_git_status values retain their original acquisition/preparation scope; they do not describe current public visibility. Prior candidate mapping fields are preserved here.",
+    "real_packets_inspected": false,
+    "new_provider_calls": 0,
+    "final_video_supplied_and_checked": false
   }
 }

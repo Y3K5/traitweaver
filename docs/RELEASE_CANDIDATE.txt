@@ -1,5 +1,8 @@
 TRAITWEAVER HACKATHON RELEASE CANDIDATE — NOVEMBER 2, 2026
-Publication requested by the owner on November 2; event submission remains separate.
+Published application snapshot: febe18b0b16e53a49aee71d3f8f4142b4a828618,
+verified on public main November 2 Eastern. This documentation-only update is
+local and uncommitted. Earlier publication approval does not cover new edits;
+final media, component rights and event submission remain separate decisions.
 
 START
 python3 -B run_workspace.py --demo
@@ -8,8 +11,10 @@ This uses a visibly synthetic replay, pinned public evidence and no private file
 Python 3.10+ standard library only; no installation or API key required.
 
 MAIN JOURNEY
-1. Research journey: question -> cited evidence -> saved Muse decision -> actual
-   recorded local check -> saved reassessment. The bundled replay is synthetic.
+1. Research journey: question -> cited evidence -> decision -> local-check result
+   -> reassessment. With --demo these are synthetic replay records. Only an
+   explicitly loaded, validated non-synthetic existing cycle represents saved
+   real Muse work; neither mode runs a new model call.
 2. Finish & review study: inspect the trait/source/mechanism/gene/transcript/
    protein/reference/recipient graph and four separate phosphorus endpoints.
 3. Consider combined traits: source-bound starter proposals plus optional
@@ -81,11 +86,16 @@ NO-GO: claim of validated biology, ready sequences, field release or automatic
 publication/submission. Human scientific/usefulness review remains pending.
 Before submission: owner reviews exact file list/destination, participant guide
 and reuse eligibility, event-built disclosure and the final three-minute video.
-Existing older video predates this review layer; new script describes current flow.
+No final video has been supplied and checked here; the current script describes
+the flow but does not establish a finished recording or an accessible video URL.
 A full smooth timed human rehearsal is not established by browser automation.
 Provider billing remains unverified; no extra call is needed to resolve it.
 
 VERIFICATION
+Current documentation reconciliation: exact-file/manifest, provenance, link and
+whitespace checks only. No new application/controller/browser run or scientific
+review is claimed. The implementation verification notes below are historical.
+
 Run Python tests, existing controller suites and loopback scripts as described in
 README. New test_release_review.py tests the actual new contract and HTTP handlers.
 Browser walkthrough: actual typed import, invalid-input retention, labeled test
