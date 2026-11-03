@@ -708,9 +708,9 @@
       "destination": "tests/journey_ui_offline.cjs",
       "source": "tests/journey_ui_offline.cjs",
       "source_sha256": "fe930c191b32b186fd3666e3e2ea5907177e36651f80c8461e0e70f3e08d9a20",
-      "candidate_sha256": "b80a0dbf2be8c705100a72c5a54f11cf7557b7c212e7f275154718c860e40c68",
-      "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
-      "source_git_status": "local only; not committed or pushed"
+      "candidate_sha256": "b46fd9d5e3213c31432b315652359bde8fc7f411e03b6d07b48dd3451d69d4e3",
+      "transformation": "November 3 local phosphorus showcase and expansion story over b4f7e57. Previous mapping retained in cloud_local_showcase_expansion. Scientific records and model contracts unchanged.",
+      "source_git_status": "Screened showcase checkpoint; scoped commit and normal push authorized by owner."
     },
     {
       "destination": "tests/test_research_story.py",
@@ -848,9 +848,9 @@
       "destination": "docs/VALIDATION.txt",
       "source": "docs/VALIDATION.txt",
       "source_sha256": "67943a61bdc6161d26f4ea70a9496a861ad2590ddfa9d310b2213ef4c5fdef10",
-      "candidate_sha256": "52cf4b8273aba120210c56f4245c744a81b2dd62b97e5fddcf20236f085f3e66",
-      "transformation": "November 3 managed cloud proxy compatibility over ee42024; prior mappings retained in cloud_smoke_proxy_compatibility.",
-      "source_git_status": "local only; not committed or pushed"
+      "candidate_sha256": "be394aa8f48a2d96547b1bd87233c6c56baf713cbd44e4a9056185d555d90358",
+      "transformation": "November 3 local phosphorus showcase and expansion story over b4f7e57. Previous mapping retained in cloud_local_showcase_expansion. Scientific records and model contracts unchanged.",
+      "source_git_status": "Screened showcase checkpoint; scoped commit and normal push authorized by owner."
     },
     {
       "destination": "docs/ASSISTANT_WORKSPACE.txt",
@@ -1112,9 +1112,9 @@
       "destination": "src/traitweaver/web/journey.css",
       "source": "src/traitweaver/web/journey.css",
       "source_sha256": "96fd0a253e4cfb19363a0daec886d479c3c8029839099ef3356034213f40e5ec",
-      "candidate_sha256": "8ec9debd2b995bc392e5c2423864f5cab413b26708b83b261643d93cc94bb956",
-      "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
-      "source_git_status": "local only; not committed or pushed"
+      "candidate_sha256": "306a0a92140c2bd062d5279d123db5aac5cf57bdf14a52665ab5ab1f3a45cfa4",
+      "transformation": "November 3 local phosphorus showcase and expansion story over b4f7e57. Previous mapping retained in cloud_local_showcase_expansion. Scientific records and model contracts unchanged.",
+      "source_git_status": "Screened showcase checkpoint; scoped commit and normal push authorized by owner."
     },
     {
       "destination": "src/traitweaver/web/research-story-ui.js",
@@ -1128,9 +1128,9 @@
       "destination": "src/traitweaver/web/journey-ui.js",
       "source": "src/traitweaver/web/journey-ui.js",
       "source_sha256": "5e4cc6cb6c1bd9ec6c625dd2d551144b2509f88a686ebe54dd4777c612e946eb",
-      "candidate_sha256": "5d92f73a227a2ec1427a472341bf0c6d3a72f537a4593595ad3b5637bf1c7058",
-      "transformation": "November 3 UTC phosphorus-demo navigation handoff over9fe1cc0. Original source fields retained; prior mappings in cloud_demo_review_handoff. No backend or scientific-contract change.",
-      "source_git_status": "local only; not committed or pushed",
+      "candidate_sha256": "f94e89580ff94a4f769ecf8c25afafdc9f78ab6786e8c8b8ba87853b8eeb49a0",
+      "transformation": "November 3 local phosphorus showcase and expansion story over b4f7e57. Previous mapping retained in cloud_local_showcase_expansion. Scientific records and model contracts unchanged.",
+      "source_git_status": "Screened showcase checkpoint; scoped commit and normal push authorized by owner.",
       "previous_candidate_sha256": "7321f695ef84a4b2c63fb9e01d1f23aced48b6aa750a48187681f74858bfdce3",
       "historical_transformation_label": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only."
     },
@@ -1363,9 +1363,9 @@
       "source": "docs/CINEMATIC_SHOWCASE.txt",
       "source_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
       "source_sha256": "0d72710fc4f31f39d67d9d442b450b17647910a1779335a5303fbe2d32bf3604",
-      "candidate_sha256": "38b6caf22d1a0a6d41e55d9521c5bcbfc8095cb6569842efe891a1105d2cc42e",
-      "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
-      "source_git_status": "Tracked in local feature commit 0987c1b; remote state not checked."
+      "candidate_sha256": "d9f7785b58c8ad3803162b2c75acb1d0ca105851637c97a1217976cf54da8cce",
+      "transformation": "November 3 local phosphorus showcase and expansion story over b4f7e57. Previous mapping retained in cloud_local_showcase_expansion. Scientific records and model contracts unchanged.",
+      "source_git_status": "Screened showcase checkpoint; scoped commit and normal push authorized by owner."
     },
     {
       "destination": "src/traitweaver/showcase.py",
@@ -1401,9 +1401,9 @@
       "destination": "docs/DEMO_RELEASE_3_MIN.txt",
       "source": "docs/DEMO_RELEASE_3_MIN.txt",
       "source_sha256": "4d7a25afa2bdf45d00d98728941bcb588b8f42053720762769c22ce8a70f63d6",
-      "candidate_sha256": "4e8e7f10264705e335d7ec999a980358bf3923ca82ef845005622c6271579513",
-      "transformation": "November 3 UTC phosphorus-demo navigation handoff over9fe1cc0. Original source fields retained; prior mappings in cloud_demo_review_handoff. No backend or scientific-contract change.",
-      "source_git_status": "uncommitted local addition",
+      "candidate_sha256": "c7b5e567b76394937da87ed2ff41ec91e21acf9c26ecbcb9b19df92c3dbb89ab",
+      "transformation": "November 3 local phosphorus showcase and expansion story over b4f7e57. Previous mapping retained in cloud_local_showcase_expansion. Scientific records and model contracts unchanged.",
+      "source_git_status": "Screened showcase checkpoint; scoped commit and normal push authorized by owner.",
       "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt."
     },
     {
@@ -3347,5 +3347,92 @@
     "network_configuration_changed": false,
     "private_packets_included": false,
     "request_wire_bytes_changed": false
+  },
+  "cloud_local_showcase_expansion": {
+    "date": "2026-11-03",
+    "base_commit": "b4f7e57f25e65788207b4774604279b457ec94fc",
+    "scope": "Presentation and documentation: evidence-first opening, explicit provenance and unvalidated expansion questions. Owner authorized publication after local review. No provider execution.",
+    "previous_mapping": [
+      {
+        "destination": "tests/journey_ui_offline.cjs",
+        "source": "tests/journey_ui_offline.cjs",
+        "source_sha256": "fe930c191b32b186fd3666e3e2ea5907177e36651f80c8461e0e70f3e08d9a20",
+        "candidate_sha256": "b80a0dbf2be8c705100a72c5a54f11cf7557b7c212e7f275154718c860e40c68",
+        "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "docs/VALIDATION.txt",
+        "source": "docs/VALIDATION.txt",
+        "source_sha256": "67943a61bdc6161d26f4ea70a9496a861ad2590ddfa9d310b2213ef4c5fdef10",
+        "candidate_sha256": "52cf4b8273aba120210c56f4245c744a81b2dd62b97e5fddcf20236f085f3e66",
+        "transformation": "November 3 managed cloud proxy compatibility over ee42024; prior mappings retained in cloud_smoke_proxy_compatibility.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "src/traitweaver/web/journey.css",
+        "source": "src/traitweaver/web/journey.css",
+        "source_sha256": "96fd0a253e4cfb19363a0daec886d479c3c8029839099ef3356034213f40e5ec",
+        "candidate_sha256": "8ec9debd2b995bc392e5c2423864f5cab413b26708b83b261643d93cc94bb956",
+        "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "src/traitweaver/web/journey-ui.js",
+        "source": "src/traitweaver/web/journey-ui.js",
+        "source_sha256": "5e4cc6cb6c1bd9ec6c625dd2d551144b2509f88a686ebe54dd4777c612e946eb",
+        "candidate_sha256": "5d92f73a227a2ec1427a472341bf0c6d3a72f537a4593595ad3b5637bf1c7058",
+        "transformation": "November 3 UTC phosphorus-demo navigation handoff over9fe1cc0. Original source fields retained; prior mappings in cloud_demo_review_handoff. No backend or scientific-contract change.",
+        "source_git_status": "local only; not committed or pushed",
+        "previous_candidate_sha256": "7321f695ef84a4b2c63fb9e01d1f23aced48b6aa750a48187681f74858bfdce3",
+        "historical_transformation_label": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only."
+      },
+      {
+        "destination": "docs/CINEMATIC_SHOWCASE.txt",
+        "source": "docs/CINEMATIC_SHOWCASE.txt",
+        "source_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
+        "source_sha256": "0d72710fc4f31f39d67d9d442b450b17647910a1779335a5303fbe2d32bf3604",
+        "candidate_sha256": "38b6caf22d1a0a6d41e55d9521c5bcbfc8095cb6569842efe891a1105d2cc42e",
+        "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
+        "source_git_status": "Tracked in local feature commit 0987c1b; remote state not checked."
+      },
+      {
+        "destination": "docs/DEMO_RELEASE_3_MIN.txt",
+        "source": "docs/DEMO_RELEASE_3_MIN.txt",
+        "source_sha256": "4d7a25afa2bdf45d00d98728941bcb588b8f42053720762769c22ce8a70f63d6",
+        "candidate_sha256": "4e8e7f10264705e335d7ec999a980358bf3923ca82ef845005622c6271579513",
+        "transformation": "November 3 UTC phosphorus-demo navigation handoff over9fe1cc0. Original source fields retained; prior mappings in cloud_demo_review_handoff. No backend or scientific-contract change.",
+        "source_git_status": "uncommitted local addition",
+        "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt."
+      }
+    ],
+    "previous_handoff": {
+      "status": "traitweaver_cloud_smoke_proxy_screened_for_publication",
+      "prepared_date": "2026-11-03",
+      "refresh": "Single smoke adapter uses required managed proxy with verified TLS and no direct fallback; refreshed unsigned packet binds changed code.",
+      "publication_approved": true,
+      "review_status": "Scoped cloud publication authorized. Offline checks passed; runtime allowlist, account readiness and exact paid-request approval remain separate."
+    },
+    "validation": "docs/VALIDATION.txt",
+    "new_biological_capability": false,
+    "new_live_model_result": false,
+    "publication_approved": true,
+    "initial_development_scope": "Local presentation and documentation only: evidence-first opening, explicit provenance and unvalidated expansion questions. No provider call, commit or push.",
+    "publication_review": {
+      "base_commit": "b4f7e57f25e65788207b4774604279b457ec94fc",
+      "changed_files": [
+        "HANDOFF_MANIFEST.json",
+        "SOURCE_PROVENANCE.json",
+        "docs/CINEMATIC_SHOWCASE.txt",
+        "docs/DEMO_RELEASE_3_MIN.txt",
+        "docs/VALIDATION.txt",
+        "src/traitweaver/web/journey-ui.js",
+        "src/traitweaver/web/journey.css",
+        "tests/journey_ui_offline.cjs"
+      ],
+      "application_matches_tested_checkpoint": true,
+      "privacy_screen": "Exact diff and full changed-file review; no credentials, private research or unrelated work identified.",
+      "screenshots_and_real_packets_included": false
+    }
   }
 }

@@ -835,3 +835,67 @@ binding is configured. Only read-only environment tools are exposed; the support
 next step is user-reviewed addition of api.meta.ai to Allowed hosts while retaining
 Restricted mode. Runtime policy/proxy/CA settings, account state and billing were
 not changed. No model call, secret read, paid use or approved grant in this work.
+
+NOVEMBER 3 UTC — LOCAL PHOSPHORUS SHOWCASE AND EXPANSION STORY
+Base checkout: b4f7e57f25e65788207b4774604279b457ec94fc, branch work.
+Presentation-only change: opening paired source evidence, optional collapsed
+artwork, five-role provenance legend, fixture-specific model card titles, separate
+documentary October 29 summary, and explicitly unvalidated expansion questions.
+No backend, evidence fixture, model schema, provider adapter or approval changed.
+The three-minute walkthrough and showcase guide describe the actual controls.
+
+Acceptance checks were added before implementation; the first run failed because
+the new opening projection did not yet exist. Final shipped-controller suite:
+68 passing checks using the actual Python handlers through an in-memory bridge,
+with zero external requests/socket calls. Covers evidence-before-artwork,
+unchanged units/uncertainty/source context, zero versus missing, loaded/synthetic/
+absent/mixed model provenance, separate roadmap, no-dispatch navigation,
+source-bound history/export/reopen and reduced motion. Real-display routing is
+exercised with an in-memory test double only; no real packet was admitted.
+
+Related checks: 5 showcase admission tests, 21 completed-cycle HTTP checks,
+14 completed-cycle controller checks and 25 research-story controller checks
+passed. All five admitted public reference files and their pins verified.
+No new full application/Python-suite or provider interoperability claim is made.
+
+Native Chromium/Playwright walkthrough passed at 1440x1000, 1280x800 and 390x844.
+Each traversed all five scenes, inspected both endpoint rows and the expansion
+roadmap, followed Human review required into Your decision, returned to journey,
+and verified reduced-motion playback stays stopped. No page errors, external
+requests, navigation POSTs or owning-study changes. No horizontal page overflow.
+Desktop opening values, SE, units and culture replicate counts fit above the fold
+at both tested desktop sizes. Screenshot review prompted a tighter opening;
+the final browser pass includes that layout. Mobile uses a stacked scroll layout.
+A separate normal-motion pass verified optional artwork open/pause/replay/close
+and native six-second scene advance/pause without requests or record changes.
+Its first polling assertion hit the page CSP's unsafe-eval restriction; using
+native selector waiting fixed the test harness without changing application CSP.
+Browser reports/screenshots and test logs remain outside the candidate tree.
+
+Candidate hashes/membership and whitespace checked after metadata refresh.
+No files staged, committed, pushed or submitted. No live Muse call, credential
+access or paid use. No new video or human comprehension/domain evaluation.
+Real Muse records remain excluded; the documented historical run is not loaded
+by its summary. Expansion ideas have no admitted cases, model results or
+validated biological capabilities here. Useful phosphorus recovery remains
+unestablished; uptake, growth and collected-product endpoints stay separate.
+
+NOVEMBER 3 UTC — SHOWCASE PUBLICATION CHECKPOINT
+The owner subsequently authorized publication of this tested eight-file showcase
+checkpoint. Current public main was verified at b4f7e57, matching the local base;
+no incoming work or outgoing local commits were present. Branch protection was
+disabled and the repository returned no rulesets. No protections were changed.
+
+Fresh focused checks passed: 68 journey, 14 completed-cycle and 25 research-story
+controller scenarios; 21 completed-cycle HTTP checks; 5 showcase admission tests.
+The application/controller bytes match the screenshot-tested local checkpoint.
+Existing three-viewport and normal-motion browser reports were verified against
+that unchanged code; no fresh full Python/application suite is claimed.
+The exact diff and complete changed files were reviewed for credentials, private
+material and unrelated work. Scientific fixtures, backend, transports and all
+other source files remain unchanged. No screenshots, raw packets, session notes,
+review judgments or local machine files are included. Candidate membership stays
+193 files; source pins, provenance hashes and whitespace are checked separately.
+Only release-status wording and provenance/manifest metadata changed after the
+local presentation review. This checkpoint authorizes its scoped normal commit
+and push; it records no new provider execution or biological validation.

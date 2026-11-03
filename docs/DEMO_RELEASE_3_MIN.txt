@@ -1,56 +1,71 @@
 CURRENT THREE-MINUTE WALKTHROUGH — NOVEMBER 3 UTC
-Narration script, not a claim that a new video has been recorded. No final video
-has been supplied and checked for this reconciliation; no final URL is added.
-Use one phosphorus-recovery case. Pre-open the saved cycle and prepared export.
-With --demo, always say synthetic replay. Only an explicitly loaded, validated
-non-synthetic existing cycle can be described as saved real Muse work.
+Presentation refresh over b4f7e57. No new provider call.
+This is a recording script, not a recorded or submitted video. Final URL pending.
+Start python3 -B run_workspace.py --demo and open the printed #journey URL.
+Default responses are synthetic fixtures. A saved real Muse label requires an
+explicitly loaded, validated non-synthetic cycle; real packets are not bundled.
+Prepare any export/reopen example before recording and label example reviews as
+synthetic rehearsal, never the owner's actual scientific approval.
 
-0:00–0:25 — QUESTION
-Can algae help recover phosphorus, and what evidence should we seek next?
-Traitweaver keeps four outcomes separate: removal from water, uptake into cells,
-physically collected phosphorus and later plant use. None substitutes for another.
+0:00–0:20 — QUESTION, WITH EVIDENCE ALREADY VISIBLE
+Start on Question. The paired uptake and growth cards now lead the opening;
+the bloom is in Optional illustration, closed by default. Point to the role key.
+"Can algae help recover phosphorus? Traitweaver connects published observations,
+a bounded model decision, a local check and a question for human review."
+Distinguish published observations, synthetic replay or saved Muse, local audit,
+authored plan and simulation. Each scene retains this legend.
 
-0:25–0:55 — EVIDENCE AND MAP
-Select Evidence in Research journey. Show the paired values, units, SE, number
-of culture replicates and source context. Briefly open the source-linked evidence
-web if useful. The CC-503 reference does not establish identity in the UVM4 study
-lines or a future receiving host. A gene match is not a transferable trait.
+0:20–0:50 — EVIDENCE IN CONTEXT
+Choose Follow the evidence. Show UVM4 and published line 8-27 with values, units,
+SE and culture replicates; expand Measurement basis & source row if useful.
+"Uptake and growth are measured separately. Neither tells us how much useful
+phosphorus we can physically collect. Missing recovery evidence is not zero."
+The source-linked evidence web and CC-503 reference are optional deep dives;
+a reference match does not establish identity in the UVM4 study or trait transfer.
 
-0:55–1:40 — META CONTRIBUTION
-Select Muse decision, then Tool result. Show the selected check, its accepted
-citations, and the two saved coverage rows with their source links and blockers.
-For a validated loaded real cycle: "This saved Muse run selected a source-cited
-endpoint check. The recorded local result found no quantified collected-product
-phosphorus endpoint in either admitted path. Muse reassessed that result and
-requested researcher review of the measurement plan. No new call is running."
-For --demo: "This synthetic replay illustrates the documented decision, local
-check and reassessment workflow. These displayed responses are fixtures, not
-recorded real Muse output; the real run is described in LIVE_RUN_SUMMARY.txt."
-This demonstrates a useful missing-evidence result, not a biological failure.
-Explain that the model selects among registered checks. The displayed rationale
-text, conditional branches and study plan are authored by the application. The
-reassessment schema constrains the outcome and permitted next action; this demo
-does not establish autonomous replanning or general model usefulness.
+0:50–1:35 — THE MODEL'S BOUNDED ROLE, THEN THE ACTUAL LOCAL AUDIT
+Choose Muse decision, then Tool result. Point to the accepted check/citations,
+then the two source-linked endpoint audit rows and blockers.
+For --demo: "These displayed model responses are synthetic fixtures. They replay
+selection of endpoint coverage, the actual local software audit, and a bounded
+reassessment. The audit finds no quantified collected-product phosphorus evidence
+in either admitted path. That is a useful gap to identify, not biological failure."
+For an explicitly loaded, validated real cycle: "This saved Muse run selected
+a source-cited endpoint check. The local software found the missing endpoint;
+Muse reassessed the result and requested researcher review. No live call is running."
+Rationale prose, conditional branches and the study plan are application-authored.
+The closed reassessment schema constrains the outcome and permitted next action;
+this is not proof of autonomous replanning or general scientific usefulness.
+The expandable Documented real Muse contribution panel separately summarizes
+the October 29 owner-confirmed run from docs/LIVE_RUN_SUMMARY.txt. The summary
+does not load or independently authenticate those packets, and does not turn
+the default synthetic replay into real model output.
 
-1:40–2:10 — STUDY AND MULTIPLE TRAITS
-Select Next study. Point to the linked result ID, accepted next action and
-citations. Open the authored plan's comparisons, controls and unresolved
-thresholds. Uptake, growth and recoverable phosphorus remain distinct; their
-joint behavior is unassessed. These are review questions, not a wet-lab protocol.
-Use Human review required to open Your decision directly in the separate
-study-review session. This navigation preserves records and drafts; it saves no
-review. The session's cards do not inherit the loaded cycle's real-model status.
+1:35–2:05 — NEXT STUDY AND HUMAN DECISION
+Choose Next study. Show the linked result, accepted next action and authored
+plan's readouts. Expand Comparison, controls and unresolved decisions.
+"The next step is to define collected phosphorus and growth measurements, with
+appropriate comparisons and unresolved thresholds reviewed by a researcher."
+Choose Human review required to open Your decision in the separate study-review
+session. Opening it saves no judgment and transfers no model provenance.
 
-2:10–2:40 — HUMAN DECISION
-Show the review form. The researcher records a reason for the exact saved
-content; later changes require reassessment. For rehearsal, label any example
-review as a synthetic test. Never present it as the owner's actual approval.
+2:05–2:30 — HANDOFF
+Show a prepared example review/export and reopened read-only package.
+"The source records, model and tool roles, unknowns and review history stay with
+the study. A local check can be complete while the biological question is open."
+Use rehearsal records only as visibly synthetic examples. A human review applies
+to exact content; later changes need reassessment. Export before server shutdown.
 
-2:40–3:00 — REPRODUCIBLE HANDOFF
-Show a prepared JSON/readable brief and the reopened read-only package.
-Sources, unknowns, blockers, model/tool records and review history travel together.
-The next step is better evidence and human review. Biological validity, broad
-model usefulness and engineering success remain unestablished.
+2:30–3:00 — EXPANSION, WITH ITS OWN EVIDENCE REQUIREMENTS
+Return to Research journey, select Next study, and scroll to Expansion roadmap.
+"Today the workspace traces sources, runs registered audits and preserves human
+review. Future questions include metal capture and e-waste, fungi processing
+contaminated biomass, and specialist assessment of radiation-related cleanup.
+Those are research questions, not implemented or validated capabilities. Each
+needs its own evidence and context. Capture does not make contaminants disappear."
+The phosphorus case is not evidence for these future domains. Residual material,
+contaminant fate and remaining radiological hazards must remain explicit.
+End on the distinction between the working review software and unvalidated biology.
 
 OPTIONAL TEACHING VISUALS
 If Traits or Landfill water is shown, say "authored teaching illustration" or

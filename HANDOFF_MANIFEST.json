@@ -1,11 +1,11 @@
 {
   "schema_version": "traitweaver.final_repository_handoff.v1",
-  "status": "traitweaver_cloud_smoke_proxy_screened_for_publication",
+  "status": "traitweaver_showcase_screened_for_publication",
   "prepared_date": "2026-11-03",
-  "refresh": "Single smoke adapter uses required managed proxy with verified TLS and no direct fallback; refreshed unsigned packet binds changed code.",
+  "refresh": "Evidence-first phosphorus presentation, provenance legend and separately labelled expansion questions.",
   "publication_approved": true,
   "claude_review_performed": false,
-  "review_status": "Scoped cloud publication authorized. Offline checks passed; runtime allowlist, account readiness and exact paid-request approval remain separate.",
+  "review_status": "Owner authorized the tested eight-file showcase checkpoint for scoped commit and normal push. Publication does not establish scientific validation or include provider execution.",
   "scope": "Public/synthetic research-workspace code plus documentation. Documentary real Meta contribution is described; real packets, media and new provider execution are excluded.",
   "files": [
     {
@@ -35,8 +35,8 @@
     },
     {
       "path": "SOURCE_PROVENANCE.json",
-      "sha256": "fdfefed8d6f9d6368059d8f3f7dce3cf5dcd61264004b718bc88862d1642fda2",
-      "bytes": 250327
+      "sha256": "e16a027802d27a5e9f3ee74e6f502b651b584c158660d059ea118c36f883d95e",
+      "bytes": 256574
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -210,8 +210,8 @@
     },
     {
       "path": "docs/CINEMATIC_SHOWCASE.txt",
-      "sha256": "38b6caf22d1a0a6d41e55d9521c5bcbfc8095cb6569842efe891a1105d2cc42e",
-      "bytes": 4083
+      "sha256": "d9f7785b58c8ad3803162b2c75acb1d0ca105851637c97a1217976cf54da8cce",
+      "bytes": 5590
     },
     {
       "path": "docs/CLAUDE_REVIEW_BRIEF.txt",
@@ -245,8 +245,8 @@
     },
     {
       "path": "docs/DEMO_RELEASE_3_MIN.txt",
-      "sha256": "4e8e7f10264705e335d7ec999a980358bf3923ca82ef845005622c6271579513",
-      "bytes": 6696
+      "sha256": "c7b5e567b76394937da87ed2ff41ec91e21acf9c26ecbcb9b19df92c3dbb89ab",
+      "bytes": 7930
     },
     {
       "path": "docs/DEMO_SCRIPT_3_MIN.txt",
@@ -345,8 +345,8 @@
     },
     {
       "path": "docs/VALIDATION.txt",
-      "sha256": "52cf4b8273aba120210c56f4245c744a81b2dd62b97e5fddcf20236f085f3e66",
-      "bytes": 55427
+      "sha256": "be394aa8f48a2d96547b1bd87233c6c56baf713cbd44e4a9056185d555d90358",
+      "bytes": 59867
     },
     {
       "path": "docs/WHAT_WE_BUILT.txt",
@@ -590,13 +590,13 @@
     },
     {
       "path": "src/traitweaver/web/journey-ui.js",
-      "sha256": "5d92f73a227a2ec1427a472341bf0c6d3a72f537a4593595ad3b5637bf1c7058",
-      "bytes": 38051
+      "sha256": "f94e89580ff94a4f769ecf8c25afafdc9f78ab6786e8c8b8ba87853b8eeb49a0",
+      "bytes": 41507
     },
     {
       "path": "src/traitweaver/web/journey.css",
-      "sha256": "8ec9debd2b995bc392e5c2423864f5cab413b26708b83b261643d93cc94bb956",
-      "bytes": 15465
+      "sha256": "306a0a92140c2bd062d5279d123db5aac5cf57bdf14a52665ab5ab1f3a45cfa4",
+      "bytes": 18380
     },
     {
       "path": "src/traitweaver/web/molecular-ui.js",
@@ -690,8 +690,8 @@
     },
     {
       "path": "tests/journey_ui_offline.cjs",
-      "sha256": "b80a0dbf2be8c705100a72c5a54f11cf7557b7c212e7f275154718c860e40c68",
-      "bytes": 22373
+      "sha256": "b46fd9d5e3213c31432b315652359bde8fc7f411e03b6d07b48dd3451d69d4e3",
+      "bytes": 24565
     },
     {
       "path": "tests/molecular_ui_offline.cjs",
@@ -994,7 +994,7 @@
     "review_status": "Local software/browser verification; independent scientific and publication review pending",
     "scope": "Local public/synthetic fixed-case research workbench and scientific showcase; no live provider contribution, laboratory execution or organism design"
   },
-  "base_public_commit": "ee42024bec0b4a61cd072e318459c35d58834946",
+  "base_public_commit": "b4f7e57f25e65788207b4774604279b457ec94fc",
   "historical_validation_and_screening": {
     "tests": {
       "offline_unit_tests": 302,
@@ -1180,17 +1180,33 @@
     }
   },
   "current_validation": {
-    "base_commit": "ee42024bec0b4a61cd072e318459c35d58834946",
+    "base_commit": "b4f7e57f25e65788207b4774604279b457ec94fc",
     "exact_candidate_files": 193,
-    "focused_offline_tests": 23,
-    "muse_regression_tests": 166,
-    "full_urllib_handler_chain": "synthetic HTTPSConnection; actual sockets blocked",
-    "cli_prepare_verify": "passed_new_unsigned_external_packet",
-    "old_packet_and_wire_unchanged": true,
+    "journey_controller_checks": 68,
+    "completed_cycle_controller_checks": 14,
+    "research_story_controller_checks": 25,
+    "completed_cycle_http_checks": 21,
+    "showcase_admission_tests": 5,
+    "public_reference_pins": 5,
+    "browser_viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        1280,
+        800
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "browser": "Five scenes, review handoff, no navigation POSTs, external requests, page errors or record changes; reduced motion and normal-motion controls verified.",
+    "full_python_suite": "Not repeated; backend, evidence and model contracts unchanged.",
     "new_provider_calls": 0,
     "network_configuration_changed": false,
-    "full_app_and_browser_suites": "Not repeated; application/core/UI unchanged.",
-    "live_execution": "Unapproved and blocked by current cloud network/account readiness."
+    "publication": "Screened eight-file checkpoint authorized for one commit and normal push; remote result verified separately."
   },
   "historical_prepublication_metadata_2026_11_01": {
     "status": "documentation_cleanup_candidate_pending_owner_review",
@@ -1677,5 +1693,25 @@
       "live_execution": "Disabled, unapproved and blocked by cloud network/account readiness."
     },
     "base_public_commit": "58481e9194248876900564b086b12dbd7d0849ee"
+  },
+  "historical_before_local_showcase": {
+    "status": "traitweaver_cloud_smoke_proxy_screened_for_publication",
+    "refresh": "Single smoke adapter uses required managed proxy with verified TLS and no direct fallback; refreshed unsigned packet binds changed code.",
+    "publication_approved": true,
+    "review_status": "Scoped cloud publication authorized. Offline checks passed; runtime allowlist, account readiness and exact paid-request approval remain separate.",
+    "base_public_commit": "ee42024bec0b4a61cd072e318459c35d58834946",
+    "current_validation": {
+      "base_commit": "ee42024bec0b4a61cd072e318459c35d58834946",
+      "exact_candidate_files": 193,
+      "focused_offline_tests": 23,
+      "muse_regression_tests": 166,
+      "full_urllib_handler_chain": "synthetic HTTPSConnection; actual sockets blocked",
+      "cli_prepare_verify": "passed_new_unsigned_external_packet",
+      "old_packet_and_wire_unchanged": true,
+      "new_provider_calls": 0,
+      "network_configuration_changed": false,
+      "full_app_and_browser_suites": "Not repeated; application/core/UI unchanged.",
+      "live_execution": "Unapproved and blocked by current cloud network/account readiness."
+    }
   }
 }
