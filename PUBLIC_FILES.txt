@@ -148,6 +148,8 @@ tests/test_handoff_verifier.py
 tests/test_intelligence.py
 tests/test_intelligence_continuation.py
 tests/test_intelligence_execution.py
+tests/test_intelligence_execution_followup.py
+tests/test_intelligence_execution_followup_handlers.py
 tests/test_intelligence_execution_handlers.py
 tests/test_intelligence_followup_handlers.py
 tests/test_intelligence_handlers.py

@@ -39,7 +39,7 @@ const doc=new Document();for(const id of ['main','notice','primary-nav','breadcr
 const window={handlers:{},scrollTo(){},addEventListener(k,f){(this.handlers[k]??=[]).push(f);}};
 const location={hash:'#intelligence'};
 const memoryFetch=async(path,options={})=>{
- requests.push({path,method:options.method||'GET'});const r=await rpc({path,...options});
+ requests.push({path,method:options.method||'GET',body:options.body?JSON.parse(options.body):null});const r=await rpc({path,...options});
  if(path==='/api/state'&&!coreBefore){coreBefore=JSON.stringify(r.payload.current);referenceBefore=JSON.stringify(r.payload.public_algae);}
  return {ok:r.ok,status:r.status,json:async()=>r.payload,text:async()=>r.text};
 };
@@ -139,14 +139,34 @@ const revision=()=>run('snapshot.intelligence.current.revision');
  check('v3 request includes the actual bridge receipt and human review and excludes covered checks',followupRequest.schema_version==='traitweaver.intelligence_request.v3'&&followupInput.includes(run('snapshot.intelligence_execution.active.attempts[0].result.id'))&&followupInput.includes('human_acknowledgment_of_fixed_local_result')&&JSON.stringify(followupRequest.eligible_checks)===JSON.stringify(['combination_coverage']));
  await fire('intelligence-followup-request-download');check('exact v3 request download remains unsent',JSON.parse(await downloads.at(-1).blob.text()).request_sha256===followupRequest.request_sha256&&JSON.parse(await downloads.at(-1).blob.text()).status==='not_sent');
  await fire('intelligence-followup-check','change','combination_coverage');await fire('intelligence-followup-synthetic');
- check('synthetic v3 proposal remains a review with no execution route',run('snapshot.intelligence_followup.proposal_review.receipt.provenance')==='synthetic_fixture'&&html().includes('V3 proposal review only')&&doc.getElementById('intelligence-followup-synthetic').disabled&&dispatches()===beforeApprovalDispatches+1);
+ check('synthetic v3 proposal alone remains a review and dispatches no check',run('snapshot.intelligence_followup.proposal_review.receipt.provenance')==='synthetic_fixture'&&html().includes('V3 proposal review only')&&doc.getElementById('intelligence-followup-synthetic').disabled&&dispatches()===beforeApprovalDispatches+1);
+ check('reviewed v3 proposal has its own unchecked execution approval',!!doc.getElementById('intelligence-followup-execution-ack')&&!doc.getElementById('intelligence-followup-execution-ack').checked&&doc.getElementById('intelligence-followup-execution-approve').disabled&&html().includes('Approval is stored separately'));
+ const beforeFollowupApprovalRequests=requests.length;
+ await fire('intelligence-followup-execution-approve');
+ check('v3 approval cannot dispatch before exact acknowledgment',requests.length===beforeFollowupApprovalRequests);
+ doc.getElementById('intelligence-followup-execution-ack').checked=true;await fire('intelligence-followup-execution-ack','change');
+ check('v3 acknowledgment enables approval but cannot run a check',!doc.getElementById('intelligence-followup-execution-approve').disabled&&doc.getElementById('intelligence-execution-run').disabled&&requests.length===beforeFollowupApprovalRequests);
+ const exactFollowupHash=run('snapshot.intelligence_followup.review_hash');
+ run('snapshot.intelligence_followup.review_hash="changed-review-fixture"');await fire('intelligence-followup-execution-approve');
+ check('a changed v3 review hash invalidates an earlier approval acknowledgment before dispatch',requests.length===beforeFollowupApprovalRequests&&!run('intelligenceExecutionAcknowledged.approveFollowup'));
+ context.exactFollowupHash=exactFollowupHash;run('snapshot.intelligence_followup.review_hash=globalThis.exactFollowupHash;render()');
+ doc.getElementById('intelligence-followup-execution-ack').checked=true;await fire('intelligence-followup-execution-ack','change');
+ await fire('intelligence-growth','input');
+ check('unsaved input immediately clears v3 execution acknowledgment',!doc.getElementById('intelligence-followup-execution-ack').checked&&doc.getElementById('intelligence-followup-execution-approve').disabled);
+ run('render()');
+ for(const condition of ['snapshot.intelligence_followup.read_only=true','snapshot.intelligence_followup.applicability="stale"','snapshot.intelligence.read_only=true','snapshot.intelligence_execution.read_only=true','intelligenceDraft.minimum_growth_ratio=7']){
+  const beforeGuard=structuredClone(run('({f:snapshot.intelligence_followup,v:snapshot.intelligence,e:snapshot.intelligence_execution,draft:intelligenceDraft})'));
+  context.followupGuardState=beforeGuard;run(condition+';render()');
+  check('v3 execution approval withheld for '+condition,doc.getElementById('intelligence-followup-execution-ack').disabled&&doc.getElementById('intelligence-followup-execution-approve').disabled);
+  run('snapshot.intelligence_followup=globalThis.followupGuardState.f;snapshot.intelligence=globalThis.followupGuardState.v;snapshot.intelligence_execution=globalThis.followupGuardState.e;intelligenceDraft=globalThis.followupGuardState.draft;render()');
+ }
  const followupSynthetic=run('snapshot.intelligence_followup.proposal_review.proposal'),followupSyntheticHash=run('snapshot.intelligence_followup.review_hash');
  doc.getElementById('intelligence-followup-ack').checked=true;await fire('intelligence-followup-ack','change');await fire('intelligence-followup-prepare');
  const followupImportedFixture={model:followupRequest.body.model,status:'completed',output:[{type:'message',content:[{type:'output_text',text:JSON.stringify(followupSynthetic)}]}]};
  await fire('intelligence-followup-reply','input',JSON.stringify(followupImportedFixture));await fire('intelligence-followup-validate');
  check('saved v3 response validation is unverified and does not execute or mutate owning journals',run('snapshot.intelligence_followup.proposal_review.receipt.provenance')==='owner_imported_authenticity_unverified'&&dispatches()===beforeApprovalDispatches+1&&JSON.stringify(run('snapshot.intelligence.current'))===followupOwner&&JSON.stringify(run('snapshot.intelligence_next.package'))===followupV2&&JSON.stringify(run('snapshot.intelligence_execution.package'))===followupExecution);
  const archivedFollowup=doc.nodes.find(n=>!n.removed&&n.dataset.intelligenceFollowupHistory===followupSyntheticHash);assert.ok(archivedFollowup,'Synthetic v3 review stays archived');await archivedFollowup.fire('click');
- check('v3 archived proposal selection is read-only and preserves its original synthetic provenance',run('snapshot.intelligence_followup.read_only')===true&&run('snapshot.intelligence_followup.proposal_review.receipt.provenance')==='synthetic_fixture'&&doc.getElementById('intelligence-followup-validate').disabled&&dispatches()===beforeApprovalDispatches+1);
+ check('v3 archived proposal selection is read-only and preserves its original synthetic provenance',run('snapshot.intelligence_followup.read_only')===true&&run('snapshot.intelligence_followup.proposal_review.receipt.provenance')==='synthetic_fixture'&&doc.getElementById('intelligence-followup-validate').disabled&&doc.getElementById('intelligence-followup-execution-approve').disabled&&dispatches()===beforeApprovalDispatches+1);
  await fire('intelligence-followup-export');const followupExport=await downloads.at(-1).blob.text();
  doc.getElementById('intelligence-followup-file').files=[{size:followupExport.length,text:async()=>followupExport}];await fire('intelligence-followup-file','change');
  check('v3 export reopens read-only without changing source journals or dispatching',run('snapshot.intelligence_followup.read_only')===true&&JSON.stringify(run('snapshot.intelligence_followup.package'))===JSON.stringify(JSON.parse(followupExport))&&JSON.stringify(run('snapshot.intelligence.current'))===followupOwner&&JSON.stringify(run('snapshot.intelligence_next.package'))===followupV2&&JSON.stringify(run('snapshot.intelligence_execution.package'))===followupExecution&&dispatches()===beforeApprovalDispatches+1&&doc.getElementById('intelligence-followup-validate').disabled);
@@ -189,6 +209,22 @@ const revision=()=>run('snapshot.intelligence.current.revision');
  check('all covered inputs stop continuation even after an unrelated recipient change',run('snapshot.intelligence.continuation.status')==='stop_no_new_inputs'&&html().includes('Stop: no unchecked inputs remain')&&doc.getElementById('intelligence-synthetic').disabled&&doc.getElementById('intelligence-prepare').disabled);
  await fire('intelligence-continuation-download');const localPreview=JSON.parse(await downloads.at(-1).blob.text());
  check('local preview export is versioned, contains two-cycle lineage and is not a model request',localPreview.schema_version==='traitweaver.intelligence_continuation.v1'&&localPreview.prior_cycles.length===3&&localPreview.model_request===false&&localPreview.human_review_required===true);
+ // A changed saved question admits one new audit; actual v3 approval reuses the existing execution controller.
+ await focus('trait');await fire('intelligence-endpoint','change','growth');await fire('intelligence-scope-form','submit');
+ doc.getElementById('intelligence-followup-ack').checked=true;await fire('intelligence-followup-ack','change');await fire('intelligence-followup-prepare');await fire('intelligence-followup-synthetic');
+ const v3ExecutionBefore=JSON.stringify(run('snapshot.intelligence_execution.package')),v3SourceBefore=JSON.stringify(run('snapshot.intelligence.current')),v3ReviewBefore=JSON.stringify(run('snapshot.intelligence_followup.package')),v3NextBefore=JSON.stringify(run('snapshot.intelligence_next.package')),v3DispatchBefore=dispatches();
+ const v3Binding=run('({intelligence_hash:snapshot.intelligence.current.hash,execution_hash:snapshot.intelligence_execution.execution_hash,followup_review_hash:snapshot.intelligence_followup.review_hash,expected_hash:snapshot.current.hash})');
+ doc.getElementById('intelligence-followup-execution-ack').checked=true;await fire('intelligence-followup-execution-ack','change');await fire('intelligence-followup-execution-approve');
+ const v3ApprovalRequest=requests.filter(r=>r.path==='/api/intelligence/execution/approve-followup').at(-1);
+ check('v3 approval binds the exact owning execution and proposal hashes',!!v3ApprovalRequest&&Object.entries(v3Binding).every(([key,value])=>v3ApprovalRequest.body[key]===value)&&v3ApprovalRequest.body.acknowledged===true);
+ check('v3 approval is separate from immutable proposal artifacts and runs nothing',JSON.stringify(run('snapshot.intelligence_execution.package'))!==v3ExecutionBefore&&JSON.stringify(run('snapshot.intelligence.current'))===v3SourceBefore&&JSON.stringify(run('snapshot.intelligence_followup.package'))===v3ReviewBefore&&JSON.stringify(run('snapshot.intelligence_next.package'))===v3NextBefore&&dispatches()===v3DispatchBefore&&run('snapshot.intelligence_execution.active.approval.proposal_version')==='v3'&&html().includes('Approval source:</strong> V3')&&!doc.getElementById('intelligence-execution-run').disabled);
+ check('approved v3 source stays inspectable as proposal-only while fresh approval is blocked',html().includes('V3 proposal review only')&&html().includes('Approval recorded separately')&&doc.getElementById('intelligence-followup-execution-approve').disabled&&run('snapshot.intelligence_followup.applicability')==='stale');
+ const beforeInspectExecution=requests.length;await fire('intelligence-followup-execution-inspect');
+ check('inspecting the separately stored v3 approval cannot dispatch a check',requests.length===beforeInspectExecution);
+ await fire('intelligence-execution-run');
+ check('v3 approved audit uses only the separate shared Run action',dispatches()===v3DispatchBefore+1&&run('snapshot.intelligence_execution.active.attempts.at(-1).result.check')==='trait_evidence_audit'&&doc.getElementById('intelligence-execution-reassess').disabled&&JSON.stringify(run('snapshot.intelligence.current'))===v3SourceBefore);
+ doc.getElementById('intelligence-execution-review-ack').checked=true;await fire('intelligence-execution-review-ack','change');await fire('intelligence-execution-reassess');
+ check('v3 audit ends in human acknowledgment and no-new-input stop without a model call',run('snapshot.intelligence_execution.active.reassessment.provenance')==='human_acknowledgment_of_fixed_local_result'&&run('snapshot.intelligence_followup.preview.status')==='stop_no_new_inputs'&&dispatches()===v3DispatchBefore+1&&JSON.stringify(run('snapshot.intelligence_followup.package'))===v3ReviewBefore&&JSON.stringify(run('snapshot.intelligence_next.package'))===v3NextBefore);
  // Existing v1 preparation remains byte-compatible; direct admission still rejects bad responses.
  await run("intelligencePost('prepare',{phase:'selection',focus:'transfer'})");const before=revision();run("document.getElementById('intelligence-reply').value=JSON.stringify({model:'muse-spark-1.3',status:'completed',output:[{type:'function_call',name:'shell'}]})");await fire('intelligence-accept');
  check('rejected provider action cannot execute or save',revision()===before&&doc.getElementById('notice').classList.contains('error'));

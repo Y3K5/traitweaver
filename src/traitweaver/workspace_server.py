@@ -103,7 +103,8 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
 
     def execution_view(current):
         owner=workspace.intelligence_execution
-        return owner.view(workspace.intelligence,intelligence.context(current),workspace.intelligence_next.current(),workspace.intelligence_next.read_only) if owner else None
+        return owner.view(workspace.intelligence,intelligence.context(current),workspace.intelligence_next.current(),workspace.intelligence_next.read_only,
+                          workspace.intelligence_followup.current(),workspace.intelligence_followup.read_only) if owner else None
 
     def intelligence_views(current):
         j=workspace.intelligence
@@ -271,7 +272,7 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
             store=workspace.active
             if not self.safe_host() or not hmac.compare_digest(self.headers.get('X-Traitweaver-Token', ''), token):
                 self.send(403, {'error': 'Same-origin session authorization required'}); return
-            if isinstance(store, CompletedCycle) and urlsplit(self.path).path not in ('/api/study-review/apply','/api/study-review/open','/api/study-review/local','/api/steps/source','/api/steps/check','/api/steps/open','/api/steps/local','/api/cycle-review/open','/api/molecular/save','/api/molecular/open','/api/public-algae/save','/api/public-algae/open','/api/intelligence/followup/prepare','/api/intelligence/followup/synthetic','/api/intelligence/followup/validate','/api/intelligence/followup/open','/api/intelligence/followup/select','/api/intelligence/execution/approve','/api/intelligence/execution/run','/api/intelligence/execution/reassess','/api/intelligence/execution/retry','/api/intelligence/execution/cancel','/api/intelligence/execution/open','/api/intelligence/execution/local','/api/intelligence/next/prepare','/api/intelligence/next/synthetic','/api/intelligence/next/validate','/api/intelligence/next/open','/api/intelligence/next/select','/api/intelligence/revise','/api/intelligence/prepare','/api/intelligence/synthetic','/api/intelligence/accept','/api/intelligence/run','/api/intelligence/open','/api/assistant/select','/api/assistant/synthetic','/api/assistant/check','/api/assistant/open','/api/research-story/present','/api/research-story/open','/api/workbench/prepare','/api/workbench/select','/api/workbench/present','/api/workbench/save','/api/workbench/history','/api/workbench/check','/api/workbench/synthetic','/api/workbench/open'):
+            if isinstance(store, CompletedCycle) and urlsplit(self.path).path not in ('/api/study-review/apply','/api/study-review/open','/api/study-review/local','/api/steps/source','/api/steps/check','/api/steps/open','/api/steps/local','/api/cycle-review/open','/api/molecular/save','/api/molecular/open','/api/public-algae/save','/api/public-algae/open','/api/intelligence/followup/prepare','/api/intelligence/followup/synthetic','/api/intelligence/followup/validate','/api/intelligence/followup/open','/api/intelligence/followup/select','/api/intelligence/execution/approve','/api/intelligence/execution/approve-followup','/api/intelligence/execution/run','/api/intelligence/execution/reassess','/api/intelligence/execution/retry','/api/intelligence/execution/cancel','/api/intelligence/execution/open','/api/intelligence/execution/local','/api/intelligence/next/prepare','/api/intelligence/next/synthetic','/api/intelligence/next/validate','/api/intelligence/next/open','/api/intelligence/next/select','/api/intelligence/revise','/api/intelligence/prepare','/api/intelligence/synthetic','/api/intelligence/accept','/api/intelligence/run','/api/intelligence/open','/api/assistant/select','/api/assistant/synthetic','/api/assistant/check','/api/assistant/open','/api/research-story/present','/api/research-story/open','/api/workbench/prepare','/api/workbench/select','/api/workbench/present','/api/workbench/save','/api/workbench/history','/api/workbench/check','/api/workbench/synthetic','/api/workbench/open'):
                 self.send(403, {'error':'Completed-cycle review is read-only. No edits, reruns or model calls are available.'}); return
             if self.headers.get('Content-Type', '').split(';')[0] != 'application/json':
                 self.send(415, {'error': 'JSON required'}); return
@@ -407,7 +408,7 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
                                 owner.open(expected,study.decode(data['package_json']),j.bundle)
                             elif path=='/api/intelligence/followup/select':
                                 study.fields(data,(*fields,'review_hash'));owner.select(expected,data['review_hash'])
-                            else:self.send(404,{'error':'V3 proposals are review-only; no execution or live transport'});return
+                            else:self.send(404,{'error':'No registered proposal-review operation; execution approval is separate and live transport unavailable'});return
                             self.send(200,intelligence_views(current));return
                         if path.startswith('/api/intelligence/execution/'):
                             owner=workspace.intelligence_execution;context=intelligence.context(current)
@@ -420,6 +421,11 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
                                 workspace.intelligence_next.expect(data['next_review_hash'])
                                 if workspace.intelligence_next.read_only:raise ValueError('Imported or archived v2 proposal is read-only')
                                 owner.approve(expected,workspace.intelligence_next.current(),j,context,data['acknowledged'])
+                            elif path=='/api/intelligence/execution/approve-followup':
+                                study.fields(data,(*fields,'followup_review_hash','acknowledged'))
+                                workspace.intelligence_followup.expect(data['followup_review_hash'])
+                                if workspace.intelligence_followup.read_only:raise ValueError('Imported or archived v3 proposal is read-only')
+                                owner.approve_followup(expected,workspace.intelligence_followup.current(),j,context,data['acknowledged'])
                             elif path=='/api/intelligence/execution/run':
                                 study.fields(data,fields);owner.run(expected,j,context)
                             elif path=='/api/intelligence/execution/reassess':

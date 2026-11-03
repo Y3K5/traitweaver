@@ -63,5 +63,8 @@
 .intelligence-followup-history{list-style:none;padding:0!important}.intelligence-followup-history small{display:block;margin:7px 0;color:#adc7d4}
 .intelligence-followup-history [aria-pressed="true"]{border-color:#70a5bd}
 #intelligence-followup-request,#intelligence-followup-proposal{scroll-margin-top:90px}
+.intelligence-followup-execution{border-top:1px solid #80634a;margin-top:18px;padding-top:4px}
+#intelligence-execution-approval{scroll-margin-top:90px}
+#intelligence-execution-approval:focus-visible{outline:3px solid #f7a185;outline-offset:3px}
 .intelligence-followup :is(summary,button,input,select,textarea,section,article):focus-visible{outline:3px solid #f7a185;outline-offset:3px}
 @media(max-width:800px){.intelligence-followup>summary{padding:12px}.intelligence-followup-content{padding:0 12px 12px}.intelligence-followup-record,.intelligence-followup-proposal{padding:12px}}

@@ -124,5 +124,16 @@ scopes, human acknowledgments and unresolved requirements. Its eligible choices
 respect all retained execution guards. This is application-assembled context for
 an unsent request, not new Meta inference. Synthetic examples and imported
 unverified responses retain those labels; reference matching does not establish
-entailment or adaptation. V3 proposals remain non-executable. No saved-real label
+entailment or adaptation. V3 proposal artifacts alone grant no execution permission. No saved-real label
 from the original demo is transferred to this follow-up workflow.
+
+
+## Separate v3 human approval (November 3)
+
+The execution journal can now record a separate human approval of an exact v3
+proposal and run its allowlisted local audit through the existing guarded runner.
+The proposal, human approval, actual local receipt and fixed human-reviewed summary
+remain distinct records. This closes the demonstrated offline cycle and stops
+covered inputs. It adds no Meta inference, proof of adaptation or biological result.
+Synthetic/imported-unverified labels remain visible; original model packets and
+historical proposal contracts are preserved.

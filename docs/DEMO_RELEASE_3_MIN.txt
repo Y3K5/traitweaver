@@ -78,7 +78,11 @@ Say "the saved execution history now reaches the next prepared request." Show
 the exact earlier result, human acknowledgment and remaining eligible check.
 If only one option remains, disclose that constrained choice. If all inputs are
 covered, show the stopping state and unresolved evidence. The request is unsent;
-v3 proposals remain review-only. Do not claim a complete autonomous model loop.
+v3 proposal artifacts alone grant no execution permission. For the optional
+third check, acknowledge and record its separate v3 local-check approval, use
+the shared Run control, inspect the exact receipt and record Human review.
+Show the resulting stop. Say "a human-controlled offline cycle," not autonomous
+model adaptation. No actual Muse call occurs in this demonstration.
 This optional segment
 should replace another segment if used; the required final video remains three
 minutes and has not been supplied or checked by this development slice.

@@ -708,3 +708,33 @@ checks, not independent human scientific/usefulness review. No live provider cal
 private research transmission, new evidence admission or laboratory work occurred.
 V3 proposals remain review-only; provider compatibility and model adaptation are
 not established. A separate versioned execution design would be needed to run them.
+
+NOVEMBER 3 UTC — SEPARATE V3 EXECUTION APPROVAL
+Base local/public main: 5ee2ce6348c6e866f39fbdc05f491d39c17bc82a.
+Seven route acceptance tests were defined and run before implementation, failing
+on the missing approval route/availability. Final full Python suite: 538 tests
+passed in 521.923 seconds. The focused extension covers exact human approval,
+context/source/guard binding, retained old packages, bounded nested validation,
+separate dispatch/result/review, failure/retry and read-only reopening. Existing
+scientific inputs and v1/v2/v3 proposal/request artifacts are retained.
+
+All nine UI suites passed 337 scenarios through shipped controllers and
+actual in-memory handlers with sockets blocked. Existing loopback checks passed
+49 checks; five primary-source pins pass. Installed Chromium/Playwright passed
+32 native workflow checks at 1440x1000 and 390x844, including separate
+v3 approval, shared run/human review, exact export/read-only reopen, retained
+synthetic/imported-unverified labels and no-new-input stopping. Final reports
+contain no issues, page errors, external requests or horizontal overflow.
+The imported-response branch uses a locally constructed fixture, not a real
+provider packet. An initial browser harness selector was ambiguous across
+byte-identical archived fixtures; selecting a matching archive by its exact hash
+resolved the harness issue without changing the application. Final run passes.
+A mixed v1/v2 durable journal separately restored the exact native export from
+disk without dispatch. A v3 archive exported by the published base, its historical
+v1 execution snapshot and exact request bytes validate unchanged. Screenshots,
+archives and logs remain outside the public tree.
+
+Parallel Codex technical and UI review support these software results. No live
+provider compatibility, adaptive model usefulness, biological validation or human
+scientific review was performed. No private research, new spending or laboratory
+execution occurred. Execution approvals are human actions, never model output.

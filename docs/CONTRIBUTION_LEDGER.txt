@@ -177,3 +177,12 @@ next-question disclosure with explicit preview acknowledgment and read-only
 export/reopen. v1/v2/execution contracts remain unchanged; v3 cannot execute.
 No new Meta call, authenticated imported response, model-adaptation claim,
 private packet, source admission or laboratory protocol is introduced.
+
+November 3 UTC — separate v3 approval and execution
+Base public commit: 5ee2ce6348c6e866f39fbdc05f491d39c17bc82a. Codex implemented
+a distinct human approval of a current v3 proposal through the existing registered
+local-check runner, a versioned execution record, exact-context/duplicate guards,
+UI approval and software tests. Historical proposal/request artifacts and source
+fixtures retained. No live model call, new research evidence, biological validation,
+owner Mac access or hackathon submission. Synthetic fixtures do not establish
+adaptive model choice. Human contributor remains Yuvraj Patel.

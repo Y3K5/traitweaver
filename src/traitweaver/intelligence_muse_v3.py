@@ -37,14 +37,14 @@ def _locked(method):
 def _record_events(chain):
     result_events={}; review_events={}; start=None
     for event in chain:
-        if event['kind']=='approve': start=None
+        if event['kind'] in ('approve','approve_v3'): start=None
         elif event['kind']=='started': start=event['hash']
         elif event['kind']=='result': result_events[start]=event['hash']
         elif event['kind']=='reassess': review_events[start]=event['hash']
     return result_events,review_events
 
 
-def project(source, execution_package, bundle, context):
+def _project(source, execution_package, bundle, context):
     """Reconstruct a public projection from both complete validated boundaries."""
     records=intelligence_store.validate_package(source,bundle)
     checked=execution.validate_package(execution_package,bundle)
@@ -71,7 +71,9 @@ def project(source, execution_package, bundle, context):
                 owned_review=bool(owned_result and review is not None and review_hash in owned_hashes)
                 owned_record=owned_result or (result is None and all(h in owned_hashes for h in (cycle['approval_id'],attempt['start_hash'])))
                 accepted=approval['proposal_review']; receipt=accepted['receipt']
-                current=(approval['lineage']['head_hash']==records[-1]['hash'] and
+                is_v3=approval.get('proposal_version')=='v3'
+                source_head=approval['lineage']['source_head_hash'] if is_v3 else approval['lineage']['head_hash']
+                current=(source_head==records[-1]['hash'] and
                          approval['lineage']['owning_context_sha256']==study.digest(context) and
                          study.canonical(approval['scope'])==study.canonical(state['scope']))
                 bridge.append({'receipt_ref':reference,'origin':'owned_execution' if owned_record else 'imported_execution_authenticity_unverified',
@@ -86,8 +88,12 @@ def project(source, execution_package, bundle, context):
                         'receipt':{'reported_model':receipt['reported_model'],'provenance':receipt['provenance'],
                                    'response_sha256':receipt['response_sha256']},
                         'source_package_sha256':study.digest(cycle['review_package']['source_package']),
-                        'qualification':'Original v2 references remain scoped to their archived source package.'},
+                        'qualification':'Original v3 references remain scoped to their archived source and execution packages.' if is_v3 else
+                                        'Original v2 references remain scoped to their archived source package.'},
                     'result':deepcopy(result),'human_review':deepcopy(review)})
+                if is_v3:
+                    bridge[-1]['proposal_version']='v3'
+                    bridge[-1]['proposal_review']['execution_package_sha256']=study.digest(cycle['review_package']['execution_package'])
                 if result is not None:
                     for kind,texts in [('saved_result_blocker',result['blockers']),
                                        ('authored_measurement_requirement',result['measurement_plan']['unresolved'])]:
@@ -129,6 +135,12 @@ def project(source, execution_package, bundle, context):
     return {**value,'preview_sha256':study.digest(value)}
 
 
+def project(source,execution_package,bundle,context):
+    return execution._memo('v3_projection',{'source':source,'execution':execution_package,'catalog_sha256':study.digest(bundle),'context':context},
+                           lambda:_project(source,execution_package,bundle,context))
+
+
+@execution._validation_operation
 def prepare(source, execution_package, bundle, context, reviewed_preview_sha256, acknowledged, focus='trait'):
     preview=project(source,execution_package,bundle,context)
     if acknowledged is not True or reviewed_preview_sha256!=preview['preview_sha256']:
@@ -166,6 +178,7 @@ def prepare(source, execution_package, bundle, context, reviewed_preview_sha256,
             'body':body,'request_sha256':study.digest(body),'status':'not_sent','live_transport_available':False,'limit':LIMIT}
 
 
+@execution._validation_operation
 def validate_request(request, source, execution_package, bundle, context):
     if not isinstance(request,dict): raise ValueError('V3 request must be structured')
     expected=prepare(source,execution_package,bundle,context,request.get('reviewed_preview_sha256'),True,request.get('focus'))
@@ -236,7 +249,7 @@ def parse_reply(request, source, execution_package, bundle, context, raw):
     return {'status':'valid_proposal_only','request_sha256':request['request_sha256'],'proposal':proposal,'receipt':receipt}
 
 
-def validate_package(value, bundle):
+def _validate_package(value, bundle):
     try:
         study.fields(value,('schema_version','source_package','execution_package','request','proposal_review','limit'))
         if value['schema_version']!=PACKAGE or value['limit']!=LIMIT: raise ValueError('Unsupported v3 proposal package')
@@ -253,6 +266,10 @@ def validate_package(value, bundle):
         screen_export(value); return deepcopy(value)
     except (KeyError,TypeError,AttributeError,IndexError,RecursionError,OverflowError):
         raise ValueError('Malformed v3 proposal package; existing work retained') from None
+
+
+def validate_package(value,bundle):
+    return execution._memo('v3_review',{'review':value,'catalog_sha256':study.digest(bundle)},lambda:_validate_package(value,bundle))
 
 
 def _blocked(status, reason):
@@ -299,6 +316,7 @@ class Session:
         self.reviews.append(deepcopy(value)); self.active=len(self.reviews)-1; self.read_only=read_only
 
     @_locked
+    @execution._validation_operation
     def prepare(self, expected, journal, ledger, context, reviewed_preview_sha256, acknowledged, focus):
         self.expect(expected); source,archive,bundle=self._sources(journal,ledger,context,True)
         request=prepare(source,archive,bundle,context,reviewed_preview_sha256,acknowledged,focus)
@@ -307,6 +325,7 @@ class Session:
         self._append(validate_package(value,bundle),False)
 
     @_locked
+    @execution._validation_operation
     def respond(self, expected, journal, ledger, context, raw=None, check=None):
         self.expect(expected); value=self.current()
         if value is None or self.read_only or value['proposal_review'] is not None:
@@ -321,6 +340,7 @@ class Session:
         self.reviews[self.active]=updated
 
     @_locked
+    @execution._validation_operation
     def open(self, expected, value, bundle):
         self.expect(expected); self._append(validate_package(value,bundle),True)
 
@@ -333,6 +353,7 @@ class Session:
         raise ValueError('Unknown archived v3 proposal review')
 
     @_locked
+    @execution._validation_operation
     def view(self, journal, ledger, context):
         value=self.current(); request=value['request'] if value else None
         applicable=False; editable=False

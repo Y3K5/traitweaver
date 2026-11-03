@@ -420,8 +420,9 @@ NOVEMBER 3 UTC — EXECUTION-INFORMED MUSE REQUEST V3
 Actual reviewed bridge receipts now reach the next prepared selection request.
 This is a new offline request and proposal-review contract. Existing v1, v2 and
 execution package formats, replay behavior and wire bodies remain unchanged.
-V3 proposals are review-only: they cannot execute through the v2 approval bridge,
-authorize a retry, call a provider or become an accepted v1 cycle.
+V3 proposal artifacts alone cannot authorize execution or a retry, call a provider
+or become an accepted v1 cycle. The later separate human approval extension below
+can approve their exact local check through a versioned execution journal.
 
 WORKFLOW
 1. Save the intelligence scope and finish a v1 decision/check/reassessment.
@@ -494,10 +495,60 @@ eight reviews and 4 MiB, without silently truncating source histories. Export
 before process shutdown; this proposal-review archive is session-only. Failure
 to fit is an explicit stop, not permission to omit evidence or qualifications.
 
-NEXT GAP
-V3 proposals still need a separately versioned approval/execution design before
-they can run. This slice closes execution-history-to-request flow, not an entire
-autonomous loop. Live Meta schema compatibility, evidence-sensitive model choice
+FOLLOW-UP
+The later v3 approval extension below adds a separately recorded human approval.
+The proposal artifact remains unchanged and never grants execution permission by
+itself. This is not an autonomous loop. Live Meta schema compatibility, evidence-sensitive model choice
 and human usefulness remain untested. No new model call, private research upload
 or laboratory execution occurred. Any live test needs separate exact provider,
 payload and cost approval.
+
+NOVEMBER 3 UTC — SEPARATE V3 LOCAL-CHECK APPROVAL
+After validating a current local v3 proposal, review its exact registered check,
+scope, source references and synthetic/imported-unverified provenance. Check the
+separate approval acknowledgment and record the v3 approval. That action records
+permission only. The shared Run approved local check control dispatches exactly
+one registered audit; inspect its actual saved receipt and separately record Human
+review of authored result summary. No model or imported package grants permission.
+
+The new /api/intelligence/execution/approve-followup route requires the current
+study, intelligence, execution and v3-review hashes, editable owners and a literal
+boolean acknowledgment. Reopened/archived proposals cannot be approved. A fresh
+local proposal review is required. There is no new tool, provider route or arbitrary
+argument surface. The v1, v2 and v3 proposal/request artifacts remain unchanged.
+
+Execution packages use a v2 envelope when new v3 approval events are present;
+old v1 events retain their original hashes. Old v1 execution packages still
+validate unchanged. The new approval retains the complete exact v3 artifact,
+including its reviewed execution snapshot, and is separate from that artifact.
+Approving makes the preparation preview historical, as expected. Running uses
+the saved approval and validates its exact source, original context, reviewed
+history prefix and retained guards; its own approval/start/result/review events
+do not invalidate the permission. Changed sources, context or guard histories
+withhold execution. These checks do not authenticate imported model responses.
+
+Nested v3 review archives are limited to four levels. Structural inspection runs
+before recursive validation, with at most 200,000 nodes and 128 structural levels;
+a validation operation admits at most 512 uncached steps and 128 MiB of serialized
+validation work. These are computation bounds, not model token or spending limits.
+Complete-content memoization is scoped to one operation; changed bytes must be
+validated again. Existing 4 MiB package, 96-event and eight-import bounds remain.
+A bound failure stops the action without truncating histories or dispatching.
+Every guard committed inside a v3 approval must remain covered by the outer
+package's retained chains. Removing known history cannot clear a reservation.
+External storage continues in intelligence-execution-v1 to retain earlier files;
+new events carry their explicit version. Older releases may reject a v2 export.
+
+The existing durable-start, failure, review, one-explicit-retry and cancellation
+rules apply. Interrupted attempts remain blocked; a missing result is not a known
+software failure. No import, GET, export, reload or archive inspection dispatches
+an audit. Imported ledgers remain read-only and retain duplicate guards after
+returning to the local ledger. A completed v3 result enters the combined preview;
+when all relevant inputs are covered, preparation stops with missing evidence
+still visible. Altering settings is a new question, not new scientific evidence.
+
+This completes the demonstrated offline v1 result → v2 approved check → v3
+history-informed proposal → separately approved check → human review → stop.
+Synthetic fixture selection does not demonstrate evidence-sensitive model choice.
+Live provider compatibility and human usefulness remain untested; no new model
+call, private transmission, scientific evidence or laboratory execution is added.

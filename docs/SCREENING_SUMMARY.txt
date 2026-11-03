@@ -288,3 +288,13 @@ No generated request/archive, screenshot, private packet or log is published.
 Original scientific inputs, provider transports and v1/v2/execution contracts are
 unchanged. Pattern screening is not proof of absence and applies to these exact
 outgoing bytes, not to future user artifacts or live calls.
+
+November 3 UTC v3 execution approval: outgoing changes from public 5ee2ce6 add
+versioned human approval of an exact v3 proposal through existing registered
+checks, bounded validation, server/UI controls, public/synthetic tests and accurate
+documentation/manifests. Complete changed file contents and the outgoing diff
+were screened; no secret-shaped content, personal paths or unrelated work found.
+No generated request/archive, screenshot, private packet or log is published.
+Scientific evidence, provider transports and original request/proposal contracts
+are preserved. Pattern screening applies to these exact bytes and is not proof
+of absence or approval for future user artifacts, research or provider calls.
