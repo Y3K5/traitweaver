@@ -300,8 +300,8 @@
       "destination": "src/traitweaver/workspace_server.py",
       "source": "handoff/mvp-v1/workspace_server.py",
       "source_sha256": "f6b126d85e32834cacf879f85d2dd6eb4ca41de69e6402b49815efa51cb5eccb",
-      "candidate_sha256": "4c58bb1e5e31d0c1732159d9958b5f6fd306fad839439e49927c8b6115d4a707",
-      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+      "candidate_sha256": "7466c056a3c5d586a1895c29e7a527bb953ac0b83e1273344138132c4a92f30b",
+      "transformation": "November 3 UTC approved local execution bridge over 32de40c. Original source fields retained; prior mappings in cloud_proposal_execution_v1. Existing scientific fixtures and v1/v2 contracts unchanged.",
       "source_git_status": "untracked local source",
       "assistant_browser_followup": "Independent local assistant view/session and demo documentation; original provenance retained.",
       "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained.",
@@ -458,8 +458,8 @@
       "destination": "PUBLIC_FILES.txt",
       "source": "PUBLIC_FILES.txt",
       "source_sha256": "2d8468a3c4d0d6701d6973470a5a3b128c2f30f2bcb1c62c44c004c1b19a39c3",
-      "candidate_sha256": "0803d70cae6d3556b19f669ad6dfba1d7a813fb293f7f7646850686cd022f2ba",
-      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+      "candidate_sha256": "20c4d96cdfb1cccdee9dce5d7064d455ecf74aedb91a70988afe3dda16c72116",
+      "transformation": "November 3 UTC approved local execution bridge over 32de40c. Original source fields retained; prior mappings in cloud_proposal_execution_v1. Existing scientific fixtures and v1/v2 contracts unchanged.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "ff6baaacf0c736154bf3dcfd020c3c2c0d9ab1ccfb5f92aa1838e469a8284f1b",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
@@ -470,8 +470,8 @@
       "destination": "README.md",
       "source": "README.md",
       "source_sha256": "48bd81e91c4a69754d30551fb3ac3db3058b79c6d8223c1bc06f19992ca2ff24",
-      "candidate_sha256": "3f6214f7b48536f8e748b6418115c40ade2bf4159a31e8b63ede86d71af9beeb",
-      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+      "candidate_sha256": "593ffb2fde52e45a8e7c8b83520f1d54a13820638b0548112d84292a380af582",
+      "transformation": "November 3 UTC approved local execution bridge over 32de40c. Original source fields retained; prior mappings in cloud_proposal_execution_v1. Existing scientific fixtures and v1/v2 contracts unchanged.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "f08157896b1176a2cd121807eb2642a37e80297c2b73c00a4e5895dbcd5df3c6",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
@@ -636,8 +636,8 @@
       "destination": "tests/intelligence_ui_offline.cjs",
       "source": "tests/intelligence_ui_offline.cjs",
       "source_sha256": "d4f50952289c12664d347276dd16458accf1a389119793952c77b7310864f6e9",
-      "candidate_sha256": "6b5d2e25ef35bc72eb087be5c3bd3e9cf74a6514efc2e8e955cef93875402097",
-      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+      "candidate_sha256": "40fd11d33e6ff7a3a902d7a7d8ace5c45102979135be430d6da46af8a4975e06",
+      "transformation": "November 3 UTC approved local execution bridge over 32de40c. Original source fields retained; prior mappings in cloud_proposal_execution_v1. Existing scientific fixtures and v1/v2 contracts unchanged.",
       "source_git_status": "local only; not committed or pushed"
     },
     {
@@ -764,16 +764,16 @@
       "destination": "docs/INTELLIGENCE_LAYER.txt",
       "source": "docs/INTELLIGENCE_LAYER.txt",
       "source_sha256": "f00f8a50656f55ea0126c115e3eedbb2177ff33d2e2cea21554ab027bfcf341c",
-      "candidate_sha256": "05cf7bc910dc81cf7efbde055393e70c37fb9992f660ea0e677862ef47fa2fe1",
-      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+      "candidate_sha256": "331e0d780c2315a32e11ff3fdcc61ef861556f544b28a7ff596eb2f6e7991381",
+      "transformation": "November 3 UTC approved local execution bridge over 32de40c. Original source fields retained; prior mappings in cloud_proposal_execution_v1. Existing scientific fixtures and v1/v2 contracts unchanged.",
       "source_git_status": "local only; not committed or pushed"
     },
     {
       "destination": "docs/SCREENING_SUMMARY.txt",
       "source": "docs/SCREENING_SUMMARY.txt",
       "source_sha256": "41d8ebab636d1ac24474f19b244c66efad9070d43fc5149b9269a633dfd91647",
-      "candidate_sha256": "c0c6bc64f03d64cc484c3d2e8a52a162e190833a45d251d84f50c3d9d77c86c3",
-      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+      "candidate_sha256": "e0816578a35fa535da5e1942681657df9fbb572a1dc72b0c271564b168d71fd7",
+      "transformation": "November 3 UTC approved local execution bridge over 32de40c. Original source fields retained; prior mappings in cloud_proposal_execution_v1. Existing scientific fixtures and v1/v2 contracts unchanged.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "acf96b16be1b55190f99e2a22ae664e7158064bb4d0e9db20729a427201b67be",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
@@ -848,8 +848,8 @@
       "destination": "docs/VALIDATION.txt",
       "source": "docs/VALIDATION.txt",
       "source_sha256": "67943a61bdc6161d26f4ea70a9496a861ad2590ddfa9d310b2213ef4c5fdef10",
-      "candidate_sha256": "bbd73a949f3eab542e69b2f83c2efc143a515b72286a61f08b5690668d725248",
-      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+      "candidate_sha256": "f3cb25de80ccfc15dd952363ff84bc447d916da84695f18536c042f84ba5c412",
+      "transformation": "November 3 UTC approved local execution bridge over 32de40c. Original source fields retained; prior mappings in cloud_proposal_execution_v1. Existing scientific fixtures and v1/v2 contracts unchanged.",
       "source_git_status": "local only; not committed or pushed"
     },
     {
@@ -1080,16 +1080,16 @@
       "destination": "src/traitweaver/web/intelligence.css",
       "source": "src/traitweaver/web/intelligence.css",
       "source_sha256": "a3aa18aed8e2e3e5d5170aae66de2ca12279c7c32a27d24b049e49877869a1fa",
-      "candidate_sha256": "57afafe38e11e80d7f097b0f274a39ab9eba399a18aa4ca53a5244624064ae54",
-      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+      "candidate_sha256": "1326c236279c25d704e64cbba975b8a823826218eacd155ba487c0f7103cb495",
+      "transformation": "November 3 UTC approved local execution bridge over 32de40c. Original source fields retained; prior mappings in cloud_proposal_execution_v1. Existing scientific fixtures and v1/v2 contracts unchanged.",
       "source_git_status": "local only; not committed or pushed"
     },
     {
       "destination": "src/traitweaver/web/intelligence-ui.js",
       "source": "src/traitweaver/web/intelligence-ui.js",
       "source_sha256": "8478e70cbc252f5a60bcfb9e28d4f34dea9c402769d5ce8961e33e89f7a46728",
-      "candidate_sha256": "6c47b4561f4b70c2a917cba3fa28112752179a560a3b49510f316c0756dba51f",
-      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+      "candidate_sha256": "a96a98dcfb86ce465436dec9b8266fa751e76285ac3dd9fc2a4adaf1bd3ae70f",
+      "transformation": "November 3 UTC approved local execution bridge over 32de40c. Original source fields retained; prior mappings in cloud_proposal_execution_v1. Existing scientific fixtures and v1/v2 contracts unchanged.",
       "source_git_status": "local only; not committed or pushed"
     },
     {
@@ -1338,8 +1338,8 @@
       "destination": "docs/META_CONTRIBUTION.md",
       "source": null,
       "source_sha256": null,
-      "candidate_sha256": "daf2cbd2b730198a605026516075ec21b82955489ef7af82da5b0c2acd0ca36d",
-      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+      "candidate_sha256": "a6a6ffb92f5a4c528d4174a2bf5f56915864acc10fe8242cf67687394557ded8",
+      "transformation": "November 3 UTC approved local execution bridge over 32de40c. Original source fields retained; prior mappings in cloud_proposal_execution_v1. Existing scientific fixtures and v1/v2 contracts unchanged.",
       "source_git_status": "New uncommitted documentation against 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e"
     },
     {
@@ -1389,8 +1389,8 @@
       "destination": "docs/CONTRIBUTION_LEDGER.txt",
       "source": "docs/CONTRIBUTION_LEDGER.txt",
       "source_sha256": "b6c327f410f22e7df7dc3841101a9635c0250e6e86052068d8ef809b0af33734",
-      "candidate_sha256": "80d498e28f51207dbf88d0b98642733c14bcd358a4f944ba5c4a34cd9ae3d7f6",
-      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+      "candidate_sha256": "aa9ad0a0f9992d2d6bdc90ecdc6f21b3bc006828d948a021fda50a1eaecc7bc4",
+      "transformation": "November 3 UTC approved local execution bridge over 32de40c. Original source fields retained; prior mappings in cloud_proposal_execution_v1. Existing scientific fixtures and v1/v2 contracts unchanged.",
       "source_git_status": "uncommitted local addition",
       "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt.",
       "trait_infographic_followup": "Local authored schematic SVG/CSS and presentation controls; scientific records unchanged.",
@@ -1401,8 +1401,8 @@
       "destination": "docs/DEMO_RELEASE_3_MIN.txt",
       "source": "docs/DEMO_RELEASE_3_MIN.txt",
       "source_sha256": "4d7a25afa2bdf45d00d98728941bcb588b8f42053720762769c22ce8a70f63d6",
-      "candidate_sha256": "e419b6af3d6abb330598d2888536ea189dbfcaf97d55b9603f840485451d002a",
-      "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+      "candidate_sha256": "591c7ad57e338bd0f128302ace69d66b55be9dadd9e8d289e7045d8370e9de4d",
+      "transformation": "November 3 UTC approved local execution bridge over 32de40c. Original source fields retained; prior mappings in cloud_proposal_execution_v1. Existing scientific fixtures and v1/v2 contracts unchanged.",
       "source_git_status": "uncommitted local addition",
       "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt."
     },
@@ -1525,6 +1525,30 @@
       "candidate_sha256": "a5fd0a0fa4f6659a428040bf2a382950a2f2d5041358fb616482c3647881ecd5",
       "transformation": "New offline v2 request/proposal-review contract or focused regression tests; public/synthetic inputs only.",
       "source_git_status": "new cloud implementation"
+    },
+    {
+      "destination": "src/traitweaver/intelligence_execution.py",
+      "source": null,
+      "source_sha256": null,
+      "candidate_sha256": "219c381523cc57a785b13e6712187108d2d9cebda2307a2df3936beb3170d77f",
+      "transformation": "New separate human-approved local execution ledger or public/synthetic acceptance tests.",
+      "source_git_status": "new cloud implementation"
+    },
+    {
+      "destination": "tests/test_intelligence_execution.py",
+      "source": null,
+      "source_sha256": null,
+      "candidate_sha256": "6668aa45769ded1302de12d522e8fed9230d590a756235683d8e6fa4fc1a8937",
+      "transformation": "New separate human-approved local execution ledger or public/synthetic acceptance tests.",
+      "source_git_status": "new cloud implementation"
+    },
+    {
+      "destination": "tests/test_intelligence_execution_handlers.py",
+      "source": null,
+      "source_sha256": null,
+      "candidate_sha256": "1d937d5613c87d09045b6bd6c456e6d03b4e615dbc47eb1fce92267b7392445a",
+      "transformation": "New separate human-approved local execution ledger or public/synthetic acceptance tests.",
+      "source_git_status": "new cloud implementation"
     }
   ],
   "additional_candidate_authorship": "Public-facing docs, synthetic replay/review package, exact-byte verifier, memory handler/controller tests and bounded adaptations; Codex",
@@ -1563,7 +1587,10 @@
     "src/traitweaver/intelligence_continuation.py",
     "tests/test_intelligence_continuation.py",
     "src/traitweaver/intelligence_muse_v2.py",
-    "tests/test_intelligence_muse_v2.py"
+    "tests/test_intelligence_muse_v2.py",
+    "src/traitweaver/intelligence_execution.py",
+    "tests/test_intelligence_execution.py",
+    "tests/test_intelligence_execution_handlers.py"
   ],
   "synthetic_fixture_source": "tools/make_synthetic_cycle.py using admitted public evidence and explicitly synthetic test helper",
   "fixture_provenance": "data/synthetic-cycle/FIXTURE_PROVENANCE.json",
@@ -2636,6 +2663,146 @@
     "new_paths": [
       "src/traitweaver/intelligence_muse_v2.py",
       "tests/test_intelligence_muse_v2.py"
+    ]
+  },
+  "cloud_proposal_execution_v1": {
+    "date": "2026-11-03",
+    "timezone": "UTC",
+    "base_public_commit": "32de40c417812e93dea10814dd59bb13d2416369",
+    "base_remote_verified": true,
+    "scope": "Independent approval/start/result/human-review execution journal around immutable v2 proposals, bounded reviewed retry, durable/import duplicate guards, server/UI/tests/docs.",
+    "authorization": "Continued user-authorized Traitweaver-only cloud implementation, screened commits and normal push; no provider calls or private research transmission.",
+    "scientific_fixtures_changed": false,
+    "v1_v2_request_and_package_contracts_changed": false,
+    "new_provider_calls": 0,
+    "private_packets_included": false,
+    "previous_mapping_fields": [
+      {
+        "destination": "src/traitweaver/workspace_server.py",
+        "source": "handoff/mvp-v1/workspace_server.py",
+        "source_sha256": "f6b126d85e32834cacf879f85d2dd6eb4ca41de69e6402b49815efa51cb5eccb",
+        "candidate_sha256": "4c58bb1e5e31d0c1732159d9958b5f6fd306fad839439e49927c8b6115d4a707",
+        "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+        "source_git_status": "untracked local source",
+        "assistant_browser_followup": "Independent local assistant view/session and demo documentation; original provenance retained.",
+        "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained.",
+        "previous_candidate_sha256": "fe363a7c8fea88fee3ad510564c032b9340a7752d259d309ce68430278d8e42c",
+        "historical_transformation_label": "Published bounded source plus local molecular extension; see docs/MOLECULAR_WORKSPACE.txt. No original scientific records changed. October31 completed-check and animated-journey extension; original scientific inputs preserved."
+      },
+      {
+        "destination": "PUBLIC_FILES.txt",
+        "source": "PUBLIC_FILES.txt",
+        "source_sha256": "2d8468a3c4d0d6701d6973470a5a3b128c2f30f2bcb1c62c44c004c1b19a39c3",
+        "candidate_sha256": "0803d70cae6d3556b19f669ad6dfba1d7a813fb293f7f7646850686cd022f2ba",
+        "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+        "source_git_status": "local only; not committed or pushed",
+        "pre_cleanup_candidate_sha256": "ff6baaacf0c736154bf3dcfd020c3c2c0d9ab1ccfb5f92aa1838e469a8284f1b",
+        "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+        "previous_candidate_sha256": "8208fdd10d3d6e1d77b825f94a60bdd541fa176005c2f8ee344e0ecbc7451761",
+        "historical_transformation_label": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged."
+      },
+      {
+        "destination": "README.md",
+        "source": "README.md",
+        "source_sha256": "48bd81e91c4a69754d30551fb3ac3db3058b79c6d8223c1bc06f19992ca2ff24",
+        "candidate_sha256": "3f6214f7b48536f8e748b6418115c40ade2bf4159a31e8b63ede86d71af9beeb",
+        "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+        "source_git_status": "local only; not committed or pushed",
+        "pre_cleanup_candidate_sha256": "f08157896b1176a2cd121807eb2642a37e80297c2b73c00a4e5895dbcd5df3c6",
+        "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+        "retained_local_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only. October 31 six-file metadata refresh: current five-scene instructions, dated history/check scope and historical authorization qualification; no source evidence changed.",
+        "retained_local_candidate_sha256": "72d94b79dbd4664708253851c68e18bd63037172b3138a2f8f50c30ace32728c",
+        "previous_candidate_sha256": "68715973ec40fef56941854b9bbb62611d1d1c288de53452fdc4f88194d786e4",
+        "historical_transformation_label": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications."
+      },
+      {
+        "destination": "tests/intelligence_ui_offline.cjs",
+        "source": "tests/intelligence_ui_offline.cjs",
+        "source_sha256": "d4f50952289c12664d347276dd16458accf1a389119793952c77b7310864f6e9",
+        "candidate_sha256": "6b5d2e25ef35bc72eb087be5c3bd3e9cf74a6514efc2e8e955cef93875402097",
+        "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "docs/INTELLIGENCE_LAYER.txt",
+        "source": "docs/INTELLIGENCE_LAYER.txt",
+        "source_sha256": "f00f8a50656f55ea0126c115e3eedbb2177ff33d2e2cea21554ab027bfcf341c",
+        "candidate_sha256": "05cf7bc910dc81cf7efbde055393e70c37fb9992f660ea0e677862ef47fa2fe1",
+        "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "docs/SCREENING_SUMMARY.txt",
+        "source": "docs/SCREENING_SUMMARY.txt",
+        "source_sha256": "41d8ebab636d1ac24474f19b244c66efad9070d43fc5149b9269a633dfd91647",
+        "candidate_sha256": "c0c6bc64f03d64cc484c3d2e8a52a162e190833a45d251d84f50c3d9d77c86c3",
+        "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+        "source_git_status": "local only; not committed or pushed",
+        "pre_cleanup_candidate_sha256": "acf96b16be1b55190f99e2a22ae664e7158064bb4d0e9db20729a427201b67be",
+        "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+        "retained_local_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only. October 31 six-file metadata refresh: current five-scene instructions, dated history/check scope and historical authorization qualification; no source evidence changed.",
+        "retained_local_candidate_sha256": "55530f559f5d17dbf146441846ef2116861c3d40192ae93fb7ba60c31fe3096a",
+        "previous_candidate_sha256": "28a936dcc7006ac372b9b87b49d3856eabcd4726bf27a2877e3ac278510e5f0d",
+        "historical_transformation_label": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications."
+      },
+      {
+        "destination": "docs/VALIDATION.txt",
+        "source": "docs/VALIDATION.txt",
+        "source_sha256": "67943a61bdc6161d26f4ea70a9496a861ad2590ddfa9d310b2213ef4c5fdef10",
+        "candidate_sha256": "bbd73a949f3eab542e69b2f83c2efc143a515b72286a61f08b5690668d725248",
+        "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "src/traitweaver/web/intelligence.css",
+        "source": "src/traitweaver/web/intelligence.css",
+        "source_sha256": "a3aa18aed8e2e3e5d5170aae66de2ca12279c7c32a27d24b049e49877869a1fa",
+        "candidate_sha256": "57afafe38e11e80d7f097b0f274a39ab9eba399a18aa4ca53a5244624064ae54",
+        "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "src/traitweaver/web/intelligence-ui.js",
+        "source": "src/traitweaver/web/intelligence-ui.js",
+        "source_sha256": "8478e70cbc252f5a60bcfb9e28d4f34dea9c402769d5ce8961e33e89f7a46728",
+        "candidate_sha256": "6c47b4561f4b70c2a917cba3fa28112752179a560a3b49510f316c0756dba51f",
+        "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "docs/META_CONTRIBUTION.md",
+        "source": null,
+        "source_sha256": null,
+        "candidate_sha256": "daf2cbd2b730198a605026516075ec21b82955489ef7af82da5b0c2acd0ca36d",
+        "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+        "source_git_status": "New uncommitted documentation against 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e"
+      },
+      {
+        "destination": "docs/CONTRIBUTION_LEDGER.txt",
+        "source": "docs/CONTRIBUTION_LEDGER.txt",
+        "source_sha256": "b6c327f410f22e7df7dc3841101a9635c0250e6e86052068d8ef809b0af33734",
+        "candidate_sha256": "80d498e28f51207dbf88d0b98642733c14bcd358a4f944ba5c4a34cd9ae3d7f6",
+        "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+        "source_git_status": "uncommitted local addition",
+        "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt.",
+        "trait_infographic_followup": "Local authored schematic SVG/CSS and presentation controls; scientific records unchanged.",
+        "cell_recovery_followup": "Layered schematic cells, storage clusters and proposed processing flow; presentation only, source contracts unchanged.",
+        "spill_followup": "Microscopy-informed original anatomy and independent hypothetical P mass-balance explorer; fixed evidence and backend unchanged."
+      },
+      {
+        "destination": "docs/DEMO_RELEASE_3_MIN.txt",
+        "source": "docs/DEMO_RELEASE_3_MIN.txt",
+        "source_sha256": "4d7a25afa2bdf45d00d98728941bcb588b8f42053720762769c22ce8a70f63d6",
+        "candidate_sha256": "e419b6af3d6abb330598d2888536ea189dbfcaf97d55b9603f840485451d002a",
+        "transformation": "November 3 UTC offline history-informed Muse v2 request/review over 0565773. Original source fields retained; prior mappings in cloud_muse_next_request_v2. Existing scientific fixtures and v1 request/package contracts unchanged.",
+        "source_git_status": "uncommitted local addition",
+        "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt."
+      }
+    ],
+    "new_paths": [
+      "src/traitweaver/intelligence_execution.py",
+      "tests/test_intelligence_execution.py",
+      "tests/test_intelligence_execution_handlers.py"
     ]
   }
 }

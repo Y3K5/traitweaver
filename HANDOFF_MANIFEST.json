@@ -1,11 +1,11 @@
 {
   "schema_version": "traitweaver.final_repository_handoff.v1",
-  "status": "traitweaver_cloud_offline_muse_v2_screened_for_publication",
+  "status": "traitweaver_cloud_approved_execution_bridge_screened_for_publication",
   "prepared_date": "2026-11-03",
-  "refresh": "Distinct offline history-informed next-selection request and proposal-review artifact; exact human acknowledgment, eligible-only choices, prior result/requirement references and read-only archives. Original v1 contracts retained.",
+  "refresh": "Independent exact-proposal approval, registered local execution, human acknowledgment and one reviewed retry. Durable starts/import guards, stale recovery and unchanged v1/v2 records.",
   "publication_approved": true,
   "claude_review_performed": false,
-  "review_status": "User authorized retry and continued screened Traitweaver-only cloud development with normal publication. Parallel Codex technical/UX review and offline/native checks completed; human scientific/usefulness, live-model payload/cost and event entry remain separate.",
+  "review_status": "User authorized continued screened Traitweaver-only cloud development and normal publication. Parallel Codex technical/UX review, final offline/native checks and exact content screening completed; human scientific/usefulness review, live payload/cost approval and event entry remain separate.",
   "scope": "Public/synthetic research-workspace code plus documentation. Documentary real Meta contribution is described; real packets, media and new provider execution are excluded.",
   "files": [
     {
@@ -25,18 +25,18 @@
     },
     {
       "path": "PUBLIC_FILES.txt",
-      "sha256": "0803d70cae6d3556b19f669ad6dfba1d7a813fb293f7f7646850686cd022f2ba",
-      "bytes": 5934
+      "sha256": "20c4d96cdfb1cccdee9dce5d7064d455ecf74aedb91a70988afe3dda16c72116",
+      "bytes": 6059
     },
     {
       "path": "README.md",
-      "sha256": "3f6214f7b48536f8e748b6418115c40ade2bf4159a31e8b63ede86d71af9beeb",
-      "bytes": 20606
+      "sha256": "593ffb2fde52e45a8e7c8b83520f1d54a13820638b0548112d84292a380af582",
+      "bytes": 21167
     },
     {
       "path": "SOURCE_PROVENANCE.json",
-      "sha256": "5dfcbd67356d3a3206ff271583eb8775eb68ab75a9ee254b2198ca2282de282f",
-      "bytes": 189391
+      "sha256": "50a4b994b5aaa41f8a56f5566be748ab00845aeea2c486400fc56d9b24d1bb3b",
+      "bytes": 203583
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -235,8 +235,8 @@
     },
     {
       "path": "docs/CONTRIBUTION_LEDGER.txt",
-      "sha256": "80d498e28f51207dbf88d0b98642733c14bcd358a4f944ba5c4a34cd9ae3d7f6",
-      "bytes": 10603
+      "sha256": "aa9ad0a0f9992d2d6bdc90ecdc6f21b3bc006828d948a021fda50a1eaecc7bc4",
+      "bytes": 11445
     },
     {
       "path": "docs/DATA_FLOW.txt",
@@ -245,8 +245,8 @@
     },
     {
       "path": "docs/DEMO_RELEASE_3_MIN.txt",
-      "sha256": "e419b6af3d6abb330598d2888536ea189dbfcaf97d55b9603f840485451d002a",
-      "bytes": 5429
+      "sha256": "591c7ad57e338bd0f128302ace69d66b55be9dadd9e8d289e7045d8370e9de4d",
+      "bytes": 5865
     },
     {
       "path": "docs/DEMO_SCRIPT_3_MIN.txt",
@@ -265,8 +265,8 @@
     },
     {
       "path": "docs/INTELLIGENCE_LAYER.txt",
-      "sha256": "05cf7bc910dc81cf7efbde055393e70c37fb9992f660ea0e677862ef47fa2fe1",
-      "bytes": 22089
+      "sha256": "331e0d780c2315a32e11ff3fdcc61ef861556f544b28a7ff596eb2f6e7991381",
+      "bytes": 27509
     },
     {
       "path": "docs/LIVE_RUN_SUMMARY.txt",
@@ -275,8 +275,8 @@
     },
     {
       "path": "docs/META_CONTRIBUTION.md",
-      "sha256": "daf2cbd2b730198a605026516075ec21b82955489ef7af82da5b0c2acd0ca36d",
-      "bytes": 6835
+      "sha256": "a6a6ffb92f5a4c528d4174a2bf5f56915864acc10fe8242cf67687394557ded8",
+      "bytes": 7514
     },
     {
       "path": "docs/MOLECULAR_WORKSPACE.txt",
@@ -335,13 +335,13 @@
     },
     {
       "path": "docs/SCREENING_SUMMARY.txt",
-      "sha256": "c0c6bc64f03d64cc484c3d2e8a52a162e190833a45d251d84f50c3d9d77c86c3",
-      "bytes": 17069
+      "sha256": "e0816578a35fa535da5e1942681657df9fbb572a1dc72b0c271564b168d71fd7",
+      "bytes": 17883
     },
     {
       "path": "docs/VALIDATION.txt",
-      "sha256": "bbd73a949f3eab542e69b2f83c2efc143a515b72286a61f08b5690668d725248",
-      "bytes": 42195
+      "sha256": "f3cb25de80ccfc15dd952363ff84bc447d916da84695f18536c042f84ba5c412",
+      "bytes": 44441
     },
     {
       "path": "docs/WHAT_WE_BUILT.txt",
@@ -422,6 +422,11 @@
       "path": "src/traitweaver/intelligence_continuation.py",
       "sha256": "cc7cf8aa39476a709263cba322c71731b1ec85569ea17a8f32b0faf6149921be",
       "bytes": 8408
+    },
+    {
+      "path": "src/traitweaver/intelligence_execution.py",
+      "sha256": "219c381523cc57a785b13e6712187108d2d9cebda2307a2df3936beb3170d77f",
+      "bytes": 26690
     },
     {
       "path": "src/traitweaver/intelligence_muse.py",
@@ -565,13 +570,13 @@
     },
     {
       "path": "src/traitweaver/web/intelligence-ui.js",
-      "sha256": "6c47b4561f4b70c2a917cba3fa28112752179a560a3b49510f316c0756dba51f",
-      "bytes": 47506
+      "sha256": "a96a98dcfb86ce465436dec9b8266fa751e76285ac3dd9fc2a4adaf1bd3ae70f",
+      "bytes": 63611
     },
     {
       "path": "src/traitweaver/web/intelligence.css",
-      "sha256": "57afafe38e11e80d7f097b0f274a39ab9eba399a18aa4ca53a5244624064ae54",
-      "bytes": 6454
+      "sha256": "1326c236279c25d704e64cbba975b8a823826218eacd155ba487c0f7103cb495",
+      "bytes": 8456
     },
     {
       "path": "src/traitweaver/web/journey-ui.js",
@@ -635,8 +640,8 @@
     },
     {
       "path": "src/traitweaver/workspace_server.py",
-      "sha256": "4c58bb1e5e31d0c1732159d9958b5f6fd306fad839439e49927c8b6115d4a707",
-      "bytes": 42262
+      "sha256": "7466c056a3c5d586a1895c29e7a527bb953ac0b83e1273344138132c4a92f30b",
+      "bytes": 47266
     },
     {
       "path": "tests/assistant_ui_offline.cjs",
@@ -670,8 +675,8 @@
     },
     {
       "path": "tests/intelligence_ui_offline.cjs",
-      "sha256": "6b5d2e25ef35bc72eb087be5c3bd3e9cf74a6514efc2e8e955cef93875402097",
-      "bytes": 20775
+      "sha256": "40fd11d33e6ff7a3a902d7a7d8ace5c45102979135be430d6da46af8a4975e06",
+      "bytes": 29870
     },
     {
       "path": "tests/journey_ui_offline.cjs",
@@ -737,6 +742,16 @@
       "path": "tests/test_intelligence_continuation.py",
       "sha256": "33ed1ae5910fce3bbd4ca5a5e56ef8ddf07da0d522fe0a58dcab9335914e2651",
       "bytes": 11018
+    },
+    {
+      "path": "tests/test_intelligence_execution.py",
+      "sha256": "6668aa45769ded1302de12d522e8fed9230d590a756235683d8e6fa4fc1a8937",
+      "bytes": 19227
+    },
+    {
+      "path": "tests/test_intelligence_execution_handlers.py",
+      "sha256": "1d937d5613c87d09045b6bd6c456e6d03b4e615dbc47eb1fce92267b7392445a",
+      "bytes": 11471
     },
     {
       "path": "tests/test_intelligence_handlers.py",
@@ -939,7 +954,7 @@
     "review_status": "Local software/browser verification; independent scientific and publication review pending",
     "scope": "Local public/synthetic fixed-case research workbench and scientific showcase; no live provider contribution, laboratory execution or organism design"
   },
-  "base_public_commit": "056577379c188784d1cec60276774a5e8a966123",
+  "base_public_commit": "32de40c417812e93dea10814dd59bb13d2416369",
   "historical_validation_and_screening": {
     "tests": {
       "offline_unit_tests": 302,
@@ -1125,28 +1140,27 @@
     }
   },
   "current_validation": {
-    "base_commit": "056577379c188784d1cec60276774a5e8a966123",
-    "exact_candidate_files": 182,
+    "base_commit": "32de40c417812e93dea10814dd59bb13d2416369",
+    "exact_candidate_files": 185,
     "python_full_suite": {
-      "tests": 456,
+      "tests": 493,
       "status": "passed",
-      "seconds": 166.698
+      "seconds": 256.732
     },
-    "python_final_v2_suite": {
-      "tests": 17,
-      "status": "passed",
-      "seconds": 4.605,
-      "new_regressions_after_full_suite": 2
-    },
-    "unique_python_tests_qualified": 458,
-    "controller_scenarios": 291,
-    "intelligence_scenarios": 47,
+    "execution_unit_tests": 24,
+    "new_execution_handler_tests": 11,
+    "controller_scenarios": 309,
+    "intelligence_scenarios": 65,
     "loopback_checks": 49,
     "source_pins": "passed",
     "rendered_browser": {
       "status": "passed",
-      "workflow_checks": 23,
-      "readonly_owner_checks": 9,
+      "checks": 63,
+      "sessions": [
+        "normal",
+        "injected_local_software_failure",
+        "stale_result_acknowledgment"
+      ],
       "engine": "installed Chromium via Playwright",
       "viewports": [
         [
@@ -1158,16 +1172,15 @@
           844
         ]
       ],
-      "v1_unchanged": true,
+      "v1_v2_unchanged": true,
       "native_download_reopen": true,
       "page_errors": 0,
-      "external_requests": 0,
-      "imported_response_test": "Locally constructed fixture for the imported-unverified branch; no real provider packet."
+      "external_requests": 0
     },
     "new_provider_calls": 0,
     "scientific_inputs_changed": false,
-    "v1_request_and_package_contracts_changed": false,
-    "scope": "Software and synthetic browser tests only; no private packet, provider compatibility test, scientific validation or demonstration of model adaptation."
+    "v1_v2_request_and_package_contracts_changed": false,
+    "scope": "Software and synthetic browser tests only; no private packet, provider compatibility test, scientific validation or model adaptivity demonstration."
   },
   "historical_prepublication_metadata_2026_11_01": {
     "status": "documentation_cleanup_candidate_pending_owner_review",
@@ -1377,6 +1390,64 @@
       "scientific_inputs_changed": false,
       "v1_request_and_package_contracts_changed": false,
       "scope": "Software verification and synthetic browser exercise only; no private real-packet inspection, provider authentication, independent scientific validation or evidence of adaptive Muse planning."
+    },
+    "blockers": [
+      "No final three-minute video supplied and checked; final media/rights/access review and link remain open.",
+      "Original creation/reuse facts, final track/representative and Indie reuse eligibility remain unresolved.",
+      "Remaining component/design/GFP/media rights and exact submission-form/terms decisions remain open.",
+      "Human-timed demonstration, comprehension and independent scientific/usefulness review remain pending."
+    ]
+  },
+  "historical_before_cloud_execution_bridge": {
+    "status": "traitweaver_cloud_offline_muse_v2_screened_for_publication",
+    "prepared_date": "2026-11-03",
+    "refresh": "Distinct offline history-informed next-selection request and proposal-review artifact; exact human acknowledgment, eligible-only choices, prior result/requirement references and read-only archives. Original v1 contracts retained.",
+    "review_status": "User authorized retry and continued screened Traitweaver-only cloud development with normal publication. Parallel Codex technical/UX review and offline/native checks completed; human scientific/usefulness, live-model payload/cost and event entry remain separate.",
+    "base_public_commit": "056577379c188784d1cec60276774a5e8a966123",
+    "current_validation": {
+      "base_commit": "056577379c188784d1cec60276774a5e8a966123",
+      "exact_candidate_files": 182,
+      "python_full_suite": {
+        "tests": 456,
+        "status": "passed",
+        "seconds": 166.698
+      },
+      "python_final_v2_suite": {
+        "tests": 17,
+        "status": "passed",
+        "seconds": 4.605,
+        "new_regressions_after_full_suite": 2
+      },
+      "unique_python_tests_qualified": 458,
+      "controller_scenarios": 291,
+      "intelligence_scenarios": 47,
+      "loopback_checks": 49,
+      "source_pins": "passed",
+      "rendered_browser": {
+        "status": "passed",
+        "workflow_checks": 23,
+        "readonly_owner_checks": 9,
+        "engine": "installed Chromium via Playwright",
+        "viewports": [
+          [
+            1440,
+            1000
+          ],
+          [
+            390,
+            844
+          ]
+        ],
+        "v1_unchanged": true,
+        "native_download_reopen": true,
+        "page_errors": 0,
+        "external_requests": 0,
+        "imported_response_test": "Locally constructed fixture for the imported-unverified branch; no real provider packet."
+      },
+      "new_provider_calls": 0,
+      "scientific_inputs_changed": false,
+      "v1_request_and_package_contracts_changed": false,
+      "scope": "Software and synthetic browser tests only; no private packet, provider compatibility test, scientific validation or demonstration of model adaptation."
     },
     "blockers": [
       "No final three-minute video supplied and checked; final media/rights/access review and link remain open.",

@@ -153,3 +153,15 @@ The UI supports preparation, exact request download, synthetic/imported proposal
 review, export and read-only reopening. Existing v1 records, request hashes,
 scientific fixtures and provider transports are unchanged. No real v2 model call,
 private packet, source admission, scientific validation or laboratory execution.
+
+NOVEMBER 3 UTC — EXPLICIT V2 PROPOSAL EXECUTION BRIDGE
+Codex added a separate approval/start/result/human-review journal for the existing
+registered local checks. Approval binds the exact v2 review and current source
+lineage; execution is a separate action. Shared relevant-input guards prevent
+repeats through new v1 decisions or new proposal reviews. Known software failure
+requires human review and separate approval for one retry; interrupted starts
+remain blocked. External data-directory persistence and read-only imports retain
+attempts. Demo storage is session-only. Original v1/v2 and scientific contracts
+remain unchanged; bridge results do not yet feed a third model selection.
+Parallel Codex engineering and UX review are not independent human review.
+No new Meta call, private packet, adaptive-model claim or laboratory work.

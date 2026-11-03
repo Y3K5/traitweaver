@@ -1,3 +1,11 @@
+**November 3 approved local execution:** a validated v2 proposal can now lead to
+an explicit approval, one registered local check and a separate human review of
+the authored result summary. A separate journal preserves approval and attempts;
+reopening never runs a check. Known software failure needs review and a separate
+approval before one retry. Original v1/v2 contracts stay unchanged. This is an
+offline software workflow, with synthetic or imported-unverified proposal labels.
+See [execution, persistence and limits](docs/INTELLIGENCE_LAYER.txt).
+
 **November 3 offline Muse v2 request:** after an intelligence result and separate
 reassessment, review and acknowledge the continuation, then prepare a distinct
 history-informed next-selection request. It carries prior records and unresolved
@@ -44,7 +52,7 @@ controls change assumptions, not measured treatment performance.
 Start with the [hackathon contribution and reuse ledger](docs/CONTRIBUTIONS.md)
 [what Meta contributed](docs/META_CONTRIBUTION.md), and the
 [component rights inventory](docs/COMPONENT_RIGHTS.md). The public repository was
-rechecked at commit `056577379c188784d1cec60276774a5e8a966123` before this v2 request
+rechecked at commit `32de40c417812e93dea10814dd59bb13d2416369` before this execution-bridge
 refresh. That published snapshot includes continuation review, journey proof, intelligence evidence map, study
 review, trait illustrations and phosphorus teaching explorer, plus the earlier
 scoped MIT license and contribution/rights records. Publication does not establish

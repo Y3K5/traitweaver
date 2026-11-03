@@ -34,3 +34,21 @@
 .intelligence-next-history [aria-pressed="true"]{border-color:#68c6a1}
 .intelligence-next-review:focus-visible,.intelligence-next-review :is(button,input,select,textarea,summary):focus-visible{outline:3px solid #f7a185;outline-offset:3px}
 @media(max-width:800px){.intelligence-next-review{padding:12px}.intelligence-next-review .field input,.intelligence-next-review select{min-width:0;max-width:100%}}
+
+.intelligence-execution{border:1px solid #80634a;border-radius:14px;background:#211b16;padding:20px;margin:24px 0;overflow-wrap:anywhere;scroll-margin-top:80px}
+.intelligence-execution h4{margin:24px 0 10px}.intelligence-execution>h3{margin-top:8px}
+.intelligence-execution .button,.intelligence-execution .button-primary{max-width:100%;white-space:normal;text-align:center}
+.intelligence-execution button:disabled{opacity:.55;cursor:not-allowed}
+.intelligence-execution .button-primary:disabled{background:#263039;border-color:#52616c;color:#ccd5da;box-shadow:none}
+.intelligence-execution .field{margin-top:16px}.intelligence-execution .field input{min-width:0;max-width:100%}
+.intelligence-execution-ack{display:flex;align-items:flex-start;gap:12px;padding:14px 0;min-height:44px;cursor:pointer}
+.intelligence-execution-ack input{width:20px;height:20px;flex:0 0 20px;margin-top:3px;accent-color:#f7a185}
+.intelligence-execution-approval,.intelligence-execution-human{border-left:3px solid #d7ac80;padding:16px;margin-top:20px;background:#171713}
+.intelligence-execution-approval p>span:not(.state-badge){display:inline;overflow-wrap:anywhere}
+.intelligence-execution-failure{border:1px solid #a87356;border-radius:8px;padding:16px;margin-top:18px}
+.intelligence-execution pre{white-space:pre-wrap;overflow-wrap:anywhere;max-height:340px;overflow:auto}
+.intelligence-execution summary{min-height:44px;padding:12px 0;cursor:pointer}
+.intelligence-execution:focus-visible,.intelligence-execution :is(button,input,summary):focus-visible{outline:3px solid #f7a185;outline-offset:3px}
+#intelligence-execution-run,#intelligence-execution-result,#intelligence-execution-human{scroll-margin-top:90px}
+#intelligence-execution-result:focus-visible,#intelligence-execution-human:focus-visible{outline:3px solid #f7a185;outline-offset:3px}
+@media(max-width:800px){.intelligence-execution{padding:12px}.intelligence-execution-approval,.intelligence-execution-human,.intelligence-execution-failure{padding:12px}}

@@ -66,8 +66,14 @@ Say "local review rules," not "Muse learned this" or "autonomous replanning."
 The existing v1 model payload has not received the preview. The separate v2 panel
 can prepare an unsent history-informed request after explicit preview review,
 then demonstrate a visibly synthetic proposal and its prior-result references.
-Say "valid proposal only; no cycle accepted or check run." Do not call a fixture
-a real Muse result or claim that the v2 schema was tested against the provider.
+At proposal review, say "valid proposal only; no cycle accepted or check run."
+The separate execution panel then supports explicit local approval, a deliberate
+Run action, actual receipt inspection and Human review of authored result summary.
+Show these as separate actions. Export/reopen preserves the execution record
+without rerunning it. The result is a local software audit, not new Muse output.
+Do not call a fixture a real Muse result or claim provider schema compatibility.
+This bridge result does not yet enter the next v2 request; do not claim that the
+recursive model loop is complete.
 This optional segment
 should replace another segment if used; the required final video remains three
 minutes and has not been supplied or checked by this development slice.

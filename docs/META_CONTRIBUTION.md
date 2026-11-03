@@ -105,3 +105,14 @@ adaptive planning reliability remain unestablished. This project demonstrates
 research-study review and evidence tracking, not medical advice or validated
 interventions. No final video has been supplied and checked for this reconciliation;
 final access, duration, rights and entry claims require owner review.
+
+## Approved local execution bridge (November 3)
+
+The separate bridge can execute a registered check after explicit human approval
+of an exact v2 proposal, then record human review of the authored result summary.
+The proposal keeps its synthetic or imported-unverified label. The local check,
+failure/retry controls and fixed interpretation are application behavior, not
+new Meta inference. A human acknowledgment does not become a Muse reassessment
+or scientific validation. v1/v2 packages stay unchanged; the v2 request does not
+yet carry this bridge's results into a third selection. No new model call or
+demonstration of adaptive planning occurred in this development slice.

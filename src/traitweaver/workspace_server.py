@@ -11,7 +11,7 @@ import threading
 from urllib.parse import urlsplit
 
 from traitweaver import molecular, molecular_store, muse_boundary, protein_card, study, public_algae
-from traitweaver import intelligence, intelligence_muse, intelligence_store, intelligence_muse_v2
+from traitweaver import intelligence, intelligence_muse, intelligence_store, intelligence_muse_v2, intelligence_execution
 from traitweaver import assistant_workspace
 from traitweaver import research_story
 from traitweaver import workbench, step_tracking, showcase, release_review
@@ -47,6 +47,13 @@ class WorkspaceSession:
             self.intelligence=intelligence_store.Journal(intelligence.catalog(),store.root/'intelligence-review-v1' if isinstance(store,Store) else None)
         except (ValueError,OSError):
             self.intelligence_error='Intelligence sources or saved records failed validation. Original study and reference reviews remain available.'
+        self.intelligence_execution=None
+        self.intelligence_execution_error=None
+        try:
+            if self.intelligence is None:raise ValueError('Intelligence catalog unavailable')
+            self.intelligence_execution=intelligence_execution.Session(self.intelligence.bundle,store.root/'intelligence-execution-v1' if isinstance(store,Store) else None)
+        except (ValueError,OSError):
+            self.intelligence_execution_error='Execution history failed validation. New intelligence checks are blocked; existing records remain available.'
         self.assistant=None
         self.assistant_error=None
         try:
@@ -92,6 +99,17 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
     workspace.showcase_pilots={"rna":showcase.load_pilot(rna_pilot_dir,"rna"),"completion":showcase.load_pilot(completion_pilot_dir,"completion")}
     token = secrets.token_urlsafe(32)
     assets = {'/'+p.relative_to(WEB).as_posix(): p for p in WEB.rglob('*') if p.is_file() and not p.is_symlink()}
+
+    def execution_view(current):
+        owner=workspace.intelligence_execution
+        return owner.view(workspace.intelligence,intelligence.context(current),workspace.intelligence_next.current(),workspace.intelligence_next.read_only) if owner else None
+
+    def intelligence_views(current):
+        j=workspace.intelligence
+        return {'intelligence':j.view(current) if j else None,
+                'intelligence_next':workspace.intelligence_next.view(j,intelligence.context(current)),
+                'intelligence_execution':execution_view(current),
+                'intelligence_execution_error':workspace.intelligence_execution_error}
 
     class Handler(BaseHTTPRequestHandler):
         protocol_version = 'HTTP/1.0'
@@ -162,6 +180,7 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
                                             'public_algae':workspace.public_algae.view(current) if workspace.public_algae else None,'public_algae_error':workspace.public_algae_error,
                                             'intelligence':workspace.intelligence.view(current) if workspace.intelligence else None,'intelligence_error':workspace.intelligence_error,
                                             'intelligence_next':workspace.intelligence_next.view(workspace.intelligence,intelligence.context(current)),
+                                            'intelligence_execution':execution_view(current),'intelligence_execution_error':workspace.intelligence_execution_error,
                                             'assistant':workspace.assistant.view() if workspace.assistant else None,'assistant_error':workspace.assistant_error,
                                             'research_story':workspace.research_story.view() if workspace.research_story else None,'research_story_error':workspace.research_story_error,
                                             'workbench':workspace.workbench.view() if workspace.workbench else None,'workbench_error':workspace.workbench_error,
@@ -249,7 +268,7 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
             store=workspace.active
             if not self.safe_host() or not hmac.compare_digest(self.headers.get('X-Traitweaver-Token', ''), token):
                 self.send(403, {'error': 'Same-origin session authorization required'}); return
-            if isinstance(store, CompletedCycle) and urlsplit(self.path).path not in ('/api/study-review/apply','/api/study-review/open','/api/study-review/local','/api/steps/source','/api/steps/check','/api/steps/open','/api/steps/local','/api/cycle-review/open','/api/molecular/save','/api/molecular/open','/api/public-algae/save','/api/public-algae/open','/api/intelligence/next/prepare','/api/intelligence/next/synthetic','/api/intelligence/next/validate','/api/intelligence/next/open','/api/intelligence/next/select','/api/intelligence/revise','/api/intelligence/prepare','/api/intelligence/synthetic','/api/intelligence/accept','/api/intelligence/run','/api/intelligence/open','/api/assistant/select','/api/assistant/synthetic','/api/assistant/check','/api/assistant/open','/api/research-story/present','/api/research-story/open','/api/workbench/prepare','/api/workbench/select','/api/workbench/present','/api/workbench/save','/api/workbench/history','/api/workbench/check','/api/workbench/synthetic','/api/workbench/open'):
+            if isinstance(store, CompletedCycle) and urlsplit(self.path).path not in ('/api/study-review/apply','/api/study-review/open','/api/study-review/local','/api/steps/source','/api/steps/check','/api/steps/open','/api/steps/local','/api/cycle-review/open','/api/molecular/save','/api/molecular/open','/api/public-algae/save','/api/public-algae/open','/api/intelligence/execution/approve','/api/intelligence/execution/run','/api/intelligence/execution/reassess','/api/intelligence/execution/retry','/api/intelligence/execution/cancel','/api/intelligence/execution/open','/api/intelligence/execution/local','/api/intelligence/next/prepare','/api/intelligence/next/synthetic','/api/intelligence/next/validate','/api/intelligence/next/open','/api/intelligence/next/select','/api/intelligence/revise','/api/intelligence/prepare','/api/intelligence/synthetic','/api/intelligence/accept','/api/intelligence/run','/api/intelligence/open','/api/assistant/select','/api/assistant/synthetic','/api/assistant/check','/api/assistant/open','/api/research-story/present','/api/research-story/open','/api/workbench/prepare','/api/workbench/select','/api/workbench/present','/api/workbench/save','/api/workbench/history','/api/workbench/check','/api/workbench/synthetic','/api/workbench/open'):
                 self.send(403, {'error':'Completed-cycle review is read-only. No edits, reruns or model calls are available.'}); return
             if self.headers.get('Content-Type', '').split(';')[0] != 'application/json':
                 self.send(415, {'error': 'JSON required'}); return
@@ -363,6 +382,35 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
                         if j is None:raise ValueError('Intelligence review unavailable')
                         if data.get('intelligence_hash')!=j.current()['hash'] or 'intelligence_hash' not in data:raise Conflict('Current intelligence revision identity required')
                         prefix=('expected_hash','intelligence_hash')
+                        if path.startswith('/api/intelligence/execution/'):
+                            owner=workspace.intelligence_execution;context=intelligence.context(current)
+                            if owner is None:raise ValueError('Execution history unavailable; checks are blocked')
+                            fields=(*prefix,'execution_hash')
+                            if 'execution_hash' not in data:raise Conflict('Current execution identity required')
+                            expected=data['execution_hash']
+                            if path=='/api/intelligence/execution/approve':
+                                study.fields(data,(*fields,'next_review_hash','acknowledged'))
+                                workspace.intelligence_next.expect(data['next_review_hash'])
+                                if workspace.intelligence_next.read_only:raise ValueError('Imported or archived v2 proposal is read-only')
+                                owner.approve(expected,workspace.intelligence_next.current(),j,context,data['acknowledged'])
+                            elif path=='/api/intelligence/execution/run':
+                                study.fields(data,fields);owner.run(expected,j,context)
+                            elif path=='/api/intelligence/execution/reassess':
+                                study.fields(data,(*fields,'result_id','acknowledged'))
+                                owner.reassess(expected,j,context,data['result_id'],data['acknowledged'])
+                            elif path=='/api/intelligence/execution/retry':
+                                study.fields(data,(*fields,'result_id','reason','acknowledged'))
+                                owner.retry(expected,j,context,data['result_id'],data['reason'],data['acknowledged'])
+                            elif path=='/api/intelligence/execution/cancel':
+                                study.fields(data,(*fields,'acknowledged'));owner.cancel(expected,data['acknowledged'])
+                            elif path=='/api/intelligence/execution/open':
+                                study.fields(data,(*fields,'package_json'))
+                                if not isinstance(data['package_json'],str):raise ValueError('Execution package must be JSON text')
+                                owner.open(expected,study.decode(data['package_json']))
+                            elif path=='/api/intelligence/execution/local':
+                                study.fields(data,fields);owner.local(expected)
+                            else:self.send(404,{'error':'No registered execution operation or live transport'});return
+                            self.send(200,intelligence_views(current));return
                         if path.startswith('/api/intelligence/next/'):
                             owner=workspace.intelligence_next;context=intelligence.context(current)
                             fields=(*prefix,'next_review_hash')
@@ -384,12 +432,12 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
                             elif path=='/api/intelligence/next/select':
                                 study.fields(data,(*fields,'review_hash'));owner.select(expected,data['review_hash'])
                             else:self.send(404,{'error':'No registered v2 review operation or live transport'});return
-                            self.send(200,{'intelligence_next':owner.view(j,context)});return
+                            self.send(200,intelligence_views(current));return
                         if path=='/api/intelligence/open':
                             study.fields(data,(*prefix,'package_json'))
                             if not isinstance(data['package_json'],str):raise ValueError('Intelligence package must be JSON text')
                             workspace.intelligence=intelligence_store.Journal.from_package(study.decode(data['package_json']),j.bundle)
-                            self.send(200,{'intelligence':workspace.intelligence.view(current),'intelligence_next':workspace.intelligence_next.view(workspace.intelligence,intelligence.context(current))});return
+                            self.send(200,intelligence_views(current));return
                         if j.read_only:raise ValueError('Imported intelligence review is read-only')
                         if path=='/api/intelligence/revise':
                             study.fields(data,(*prefix,'scope'));action={'type':'revise','payload':{'scope':data['scope'],'context':intelligence.context(current)}}
@@ -411,7 +459,18 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
                             elif path=='/api/intelligence/run':
                                 study.fields(data,prefix);action={'type':'run','payload':{}}
                             else:self.send(404,{'error':'Unregistered intelligence endpoint; no transport available'});return
-                        j.apply(data['intelligence_hash'],action);self.send(200,{'intelligence':j.view(current),'intelligence_next':workspace.intelligence_next.view(j,intelligence.context(current))});return
+                        # Share semantic reservations with the separate bridge for new
+                        # v1 decisions/runs. Historical replay remains byte-compatible.
+                        check=None
+                        if action['type']=='accept' and action['payload']['phase']=='selection':
+                            check=action['payload']['proposal']['check']
+                        elif action['type']=='run':
+                            cycle=intelligence.active(j.current()['state'])
+                            if cycle and cycle['result'] is None:check=cycle['decision']['check']
+                        if check:
+                            if workspace.intelligence_execution is None:raise ValueError('Execution history unavailable; checks are blocked')
+                            workspace.intelligence_execution.guard(check,j.current()['state']['scope'])
+                        j.apply(data['intelligence_hash'],action);self.send(200,intelligence_views(current));return
                     elif path in ('/api/public-algae/save','/api/public-algae/open'):
                         journal=workspace.public_algae
                         if journal is None:raise ValueError('Public algae review unavailable')

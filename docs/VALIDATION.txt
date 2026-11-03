@@ -641,3 +641,37 @@ no live model, key, private research packet or laboratory work was used. Typed
 references and synthetic compliance do not establish adaptation or scientific
 usefulness. V2 execution approval/dispatch and a real evidence-sensitive model
 evaluation remain separate work and authorization boundaries.
+
+NOVEMBER 3 UTC — EXPLICIT LOCAL EXECUTION BRIDGE
+Base local/public main: 32de40c417812e93dea10814dd59bb13d2416369.
+Acceptance tests were defined before implementation. The first aggregate run
+found one corrupt-ledger startup exception; raw events are now validated before
+prefix/union inspection, and the targeted regression passed. The final full
+Python suite passed 493 tests in 256.732 seconds, including 24 execution
+unit tests and 11 new handler tests. No failing test remains in that final run.
+
+Coverage includes approval/no dispatch, exact stale identities, registered checks,
+separate result/human review, one explicitly approved failure retry, completed
+unavailable outcomes, interruption, malformed dispatcher return, storage faults,
+concurrent run requests, import/prefix/fork bounds, retained duplicate guards,
+no-dispatch reload and cross-v1 admission. Historical human acknowledgment keeps
+receipts stale; cancelled unstarted retries preserve their failure and reservation.
+The unchanged v1/v2 request/package contracts and public evidence remain intact.
+
+All nine UI suites passed 309 scenarios, including 65 intelligence cases.
+The controller tests exercise real in-memory handlers/core without sockets.
+Synthetic injected UI views additionally test retry controls and stale/context/
+draft acknowledgment gating; they are not actual model or scientific results.
+The existing loopback suites passed 49 checks; all five primary-source pins pass.
+
+Installed Chromium/Playwright passed 63 rendered checks across three fresh
+sessions: normal execution, injected local software failure/retry, and stale
+result acknowledgment. Checked desktop 1440x1000 and mobile 390x844, separate
+unchecked acknowledgments, native download/reopen, original v1/v2 bytes, duplicate
+blocking and no third attempt. No browser error, horizontal overflow or external
+request was observed. Screenshots/exports/logs remain outside the public tree.
+
+External storage persists starts/imported guards; demo storage is session-only.
+No new provider/model call, private packet, biological validation, human usefulness
+study or evidence-sensitive model comparison was performed. The unchanged v2
+request does not yet include bridge results in a third selection.

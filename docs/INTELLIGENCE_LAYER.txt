@@ -312,7 +312,9 @@ states stop explicitly. Completed and failed-input repeats stay excluded under
 the existing relevant-input policy. Fresh response validation regenerates the
 request from current trusted source history and checks all lineage/eligibility;
 rehashing altered content is insufficient. Concurrent or duplicate updates cannot
-overwrite a validated proposal. No retry, execution or v1-conversion route exists.
+overwrite a validated proposal. The v2 proposal-review contract has no execution,
+retry or v1 conversion. The independent execution journal below uses an explicit
+human approval without rewriting that reviewed proposal.
 
 ARCHIVE AND LIMITS
 Earlier v2 reviews remain in a session-only archive (at most eight reviews and
@@ -333,6 +335,86 @@ provider token estimation, an account spending cap or permission to send.
 Provider acceptance of the v2 JSON schema has not been tested. No new live Meta
 request or private research transmission was performed.
 
-Next gap: an explicitly approved execution journal/bridge for a reviewed v2
-proposal, without pretending it was a v1 response, plus evidence-sensitive model
-evaluation. Live testing still needs separate exact provider/payload/cost approval.
+At that checkpoint, a separate approved execution bridge remained the next gap.
+The following slice adds it without representing the proposal as a v1 response.
+
+NOVEMBER 3 UTC — HUMAN-APPROVED LOCAL EXECUTION BRIDGE
+A separate execution journal binds an immutable validated v2 review to a local
+software check. It never inserts a fabricated v1 decision/result or rewrites a
+v2 request, response, package or historical source record. The three registered
+checks remain trait_evidence_audit, combination_coverage and transfer_coverage.
+They inspect admitted records; they do not perform experiments or new retrieval.
+
+WORKFLOW AND ATTRIBUTION
+1. Finish the v2 proposal review above. Inspect the exact proposal, arguments,
+   citations, prior-result references and synthetic/imported-unverified provenance.
+2. Check a fresh acknowledgment and choose Approve this local check. Approval
+   binds the exact review hash, current owning source/context and normalized
+   scientific-input identity. It dispatches nothing and approves no spending.
+3. Choose Run approved local check separately. The server revalidates exact
+   source lineage, catalog, current context, approval and duplicate reservations.
+   It records an attempt start before dispatch, then the actual local receipt.
+4. Inspect facts, citations, outcome and remaining requirements, then explicitly
+   record Human review of authored result summary. This binds the exact receipt;
+   it is neither a new Muse reassessment nor human-written scientific reasoning.
+   The accepted proposal, actual result and application-authored interpretation
+   remain distinguishable. A stale receipt can still receive this human
+   acknowledgment in its original scope; it stays stale and cannot authorize
+   execution or retry against changed lineage. Acknowledgment does not establish biological validity.
+5. Export the independent execution artifact. Open imports read-only; Return to
+   local execution history restores the retained local ledger. Neither reopening,
+   navigation, export, approval nor human review dispatches a check.
+
+New proposals and execution actions require current study/intelligence/execution
+identities and same-origin session authorization; approval additionally requires
+the exact active v2 review identity. Imported/archived proposals and imported v1
+owners cannot approve or execute. Changed lineage/context invalidates pending
+approval. An initial approval or an approved retry may be explicitly cancelled before
+that dispatch starts. Cancelling a retry retains its earlier failure and review;
+any started attempt keeps those inputs reserved. Importing older work cannot
+release an attempt or reset its retry budget.
+
+FAILURE, RETRY AND DUPLICATES
+A known exception from the registered check creates a fixed software-failure
+receipt without exception text. Human review must precede an explicit approval
+of one retry, bound to that result and reason reviewed_local_failure. Running the
+retry is another action. At most two dispatch attempts are allowed for those
+inputs; a completed unavailable/inconclusive result is not a software failure.
+No automatic retry, provider fallback or repeated attempt after uncertain outcome
+is supported. An attempt start without a saved receipt stays indeterminate and
+blocked. Result-storage failure must not be relabelled as a retryable check failure.
+
+Semantic reservations cover current and retained execution histories/imports and
+new v1 selection/run admission. They use catalog, check and relevant inputs,
+not proposal IDs: new reviews, equivalent numbers and unrelated scope edits
+cannot reset them. Imported histories add conservative guard information; they
+cannot authorize a retry or replace locally known attempts. Old v1 replay remains
+unchanged. The v2 request's historical eligible list remains unchanged too; the
+bridge displays current execution availability separately and rejects repeats.
+
+STORAGE AND LIMITS
+With --data-dir, the independent ledger is stored beside other reviews in
+intelligence-execution-v1 and revalidated on reload. A recorded start is saved
+before dispatch; a reload cannot automatically rerun it. Invalid stored execution
+history blocks new intelligence checks while other read-only records remain
+available. In --demo or completed-cycle mode, execution history is session-only:
+export before stopping. A new process cannot remember a lost unexported attempt.
+No global duplicate guarantee across independent data directories or forgotten
+sessions is claimed. Imported packages establish local consistency, not proof
+that another person actually approved or executed a check.
+
+The ledger admits at most 96 events and eight imported packages/guard histories,
+within a 4 MiB bound. Start and result capacity are checked before dispatch;
+earlier history is never silently truncated.
+
+Artifacts retain their embedded v2/v1 provenance and may contain owning-history
+identifiers. Review exported bytes before sharing; no raw model response, secret,
+new provider traffic or private research is added by this implementation.
+
+NEXT GAP
+The unchanged v2 request derives its history from v1. It does not yet include
+results from this separate bridge in a third selection. A new source-bound
+continuation contract would be needed to close that loop. Evidence-sensitive
+model comparison, provider schema compatibility and human usefulness remain
+untested; synthetic selections do not demonstrate Muse adaptation. Any live
+test still requires exact provider, payload and cost approval.

@@ -265,3 +265,14 @@ owning identifiers/notes and raw model content; local review exports embed their
 owning v1 history and require separate scrutiny before external sharing. No
 private source or real provider packet was used in this public implementation.
 Existing scientific data and v1 request/package bytes remain pinned.
+
+November 3 UTC execution bridge: base public main is 32de40c. The outgoing slice
+contains the independent local execution journal, server/UI integration, focused
+public/synthetic tests, docs and refreshed exact file/provenance manifests.
+Full outgoing file contents and patch were reviewed for private material, secret
+shapes, personal paths and unrelated work; pattern findings were empty. Synthetic
+failure text is test-only and never saved into execution receipts. No raw provider
+packet, secret, owner research, generated execution export, screenshot or test log
+is included. Existing scientific data, schema pins, provider transports and v1/v2
+contracts are unchanged. Pattern checks do not prove absence of private material;
+review applies to these exact outgoing bytes, not future artifacts or live calls.
