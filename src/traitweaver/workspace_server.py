@@ -11,7 +11,7 @@ import threading
 from urllib.parse import urlsplit
 
 from traitweaver import molecular, molecular_store, muse_boundary, protein_card, study, public_algae
-from traitweaver import intelligence, intelligence_muse, intelligence_store, intelligence_muse_v2, intelligence_execution
+from traitweaver import intelligence, intelligence_muse, intelligence_store, intelligence_muse_v2, intelligence_execution, intelligence_muse_v3
 from traitweaver import assistant_workspace
 from traitweaver import research_story
 from traitweaver import workbench, step_tracking, showcase, release_review
@@ -41,6 +41,7 @@ class WorkspaceSession:
         except (ValueError,OSError):
             self.public_algae_error='Public algae sources or saved review failed validation. No substitute data or retrieval was used.'
         self.intelligence_next=intelligence_muse_v2.Session()
+        self.intelligence_followup=intelligence_muse_v3.Session()
         self.intelligence=None
         self.intelligence_error=None
         try:
@@ -109,6 +110,7 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
         return {'intelligence':j.view(current) if j else None,
                 'intelligence_next':workspace.intelligence_next.view(j,intelligence.context(current)),
                 'intelligence_execution':execution_view(current),
+                'intelligence_followup':workspace.intelligence_followup.view(j,workspace.intelligence_execution,intelligence.context(current)),
                 'intelligence_execution_error':workspace.intelligence_execution_error}
 
     class Handler(BaseHTTPRequestHandler):
@@ -181,6 +183,7 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
                                             'intelligence':workspace.intelligence.view(current) if workspace.intelligence else None,'intelligence_error':workspace.intelligence_error,
                                             'intelligence_next':workspace.intelligence_next.view(workspace.intelligence,intelligence.context(current)),
                                             'intelligence_execution':execution_view(current),'intelligence_execution_error':workspace.intelligence_execution_error,
+                                            'intelligence_followup':workspace.intelligence_followup.view(workspace.intelligence,workspace.intelligence_execution,intelligence.context(current)),
                                             'assistant':workspace.assistant.view() if workspace.assistant else None,'assistant_error':workspace.assistant_error,
                                             'research_story':workspace.research_story.view() if workspace.research_story else None,'research_story_error':workspace.research_story_error,
                                             'workbench':workspace.workbench.view() if workspace.workbench else None,'workbench_error':workspace.workbench_error,
@@ -268,7 +271,7 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
             store=workspace.active
             if not self.safe_host() or not hmac.compare_digest(self.headers.get('X-Traitweaver-Token', ''), token):
                 self.send(403, {'error': 'Same-origin session authorization required'}); return
-            if isinstance(store, CompletedCycle) and urlsplit(self.path).path not in ('/api/study-review/apply','/api/study-review/open','/api/study-review/local','/api/steps/source','/api/steps/check','/api/steps/open','/api/steps/local','/api/cycle-review/open','/api/molecular/save','/api/molecular/open','/api/public-algae/save','/api/public-algae/open','/api/intelligence/execution/approve','/api/intelligence/execution/run','/api/intelligence/execution/reassess','/api/intelligence/execution/retry','/api/intelligence/execution/cancel','/api/intelligence/execution/open','/api/intelligence/execution/local','/api/intelligence/next/prepare','/api/intelligence/next/synthetic','/api/intelligence/next/validate','/api/intelligence/next/open','/api/intelligence/next/select','/api/intelligence/revise','/api/intelligence/prepare','/api/intelligence/synthetic','/api/intelligence/accept','/api/intelligence/run','/api/intelligence/open','/api/assistant/select','/api/assistant/synthetic','/api/assistant/check','/api/assistant/open','/api/research-story/present','/api/research-story/open','/api/workbench/prepare','/api/workbench/select','/api/workbench/present','/api/workbench/save','/api/workbench/history','/api/workbench/check','/api/workbench/synthetic','/api/workbench/open'):
+            if isinstance(store, CompletedCycle) and urlsplit(self.path).path not in ('/api/study-review/apply','/api/study-review/open','/api/study-review/local','/api/steps/source','/api/steps/check','/api/steps/open','/api/steps/local','/api/cycle-review/open','/api/molecular/save','/api/molecular/open','/api/public-algae/save','/api/public-algae/open','/api/intelligence/followup/prepare','/api/intelligence/followup/synthetic','/api/intelligence/followup/validate','/api/intelligence/followup/open','/api/intelligence/followup/select','/api/intelligence/execution/approve','/api/intelligence/execution/run','/api/intelligence/execution/reassess','/api/intelligence/execution/retry','/api/intelligence/execution/cancel','/api/intelligence/execution/open','/api/intelligence/execution/local','/api/intelligence/next/prepare','/api/intelligence/next/synthetic','/api/intelligence/next/validate','/api/intelligence/next/open','/api/intelligence/next/select','/api/intelligence/revise','/api/intelligence/prepare','/api/intelligence/synthetic','/api/intelligence/accept','/api/intelligence/run','/api/intelligence/open','/api/assistant/select','/api/assistant/synthetic','/api/assistant/check','/api/assistant/open','/api/research-story/present','/api/research-story/open','/api/workbench/prepare','/api/workbench/select','/api/workbench/present','/api/workbench/save','/api/workbench/history','/api/workbench/check','/api/workbench/synthetic','/api/workbench/open'):
                 self.send(403, {'error':'Completed-cycle review is read-only. No edits, reruns or model calls are available.'}); return
             if self.headers.get('Content-Type', '').split(';')[0] != 'application/json':
                 self.send(415, {'error': 'JSON required'}); return
@@ -382,6 +385,30 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
                         if j is None:raise ValueError('Intelligence review unavailable')
                         if data.get('intelligence_hash')!=j.current()['hash'] or 'intelligence_hash' not in data:raise Conflict('Current intelligence revision identity required')
                         prefix=('expected_hash','intelligence_hash')
+                        if path.startswith('/api/intelligence/followup/'):
+                            owner=workspace.intelligence_followup;execution=workspace.intelligence_execution
+                            context=intelligence.context(current);fields=(*prefix,'execution_hash','followup_review_hash')
+                            if 'execution_hash' not in data or data['execution_hash']!=(execution.fingerprint() if execution else None):
+                                raise Conflict('Current execution history identity required')
+                            if 'followup_review_hash' not in data:raise Conflict('Current v3 review identity required')
+                            expected=data['followup_review_hash']
+                            if path=='/api/intelligence/followup/prepare':
+                                study.fields(data,(*fields,'reviewed_preview_sha256','acknowledged','focus'))
+                                owner.prepare(expected,j,execution,context,data['reviewed_preview_sha256'],data['acknowledged'],data['focus'])
+                            elif path=='/api/intelligence/followup/synthetic':
+                                study.fields(data,(*fields,'check'));owner.respond(expected,j,execution,context,check=data['check'])
+                            elif path=='/api/intelligence/followup/validate':
+                                study.fields(data,(*fields,'reply'))
+                                if not isinstance(data['reply'],str):raise ValueError('V3 response must be JSON text')
+                                owner.respond(expected,j,execution,context,raw=data['reply'].encode())
+                            elif path=='/api/intelligence/followup/open':
+                                study.fields(data,(*fields,'package_json'))
+                                if not isinstance(data['package_json'],str):raise ValueError('V3 review package must be JSON text')
+                                owner.open(expected,study.decode(data['package_json']),j.bundle)
+                            elif path=='/api/intelligence/followup/select':
+                                study.fields(data,(*fields,'review_hash'));owner.select(expected,data['review_hash'])
+                            else:self.send(404,{'error':'V3 proposals are review-only; no execution or live transport'});return
+                            self.send(200,intelligence_views(current));return
                         if path.startswith('/api/intelligence/execution/'):
                             owner=workspace.intelligence_execution;context=intelligence.context(current)
                             if owner is None:raise ValueError('Execution history unavailable; checks are blocked')

@@ -72,8 +72,13 @@ Run action, actual receipt inspection and Human review of authored result summar
 Show these as separate actions. Export/reopen preserves the execution record
 without rerunning it. The result is a local software audit, not new Muse output.
 Do not call a fixture a real Muse result or claim provider schema compatibility.
-This bridge result does not yet enter the next v2 request; do not claim that the
-recursive model loop is complete.
+The v2 request stays unchanged. After the human result review, open Review the
+next question with this result and inspect the separate v3 preview/request.
+Say "the saved execution history now reaches the next prepared request." Show
+the exact earlier result, human acknowledgment and remaining eligible check.
+If only one option remains, disclose that constrained choice. If all inputs are
+covered, show the stopping state and unresolved evidence. The request is unsent;
+v3 proposals remain review-only. Do not claim a complete autonomous model loop.
 This optional segment
 should replace another segment if used; the required final video remains three
 minutes and has not been supplied or checked by this development slice.

@@ -411,10 +411,93 @@ Artifacts retain their embedded v2/v1 provenance and may contain owning-history
 identifiers. Review exported bytes before sharing; no raw model response, secret,
 new provider traffic or private research is added by this implementation.
 
+GAP AT THE EXECUTION-BRIDGE CHECKPOINT
+The unchanged v2 request derives its history from v1 and does not include bridge
+results. The v3 request below now provides a distinct history-informed review
+contract. Neither version claims model adaptation or scientific usefulness.
+
+NOVEMBER 3 UTC — EXECUTION-INFORMED MUSE REQUEST V3
+Actual reviewed bridge receipts now reach the next prepared selection request.
+This is a new offline request and proposal-review contract. Existing v1, v2 and
+execution package formats, replay behavior and wire bodies remain unchanged.
+V3 proposals are review-only: they cannot execute through the v2 approval bridge,
+authorize a retry, call a provider or become an accepted v1 cycle.
+
+WORKFLOW
+1. Save the intelligence scope and finish a v1 decision/check/reassessment.
+2. Review a v2 proposal, explicitly approve its registered local check, run it
+   separately, and record Human review of authored result summary.
+3. Open Review the next question with this result in the execution panel.
+   This navigation dispatches nothing. Inspect original scopes, provenance,
+   exact results, human acknowledgments, unresolved requirements and eligibility.
+4. A fresh acknowledgment of the exact combined preview permits preparing the
+   v3 request locally. Inspect/download its exact public body; it is not sent.
+5. Optionally create a visibly synthetic proposal or validate a saved typed
+   response for that request. A valid proposal must refer to at least one owned,
+   reviewed bridge receipt and a requirement belonging to a cited receipt.
+   Structural compliance and references do not prove source entailment or
+   adaptation. A single remaining option does not demonstrate prioritization.
+6. Export the separate v3 review artifact. Reopen/archive inspection is read-only
+   and cannot dispatch a check or change owning history/duplicate protection.
+
+SOURCE AND LINEAGE BOUNDARY
+The archive preserves the current v1 source package and the owned execution
+package including every retained guard history. Fresh preparation never uses
+only the active imported execution view, which could omit owned reservations.
+All source chains validate first; later known prefixes supersede earlier ones,
+conflicting forks reject, and independent histories remain distinct. Current
+owning context, source package hashes, combined-preview identity and controlled
+scope bind preparation and response validation. HTTP actions also require current
+study, intelligence, execution-session and v3-review identities.
+
+The provider body is a screened projection rather than the nested source exports.
+It contains qualified public claims/source identifiers, original decisions and
+scopes, exact recorded local results, separately attributed human reviews and
+unresolved requirements. Raw owning identifiers, timestamps, source packages,
+notes and raw model responses/reasoning are excluded from that body. The local
+archive is broader and can contain owning-history identifiers; inspect before
+sharing. Imported guard records remain imported/authenticity-unverified and do
+not become locally executed observations or authenticated model responses.
+
+Receipt references are bound to approval/start/result events and the original
+result ID. Separate ledgers may both call an attempt E1A1 and may have identical
+raw result IDs; their qualified references must remain distinct. Requirement
+references bind to one such receipt. Original scope/applicability and source
+relation remain visible. Human acknowledgment of a stale receipt never makes it
+current or proves a biological result. Failed receipts stay software failures.
+
+ELIGIBILITY AND STOPPING
+Eligibility intersects v1 coverage with reservations across all retained execution
+chains. Completed checks, failed attempts, cancelled retries and uncertain starts
+cannot become fresh choices. Pending approvals/retries, interrupted starts or
+unreviewed results stop preparation until resolved in their owning ledger. Prefix
+deduplication prevents an old imported unreviewed snapshot from overriding a known
+later review or cancellation. Imported unresolved history cannot be silently
+removed or treated as review approval.
+
+At least one owned reviewed bridge result is required. If no eligible relevant
+inputs remain, no request is prepared; missing evidence and reasons stay visible.
+Changed settings mean a different question, not new source evidence. Equivalent
+numeric values and unrelated edits do not reopen completed inputs. No automatic
+selection, repeated model request, provider fallback or tool dispatch is added.
+
+ARCHIVE AND CURRENT LIMITS
+Fresh preparation/response validation requires editable owning intelligence and
+the local execution view with known storage state. Historical artifacts validate
+against their stored source packages, then separately report current versus stale
+applicability. Changing source/guard history invalidates a pending response even
+when the owning v1 head has not changed. Earlier v3 reviews remain inspectable.
+
+Requests are bounded at 128 KiB; proposal responses at 256 KiB with the existing
+1024 reported-output-token bound. The separate session archive admits at most
+eight reviews and 4 MiB, without silently truncating source histories. Export
+before process shutdown; this proposal-review archive is session-only. Failure
+to fit is an explicit stop, not permission to omit evidence or qualifications.
+
 NEXT GAP
-The unchanged v2 request derives its history from v1. It does not yet include
-results from this separate bridge in a third selection. A new source-bound
-continuation contract would be needed to close that loop. Evidence-sensitive
-model comparison, provider schema compatibility and human usefulness remain
-untested; synthetic selections do not demonstrate Muse adaptation. Any live
-test still requires exact provider, payload and cost approval.
+V3 proposals still need a separately versioned approval/execution design before
+they can run. This slice closes execution-history-to-request flow, not an entire
+autonomous loop. Live Meta schema compatibility, evidence-sensitive model choice
+and human usefulness remain untested. No new model call, private research upload
+or laboratory execution occurred. Any live test needs separate exact provider,
+payload and cost approval.

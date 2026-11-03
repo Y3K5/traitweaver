@@ -276,3 +276,15 @@ packet, secret, owner research, generated execution export, screenshot or test l
 is included. Existing scientific data, schema pins, provider transports and v1/v2
 contracts are unchanged. Pattern checks do not prove absence of private material;
 review applies to these exact outgoing bytes, not future artifacts or live calls.
+
+November 3 UTC v3 follow-up slice: base public main is 84d3e305. The outgoing
+changes are an independent execution-informed request/proposal archive, server/UI
+integration, public/synthetic tests, accurate demo documentation and refreshed
+file/provenance manifests. Full outgoing contents and diff were screened; no
+secret-shaped content, personal paths or unrelated work was found. New requests
+project public/controlled fields and exclude raw owning identifiers/timestamps,
+notes and model responses; broader local archives retain their source bindings.
+No generated request/archive, screenshot, private packet or log is published.
+Original scientific inputs, provider transports and v1/v2/execution contracts are
+unchanged. Pattern screening is not proof of absence and applies to these exact
+outgoing bytes, not to future user artifacts or live calls.

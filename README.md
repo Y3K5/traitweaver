@@ -1,3 +1,11 @@
+**November 3 execution-informed Muse request v3:** reviewed local execution
+receipts now reach a subsequent prepared Muse selection request. A combined
+preview retains original scopes, human acknowledgments, source qualifications
+and all retained duplicate guards. Explicit review prepares an unsent request;
+synthetic/imported-unverified proposals stay review-only. Exhausted inputs stop.
+Open the next-question disclosure in **Muse intelligence** after reviewing a
+bridge result. See [the v3 contract and limits](docs/INTELLIGENCE_LAYER.txt).
+
 **November 3 approved local execution:** a validated v2 proposal can now lead to
 an explicit approval, one registered local check and a separate human review of
 the authored result summary. A separate journal preserves approval and attempts;
@@ -52,8 +60,8 @@ controls change assumptions, not measured treatment performance.
 Start with the [hackathon contribution and reuse ledger](docs/CONTRIBUTIONS.md)
 [what Meta contributed](docs/META_CONTRIBUTION.md), and the
 [component rights inventory](docs/COMPONENT_RIGHTS.md). The public repository was
-rechecked at commit `32de40c417812e93dea10814dd59bb13d2416369` before this execution-bridge
-refresh. That published snapshot includes continuation review, journey proof, intelligence evidence map, study
+rechecked at commit `84d3e30597d9bab394354f930d5e5c0295d14354` before this execution-informed
+request refresh. That published snapshot includes continuation review, journey proof, intelligence evidence map, study
 review, trait illustrations and phosphorus teaching explorer, plus the earlier
 scoped MIT license and contribution/rights records. Publication does not establish
 entry acceptance, component-rights clearance or original creation dates. Historical

@@ -116,3 +116,13 @@ new Meta inference. A human acknowledgment does not become a Muse reassessment
 or scientific validation. v1/v2 packages stay unchanged; the v2 request does not
 yet carry this bridge's results into a third selection. No new model call or
 demonstration of adaptive planning occurred in this development slice.
+
+## Execution history in the next request (November 3)
+
+A distinct v3 request now includes reviewed bridge receipts, their original
+scopes, human acknowledgments and unresolved requirements. Its eligible choices
+respect all retained execution guards. This is application-assembled context for
+an unsent request, not new Meta inference. Synthetic examples and imported
+unverified responses retain those labels; reference matching does not establish
+entailment or adaptation. V3 proposals remain non-executable. No saved-real label
+from the original demo is transferred to this follow-up workflow.

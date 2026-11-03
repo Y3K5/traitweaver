@@ -675,3 +675,36 @@ External storage persists starts/imported guards; demo storage is session-only.
 No new provider/model call, private packet, biological validation, human usefulness
 study or evidence-sensitive model comparison was performed. The unchanged v2
 request does not yet include bridge results in a third selection.
+
+NOVEMBER 3 UTC — EXECUTION-INFORMED V3 REQUEST
+Base local/public main: 84d3e30597d9bab394354f930d5e5c0295d14354.
+Acceptance tests were defined before implementation. The final full Python suite
+passed 521 tests in 426.819 seconds, including 19 v3 contract tests and nine
+new route tests. Coverage includes exact bridge receipt/human-review projection,
+source/catalog/lineage binding, closed proposal references, independent-ledger
+result-ID collisions, retained imported guards, pending/unreviewed/interrupted
+stops, prefixes/forks, zero/null and equivalent numeric inputs, read-only owners,
+uncertain storage, preview-cache tamper invalidation, bounded archives, stale
+reopening and no dispatch. Existing v1/v2/execution modules remain byte-unchanged.
+
+All nine UI suites passed 321 scenarios, including 77 intelligence scenarios.
+They use shipped controllers and actual in-memory handlers/core with sockets
+blocked. Existing loopback checks passed 49 checks; five primary-source pins pass.
+
+Installed Chromium/Playwright passed 25 workflow checks plus eight historical-
+scope checks at 1440x1000 and 390x844. Verified explicit disclosure navigation,
+fresh acknowledgment/reset, exact prior receipt and human review in the wire,
+synthetic versus imported-unverified proposal labels, native download/reopen,
+unchanged owning packages, stale requests after execution changes, exhausted-input
+stop, historical original scope and no horizontal overflow. The extra historical
+harness initially used a CSP-incompatible wait predicate; switching the test to
+poll the existing page state preserved the application's strict CSP. Final browser
+reports have no issues, page errors or external requests. The imported-response
+branch uses a locally constructed fixture, not an actual provider packet.
+Screenshots, exports and logs remain outside the public tree.
+
+Parallel Codex technical/UX review found no remaining blocker. These are software
+checks, not independent human scientific/usefulness review. No live provider call,
+private research transmission, new evidence admission or laboratory work occurred.
+V3 proposals remain review-only; provider compatibility and model adaptation are
+not established. A separate versioned execution design would be needed to run them.

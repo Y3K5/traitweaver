@@ -165,3 +165,15 @@ attempts. Demo storage is session-only. Original v1/v2 and scientific contracts
 remain unchanged; bridge results do not yet feed a third model selection.
 Parallel Codex engineering and UX review are not independent human review.
 No new Meta call, private packet, adaptive-model claim or laboratory work.
+
+NOVEMBER 3 UTC — EXECUTION-INFORMED MUSE REQUEST V3
+Codex added a separate screened next-request projection and proposal-review
+archive over unchanged v1 and execution source packages. Exact reviewed receipts,
+human acknowledgments, qualified source roles and original scopes reach the
+prepared request; collision-safe event-bound references keep independent receipt
+identities distinct. Eligibility retains all owned/imported guards, and pending,
+unreviewed or exhausted inputs stop preparation. The UI uses a deliberate
+next-question disclosure with explicit preview acknowledgment and read-only
+export/reopen. v1/v2/execution contracts remain unchanged; v3 cannot execute.
+No new Meta call, authenticated imported response, model-adaptation claim,
+private packet, source admission or laboratory protocol is introduced.
