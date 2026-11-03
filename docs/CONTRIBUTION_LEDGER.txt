@@ -113,3 +113,17 @@ cloud implementation, tests, screened commits and normal pushes; that permission
 does not cover another project, new model spending or hackathon submission.
 No new real Muse inference, biological validation or scientific source admission.
 This records the development date, not an independent event-eligibility judgment.
+
+NOVEMBER 3 UTC — JOURNEY PROOF AND PROVENANCE REPAIRS
+Codex exposed the existing accepted check/citations, saved coverage rows/blockers
+and result-linked reassessment directly in the selected Research journey scenes.
+Application-authored rationale/branches/plans remain distinct from accepted model
+fields. Partial/mixed/unknown provenance withholds the proof view; manual stage
+navigation restores focus and scene visibility on desktop and narrow screens.
+The evidence projection now retains an explicit exact-DOI-and-URL crosswalk from
+the reference publication alias to the admitted literature source, failing closed
+on missing, conflicting or ambiguous identity. Graph navigation keeps displayed
+endpoint context synchronized while preserving saved scope. Independent parallel
+Codex technical and UX reviews informed these fixes; they are not independent
+human scientific review. Original evidence, contracts and fixture hashes remain.
+No new live Muse inference, private packet, source admission or laboratory work.

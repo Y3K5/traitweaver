@@ -26,6 +26,19 @@ Codex-authored; the model did not generate the application or execute a laborato
 experiment. New action/measurement cards are authored proposals unless their own
 accepted record explicitly establishes a separate model contribution.
 
+The original response schema is deliberately narrow. Selection chooses a
+registered check, rationale code and citations; the application supplies the
+explanatory prose, deferred options and conditional branches. Reassessment is
+constrained to the locally determined outcome and permitted researcher-review
+action for that result. The application also authors the measurement plan.
+Displaying those records makes this bounded contribution inspectable; it does
+not establish open-ended adaptation or independent plan generation by Muse.
+
+The current Research journey exposes these distinctions in its selected scenes:
+actual accepted citations and model fields, saved local result rows, and authored
+planning content. Complete linked receipts are required for the model-proof view.
+Unknown, partial or inconsistent provenance cannot acquire a saved-real label.
+
 The source summary reports 5,939 input and 1,413 output tokens, including 1,315
 reasoning tokens, with a USD 0.013429 token-cost estimate. These are documentary
 figures, not independently authenticated provider usage, a verified invoice,

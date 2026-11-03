@@ -1,11 +1,11 @@
 {
   "schema_version": "traitweaver.final_repository_handoff.v1",
-  "status": "traitweaver_cloud_evidence_map_screened_for_publication",
+  "status": "traitweaver_cloud_journey_proof_screened_for_publication",
   "prepared_date": "2026-11-03",
-  "refresh": "Read-only intelligence evidence map and cycle provenance over a6ac30f; scientific fixtures and saved contracts unchanged.",
+  "refresh": "Stage-specific saved-cycle proof and authored/model boundaries, exact publication crosswalk and endpoint navigation repair over 49a3a4ab; source fixtures and saved contracts unchanged.",
   "publication_approved": true,
   "claude_review_performed": false,
-  "review_status": "Owner authorized screened Traitweaver-only cloud build and normal push. No provider spending, biological validation, event submission or rights-clearance approval.",
+  "review_status": "User authorized continued screened Traitweaver-only cloud implementation and normal publication. Codex technical and UX reviews plus software checks completed; no human scientific/usefulness or event-entry approval.",
   "scope": "Public/synthetic research-workspace code plus documentation. Documentary real Meta contribution is described; real packets, media and new provider execution are excluded.",
   "files": [
     {
@@ -30,13 +30,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "18f294b11d30ef3e41357917a1486e567026776d2e9c5b6b374fe6d288a4a22d",
-      "bytes": 18870
+      "sha256": "a7300ab1615003bedac029c3c197b48f1058a21a87f315456c0342757193befc",
+      "bytes": 19483
     },
     {
       "path": "SOURCE_PROVENANCE.json",
-      "sha256": "06b58b4eedcd8f3c60a7d73b375ced41c5b60727a735b3c0eb51c062afb33510",
-      "bytes": 146582
+      "sha256": "1a1f770525bd8da7f5911ba02705d0921e8f91384a5af9be8703530b41ad2e69",
+      "bytes": 160267
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -210,8 +210,8 @@
     },
     {
       "path": "docs/CINEMATIC_SHOWCASE.txt",
-      "sha256": "0d72710fc4f31f39d67d9d442b450b17647910a1779335a5303fbe2d32bf3604",
-      "bytes": 2099
+      "sha256": "38b6caf22d1a0a6d41e55d9521c5bcbfc8095cb6569842efe891a1105d2cc42e",
+      "bytes": 4083
     },
     {
       "path": "docs/CLAUDE_REVIEW_BRIEF.txt",
@@ -235,8 +235,8 @@
     },
     {
       "path": "docs/CONTRIBUTION_LEDGER.txt",
-      "sha256": "48a6d6db9dca4044a2e09492b4aa3161e4efb3932116a1dd3ec4091e6f4b2e13",
-      "bytes": 7709
+      "sha256": "41eb870a13212c9da6580061828c00fe59f70dae3ef43b6c1e2683446e5c1eda",
+      "bytes": 8733
     },
     {
       "path": "docs/DATA_FLOW.txt",
@@ -245,8 +245,8 @@
     },
     {
       "path": "docs/DEMO_RELEASE_3_MIN.txt",
-      "sha256": "6f09fb53de83dda92d088e94a7c1ef7b2fb84565a4440b3c14c8c170103a9473",
-      "bytes": 3889
+      "sha256": "578f7f55729d23b18056cd2a2a883b6ff19868b087b894197efe7d039faa497d",
+      "bytes": 4432
     },
     {
       "path": "docs/DEMO_SCRIPT_3_MIN.txt",
@@ -265,8 +265,8 @@
     },
     {
       "path": "docs/INTELLIGENCE_LAYER.txt",
-      "sha256": "377fd798d60110b157f25f9af92c8c719650e594bb5aac1af253d31686b11965",
-      "bytes": 12182
+      "sha256": "ab7d9380f20eabe9cf6734df8407ef4ee7478a2f4e1188388ee838f68a27976a",
+      "bytes": 13431
     },
     {
       "path": "docs/LIVE_RUN_SUMMARY.txt",
@@ -275,8 +275,8 @@
     },
     {
       "path": "docs/META_CONTRIBUTION.md",
-      "sha256": "4635d5466ecca9298d1c9c53117f5e9104e567737c69c792fcb3dafe50741e7f",
-      "bytes": 4958
+      "sha256": "35c2082023cbd5c5fc942923d0619f8e830b86eb633ec3ff9fcc541fcdcb0705",
+      "bytes": 5818
     },
     {
       "path": "docs/MOLECULAR_WORKSPACE.txt",
@@ -335,13 +335,13 @@
     },
     {
       "path": "docs/SCREENING_SUMMARY.txt",
-      "sha256": "1810c9e1cf732ff9df6690fe03fff255bc6e5ad733712856fb4db08fbee5e80a",
-      "bytes": 14616
+      "sha256": "ea3480c5e6272374bf29e0b334ff5e099c4feac40092a3870023d1207a818e6b",
+      "bytes": 15488
     },
     {
       "path": "docs/VALIDATION.txt",
-      "sha256": "b8c734e6be867c6da392ee6fd07b152cf9946f382d5f51863936718bca157c8c",
-      "bytes": 35261
+      "sha256": "e16bf0ccbe739af16b75b73f954fe54ba9563887a93821b2c81b9bb228dd59a3",
+      "bytes": 37382
     },
     {
       "path": "docs/WHAT_WE_BUILT.txt",
@@ -410,8 +410,8 @@
     },
     {
       "path": "src/traitweaver/evidence_map.py",
-      "sha256": "8443f6d7f47ca03c1608dfcc8f1745ed6ef24f36eff2e7c89ad9c5dea91efe83",
-      "bytes": 7271
+      "sha256": "e75d6ce610ffdd5340411527873eac86fc5bff006a4a80f3ba843aecf3d122c2",
+      "bytes": 9137
     },
     {
       "path": "src/traitweaver/intelligence.py",
@@ -555,8 +555,8 @@
     },
     {
       "path": "src/traitweaver/web/intelligence-ui.js",
-      "sha256": "c772fc8ea9546b57019eb538e206dddd8096a4f7ba9eca74985d7555cf804d1d",
-      "bytes": 29096
+      "sha256": "dab97cf009728bba31f52bae8befefbf1476c6db6f6fed96febf58620dc3bd4a",
+      "bytes": 29300
     },
     {
       "path": "src/traitweaver/web/intelligence.css",
@@ -565,13 +565,13 @@
     },
     {
       "path": "src/traitweaver/web/journey-ui.js",
-      "sha256": "6fea329b376b70bdb00150c512fffe73bcc32cfc1093516da681e8f7a52c4519",
-      "bytes": 30192
+      "sha256": "4761e9a7bad23ba76db0c10ca5da232f5e123849a1f136f58d2ddc566c20c662",
+      "bytes": 37892
     },
     {
       "path": "src/traitweaver/web/journey.css",
-      "sha256": "d4d2c1d75626ccbe0ecea3b9f055c8e64341cdf964119f7f91b565ded07c3cd7",
-      "bytes": 13474
+      "sha256": "8ec9debd2b995bc392e5c2423864f5cab413b26708b83b261643d93cc94bb956",
+      "bytes": 15465
     },
     {
       "path": "src/traitweaver/web/molecular-ui.js",
@@ -660,13 +660,13 @@
     },
     {
       "path": "tests/intelligence_ui_offline.cjs",
-      "sha256": "42a0765775e635f4d2f8880a04aaac8348990d04306416ca61a1884b54a9ab85",
-      "bytes": 14823
+      "sha256": "e9fd44b7d36215b02ad31f4f359fb7d7acb5f38203b29d9972ac9820a239dce4",
+      "bytes": 15874
     },
     {
       "path": "tests/journey_ui_offline.cjs",
-      "sha256": "705b830e304903ec3260f5562290cbb1372dbebaee27db4978287239643341e2",
-      "bytes": 15671
+      "sha256": "b80a0dbf2be8c705100a72c5a54f11cf7557b7c212e7f275154718c860e40c68",
+      "bytes": 22373
     },
     {
       "path": "tests/molecular_ui_offline.cjs",
@@ -710,8 +710,8 @@
     },
     {
       "path": "tests/test_evidence_map.py",
-      "sha256": "8f4415fd81d52a2d0a26b9e9d07fa91bd2e9d144b3ed4ef6a09ab41199d978a3",
-      "bytes": 6300
+      "sha256": "d83c4476f48092bbd31c30292fed8b460e3cd5e30fcdcd3d394bca0aed7ba098",
+      "bytes": 9254
     },
     {
       "path": "tests/test_handoff_verifier.py",
@@ -896,11 +896,10 @@
   ],
   "manifest_self_hash_policy": "Excluded from its own hash list; manifest hash recorded in external local verification",
   "blockers": [
-    "Owner review of exact changed documentation before any separately authorized commit; owner performs any separately approved push.",
     "No final three-minute video supplied and checked; final media/rights/access review and link remain open.",
     "Original creation/reuse facts, final track/representative and Indie reuse eligibility remain unresolved.",
     "Remaining component/design/GFP/media rights and exact submission-form/terms decisions remain open.",
-    "Final timed/native-browser demonstration and human scientific/usefulness review remain pending."
+    "Human-timed demonstration, comprehension and independent scientific/usefulness review remain pending."
   ],
   "exclusions": [
     "Git metadata",
@@ -920,7 +919,7 @@
     "review_status": "Local software/browser verification; independent scientific and publication review pending",
     "scope": "Local public/synthetic fixed-case research workbench and scientific showcase; no live provider contribution, laboratory execution or organism design"
   },
-  "base_public_commit": "febe18b0b16e53a49aee71d3f8f4142b4a828618",
+  "base_public_commit": "49a3a4abf88c7802bf6b7294b64ed843343454c3",
   "historical_validation_and_screening": {
     "tests": {
       "offline_unit_tests": 302,
@@ -1106,15 +1105,43 @@
     }
   },
   "current_validation": {
-    "scope": "Documentation/manifest/provenance checks only. No application/controller/browser suite, model call, private-packet inspection or biological validation.",
-    "base_commit": "febe18b0b16e53a49aee71d3f8f4142b4a828618",
-    "exact_candidate_files": 176,
-    "application_code_changed": false,
-    "scientific_inputs_changed": false,
-    "tests_changed": false,
-    "assets_license_media_changed": false,
+    "base_commit": "49a3a4abf88c7802bf6b7294b64ed843343454c3",
+    "exact_candidate_files": 178,
+    "python_suite": {
+      "tests": 421,
+      "status": "passed",
+      "seconds": 150.675
+    },
+    "controller_scenarios": 279,
+    "journey_scenarios": 61,
+    "intelligence_scenarios": 35,
+    "loopback_checks": 49,
+    "source_pins": "passed",
+    "rendered_browser": {
+      "status": "passed",
+      "engine": "installed Chromium via Playwright",
+      "viewports": [
+        [
+          1440,
+          1000
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "scene_records": true,
+      "keyboard_and_footer_focus_scroll": true,
+      "read_only_navigation": true,
+      "native_download_reopen_refresh": true,
+      "page_errors": 0,
+      "external_requests": 0,
+      "data": "synthetic demo only"
+    },
     "new_provider_calls": 0,
-    "result_record": "Actual pass/fail outcomes, exact diff and preservation checks are recorded in an external local review packet; historical software results are retained separately."
+    "scientific_inputs_changed": false,
+    "model_request_and_saved_contracts_changed": false,
+    "scope": "Software and synthetic-display checks only; no private saved-real record opened, provider authentication, independent scientific review or biological validation."
   },
   "historical_prepublication_metadata_2026_11_01": {
     "status": "documentation_cleanup_candidate_pending_owner_review",
@@ -1204,5 +1231,30 @@
       "scope": "Software verification, not experimental validation."
     },
     "published_commit": "febe18b0b16e53a49aee71d3f8f4142b4a828618"
+  },
+  "historical_before_cloud_journey_proof": {
+    "status": "traitweaver_cloud_evidence_map_screened_for_publication",
+    "prepared_date": "2026-11-03",
+    "refresh": "Read-only intelligence evidence map and cycle provenance over a6ac30f; scientific fixtures and saved contracts unchanged.",
+    "review_status": "Owner authorized screened Traitweaver-only cloud build and normal push. No provider spending, biological validation, event submission or rights-clearance approval.",
+    "base_public_commit": "febe18b0b16e53a49aee71d3f8f4142b4a828618",
+    "current_validation": {
+      "scope": "Documentation/manifest/provenance checks only. No application/controller/browser suite, model call, private-packet inspection or biological validation.",
+      "base_commit": "febe18b0b16e53a49aee71d3f8f4142b4a828618",
+      "exact_candidate_files": 176,
+      "application_code_changed": false,
+      "scientific_inputs_changed": false,
+      "tests_changed": false,
+      "assets_license_media_changed": false,
+      "new_provider_calls": 0,
+      "result_record": "Actual pass/fail outcomes, exact diff and preservation checks are recorded in an external local review packet; historical software results are retained separately."
+    },
+    "blockers": [
+      "Owner review of exact changed documentation before any separately authorized commit; owner performs any separately approved push.",
+      "No final three-minute video supplied and checked; final media/rights/access review and link remain open.",
+      "Original creation/reuse facts, final track/representative and Indie reuse eligibility remain unresolved.",
+      "Remaining component/design/GFP/media rights and exact submission-form/terms decisions remain open.",
+      "Final timed/native-browser demonstration and human scientific/usefulness review remain pending."
+    ]
   }
 }

@@ -8,6 +8,36 @@ from copy import deepcopy
 from traitweaver import study
 
 
+def _publication_identity(publication, sources):
+    """Resolve a reference-local publication ID by two exact public identifiers.
+
+    No title/name inference, URL normalization or retrieval is permitted. Keep
+    the original reference-local ID in the crosswalk and retain all of its
+    gene-level qualification text. This does not admit a new scientific claim.
+    """
+    fields = ('source_id', 'doi', 'url')
+    if any(not isinstance(publication.get(k), str) or not publication[k].strip() for k in fields):
+        raise ValueError('Publication identity requires explicit source, DOI and URL identifiers')
+    source_ids = [s.get('id') for s in sources]
+    if any(not isinstance(s, str) or not s.strip() for s in source_ids) or len(set(source_ids)) != len(source_ids):
+        raise ValueError('Publication identity has ambiguous literature source identifiers')
+    doi_matches = [s for s in sources if s.get('doi') == publication['doi']]
+    url_matches = [s for s in sources if s.get('url') == publication['url']]
+    if len(doi_matches) != 1 or len(url_matches) != 1 or doi_matches[0]['id'] != url_matches[0]['id']:
+        raise ValueError('Publication identity DOI and URL must identify one unambiguous admitted source')
+    source = doi_matches[0]
+    if publication['source_id'] in source_ids and publication['source_id'] != source['id']:
+        raise ValueError('Publication identity source identifier conflicts with its DOI and URL')
+    resolved = deepcopy(publication)
+    resolved['source_id'] = source['id']
+    resolved['source_crosswalk'] = {
+        'reference_source_id': publication['source_id'],
+        'literature_source_id': source['id'],
+        'match_basis': 'exact_doi_and_publication_url',
+        'doi': publication['doi'], 'publication_url': publication['url']}
+    return resolved
+
+
 def project(bundle, endpoint):
     literature = bundle['literature']
     nodes, edges = [], []
@@ -81,7 +111,7 @@ def project(bundle, endpoint):
         identity = next(c for c in reference['claims'] if c['id'] == 'identity')
         context = next(c for c in reference['claims'] if c['id'] == 'context')
         sequence = next(c for c in reference['claims'] if c['id'] == 'sequence')
-        publication = reference['sources']['publication_identity']
+        publication = _publication_identity(reference['sources']['publication_identity'], literature['sources'])
         node('reference:context', 'reference_context', reference['strain'], 'reference_context',
              {'organism': reference['organism'], 'strain': reference['strain'], 'claim': context})
         for filename in context['files']:

@@ -12,7 +12,7 @@ class Element{
  set innerHTML(v){this.html=v;this.doc.parse(v,this);}get innerHTML(){return this.html||'';}
  addEventListener(type,fn){(this.handlers[type]??=[]).push(fn);}setAttribute(k,v){this.attributes[k]=v;}
  closest(selector){return selector==='#intelligence-scope-form'&&this.inScopeForm?this.doc.getElementById('intelligence-scope-form'):null;}
- focus(){}scrollIntoView(){}
+ focus(){this.doc.activeElement=this;}scrollIntoView(){this.doc.scrolledTo=this.id;}
  async fire(type,extra={}){for(const fn of this.handlers[type]||[])await fn({target:this,currentTarget:this,preventDefault(){},...extra});}
  click(){if(this.download)downloads.push({name:this.download,blob:blobs.get(this.href)});return this.fire('click');}
 }
@@ -78,6 +78,44 @@ const revision=()=>run('snapshot.intelligence.current.revision');
  check('unloaded AI records show no invented usage or real contribution',html().includes('data-journey-ai="not-loaded"')&&!html().includes('saved requests')&&requests.length===noLoadRequests);
  run('snapshot.completed_cycle=cycleBackup;snapshot.read_only=readOnlyBackup;render();');
 
+ // Scene-proof acceptance: presentation only, no tool/model/session dispatch.
+ const proofRequests=requests.length,proofState=JSON.stringify(run('snapshot.current'));
+ run('journeyIndex=2;render()');
+ check('decision scene names the accepted check and separates authored rationale',html().includes('id="journey-proof-scene"')&&run('journeySceneEvidence()').includes('endpoint coverage')&&run('journeySceneEvidence()').includes('Authored explanation of the selected rationale'));
+ check('decision scene makes deferred choices and accepted citations visible',run('journeySceneEvidence()').includes('Deferred before execution')&&run('journeySceneEvidence()').includes('S_PSR1_2023')&&run('journeySceneEvidence()').includes('Describe published phosphate_uptake contrasts'));
+ run('journeyIndex=3;render()');
+ check('result scene exposes both saved coverage rows and exact receipt',run('journeySceneEvidence()').includes('PATH_PSR1')&&run('journeySceneEvidence()').includes('PATH_PRECONDITION')&&run('journeySceneEvidence()').includes('C1_RESULT')&&run('journeySceneEvidence()').includes('No admitted records'));
+ check('result scene keeps unknown margin and differing source contexts visible',run('journeySceneEvidence()').includes('No growth decision margin was specified')&&run('journeySceneEvidence()').includes('different strain/condition controls'));
+ run('journeyIndex=4;render()');
+ check('next-study scene shows matched authored branch and bounded accepted next action',run('journeySceneEvidence()').includes('unavailable')&&run('journeySceneEvidence()').includes('Pre-result branch')&&run('journeySceneEvidence()').includes('researcher review measurement plan'));
+ check('study outline is labelled authored and retains unresolved decisions',run('journeySceneEvidence()').includes('Authored study plan')&&run('journeySceneEvidence()').includes('Growth margin and recovery decision threshold')&&run('journeySceneEvidence()').includes('Human review required'));
+ check('scene inspection never dispatches requests or changes owning records',requests.length===proofRequests&&JSON.stringify(run('snapshot.current'))===proofState);
+ run('var proofCurrent=structuredClone(snapshot.current);var proofSummary=structuredClone(snapshot.completed_cycle);snapshot.current.action.payload.proposal.result_id="WRONG_RESULT";render()');
+ check('mismatched final-result link withholds the model proof',run('journeyCycleRecord()')===null&&run('journeySceneEvidence()').includes('No complete linked cycle')&&!run('journeySceneEvidence()').includes('C1_RESULT'));
+ run('snapshot.current=structuredClone(proofCurrent);snapshot.current.state.cycles[0].assessment=null;render()');
+ check('partial record cannot present a complete model contribution',run('journeyCycleRecord()')===null&&!run('journeySceneEvidence()').includes('Authored study plan'));
+ run('snapshot.current=structuredClone(proofCurrent);snapshot.completed_cycle.synthetic=false;snapshot.completed_cycle.mode="Standard";render()');
+ check('synthetic receipts cannot inherit a real label from a changed summary',run('journeyCycleRecord()')===null&&!run('journeyProvenance()').includes('Saved real'));
+ // Exercise display routing only; no real model record is manufactured or admitted.
+ run('snapshot.current.state.cycles[0].decision.provider_receipt.provenance="owner_imported_reply_authenticity_unverified";snapshot.current.state.cycles[0].assessment.provider_receipt.provenance="owner_imported_reply_authenticity_unverified";snapshot.current.action.payload.receipt.provenance="owner_imported_reply_authenticity_unverified";render()');
+ check('real display branch keeps the bounded-reassessment and authentication limits',run('journeyProvenance()')==='Saved real Muse cycle'&&run('journeySceneEvidence()').includes('closed schema')&&run('journeySceneEvidence()').includes('independent provider authentication'));
+ run('snapshot.current.state.cycles[0].decision.provider_receipt.provenance="unknown_transport";render()');
+ check('unknown provenance cannot acquire a saved-real label',run('journeyCycleRecord()')===null&&!run('journeyProvenance()').includes('Saved real'));
+ run('snapshot.current=structuredClone(proofCurrent);snapshot.completed_cycle=structuredClone(proofSummary);snapshot.completed_cycle.requests[0].accepted_response_sha256="a".repeat(64);render()');
+ check('mismatched phase-response hash withholds a mixed snapshot',run('journeyCycleRecord()')===null);
+ run('snapshot.current=structuredClone(proofCurrent);snapshot.completed_cycle=structuredClone(proofSummary);delete snapshot.current.state.cycles[0].decision.provider_receipt.response_sha256;delete snapshot.completed_cycle.requests[0].accepted_response_sha256;render()');
+ check('matching absent hashes cannot establish linked records',run('journeyCycleRecord()')===null);
+ run('snapshot.current=structuredClone(proofCurrent);snapshot.completed_cycle=structuredClone(proofSummary);journeyIndex=2;snapshot.current.state.cycles[0].decision.provider_citations=["S_PSR1_2023"];render()');
+ const actualSelectionCitations=run('journeySceneEvidence()').split('<h4>Accepted selection citations</h4>')[1].split('</ul>')[0];
+ check('model citations are not expanded to authored full-bundle source coverage',actualSelectionCitations.includes('S_PSR1_2023')&&!actualSelectionCitations.includes('S_OVERPLUS_2024'));
+ run('snapshot.current=structuredClone(proofCurrent);snapshot.completed_cycle=structuredClone(proofSummary)');
+ check('one-path and duplicated-path results cannot claim both research paths lack evidence',!run('journeyResultSummary({...cycle().result,rows:[cycle().result.rows[0]]})').includes('Neither')&&!run('journeyResultSummary({...cycle().result,rows:[cycle().result.rows[0],cycle().result.rows[0]]})').includes('Neither'));
+ check('published contrast result is not rendered as endpoint coverage',run('journeyCoverageRows({tool:"published_contrasts",metric:"growth",rows:[]})').includes('no coverage result is substituted')&&!run('journeyCoverageRows({tool:"published_contrasts",metric:"growth",rows:[]})').includes('No admitted records'));
+ run('journeyIndex=0;render()');await fire('journey-next');
+ check('manual Next moves focus and scroll to the newly selected scene',doc.activeElement?.dataset.journeyStage==='1'&&doc.scrolledTo==='journey-animation');
+ run('journeyIndex=3;render()');await fire('journey-next');
+ check('final Next focuses the enabled scene tab and distinguishes records from illustration',doc.activeElement?.dataset.journeyStage==='4'&&html().includes('Read-only records · no live calls'));
+ run('snapshot.current=proofCurrent;snapshot.completed_cycle=proofSummary;journeyIndex=0;render()');
  check('exactly five scenes with Meta decision and actual result cards',run('journeyStages.length')===5&&html().includes('Muse chose this check')&&html().includes('The software found this')&&html().includes('Muse reassessed'));
  check('pilot absence cannot fabricate a successful result',html().includes('No result loaded'));
  const beforeRequests=requests.length;await fire('journey-play');assert.ok(timerFn);timerFn();

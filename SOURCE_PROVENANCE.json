@@ -470,8 +470,8 @@
       "destination": "README.md",
       "source": "README.md",
       "source_sha256": "48bd81e91c4a69754d30551fb3ac3db3058b79c6d8223c1bc06f19992ca2ff24",
-      "candidate_sha256": "18f294b11d30ef3e41357917a1486e567026776d2e9c5b6b374fe6d288a4a22d",
-      "transformation": "November 3 Traitweaver cloud evidence-map extension; original source fields retained. See cloud_evidence_map_extension and docs/INTELLIGENCE_LAYER.txt.",
+      "candidate_sha256": "a7300ab1615003bedac029c3c197b48f1058a21a87f315456c0342757193befc",
+      "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "f08157896b1176a2cd121807eb2642a37e80297c2b73c00a4e5895dbcd5df3c6",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
@@ -636,8 +636,8 @@
       "destination": "tests/intelligence_ui_offline.cjs",
       "source": "tests/intelligence_ui_offline.cjs",
       "source_sha256": "d4f50952289c12664d347276dd16458accf1a389119793952c77b7310864f6e9",
-      "candidate_sha256": "42a0765775e635f4d2f8880a04aaac8348990d04306416ca61a1884b54a9ab85",
-      "transformation": "November 3 Traitweaver cloud evidence-map extension; original source fields retained. See cloud_evidence_map_extension and docs/INTELLIGENCE_LAYER.txt.",
+      "candidate_sha256": "e9fd44b7d36215b02ad31f4f359fb7d7acb5f38203b29d9972ac9820a239dce4",
+      "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
       "source_git_status": "local only; not committed or pushed"
     },
     {
@@ -708,8 +708,8 @@
       "destination": "tests/journey_ui_offline.cjs",
       "source": "tests/journey_ui_offline.cjs",
       "source_sha256": "fe930c191b32b186fd3666e3e2ea5907177e36651f80c8461e0e70f3e08d9a20",
-      "candidate_sha256": "705b830e304903ec3260f5562290cbb1372dbebaee27db4978287239643341e2",
-      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+      "candidate_sha256": "b80a0dbf2be8c705100a72c5a54f11cf7557b7c212e7f275154718c860e40c68",
+      "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
       "source_git_status": "local only; not committed or pushed"
     },
     {
@@ -764,16 +764,16 @@
       "destination": "docs/INTELLIGENCE_LAYER.txt",
       "source": "docs/INTELLIGENCE_LAYER.txt",
       "source_sha256": "f00f8a50656f55ea0126c115e3eedbb2177ff33d2e2cea21554ab027bfcf341c",
-      "candidate_sha256": "377fd798d60110b157f25f9af92c8c719650e594bb5aac1af253d31686b11965",
-      "transformation": "November 3 Traitweaver cloud evidence-map extension; original source fields retained. See cloud_evidence_map_extension and docs/INTELLIGENCE_LAYER.txt.",
+      "candidate_sha256": "ab7d9380f20eabe9cf6734df8407ef4ee7478a2f4e1188388ee838f68a27976a",
+      "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
       "source_git_status": "local only; not committed or pushed"
     },
     {
       "destination": "docs/SCREENING_SUMMARY.txt",
       "source": "docs/SCREENING_SUMMARY.txt",
       "source_sha256": "41d8ebab636d1ac24474f19b244c66efad9070d43fc5149b9269a633dfd91647",
-      "candidate_sha256": "1810c9e1cf732ff9df6690fe03fff255bc6e5ad733712856fb4db08fbee5e80a",
-      "transformation": "November 3 Traitweaver cloud evidence-map extension; original source fields retained. See cloud_evidence_map_extension and docs/INTELLIGENCE_LAYER.txt.",
+      "candidate_sha256": "ea3480c5e6272374bf29e0b334ff5e099c4feac40092a3870023d1207a818e6b",
+      "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "acf96b16be1b55190f99e2a22ae664e7158064bb4d0e9db20729a427201b67be",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
@@ -848,8 +848,8 @@
       "destination": "docs/VALIDATION.txt",
       "source": "docs/VALIDATION.txt",
       "source_sha256": "67943a61bdc6161d26f4ea70a9496a861ad2590ddfa9d310b2213ef4c5fdef10",
-      "candidate_sha256": "b8c734e6be867c6da392ee6fd07b152cf9946f382d5f51863936718bca157c8c",
-      "transformation": "November 3 Traitweaver cloud evidence-map extension; original source fields retained. See cloud_evidence_map_extension and docs/INTELLIGENCE_LAYER.txt.",
+      "candidate_sha256": "e16bf0ccbe739af16b75b73f954fe54ba9563887a93821b2c81b9bb228dd59a3",
+      "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
       "source_git_status": "local only; not committed or pushed"
     },
     {
@@ -1088,8 +1088,8 @@
       "destination": "src/traitweaver/web/intelligence-ui.js",
       "source": "src/traitweaver/web/intelligence-ui.js",
       "source_sha256": "8478e70cbc252f5a60bcfb9e28d4f34dea9c402769d5ce8961e33e89f7a46728",
-      "candidate_sha256": "c772fc8ea9546b57019eb538e206dddd8096a4f7ba9eca74985d7555cf804d1d",
-      "transformation": "November 3 Traitweaver cloud evidence-map extension; original source fields retained. See cloud_evidence_map_extension and docs/INTELLIGENCE_LAYER.txt.",
+      "candidate_sha256": "dab97cf009728bba31f52bae8befefbf1476c6db6f6fed96febf58620dc3bd4a",
+      "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
       "source_git_status": "local only; not committed or pushed"
     },
     {
@@ -1112,8 +1112,8 @@
       "destination": "src/traitweaver/web/journey.css",
       "source": "src/traitweaver/web/journey.css",
       "source_sha256": "96fd0a253e4cfb19363a0daec886d479c3c8029839099ef3356034213f40e5ec",
-      "candidate_sha256": "d4d2c1d75626ccbe0ecea3b9f055c8e64341cdf964119f7f91b565ded07c3cd7",
-      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+      "candidate_sha256": "8ec9debd2b995bc392e5c2423864f5cab413b26708b83b261643d93cc94bb956",
+      "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
       "source_git_status": "local only; not committed or pushed"
     },
     {
@@ -1128,8 +1128,8 @@
       "destination": "src/traitweaver/web/journey-ui.js",
       "source": "src/traitweaver/web/journey-ui.js",
       "source_sha256": "5e4cc6cb6c1bd9ec6c625dd2d551144b2509f88a686ebe54dd4777c612e946eb",
-      "candidate_sha256": "6fea329b376b70bdb00150c512fffe73bcc32cfc1093516da681e8f7a52c4519",
-      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
+      "candidate_sha256": "4761e9a7bad23ba76db0c10ca5da232f5e123849a1f136f58d2ddc566c20c662",
+      "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
       "source_git_status": "local only; not committed or pushed",
       "previous_candidate_sha256": "7321f695ef84a4b2c63fb9e01d1f23aced48b6aa750a48187681f74858bfdce3",
       "historical_transformation_label": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only."
@@ -1338,8 +1338,8 @@
       "destination": "docs/META_CONTRIBUTION.md",
       "source": null,
       "source_sha256": null,
-      "candidate_sha256": "4635d5466ecca9298d1c9c53117f5e9104e567737c69c792fcb3dafe50741e7f",
-      "transformation": "Release documentation reconciled against published febe18b0; historical source fields retained. See release_documentation_reconciliation.",
+      "candidate_sha256": "35c2082023cbd5c5fc942923d0619f8e830b86eb633ec3ff9fcc541fcdcb0705",
+      "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
       "source_git_status": "New uncommitted documentation against 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e"
     },
     {
@@ -1363,8 +1363,8 @@
       "source": "docs/CINEMATIC_SHOWCASE.txt",
       "source_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
       "source_sha256": "0d72710fc4f31f39d67d9d442b450b17647910a1779335a5303fbe2d32bf3604",
-      "candidate_sha256": "0d72710fc4f31f39d67d9d442b450b17647910a1779335a5303fbe2d32bf3604",
-      "transformation": "Locally authored cinematic showcase guide, transport-free saved-pilot projection or five adapter regression tests. Existing public/synthetic contracts and source records reused; no new retrieval or provider call. Byte-identical to the selected local feature commit.",
+      "candidate_sha256": "38b6caf22d1a0a6d41e55d9521c5bcbfc8095cb6569842efe891a1105d2cc42e",
+      "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
       "source_git_status": "Tracked in local feature commit 0987c1b; remote state not checked."
     },
     {
@@ -1389,8 +1389,8 @@
       "destination": "docs/CONTRIBUTION_LEDGER.txt",
       "source": "docs/CONTRIBUTION_LEDGER.txt",
       "source_sha256": "b6c327f410f22e7df7dc3841101a9635c0250e6e86052068d8ef809b0af33734",
-      "candidate_sha256": "48a6d6db9dca4044a2e09492b4aa3161e4efb3932116a1dd3ec4091e6f4b2e13",
-      "transformation": "November 3 Traitweaver cloud evidence-map extension; original source fields retained. See cloud_evidence_map_extension and docs/INTELLIGENCE_LAYER.txt.",
+      "candidate_sha256": "41eb870a13212c9da6580061828c00fe59f70dae3ef43b6c1e2683446e5c1eda",
+      "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
       "source_git_status": "uncommitted local addition",
       "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt.",
       "trait_infographic_followup": "Local authored schematic SVG/CSS and presentation controls; scientific records unchanged.",
@@ -1401,8 +1401,8 @@
       "destination": "docs/DEMO_RELEASE_3_MIN.txt",
       "source": "docs/DEMO_RELEASE_3_MIN.txt",
       "source_sha256": "4d7a25afa2bdf45d00d98728941bcb588b8f42053720762769c22ce8a70f63d6",
-      "candidate_sha256": "6f09fb53de83dda92d088e94a7c1ef7b2fb84565a4440b3c14c8c170103a9473",
-      "transformation": "Release documentation reconciled against published febe18b0; historical source fields retained. See release_documentation_reconciliation.",
+      "candidate_sha256": "578f7f55729d23b18056cd2a2a883b6ff19868b087b894197efe7d039faa497d",
+      "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
       "source_git_status": "uncommitted local addition",
       "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt."
     },
@@ -1482,16 +1482,16 @@
       "destination": "src/traitweaver/evidence_map.py",
       "source": null,
       "source_sha256": null,
-      "candidate_sha256": "8443f6d7f47ca03c1608dfcc8f1745ed6ef24f36eff2e7c89ad9c5dea91efe83",
-      "transformation": "New Codex-authored read-only evidence projection or focused offline acceptance tests, November 3, 2026. Existing admitted public catalog only.",
+      "candidate_sha256": "e75d6ce610ffdd5340411527873eac86fc5bff006a4a80f3ba843aecf3d122c2",
+      "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
       "source_git_status": "new cloud implementation"
     },
     {
       "destination": "tests/test_evidence_map.py",
       "source": null,
       "source_sha256": null,
-      "candidate_sha256": "8f4415fd81d52a2d0a26b9e9d07fa91bd2e9d144b3ed4ef6a09ab41199d978a3",
-      "transformation": "New Codex-authored read-only evidence projection or focused offline acceptance tests, November 3, 2026. Existing admitted public catalog only.",
+      "candidate_sha256": "d83c4476f48092bbd31c30292fed8b460e3cd5e30fcdcd3d394bca0aed7ba098",
+      "transformation": "November 3 UTC cloud journey-proof/provenance repair over 49a3a4ab. Original source fields retained; previous mapping recorded in cloud_journey_proof_extension. Scientific fixtures and model contracts unchanged.",
       "source_git_status": "new cloud implementation"
     }
   ],
@@ -2155,6 +2155,160 @@
         "candidate_sha256": "d4f50952289c12664d347276dd16458accf1a389119793952c77b7310864f6e9",
         "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval.",
         "source_git_status": "local only; not committed or pushed"
+      }
+    ]
+  },
+  "cloud_journey_proof_extension": {
+    "date": "2026-11-03",
+    "timezone": "UTC",
+    "base_public_commit": "49a3a4abf88c7802bf6b7294b64ed843343454c3",
+    "base_remote_verified": true,
+    "scope": "Selected-scene accepted model fields and saved local results, explicit authored-plan boundaries, display linkage/provenance, exact publication-identity crosswalk, endpoint navigation, regression tests and supporting metadata.",
+    "authorization": "Owner requested continued Traitweaver-only cloud development with screened commits and normal push; no other project, paid model call or hackathon submission.",
+    "scientific_fixtures_changed": false,
+    "model_request_and_saved_contracts_changed": false,
+    "new_provider_calls": 0,
+    "private_packets_included": false,
+    "previous_mapping_fields": [
+      {
+        "destination": "README.md",
+        "source": "README.md",
+        "source_sha256": "48bd81e91c4a69754d30551fb3ac3db3058b79c6d8223c1bc06f19992ca2ff24",
+        "candidate_sha256": "18f294b11d30ef3e41357917a1486e567026776d2e9c5b6b374fe6d288a4a22d",
+        "transformation": "November 3 Traitweaver cloud evidence-map extension; original source fields retained. See cloud_evidence_map_extension and docs/INTELLIGENCE_LAYER.txt.",
+        "source_git_status": "local only; not committed or pushed",
+        "pre_cleanup_candidate_sha256": "f08157896b1176a2cd121807eb2642a37e80297c2b73c00a4e5895dbcd5df3c6",
+        "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+        "retained_local_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only. October 31 six-file metadata refresh: current five-scene instructions, dated history/check scope and historical authorization qualification; no source evidence changed.",
+        "retained_local_candidate_sha256": "72d94b79dbd4664708253851c68e18bd63037172b3138a2f8f50c30ace32728c",
+        "previous_candidate_sha256": "68715973ec40fef56941854b9bbb62611d1d1c288de53452fdc4f88194d786e4",
+        "historical_transformation_label": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications."
+      },
+      {
+        "destination": "tests/intelligence_ui_offline.cjs",
+        "source": "tests/intelligence_ui_offline.cjs",
+        "source_sha256": "d4f50952289c12664d347276dd16458accf1a389119793952c77b7310864f6e9",
+        "candidate_sha256": "42a0765775e635f4d2f8880a04aaac8348990d04306416ca61a1884b54a9ab85",
+        "transformation": "November 3 Traitweaver cloud evidence-map extension; original source fields retained. See cloud_evidence_map_extension and docs/INTELLIGENCE_LAYER.txt.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "tests/journey_ui_offline.cjs",
+        "source": "tests/journey_ui_offline.cjs",
+        "source_sha256": "fe930c191b32b186fd3666e3e2ea5907177e36651f80c8461e0e70f3e08d9a20",
+        "candidate_sha256": "705b830e304903ec3260f5562290cbb1372dbebaee27db4978287239643341e2",
+        "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "docs/INTELLIGENCE_LAYER.txt",
+        "source": "docs/INTELLIGENCE_LAYER.txt",
+        "source_sha256": "f00f8a50656f55ea0126c115e3eedbb2177ff33d2e2cea21554ab027bfcf341c",
+        "candidate_sha256": "377fd798d60110b157f25f9af92c8c719650e594bb5aac1af253d31686b11965",
+        "transformation": "November 3 Traitweaver cloud evidence-map extension; original source fields retained. See cloud_evidence_map_extension and docs/INTELLIGENCE_LAYER.txt.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "docs/SCREENING_SUMMARY.txt",
+        "source": "docs/SCREENING_SUMMARY.txt",
+        "source_sha256": "41d8ebab636d1ac24474f19b244c66efad9070d43fc5149b9269a633dfd91647",
+        "candidate_sha256": "1810c9e1cf732ff9df6690fe03fff255bc6e5ad733712856fb4db08fbee5e80a",
+        "transformation": "November 3 Traitweaver cloud evidence-map extension; original source fields retained. See cloud_evidence_map_extension and docs/INTELLIGENCE_LAYER.txt.",
+        "source_git_status": "local only; not committed or pushed",
+        "pre_cleanup_candidate_sha256": "acf96b16be1b55190f99e2a22ae664e7158064bb4d0e9db20729a427201b67be",
+        "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+        "retained_local_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only. October 31 six-file metadata refresh: current five-scene instructions, dated history/check scope and historical authorization qualification; no source evidence changed.",
+        "retained_local_candidate_sha256": "55530f559f5d17dbf146441846ef2116861c3d40192ae93fb7ba60c31fe3096a",
+        "previous_candidate_sha256": "28a936dcc7006ac372b9b87b49d3856eabcd4726bf27a2877e3ac278510e5f0d",
+        "historical_transformation_label": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications."
+      },
+      {
+        "destination": "docs/VALIDATION.txt",
+        "source": "docs/VALIDATION.txt",
+        "source_sha256": "67943a61bdc6161d26f4ea70a9496a861ad2590ddfa9d310b2213ef4c5fdef10",
+        "candidate_sha256": "b8c734e6be867c6da392ee6fd07b152cf9946f382d5f51863936718bca157c8c",
+        "transformation": "November 3 Traitweaver cloud evidence-map extension; original source fields retained. See cloud_evidence_map_extension and docs/INTELLIGENCE_LAYER.txt.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "src/traitweaver/web/intelligence-ui.js",
+        "source": "src/traitweaver/web/intelligence-ui.js",
+        "source_sha256": "8478e70cbc252f5a60bcfb9e28d4f34dea9c402769d5ce8961e33e89f7a46728",
+        "candidate_sha256": "c772fc8ea9546b57019eb538e206dddd8096a4f7ba9eca74985d7555cf804d1d",
+        "transformation": "November 3 Traitweaver cloud evidence-map extension; original source fields retained. See cloud_evidence_map_extension and docs/INTELLIGENCE_LAYER.txt.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "src/traitweaver/web/journey.css",
+        "source": "src/traitweaver/web/journey.css",
+        "source_sha256": "96fd0a253e4cfb19363a0daec886d479c3c8029839099ef3356034213f40e5ec",
+        "candidate_sha256": "d4d2c1d75626ccbe0ecea3b9f055c8e64341cdf964119f7f91b565ded07c3cd7",
+        "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "src/traitweaver/web/journey-ui.js",
+        "source": "src/traitweaver/web/journey-ui.js",
+        "source_sha256": "5e4cc6cb6c1bd9ec6c625dd2d551144b2509f88a686ebe54dd4777c612e946eb",
+        "candidate_sha256": "6fea329b376b70bdb00150c512fffe73bcc32cfc1093516da681e8f7a52c4519",
+        "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
+        "source_git_status": "local only; not committed or pushed",
+        "previous_candidate_sha256": "7321f695ef84a4b2c63fb9e01d1f23aced48b6aa750a48187681f74858bfdce3",
+        "historical_transformation_label": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only."
+      },
+      {
+        "destination": "docs/META_CONTRIBUTION.md",
+        "source": null,
+        "source_sha256": null,
+        "candidate_sha256": "4635d5466ecca9298d1c9c53117f5e9104e567737c69c792fcb3dafe50741e7f",
+        "transformation": "Release documentation reconciled against published febe18b0; historical source fields retained. See release_documentation_reconciliation.",
+        "source_git_status": "New uncommitted documentation against 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e"
+      },
+      {
+        "destination": "docs/CINEMATIC_SHOWCASE.txt",
+        "source": "docs/CINEMATIC_SHOWCASE.txt",
+        "source_commit": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
+        "source_sha256": "0d72710fc4f31f39d67d9d442b450b17647910a1779335a5303fbe2d32bf3604",
+        "candidate_sha256": "0d72710fc4f31f39d67d9d442b450b17647910a1779335a5303fbe2d32bf3604",
+        "transformation": "Locally authored cinematic showcase guide, transport-free saved-pilot projection or five adapter regression tests. Existing public/synthetic contracts and source records reused; no new retrieval or provider call. Byte-identical to the selected local feature commit.",
+        "source_git_status": "Tracked in local feature commit 0987c1b; remote state not checked."
+      },
+      {
+        "destination": "docs/CONTRIBUTION_LEDGER.txt",
+        "source": "docs/CONTRIBUTION_LEDGER.txt",
+        "source_sha256": "b6c327f410f22e7df7dc3841101a9635c0250e6e86052068d8ef809b0af33734",
+        "candidate_sha256": "48a6d6db9dca4044a2e09492b4aa3161e4efb3932116a1dd3ec4091e6f4b2e13",
+        "transformation": "November 3 Traitweaver cloud evidence-map extension; original source fields retained. See cloud_evidence_map_extension and docs/INTELLIGENCE_LAYER.txt.",
+        "source_git_status": "uncommitted local addition",
+        "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt.",
+        "trait_infographic_followup": "Local authored schematic SVG/CSS and presentation controls; scientific records unchanged.",
+        "cell_recovery_followup": "Layered schematic cells, storage clusters and proposed processing flow; presentation only, source contracts unchanged.",
+        "spill_followup": "Microscopy-informed original anatomy and independent hypothetical P mass-balance explorer; fixed evidence and backend unchanged."
+      },
+      {
+        "destination": "docs/DEMO_RELEASE_3_MIN.txt",
+        "source": "docs/DEMO_RELEASE_3_MIN.txt",
+        "source_sha256": "4d7a25afa2bdf45d00d98728941bcb588b8f42053720762769c22ce8a70f63d6",
+        "candidate_sha256": "6f09fb53de83dda92d088e94a7c1ef7b2fb84565a4440b3c14c8c170103a9473",
+        "transformation": "Release documentation reconciled against published febe18b0; historical source fields retained. See release_documentation_reconciliation.",
+        "source_git_status": "uncommitted local addition",
+        "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt."
+      },
+      {
+        "destination": "src/traitweaver/evidence_map.py",
+        "source": null,
+        "source_sha256": null,
+        "candidate_sha256": "8443f6d7f47ca03c1608dfcc8f1745ed6ef24f36eff2e7c89ad9c5dea91efe83",
+        "transformation": "New Codex-authored read-only evidence projection or focused offline acceptance tests, November 3, 2026. Existing admitted public catalog only.",
+        "source_git_status": "new cloud implementation"
+      },
+      {
+        "destination": "tests/test_evidence_map.py",
+        "source": null,
+        "source_sha256": null,
+        "candidate_sha256": "8f4415fd81d52a2d0a26b9e9d07fa91bd2e9d144b3ed4ef6a09ab41199d978a3",
+        "transformation": "New Codex-authored read-only evidence projection or focused offline acceptance tests, November 3, 2026. Existing admitted public catalog only.",
+        "source_git_status": "new cloud implementation"
       }
     ]
   }

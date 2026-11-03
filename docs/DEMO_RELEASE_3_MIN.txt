@@ -1,4 +1,4 @@
-CURRENT THREE-MINUTE WALKTHROUGH — NOVEMBER 2
+CURRENT THREE-MINUTE WALKTHROUGH — NOVEMBER 3 UTC
 Narration script, not a claim that a new video has been recorded. No final video
 has been supplied and checked for this reconciliation; no final URL is added.
 Use one phosphorus-recovery case. Pre-open the saved cycle and prepared export.
@@ -11,13 +11,14 @@ Traitweaver keeps four outcomes separate: removal from water, uptake into cells,
 physically collected phosphorus and later plant use. None substitutes for another.
 
 0:25–0:55 — EVIDENCE AND MAP
-Open Finish & review study. Select the protein or reference-location node.
-The right inspector shows the source, accession/version, coordinate convention
-and limits. The CC-503 reference does not establish identity in the UVM4 study
+Select Evidence in Research journey. Show the paired values, units, SE, number
+of culture replicates and source context. Briefly open the source-linked evidence
+web if useful. The CC-503 reference does not establish identity in the UVM4 study
 lines or a future receiving host. A gene match is not a transferable trait.
 
 0:55–1:40 — META CONTRIBUTION
-Show Research journey / Muse decision / Tool result, or expand the saved cycle.
+Select Muse decision, then Tool result. Show the selected check, its accepted
+citations, and the two saved coverage rows with their source links and blockers.
 For a validated loaded real cycle: "This saved Muse run selected a source-cited
 endpoint check. The recorded local result found no quantified collected-product
 phosphorus endpoint in either admitted path. Muse reassessed that result and
@@ -26,14 +27,18 @@ For --demo: "This synthetic replay illustrates the documented decision, local
 check and reassessment workflow. These displayed responses are fixtures, not
 recorded real Muse output; the real run is described in LIVE_RUN_SUMMARY.txt."
 This demonstrates a useful missing-evidence result, not a biological failure.
+Explain that the model selects among registered checks. The displayed rationale
+text, conditional branches and study plan are authored by the application. The
+reassessment schema constrains the outcome and permitted next action; this demo
+does not establish autonomous replanning or general model usefulness.
 
 1:40–2:10 — STUDY AND MULTIPLE TRAITS
-Return to Finish & review study. Show combined traits: uptake, growth and
-recoverable phosphorus. Their joint behavior remains unassessed. Inspect the
-source-linked study outline: comparisons, endpoints, confounders, containment
-and unresolved thresholds. These are review questions, not a wet-lab protocol.
-Optional: briefly show the typed imported-record example. It is a metadata-only
-software fixture; no guide/primer sequence or target has been generated.
+Select Next study. Point to the linked result ID, accepted next action and
+citations. Open the authored plan's comparisons, controls and unresolved
+thresholds. Uptake, growth and recoverable phosphorus remain distinct; their
+joint behavior is unassessed. These are review questions, not a wet-lab protocol.
+Use Human review required to open the separate study-review session. Its new
+cards do not inherit the loaded cycle's real-model status.
 
 2:10–2:40 — HUMAN DECISION
 Show the review form. The researcher records a reason for the exact saved
@@ -53,6 +58,8 @@ behavior; they are not measured recovery, field predictions or Muse output.
 Do not let this optional view replace the evidence/check/reassessment story.
 
 EVENT-BUILT DISCLOSURE
+November 3 UTC: stage-specific saved-cycle proof, strict display provenance,
+publication-identity crosswalk and endpoint navigation repair; no new model call.
 November 2: new typed-import/review contract, navigable integrated evidence view,
 multi-trait questions, content-bound human judgments and combined review export.
 October 29–31: existing guided workspaces, maps, audit boundaries and showcase.

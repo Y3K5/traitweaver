@@ -40,7 +40,12 @@ function intelligenceMap(v){
 function bindIntelligenceMap(){
  document.getElementById('intelligence-map-continue')?.addEventListener('click',()=>{const cycle=document.getElementById('intelligence-cycle');cycle?.setAttribute('tabindex','-1');cycle?.focus();cycle?.scrollIntoView();});
  document.querySelectorAll('[data-evidence-endpoint]').forEach(b=>b.addEventListener('click',()=>{intelligenceMapEndpoint=b.dataset.evidenceEndpoint;intelligenceMapNode=null;render();document.querySelectorAll('[data-evidence-endpoint]').forEach(n=>{if(n.dataset.evidenceEndpoint===intelligenceMapEndpoint)n.focus();});}));
- document.querySelectorAll('[data-evidence-node]').forEach(b=>b.addEventListener('click',()=>{intelligenceMapNode=b.dataset.evidenceNode;render();const inspector=document.getElementById('intelligence-map-inspector');inspector?.setAttribute('tabindex','-1');inspector?.focus();}));
+ document.querySelectorAll('[data-evidence-node]').forEach(b=>b.addEventListener('click',()=>{
+  const node=snapshot.intelligence.evidence_map.nodes.find(n=>n.id===b.dataset.evidenceNode);if(!node)return;
+  intelligenceMapNode=node.id;
+  if(node.kind==='observation'||node.kind==='endpoint')intelligenceMapEndpoint=node.record.endpoint;
+  render();const inspector=document.getElementById('intelligence-map-inspector');inspector?.setAttribute('tabindex','-1');inspector?.focus();
+ }));
 }
 function intelligenceProvenance(record){return record?.accepted_reply?.receipt?.provenance==='synthetic_fixture'?'Synthetic offline example':'Imported response · authenticity unverified';}
 

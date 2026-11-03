@@ -1,5 +1,5 @@
 TRAITWEAVER — CINEMATIC META SHOWCASE
-Local implementation, October 31, 2026. No new provider calls or publication.
+Current journey refresh, November 3, 2026 UTC. No new provider calls.
 
 OPEN
 python3 -B run_workspace.py --demo
@@ -20,6 +20,35 @@ automatic playback. Manual controls remain available. Navigation restores when
 leaving the presentation. Published evidence, reference mapping and next measurement
 are expandable views of existing scientific records. Exact saved decision/result/
 assessment are expandable, with provenance and usage. No hidden reasoning shown.
+
+RECORDS IN THE SELECTED SCENE
+Evidence pairs published values with units, uncertainty and source context.
+Muse decision shows the accepted check, arguments and actual selection citations,
+plus the authored explanation, deferred choices and pre-result branch boundaries.
+Tool result shows the two saved endpoint-coverage rows, owning path/source IDs,
+missing records and blockers. Other registered checks keep their own exact result;
+they do not inherit the recovery-coverage conclusion.
+Next study links the accepted reassessment to its result ID, displays the actual
+accepted citations and next action, and separates the authored branch/measurement
+plan from model output. Controls and unresolved thresholds remain expandable.
+The original closed schema constrains the outcome and permitted next action;
+this does not demonstrate autonomous replanning or a model-authored study plan.
+
+The proof view requires a complete linked cycle, matching provenance/model and
+phase/response hashes. Partial, mixed or unknown-provenance snapshots withhold it.
+The owning backend still validates packages; display guards do not authenticate a
+provider. --demo labels every model phase synthetic. Existing real records must
+be explicitly selected and validated; none are bundled or loaded by this refresh.
+Manual scene navigation focuses the selected tab and brings the scene into view.
+Playback remains illustrative and never dispatches a model request or local check.
+Opening study review creates no approval and transfers no model status to its
+separate session. Export/reopen preserves the owning completed-cycle records.
+
+The intelligence evidence map now resolves the reference-local publication alias
+to the admitted literature source only when exact DOI and publication URL agree
+uniquely. The original alias and gene-only/CC-503 versus UVM4 limits remain visible.
+Following an observation or endpoint connection synchronizes the displayed
+endpoint context without changing the saved study scope.
 
 STRONGER PROOF
 The existing RNA pilot compares changed synthetic labels/layouts in two orders.

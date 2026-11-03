@@ -214,7 +214,8 @@ The full prior screening notes remain in local Git history and the preceding
 external review packet; they are superseded here, not silently scrubbed.
 
 OWNER REVIEW
-Software license remains undecided; retain font and split GFP attribution.
+The owner selected MIT for original application code/documentation on November 1;
+retain the separate font and split GFP attribution and rights qualifications.
 Prior baseline design-rights confirmation is recorded without renewing it.
 Exact-file publication, independent release review and event submission remain
 separate owner decisions. See RELEASE_BLOCKERS.txt and tools/verify_handoff.py.
@@ -231,3 +232,14 @@ is included. Existing scientific sources and synthetic fixture bytes stay pinned
 The owner explicitly authorized screened Traitweaver-only cloud commits and a
 normal push. This does not authorize another project, model spending or entry
 submission. A pattern screen cannot prove absence of every possible private fact.
+
+November 3 UTC journey-proof slice: base public main is 49a3a4ab. Changes comprise
+the selected-scene presentation, strict display linkage/provenance checks, exact
+publication-identity crosswalk, endpoint navigation, focused regressions and
+supporting documentation/metadata. Screenshots, browser downloads, test logs and
+generated review reports remain outside the repository. The exact changed-file
+and staged-tree screen records categories/locations only, with its results and
+hashes retained in the external cloud review packet. No original scientific
+fixture, saved contract, provider transport or private-run packet is changed.
+Traitweaver-only cloud publication remains within the user's stated scope;
+provider spending, event submission and scientific approval remain separate.

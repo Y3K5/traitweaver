@@ -191,3 +191,21 @@ read-only navigation; keyboard inspection; actual local check and separately
 labelled reassessment; native browser download/reopen and refresh. Existing
 intelligence tests additionally cover contradictory growth margins, unsafe
 imports, stale decisions and no tool dispatch during package reopening.
+
+NOVEMBER 3 UTC — SOURCE IDENTITY AND NAVIGATION REPAIR
+The reference manifest names S_SLOCOMBE_2023; the literature catalog names the
+same publication S_PSR1_2023. The projection now requires a unique exact DOI and
+publication URL match before resolving that alias. Its explicit source_crosswalk
+retains both IDs and the match basis; all gene-only and UVM4/CC-503 qualifications
+are unchanged. Missing, contradictory or ambiguous matches fail closed rather
+than guessing publication equivalence. Source fixtures are not rewritten.
+Following a graph connection to an observation or endpoint updates the displayed
+endpoint highlight together with the inspector. Saved scope and revisions remain
+unchanged; navigation does not dispatch a check or prepare a model request.
+
+Current boundary: this projection has no typed recipient input and establishes
+no recipient-specific identity or transfer claim. Later v1 selection requests
+do not carry a source-linked summary of earlier decisions/results/assessments;
+synthetic selections remain deterministic examples. Manually starting another
+cycle is not adaptive planning. A bounded history-aware next-decision contract,
+no-new-evidence stop and stale-lineage checks require a separate versioned slice.

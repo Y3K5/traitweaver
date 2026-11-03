@@ -93,3 +93,22 @@
 @media(prefers-reduced-motion:reduce){#bloom-pause,#bloom-replay{display:none}}
 @media(max-width:800px){.journey-focus .journey-scene .muse-bloom{width:190%;max-width:none;max-height:none;margin-left:-45%}}
 @media(max-width:800px){.journey-focus .journey-scene{overflow:hidden}}
+
+/* The selected scene shows its owning records above the optional deep dive. */
+#journey-proof-scene{margin:12px 0 20px;overflow-wrap:anywhere}
+#journey-proof-scene .journey-proof{margin:0;padding:8px 0;border:0}
+#journey-proof-scene .journey-proof h2{font-size:1.3rem}
+#journey-proof-scene .journey-proof-heading{margin-top:0}
+.journey-record-scene,.journey-proof-empty{border:1px solid #31586b;border-radius:16px;padding:22px;background:#091b27}
+.journey-record-scene[data-journey-role="local-result"]{border-color:#9e614b}
+.journey-record-scene h3{font-size:1.4rem;margin:16px 0}.journey-record-scene h4{font-size:.95rem;color:#b2e6ff;margin:16px 0 8px}
+.journey-record-scene p,.journey-record-scene li{color:#c1d7e3;line-height:1.55;font-size:.9rem}
+.journey-record-columns{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.journey-record-columns>div{min-width:0}.journey-record-columns ul{padding-left:20px}
+.journey-record-scene .journey-source-links{padding-left:18px;font-size:.8rem}.journey-source-links a{color:#8cdbff}
+.journey-record-scene .data-table th small{display:block;font-weight:400;color:#a4c8da}
+.journey-record-scene .data-table td{vertical-align:top}.journey-record-scene .data-table th{vertical-align:top}
+.journey-record-scene details summary{cursor:pointer;min-height:44px;padding:12px 0;color:#a6def7}
+.journey-record-scene pre{white-space:pre-wrap;overflow-wrap:anywhere;max-height:320px;overflow:auto;font-size:.75rem}
+.journey-record-scene .measurement-grid{grid-template-columns:1fr}
+@media(max-width:800px){.journey-record-columns{grid-template-columns:1fr;gap:4px}.journey-record-scene,.journey-proof-empty{padding:15px}.journey-record-scene .button-primary{white-space:normal}#journey-proof-scene .journey-proof{padding:0}.journey-record-scene .data-table{min-width:0;font-size:.76rem}.journey-record-scene .data-table th,.journey-record-scene .data-table td{padding:8px 5px}.journey-record-scene .data-table .journey-source-links{padding-left:12px}}

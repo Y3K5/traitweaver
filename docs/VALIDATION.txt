@@ -542,3 +542,33 @@ browser run passed. Other browsers and a human-timed demo remain untested here.
 No new provider request, key access, biological experiment or arbitrary source
 admission occurred. Tests establish software behavior, not biological validity,
 source entailment, real-model usefulness, event eligibility or rights clearance.
+
+NOVEMBER 3 UTC — JOURNEY PROOF / PROVENANCE REPAIRS
+Base local and public main: 49a3a4abf88c7802bf6b7294b64ed843343454c3.
+The full Python suite passed 421 tests in 150.675 seconds, including three new
+publication-crosswalk cases covering exact identity, preserved qualification,
+missing/conflicting identifiers and ambiguous matches. All nine offline UI
+controller suites passed 279 scenarios: 61 journey, 35 intelligence, 28 assistant,
+14 completed-cycle, 26 data-flow, 22 molecular, 25 public-algae, 25 scientific-story
+and 43 workbench. The journey acceptance checks cover actual selected citations,
+saved result rows, authored/model boundaries, absent/mixed/unknown provenance,
+phase hash linkage, partial coverage summaries and manual navigation focus.
+The intelligence tests traverse uptake -> source -> growth -> endpoint without
+changing saved scope or making requests. Both loopback HTTP suites passed all
+49 checks. Five primary public-reference pins and derivations passed unchanged.
+
+Installed Chromium/Playwright passed at 1440x1000 and 390x844: scene-specific
+records, exact statistics and source roles, saved coverage and blockers, authored
+plan/controls, keyboard navigation, footer focus/scroll, no horizontal overflow,
+native completed-cycle JSON download, file-picker read-only reopen and refresh.
+The owning records remained byte-equivalent; scene navigation made no requests.
+No browser page errors or external requests were observed. The browser used the
+synthetic demo. No private saved-real packet was opened; the real-display branch
+is covered by an explicitly mocked controller snapshot, not provider evidence.
+Other browsers, human-timed delivery, comprehension and final video remain open.
+
+Parallel technical and UX reviews identified a provenance-label weakness, an
+overbroad two-path summary and mobile footer focus/scroll loss; fixes and focused
+regressions passed. Logs, screenshots, downloads and review reports stay outside
+the publishing tree. This remains software verification, not scientific validation
+or proof of autonomous planning, model usefulness or provider authenticity.

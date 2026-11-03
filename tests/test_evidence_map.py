@@ -71,6 +71,52 @@ class EvidenceMapTests(unittest.TestCase):
         self.assertIn('not proof', identity['provenance']['basis'])
         self.assertEqual(identity['to'], 'reference:GeneID:5726104')
 
+    def test_publication_identity_crosswalk_resolves_exact_source_and_preserves_original(self):
+        original = deepcopy(self.bundle['reference']['sources']['publication_identity'])
+        before = study.canonical(self.bundle)
+        graph = self.graph()
+        connection = next(e for e in graph['edges'] if e['relation'] == 'gene_level_identity_association')
+        provenance = connection['provenance']
+        self.assertEqual(provenance['source_id'], 'S_PSR1_2023')
+        self.assertIn(provenance['source_id'], {n['id'] for n in graph['nodes'] if n['kind'] == 'source'})
+        self.assertEqual(provenance['source_crosswalk'], {
+            'reference_source_id': 'S_SLOCOMBE_2023',
+            'literature_source_id': 'S_PSR1_2023',
+            'match_basis': 'exact_doi_and_publication_url',
+            'doi': original['doi'], 'publication_url': original['url']})
+        self.assertEqual({k: v for k, v in provenance.items() if k not in ('source_id', 'source_crosswalk')},
+                         {k: v for k, v in original.items() if k != 'source_id'})
+        self.assertEqual(connection['to'], 'reference:GeneID:5726104')
+        self.assertIn('not proof', provenance['basis'])
+        self.assertEqual(study.canonical(self.bundle), before)
+
+    def test_mismatched_or_missing_publication_identifiers_fail_closed(self):
+        for field, value in [('doi', '10.0000/unknown'), ('url', 'https://example.invalid/unrelated'),
+                             ('doi', self.bundle['literature']['sources'][1]['doi']),
+                             ('url', self.bundle['literature']['sources'][0]['url'] + '/'),
+                             ('doi', None), ('url', ''), ('source_id', None),
+                             ('source_id', 'S_OVERPLUS_2024')]:
+            with self.subTest(field=field, value=value):
+                bundle = deepcopy(self.bundle)
+                bundle['reference']['sources']['publication_identity'][field] = value
+                with self.assertRaisesRegex(ValueError, 'Publication identity'):
+                    self.graph(bundle)
+
+    def test_ambiguous_or_conflicting_publication_matches_fail_closed(self):
+        for duplicate_kind in ('both', 'doi_only', 'url_only', 'same_id'):
+            with self.subTest(duplicate_kind=duplicate_kind):
+                bundle = deepcopy(self.bundle)
+                duplicate = deepcopy(bundle['literature']['sources'][0])
+                if duplicate_kind != 'same_id':
+                    duplicate['id'] = 'S_DUPLICATE_PUBLICATION'
+                if duplicate_kind == 'doi_only':
+                    duplicate['url'] = 'https://example.invalid/other-location'
+                if duplicate_kind == 'url_only':
+                    duplicate['doi'] = '10.0000/other-identifier'
+                bundle['literature']['sources'].append(duplicate)
+                with self.assertRaisesRegex(ValueError, 'Publication identity'):
+                    self.graph(bundle)
+
     def test_missing_reference_has_no_inferred_identity_or_dangling_edge(self):
         with patch.object(public_algae, 'catalog', side_effect=ValueError('Unsafe source detail')):
             bundle = intelligence.catalog()

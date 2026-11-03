@@ -1,3 +1,10 @@
+**November 3 journey proof:** the **Muse decision**, **Tool result** and **Next
+study** scenes now show the loaded cycle's accepted citations, exact check rows,
+linked reassessment and human-review step. Authored explanations and plans are
+labelled separately from accepted model fields. Missing or inconsistent records
+withhold the proof view. The demo remains a synthetic offline replay.
+See [the current walkthrough](docs/DEMO_RELEASE_3_MIN.txt).
+
 **November 3 evidence map:** open **Muse intelligence** to trace endpoints →
 observations → sources and inspect the qualified PSR1 reference connections.
 Browsing is read-only; the saved scope still drives the existing decision → local
@@ -22,12 +29,12 @@ controls change assumptions, not measured treatment performance.
 Start with the [hackathon contribution and reuse ledger](docs/CONTRIBUTIONS.md)
 [what Meta contributed](docs/META_CONTRIBUTION.md), and the
 [component rights inventory](docs/COMPONENT_RIGHTS.md). The public repository was
-rechecked at commit `febe18b0b16e53a49aee71d3f8f4142b4a828618` on November 2, 2026
-(Eastern Time). That published snapshot includes the study-review layer, trait
-illustrations and phosphorus teaching explorer, plus the earlier scoped MIT
-license and contribution/rights records. Publication does not establish entry
-acceptance, component-rights clearance or original creation dates. This release
-documentation reconciliation is a local, uncommitted update over that snapshot.
+rechecked at commit `49a3a4abf88c7802bf6b7294b64ed843343454c3` before this journey
+refresh. That published snapshot includes the intelligence evidence map, study
+review, trait illustrations and phosphorus teaching explorer, plus the earlier
+scoped MIT license and contribution/rights records. Publication does not establish
+entry acceptance, component-rights clearance or original creation dates. Historical
+verification notes below retain the scope of their own dated checks.
 
 **Try it:** Python 3.10+ standard library, no installation or key:
 `python3 -B run_workspace.py --demo`. Open the printed loopback URL. This is a
@@ -148,7 +155,9 @@ bounded CRISPR planning are in public commit `0987c1bdd29fbae68050aeb1ff440c1c17
 The 69-file `cd3b1a9` snapshot is an earlier baseline. The documentation/license
 reconciliation is published in `5e14721`, the status reconciliation in `82645b9`,
 and the study-review/teaching additions in `febe18b0`. Those are historical
-published changes; the present documentation-only edits remain uncommitted.
+published changes; `49a3a4ab` adds the intelligence evidence map. This journey
+refresh changes presentation, source crosswalk validation, navigation and tests
+while preserving the original scientific records and model request contracts.
 
 Open the app with the commands below, then use **CRISPR workflow**,
 **Protein ↔ gene** and **Splicing maps** in the sidebar.
