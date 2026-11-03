@@ -42,6 +42,7 @@ def validate_package(value,bundle):
 class Journal:
     def __init__(self,bundle,directory=None):
         self.bundle=deepcopy(bundle);self.root=Path(directory) if directory is not None else None;self.history=[];self.read_only=False
+        self._continuation_key=None;self._continuation_value=None
         if self.root is not None and self.root.exists():
             if self.root.is_symlink() or not self.root.is_dir():raise ValueError('Unsafe intelligence directory')
             total=0
@@ -61,7 +62,18 @@ class Journal:
           'context_status':'not_saved' if r['state']['context'] is None else ('current' if r['state']['context']==ctx else 'needs_review'),
           'owning_context':ctx,'storage':'imported_read_only' if self.read_only else ('external_data_directory' if self.root else 'session_only_export_to_keep'),
           'read_only':self.read_only,'live_enabled':False,'transport_calls':0,
-          'evidence_map':evidence_map.project(self.bundle,r['state']['scope']['target_endpoint'])}
+          'evidence_map':evidence_map.project(self.bundle,r['state']['scope']['target_endpoint']),
+          'continuation':self.continuation(ctx)}
+
+    def continuation(self,context):
+        from traitweaver import intelligence_continuation
+        # Hash all owning bytes, not only the claimed head hash: an in-memory
+        # mutation must invalidate the cache and pass full validation again.
+        key=study.digest({'history':self.history,'catalog':self.bundle,'context':context})
+        if key!=self._continuation_key:
+            value=intelligence_continuation.prepare(self.history,self.bundle,context)
+            self._continuation_key=key;self._continuation_value=value
+        return deepcopy(self._continuation_value)
 
     @classmethod
     def from_package(cls,value,bundle):
@@ -87,7 +99,14 @@ class Journal:
         if self.read_only:raise ValueError('Imported intelligence review is read-only')
         if expected!=self.current()['hash']:raise Conflict('Intelligence revision changed; reload before saving')
         if len(self.history)>=MAX_REVISIONS:raise ValueError('Intelligence revision limit reached')
+        from traitweaver import intelligence_continuation
+        if isinstance(action,dict) and action.get('type')=='run':
+            current=intelligence.active(self.current()['state'])
+            if current and current['result'] is None:
+                intelligence_continuation.require_available(self.history,self.bundle,current['decision']['check'])
         state=intelligence.transition(self.current()['state'],action,self.bundle)
+        if action['type']=='accept' and action['payload']['phase']=='selection':
+            intelligence_continuation.require_available(self.history,self.bundle,state['cycles'][-1]['decision']['check'])
         r={'schema_version':'traitweaver.intelligence_revision.v1','catalog_sha256':study.digest(self.bundle),'revision':len(self.history)+1,
            'parent_hash':expected,'saved_utc':datetime.now(timezone.utc).isoformat(),'action':deepcopy(action),'state':state}
         r['hash']=study.digest(r);validate_package(package(self.history+[r],self.bundle),self.bundle)

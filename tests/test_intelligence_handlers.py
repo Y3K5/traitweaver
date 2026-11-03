@@ -54,6 +54,37 @@ class IntelligenceHandlerTests(unittest.TestCase):
         self.assertEqual([x['result']['outcome'] for x in c],['supported','unavailable','unavailable'])
         for x in c:self.assertEqual(x['assessment']['result_id'],x['result']['id'])
 
+    def test_continuation_view_and_rejected_repeat_do_not_dispatch_or_save(self):
+        self.save_scope();self.example();self.request('/api/intelligence/run',self.body());self.example('reassessment')
+        j=self.server.workspace.intelligence;before=j.export()
+        with patch.object(m,'run_check',side_effect=AssertionError('No repeat dispatch')):
+            code,value=self.request('/api/state');self.assertEqual(code,200)
+            preview=value['intelligence']['continuation']
+            self.assertEqual(preview['kind'],'deterministic_local_preview')
+            self.assertEqual(preview['checks'][0]['status'],'already_checked')
+            self.assertEqual(self.example()[0],400)
+        self.assertEqual(j.export(),before)
+
+    def test_actual_proposal_check_is_gated_even_when_focus_is_different(self):
+        self.save_scope();self.example();self.request('/api/intelligence/run',self.body());self.example('reassessment')
+        j=self.server.workspace.intelligence;s=j.current()['state'];before=j.export()
+        req=ai.prepare(s,'selection',j.bundle,'combinations')
+        # Focus is a preference in v1. A structurally valid reply may choose another check.
+        reply=ai.synthetic_reply(s,'selection',j.bundle,'trait')
+        with patch.object(m,'run_check',side_effect=AssertionError('No rejected dispatch')):
+            code,_=self.request('/api/intelligence/accept',self.body(phase='selection',focus='combinations',request_sha256=req['request_sha256'],reply=study.canonical(reply)))
+        self.assertEqual(code,400);self.assertEqual(j.export(),before)
+
+    def test_continuation_reopen_reconstructs_exact_preview_without_dispatch(self):
+        self.save_scope();self.example();self.request('/api/intelligence/run',self.body());self.example('reassessment')
+        p=self.request('/api/intelligence/export.json')[1]
+        before=self.request('/api/state')[1]['intelligence']['continuation']
+        with patch.object(m,'run_check',side_effect=AssertionError('No reopen dispatch')):
+            code,value=self.request('/api/intelligence/open',self.body(package_json=study.canonical(p)))
+            self.assertEqual(code,200);self.assertTrue(value['intelligence']['read_only'])
+            self.assertEqual(value['intelligence']['continuation'],before)
+        self.assertEqual(self.request('/api/intelligence/export.json')[1],p)
+
     def test_origin_token_and_both_revision_identities_are_required(self):
         for h in ({'Origin':'https://outside.invalid'},{'X-Traitweaver-Token':''}):self.assertEqual(self.request('/api/intelligence/revise',self.body(scope=m.initial_scope()),h)[0],403)
         old=self.body(scope=m.initial_scope());self.assertEqual(self.request('/api/intelligence/revise',old)[0],200)

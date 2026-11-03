@@ -13,3 +13,10 @@
 .intelligence-map-facts{display:grid;grid-template-columns:minmax(120px,1fr) 3fr;gap:.7rem 1rem}.intelligence-map-facts dt{color:#b6cbd6}.intelligence-map-facts dd{margin:0}
 .intelligence-map-edges{list-style:none;padding:0}.intelligence-map-edges li{border-top:1px solid #254352;padding:1rem 0}.intelligence-map-edges li>span{display:block;margin-bottom:.65rem;font-size:.85rem}.intelligence-map-edges .button{white-space:normal;text-align:left;overflow-wrap:anywhere;max-width:100%}
 @media(max-width:950px){.intelligence-map-grid{grid-template-columns:1fr}.intelligence-map-grid .hint{min-height:0}.intelligence-map-facts{grid-template-columns:1fr;gap:.4rem}.intelligence-map-facts dd{margin-bottom:.7rem}}
+
+.intelligence-continuation{border:1px solid #36576c;border-radius:14px;padding:20px;margin:20px 0;background:#0b1f2a;overflow-wrap:anywhere}
+.intelligence-continuation h4{margin:12px 0 8px}.intelligence-continuation summary{cursor:pointer;padding:12px 0;min-height:44px}
+.intelligence-continuation pre{white-space:pre-wrap;overflow-wrap:anywhere;max-height:340px;overflow:auto}.intelligence-continuation small{display:block;color:#9eb8c9}
+@media(max-width:800px){.intelligence-continuation{padding:12px}.intelligence-continuation .intelligence-role-grid{grid-template-columns:1fr}}
+#intelligence-cycle{scroll-margin-top:80px}
+.intelligence-continuation button[aria-pressed="true"]{border-color:#34c1eb;background:#113e51}

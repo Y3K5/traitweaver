@@ -39,6 +39,12 @@ actual accepted citations and model fields, saved local result rows, and authore
 planning content. Complete linked receipts are required for the model-proof view.
 Unknown, partial or inconsistent provenance cannot acquire a saved-real label.
 
+The separate intelligence continuation preview carries prior accepted decisions,
+saved results and unresolved requirements for human review. Its options and repeat
+rules are deterministic application logic. They are not new Muse output, and the
+unchanged v1 model payload does not contain that preview. Preventing redundant
+local checks is software behavior, not evidence of model adaptation.
+
 The source summary reports 5,939 input and 1,413 output tokens, including 1,315
 reasoning tokens, with a USD 0.013429 token-cost estimate. These are documentary
 figures, not independently authenticated provider usage, a verified invoice,

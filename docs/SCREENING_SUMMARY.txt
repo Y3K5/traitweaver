@@ -243,3 +243,14 @@ hashes retained in the external cloud review packet. No original scientific
 fixture, saved contract, provider transport or private-run packet is changed.
 Traitweaver-only cloud publication remains within the user's stated scope;
 provider spending, event submission and scientific approval remain separate.
+
+November 3 UTC continuation slice: base public main is e2bec6bf. The new module,
+focused tests, journal admission/view integration, browser preview and documentation
+are limited to public/synthetic Traitweaver development. Existing Muse request
+code, scientific fixtures and saved v1 schemas remain unchanged. Preview exports,
+synthetic session packages, browser artifacts and logs stay outside this tree.
+Outgoing paths and full changed-file contents are screened with exact hashes in
+the external cloud review packet before publication. Raw owner identifiers/notes
+and raw provider replies are not included in the new preview. Local consistency
+and a clean content screen do not establish provider authenticity or biological
+validity. No live call, spending approval or event submission follows.

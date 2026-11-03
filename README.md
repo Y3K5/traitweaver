@@ -1,3 +1,10 @@
+**November 3 continuation preview:** **Muse intelligence** now carries saved
+decisions, results, reassessments and unresolved evidence into a versioned local
+review preview. It explains which checks have already covered the relevant inputs
+and stops identical repeats. Deterministic options require a deliberate choice;
+the existing Muse payload stays unchanged and does not include this preview.
+See [continuation and compatibility](docs/INTELLIGENCE_LAYER.txt).
+
 **November 3 journey proof:** the **Muse decision**, **Tool result** and **Next
 study** scenes now show the loaded cycle's accepted citations, exact check rows,
 linked reassessment and human-review step. Authored explanations and plans are
@@ -29,8 +36,8 @@ controls change assumptions, not measured treatment performance.
 Start with the [hackathon contribution and reuse ledger](docs/CONTRIBUTIONS.md)
 [what Meta contributed](docs/META_CONTRIBUTION.md), and the
 [component rights inventory](docs/COMPONENT_RIGHTS.md). The public repository was
-rechecked at commit `49a3a4abf88c7802bf6b7294b64ed843343454c3` before this journey
-refresh. That published snapshot includes the intelligence evidence map, study
+rechecked at commit `e2bec6bf3d8655671f49d1822ea3b5b9c898f348` before this continuation
+refresh. That published snapshot includes the journey proof, intelligence evidence map, study
 review, trait illustrations and phosphorus teaching explorer, plus the earlier
 scoped MIT license and contribution/rights records. Publication does not establish
 entry acceptance, component-rights clearance or original creation dates. Historical
@@ -155,9 +162,9 @@ bounded CRISPR planning are in public commit `0987c1bdd29fbae68050aeb1ff440c1c17
 The 69-file `cd3b1a9` snapshot is an earlier baseline. The documentation/license
 reconciliation is published in `5e14721`, the status reconciliation in `82645b9`,
 and the study-review/teaching additions in `febe18b0`. Those are historical
-published changes; `49a3a4ab` adds the intelligence evidence map. This journey
-refresh changes presentation, source crosswalk validation, navigation and tests
-while preserving the original scientific records and model request contracts.
+published changes; `49a3a4ab` adds the intelligence evidence map and `e2bec6bf`
+exposes saved Muse proof in the journey. The current continuation preview and
+repeat-admission policy preserve scientific records and model request contracts.
 
 Open the app with the commands below, then use **CRISPR workflow**,
 **Protein ↔ gene** and **Splicing maps** in the sidebar.

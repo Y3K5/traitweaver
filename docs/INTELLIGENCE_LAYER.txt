@@ -203,9 +203,64 @@ Following a graph connection to an observation or endpoint updates the displayed
 endpoint highlight together with the inspector. Saved scope and revisions remain
 unchanged; navigation does not dispatch a check or prepare a model request.
 
-Current boundary: this projection has no typed recipient input and establishes
+Evidence-map boundary: that projection has no typed recipient input and establishes
 no recipient-specific identity or transfer claim. Later v1 selection requests
 do not carry a source-linked summary of earlier decisions/results/assessments;
 synthetic selections remain deterministic examples. Manually starting another
 cycle is not adaptive planning. A bounded history-aware next-decision contract,
-no-new-evidence stop and stale-lineage checks require a separate versioned slice.
+no-new-evidence stop and stale-lineage checks are addressed by the separate local
+preview below; v1 model input remains unchanged.
+
+NOVEMBER 3 UTC — CONTINUATION PREVIEW / REPEAT ADMISSION
+After a saved cycle, the intelligence view exposes a separate
+traitweaver.intelligence_continuation.v1 preview. It carries each original scope,
+accepted selection and provenance, exact saved result, result-linked assessment,
+blockers and authored unresolved measurement requirements. Earlier assessments
+retain their applicability; a preview never makes a stale finding current.
+Claim roles/locators, literature sources and source hashes remain inspectable.
+Curation gaps without a publication stay catalog gaps, not literature proof of
+biological absence. A failed check is a software failure, not scientific evidence.
+
+This is deterministic local decision support, not model output or a model request.
+No model has read the preview. The exact existing intelligence_request.v1 bodies,
+response schemas, accepted records and intelligence_package.v1 export are unchanged.
+Downloading a continuation preview exports a derived review artifact, not a saved
+approval, executable instruction or replacement package. Reopen the owning v1
+package to reconstruct it; there is no standalone preview importer or live sender.
+
+Eligibility depends on all prior saved results, including superseded cycles:
+- Trait audit: catalog identity, endpoint and growth margin.
+- Combination audit: catalog identity and role template.
+- Transfer review: catalog identity and registered recipient context.
+Authored plan wording, owning-study notes/context revisions and unrelated scope
+fields do not renew a check. Equivalent numeric margins such as 0, 0.0 and -0.0
+have the same input identity; null remains distinct from zero. Returning A -> B
+-> A still finds A's saved receipt. Changed relevant settings mean a new question
+or constraint, not new source evidence. Catalog updates are not admitted here.
+
+A completed receipt blocks repeating its check even when its biological outcome
+is unavailable, inconclusive or contradictory. A failed receipt stops automatic
+retry for those inputs; failure repair/retry approval is not implemented in this
+slice. Another still-unchecked audit may be reviewed deliberately. When no eligible
+inputs remain, the preview stops and preserves the missing-evidence requirements.
+An unfinished current cycle still requires its existing execution/reassessment.
+Unsaved or changed owning context requires scope review; imported histories remain
+read-only. Reviewing an option changes browser focus only. The user must separately
+prepare or accept a proposal and then explicitly run its saved check.
+
+The server gates the actual newly accepted check, independently of preferred UI
+focus. It also checks before run dispatch, covering a legacy editable journal
+with an already accepted duplicate decision. Historical replay validation does
+not apply the new admission policy: old v1 repetitions still reopen byte-for-byte
+without executing anything. No historical hashes, results or schemas are rewritten.
+
+Preview lineage binds validated journal head/state, catalog, saved scope and
+current owning-context hashes. Revalidation recomputes the entire projection from
+the trusted owning history; editing content and rehashing a supplied preview does
+not validate it. Raw owner identifiers/notes and raw model replies are excluded.
+The view has the existing bounded-history/package-size limit and never silently
+truncates cycles. This establishes local consistency, not provider authentication.
+
+Next gap: a separately versioned model request could carry a reviewed bounded
+summary and demonstrate changed choices under changed evidence. This preview does
+not establish adaptive Muse planning, source entailment or scientific usefulness.

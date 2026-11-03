@@ -81,6 +81,7 @@ src/traitweaver/completion_pilot.py
 src/traitweaver/evaluation_pilot.py
 src/traitweaver/evidence_map.py
 src/traitweaver/intelligence.py
+src/traitweaver/intelligence_continuation.py
 src/traitweaver/intelligence_muse.py
 src/traitweaver/intelligence_store.py
 src/traitweaver/molecular.py
@@ -142,6 +143,7 @@ tests/test_data_flow_exports.py
 tests/test_evidence_map.py
 tests/test_handoff_verifier.py
 tests/test_intelligence.py
+tests/test_intelligence_continuation.py
 tests/test_intelligence_handlers.py
 tests/test_molecular.py
 tests/test_molecular_handlers.py

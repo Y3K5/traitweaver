@@ -572,3 +572,36 @@ overbroad two-path summary and mobile footer focus/scroll loss; fixes and focuse
 regressions passed. Logs, screenshots, downloads and review reports stay outside
 the publishing tree. This remains software verification, not scientific validation
 or proof of autonomous planning, model usefulness or provider authenticity.
+
+NOVEMBER 3 UTC — CONTINUATION PREVIEW AND REPEAT POLICY
+Base local/public main: e2bec6bf3d8655671f49d1822ea3b5b9c898f348. The final full Python
+suite passed 436 tests in 152.441 seconds. All nine UI suites passed 283
+scenarios, including 39 intelligence scenarios. Both loopback HTTP suites passed
+49 checks. Five pinned primary reference sources and derivations remain unchanged.
+The original v1 selection-request fingerprint is asserted unchanged; historical
+repeated v1 packages reopen byte-for-byte without check or model dispatch.
+
+Twelve focused continuation tests and three handler regressions cover two cycles,
+exact prior result/assessment/source roles, named missing evidence, relevant-input
+eligibility, context-only/unrelated edits, A -> B -> A, numeric equivalence versus
+null/zero, all-check stop, software failure, legacy pending duplicate dispatch,
+actual proposed check versus UI focus, stale context, altered preview, rehashed
+invalid lineage, catalog mismatch, read-only reopen and cached-view tampering.
+The cache binds all history/catalog/context bytes and returns independent copies;
+it does not trust a claimed head hash alone or bypass new-admission validation.
+A parallel technical review measured 611 ms cold versus 27 ms cached at a valid
+55-revision/3.87 MB history. This is a local observation, not a general benchmark.
+
+Final installed Chromium review passed 30 assertions at 1440x1000 and 390x844.
+Two explicitly synthetic cycles, prior facts/requirements, blocked repeat,
+keyboard selection with zero request/revision change, visible selected preference,
+mobile header clearance, local preview and v1 exports, exact read-only reopen and
+refresh passed. Imported continuation/prepare/synthetic controls stayed disabled.
+No external requests, page errors or horizontal overflow. Original algae cycle
+unchanged. Browser artifacts and exports remain outside the public tree.
+
+No private real packet, new provider call, source admission or biological
+experiment was used. The new preview is local deterministic logic and is not
+included in v1 Muse payloads. Human scientific/usefulness review, a checked final
+video and adaptive-model evidence remain open. Same-input failed checks stop for
+review; this slice does not add a repair/retry approval workflow.

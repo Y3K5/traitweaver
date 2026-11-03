@@ -127,3 +127,16 @@ endpoint context synchronized while preserving saved scope. Independent parallel
 Codex technical and UX reviews informed these fixes; they are not independent
 human scientific review. Original evidence, contracts and fixture hashes remain.
 No new live Muse inference, private packet, source admission or laboratory work.
+
+NOVEMBER 3 UTC — SOURCE-BOUND CONTINUATION PREVIEW
+Codex added a separate deterministic local preview over validated intelligence
+history, carrying prior selections/results/assessments, original scope, unresolved
+requirements and source/claim roles. Relevant-input identities prevent identical
+repeats, including after unrelated edits or A -> B -> A scope changes; equivalent
+numeric margins normalize without merging null and zero. A new-admission guard
+checks actual selected actions and runs before dispatch, including legacy pending
+duplicates. Historical replay, model payload/schema and package bytes remain
+unchanged. UI options change focus only and require explicit acceptance/execution;
+failed inputs stop for review. Tests cover compatibility, failures, stale/tampered
+lineage, two cycles and no-dispatch reopen. No new Muse request or adaptive-model
+claim, private data, source admission or laboratory protocol is introduced.
