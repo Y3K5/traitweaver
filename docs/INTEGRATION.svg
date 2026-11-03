@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Traitweaver — evidence, decisions and review</title><desc id="desc">Solid connections are implemented local interfaces. Dashed connections need evidence or separately approved execution. Other research projects remain separate.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L8 3L0 6" fill="none" stroke="#8bcbf2"/></marker><style>text{font-family:Arial,sans-serif;fill:#e0edf6} .box{fill:#102430;stroke:#42647a;stroke-width:1.5;rx:14}.line{fill:none;stroke:#8bcbf2;stroke-width:2;marker-end:url(#arrow)}.pending{stroke:#f1b485;stroke-dasharray:6 6}.small{font-size:16px;fill:#b3cbd9}.heading{font-size:23px;font-weight:bold}</style></defs>
+<rect width="1200" height="760" fill="#071118"/>
+<text x="45" y="56" font-size="32" font-weight="bold">Traitweaver / evidence → decision → review</text>
+<text x="45" y="88" class="small">Local research workspace · solid = implemented · dashed = unqualified / planned</text>
+<rect class="box" x="45" y="130" width="330" height="130"/><text x="67" y="165" class="heading">Pinned public evidence</text><text x="67" y="196" class="small">Literature observations + conditions</text><text x="67" y="222" class="small">Assembly → gene → transcript → protein</text><text x="67" y="245" class="small">Source roles and versions retained</text>
+<rect class="box" x="435" y="130" width="330" height="130"/><text x="457" y="165" class="heading">Muse / saved cycle</text><text x="457" y="196" class="small">Cited selection → bounded local check</text><text x="457" y="222" class="small">Actual saved result → reassessment</text><text x="457" y="245" class="small">Real / synthetic labels stay distinct</text>
+<rect class="box" x="825" y="130" width="330" height="130"/><text x="847" y="165" class="heading">Study review</text><text x="847" y="196" class="small">Hypotheses, dependencies and gaps</text><text x="847" y="222" class="small">Human judgments bind exact content</text><text x="847" y="245" class="small">No biological readiness certificate</text>
+<path class="line" d="M375 190H435"/><path class="line" d="M765 190H825"/>
+<rect class="box" x="45" y="330" width="330" height="135"/><text x="67" y="365" class="heading">Existing candidate records</text><text x="67" y="396" class="small">Guide RNA / primer DNA / genome / protein</text><text x="67" y="422" class="small">Source + tool/version + reported stage</text><text x="67" y="448" class="small">Import does not verify specificity</text>
+<rect class="box" x="435" y="330" width="330" height="135"/><text x="457" y="365" class="heading">Deterministic local software</text><text x="457" y="396" class="small">Schema, reference and source-ID checks</text><text x="457" y="422" class="small">Immutable review history; zero ≠ unknown</text><text x="457" y="448" class="small">Safe rendering; atomic import validation</text>
+<rect class="box" x="825" y="330" width="330" height="135"/><text x="847" y="365" class="heading">JSON + readable brief</text><text x="847" y="396" class="small">Sources, settings, blockers and history</text><text x="847" y="422" class="small">Validated read-only reopen; no reruns</text><text x="847" y="448" class="small">Privacy review ≠ sharing approval</text>
+<path class="line" d="M375 395H435"/><path class="line" d="M765 395H825"/><path class="line" d="M990 260V330"/><path class="line" d="M600 330V260"/>
+<rect x="45" y="535" width="1110" height="135" rx="14" fill="#281f19" stroke="#bf8a61" stroke-dasharray="6 6"/>
+<text x="67" y="572" class="heading">Unresolved evidence and separately reviewed execution</text>
+<text x="67" y="605" class="small">Receiving-host compatibility · combined-trait behavior · collected phosphorus · later plant use · containment</text>
+<text x="67" y="635" class="small">Primer3 / Primer-BLAST planned, not verified installed. No new model call, guide design or wet-lab execution.</text>
+<path class="line pending" d="M990 465V535"/>
+<text x="45" y="718" class="small">Independent tools retain their own code, data and environments.</text>
+</svg>

@@ -44,9 +44,12 @@ docs/CLAUDE_REVIEW_BRIEF.txt
 docs/COMPLETED_STEPS.txt
 docs/COMPONENT_RIGHTS.md
 docs/CONTRIBUTIONS.md
+docs/CONTRIBUTION_LEDGER.txt
 docs/DATA_FLOW.txt
+docs/DEMO_RELEASE_3_MIN.txt
 docs/DEMO_SCRIPT_3_MIN.txt
 docs/FOUR_CASE_MUSE.txt
+docs/INTEGRATION.svg
 docs/INTELLIGENCE_LAYER.txt
 docs/LIVE_RUN_SUMMARY.txt
 docs/META_CONTRIBUTION.md
@@ -55,6 +58,7 @@ docs/MUSE_RNA_PILOT.txt
 docs/MVP_FOCUS.txt
 docs/PUBLIC_ALGAE_WORKSPACE.txt
 docs/RELEASE_BLOCKERS.txt
+docs/RELEASE_CANDIDATE.txt
 docs/RESEARCH_EXPERIENCE.txt
 docs/RESEARCH_JOURNEY.txt
 docs/REVIEW_STATUS.txt
@@ -64,6 +68,7 @@ docs/SCREENING_SUMMARY.txt
 docs/VALIDATION.txt
 docs/WHAT_WE_BUILT.txt
 docs/WORKBENCH.txt
+examples/candidate-record.synthetic.json
 run_protein_card.py
 run_workspace.py
 schemas/protein-card.v1.schema.json
@@ -83,6 +88,7 @@ src/traitweaver/muse_boundary.py
 src/traitweaver/protein_card.html
 src/traitweaver/protein_card.py
 src/traitweaver/public_algae.py
+src/traitweaver/release_review.py
 src/traitweaver/research_story.py
 src/traitweaver/showcase.py
 src/traitweaver/step_tracking.py
@@ -109,6 +115,8 @@ src/traitweaver/web/molecular-ui.js
 src/traitweaver/web/molecular.css
 src/traitweaver/web/public-algae-ui.js
 src/traitweaver/web/research-story-ui.js
+src/traitweaver/web/study-review-ui.js
+src/traitweaver/web/study-review.css
 src/traitweaver/web/workbench-ui.js
 src/traitweaver/web/workspace.css
 src/traitweaver/web/workspace.js
@@ -143,6 +151,7 @@ tests/test_muse_evaluation_pilot.py
 tests/test_protein_card.py
 tests/test_public_algae.py
 tests/test_public_algae_handlers.py
+tests/test_release_review.py
 tests/test_research_story.py
 tests/test_review_handlers.py
 tests/test_showcase.py

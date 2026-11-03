@@ -276,31 +276,37 @@
       "destination": "src/traitweaver/web/index.html",
       "source": "handoff/mvp-v1/web/index.html",
       "source_sha256": "6d29b0ebf2f4c49e13a6a8a7b47189964f131b51ecee4f256dcedb7cda8d0e0d",
-      "candidate_sha256": "0c45fcd786f5c94c765580c13d252e71c5dcbf7a9ff8ec6728f5e2ce54aabceb",
-      "transformation": "Published bounded source plus local molecular extension; see docs/MOLECULAR_WORKSPACE.txt. No original scientific records changed. October31 completed-check and animated-journey extension; original scientific inputs preserved.",
+      "candidate_sha256": "4e67c58441cff0ea848efa4333c03c7645288693882c02effd27ab6505c79162",
+      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
       "source_git_status": "untracked local source",
       "assistant_browser_followup": "Independent local assistant view/session and demo documentation; original provenance retained.",
-      "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained."
+      "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained.",
+      "previous_candidate_sha256": "0c45fcd786f5c94c765580c13d252e71c5dcbf7a9ff8ec6728f5e2ce54aabceb",
+      "historical_transformation_label": "Published bounded source plus local molecular extension; see docs/MOLECULAR_WORKSPACE.txt. No original scientific records changed. October31 completed-check and animated-journey extension; original scientific inputs preserved."
     },
     {
       "destination": "src/traitweaver/web/workspace.js",
       "source": "src/traitweaver/web/workspace.js",
       "source_sha256": "4868c392a2c79e8b3e2f16d0d54719fb2257bf3a3cc46f63e52d0ab9b9866e0c",
-      "candidate_sha256": "635618382dce3d6090cd933c3870fe3518ede76c52e42d21511d9e3aa569a51d",
-      "transformation": "Published bounded source plus local molecular extension; see docs/MOLECULAR_WORKSPACE.txt. No original scientific records changed. October31 completed-check and animated-journey extension; original scientific inputs preserved. Focused MVP presentation, unchanged source contracts, local review only.",
+      "candidate_sha256": "cd4d53f5f49aa7b697711a03421981fdb2a77db9e0a9b501e0fdc42ac5d97540",
+      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
       "source_git_status": "untracked local source",
       "assistant_browser_followup": "Independent local assistant view/session and demo documentation; original provenance retained.",
-      "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained."
+      "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained.",
+      "previous_candidate_sha256": "635618382dce3d6090cd933c3870fe3518ede76c52e42d21511d9e3aa569a51d",
+      "historical_transformation_label": "Published bounded source plus local molecular extension; see docs/MOLECULAR_WORKSPACE.txt. No original scientific records changed. October31 completed-check and animated-journey extension; original scientific inputs preserved. Focused MVP presentation, unchanged source contracts, local review only."
     },
     {
       "destination": "src/traitweaver/workspace_server.py",
       "source": "handoff/mvp-v1/workspace_server.py",
       "source_sha256": "f6b126d85e32834cacf879f85d2dd6eb4ca41de69e6402b49815efa51cb5eccb",
-      "candidate_sha256": "fe363a7c8fea88fee3ad510564c032b9340a7752d259d309ce68430278d8e42c",
-      "transformation": "Published bounded source plus local molecular extension; see docs/MOLECULAR_WORKSPACE.txt. No original scientific records changed. October31 completed-check and animated-journey extension; original scientific inputs preserved.",
+      "candidate_sha256": "601179aa4a379423c5ec483aa87a89dcba30efd981bb292d7ee9608a0c1e1e4f",
+      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
       "source_git_status": "untracked local source",
       "assistant_browser_followup": "Independent local assistant view/session and demo documentation; original provenance retained.",
-      "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained."
+      "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained.",
+      "previous_candidate_sha256": "fe363a7c8fea88fee3ad510564c032b9340a7752d259d309ce68430278d8e42c",
+      "historical_transformation_label": "Published bounded source plus local molecular extension; see docs/MOLECULAR_WORKSPACE.txt. No original scientific records changed. October31 completed-check and animated-journey extension; original scientific inputs preserved."
     },
     {
       "destination": "src/traitweaver/completed_cycle.py",
@@ -314,9 +320,11 @@
       "destination": "src/traitweaver/web/completed-cycle-ui.js",
       "source": "src/traitweaver/web/completed-cycle-ui.js",
       "source_sha256": "e9945ae54fa13ab0c02b3dff0704f1808de36aadd9686d3596f8a6f88fdc8185",
-      "candidate_sha256": "536f1f3e72e8821524b2bd8d174ca7d41391286ce98c8d5438b4fbe04065fd68",
-      "transformation": "Published bounded source plus local molecular extension; see docs/MOLECULAR_WORKSPACE.txt. No original scientific records changed.",
-      "source_git_status": "untracked local source"
+      "candidate_sha256": "c724a79fef14f2827c3c25ae3b2e3bae51acc77e46a9e6056b86ac362c5b8af3",
+      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
+      "source_git_status": "untracked local source",
+      "previous_candidate_sha256": "536f1f3e72e8821524b2bd8d174ca7d41391286ce98c8d5438b4fbe04065fd68",
+      "historical_transformation_label": "Published bounded source plus local molecular extension; see docs/MOLECULAR_WORKSPACE.txt. No original scientific records changed."
     },
     {
       "destination": "tools/muse_cycle.py",
@@ -450,23 +458,27 @@
       "destination": "PUBLIC_FILES.txt",
       "source": "PUBLIC_FILES.txt",
       "source_sha256": "2d8468a3c4d0d6701d6973470a5a3b128c2f30f2bcb1c62c44c004c1b19a39c3",
-      "candidate_sha256": "8208fdd10d3d6e1d77b825f94a60bdd541fa176005c2f8ee344e0ecbc7451761",
-      "transformation": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged.",
+      "candidate_sha256": "33dd79b89708c6a3a60d119aa498d6d1a7b4a7aea1c8326535485f02e9b73dfe",
+      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "ff6baaacf0c736154bf3dcfd020c3c2c0d9ab1ccfb5f92aa1838e469a8284f1b",
-      "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only."
+      "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+      "previous_candidate_sha256": "8208fdd10d3d6e1d77b825f94a60bdd541fa176005c2f8ee344e0ecbc7451761",
+      "historical_transformation_label": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged."
     },
     {
       "destination": "README.md",
       "source": "README.md",
       "source_sha256": "48bd81e91c4a69754d30551fb3ac3db3058b79c6d8223c1bc06f19992ca2ff24",
-      "candidate_sha256": "68715973ec40fef56941854b9bbb62611d1d1c288de53452fdc4f88194d786e4",
-      "transformation": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications.",
+      "candidate_sha256": "767bb8bc7413eed59cafe6e7ecefa40aefc46c2701d4a92bd85b1784d770a442",
+      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "f08157896b1176a2cd121807eb2642a37e80297c2b73c00a4e5895dbcd5df3c6",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
       "retained_local_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only. October 31 six-file metadata refresh: current five-scene instructions, dated history/check scope and historical authorization qualification; no source evidence changed.",
-      "retained_local_candidate_sha256": "72d94b79dbd4664708253851c68e18bd63037172b3138a2f8f50c30ace32728c"
+      "retained_local_candidate_sha256": "72d94b79dbd4664708253851c68e18bd63037172b3138a2f8f50c30ace32728c",
+      "previous_candidate_sha256": "68715973ec40fef56941854b9bbb62611d1d1c288de53452fdc4f88194d786e4",
+      "historical_transformation_label": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications."
     },
     {
       "destination": "tools/exercise_workbench.py",
@@ -760,13 +772,15 @@
       "destination": "docs/SCREENING_SUMMARY.txt",
       "source": "docs/SCREENING_SUMMARY.txt",
       "source_sha256": "41d8ebab636d1ac24474f19b244c66efad9070d43fc5149b9269a633dfd91647",
-      "candidate_sha256": "28a936dcc7006ac372b9b87b49d3856eabcd4726bf27a2877e3ac278510e5f0d",
-      "transformation": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications.",
+      "candidate_sha256": "058b4c2f93a98f7d1074e70bf3907526ec401b5d0699c92f6fc2cc6dd3d3bd3c",
+      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "acf96b16be1b55190f99e2a22ae664e7158064bb4d0e9db20729a427201b67be",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
       "retained_local_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only. October 31 six-file metadata refresh: current five-scene instructions, dated history/check scope and historical authorization qualification; no source evidence changed.",
-      "retained_local_candidate_sha256": "55530f559f5d17dbf146441846ef2116861c3d40192ae93fb7ba60c31fe3096a"
+      "retained_local_candidate_sha256": "55530f559f5d17dbf146441846ef2116861c3d40192ae93fb7ba60c31fe3096a",
+      "previous_candidate_sha256": "28a936dcc7006ac372b9b87b49d3856eabcd4726bf27a2877e3ac278510e5f0d",
+      "historical_transformation_label": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications."
     },
     {
       "destination": "docs/MOLECULAR_WORKSPACE.txt",
@@ -812,13 +826,15 @@
       "destination": "docs/RELEASE_BLOCKERS.txt",
       "source": "docs/RELEASE_BLOCKERS.txt",
       "source_sha256": "75afb70ed173725c513e3f81c23d8f53177c12c38ec1c2ff4e092b5228b0474d",
-      "candidate_sha256": "623568af511ed94712fcb28f0b4fced8cb0849746cb687a87cf29eb265408b4e",
-      "transformation": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications.",
+      "candidate_sha256": "6b1677befbc5038258889c1d51259ea63459fe771fbac0b021aa1e0f2ca47101",
+      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "a6889fb8a1553bc1a45262b04df9d03367696a1ac5ae5cac249d0e39d8b794b5",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
       "retained_local_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only. October 31 six-file metadata refresh: current five-scene instructions, dated history/check scope and historical authorization qualification; no source evidence changed.",
-      "retained_local_candidate_sha256": "97fe14f0da6deacc00fa197355730dc99a09164d5fd0f8a114cabc7316746be3"
+      "retained_local_candidate_sha256": "97fe14f0da6deacc00fa197355730dc99a09164d5fd0f8a114cabc7316746be3",
+      "previous_candidate_sha256": "623568af511ed94712fcb28f0b4fced8cb0849746cb687a87cf29eb265408b4e",
+      "historical_transformation_label": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications."
     },
     {
       "destination": "docs/RESEARCH_JOURNEY.txt",
@@ -864,13 +880,15 @@
       "destination": "docs/SCOPE_AND_PROVENANCE.txt",
       "source": "docs/SCOPE_AND_PROVENANCE.txt",
       "source_sha256": "ac2db93bebffd707e7ef3f3f688c11b3f0081eb0c5371c0e6295b26f7b9b911f",
-      "candidate_sha256": "e60aa2ae69d7ea3a6e5b54b6586aecf2cc979c762c1591fd0c9839d28fba8e9c",
-      "transformation": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications.",
+      "candidate_sha256": "fcae82f4a3d0d5e426746d10d0b17adae8c3167615332703893646f58b820848",
+      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "3ce789f49ac01b9abf894ab1aac725d548254f40c6f9179d57bcc70608339bcc",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
       "retained_local_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only. October 31 six-file metadata refresh: current five-scene instructions, dated history/check scope and historical authorization qualification; no source evidence changed.",
-      "retained_local_candidate_sha256": "26f20c9382b3d73ebcfce2da2538aa05d77a7474d8448e8217bd0d04a5e9fe1c"
+      "retained_local_candidate_sha256": "26f20c9382b3d73ebcfce2da2538aa05d77a7474d8448e8217bd0d04a5e9fe1c",
+      "previous_candidate_sha256": "e60aa2ae69d7ea3a6e5b54b6586aecf2cc979c762c1591fd0c9839d28fba8e9c",
+      "historical_transformation_label": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications."
     },
     {
       "destination": "docs/SCIENTIFIC_STORY.txt",
@@ -1110,9 +1128,11 @@
       "destination": "src/traitweaver/web/journey-ui.js",
       "source": "src/traitweaver/web/journey-ui.js",
       "source_sha256": "5e4cc6cb6c1bd9ec6c625dd2d551144b2509f88a686ebe54dd4777c612e946eb",
-      "candidate_sha256": "7321f695ef84a4b2c63fb9e01d1f23aced48b6aa750a48187681f74858bfdce3",
-      "transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
-      "source_git_status": "local only; not committed or pushed"
+      "candidate_sha256": "6fea329b376b70bdb00150c512fffe73bcc32cfc1093516da681e8f7a52c4519",
+      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
+      "source_git_status": "local only; not committed or pushed",
+      "previous_candidate_sha256": "7321f695ef84a4b2c63fb9e01d1f23aced48b6aa750a48187681f74858bfdce3",
+      "historical_transformation_label": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only."
     },
     {
       "destination": "src/traitweaver/web/public-algae-ui.js",
@@ -1364,6 +1384,99 @@
       "candidate_sha256": "3a1ea86b6d0c9caca89133af2e6d55e3a3281805dc392ab33948b65eb7f070db",
       "transformation": "Locally authored cinematic showcase guide, transport-free saved-pilot projection or five adapter regression tests. Existing public/synthetic contracts and source records reused; no new retrieval or provider call. Byte-identical to the selected local feature commit.",
       "source_git_status": "Tracked in local feature commit 0987c1b; remote state not checked."
+    },
+    {
+      "destination": "docs/CONTRIBUTION_LEDGER.txt",
+      "source": "docs/CONTRIBUTION_LEDGER.txt",
+      "source_sha256": "b6c327f410f22e7df7dc3841101a9635c0250e6e86052068d8ef809b0af33734",
+      "candidate_sha256": "bed04279265f67a1ad9ced09ec97e77ab1acd756a224f354d8fc451400f16289",
+      "transformation": "New Codex-authored local mission implementation/documentation or metadata-only synthetic fixture, November 2, 2026",
+      "source_git_status": "uncommitted local addition",
+      "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt.",
+      "trait_infographic_followup": "Local authored schematic SVG/CSS and presentation controls; scientific records unchanged.",
+      "cell_recovery_followup": "Layered schematic cells, storage clusters and proposed processing flow; presentation only, source contracts unchanged.",
+      "spill_followup": "Microscopy-informed original anatomy and independent hypothetical P mass-balance explorer; fixed evidence and backend unchanged."
+    },
+    {
+      "destination": "docs/DEMO_RELEASE_3_MIN.txt",
+      "source": "docs/DEMO_RELEASE_3_MIN.txt",
+      "source_sha256": "4d7a25afa2bdf45d00d98728941bcb588b8f42053720762769c22ce8a70f63d6",
+      "candidate_sha256": "4d7a25afa2bdf45d00d98728941bcb588b8f42053720762769c22ce8a70f63d6",
+      "transformation": "New Codex-authored local mission implementation/documentation or metadata-only synthetic fixture, November 2, 2026",
+      "source_git_status": "uncommitted local addition",
+      "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt."
+    },
+    {
+      "destination": "docs/INTEGRATION.svg",
+      "source": "docs/INTEGRATION.svg",
+      "source_sha256": "210946401a9c83b05d3c3c102abff5594378ef277a159f4a0e2b77c5efc6f083",
+      "candidate_sha256": "203de168b4c37298b342bf0e4ca49c1ab642b12ec5c859bc3bc3792903eff001",
+      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
+      "source_git_status": "uncommitted local addition",
+      "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt.",
+      "previous_candidate_sha256": "210946401a9c83b05d3c3c102abff5594378ef277a159f4a0e2b77c5efc6f083",
+      "historical_transformation_label": "New Codex-authored local mission implementation/documentation or metadata-only synthetic fixture, November 2, 2026"
+    },
+    {
+      "destination": "docs/RELEASE_CANDIDATE.txt",
+      "source": "docs/RELEASE_CANDIDATE.txt",
+      "source_sha256": "9eb0b390dc147f5051ad956eb679657dc0c760600953afc34afd47136fd5c28a",
+      "candidate_sha256": "178409904a619ddb872b5bf370e41186bbd1d4de78da4a6cac1e96a91c1a0aad",
+      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
+      "source_git_status": "uncommitted local addition",
+      "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt.",
+      "previous_candidate_sha256": "d5c123b09ac46a9b171b5e74f43de89801c5f0578a8a410fa042512d590046b5",
+      "historical_transformation_label": "New Codex-authored local mission implementation/documentation or metadata-only synthetic fixture, November 2, 2026"
+    },
+    {
+      "destination": "examples/candidate-record.synthetic.json",
+      "source": "examples/candidate-record.synthetic.json",
+      "source_sha256": "9574a0e706f5dcc2d92f72ad90b6dbff29174037438266d032b4eb0f155cb60a",
+      "candidate_sha256": "9574a0e706f5dcc2d92f72ad90b6dbff29174037438266d032b4eb0f155cb60a",
+      "transformation": "New Codex-authored local mission implementation/documentation or metadata-only synthetic fixture, November 2, 2026",
+      "source_git_status": "uncommitted local addition",
+      "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt."
+    },
+    {
+      "destination": "src/traitweaver/release_review.py",
+      "source": "src/traitweaver/release_review.py",
+      "source_sha256": "e9a98e134f382845ba3dff7edfef1375b362797e7808e91e51b342b8041ddae6",
+      "candidate_sha256": "e9a98e134f382845ba3dff7edfef1375b362797e7808e91e51b342b8041ddae6",
+      "transformation": "New Codex-authored local mission implementation/documentation or metadata-only synthetic fixture, November 2, 2026",
+      "source_git_status": "uncommitted local addition",
+      "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt."
+    },
+    {
+      "destination": "src/traitweaver/web/study-review-ui.js",
+      "source": "src/traitweaver/web/study-review-ui.js",
+      "source_sha256": "f865ce2169feefb60ca565329e3b5c8d153be5ff81db8316104e35c9c910b7d8",
+      "candidate_sha256": "98c667e6bc2aab28adf9e3d42aaad1a2bd0c692491a0589e3c4bd276869f3000",
+      "transformation": "New Codex-authored local mission implementation/documentation or metadata-only synthetic fixture, November 2, 2026",
+      "source_git_status": "uncommitted local addition",
+      "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt.",
+      "trait_infographic_followup": "Local authored schematic SVG/CSS and presentation controls; scientific records unchanged.",
+      "cell_recovery_followup": "Layered schematic cells, storage clusters and proposed processing flow; presentation only, source contracts unchanged.",
+      "spill_followup": "Microscopy-informed original anatomy and independent hypothetical P mass-balance explorer; fixed evidence and backend unchanged."
+    },
+    {
+      "destination": "src/traitweaver/web/study-review.css",
+      "source": "src/traitweaver/web/study-review.css",
+      "source_sha256": "ea952fc48730b99f259b6355d5f37b4c7dbe02aa4cba202f6d8eda98065b7968",
+      "candidate_sha256": "4ff5d70c03b076b44ee0ad2ec63772b225d09b42e4918426ae2b3fe61c07b8bf",
+      "transformation": "New Codex-authored local mission implementation/documentation or metadata-only synthetic fixture, November 2, 2026",
+      "source_git_status": "uncommitted local addition",
+      "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt.",
+      "trait_infographic_followup": "Local authored schematic SVG/CSS and presentation controls; scientific records unchanged.",
+      "spill_followup": "Microscopy-informed original anatomy and independent hypothetical P mass-balance explorer; fixed evidence and backend unchanged."
+    },
+    {
+      "destination": "tests/test_release_review.py",
+      "source": "tests/test_release_review.py",
+      "source_sha256": "c2ac10d592633d544b90deac6814d36afecf9bbdb33051fde7f86f4563550340",
+      "candidate_sha256": "c2ac10d592633d544b90deac6814d36afecf9bbdb33051fde7f86f4563550340",
+      "transformation": "New Codex-authored local mission implementation/documentation or metadata-only synthetic fixture, November 2, 2026",
+      "source_git_status": "uncommitted local addition",
+      "november_2_followup": "Local mission release review; prior provenance retained. See docs/CONTRIBUTION_LEDGER.txt."
     }
   ],
   "additional_candidate_authorship": "Public-facing docs, synthetic replay/review package, exact-byte verifier, memory handler/controller tests and bounded adaptations; Codex",
@@ -1812,5 +1925,28 @@
     "pushed": false,
     "submitted": false,
     "fresh_checks": "See external exact-candidate reconciliation records."
+  },
+  "november_2_release": {
+    "date": "2026-11-02",
+    "base_head": "0987c1bdd29fbae68050aeb1ff440c1c17d91d7e",
+    "prior_uncommitted_metadata_preserved": true,
+    "human_friendly_followup": "Study-review presentation only; selected narration and conceptual graphics kept outside candidate",
+    "new_provider_calls": 0,
+    "published": false,
+    "notes": "New separate review contract; existing scientific source pins unchanged. MIT owner choice applied to original code/docs only."
+  },
+  "trait_infographics": {
+    "date": "2026-11-02",
+    "scope": "Three conceptual local trait drawings; no measured animation or scientific execution",
+    "provider_calls": 0,
+    "published": false
+  },
+  "november_2_application_publication": {
+    "base_commit": "82645b94a022e175dc036d37f4e2601cbab32617",
+    "owner_request": "Remove private-project references, then push to the existing public repository.",
+    "private_media_included": false,
+    "source_evidence_changed": false,
+    "scientific_status": "Illustrative teaching model; not field validation.",
+    "historical_records": "Earlier preparation records retained without retroactive approval."
   }
 }

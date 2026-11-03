@@ -1,3 +1,15 @@
+NOVEMBER 2 APPLICATION RECONCILIATION
+
+The application update is prepared over public commit
+82645b94a022e175dc036d37f4e2601cbab32617. The newer published documentation, MIT
+license and component notices are retained. The separate review contract,
+human-friendly interface, trait illustrations and landfill-water teaching model
+come from the owner-requested local update. No private media, voice runtime,
+model packets or unrelated research is included. Source/data/asset pins remain
+unchanged. Historical preparation records below retain their dated scope.
+
+HISTORICAL REVIEW RECORDS — retained below
+
 CURRENT PROVENANCE INTERPRETATION — NOVEMBER 2, 2026 (AMERICA/NEW_YORK)
 
 GitHub main and the fresh public clone agree at 5e14721cce8568e0eeae67ed188fa3c5b5f8a8e4.

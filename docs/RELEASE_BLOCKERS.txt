@@ -1,3 +1,14 @@
+NOVEMBER 2 APPLICATION UPDATE
+
+The owner requested publication of the review layer, trait illustrations and
+landfill-water teaching model to the existing public repository. Private-project
+references in the new release guide and integration drawing were removed with
+explicit owner approval. Event submission, scientific validation and unresolved
+component rights remain separate decisions. The original-code MIT license and
+newer published contribution/rights documentation are retained.
+
+HISTORICAL REVIEW RECORDS — retained below
+
 CURRENT SUBMISSION DECISIONS — NOVEMBER 2, 2026 (AMERICA/NEW_YORK)
 
 GitHub main was rechecked at 5e14721cce8568e0eeae67ed188fa3c5b5f8a8e4.

@@ -1,3 +1,15 @@
+**November 2 release review:** run `python3 -B run_workspace.py --demo`, then choose
+**Finish & review study**. Trace evidence and reference mappings, organize proposed
+traits, import typed existing records, record a content-bound human judgment and
+export/reopen one review package. The replay is synthetic; no new model calls.
+[Current release guide](docs/RELEASE_CANDIDATE.txt) · [three-minute walkthrough](docs/DEMO_RELEASE_3_MIN.txt) · [contribution ledger](docs/CONTRIBUTION_LEDGER.txt).
+Export before stopping Python: the new review is held in session memory.
+
+**Traits in motion:** open **Traits** for animated uptake, growth and recovery
+illustrations, then **Landfill water** for the interactive phosphorus explorer.
+The algae-inspired anatomy and mass-conserving simulation are teaching visuals;
+controls change assumptions, not measured treatment performance.
+
 # Traitweaver — research-workspace submission review
 
 Start with the [hackathon contribution and reuse ledger](docs/CONTRIBUTIONS.md)

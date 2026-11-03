@@ -1,0 +1,34 @@
+{
+  "id": "EXAMPLE_METADATA_ONLY",
+  "sequence_type": "primer_dna",
+  "sequence": null,
+  "source": {
+    "citation": "Authored software fixture; no biological candidate",
+    "locator": "Traitweaver import interface example",
+    "record_kind": "synthetic_fixture"
+  },
+  "reference": {
+    "organism": null,
+    "strain": null,
+    "assembly": null,
+    "annotation_version": null,
+    "accession": null,
+    "coordinate_convention": null,
+    "interval": null
+  },
+  "tool": {
+    "name": null,
+    "version": null,
+    "settings": null
+  },
+  "reported_stage": "imported_candidate",
+  "assessments": {
+    "identity": null,
+    "host_compatibility": null,
+    "specificity": null,
+    "empirical_evidence": null
+  },
+  "reported_value": null,
+  "reported_unit": null,
+  "limitations": "Metadata-only synthetic example. No sequence, target, tool run or empirical result."
+}

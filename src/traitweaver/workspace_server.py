@@ -14,7 +14,7 @@ from traitweaver import molecular, molecular_store, muse_boundary, protein_card,
 from traitweaver import intelligence, intelligence_muse, intelligence_store
 from traitweaver import assistant_workspace
 from traitweaver import research_story
-from traitweaver import workbench, step_tracking, showcase
+from traitweaver import workbench, step_tracking, showcase, release_review
 from traitweaver.study_store import Conflict, MAX_BYTES, Store
 from traitweaver.completed_cycle import CompletedCycle
 
@@ -64,6 +64,13 @@ class WorkspaceSession:
             self.workbench=workbench.Session(self.assistant,self.research_story)
         except (ValueError,OSError):
             self.workbench_error='Workbench requires qualified assistant records. Original study and other views remain available.'
+
+        self.release_review=None;self.release_review_error=None
+        try:
+            self.release_review_local=release_review.Session(store.export_review() if isinstance(store,CompletedCycle) else None)
+            self.release_review=self.release_review_local
+        except (ValueError,OSError):
+            self.release_review_error='Study review source validation failed; no substitute evidence used.'
 
         self.steps=None;self.steps_error=None
         try:
@@ -157,7 +164,15 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
                                             'research_story':workspace.research_story.view() if workspace.research_story else None,'research_story_error':workspace.research_story_error,
                                             'workbench':workspace.workbench.view() if workspace.workbench else None,'workbench_error':workspace.workbench_error,
                                             'showcase_pilots':workspace.showcase_pilots,
+                                            'release_review':workspace.release_review.view() if workspace.release_review else None,'release_review_error':workspace.release_review_error,
                                             'steps':workspace.steps.view() if workspace.steps else None,'steps_error':workspace.steps_error}); return
+                    if path in ('/api/study-review/export.json','/api/study-review/export.txt'):
+                        owner=workspace.release_review
+                        if owner is None:raise ValueError('Study review unavailable')
+                        acknowledgment=self.headers.get('X-Traitweaver-Privacy-Reviewed')
+                        if path.endswith('.json'):self.send(200,owner.export(acknowledgment),filename='traitweaver-study-review.json')
+                        else:self.send(200,owner.readable(acknowledgment),'text/plain; charset=utf-8',filename='traitweaver-study-review.txt')
+                        return
                     if path in ('/api/workbench/export.json','/api/workbench/export.md'):
                         owner=workspace.workbench
                         if owner is None:raise ValueError('Workbench unavailable')
@@ -232,7 +247,7 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
             store=workspace.active
             if not self.safe_host() or not hmac.compare_digest(self.headers.get('X-Traitweaver-Token', ''), token):
                 self.send(403, {'error': 'Same-origin session authorization required'}); return
-            if isinstance(store, CompletedCycle) and urlsplit(self.path).path not in ('/api/steps/source','/api/steps/check','/api/steps/open','/api/steps/local','/api/cycle-review/open','/api/molecular/save','/api/molecular/open','/api/public-algae/save','/api/public-algae/open','/api/intelligence/revise','/api/intelligence/prepare','/api/intelligence/synthetic','/api/intelligence/accept','/api/intelligence/run','/api/intelligence/open','/api/assistant/select','/api/assistant/synthetic','/api/assistant/check','/api/assistant/open','/api/research-story/present','/api/research-story/open','/api/workbench/prepare','/api/workbench/select','/api/workbench/present','/api/workbench/save','/api/workbench/history','/api/workbench/check','/api/workbench/synthetic','/api/workbench/open'):
+            if isinstance(store, CompletedCycle) and urlsplit(self.path).path not in ('/api/study-review/apply','/api/study-review/open','/api/study-review/local','/api/steps/source','/api/steps/check','/api/steps/open','/api/steps/local','/api/cycle-review/open','/api/molecular/save','/api/molecular/open','/api/public-algae/save','/api/public-algae/open','/api/intelligence/revise','/api/intelligence/prepare','/api/intelligence/synthetic','/api/intelligence/accept','/api/intelligence/run','/api/intelligence/open','/api/assistant/select','/api/assistant/synthetic','/api/assistant/check','/api/assistant/open','/api/research-story/present','/api/research-story/open','/api/workbench/prepare','/api/workbench/select','/api/workbench/present','/api/workbench/save','/api/workbench/history','/api/workbench/check','/api/workbench/synthetic','/api/workbench/open'):
                 self.send(403, {'error':'Completed-cycle review is read-only. No edits, reruns or model calls are available.'}); return
             if self.headers.get('Content-Type', '').split(';')[0] != 'application/json':
                 self.send(415, {'error': 'JSON required'}); return
@@ -250,7 +265,24 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
                     if data['expected_hash'] != current['hash']:
                         raise Conflict('Study changed; reload before applying this action')
                     state = current['state']
-                    if path.startswith('/api/steps/'):
+                    if path.startswith('/api/study-review/'):
+                        owner=workspace.release_review
+                        if owner is None:raise ValueError('Study review unavailable')
+                        if data.get('review_hash')!=owner.current()['hash']:raise Conflict('Study review changed; refresh before acting')
+                        prefix=('expected_hash','review_hash')
+                        if path=='/api/study-review/apply':
+                            study.fields(data,(*prefix,'event'));owner.apply(data['event'])
+                        elif path=='/api/study-review/open':
+                            study.fields(data,(*prefix,'package_json'))
+                            if not isinstance(data['package_json'],str) or len(data['package_json'].encode())>release_review.MAX_BYTES:raise ValueError('Review package too large')
+                            replacement=release_review.Session();replacement.open(study.decode(data['package_json']))
+                            workspace.release_review=replacement
+                        elif path=='/api/study-review/local':
+                            study.fields(data,prefix);workspace.release_review=workspace.release_review_local
+                        else:self.send(404,{'error':'Unknown study review action'});return
+                        self.send(200,{'release_review':workspace.release_review.view()});return
+                    elif path.startswith('/api/steps/'):
+
                         owner=workspace.steps
                         if owner is None:raise ValueError('Completed-step review unavailable')
                         if data.get('steps_hash')!=owner.current()['hash']:raise Conflict('Completed-step revision changed; refresh before acting')

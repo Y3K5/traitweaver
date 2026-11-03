@@ -1,0 +1,95 @@
+CONTRIBUTION / EVIDENCE LEDGER — NOVEMBER 2, 2026
+
+Sole human contributor: Yuvraj Patel.
+Codex: implementation, software review/tests and release preparation.
+Meta Muse: existing saved source-cited selection and reassessment, not authorship
+of the new code. Documentary details: LIVE_RUN_SUMMARY.txt. Owner-local packet
+can be viewed without another provider call; excluded from the public package.
+
+Date          Input -> work -> output                         Evidence / limit
+Oct 26        Planning/prior design -> preparation             Disclosed prior work; not re-dated.
+Oct 29        Public algae records -> guided checks/history    Existing source pins and tests.
+Oct 29        Approved public payload -> Muse -> local audit   Two accepted saved replies; unavailable
+              -> Muse reassessment                             collected-product endpoint. Not a new
+                                                               experiment or independent model audit.
+Oct 30–31     Public/reference and synthetic records ->        Existing independent contracts, tests,
+              mapping/review/showcase                           scientific roles and provenance retained.
+Nov 2         Existing public evidence + typed imported       release_review.py, study-review-ui.js/css,
+              metadata -> schema/reference checks,            tests/test_release_review.py; separate
+              hypothesis organization and review ->           new review contract. Zero new model calls.
+              source-linked JSON and readable brief            Actual user/scientific review pending.
+
+IMPLEMENTED CONNECTIONS
+Pinned literature -> trait/source interpretation.
+Pinned assembly/locus -> gene -> reference transcript -> protein.
+Existing saved Muse cycle -> decision/result/reassessment/usage inspector.
+Imported record -> typed validation -> visible reference blockers -> human review.
+Saved review -> exact JSON/readable export -> validated read-only reopen.
+All connections are local and source-bound; no automatic scientific source intake.
+
+PLANNED / BLOCKED CONNECTIONS
+Reference -> receiving strain: unqualified.
+Multiple proposed traits -> joint phenotype: unassessed.
+Uptake/storage -> collected product -> plant use: missing evidence.
+Guide/primer record -> specificity/empirical proof: not established by importing.
+Primer3/Primer-BLAST: documentation and plan, no verified installed integration.
+Other project tools/environments: separate owners; no merged code or environments.
+
+SOURCE ROLES
+Published observations retain means, uncertainty, controls and context.
+Database annotations retain identifiers, source files, organism and reference.
+Computational results identify the actual deterministic check or saved prediction.
+Model interpretation is distinct from source evidence and authored proposal.
+Human judgment binds exact content and may leave blockers; not biological proof.
+Synthetic fixtures remain synthetic. No missing scientific outcome was invented.
+
+The participant guide and Indie reuse eligibility remain owner/event review items.
+The event dates/deadline stated in the mission are not independently reverified
+here. No new provider call, install, commit, push, deployment or submission.
+
+NOVEMBER 2 — HUMAN-FRIENDLY FOLLOW-UP
+Owner requested the previously selected local Demo Narrator, stronger visuals,
+less text and a clearer flow. Codex simplified the study-review layout, step
+labels and primary copy; full source/reference limits, questions and records
+remain expandable. No scientific contract, source, backend or provider changed.
+The private local review folder retains a new seven-scene narrated conceptual
+walkthrough; voice/model runtime and receipts stay outside this candidate.
+15 review tests and 42 journey checks passed; browser evidence selection, draft
+protection and current-view export acknowledgment were checked.
+
+NOVEMBER 2 — TRAITS IN MOTION
+Owner requested dynamic trait infographics. Three local SVG/CSS illustrations
+now explain phosphorus uptake, algal growth alongside P accumulation, and the
+open recovery/plant-use endpoints. Switchable views, pause/play, keyboard access,
+reduced-motion styles and small-screen drawing scroll are presentation only.
+Particle counts, motion and cell sizes encode no measured values or predictions.
+No source records, scientific schemas, server code or provider calls changed.
+
+NOVEMBER 2 — CELL DETAIL AND RECOVERY CONCEPT
+Owner requested richer algal cells and phosphorus granules, plus a processing
+idea. The local SVGs now show layered illustrative cells and gold storage
+clusters. Recoverability shows collected algae, proposed processing, a possible
+P-containing material and intended-use testing. No method, yield or usable
+product is established. Cell anatomy and granule appearance are not microscopy.
+The same geometry appears in the revised local narrated video, outside this
+candidate. Original scientific sources, schemas and backend remain unchanged.
+
+NOVEMBER 2 — ANATOMY AND LANDFILL-WATER EXPLORER
+Owner requested actual algae-inspired structures and a spill simulation, then
+selected naturally high-phosphorus water in a landfill setting. A new Landfill
+water tab uses an original Chlamydomonas-inspired cutaway based on published
+microscopy: flagella, chloroplast, nucleus, eyespot, pyrenoid/starch and storage
+vesicles. New reference links provide visual/background context only; they do
+not enter the pinned study catalog or change its admitted evidence.
+The separate browser-only teaching model conserves 100 arbitrary P mass units
+across water, cell surface, interior and collected biomass. Capacity, retention,
+no-algae comparison and harvest toggles change authored assumptions. There are
+no measured kinetics, natural site measurements, strain-design results or
+field-performance predictions. The publication used pretreated P-supplemented
+leachate; natural high-P landfill water is the user's scenario, not a study fact.
+P-rich biomass is a candidate intermediate for processing and product testing,
+not approved fertilizer or evidence of general contaminant removal.
+8080 parameter/step cases passed conservation and boundary checks. Fifteen
+existing review tests passed with the documented PYTHONPATH=src environment;
+an initial missing-module test invocation is retained outside this candidate.
+No new model calls, installations, uploads, commits or pushes.

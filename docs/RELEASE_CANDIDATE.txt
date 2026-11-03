@@ -1,0 +1,102 @@
+TRAITWEAVER HACKATHON RELEASE CANDIDATE — NOVEMBER 2, 2026
+Publication requested by the owner on November 2; event submission remains separate.
+
+START
+python3 -B run_workspace.py --demo
+Open the printed loopback address. Choose Finish & review study in the menu.
+This uses a visibly synthetic replay, pinned public evidence and no private files.
+Python 3.10+ standard library only; no installation or API key required.
+
+MAIN JOURNEY
+1. Research journey: question -> cited evidence -> saved Muse decision -> actual
+   recorded local check -> saved reassessment. The bundled replay is synthetic.
+2. Finish & review study: inspect the trait/source/mechanism/gene/transcript/
+   protein/reference/recipient graph and four separate phosphorus endpoints.
+3. Consider combined traits: source-bound starter proposals plus optional
+   researcher hypotheses. All pairwise interactions remain unassessed; no score.
+4. Review existing guide RNA / primer DNA / genomic DNA / protein records.
+   Load the metadata-only example to learn the format. It has no sequence or
+   biological target. Existing reports retain their original source, tool/version,
+   reference, assessments and limits. No sequence is generated or made ready.
+5. Shape the study: hypothesis, comparisons, readouts, confounders, containment,
+   success/failure questions and missing decisions. No executable protocol.
+6. Record a human judgment and reason for the exact saved content. This is a
+   self-reported identity and judgment, not authentication or scientific proof.
+   Changed content makes earlier reviews inapplicable without deleting them.
+7. Review every included record/history, acknowledge LOCAL export, then download
+   JSON and the readable brief. Reopen JSON through its picker or pasted text.
+   Validation happens before replacing the view; reopening runs no tool/model.
+   Return to original local review retains the previous editable session.
+
+STORAGE
+This new review owns a separate session-memory history, maximum 64 revisions,
+8 trait proposals, 20 imported records and a 2 MiB package. Export before stopping
+Python. Browser refresh preserves saved server-memory history while Python runs.
+Unsaved form drafts survive step navigation and block export/reopen until saved
+or explicitly discarded; leaving the page warns. Process termination before
+export loses this session. Existing durable studies retain their own storage.
+The review package includes sources, source identities, reference map, study
+outline, imported values/settings/unknowns, blockers, review history and a loaded
+cycle if present. It does not merge unrelated project files or other workbenches.
+
+MUSE
+The historical algae cycle used Meta muse-spark-1.3 for selection and reassessment
+around one deterministic endpoint-coverage check. The existing owning validator
+preserves request/receipt/history consistency. This is not independent provider
+authentication. The real packet stays outside the public package; show it locally
+only through the existing --completed-cycle-dir or --completed-cycle-file flags.
+The original documentary summary remains docs/LIVE_RUN_SUMMARY.txt.
+The new review layer makes zero provider calls and does not claim model authorship.
+No Baseten connection, model choice, spend, retry or fallback is added.
+Optional future live use requires exact payload/data category, destination/model,
+request and token caps, current pricing and cumulative ceiling approval. Existing
+credits and past approvals are not authorization. See existing runner guides;
+do not run them as part of offline reproduction.
+
+REAL EVIDENCE LIMIT THAT CHANGES THE NEXT STEP
+Neither admitted path quantifies collected-product phosphorus. Uptake and growth
+cannot substitute for that endpoint. The next step is source/context qualification
+and a researcher-reviewed measurement outline, not a claimed winning route.
+Later plant use, recipient compatibility, trait combinations and containment
+remain unestablished. Reference annotation is not experimentally demonstrated
+transfer. Primer3/Primer-BLAST remains documentation/planning, not an installed
+or verified integration. Imported specificity claims are reports, not new checks.
+
+BOUNDARIES AND CONTRIBUTIONS
+This checkout contains the hackathon MVP. Unrelated private project work is
+excluded from this release.
+Sole human contributor: Yuvraj Patel. Codex authored this November 2 review layer.
+Earlier event-window implementation and the October 29 real Meta cycle retain
+actual dates/roles. No earlier prototype is re-dated as new work. Indie reuse
+eligibility is unresolved. The published contribution/rights review records the
+owner-supplied guide requirement for a three-minute demo and public repository.
+See CONTRIBUTIONS.md and REVIEW_STATUS.txt for the retained guide review.
+Original code/documentation MIT choice is owner-approved in the mission and
+applied in the scoped LICENSE file; third-
+party facts/data, fonts, and branding retain their separate notices and terms.
+
+OWNER GO / NO-GO
+GO: local inspection, offline replay, source-map review, import/review/export/reopen.
+NO-GO: claim of validated biology, ready sequences, field release or automatic
+publication/submission. Human scientific/usefulness review remains pending.
+Before submission: owner reviews exact file list/destination, participant guide
+and reuse eligibility, event-built disclosure and the final three-minute video.
+Existing older video predates this review layer; new script describes current flow.
+A full smooth timed human rehearsal is not established by browser automation.
+Provider billing remains unverified; no extra call is needed to resolve it.
+
+VERIFICATION
+Run Python tests, existing controller suites and loopback scripts as described in
+README. New test_release_review.py tests the actual new contract and HTTP handlers.
+Browser walkthrough: actual typed import, invalid-input retention, labeled test
+review, native JSON download and file-picker reopen, desktop and phone layout.
+The download automation stalled; successful transfer does not prove smooth timing.
+Exact final counts/screenshots/privacy findings are in the external local owner
+review packet; the public manifest verifies candidate membership and bytes.
+Checksums are consistency checks, not authenticity, privacy proof or science.
+
+HUMAN-FRIENDLY REVIEW UPDATE
+The six steps now read Evidence, Traits, Existing records, Study outline, Your
+decision, Save & reopen. Four outcome icons distinguish source observations from
+missing recovery/plant-use evidence. Source records, context and limits remain
+expandable; the scientific data and all export/reopen protections are unchanged.

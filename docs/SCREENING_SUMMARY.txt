@@ -1,3 +1,16 @@
+NOVEMBER 2 APPLICATION PUBLICATION REVIEW
+
+The exact outgoing application update was reconciled over public main. The
+owner explicitly authorized removing private-project references from the new
+release guide and integration drawing before pushing. Those removals are
+recorded in the external local review receipt; the original local copy remains
+unchanged. Public author attribution, privacy-detector patterns and synthetic
+negative-test paths remain distinguishable from actual private material.
+Generated provenance and inventory files are included in the final byte screen.
+Pattern screening is not proof of absence of every private fact or rights clearance.
+
+HISTORICAL REVIEW RECORDS — retained below
+
 CURRENT SCREENING SCOPE — NOVEMBER 2, 2026 (AMERICA/NEW_YORK)
 
 The candidate is derived solely from the refreshed public repository. Membership
