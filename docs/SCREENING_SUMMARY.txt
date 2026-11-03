@@ -298,3 +298,11 @@ No generated request/archive, screenshot, private packet or log is published.
 Scientific evidence, provider transports and original request/proposal contracts
 are preserved. Pattern screening applies to these exact bytes and is not proof
 of absence or approval for future user artifacts, research or provider calls.
+
+November 3 UTC phosphorus-demo handoff: complete outgoing contents and diff from
+public 9fe1cc0 were screened. Scope is a client-side navigation target, walkthrough,
+validation/contribution notes and exact provenance/file manifests. No private
+material, secret-shaped content, personal paths or unrelated changes found.
+Synthetic rehearsal records, screenshots and logs are not published. Evidence,
+model/approval contracts and all backend files are unchanged. Screening applies
+to these exact bytes and is not a blanket privacy or rights certification.

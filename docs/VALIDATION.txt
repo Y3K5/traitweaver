@@ -738,3 +738,28 @@ Parallel Codex technical and UI review support these software results. No live
 provider compatibility, adaptive model usefulness, biological validation or human
 scientific review was performed. No private research, new spending or laboratory
 execution occurred. Execution approvals are human actions, never model output.
+
+NOVEMBER 3 UTC — PHOSPHORUS DEMO HANDOFF
+Base public main: 9fe1cc07052b658cd05f6aa7c603a54d49e86418.
+Fresh browser inspection traversed all five phosphorus scenes. The consequential
+interruption was the Human review required link returning to Evidence instead of
+Your decision. The focused change sets only the destination's client-side tab.
+The separate-session/provenance warning and all owning records remain intact.
+
+Shipped journey controller: 61 checks passed against actual handlers/core with
+sockets blocked. Completed-cycle HTTP: 21 checks passed. Native Chromium: 22
+checks passed at 1440x1000 and 390x844. Verified evidence units/SE/n, explicit
+synthetic selection/reassessment, exact missing-endpoint receipt, direct click and
+keyboard handoff, retained unsaved drafts, no navigation writes, an explicitly
+synthetic rehearsal review, native JSON/readable exports, read-only reopening,
+read-only handoff, hypothetical teaching labels and conserved symbolic P balance.
+The original saved cycle remained byte-identical; no browser errors or external
+requests occurred. Screenshots were inspected. The native harness initially read
+a top-level read-only flag; correcting it to current.read_only resolved that test
+assertion. No application change was needed for that assertion.
+
+No Python/scientific/model contract changed; the base's 538-test Python result is
+historical, not a new full-suite claim. Reports, screenshots and synthetic rehearsal
+exports stay outside the candidate. Automation elapsed time is not qualification
+of a human-timed three-minute narration or final video. Final video, media/rights,
+eligibility/terms and independent scientific/usefulness review remain open.

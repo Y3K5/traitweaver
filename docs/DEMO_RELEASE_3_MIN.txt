@@ -37,8 +37,9 @@ Select Next study. Point to the linked result ID, accepted next action and
 citations. Open the authored plan's comparisons, controls and unresolved
 thresholds. Uptake, growth and recoverable phosphorus remain distinct; their
 joint behavior is unassessed. These are review questions, not a wet-lab protocol.
-Use Human review required to open the separate study-review session. Its new
-cards do not inherit the loaded cycle's real-model status.
+Use Human review required to open Your decision directly in the separate
+study-review session. This navigation preserves records and drafts; it saves no
+review. The session's cards do not inherit the loaded cycle's real-model status.
 
 2:10–2:40 — HUMAN DECISION
 Show the review form. The researcher records a reason for the exact saved

@@ -186,3 +186,9 @@ UI approval and software tests. Historical proposal/request artifacts and source
 fixtures retained. No live model call, new research evidence, biological validation,
 owner Mac access or hackathon submission. Synthetic fixtures do not establish
 adaptive model choice. Human contributor remains Yuvraj Patel.
+
+November 3 UTC — phosphorus-demo human-review handoff
+Inspected the five-scene public phosphorus story and its study-review/export path.
+The final Human review required link now opens Your decision directly; navigation
+preserves records, unsaved drafts and read-only status. No new scientific/model
+feature, provider call or hackathon submission. Base public commit: 9fe1cc0.
