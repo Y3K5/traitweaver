@@ -772,8 +772,8 @@
       "destination": "docs/SCREENING_SUMMARY.txt",
       "source": "docs/SCREENING_SUMMARY.txt",
       "source_sha256": "41d8ebab636d1ac24474f19b244c66efad9070d43fc5149b9269a633dfd91647",
-      "candidate_sha256": "f6561642ded9dc2a84095eb7bea7137d59afd0219cfe74cf16d2e3cdce587830",
-      "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke.",
+      "candidate_sha256": "cd3e81937a60875a0d14a15e6f087fddbc113ccfc1866dfd04ded57658ebf9d4",
+      "transformation": "November 3 managed cloud proxy compatibility over ee42024; prior mappings retained in cloud_smoke_proxy_compatibility.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "acf96b16be1b55190f99e2a22ae664e7158064bb4d0e9db20729a427201b67be",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
@@ -848,8 +848,8 @@
       "destination": "docs/VALIDATION.txt",
       "source": "docs/VALIDATION.txt",
       "source_sha256": "67943a61bdc6161d26f4ea70a9496a861ad2590ddfa9d310b2213ef4c5fdef10",
-      "candidate_sha256": "2d80bc44c0ed82d71cb1f0e1ebae01a33ed3b1bc92f445e5c2fa9f2f1450e5a4",
-      "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke.",
+      "candidate_sha256": "52cf4b8273aba120210c56f4245c744a81b2dd62b97e5fddcf20236f085f3e66",
+      "transformation": "November 3 managed cloud proxy compatibility over ee42024; prior mappings retained in cloud_smoke_proxy_compatibility.",
       "source_git_status": "local only; not committed or pushed"
     },
     {
@@ -1595,24 +1595,24 @@
       "source": "New public/synthetic cloud implementation",
       "source_sha256": null,
       "source_git_status": "new scoped cloud file",
-      "candidate_sha256": "a9e0c22b78f245b1bec9302e12274859f681e9b8bc08e190a3e15098ddc3515f",
-      "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke."
+      "candidate_sha256": "d8ae6c59e621502167819e528e2c1f05874f97153174d3f55f84a0bb0d9abdd3",
+      "transformation": "November 3 managed cloud proxy compatibility over ee42024; prior mappings retained in cloud_smoke_proxy_compatibility."
     },
     {
       "destination": "tests/test_muse_intelligence_smoke.py",
       "source": "New public/synthetic cloud implementation",
       "source_sha256": null,
       "source_git_status": "new scoped cloud file",
-      "candidate_sha256": "a44fe9d4a7140a12e1ebee466518defe73b8e3885d94518fd6c639c18a6f589e",
-      "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke."
+      "candidate_sha256": "a80a5c1a505f456609944d54c06a86dec1398a858222d8d40c79b7e362313afa",
+      "transformation": "November 3 managed cloud proxy compatibility over ee42024; prior mappings retained in cloud_smoke_proxy_compatibility."
     },
     {
       "destination": "tools/muse_intelligence_smoke.py",
       "source": "New public/synthetic cloud implementation",
       "source_sha256": null,
       "source_git_status": "new scoped cloud file",
-      "candidate_sha256": "5f55ed6bdcd4a4e80b991a6b8d8431c6b5ed1d52f8152cf97a2f570bf872dc66",
-      "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke."
+      "candidate_sha256": "8ae35574b3095203143abe9fae975fa25e8db90b1759ceee6abcbf79fde3afc0",
+      "transformation": "November 3 managed cloud proxy compatibility over ee42024; prior mappings retained in cloud_smoke_proxy_compatibility."
     }
   ],
   "additional_candidate_authorship": "Public-facing docs, synthetic replay/review package, exact-byte verifier, memory handler/controller tests and bounded adaptations; Codex",
@@ -3292,5 +3292,60 @@
     "private_packets_included": false,
     "scientific_inputs_changed": false,
     "exact_packet_is_unsigned_and_external": true
+  },
+  "cloud_smoke_proxy_compatibility": {
+    "base_commit": "ee42024bec0b4a61cd072e318459c35d58834946",
+    "prior_mapping": [
+      {
+        "destination": "tools/muse_intelligence_smoke.py",
+        "source": "New public/synthetic cloud implementation",
+        "source_sha256": null,
+        "source_git_status": "new scoped cloud file",
+        "candidate_sha256": "5f55ed6bdcd4a4e80b991a6b8d8431c6b5ed1d52f8152cf97a2f570bf872dc66",
+        "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke."
+      },
+      {
+        "destination": "tests/test_muse_intelligence_smoke.py",
+        "source": "New public/synthetic cloud implementation",
+        "source_sha256": null,
+        "source_git_status": "new scoped cloud file",
+        "candidate_sha256": "a44fe9d4a7140a12e1ebee466518defe73b8e3885d94518fd6c639c18a6f589e",
+        "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke."
+      },
+      {
+        "destination": "docs/INTELLIGENCE_SMOKE.txt",
+        "source": "New public/synthetic cloud implementation",
+        "source_sha256": null,
+        "source_git_status": "new scoped cloud file",
+        "candidate_sha256": "a9e0c22b78f245b1bec9302e12274859f681e9b8bc08e190a3e15098ddc3515f",
+        "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke."
+      },
+      {
+        "destination": "docs/VALIDATION.txt",
+        "source": "docs/VALIDATION.txt",
+        "source_sha256": "67943a61bdc6161d26f4ea70a9496a861ad2590ddfa9d310b2213ef4c5fdef10",
+        "candidate_sha256": "2d80bc44c0ed82d71cb1f0e1ebae01a33ed3b1bc92f445e5c2fa9f2f1450e5a4",
+        "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "docs/SCREENING_SUMMARY.txt",
+        "source": "docs/SCREENING_SUMMARY.txt",
+        "source_sha256": "41d8ebab636d1ac24474f19b244c66efad9070d43fc5149b9269a633dfd91647",
+        "candidate_sha256": "f6561642ded9dc2a84095eb7bea7137d59afd0219cfe74cf16d2e3cdce587830",
+        "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke.",
+        "source_git_status": "local only; not committed or pushed",
+        "pre_cleanup_candidate_sha256": "acf96b16be1b55190f99e2a22ae664e7158064bb4d0e9db20729a427201b67be",
+        "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+        "retained_local_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only. October 31 six-file metadata refresh: current five-scene instructions, dated history/check scope and historical authorization qualification; no source evidence changed.",
+        "retained_local_candidate_sha256": "55530f559f5d17dbf146441846ef2116861c3d40192ae93fb7ba60c31fe3096a",
+        "previous_candidate_sha256": "28a936dcc7006ac372b9b87b49d3856eabcd4726bf27a2877e3ac278510e5f0d",
+        "historical_transformation_label": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications."
+      }
+    ],
+    "new_provider_calls": 0,
+    "network_configuration_changed": false,
+    "private_packets_included": false,
+    "request_wire_bytes_changed": false
   }
 }

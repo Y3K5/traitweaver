@@ -244,5 +244,132 @@ class SmokeTests(unittest.TestCase):
         self.assertEqual(result['reserved_estimate_usd'], self.plan['reserved_estimate_usd'])
         self.assertEqual(result['status'], 'stopped'); self.assertNotIn('DO_NOT_SAVE', str(result))
 
+    def proxy_fixture(self, proxy='http://proxy:8080', version=1):
+        policy = Path(self.tmp.name)/'network-policy.json'
+        b.helper.atomic(policy, {'version': version, 'http_proxy': proxy,
+                               'http_network_policy': {'type': 'restricted', 'egress_rules': []}})
+        return policy
+
+    def test_runtime_proxy_routes_only_exact_meta_request_and_keeps_tls(self):
+        import ssl
+        policy = self.proxy_fixture()
+        with patch.object(b, 'NETWORK_POLICY', policy), patch.object(b.os, 'environ', {'HTTPS_PROXY': 'http://proxy:8080'}):
+            opener = b.runtime_proxy_opener()
+            proxy = next(h for h in opener.handlers if isinstance(h, b.RequiredProxy))
+            self.assertEqual(sum(isinstance(h, b.urllib.request.ProxyHandler) for h in opener.handlers), 1)
+            request = b.urllib.request.Request(b.v1.DESTINATION, data=b'{}', method='POST')
+            proxy.https_open(request)
+            self.assertEqual(request.host, 'proxy:8080')
+            self.assertEqual(request._tunnel_host, 'api.meta.ai')
+            self.assertEqual(request.full_url, b.v1.DESTINATION)
+            https = next(h for h in opener.handlers if isinstance(h, b.urllib.request.HTTPSHandler))
+            self.assertTrue(https._context.check_hostname)
+            self.assertEqual(https._context.verify_mode, ssl.CERT_REQUIRED)
+            for url in ('https://example.invalid/v1/responses', 'https://api.meta.ai/v1/models'):
+                with self.assertRaises(ValueError):
+                    proxy.https_open(b.urllib.request.Request(url, data=b'{}', method='POST'))
+            with self.assertRaises(ValueError): proxy.https_open(b.urllib.request.Request(b.v1.DESTINATION))
+            self.assertFalse(any(isinstance(h, b.urllib.request.HTTPCookieProcessor) for h in opener.handlers))
+
+    def test_missing_changed_malformed_or_bypassed_proxy_fails_closed(self):
+        policy = self.proxy_fixture()
+        for env in ({}, {'HTTPS_PROXY': 'http://other.invalid:8080'},
+                    {'HTTPS_PROXY': 'http://proxy:8080', 'NO_PROXY': '*'},
+                    {'HTTPS_PROXY': 'http://proxy:8080', 'no_proxy': 'api.meta.ai'},
+                    {'HTTPS_PROXY': 'http://proxy:8080', 'https_proxy': 'http://other.invalid:8080'}):
+            with patch.object(b, 'NETWORK_POLICY', policy), patch.object(b.os, 'environ', env):
+                with self.assertRaises(ValueError): b.runtime_proxy_opener()
+        for proxy, version in (('http://user:private@proxy:8080', 1), ('https://proxy:8080', 1),
+                               ('http://proxy:8080/path', 1), ('http://proxy:8080', 2), ('http://proxy:8080', True)):
+            policy = self.proxy_fixture(proxy, version)
+            with patch.object(b, 'NETWORK_POLICY', policy), patch.object(b.os, 'environ', {'HTTPS_PROXY': proxy}):
+                with self.assertRaises(ValueError): b.runtime_proxy_opener()
+        with patch.object(b, 'NETWORK_POLICY', Path(self.tmp.name)/'missing'):
+            with self.assertRaises(ValueError): b.runtime_proxy_opener()
+
+    def test_proxy_configuration_change_after_creation_cannot_fall_back(self):
+        policy = self.proxy_fixture(); env = {'HTTPS_PROXY': 'http://proxy:8080'}
+        with patch.object(b, 'NETWORK_POLICY', policy), patch.object(b.os, 'environ', env):
+            opener = b.runtime_proxy_opener()
+            proxy = next(h for h in opener.handlers if isinstance(h, b.RequiredProxy))
+            env['NO_PROXY'] = 'api.meta.ai'
+            with self.assertRaises(ValueError):
+                proxy.https_open(b.urllib.request.Request(b.v1.DESTINATION, data=b'{}', method='POST'))
+            self.assertEqual(env['NO_PROXY'], 'api.meta.ai')
+
+    def test_actual_urllib_chain_connects_only_to_proxy_and_tunnels_meta_offline(self):
+        import io
+        from email.message import Message
+        from types import SimpleNamespace
+        policy = self.proxy_fixture(); calls = []
+        raw = b.study.canonical({'model': b.v1.MODEL, 'status': 'completed', 'output': []}).encode()
+        class Response(io.BytesIO):
+            code = status = 200
+            reason = 'OK'
+            headers = Message()
+            def info(inner): return inner.headers
+        class Connection:
+            sock = None
+            debuglevel = 0
+            def __init__(inner, host, timeout, **kwargs):
+                calls.append(('connect', host))
+                self.assertTrue(kwargs['context'].check_hostname)
+            def set_debuglevel(inner, level): pass
+            def set_tunnel(inner, host, **kwargs): calls.append(('tunnel', host))
+            def request(inner, method, selector, data, headers, **kwargs): calls.append(('request', method, selector))
+            def getresponse(inner): return Response(raw)
+            def close(inner): pass
+        with patch.object(b, 'NETWORK_POLICY', policy), patch.object(b.os, 'environ', {'HTTPS_PROXY': 'http://proxy:8080'}), patch('http.client.HTTPSConnection', Connection):
+            capture = b.Capture(SimpleNamespace(DESTINATION=b.v1.DESTINATION, MODEL=b.v1.MODEL,
+                                              MAX_RESPONSE=b.v1.MAX_RESPONSE, study=b.study))
+            request = b.urllib.request.Request(b.v1.DESTINATION, data=b'{}', method='POST')
+            with capture.open(request, 60) as response: self.assertEqual(response.read(b.v1.MAX_RESPONSE+1), raw)
+        self.assertEqual(calls, [('connect', 'proxy:8080'), ('tunnel', 'api.meta.ai'), ('request', 'POST', '/v1/responses')])
+        calls.clear()
+        with patch.object(b, 'NETWORK_POLICY', policy), patch.object(b.os, 'environ', {'HTTPS_PROXY': 'http://proxy:8080'}), patch('http.client.HTTPSConnection', Connection), patch.object(Connection, 'request', side_effect=OSError('private denied CONNECT')):
+            capture = b.Capture(SimpleNamespace(DESTINATION=b.v1.DESTINATION, MODEL=b.v1.MODEL,
+                                              MAX_RESPONSE=b.v1.MAX_RESPONSE, study=b.study))
+            request = b.urllib.request.Request(b.v1.DESTINATION, data=b'{}', method='POST')
+            with self.assertRaises(b.helper.diagnostics.SafeFailure) as failed: capture.open(request, 60)
+        self.assertEqual(calls, [('connect', 'proxy:8080'), ('tunnel', 'api.meta.ai')])
+        self.assertEqual(failed.exception.diagnostic['code'], 'network_error')
+        self.assertNotIn('private denied', str(failed.exception.diagnostic))
+
+    def test_proxy_denial_and_redirect_do_not_retry_or_switch_routes(self):
+        import io
+        import urllib.error
+        from types import SimpleNamespace
+        policy = self.proxy_fixture(); attempts = []
+        with patch.object(b, 'NETWORK_POLICY', policy), patch.object(b.os, 'environ', {'HTTPS_PROXY': 'http://proxy:8080'}):
+            capture = b.Capture(SimpleNamespace(DESTINATION=b.v1.DESTINATION, MODEL=b.v1.MODEL,
+                                              MAX_RESPONSE=b.v1.MAX_RESPONSE, study=b.study))
+            redirect = next(h for h in capture.opener.handlers if isinstance(h, b.urllib.request.HTTPRedirectHandler))
+            request = b.urllib.request.Request(b.v1.DESTINATION, data=b'{}', method='POST')
+            self.assertIsNone(redirect.redirect_request(request, None, 302, 'Found', {}, 'https://example.invalid'))
+            def reject(request, timeout):
+                attempts.append(request.full_url)
+                raise urllib.error.HTTPError(request.full_url, 403, 'private denial', {}, io.BytesIO(b'{}'))
+            with patch.object(capture.opener, 'open', side_effect=reject):
+                with self.assertRaises(b.helper.diagnostics.SafeFailure) as failed:
+                    capture.open(request, 60)
+            self.assertEqual(attempts, [b.v1.DESTINATION])
+            self.assertEqual(failed.exception.diagnostic['code'], 'http_permission_rejected')
+            self.assertNotIn('private denial', str(failed.exception.diagnostic))
+
+    def test_proxy_preflight_blocks_before_credentials_or_attempt_marker(self):
+        self.grant(live=True)
+        with patch.object(b.sys.stdin, 'isatty', return_value=True), patch.object(b.sys.stderr, 'isatty', return_value=True), patch.object(b, 'runtime_proxy_opener', side_effect=ValueError('Missing proxy')):
+            with self.assertRaises(ValueError):
+                b.run(self.packet, approval_sha256=self.plan['approval_sha256'], allow_live=True)
+        self.credential.assert_not_called()
+        self.assertFalse((self.packet/'ATTEMPT.started').exists())
+
+    def test_transport_policy_is_bound_to_fresh_unsigned_review(self):
+        self.assertEqual(self.plan['transport_policy'], b.TRANSPORT_POLICY)
+        plan = deepcopy(self.plan); del plan['transport_policy']
+        plan['approval_sha256'] = b.study.digest({k: v for k, v in plan.items() if k != 'approval_sha256'})
+        b.helper.atomic(self.packet/'PLAN.json', plan)
+        with self.assertRaises(ValueError): b.verify_packet(self.packet)
+
 
 if __name__ == '__main__': unittest.main()

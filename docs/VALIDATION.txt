@@ -798,3 +798,40 @@ Current cloud network policy excludes api.meta.ai; no credentials configured.
 No real approved grant, credential read, model call or charges in this work.
 Packets/receipts/logs are outside the candidate. Exact live approval and account/
 network readiness remain separate. No scientific validation or live demo claimed.
+
+NOVEMBER 3 UTC — MANAGED CLOUD PROXY COMPATIBILITY
+Base public main: ee42024bec0b4a61cd072e318459c35d58834946.
+Only the new single-request adapter changes transport routing. It requires the
+inherited HTTPS proxy to match supported non-secret runtime metadata, rejects
+missing/changed/bypassed routing, and checks before credentials and at dispatch.
+The full urllib chain uses the configured proxy and CONNECT api.meta.ai with
+certificate and hostname verification. No redirects, cookies, direct fallback,
+alternate endpoints or policy changes. Runtime enforcement remains authoritative.
+
+23 focused offline tests passed in 7.460 seconds. The final full relevant Muse
+runner suite passed 166 tests. New cases cover full handler-chain success and
+CONNECT denial using a fake HTTPSConnection, verified TLS, destination/method
+restriction, missing/malformed/changed proxy metadata, conflicting NO_PROXY,
+denial/redirect without retry, pre-credential rejection and transport-policy pins.
+The first full-chain test double lacked standard HTTPResponse/connection members;
+those test-only omissions were corrected before the final passing runs. Socket
+creation and real credential access remain blocked in these tests. Independent
+technical review also exercised the full handler chain offline without defects.
+No actual proxy/Meta connectivity or authentication test was attempted.
+
+Actual CLI prepare/verify passed for a fresh external unsigned review packet.
+REQUEST.json and SOURCE.json are byte-identical to the previous packet. The
+36,110-byte request retains SHA256 cdab33d6cf54edbdf6ec049a53794a77cf410e3dd3e50f9fc66217215925f66d.
+The new approval hash binds changed adapter code and required-proxy policy.
+The prior packet is unchanged; its approval cannot authorize this adapter.
+Budget/output proposal remains one request/1024 output tokens/USD0.10 ceiling;
+planning estimate USD0.015636375, conservative reservation USD0.0507695.
+All src/data, original transports, browser and old scientific/model contracts
+remain byte-identical. Their prior validation is historical, not a new full-app
+or browser-suite claim. Exact candidate membership remains 193 files.
+
+The current enforced restricted network still excludes api.meta.ai. No credential
+binding is configured. Only read-only environment tools are exposed; the supported
+next step is user-reviewed addition of api.meta.ai to Allowed hosts while retaining
+Restricted mode. Runtime policy/proxy/CA settings, account state and billing were
+not changed. No model call, secret read, paid use or approved grant in this work.

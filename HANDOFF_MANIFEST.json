@@ -1,11 +1,11 @@
 {
   "schema_version": "traitweaver.final_repository_handoff.v1",
-  "status": "traitweaver_cloud_intelligence_smoke_screened_for_publication",
+  "status": "traitweaver_cloud_smoke_proxy_screened_for_publication",
   "prepared_date": "2026-11-03",
-  "refresh": "Separate disabled-by-default single Meta request adapter over a fixed public/synthetic v2 history; exact live approval remains separate.",
+  "refresh": "Single smoke adapter uses required managed proxy with verified TLS and no direct fallback; refreshed unsigned packet binds changed code.",
   "publication_approved": true,
   "claude_review_performed": false,
-  "review_status": "Scoped cloud publication authorized. Offline transport and intelligence checks passed; no live run, credential read or provider charges.",
+  "review_status": "Scoped cloud publication authorized. Offline checks passed; runtime allowlist, account readiness and exact paid-request approval remain separate.",
   "scope": "Public/synthetic research-workspace code plus documentation. Documentary real Meta contribution is described; real packets, media and new provider execution are excluded.",
   "files": [
     {
@@ -35,8 +35,8 @@
     },
     {
       "path": "SOURCE_PROVENANCE.json",
-      "sha256": "1243612d605264bcabf3b74d6b4861ceca7cf3a28d20a377d0eebea9540988a3",
-      "bytes": 246258
+      "sha256": "fdfefed8d6f9d6368059d8f3f7dce3cf5dcd61264004b718bc88862d1642fda2",
+      "bytes": 250327
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -270,8 +270,8 @@
     },
     {
       "path": "docs/INTELLIGENCE_SMOKE.txt",
-      "sha256": "a9e0c22b78f245b1bec9302e12274859f681e9b8bc08e190a3e15098ddc3515f",
-      "bytes": 6647
+      "sha256": "d8ae6c59e621502167819e528e2c1f05874f97153174d3f55f84a0bb0d9abdd3",
+      "bytes": 8530
     },
     {
       "path": "docs/LIVE_RUN_SUMMARY.txt",
@@ -340,13 +340,13 @@
     },
     {
       "path": "docs/SCREENING_SUMMARY.txt",
-      "sha256": "f6561642ded9dc2a84095eb7bea7137d59afd0219cfe74cf16d2e3cdce587830",
-      "bytes": 20806
+      "sha256": "cd3e81937a60875a0d14a15e6f087fddbc113ccfc1866dfd04ded57658ebf9d4",
+      "bytes": 21450
     },
     {
       "path": "docs/VALIDATION.txt",
-      "sha256": "2d80bc44c0ed82d71cb1f0e1ebae01a33ed3b1bc92f445e5c2fa9f2f1450e5a4",
-      "bytes": 52848
+      "sha256": "52cf4b8273aba120210c56f4245c744a81b2dd62b97e5fddcf20236f085f3e66",
+      "bytes": 55427
     },
     {
       "path": "docs/WHAT_WE_BUILT.txt",
@@ -830,8 +830,8 @@
     },
     {
       "path": "tests/test_muse_intelligence_smoke.py",
-      "sha256": "a44fe9d4a7140a12e1ebee466518defe73b8e3885d94518fd6c639c18a6f589e",
-      "bytes": 15006
+      "sha256": "a80a5c1a505f456609944d54c06a86dec1398a858222d8d40c79b7e362313afa",
+      "bytes": 23979
     },
     {
       "path": "tests/test_protein_card.py",
@@ -955,8 +955,8 @@
     },
     {
       "path": "tools/muse_intelligence_smoke.py",
-      "sha256": "5f55ed6bdcd4a4e80b991a6b8d8431c6b5ed1d52f8152cf97a2f570bf872dc66",
-      "bytes": 21054
+      "sha256": "8ae35574b3095203143abe9fae975fa25e8db90b1759ceee6abcbf79fde3afc0",
+      "bytes": 24202
     },
     {
       "path": "tools/verify_handoff.py",
@@ -994,7 +994,7 @@
     "review_status": "Local software/browser verification; independent scientific and publication review pending",
     "scope": "Local public/synthetic fixed-case research workbench and scientific showcase; no live provider contribution, laboratory execution or organism design"
   },
-  "base_public_commit": "58481e9194248876900564b086b12dbd7d0849ee",
+  "base_public_commit": "ee42024bec0b4a61cd072e318459c35d58834946",
   "historical_validation_and_screening": {
     "tests": {
       "offline_unit_tests": 302,
@@ -1180,17 +1180,17 @@
     }
   },
   "current_validation": {
-    "base_commit": "58481e9194248876900564b086b12dbd7d0849ee",
+    "base_commit": "ee42024bec0b4a61cd072e318459c35d58834946",
     "exact_candidate_files": 193,
-    "focused_offline_tests": 16,
-    "muse_regression_tests": 158,
-    "muse_scope": "Final adapter code; test-only fixed clock and expiry addition covered by final focused rerun.",
-    "intelligence_regression_tests": 128,
-    "primary_public_reference_files_verified": 5,
-    "cli_prepare_verify": "passed_unsigned_external_packet",
+    "focused_offline_tests": 23,
+    "muse_regression_tests": 166,
+    "full_urllib_handler_chain": "synthetic HTTPSConnection; actual sockets blocked",
+    "cli_prepare_verify": "passed_new_unsigned_external_packet",
+    "old_packet_and_wire_unchanged": true,
     "new_provider_calls": 0,
-    "full_python_and_browser_suites": "Not repeated; application/core/UI bytes unchanged.",
-    "live_execution": "Disabled, unapproved and blocked by cloud network/account readiness."
+    "network_configuration_changed": false,
+    "full_app_and_browser_suites": "Not repeated; application/core/UI unchanged.",
+    "live_execution": "Unapproved and blocked by current cloud network/account readiness."
   },
   "historical_prepublication_metadata_2026_11_01": {
     "status": "documentation_cleanup_candidate_pending_owner_review",
@@ -1658,5 +1658,24 @@
       "human_timed_video": "Not performed or supplied"
     },
     "base_public_commit": "9fe1cc07052b658cd05f6aa7c603a54d49e86418"
+  },
+  "historical_before_smoke_proxy": {
+    "status": "traitweaver_cloud_intelligence_smoke_screened_for_publication",
+    "refresh": "Separate disabled-by-default single Meta request adapter over a fixed public/synthetic v2 history; exact live approval remains separate.",
+    "review_status": "Scoped cloud publication authorized. Offline transport and intelligence checks passed; no live run, credential read or provider charges.",
+    "current_validation": {
+      "base_commit": "58481e9194248876900564b086b12dbd7d0849ee",
+      "exact_candidate_files": 193,
+      "focused_offline_tests": 16,
+      "muse_regression_tests": 158,
+      "muse_scope": "Final adapter code; test-only fixed clock and expiry addition covered by final focused rerun.",
+      "intelligence_regression_tests": 128,
+      "primary_public_reference_files_verified": 5,
+      "cli_prepare_verify": "passed_unsigned_external_packet",
+      "new_provider_calls": 0,
+      "full_python_and_browser_suites": "Not repeated; application/core/UI bytes unchanged.",
+      "live_execution": "Disabled, unapproved and blocked by cloud network/account readiness."
+    },
+    "base_public_commit": "58481e9194248876900564b086b12dbd7d0849ee"
   }
 }

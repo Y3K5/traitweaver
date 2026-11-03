@@ -317,3 +317,12 @@ All src/data and pre-existing transport files remain byte-identical to the base.
 Only the CLI prepare/verify actions ran on the real unsigned packet. No owner
 grant or attempt marker exists in that packet. Pattern screening is not proof of
 absence or authorization for future artifacts, data transmission or spending.
+
+November 3 UTC managed proxy repair: complete outgoing contents/diff from ee42024
+screened. Seven files cover the single-request adapter, explicit synthetic proxy
+tests, guidance, validation/screening and provenance/file manifests. No private
+research, real credential, personal path, generated packet or unrelated work was
+included. Synthetic proxy credentials in rejection tests are fixed test strings.
+Existing source data, contracts and historical transports remain unchanged.
+The old and refreshed unsigned packets are external and no grant/attempt marker
+was created. Screening is scoped to these bytes, not a general privacy guarantee.

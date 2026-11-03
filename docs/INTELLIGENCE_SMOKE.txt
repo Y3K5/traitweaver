@@ -63,9 +63,35 @@ The cloud configuration inspected during development blocks api.meta.ai and
 has no credential bindings. No network policy or credential configuration was
 changed. Authorized network access and account setup remain execution blockers;
 an existing key or network permission would not grant payload/spending approval.
-The transport rejects redirects and does not inherit machine proxy routing.
+The refreshed adapter requires the inherited HTTPS proxy to match the managed
+runtime's non-secret routing metadata. Missing/changed proxy settings, unsupported
+metadata or a NO_PROXY rule for Meta stop before credential access. It uses that
+proxy for HTTPS CONNECT, keeps the inherited CA trust and TLS hostname/certificate
+verification, rejects redirects, and has no direct or alternate-route fallback.
+The enforced runtime remains the network authority; a proxy/policy denial stops
+the attempted request without retry. The adapter never edits network settings.
 Its 60-second timeout applies to socket operations, not a guaranteed total wall
 time or provider cancellation. An interrupted request can still incur charges.
+
+SUPPORTED CONFIGURATION NEXT STEP
+In this Traitweaver cloud environment's supported configuration workflow, retain
+Restricted HTTP networking and add exactly api.meta.ai to Allowed hosts. Preserve
+the existing presets and other settings; apply through the workflow's user review.
+Then recheck current environment status: observations_current=true, network
+state=enforced, and effective_allowed_hosts containing api.meta.ai. These are
+configuration checks, not proof of account authorization or successful inference.
+Only status/diagnostic tools are exposed in this thread; no configuration mutation
+tool is available. The startup /etc/codex/network-policy.json is an observation,
+not an editable permission grant. Do not edit it, alter proxy/NO_PROXY settings,
+disable TLS, use another endpoint, or switch to an alternate network route.
+No network/credential configuration was changed during this proxy repair.
+Account/model access and billing/credits remain unverified; a secure credential
+binding and exact paid-request approval are independent execution prerequisites.
+
+The older packet beginning 01eab773 remains unchanged and unsigned. Changed
+adapter code requires a fresh location/code-bound PLAN approval hash even though
+REQUEST.json wire bytes and the proposed token/budget limits remain unchanged.
+Fresh plans explicitly bind managed_runtime_https_proxy_required_no_direct_fallback.
 
 At execution, code/data/request/location/approval/expiry pins are rechecked after
 any key prompt and again at the lowest send entry. Reviews expire after 24 hours;
