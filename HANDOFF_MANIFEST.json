@@ -1,11 +1,11 @@
 {
   "schema_version": "traitweaver.final_repository_handoff.v1",
-  "status": "traitweaver_cloud_demo_handoff_screened_for_publication",
+  "status": "traitweaver_cloud_intelligence_smoke_screened_for_publication",
   "prepared_date": "2026-11-03",
-  "refresh": "Focused phosphorus-showcase handoff opens Your decision directly without changing any stored content, provenance or review authority.",
+  "refresh": "Separate disabled-by-default single Meta request adapter over a fixed public/synthetic v2 history; exact live approval remains separate.",
   "publication_approved": true,
   "claude_review_performed": false,
-  "review_status": "Scoped user authorization covers screened Traitweaver cloud publication. Native showcase inspection and focused regressions passed. Final video, rights/eligibility and human scientific/usefulness review remain separate.",
+  "review_status": "Scoped cloud publication authorized. Offline transport and intelligence checks passed; no live run, credential read or provider charges.",
   "scope": "Public/synthetic research-workspace code plus documentation. Documentary real Meta contribution is described; real packets, media and new provider execution are excluded.",
   "files": [
     {
@@ -25,18 +25,18 @@
     },
     {
       "path": "PUBLIC_FILES.txt",
-      "sha256": "757b352d84f376ac31df976afb8044abff9bf67340cffa6d2283a375996f4911",
-      "bytes": 6280
+      "sha256": "c92d80d54347caab16df17e176e1df5358f5dbcc3471270f5af1f00dcf439e7f",
+      "bytes": 6379
     },
     {
       "path": "README.md",
-      "sha256": "294793eb93de74a0ca88db3bbc380ef3a9805f7eefb7834ff65b1634220c1221",
-      "bytes": 22197
+      "sha256": "8c416086cb49692b8cb3b210dba49146b603bf54cfb135efa7b8f7868cb4be7a",
+      "bytes": 22547
     },
     {
       "path": "SOURCE_PROVENANCE.json",
-      "sha256": "cb1b51ec6c68833c281acc48cc48453b182e25ad1b71a0274cd42657ed4f4fc8",
-      "bytes": 239117
+      "sha256": "1243612d605264bcabf3b74d6b4861ceca7cf3a28d20a377d0eebea9540988a3",
+      "bytes": 246258
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -269,6 +269,11 @@
       "bytes": 36526
     },
     {
+      "path": "docs/INTELLIGENCE_SMOKE.txt",
+      "sha256": "a9e0c22b78f245b1bec9302e12274859f681e9b8bc08e190a3e15098ddc3515f",
+      "bytes": 6647
+    },
+    {
       "path": "docs/LIVE_RUN_SUMMARY.txt",
       "sha256": "e202b4f19a454d2d6f2cae1f054cb34f60cacf173a022a66454e8b4795f9c741",
       "bytes": 2458
@@ -335,13 +340,13 @@
     },
     {
       "path": "docs/SCREENING_SUMMARY.txt",
-      "sha256": "ba5522d5cc55abfa55c8de0ec256c7afbc3b2dc4f99f97f8b11d9be77e0e2d45",
-      "bytes": 20011
+      "sha256": "f6561642ded9dc2a84095eb7bea7137d59afd0219cfe74cf16d2e3cdce587830",
+      "bytes": 20806
     },
     {
       "path": "docs/VALIDATION.txt",
-      "sha256": "117f7db696c8ca4b81e1d943b54419fe984c181168d21716ef04fe4bc942ba90",
-      "bytes": 50450
+      "sha256": "2d80bc44c0ed82d71cb1f0e1ebae01a33ed3b1bc92f445e5c2fa9f2f1450e5a4",
+      "bytes": 52848
     },
     {
       "path": "docs/WHAT_WE_BUILT.txt",
@@ -824,6 +829,11 @@
       "bytes": 20503
     },
     {
+      "path": "tests/test_muse_intelligence_smoke.py",
+      "sha256": "a44fe9d4a7140a12e1ebee466518defe73b8e3885d94518fd6c639c18a6f589e",
+      "bytes": 15006
+    },
+    {
       "path": "tests/test_protein_card.py",
       "sha256": "effe9485ff39dc2e5b92e3b9cfaa461a920698371f1300f7c22dcdb6ea6a3369",
       "bytes": 10312
@@ -944,6 +954,11 @@
       "bytes": 2798
     },
     {
+      "path": "tools/muse_intelligence_smoke.py",
+      "sha256": "5f55ed6bdcd4a4e80b991a6b8d8431c6b5ed1d52f8152cf97a2f570bf872dc66",
+      "bytes": 21054
+    },
+    {
       "path": "tools/verify_handoff.py",
       "sha256": "f6d203957b7e7b85b4c0929a8fc8d188d0a460f7662122803eff6a5affca9bf5",
       "bytes": 2426
@@ -979,7 +994,7 @@
     "review_status": "Local software/browser verification; independent scientific and publication review pending",
     "scope": "Local public/synthetic fixed-case research workbench and scientific showcase; no live provider contribution, laboratory execution or organism design"
   },
-  "base_public_commit": "9fe1cc07052b658cd05f6aa7c603a54d49e86418",
+  "base_public_commit": "58481e9194248876900564b086b12dbd7d0849ee",
   "historical_validation_and_screening": {
     "tests": {
       "offline_unit_tests": 302,
@@ -1165,33 +1180,17 @@
     }
   },
   "current_validation": {
-    "base_commit": "9fe1cc07052b658cd05f6aa7c603a54d49e86418",
-    "exact_candidate_files": 190,
-    "journey_controller_checks": 61,
-    "completed_cycle_http_checks": 21,
-    "native_browser": {
-      "checks": 22,
-      "status": "passed",
-      "viewports": [
-        [
-          1440,
-          1000
-        ],
-        [
-          390,
-          844
-        ]
-      ],
-      "page_errors": 0,
-      "external_requests": 0,
-      "keyboard_and_unsaved_drafts": true,
-      "native_json_text_export_and_readonly_reopen": true,
-      "original_cycle_unchanged": true,
-      "review_fixture": "Explicitly synthetic rehearsal, not owner approval"
-    },
-    "full_python_suite": "Not rerun: backend and scientific/model contracts unchanged; prior538-test result retained in historical record.",
+    "base_commit": "58481e9194248876900564b086b12dbd7d0849ee",
+    "exact_candidate_files": 193,
+    "focused_offline_tests": 16,
+    "muse_regression_tests": 158,
+    "muse_scope": "Final adapter code; test-only fixed clock and expiry addition covered by final focused rerun.",
+    "intelligence_regression_tests": 128,
+    "primary_public_reference_files_verified": 5,
+    "cli_prepare_verify": "passed_unsigned_external_packet",
     "new_provider_calls": 0,
-    "human_timed_video": "Not performed or supplied"
+    "full_python_and_browser_suites": "Not repeated; application/core/UI bytes unchanged.",
+    "live_execution": "Disabled, unapproved and blocked by cloud network/account readiness."
   },
   "historical_prepublication_metadata_2026_11_01": {
     "status": "documentation_cleanup_candidate_pending_owner_review",
@@ -1624,5 +1623,40 @@
       "Remaining component/design/GFP/media rights and exact submission-form/terms decisions remain open.",
       "Human-timed demonstration, comprehension and independent scientific/usefulness review remain pending."
     ]
+  },
+  "historical_before_intelligence_smoke": {
+    "status": "traitweaver_cloud_demo_handoff_screened_for_publication",
+    "refresh": "Focused phosphorus-showcase handoff opens Your decision directly without changing any stored content, provenance or review authority.",
+    "review_status": "Scoped user authorization covers screened Traitweaver cloud publication. Native showcase inspection and focused regressions passed. Final video, rights/eligibility and human scientific/usefulness review remain separate.",
+    "current_validation": {
+      "base_commit": "9fe1cc07052b658cd05f6aa7c603a54d49e86418",
+      "exact_candidate_files": 190,
+      "journey_controller_checks": 61,
+      "completed_cycle_http_checks": 21,
+      "native_browser": {
+        "checks": 22,
+        "status": "passed",
+        "viewports": [
+          [
+            1440,
+            1000
+          ],
+          [
+            390,
+            844
+          ]
+        ],
+        "page_errors": 0,
+        "external_requests": 0,
+        "keyboard_and_unsaved_drafts": true,
+        "native_json_text_export_and_readonly_reopen": true,
+        "original_cycle_unchanged": true,
+        "review_fixture": "Explicitly synthetic rehearsal, not owner approval"
+      },
+      "full_python_suite": "Not rerun: backend and scientific/model contracts unchanged; prior538-test result retained in historical record.",
+      "new_provider_calls": 0,
+      "human_timed_video": "Not performed or supplied"
+    },
+    "base_public_commit": "9fe1cc07052b658cd05f6aa7c603a54d49e86418"
   }
 }

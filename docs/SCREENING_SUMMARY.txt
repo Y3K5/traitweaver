@@ -306,3 +306,14 @@ material, secret-shaped content, personal paths or unrelated changes found.
 Synthetic rehearsal records, screenshots and logs are not published. Evidence,
 model/approval contracts and all backend files are unchanged. Screening applies
 to these exact bytes and is not a blanket privacy or rights certification.
+
+November 3 UTC intelligence smoke adapter: exact outgoing contents and diff from
+58481e9 screened. Scope is one standalone approval-gated transport adapter,
+public/synthetic offline regressions, documentation and exact metadata refresh.
+No private research, credential values, personal paths, raw responses, generated
+packets or unrelated work included. Fake credentials and grants in tests are
+explicit temporary synthetic fixtures; execution tokens are never read by tests.
+All src/data and pre-existing transport files remain byte-identical to the base.
+Only the CLI prepare/verify actions ran on the real unsigned packet. No owner
+grant or attempt marker exists in that packet. Pattern screening is not proof of
+absence or authorization for future artifacts, data transmission or spending.

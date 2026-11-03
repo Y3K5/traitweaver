@@ -278,6 +278,11 @@ The already completed real contribution is described in docs/LIVE_RUN_SUMMARY.tx
 
 ## Verify locally
 
+The separately gated [single-request Meta intelligence smoke test](docs/INTELLIGENCE_SMOKE.txt)
+prepares a fixed public/synthetic v2 continuation packet offline. It is disabled
+by default and requires a new exact payload/budget approval for any live attempt;
+no live intelligence run is claimed. The browser and historical contracts stay unchanged.
+
 ```sh
 PYTHONPATH=src python3 -B -m unittest discover -s tests -p 'test_*.py' -q
 PYTHONPATH=src python3 -B tests/check_workspace_http.py

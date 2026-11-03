@@ -763,3 +763,38 @@ historical, not a new full-suite claim. Reports, screenshots and synthetic rehea
 exports stay outside the candidate. Automation elapsed time is not qualification
 of a human-timed three-minute narration or final video. Final video, media/rights,
 eligibility/terms and independent scientific/usefulness review remain open.
+
+NOVEMBER 3 UTC — SINGLE INTELLIGENCE TRANSPORT SMOKE ADAPTER
+Base public main: 58481e9194248876900564b086b12dbd7d0849ee.
+New standalone CLI prepares one exact public/synthetic v2 continuation. Two
+eligible checks remain after an actual fixed local audit with synthetic decision
+and reassessment. The unchanged 1024-token contract may yield an incomplete
+response; no retry. No v1/v2/v3 contract, old transport, source or UI changed.
+
+Final focused suite: 16 offline tests passed (5.695 seconds). Covers unsigned
+exact preparation, body/source/code/approval/budget/location/expiry guards,
+numeric-versus-boolean approval rejection, real-terminal/default-disable gates,
+lowest send reservation and duplicate gates, read-only no-dispatch reopening,
+fake provenance, partial/invalid/missing/over-limit usage, incomplete replies,
+HTTP rejection counts and sanitized failures. Tests freeze their pricing clock;
+explicit expiry tests exercise the production gate. All sockets and real
+credentials are blocked; HTTP tests use in-memory synthetic responses only.
+
+The full relevant Muse runner regression suite passed 158 tests on the final
+adapter code before the test-only fixed-clock/expiry case addition; the final
+16-test focused rerun includes that addition. The unchanged intelligence suites
+passed 128 tests in 280.668 seconds. Five public reference files and their pins
+verified. Independent technical review found and resolved missing HTTP-error
+usage accounting and a clock-dependent test. Full application/browser suites
+were not repeated because application/core/UI files are unchanged.
+
+Actual CLI prepare and verify succeeded for an unsigned external packet. Exact
+request: 36110 bytes, SHA256 cdab33d6cf54edbdf6ec049a53794a77cf410e3dd3e50f9fc66217215925f66d.
+Planning estimate USD0.015636375; conservative reservation USD0.0507695;
+proposed application ceiling USD0.10 for one attempted call/1024 output tokens.
+These are estimates, not a provider billing guarantee. Public Meta Standard
+pricing checked November 3; account, credits, billing and access remain unknown.
+Current cloud network policy excludes api.meta.ai; no credentials configured.
+No real approved grant, credential read, model call or charges in this work.
+Packets/receipts/logs are outside the candidate. Exact live approval and account/
+network readiness remain separate. No scientific validation or live demo claimed.

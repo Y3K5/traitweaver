@@ -458,8 +458,8 @@
       "destination": "PUBLIC_FILES.txt",
       "source": "PUBLIC_FILES.txt",
       "source_sha256": "2d8468a3c4d0d6701d6973470a5a3b128c2f30f2bcb1c62c44c004c1b19a39c3",
-      "candidate_sha256": "757b352d84f376ac31df976afb8044abff9bf67340cffa6d2283a375996f4911",
-      "transformation": "November 3 UTC separately approved v3 local execution over 5ee2ce6. Original source fields retained; prior mappings in cloud_v3_execution_approval. Historical request/proposal bytes and scientific fixtures preserved.",
+      "candidate_sha256": "c92d80d54347caab16df17e176e1df5358f5dbcc3471270f5af1f00dcf439e7f",
+      "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "ff6baaacf0c736154bf3dcfd020c3c2c0d9ab1ccfb5f92aa1838e469a8284f1b",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
@@ -470,8 +470,8 @@
       "destination": "README.md",
       "source": "README.md",
       "source_sha256": "48bd81e91c4a69754d30551fb3ac3db3058b79c6d8223c1bc06f19992ca2ff24",
-      "candidate_sha256": "294793eb93de74a0ca88db3bbc380ef3a9805f7eefb7834ff65b1634220c1221",
-      "transformation": "November 3 UTC separately approved v3 local execution over 5ee2ce6. Original source fields retained; prior mappings in cloud_v3_execution_approval. Historical request/proposal bytes and scientific fixtures preserved.",
+      "candidate_sha256": "8c416086cb49692b8cb3b210dba49146b603bf54cfb135efa7b8f7868cb4be7a",
+      "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "f08157896b1176a2cd121807eb2642a37e80297c2b73c00a4e5895dbcd5df3c6",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
@@ -772,8 +772,8 @@
       "destination": "docs/SCREENING_SUMMARY.txt",
       "source": "docs/SCREENING_SUMMARY.txt",
       "source_sha256": "41d8ebab636d1ac24474f19b244c66efad9070d43fc5149b9269a633dfd91647",
-      "candidate_sha256": "ba5522d5cc55abfa55c8de0ec256c7afbc3b2dc4f99f97f8b11d9be77e0e2d45",
-      "transformation": "November 3 UTC phosphorus-demo navigation handoff over9fe1cc0. Original source fields retained; prior mappings in cloud_demo_review_handoff. No backend or scientific-contract change.",
+      "candidate_sha256": "f6561642ded9dc2a84095eb7bea7137d59afd0219cfe74cf16d2e3cdce587830",
+      "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "acf96b16be1b55190f99e2a22ae664e7158064bb4d0e9db20729a427201b67be",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
@@ -848,8 +848,8 @@
       "destination": "docs/VALIDATION.txt",
       "source": "docs/VALIDATION.txt",
       "source_sha256": "67943a61bdc6161d26f4ea70a9496a861ad2590ddfa9d310b2213ef4c5fdef10",
-      "candidate_sha256": "117f7db696c8ca4b81e1d943b54419fe984c181168d21716ef04fe4bc942ba90",
-      "transformation": "November 3 UTC phosphorus-demo navigation handoff over9fe1cc0. Original source fields retained; prior mappings in cloud_demo_review_handoff. No backend or scientific-contract change.",
+      "candidate_sha256": "2d80bc44c0ed82d71cb1f0e1ebae01a33ed3b1bc92f445e5c2fa9f2f1450e5a4",
+      "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke.",
       "source_git_status": "local only; not committed or pushed"
     },
     {
@@ -1589,6 +1589,30 @@
       "candidate_sha256": "9d5dd77d19007f31782220d941b870fea36903efe6ccb1b28723f648941b4a88",
       "transformation": "New public/synthetic acceptance tests for separate v3 human execution approval.",
       "source_git_status": "new cloud implementation"
+    },
+    {
+      "destination": "docs/INTELLIGENCE_SMOKE.txt",
+      "source": "New public/synthetic cloud implementation",
+      "source_sha256": null,
+      "source_git_status": "new scoped cloud file",
+      "candidate_sha256": "a9e0c22b78f245b1bec9302e12274859f681e9b8bc08e190a3e15098ddc3515f",
+      "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke."
+    },
+    {
+      "destination": "tests/test_muse_intelligence_smoke.py",
+      "source": "New public/synthetic cloud implementation",
+      "source_sha256": null,
+      "source_git_status": "new scoped cloud file",
+      "candidate_sha256": "a44fe9d4a7140a12e1ebee466518defe73b8e3885d94518fd6c639c18a6f589e",
+      "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke."
+    },
+    {
+      "destination": "tools/muse_intelligence_smoke.py",
+      "source": "New public/synthetic cloud implementation",
+      "source_sha256": null,
+      "source_git_status": "new scoped cloud file",
+      "candidate_sha256": "5f55ed6bdcd4a4e80b991a6b8d8431c6b5ed1d52f8152cf97a2f570bf872dc66",
+      "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke."
     }
   ],
   "additional_candidate_authorship": "Public-facing docs, synthetic replay/review package, exact-byte verifier, memory handler/controller tests and bounded adaptations; Codex",
@@ -3211,5 +3235,62 @@
     "new_provider_calls": 0,
     "private_packets_included": false,
     "scientific_inputs_changed": false
+  },
+  "cloud_intelligence_smoke": {
+    "base_commit": "58481e9194248876900564b086b12dbd7d0849ee",
+    "prior_mapping": [
+      {
+        "destination": "README.md",
+        "source": "README.md",
+        "source_sha256": "48bd81e91c4a69754d30551fb3ac3db3058b79c6d8223c1bc06f19992ca2ff24",
+        "candidate_sha256": "294793eb93de74a0ca88db3bbc380ef3a9805f7eefb7834ff65b1634220c1221",
+        "transformation": "November 3 UTC separately approved v3 local execution over 5ee2ce6. Original source fields retained; prior mappings in cloud_v3_execution_approval. Historical request/proposal bytes and scientific fixtures preserved.",
+        "source_git_status": "local only; not committed or pushed",
+        "pre_cleanup_candidate_sha256": "f08157896b1176a2cd121807eb2642a37e80297c2b73c00a4e5895dbcd5df3c6",
+        "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+        "retained_local_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only. October 31 six-file metadata refresh: current five-scene instructions, dated history/check scope and historical authorization qualification; no source evidence changed.",
+        "retained_local_candidate_sha256": "72d94b79dbd4664708253851c68e18bd63037172b3138a2f8f50c30ace32728c",
+        "previous_candidate_sha256": "68715973ec40fef56941854b9bbb62611d1d1c288de53452fdc4f88194d786e4",
+        "historical_transformation_label": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications."
+      },
+      {
+        "destination": "docs/VALIDATION.txt",
+        "source": "docs/VALIDATION.txt",
+        "source_sha256": "67943a61bdc6161d26f4ea70a9496a861ad2590ddfa9d310b2213ef4c5fdef10",
+        "candidate_sha256": "117f7db696c8ca4b81e1d943b54419fe984c181168d21716ef04fe4bc942ba90",
+        "transformation": "November 3 UTC phosphorus-demo navigation handoff over9fe1cc0. Original source fields retained; prior mappings in cloud_demo_review_handoff. No backend or scientific-contract change.",
+        "source_git_status": "local only; not committed or pushed"
+      },
+      {
+        "destination": "docs/SCREENING_SUMMARY.txt",
+        "source": "docs/SCREENING_SUMMARY.txt",
+        "source_sha256": "41d8ebab636d1ac24474f19b244c66efad9070d43fc5149b9269a633dfd91647",
+        "candidate_sha256": "ba5522d5cc55abfa55c8de0ec256c7afbc3b2dc4f99f97f8b11d9be77e0e2d45",
+        "transformation": "November 3 UTC phosphorus-demo navigation handoff over9fe1cc0. Original source fields retained; prior mappings in cloud_demo_review_handoff. No backend or scientific-contract change.",
+        "source_git_status": "local only; not committed or pushed",
+        "pre_cleanup_candidate_sha256": "acf96b16be1b55190f99e2a22ae664e7158064bb4d0e9db20729a427201b67be",
+        "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+        "retained_local_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only. October 31 six-file metadata refresh: current five-scene instructions, dated history/check scope and historical authorization qualification; no source evidence changed.",
+        "retained_local_candidate_sha256": "55530f559f5d17dbf146441846ef2116861c3d40192ae93fb7ba60c31fe3096a",
+        "previous_candidate_sha256": "28a936dcc7006ac372b9b87b49d3856eabcd4726bf27a2877e3ac278510e5f0d",
+        "historical_transformation_label": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications."
+      },
+      {
+        "destination": "PUBLIC_FILES.txt",
+        "source": "PUBLIC_FILES.txt",
+        "source_sha256": "2d8468a3c4d0d6701d6973470a5a3b128c2f30f2bcb1c62c44c004c1b19a39c3",
+        "candidate_sha256": "757b352d84f376ac31df976afb8044abff9bf67340cffa6d2283a375996f4911",
+        "transformation": "November 3 UTC separately approved v3 local execution over 5ee2ce6. Original source fields retained; prior mappings in cloud_v3_execution_approval. Historical request/proposal bytes and scientific fixtures preserved.",
+        "source_git_status": "local only; not committed or pushed",
+        "pre_cleanup_candidate_sha256": "ff6baaacf0c736154bf3dcfd020c3c2c0d9ab1ccfb5f92aa1838e469a8284f1b",
+        "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+        "previous_candidate_sha256": "8208fdd10d3d6e1d77b825f94a60bdd541fa176005c2f8ee344e0ecbc7451761",
+        "historical_transformation_label": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged."
+      }
+    ],
+    "new_provider_calls": 0,
+    "private_packets_included": false,
+    "scientific_inputs_changed": false,
+    "exact_packet_is_unsigned_and_external": true
   }
 }

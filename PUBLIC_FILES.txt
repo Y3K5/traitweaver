@@ -51,6 +51,7 @@ docs/DEMO_SCRIPT_3_MIN.txt
 docs/FOUR_CASE_MUSE.txt
 docs/INTEGRATION.svg
 docs/INTELLIGENCE_LAYER.txt
+docs/INTELLIGENCE_SMOKE.txt
 docs/LIVE_RUN_SUMMARY.txt
 docs/META_CONTRIBUTION.md
 docs/MOLECULAR_WORKSPACE.txt
@@ -162,6 +163,7 @@ tests/test_muse_boundary.py
 tests/test_muse_completion_pilot.py
 tests/test_muse_cycle_control.py
 tests/test_muse_evaluation_pilot.py
+tests/test_muse_intelligence_smoke.py
 tests/test_protein_card.py
 tests/test_public_algae.py
 tests/test_public_algae_handlers.py
@@ -186,5 +188,6 @@ tools/muse_cycle_start.py
 tools/muse_diagnostics.py
 tools/muse_evaluation_pilot.py
 tools/muse_evaluation_pilot_start.py
+tools/muse_intelligence_smoke.py
 tools/verify_handoff.py
 tools/verify_public_algae.py
