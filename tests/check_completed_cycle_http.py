@@ -50,7 +50,7 @@ with tempfile.TemporaryDirectory(prefix='traitweaver-synthetic-cycle-http-') as 
             code,raw,headers=request('/api/export.md')
             check('readable export includes saved usage',code==200 and b'Estimated token cost: $0.000590' in raw)
             check('study export still works',request('/api/export.json')[0]==200)
-            for path in ('/','/workspace.js','/completed-cycle-ui.js','/workspace.css'):
+            for path in ('/','/workspace.js','/completed-cycle-ui.js','/workspace.css','/trait-categories-ui.js','/trait-categories.css'):
                 check('existing shell serves '+path,request(path)[0]==200)
             check('browser CSP permits only local connections',"connect-src 'self'" in headers['Content-Security-Policy'])
             check('cross-origin access refused',request('/api/state',headers={'Origin':'https://outside.invalid'})[0]==403)

@@ -1,11 +1,11 @@
 {
   "schema_version": "traitweaver.final_repository_handoff.v1",
-  "status": "traitweaver_showcase_screened_for_publication",
-  "prepared_date": "2026-11-03",
-  "refresh": "Evidence-first phosphorus presentation, provenance legend and separately labelled expansion questions.",
+  "status": "trait_categories_screened_for_publication",
+  "prepared_date": "2026-11-04",
+  "refresh": "Capability-first category browsing, source-bound trait details and explicit open/future roles.",
   "publication_approved": true,
   "claude_review_performed": false,
-  "review_status": "Owner authorized the tested eight-file showcase checkpoint for scoped commit and normal push. Publication does not establish scientific validation or include provider execution.",
+  "review_status": "Owner explicitly authorized publishing the screened cloud design upgrade to Y3K5/traitweaver main. No Muse execution, private records, submission or local Mac changes.",
   "scope": "Public/synthetic research-workspace code plus documentation. Documentary real Meta contribution is described; real packets, media and new provider execution are excluded.",
   "files": [
     {
@@ -25,18 +25,18 @@
     },
     {
       "path": "PUBLIC_FILES.txt",
-      "sha256": "c92d80d54347caab16df17e176e1df5358f5dbcc3471270f5af1f00dcf439e7f",
-      "bytes": 6379
+      "sha256": "9bcb8fb4a5fff33ca359c50438910a6d82e2dfdc616fe3a5c42d842fbcddf3f5",
+      "bytes": 6527
     },
     {
       "path": "README.md",
-      "sha256": "8c416086cb49692b8cb3b210dba49146b603bf54cfb135efa7b8f7868cb4be7a",
-      "bytes": 22547
+      "sha256": "fdbe6ef457e4ecb9f7d14a70b18067a8e0a90dfae03d379d9551eeb627849a75",
+      "bytes": 23023
     },
     {
       "path": "SOURCE_PROVENANCE.json",
-      "sha256": "e16a027802d27a5e9f3ee74e6f502b651b584c158660d059ea118c36f883d95e",
-      "bytes": 256574
+      "sha256": "34efd3573da51d9557587a6ab74d286ea6a984d297a687a231bca994ce569cce",
+      "bytes": 267942
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -344,6 +344,11 @@
       "bytes": 21450
     },
     {
+      "path": "docs/TRAIT_CATEGORIES.txt",
+      "sha256": "985b00cd0b2f530b745499ebc459e5106462f752159e431797ca7dcce4cb03f0",
+      "bytes": 4610
+    },
+    {
       "path": "docs/VALIDATION.txt",
       "sha256": "be394aa8f48a2d96547b1bd87233c6c56baf713cbd44e4a9056185d555d90358",
       "bytes": 59867
@@ -565,8 +570,8 @@
     },
     {
       "path": "src/traitweaver/web/completed-cycle-ui.js",
-      "sha256": "c724a79fef14f2827c3c25ae3b2e3bae51acc77e46a9e6056b86ac362c5b8af3",
-      "bytes": 7056
+      "sha256": "b7b027720019568ede6b52172b268b89e7a79cf75e9ae9d77c16820fab669616",
+      "bytes": 7095
     },
     {
       "path": "src/traitweaver/web/data-flow-ui.js",
@@ -575,8 +580,8 @@
     },
     {
       "path": "src/traitweaver/web/index.html",
-      "sha256": "4e67c58441cff0ea848efa4333c03c7645288693882c02effd27ab6505c79162",
-      "bytes": 3322
+      "sha256": "b7cfab183f7e4d3cc9249155e1ef1c4178e2d0971bf2f6a583de6a6b0a623264",
+      "bytes": 3433
     },
     {
       "path": "src/traitweaver/web/intelligence-ui.js",
@@ -590,8 +595,8 @@
     },
     {
       "path": "src/traitweaver/web/journey-ui.js",
-      "sha256": "f94e89580ff94a4f769ecf8c25afafdc9f78ab6786e8c8b8ba87853b8eeb49a0",
-      "bytes": 41507
+      "sha256": "eb94fb0288f7d32a285412beb338d0aed59e5d9d872a57e4ceda7d3d4747002a",
+      "bytes": 41526
     },
     {
       "path": "src/traitweaver/web/journey.css",
@@ -629,6 +634,16 @@
       "bytes": 21591
     },
     {
+      "path": "src/traitweaver/web/trait-categories-ui.js",
+      "sha256": "6a701736f55c4fec295393cd2857f23d2db0fbdcdb491eefd2cfddc94a40d13b",
+      "bytes": 21248
+    },
+    {
+      "path": "src/traitweaver/web/trait-categories.css",
+      "sha256": "7117a9905f9355e5195327fae103a4e0d41b6c5a89fe2431bf94c11ccdc730ee",
+      "bytes": 15458
+    },
+    {
       "path": "src/traitweaver/web/workbench-ui.js",
       "sha256": "948596b462daf4cf18cbc8a46986236c08716b6a7d5dc11da737cb5dcbcfd5dc",
       "bytes": 39057
@@ -640,8 +655,8 @@
     },
     {
       "path": "src/traitweaver/web/workspace.js",
-      "sha256": "cd4d53f5f49aa7b697711a03421981fdb2a77db9e0a9b501e0fdc42ac5d97540",
-      "bytes": 25697
+      "sha256": "e41cecd2d03003f31dcb5bbce381795e61eb72dbfcf149a337f9d44438253477",
+      "bytes": 26202
     },
     {
       "path": "src/traitweaver/workbench.py",
@@ -660,8 +675,8 @@
     },
     {
       "path": "tests/check_completed_cycle_http.py",
-      "sha256": "f1d752999e1b97686bc47be7b7bb1ebc5db24eefd3a5641e3382fa660f4ec988",
-      "bytes": 4400
+      "sha256": "84423b6d5810bbc94efdf529c1f2dcf9ad8444593adf452c91de5d16a57ad216",
+      "bytes": 4450
     },
     {
       "path": "tests/check_workspace_http.py",
@@ -884,6 +899,11 @@
       "bytes": 15140
     },
     {
+      "path": "tests/trait_categories_ui_offline.cjs",
+      "sha256": "ce3341e853478e086128bddc89f7d1a435ab6b855fa1d72edbfc649576a671e8",
+      "bytes": 6725
+    },
+    {
       "path": "tests/workbench_ui_offline.cjs",
       "sha256": "d9c160649977f9db68ec88260411dd6af656c14431e1a6123deaaa2e8e2d9c08",
       "bytes": 16898
@@ -994,7 +1014,7 @@
     "review_status": "Local software/browser verification; independent scientific and publication review pending",
     "scope": "Local public/synthetic fixed-case research workbench and scientific showcase; no live provider contribution, laboratory execution or organism design"
   },
-  "base_public_commit": "b4f7e57f25e65788207b4774604279b457ec94fc",
+  "base_public_commit": "66f0f264d3c1343f1ff0b97c812c556ba39c38a4",
   "historical_validation_and_screening": {
     "tests": {
       "offline_unit_tests": 302,
@@ -1180,14 +1200,13 @@
     }
   },
   "current_validation": {
-    "base_commit": "b4f7e57f25e65788207b4774604279b457ec94fc",
-    "exact_candidate_files": 193,
+    "base_commit": "66f0f264d3c1343f1ff0b97c812c556ba39c38a4",
+    "exact_candidate_files": 197,
+    "trait_category_projection_checks": 29,
     "journey_controller_checks": 68,
     "completed_cycle_controller_checks": 14,
-    "research_story_controller_checks": 25,
-    "completed_cycle_http_checks": 21,
-    "showcase_admission_tests": 5,
-    "public_reference_pins": 5,
+    "completed_cycle_http_checks": 23,
+    "browser_assertions": 69,
     "browser_viewports": [
       [
         1440,
@@ -1202,11 +1221,10 @@
         844
       ]
     ],
-    "browser": "Five scenes, review handoff, no navigation POSTs, external requests, page errors or record changes; reduced motion and normal-motion controls verified.",
-    "full_python_suite": "Not repeated; backend, evidence and model contracts unchanged.",
+    "public_reference_pins": 5,
     "new_provider_calls": 0,
     "network_configuration_changed": false,
-    "publication": "Screened eight-file checkpoint authorized for one commit and normal push; remote result verified separately."
+    "publication": "Screened 13-file design upgrade authorized for commit and normal push; remote outcome verified separately."
   },
   "historical_prepublication_metadata_2026_11_01": {
     "status": "documentation_cleanup_candidate_pending_owner_review",
@@ -1712,6 +1730,43 @@
       "network_configuration_changed": false,
       "full_app_and_browser_suites": "Not repeated; application/core/UI unchanged.",
       "live_execution": "Unapproved and blocked by current cloud network/account readiness."
+    }
+  },
+  "historical_before_trait_categories": {
+    "status": "traitweaver_showcase_screened_for_publication",
+    "prepared_date": "2026-11-03",
+    "refresh": "Evidence-first phosphorus presentation, provenance legend and separately labelled expansion questions.",
+    "publication_approved": true,
+    "review_status": "Owner authorized the tested eight-file showcase checkpoint for scoped commit and normal push. Publication does not establish scientific validation or include provider execution.",
+    "base_public_commit": "b4f7e57f25e65788207b4774604279b457ec94fc",
+    "current_validation": {
+      "base_commit": "b4f7e57f25e65788207b4774604279b457ec94fc",
+      "exact_candidate_files": 193,
+      "journey_controller_checks": 68,
+      "completed_cycle_controller_checks": 14,
+      "research_story_controller_checks": 25,
+      "completed_cycle_http_checks": 21,
+      "showcase_admission_tests": 5,
+      "public_reference_pins": 5,
+      "browser_viewports": [
+        [
+          1440,
+          1000
+        ],
+        [
+          1280,
+          800
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "browser": "Five scenes, review handoff, no navigation POSTs, external requests, page errors or record changes; reduced motion and normal-motion controls verified.",
+      "full_python_suite": "Not repeated; backend, evidence and model contracts unchanged.",
+      "new_provider_calls": 0,
+      "network_configuration_changed": false,
+      "publication": "Screened eight-file checkpoint authorized for one commit and normal push; remote result verified separately."
     }
   }
 }

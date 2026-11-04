@@ -66,6 +66,7 @@ docs/REVIEW_STATUS.txt
 docs/SCIENTIFIC_STORY.txt
 docs/SCOPE_AND_PROVENANCE.txt
 docs/SCREENING_SUMMARY.txt
+docs/TRAIT_CATEGORIES.txt
 docs/VALIDATION.txt
 docs/WHAT_WE_BUILT.txt
 docs/WORKBENCH.txt
@@ -123,6 +124,8 @@ src/traitweaver/web/public-algae-ui.js
 src/traitweaver/web/research-story-ui.js
 src/traitweaver/web/study-review-ui.js
 src/traitweaver/web/study-review.css
+src/traitweaver/web/trait-categories-ui.js
+src/traitweaver/web/trait-categories.css
 src/traitweaver/web/workbench-ui.js
 src/traitweaver/web/workspace.css
 src/traitweaver/web/workspace.js
@@ -174,6 +177,7 @@ tests/test_showcase.py
 tests/test_step_tracking.py
 tests/test_study_mvp.py
 tests/test_workbench.py
+tests/trait_categories_ui_offline.cjs
 tests/workbench_ui_offline.cjs
 tools/assistant_review.py
 tools/evaluate_assistant.py

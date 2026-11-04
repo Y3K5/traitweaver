@@ -14,6 +14,13 @@ approvals. Exhausted inputs stop.
 Open the next-question disclosure in **Muse intelligence** after reviewing a
 bridge result. See [the v3 contract and limits](docs/INTELLIGENCE_LAYER.txt).
 
+**November 4 Trait Categories:** choose **Trait Categories** in the menu, or open
+`#trait-categories`. Browse capabilities, then trait cards and their source-bound
+details. Three cards use existing published algae observations; recovery and
+plant use remain open goals, and three broader cards are future questions.
+Category colors and contours are illustrative. No new biological result or Muse
+output is implied. [Scope, walkthrough and checks](docs/TRAIT_CATEGORIES.txt).
+
 **November 3 approved local execution:** a validated v2 proposal can now lead to
 an explicit approval, one registered local check and a separate human review of
 the authored result summary. A separate journal preserves approval and attempts;

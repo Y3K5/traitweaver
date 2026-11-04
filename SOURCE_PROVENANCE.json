@@ -276,9 +276,9 @@
       "destination": "src/traitweaver/web/index.html",
       "source": "handoff/mvp-v1/web/index.html",
       "source_sha256": "6d29b0ebf2f4c49e13a6a8a7b47189964f131b51ecee4f256dcedb7cda8d0e0d",
-      "candidate_sha256": "4e67c58441cff0ea848efa4333c03c7645288693882c02effd27ab6505c79162",
-      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
-      "source_git_status": "untracked local source",
+      "candidate_sha256": "b7cfab183f7e4d3cc9249155e1ef1c4178e2d0971bf2f6a583de6a6b0a623264",
+      "transformation": "November 4 Trait Categories local presentation over 66f0f264; prior mapping preserved in cloud_trait_categories. Existing scientific fixtures unchanged.",
+      "source_git_status": "Screened design upgrade; owner-authorized commit and normal push.",
       "assistant_browser_followup": "Independent local assistant view/session and demo documentation; original provenance retained.",
       "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained.",
       "previous_candidate_sha256": "0c45fcd786f5c94c765580c13d252e71c5dcbf7a9ff8ec6728f5e2ce54aabceb",
@@ -288,9 +288,9 @@
       "destination": "src/traitweaver/web/workspace.js",
       "source": "src/traitweaver/web/workspace.js",
       "source_sha256": "4868c392a2c79e8b3e2f16d0d54719fb2257bf3a3cc46f63e52d0ab9b9866e0c",
-      "candidate_sha256": "cd4d53f5f49aa7b697711a03421981fdb2a77db9e0a9b501e0fdc42ac5d97540",
-      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
-      "source_git_status": "untracked local source",
+      "candidate_sha256": "e41cecd2d03003f31dcb5bbce381795e61eb72dbfcf149a337f9d44438253477",
+      "transformation": "November 4 Trait Categories local presentation over 66f0f264; prior mapping preserved in cloud_trait_categories. Existing scientific fixtures unchanged.",
+      "source_git_status": "Screened design upgrade; owner-authorized commit and normal push.",
       "assistant_browser_followup": "Independent local assistant view/session and demo documentation; original provenance retained.",
       "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained.",
       "previous_candidate_sha256": "635618382dce3d6090cd933c3870fe3518ede76c52e42d21511d9e3aa569a51d",
@@ -320,9 +320,9 @@
       "destination": "src/traitweaver/web/completed-cycle-ui.js",
       "source": "src/traitweaver/web/completed-cycle-ui.js",
       "source_sha256": "e9945ae54fa13ab0c02b3dff0704f1808de36aadd9686d3596f8a6f88fdc8185",
-      "candidate_sha256": "c724a79fef14f2827c3c25ae3b2e3bae51acc77e46a9e6056b86ac362c5b8af3",
-      "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
-      "source_git_status": "untracked local source",
+      "candidate_sha256": "b7b027720019568ede6b52172b268b89e7a79cf75e9ae9d77c16820fab669616",
+      "transformation": "November 4 Trait Categories local presentation over 66f0f264; prior mapping preserved in cloud_trait_categories. Existing scientific fixtures unchanged.",
+      "source_git_status": "Screened design upgrade; owner-authorized commit and normal push.",
       "previous_candidate_sha256": "536f1f3e72e8821524b2bd8d174ca7d41391286ce98c8d5438b4fbe04065fd68",
       "historical_transformation_label": "Published bounded source plus local molecular extension; see docs/MOLECULAR_WORKSPACE.txt. No original scientific records changed."
     },
@@ -362,9 +362,9 @@
       "destination": "tests/check_completed_cycle_http.py",
       "source": "tests/check_completed_cycle_http.py",
       "source_sha256": "f1d752999e1b97686bc47be7b7bb1ebc5db24eefd3a5641e3382fa660f4ec988",
-      "candidate_sha256": "f1d752999e1b97686bc47be7b7bb1ebc5db24eefd3a5641e3382fa660f4ec988",
-      "transformation": "Byte-identical selected source",
-      "source_git_status": "untracked local source"
+      "candidate_sha256": "84423b6d5810bbc94efdf529c1f2dcf9ad8444593adf452c91de5d16a57ad216",
+      "transformation": "November 4 Trait Categories local presentation over 66f0f264; prior mapping preserved in cloud_trait_categories. Existing scientific fixtures unchanged.",
+      "source_git_status": "Screened design upgrade; owner-authorized commit and normal push."
     },
     {
       "destination": "data/assistant-evaluation.v1.json",
@@ -458,8 +458,8 @@
       "destination": "PUBLIC_FILES.txt",
       "source": "PUBLIC_FILES.txt",
       "source_sha256": "2d8468a3c4d0d6701d6973470a5a3b128c2f30f2bcb1c62c44c004c1b19a39c3",
-      "candidate_sha256": "c92d80d54347caab16df17e176e1df5358f5dbcc3471270f5af1f00dcf439e7f",
-      "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke.",
+      "candidate_sha256": "9bcb8fb4a5fff33ca359c50438910a6d82e2dfdc616fe3a5c42d842fbcddf3f5",
+      "transformation": "November 4 Trait Categories local presentation over 66f0f264; prior mapping preserved in cloud_trait_categories. Existing scientific fixtures unchanged.",
       "source_git_status": "local only; not committed or pushed",
       "pre_cleanup_candidate_sha256": "ff6baaacf0c736154bf3dcfd020c3c2c0d9ab1ccfb5f92aa1838e469a8284f1b",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
@@ -470,9 +470,9 @@
       "destination": "README.md",
       "source": "README.md",
       "source_sha256": "48bd81e91c4a69754d30551fb3ac3db3058b79c6d8223c1bc06f19992ca2ff24",
-      "candidate_sha256": "8c416086cb49692b8cb3b210dba49146b603bf54cfb135efa7b8f7868cb4be7a",
-      "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke.",
-      "source_git_status": "local only; not committed or pushed",
+      "candidate_sha256": "fdbe6ef457e4ecb9f7d14a70b18067a8e0a90dfae03d379d9551eeb627849a75",
+      "transformation": "November 4 Trait Categories local presentation over 66f0f264; prior mapping preserved in cloud_trait_categories. Existing scientific fixtures unchanged.",
+      "source_git_status": "Screened design upgrade; owner-authorized commit and normal push.",
       "pre_cleanup_candidate_sha256": "f08157896b1176a2cd121807eb2642a37e80297c2b73c00a4e5895dbcd5df3c6",
       "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
       "retained_local_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only. October 31 six-file metadata refresh: current five-scene instructions, dated history/check scope and historical authorization qualification; no source evidence changed.",
@@ -1128,9 +1128,9 @@
       "destination": "src/traitweaver/web/journey-ui.js",
       "source": "src/traitweaver/web/journey-ui.js",
       "source_sha256": "5e4cc6cb6c1bd9ec6c625dd2d551144b2509f88a686ebe54dd4777c612e946eb",
-      "candidate_sha256": "f94e89580ff94a4f769ecf8c25afafdc9f78ab6786e8c8b8ba87853b8eeb49a0",
-      "transformation": "November 3 local phosphorus showcase and expansion story over b4f7e57. Previous mapping retained in cloud_local_showcase_expansion. Scientific records and model contracts unchanged.",
-      "source_git_status": "Screened showcase checkpoint; scoped commit and normal push authorized by owner.",
+      "candidate_sha256": "eb94fb0288f7d32a285412beb338d0aed59e5d9d872a57e4ceda7d3d4747002a",
+      "transformation": "November 4 Trait Categories local presentation over 66f0f264; prior mapping preserved in cloud_trait_categories. Existing scientific fixtures unchanged.",
+      "source_git_status": "Screened design upgrade; owner-authorized commit and normal push.",
       "previous_candidate_sha256": "7321f695ef84a4b2c63fb9e01d1f23aced48b6aa750a48187681f74858bfdce3",
       "historical_transformation_label": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only."
     },
@@ -1613,6 +1613,38 @@
       "source_git_status": "new scoped cloud file",
       "candidate_sha256": "8ae35574b3095203143abe9fae975fa25e8db90b1759ceee6abcbf79fde3afc0",
       "transformation": "November 3 managed cloud proxy compatibility over ee42024; prior mappings retained in cloud_smoke_proxy_compatibility."
+    },
+    {
+      "destination": "docs/TRAIT_CATEGORIES.txt",
+      "source": "New cloud-authored public presentation or offline test",
+      "source_sha256": null,
+      "candidate_sha256": "985b00cd0b2f530b745499ebc459e5106462f752159e431797ca7dcce4cb03f0",
+      "transformation": "November 4 Trait Categories local presentation over 66f0f264; prior mapping preserved in cloud_trait_categories. Existing scientific fixtures unchanged.",
+      "source_git_status": "Screened design upgrade; owner-authorized commit and normal push."
+    },
+    {
+      "destination": "src/traitweaver/web/trait-categories-ui.js",
+      "source": "New cloud-authored public presentation or offline test",
+      "source_sha256": null,
+      "candidate_sha256": "6a701736f55c4fec295393cd2857f23d2db0fbdcdb491eefd2cfddc94a40d13b",
+      "transformation": "November 4 Trait Categories local presentation over 66f0f264; prior mapping preserved in cloud_trait_categories. Existing scientific fixtures unchanged.",
+      "source_git_status": "Screened design upgrade; owner-authorized commit and normal push."
+    },
+    {
+      "destination": "src/traitweaver/web/trait-categories.css",
+      "source": "New cloud-authored public presentation or offline test",
+      "source_sha256": null,
+      "candidate_sha256": "7117a9905f9355e5195327fae103a4e0d41b6c5a89fe2431bf94c11ccdc730ee",
+      "transformation": "November 4 Trait Categories local presentation over 66f0f264; prior mapping preserved in cloud_trait_categories. Existing scientific fixtures unchanged.",
+      "source_git_status": "Screened design upgrade; owner-authorized commit and normal push."
+    },
+    {
+      "destination": "tests/trait_categories_ui_offline.cjs",
+      "source": "New cloud-authored public presentation or offline test",
+      "source_sha256": null,
+      "candidate_sha256": "ce3341e853478e086128bddc89f7d1a435ab6b855fa1d72edbfc649576a671e8",
+      "transformation": "November 4 Trait Categories local presentation over 66f0f264; prior mapping preserved in cloud_trait_categories. Existing scientific fixtures unchanged.",
+      "source_git_status": "Screened design upgrade; owner-authorized commit and normal push."
     }
   ],
   "additional_candidate_authorship": "Public-facing docs, synthetic replay/review package, exact-byte verifier, memory handler/controller tests and bounded adaptations; Codex",
@@ -1659,7 +1691,11 @@
     "tests/test_intelligence_followup_handlers.py",
     "tests/test_intelligence_muse_v3.py",
     "tests/test_intelligence_execution_followup.py",
-    "tests/test_intelligence_execution_followup_handlers.py"
+    "tests/test_intelligence_execution_followup_handlers.py",
+    "docs/TRAIT_CATEGORIES.txt",
+    "src/traitweaver/web/trait-categories-ui.js",
+    "src/traitweaver/web/trait-categories.css",
+    "tests/trait_categories_ui_offline.cjs"
   ],
   "synthetic_fixture_source": "tools/make_synthetic_cycle.py using admitted public evidence and explicitly synthetic test helper",
   "fixture_provenance": "data/synthetic-cycle/FIXTURE_PROVENANCE.json",
@@ -3434,5 +3470,100 @@
       "privacy_screen": "Exact diff and full changed-file review; no credentials, private research or unrelated work identified.",
       "screenshots_and_real_packets_included": false
     }
+  },
+  "cloud_trait_categories": {
+    "date": "2026-11-04",
+    "base_commit": "66f0f264d3c1343f1ff0b97c812c556ba39c38a4",
+    "scope": "Capability-first read-only browsing taxonomy, source-bound detail views and original decorative contours. No source admission, biological validation or new model output.",
+    "publication_approved": false,
+    "new_provider_calls": 0,
+    "network_configuration_changed": false,
+    "previous_mapping": [
+      {
+        "destination": "src/traitweaver/web/index.html",
+        "source": "handoff/mvp-v1/web/index.html",
+        "source_sha256": "6d29b0ebf2f4c49e13a6a8a7b47189964f131b51ecee4f256dcedb7cda8d0e0d",
+        "candidate_sha256": "4e67c58441cff0ea848efa4333c03c7645288693882c02effd27ab6505c79162",
+        "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
+        "source_git_status": "untracked local source",
+        "assistant_browser_followup": "Independent local assistant view/session and demo documentation; original provenance retained.",
+        "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained.",
+        "previous_candidate_sha256": "0c45fcd786f5c94c765580c13d252e71c5dcbf7a9ff8ec6728f5e2ce54aabceb",
+        "historical_transformation_label": "Published bounded source plus local molecular extension; see docs/MOLECULAR_WORKSPACE.txt. No original scientific records changed. October31 completed-check and animated-journey extension; original scientific inputs preserved."
+      },
+      {
+        "destination": "src/traitweaver/web/workspace.js",
+        "source": "src/traitweaver/web/workspace.js",
+        "source_sha256": "4868c392a2c79e8b3e2f16d0d54719fb2257bf3a3cc46f63e52d0ab9b9866e0c",
+        "candidate_sha256": "cd4d53f5f49aa7b697711a03421981fdb2a77db9e0a9b501e0fdc42ac5d97540",
+        "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
+        "source_git_status": "untracked local source",
+        "assistant_browser_followup": "Independent local assistant view/session and demo documentation; original provenance retained.",
+        "scientific_story_followup": "Source-only scientific showcase integration; original provenance retained.",
+        "previous_candidate_sha256": "635618382dce3d6090cd933c3870fe3518ede76c52e42d21511d9e3aa569a51d",
+        "historical_transformation_label": "Published bounded source plus local molecular extension; see docs/MOLECULAR_WORKSPACE.txt. No original scientific records changed. October31 completed-check and animated-journey extension; original scientific inputs preserved. Focused MVP presentation, unchanged source contracts, local review only."
+      },
+      {
+        "destination": "src/traitweaver/web/completed-cycle-ui.js",
+        "source": "src/traitweaver/web/completed-cycle-ui.js",
+        "source_sha256": "e9945ae54fa13ab0c02b3dff0704f1808de36aadd9686d3596f8a6f88fdc8185",
+        "candidate_sha256": "c724a79fef14f2827c3c25ae3b2e3bae51acc77e46a9e6056b86ac362c5b8af3",
+        "transformation": "Modified descendant in the November 2 application publication update; original source fields retained.",
+        "source_git_status": "untracked local source",
+        "previous_candidate_sha256": "536f1f3e72e8821524b2bd8d174ca7d41391286ce98c8d5438b4fbe04065fd68",
+        "historical_transformation_label": "Published bounded source plus local molecular extension; see docs/MOLECULAR_WORKSPACE.txt. No original scientific records changed."
+      },
+      {
+        "destination": "tests/check_completed_cycle_http.py",
+        "source": "tests/check_completed_cycle_http.py",
+        "source_sha256": "f1d752999e1b97686bc47be7b7bb1ebc5db24eefd3a5641e3382fa660f4ec988",
+        "candidate_sha256": "f1d752999e1b97686bc47be7b7bb1ebc5db24eefd3a5641e3382fa660f4ec988",
+        "transformation": "Byte-identical selected source",
+        "source_git_status": "untracked local source"
+      },
+      {
+        "destination": "PUBLIC_FILES.txt",
+        "source": "PUBLIC_FILES.txt",
+        "source_sha256": "2d8468a3c4d0d6701d6973470a5a3b128c2f30f2bcb1c62c44c004c1b19a39c3",
+        "candidate_sha256": "c92d80d54347caab16df17e176e1df5358f5dbcc3471270f5af1f00dcf439e7f",
+        "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke.",
+        "source_git_status": "local only; not committed or pushed",
+        "pre_cleanup_candidate_sha256": "ff6baaacf0c736154bf3dcfd020c3c2c0d9ab1ccfb5f92aa1838e469a8284f1b",
+        "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+        "previous_candidate_sha256": "8208fdd10d3d6e1d77b825f94a60bdd541fa176005c2f8ee344e0ecbc7451761",
+        "historical_transformation_label": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged."
+      },
+      {
+        "destination": "README.md",
+        "source": "README.md",
+        "source_sha256": "48bd81e91c4a69754d30551fb3ac3db3058b79c6d8223c1bc06f19992ca2ff24",
+        "candidate_sha256": "8c416086cb49692b8cb3b210dba49146b603bf54cfb135efa7b8f7868cb4be7a",
+        "transformation": "November 3 single-request intelligence smoke adapter over 58481e9; prior source provenance retained in cloud_intelligence_smoke.",
+        "source_git_status": "local only; not committed or pushed",
+        "pre_cleanup_candidate_sha256": "f08157896b1176a2cd121807eb2642a37e80297c2b73c00a4e5895dbcd5df3c6",
+        "pre_cleanup_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only.",
+        "retained_local_transformation": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only. October 31 six-file metadata refresh: current five-scene instructions, dated history/check scope and historical authorization qualification; no source evidence changed.",
+        "retained_local_candidate_sha256": "72d94b79dbd4664708253851c68e18bd63037172b3138a2f8f50c30ace32728c",
+        "previous_candidate_sha256": "68715973ec40fef56941854b9bbb62611d1d1c288de53452fdc4f88194d786e4",
+        "historical_transformation_label": "November 1 documentation/status reconciliation against public commit 0987c1bdd29fbae68050aeb1ff440c1c17d91d7e. Previous transformation and candidate hash retained; historical source hash unchanged. Reviewed six-file local metadata clarifications retained with current owner-confirmed qualifications."
+      },
+      {
+        "destination": "src/traitweaver/web/journey-ui.js",
+        "source": "src/traitweaver/web/journey-ui.js",
+        "source_sha256": "5e4cc6cb6c1bd9ec6c625dd2d551144b2509f88a686ebe54dd4777c612e946eb",
+        "candidate_sha256": "f94e89580ff94a4f769ecf8c25afafdc9f78ab6786e8c8b8ba87853b8eeb49a0",
+        "transformation": "November 3 local phosphorus showcase and expansion story over b4f7e57. Previous mapping retained in cloud_local_showcase_expansion. Scientific records and model contracts unchanged.",
+        "source_git_status": "Screened showcase checkpoint; scoped commit and normal push authorized by owner.",
+        "previous_candidate_sha256": "7321f695ef84a4b2c63fb9e01d1f23aced48b6aa750a48187681f74858bfdce3",
+        "historical_transformation_label": "Locally authored completed-step journal, comparison or presentation extension using pinned public/synthetic records; no external retrieval. Focused MVP presentation, unchanged source contracts, local review only."
+      }
+    ],
+    "validation": "docs/TRAIT_CATEGORIES.txt",
+    "visual_references": [
+      "https://mushroomcoloratlas.com/",
+      "https://www.oxman.com/projects/eden"
+    ],
+    "external_assets_copied": false,
+    "publication_authorization": "Owner explicitly authorized the screened cloud design upgrade for commit and normal push to Y3K5/traitweaver main on November 4. No provider execution or library publication implied."
   }
 }

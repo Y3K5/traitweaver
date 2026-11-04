@@ -116,7 +116,7 @@ function journeyLayout(active){
  navigation(false);
 }
 function journeyNavigationMarkup(items,current){
- const priority=['journey','study-review','workbench','muse-cycle','handoff'];
+ const priority=['journey','trait-categories','study-review','workbench','muse-cycle','handoff'];
  const link=([id,title])=>`<a class="step-link" href="#${id}" ${current===id?'aria-current="page"':''}>${esc(title)}</a>`;
  const primary=priority.map(id=>items.find(item=>item[0]===id)).filter(Boolean);
  const other=items.filter(([id])=>!priority.includes(id));

@@ -1,0 +1,69 @@
+Trait Categories — local presentation slice, November 4, 2026
+
+Acceptance checks (defined before implementation)
+- Start with capabilities: categories -> trait cards -> a linkable detail view.
+  Browser back/forward, keyboard use and narrow screens retain that path.
+- Published observations come only from the existing admitted algae snapshot.
+  Preserve all source conditions, units, SE, n, record IDs and source links.
+  Missing source/record bindings withhold the observation, including its badge.
+- Uptake and medium removal do not establish recovered-product phosphorus or
+  plant use. Recovery stays an open goal. Proposed categories are not records.
+- Category art is original abstract illustration; no measured performance,
+  ecological simulation, organism identification or model output is encoded.
+- Filtering, searching, navigation and reopening dispatch no check, model or
+  mutation. Preserve the phosphorus journey and its synthetic/real provenance.
+- Organisms are documented examples inside traits. A broader organism browser
+  and cross-species transfer evidence remain future work.
+
+Design direction
+The Mushroom Color Atlas (https://mushroomcoloratlas.com/) informed the idea of
+a colored, browsable index. OXMAN EDEN (https://www.oxman.com/projects/eden)
+informed attention to ecological context. No assets, text or site code copied;
+no EDEN simulation or generative-design capability is claimed.
+
+This is an authored navigation taxonomy, not a new scientific catalog or source
+admission. Existing literature observations remain source-bound. The new view
+does not change study contracts, fixtures, saved Muse records or human gates.
+
+Demonstration path
+Run python3 -B run_workspace.py --demo and choose Trait Categories from the menu,
+or append #trait-categories to the local URL. The default remains Research journey.
+1. Browse the six capability families. Search or select With published records.
+2. Open Nutrient capture, then Phosphate uptake. Inspect the four published lines,
+   units, uncertainty, culture-replicate counts and source conditions.
+3. Follow Phosphorus recovery under Keep distinct, explore together. This card
+   has an explicit Open goal label and no observed product yield.
+4. Return through the breadcrumb or browser Back. Materials & pigments,
+   Environmental response and Living partnerships contain future questions only.
+5. Phosphorus showcase returns to the existing evidence -> synthetic Muse
+   decision -> actual local audit -> proposed measurement journey.
+
+Implemented versus proposed
+- Six authored category families and eight trait cards; no new scientific catalog.
+- Three cards project existing observations: uptake, medium removal and growth.
+  Qualitative admissions remain qualitative. No source values are digitized anew.
+- Two open goals: phosphorus recovery and usefulness to plants.
+- Three future questions: pigment production, metal capture, biomass processing.
+  These have no admitted evidence, organism pairing or performance result.
+- Documented organism names link to the existing evidence workspace. A separate
+  organism browser, measured transfer and broader discovery remain unimplemented.
+- Every contour is original procedural vector illustration in the UI source;
+  no external images/fonts, copied reference assets or ecological simulation.
+- The guide is authored, not new model output. No live Muse call was made.
+
+Verification of this slice, November 4 UTC
+- 29 offline projection assertions: roles, filtering, routes, exact values,
+  source/endpoint/organism mismatches, missing/partial sources, unsafe URLs,
+  unknown versus zero, escaping and unchanged source snapshot.
+- Existing journey controller: 68 checks. Completed-cycle controller: 14 checks.
+- Completed-cycle HTTP: 23 checks, including the two new local assets and
+  existing mutation refusals, same-origin boundary and unchanged records.
+- Chromium: 69 assertions across 1440x1000, 1280x800 and 390x844. All category
+  and trait routes fit; keyboard drilldown, back/forward, reload, filters,
+  empty-state reset, source details and all five showcase scenes work. No page
+  errors, external requests, POSTs or owning-record changes during browsing.
+- Reduced-motion rendering inspected. Five public reference pins verified.
+- Exact candidate membership/checksums and diff whitespace checked separately.
+Screenshots stay outside the publishing tree. The owner authorized publishing this screened design upgrade on November 4.
+Commit/push outcome is verified separately; no deployment or submission is
+implied. Human usability/scientific review remains open.

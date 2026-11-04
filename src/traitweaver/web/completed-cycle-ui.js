@@ -23,7 +23,7 @@ function bindCompletedCycle(){
  document.getElementById('review-next')?.addEventListener('click',()=>{reviewStep++;render();});
  document.getElementById('download-cycle-review')?.addEventListener('click',async()=>{try{download('traitweaver-completed-cycle.json',pretty(await api('/api/cycle-review.json'))+'\n','application/json');show('Completed cycle and usage exported locally. Nothing was sent.');}catch(error){show(error.message,true);}});
  if(snapshot.read_only){
-  document.querySelectorAll('form input,form textarea,form select,form button,#study-file').forEach(element=>{if(!element.closest?.('#intelligence-scope-form')&&!element.closest?.('#wb-form')&&!element.closest?.('.sr-layout'))element.disabled=true;});
+  document.querySelectorAll('form input,form textarea,form select,form button,#study-file').forEach(element=>{if(!element.closest?.('#intelligence-scope-form')&&!element.closest?.('#wb-form')&&!element.closest?.('.sr-layout')&&!element.closest?.('#ta-filter-form'))element.disabled=true;});
   document.querySelectorAll('.demo-badge').forEach(element=>{element.textContent=snapshot.completed_cycle.synthetic?'Synthetic replay · read only':'Saved cycle · read only';});
   const separateMolecular=typeof molecularViews!=='undefined'&&(molecularViews.some(([id])=>id===location.hash.slice(1))||location.hash==='#intelligence');
   show((snapshot.completed_cycle.synthetic?'Synthetic offline replay':'Completed Muse cycle')+(separateMolecular?' stays read-only. Molecular planning is a separate local review; the saved cycle cannot be changed.':' · read only. No edits, reruns or API calls are available.'));
