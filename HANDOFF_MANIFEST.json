@@ -1,11 +1,11 @@
 {
   "schema_version": "traitweaver.final_repository_handoff.v1",
-  "status": "trait_categories_screened_for_publication",
+  "status": "claude_handoff_screened_pending_owner_confirmation",
   "prepared_date": "2026-11-04",
-  "refresh": "Capability-first category browsing, source-bound trait details and explicit open/future roles.",
-  "publication_approved": true,
+  "refresh": "Local trait-library research homes and guided phosphorus walkthrough; upstream cloud study preserved.",
+  "publication_approved": false,
   "claude_review_performed": false,
-  "review_status": "Owner explicitly authorized publishing the screened cloud design upgrade to Y3K5/traitweaver main. No Muse execution, private records, submission or local Mac changes.",
+  "review_status": "Owner requested GitHub handoff; exact final file scope awaits the required pre-commit review. No new model or laboratory execution.",
   "scope": "Public/synthetic research-workspace code plus documentation. Documentary real Meta contribution is described; real packets, media and new provider execution are excluded.",
   "files": [
     {
@@ -25,18 +25,18 @@
     },
     {
       "path": "PUBLIC_FILES.txt",
-      "sha256": "ecc17115b9c7c5f32879818f81f40ba38e193efe52045b67eb3ea0594836e52d",
-      "bytes": 9217
+      "sha256": "b9c535e64b9aa672dfb2062ac1bce8696ab0a3e29c36de0fe2c77ad197c81406",
+      "bytes": 10332
     },
     {
       "path": "README.md",
-      "sha256": "fdbe6ef457e4ecb9f7d14a70b18067a8e0a90dfae03d379d9551eeb627849a75",
-      "bytes": 23023
+      "sha256": "9edf224e04e3efacca9cfd91f86bad5112ab82a7fcf98cc8cbe069a13ef13a9c",
+      "bytes": 25438
     },
     {
       "path": "SOURCE_PROVENANCE.json",
-      "sha256": "46afd8350c39d77a63e805ea48b5ed97910cb34bae1f878778d3e0826d8747e8",
-      "bytes": 272872
+      "sha256": "cfaa871ece32091da538ecb670896714290d6a6b69e7b6b782d8ec0c946873eb",
+      "bytes": 275332
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -194,6 +194,11 @@
       "bytes": 221
     },
     {
+      "path": "data/trait-library.v1.json",
+      "sha256": "8506f8dd25dd2fdabe21b27e2656c26e398c590c85d91a1fcec15b67ac5a6e99",
+      "bytes": 54930
+    },
+    {
       "path": "docs/ASSISTANT_CONTRACT.txt",
       "sha256": "b553d8ad77015dfc4860fea2d39e66cea165f6dfa014934897673aa5eb0cccca",
       "bytes": 7234
@@ -212,6 +217,11 @@
       "path": "docs/CINEMATIC_SHOWCASE.txt",
       "sha256": "d9f7785b58c8ad3803162b2c75acb1d0ca105851637c97a1217976cf54da8cce",
       "bytes": 5590
+    },
+    {
+      "path": "docs/CLAUDE_HANDOFF.txt",
+      "sha256": "dccd3042350ddbdfd1239b3b1d638b4fa59d8fc59f660f7e451c52893f2035fb",
+      "bytes": 3276
     },
     {
       "path": "docs/CLAUDE_REVIEW_BRIEF.txt",
@@ -299,6 +309,11 @@
       "bytes": 6191
     },
     {
+      "path": "docs/PHOSPHORUS_WALKTHROUGH.txt",
+      "sha256": "49cd16fc55fe966329191a300fc86dd64e4e4378d2ca6a8d71fa9549a49e332a",
+      "bytes": 2891
+    },
+    {
       "path": "docs/PUBLIC_ALGAE_WORKSPACE.txt",
       "sha256": "07ea449849187a56c0c9e5feb2cc9f5ac97ba328d921ff39b39074590a528649",
       "bytes": 4971
@@ -317,6 +332,11 @@
       "path": "docs/RESEARCH_EXPERIENCE.txt",
       "sha256": "ef4c5675b223b7faf9dc5cf0d1e7036e11ec3089b385bb21bf5c964a136cba16",
       "bytes": 6132
+    },
+    {
+      "path": "docs/RESEARCH_HOMES.txt",
+      "sha256": "0540dbf93d4ae3c22ff3c4f9a4114e64b08259a3e54265aba9d003b05d54f5af",
+      "bytes": 8767
     },
     {
       "path": "docs/RESEARCH_JOURNEY.txt",
@@ -349,9 +369,19 @@
       "bytes": 4610
     },
     {
+      "path": "docs/TRAIT_LIBRARY.txt",
+      "sha256": "73a63352163c8d9153ef7233b017880e739abc337d5777bdacc8a1cfa9cfa5fe",
+      "bytes": 7201
+    },
+    {
       "path": "docs/VALIDATION.txt",
       "sha256": "be394aa8f48a2d96547b1bd87233c6c56baf713cbd44e4a9056185d555d90358",
       "bytes": 59867
+    },
+    {
+      "path": "docs/WEBSITE_WALKTHROUGH.txt",
+      "sha256": "ac5236ce2392db0681622da5e9ae31c5dd910170c9910a600a22cdd74a8cbc91",
+      "bytes": 6231
     },
     {
       "path": "docs/WHAT_WE_BUILT.txt",
@@ -729,6 +759,16 @@
       "bytes": 21309
     },
     {
+      "path": "src/traitweaver/research_homes.py",
+      "sha256": "98e684c3a4fed29bd90d2c9dbaedcdcc69d83f728bc6a6799c75d6a0d76c25d2",
+      "bytes": 16658
+    },
+    {
+      "path": "src/traitweaver/research_runs.py",
+      "sha256": "7ed07c3c747701e57c3cb8455bdb2948f9f4cb70bc60f4594f57dc5c56a6fad9",
+      "bytes": 11516
+    },
+    {
       "path": "src/traitweaver/research_story.py",
       "sha256": "3d5b0c2ffabddb2d3fb79bb10c54db825fd23709fac08112d60000cc6fb7335f",
       "bytes": 13491
@@ -752,6 +792,11 @@
       "path": "src/traitweaver/study_store.py",
       "sha256": "1415cd7fcee7f7feb8d2cee906c5c69fe95f90975ec2f1e184fb66ad07dcade9",
       "bytes": 9469
+    },
+    {
+      "path": "src/traitweaver/trait_library.py",
+      "sha256": "35a94a32b28f9218b7f9d87e3e0a4d06690f53450da095b6bc29223d1e4b0c43",
+      "bytes": 21422
     },
     {
       "path": "src/traitweaver/web/ASSET_PROVENANCE.json",
@@ -784,6 +829,21 @@
       "bytes": 451664
     },
     {
+      "path": "src/traitweaver/web/assets/muse-official.svg",
+      "sha256": "73bdf6aed3c3a03b2181c69532672554fca8a1d303644c301abb1caf5300d703",
+      "bytes": 2628
+    },
+    {
+      "path": "src/traitweaver/web/assets/research-assets-provenance.json",
+      "sha256": "49e38578130261adb55c228fe9da271d02a0f7e2a1a3215f97d266b015d5f089",
+      "bytes": 656
+    },
+    {
+      "path": "src/traitweaver/web/assets/research-ecosystem-v1.png",
+      "sha256": "ca60c540e43f0c3f6431fa1e9d42b8a1833a8500773d17fabe2bb7e30ae3a55e",
+      "bytes": 3714480
+    },
+    {
       "path": "src/traitweaver/web/assets/traitweaver-favicon.svg",
       "sha256": "9659c0eb0889238163ecb665c2b7fb9499a167320fc8c41ec81e0b04f6984386",
       "bytes": 822
@@ -805,8 +865,8 @@
     },
     {
       "path": "src/traitweaver/web/completed-cycle-ui.js",
-      "sha256": "b7b027720019568ede6b52172b268b89e7a79cf75e9ae9d77c16820fab669616",
-      "bytes": 7095
+      "sha256": "c003b48576c54ad4286380e1be97e6ae145ee3f6468901f9f0dc6c7608be8065",
+      "bytes": 7161
     },
     {
       "path": "src/traitweaver/web/data-flow-ui.js",
@@ -815,8 +875,8 @@
     },
     {
       "path": "src/traitweaver/web/index.html",
-      "sha256": "b7cfab183f7e4d3cc9249155e1ef1c4178e2d0971bf2f6a583de6a6b0a623264",
-      "bytes": 3433
+      "sha256": "20a60ffed4f7a5dae84e2c8f230830dd5b8a8751ec1f4fc1ffcb5416a93713db",
+      "bytes": 3908
     },
     {
       "path": "src/traitweaver/web/intelligence-ui.js",
@@ -849,14 +909,49 @@
       "bytes": 5891
     },
     {
+      "path": "src/traitweaver/web/phosphorus-walkthrough-ui.js",
+      "sha256": "d13ddf9191408df1b6afe38574c21fa8b0c5b8a3748f50353360695593c00cf8",
+      "bytes": 16226
+    },
+    {
+      "path": "src/traitweaver/web/phosphorus-walkthrough.css",
+      "sha256": "bdfd5aad219c963b05ce2b329decc7a914cea8dd1d0d2db0dd782649c20e1c62",
+      "bytes": 4394
+    },
+    {
       "path": "src/traitweaver/web/public-algae-ui.js",
       "sha256": "02e2e0560b8a193f4a8f8654a53d6667665ea53452206ddc034e4fbba67a22f9",
       "bytes": 20857
     },
     {
+      "path": "src/traitweaver/web/research-homes-ui.js",
+      "sha256": "afe5d46e6a3229594fa3bc794761dcc93d07ba75649ad76c3fd8381a73ced4f5",
+      "bytes": 44386
+    },
+    {
+      "path": "src/traitweaver/web/research-homes.css",
+      "sha256": "6e0db37453eef040dd824ad3b9fd42a97fbcc6a16477e5c428a27c52c608d249",
+      "bytes": 21505
+    },
+    {
+      "path": "src/traitweaver/web/research-runs-ui.js",
+      "sha256": "55a0d775f35c2d160eae0c33483500f84dd1ca8e575c704b53a5f9fc80fa1f77",
+      "bytes": 13668
+    },
+    {
       "path": "src/traitweaver/web/research-story-ui.js",
       "sha256": "bfd3882f2ec90691a5de5ab963adac2f4c933f57f59fdb2092b65dccd8db7481",
       "bytes": 27199
+    },
+    {
+      "path": "src/traitweaver/web/site-ui.js",
+      "sha256": "a807bb96ec4e450b89b2698906ae3564a36807c77fbd21c6bc76aa53adccbc17",
+      "bytes": 27189
+    },
+    {
+      "path": "src/traitweaver/web/site.css",
+      "sha256": "7f50ad220e104c9f48ade1cd2b575c991900b6cbb8db31cb193e5bf2865479bc",
+      "bytes": 21415
     },
     {
       "path": "src/traitweaver/web/study-review-ui.js",
@@ -870,13 +965,23 @@
     },
     {
       "path": "src/traitweaver/web/trait-categories-ui.js",
-      "sha256": "6a701736f55c4fec295393cd2857f23d2db0fbdcdb491eefd2cfddc94a40d13b",
-      "bytes": 21248
+      "sha256": "70babce50ed70b8a03fe238a35351cbae9fa735e6c54595fe79abf0f20dd20ab",
+      "bytes": 21533
     },
     {
       "path": "src/traitweaver/web/trait-categories.css",
       "sha256": "7117a9905f9355e5195327fae103a4e0d41b6c5a89fe2431bf94c11ccdc730ee",
       "bytes": 15458
+    },
+    {
+      "path": "src/traitweaver/web/trait-library-ui.js",
+      "sha256": "bfb310239e57a4a1bbf71e273fb74db9af3efff828d1711b3295b6f5534088cb",
+      "bytes": 18873
+    },
+    {
+      "path": "src/traitweaver/web/trait-library.css",
+      "sha256": "27856251adf8230310cf69e56c0818d230aab8a1dff5fd19201fd95672a8badc",
+      "bytes": 3144
     },
     {
       "path": "src/traitweaver/web/workbench-ui.js",
@@ -890,8 +995,8 @@
     },
     {
       "path": "src/traitweaver/web/workspace.js",
-      "sha256": "e41cecd2d03003f31dcb5bbce381795e61eb72dbfcf149a337f9d44438253477",
-      "bytes": 26202
+      "sha256": "b77e10c81417cb020d9c263e00e936a243d4816cb385ff1e1ac74eaff8ee5180",
+      "bytes": 27238
     },
     {
       "path": "src/traitweaver/workbench.py",
@@ -900,8 +1005,8 @@
     },
     {
       "path": "src/traitweaver/workspace_server.py",
-      "sha256": "d9bee991d432098f0f391dbf25363602ee08322b2378eae4837cab9f97c58ad4",
-      "bytes": 51055
+      "sha256": "64711a12feaa1918ad1d8b0ef8095494d06f8591e48e8dc8f975221d469489d7",
+      "bytes": 57116
     },
     {
       "path": "tests/assistant_ui_offline.cjs",
@@ -949,14 +1054,34 @@
       "bytes": 13012
     },
     {
+      "path": "tests/phosphorus_walkthrough_browser.cjs",
+      "sha256": "5d70f88839d81bc8eb7d76cd4a9c61141f2a83723c606855189eaee01cfcd0fb",
+      "bytes": 10318
+    },
+    {
       "path": "tests/public_algae_ui_offline.cjs",
       "sha256": "7e1ae5aedfc2f50dcbf265912bf1c6135e842cd2f8b8e499b049b0b47740eada",
       "bytes": 13360
     },
     {
+      "path": "tests/research_homes_browser.cjs",
+      "sha256": "bf2e6c9dfce0af0df86ca7a1067032776646520cbf8b9e684f6a8a6ecf876cec",
+      "bytes": 11545
+    },
+    {
+      "path": "tests/research_runs_browser.cjs",
+      "sha256": "5e8e20fd367f15ed6119adeb95afd06a13d8e55dc48d61c6d895ab03bbc85694",
+      "bytes": 7438
+    },
+    {
       "path": "tests/research_story_ui_offline.cjs",
       "sha256": "90c979355c8deab519789f8f935c29438d91f31bb0f517215fd7633f98f7b701",
       "bytes": 12219
+    },
+    {
+      "path": "tests/site_browser.cjs",
+      "sha256": "21cdf303eaeb24c9e9b0263b209536ce359c1539f179be5c040be45c41d60303",
+      "bytes": 9944
     },
     {
       "path": "tests/test_assistant.py",
@@ -1104,6 +1229,16 @@
       "bytes": 9222
     },
     {
+      "path": "tests/test_research_homes.py",
+      "sha256": "016e9484050a0737395fa83b1239685b7e4bcef7093b78920625e5909b79fa20",
+      "bytes": 12607
+    },
+    {
+      "path": "tests/test_research_runs.py",
+      "sha256": "91b58cd0a641c900cd6a027c58118b26d5a094b273b65599fc406dec8144d37e",
+      "bytes": 9056
+    },
+    {
       "path": "tests/test_research_story.py",
       "sha256": "3bc592a5494f7e35da171eac417cf4a9d05b016ce33bab8b590515b0b751359b",
       "bytes": 10687
@@ -1129,6 +1264,16 @@
       "bytes": 11330
     },
     {
+      "path": "tests/test_trait_library.py",
+      "sha256": "ba126f1567bbb6ec2a3e63fed249c4f3d226de3235850dff8dcc9cd67d8f8136",
+      "bytes": 14837
+    },
+    {
+      "path": "tests/test_trait_research_batches.py",
+      "sha256": "12cc3dfffaaa12a6208432bb8f40efbb59279fd5fd47f6fb081c155a695bbcc0",
+      "bytes": 1978
+    },
+    {
       "path": "tests/test_workbench.py",
       "sha256": "8d480c32a38993bdc52010f768d8c120ece85d82cc9fb4ec82f4b81056325b5c",
       "bytes": 15140
@@ -1137,6 +1282,11 @@
       "path": "tests/trait_categories_ui_offline.cjs",
       "sha256": "ce3341e853478e086128bddc89f7d1a435ab6b855fa1d72edbfc649576a671e8",
       "bytes": 6725
+    },
+    {
+      "path": "tests/trait_library_ui_offline.cjs",
+      "sha256": "bbc56aa1bb150111accf0898123bedee47da18ae7a28fea9f09e1e9eca728a5e",
+      "bytes": 2862
     },
     {
       "path": "tests/workbench_ui_offline.cjs",
@@ -1212,6 +1362,16 @@
       "path": "tools/muse_intelligence_smoke.py",
       "sha256": "8ae35574b3095203143abe9fae975fa25e8db90b1759ceee6abcbf79fde3afc0",
       "bytes": 24202
+    },
+    {
+      "path": "tools/prepare_trait_research.py",
+      "sha256": "7275cc771e73ad73eafa8b451624634c351d6cc7ff99628a61ee3c26bf29a9b7",
+      "bytes": 5001
+    },
+    {
+      "path": "tools/record_site_demo.cjs",
+      "sha256": "4584c79f2cadeb509211ece340d03bebe30d123ea20fce5855ee18c38381523d",
+      "bytes": 4440
     },
     {
       "path": "tools/verify_handoff.py",
@@ -2044,5 +2204,51 @@
     "network_policy_changed": false,
     "validation": "research/transferable-traits/VALIDATION.md",
     "source_rights": "User-authorized selected scientific workbook rows and short attributed public-source notes; no full papers or raw Library receipts"
+  },
+  "local_research_homes_handoff_2026_11_04": {
+    "scope": [
+      "README.md",
+      "data/trait-library.v1.json",
+      "docs/PHOSPHORUS_WALKTHROUGH.txt",
+      "docs/RESEARCH_HOMES.txt",
+      "docs/TRAIT_LIBRARY.txt",
+      "docs/WEBSITE_WALKTHROUGH.txt",
+      "src/traitweaver/research_homes.py",
+      "src/traitweaver/research_runs.py",
+      "src/traitweaver/trait_library.py",
+      "src/traitweaver/web/assets/muse-official.svg",
+      "src/traitweaver/web/assets/research-assets-provenance.json",
+      "src/traitweaver/web/assets/research-ecosystem-v1.png",
+      "src/traitweaver/web/completed-cycle-ui.js",
+      "src/traitweaver/web/index.html",
+      "src/traitweaver/web/phosphorus-walkthrough-ui.js",
+      "src/traitweaver/web/phosphorus-walkthrough.css",
+      "src/traitweaver/web/research-homes-ui.js",
+      "src/traitweaver/web/research-homes.css",
+      "src/traitweaver/web/research-runs-ui.js",
+      "src/traitweaver/web/site-ui.js",
+      "src/traitweaver/web/site.css",
+      "src/traitweaver/web/trait-categories-ui.js",
+      "src/traitweaver/web/trait-library-ui.js",
+      "src/traitweaver/web/trait-library.css",
+      "src/traitweaver/web/workspace.js",
+      "src/traitweaver/workspace_server.py",
+      "tests/phosphorus_walkthrough_browser.cjs",
+      "tests/research_homes_browser.cjs",
+      "tests/research_runs_browser.cjs",
+      "tests/site_browser.cjs",
+      "tests/test_research_homes.py",
+      "tests/test_research_runs.py",
+      "tests/test_trait_library.py",
+      "tests/test_trait_research_batches.py",
+      "tests/trait_library_ui_offline.cjs",
+      "tools/prepare_trait_research.py",
+      "tools/record_site_demo.cjs",
+      "docs/CLAUDE_HANDOFF.txt"
+    ],
+    "base_commit": "e6fa72f44ed10ad1e4d30fef6b1df38a90a5034a",
+    "private_run_records_included": false,
+    "model_calls": 0,
+    "upstream_cloud_study_modified": false
   }
 }

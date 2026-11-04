@@ -1,0 +1,45 @@
+PHOSPHORUS: FROM TRAIT TO STUDY OUTLINE
+
+Open #trait-library/walkthrough/trait. The home page, library, phosphorus dossier,
+sidebar and How it fits together link to this guide. Six steps connect the native
+trait, focused question, sources, gaps, saved Muse context and proposed study.
+
+This is a read-only projection over the existing pinned library and research
+history. Source details open in place, with the primary URL, source locator,
+access depth and limitations. Opening the guide fetches no paper, dataset or
+provider response. An external publication opens only when its link is chosen.
+
+Each step has a stable URL: #trait-library/walkthrough/<step>/<question-id>.
+The question ID is pinned by navigation; reload retains the selected step. The
+step indicator means reading position, not scientific completion. A missing
+step or unrelated question is unavailable, never silently replaced by another
+question's records. A workspace without a saved phosphorus question shows the
+curated library example and does not create a question on navigation.
+
+Only a saved context pack matching the current question revision is used for
+current attempts. Earlier attempts remain separately accessible. Unknown usage,
+failed attempts, exact request bytes, original outputs and synthetic/actual
+provenance retain their existing owners. A new question revision does not inherit
+an earlier model reply. No provider dispatcher, credentials or paid calls.
+
+The claim-to-source trail preserves observation/inference/transfer-idea roles.
+Missing information is scoped to this project/receiving study, not automatically
+to the original paper. Gaps connect to the existing authored candidate methods;
+the sources motivate the questions, not validate those proposed methods. Saved
+source-check qualifications remain separate from the model and original claims.
+
+Water removal, cellular uptake/retention, collected-product recovery and product
+use remain distinct outcomes. Stock identity, regulation, transport and storage
+dependencies stay unresolved where unsupported. No cassette or transfer claim.
+
+The study outline preserves curated authorship, controls, measurements, design
+questions and safety review. It is NOT LAB-READY. A qualified reviewer must verify
+the exact organism, methods and conditions. Existing planning amendments remain
+separate; the guide does not call an amendment an accepted protocol. The Study
+room and Review history remain the homes for deliberate local changes/decisions.
+
+Verification: tests/phosphorus_walkthrough_browser.cjs uses synthetic receipts,
+a temporary loopback server and an already-installed Chromium. It blocks external
+traffic and checks navigation, inline source custody, exact context, question
+revision isolation, no-reply/empty/read-only states, mobile width and preservation.
+Tests/research_runs_browser.cjs verifies the existing saved-reply workflow.

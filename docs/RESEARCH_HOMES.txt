@@ -1,0 +1,135 @@
+TRAITWEAVER RESEARCH HOMES — LOCAL IMPLEMENTATION
+
+Saved replies and the human-readable research trail (November 4)
+Research replies (#trait-library/runs) is a local import/review view. A reply
+is bound to a saved evidence pack and question revision. Sources, genes,
+dependencies and the proposed study outline are read from the exact old input,
+not reconstructed from a later question or catalog. Original request/response
+bytes, fingerprints, usage and separate source-check notes remain inspectable.
+The preparation snapshot stays unchanged even after a saved attempt is linked.
+
+Import only explicit external receipt directories through research_runs.
+Its allowlist reads the exact request, response, usage, local validation and
+optional source checks. It never reads keys, launchers, approval files or other
+folder contents. Raw owner receipts and generated packages remain outside the
+candidate repository; tests use synthetic fixtures. The provider_attempt event
+is additive to the v1 journal. Existing questions, snapshots and hashes remain
+unchanged. Duplicate attempt IDs, mismatched packs, tampered bytes, inconsistent
+costs, role promotion and privacy findings block import. Reopen validates again.
+
+Actual Meta attempts and synthetic tests are separately labeled. Receipt
+agreement is not a provider-signed attestation or scientific validation.
+The known cost is calculated from reported token usage and pinned prices.
+Reasoning is a subset of output. Unknown failed-attempt usage remains unknown
+with its original reservation; it is not folded into a falsely complete total.
+Provider-settled charges, balance and expiry are not established by these records.
+Review decisions append separately and authorize neither sending nor lab work.
+
+How it fits together (#trait-library/how): many capabilities → one focused
+question → sources and datasets → known observations and open questions →
+proposed study outline → qualified human review → new evidence and a new version.
+The proposed plug-and-play boundary is the evidence pack and research reply.
+Only the saved Meta receipt adapter exists here. Chat handoff and other provider
+adapters are proposed, not active API connections. Reading/importing/exporting
+records does not send requests. The new_provider_calls field means calls made
+by the workspace, always zero; saved_runs records earlier external attempts.
+
+The preparation-only description below remains the boundary for new requests.
+
+What goes in → what happens → what comes out
+The existing six dossiers and thirteen primary-source records remain pinned.
+You browse them, save a question and compare a receiving context. Select evidence
+and optional local context to inspect a bounded Muse request. The result is an
+unsent packet with an exact body, source references, inclusions, exclusions and
+content fingerprints. No provider transport exists in this module.
+
+Open #trait-library. Eight connected homes:
+1. Library: search by capability, organism, gene or context; filter and sort.
+2. Questions: save questions and successor revisions with a native trait and a
+   potential receiving context. Earlier questions and packets stay intact.
+3. Sources: browse the thirteen primary records, access depth, locations and limits.
+4. Evidence: filter documented observations, evidence-backed inferences and
+   untested transfer ideas; trace each claim back to its source and dossier.
+5. Comparisons: inspect components, pathway/community dependencies and receiving
+   context gaps. Unknown is not absence; no sufficiency score or cassette is built.
+6. Studies: candidate methods, controls, measurements and design decisions;
+   preliminary notes; versioned planning amendments; separate validation questions;
+   future CRISPR-tool review requirements. Plans are not lab-ready.
+7. Muse context: preview exact selected context; save unsent snapshots; inspect
+   the instructions separately from evidence; attach explicitly authored mock output.
+8. Review and history: search/filter/sort immutable records, attach a separate
+   planning decision, export after full-history privacy review and reopen read-only.
+
+The original phosphorus demo, category view, legacy library journal and scoped
+reviewer sign-offs retain their owners and routes. These new homes do not merge
+their histories or inherit any scientific, provider or spending approval.
+
+Context audit
+- Selected claims retain their original evidence roles and passage locators.
+- Native/recipient context, safety boundaries, open questions and caveats always
+  travel with the packet. Excluding a claim never silently removes the caveats.
+- Source records are the exact citation closure of the included catalog content.
+- The locally authored question can be excluded explicitly.
+- Preliminary notes and planning amendments are opt-in, with their original
+  provenance and question-revision hashes. Earlier-context items stay identified.
+- Reviewer notes, other questions/studies, credentials, historical provider runs
+  and authored mock outputs are excluded from this request contract.
+- Every section has an origin, byte length and hash. The exact request body is
+  retained alongside the selection and exclusion manifest.
+- Changing a selection invalidates the displayed preview. Saving recomputes the
+  packet on the server. Saved packets never silently follow question revisions.
+- Privacy-pattern findings block selected local content from entering a packet;
+  original notes remain unchanged. These checks cannot detect all private data.
+- Instructions treat context as data. They cannot by themselves guarantee model
+  behavior; a future live adapter would still require separate approval and review.
+
+Muse provenance and limits
+Meta direct / muse-spark-1.3 is a proposed destination/model, not an actual run.
+The visible Muse mark identifies that design context, not an endorsement.
+All new suggestions in these homes are fixed authored synthetic examples.
+No Muse/Baseten credentials are read or created. There is no send route, fallback,
+retry, model execution or laboratory execution. Effective sending limit: USD 0.
+No actual token receipt or provider cost exists; usage fields remain null and
+explicitly not_called. New provider-call count is zero. Credit balance, expiry,
+current pricing and a credit-only billing stop are not verified by this build.
+Baseten integration remains separate and unimplemented. CRISPR integration is
+a future review contract only, with no guides, sequences or execution controls.
+
+Storage and restart
+python3 -B run_workspace.py --demo --port 8876 --research-dir /path/to/external/records
+
+Use an external directory outside the application. Without --research-dir, --demo
+holds the new research journal in memory: export before shutdown. With --data-dir,
+the journal defaults to a separate research-homes-v1 subdirectory of the study.
+Records are append-only and hash-linked; atomic creation refuses overwrites.
+Startup validates the chain, source pins and context reconstruction. Invalid
+history fails closed. Export/open use a distinct schema from the original library.
+Reopened packages are read-only and do not replace the original local owner.
+
+Study scope
+The curated outline and local planning amendments are separate. An amendment is
+not an approved replacement procedure. Notes may be mock or locally unverified;
+no raw instrument record or independently verified measurement is admitted here.
+Validation categories remain pending. A planning decision is not qualified
+scientific approval, laboratory authorization, provider approval or publication.
+The legacy scoped sign-off view remains available, also never granting lab-ready.
+
+Checks
+PYTHONPATH=src python3 -B -m unittest discover -s tests -p test_research_homes.py
+node tests/trait_library_ui_offline.cjs
+
+tests/research_homes_browser.cjs uses an installed Playwright and Chromium with
+TRAITWEAVER_PLAYWRIGHT, TRAITWEAVER_CHROMIUM and a fresh external
+TRAITWEAVER_QA_OUTPUT. It starts its own loopback server and writes only clearly
+synthetic test records. It blocks nonlocal page requests, tests desktop/mobile,
+context exclusions, revisions, export/reopen and exact restart replay, and verifies
+the original phosphorus record is unchanged. It installs nothing.
+
+Known remaining work
+Broader source retrieval and ingestion, independent full-text scientific review,
+qualified references/stock identities, real data intake, validated study methods,
+live Muse budget enforcement and any CRISPR/Baseten adapter are future work.
+This version curates and audits research context; it does not search all literature.
+
+Local review only. No staging, commit, push or publication is authorized by this
+increment. Existing publication manifests still describe the base release.

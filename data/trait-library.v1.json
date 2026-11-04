@@ -1,0 +1,1237 @@
+{
+  "schema_version": "traitweaver.trait_library.v1",
+  "curation": {
+    "date": "2026-11-04",
+    "author": "Codex",
+    "method": "Targeted primary-literature review; concise authored paraphrases, not an exhaustive review",
+    "scientific_review": "pending",
+    "new_muse_calls": 0
+  },
+  "sources": [
+    {
+      "id": "PSR1_2023",
+      "title": "Slocombe et al. (2023). Overexpression of PSR1 in Chlamydomonas reinhardtii induces luxury phosphorus uptake",
+      "url": "https://doi.org/10.3389/fpls.2023.1208168",
+      "access": "publisher_full_text",
+      "locator": "Results 3.2–3.4, Table 1; Discussion feed-forward model",
+      "accessed": "2026-11-04",
+      "limit": "Reported batch cultures; regulatory explanation includes an author-proposed mechanism. Existing quantitative demo records remain separate."
+    },
+    {
+      "id": "VTC_2023",
+      "title": "Guan et al. (2023). The cytoplasmic synthesis and coupled membrane translocation of eukaryotic polyphosphate by signal-activated VTC complex",
+      "url": "https://doi.org/10.1038/s41467-023-36466-4",
+      "access": "primary_article_indexed_abstract_and_introduction",
+      "locator": "Abstract; Introduction Vtc1/Vtc2/Vtc4 and Vtc1/Vtc3/Vtc4 complexes",
+      "accessed": "2026-11-04",
+      "limit": "Targeted abstract/introduction review. Exact strains and construct-to-reference accessions have not been admitted."
+    },
+    {
+      "id": "EBPR_2006",
+      "title": "García Martín et al. (2006). Metagenomic analysis of two enhanced biological phosphorus removal (EBPR) sludge communities",
+      "url": "https://doi.org/10.1038/nbt1247",
+      "access": "pubmed_abstract",
+      "locator": "PMID 16998472, Abstract",
+      "accessed": "2026-11-04",
+      "limit": "Community metagenomic evidence; individual gene necessity, exact loci and purified-isolate sufficiency are not established by this admitted abstract."
+    },
+    {
+      "id": "CUP1_1996",
+      "title": "Jensen et al. (1996). Enhanced effectiveness of copper ion buffering by CUP1 metallothionein compared with CRS5 metallothionein in Saccharomyces cerevisiae",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8702498/",
+      "access": "pubmed_indexed_abstract",
+      "locator": "Abstract, promoter-exchange and Cu(I)-binding comparisons",
+      "accessed": "2026-11-04",
+      "limit": "Copper buffering and resistance; not environmental removal, broad metal specificity or safe disposal. Exact strain/accession mapping remains open."
+    },
+    {
+      "id": "CUP2_1989",
+      "title": "The CUP2 gene product, regulator of yeast metallothionein expression, is a copper-activated DNA-binding protein (1989)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2674688/",
+      "access": "pubmed_indexed_abstract",
+      "locator": "Abstract, copper-dependent transcriptional activation",
+      "accessed": "2026-11-04",
+      "limit": "Native regulatory evidence does not establish recipient regulatory compatibility."
+    },
+    {
+      "id": "CHITIN_1999",
+      "title": "Mach et al. (1999). Expression of two major chitinase genes of Trichoderma atroviride (T. harzianum P1) is triggered by different regulatory signals",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10223970/",
+      "access": "pubmed_abstract",
+      "locator": "Abstract, ech42/nag1 expression on fungal cell walls and chitin products",
+      "accessed": "2026-11-04",
+      "limit": "Expression/regulation study. This is fungal cell-wall substrate evidence, not proof of whole-biomass conversion or contaminated-algae processing."
+    },
+    {
+      "id": "CHITIN_2001",
+      "title": "Donzelli and Harman (2001). Interaction of ammonium, glucose, and chitin regulates the expression of cell wall-degrading enzymes in Trichoderma atroviride strain P1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11722918/",
+      "access": "pubmed_indexed_abstract",
+      "locator": "Abstract, interacting carbon/nitrogen effects on expression and secretion",
+      "accessed": "2026-11-04",
+      "limit": "Context-dependent enzyme expression/secretion; does not qualify a receiving organism or a mixed biomass stream."
+    },
+    {
+      "id": "GFP_1994",
+      "title": "Chalfie et al. (1994). Green fluorescent protein as a marker for gene expression",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8303295/",
+      "access": "pubmed_abstract",
+      "locator": "Abstract, Aequorea victoria cDNA expressed in E. coli and C. elegans",
+      "accessed": "2026-11-04",
+      "limit": "Documented heterologous reporting in these study contexts; not universal transfer or proof that fluorescence measures another desired trait."
+    },
+    {
+      "id": "GFP_OXYGEN_1994",
+      "title": "Heim, Prasher and Tsien (1994). Wavelength mutations and posttranslational autoxidation of green fluorescent protein",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7809066/",
+      "access": "pubmed_abstract",
+      "locator": "Abstract, oxygen-dependent fluorophore maturation",
+      "accessed": "2026-11-04",
+      "limit": "Maturation conditions are construct/context dependent. No reporter calibration in a proposed recipient has been admitted."
+    },
+    {
+      "id": "PSR1_2016",
+      "title": "Bajhaiya et al. (2016). PSR1 Is a Global Transcriptional Regulator of Phosphorus Deficiency Responses and Carbon Storage Metabolism in Chlamydomonas reinhardtii",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26704642/",
+      "access": "pubmed_abstract",
+      "locator": "Abstract, starch increase and neutral-lipid decrease",
+      "limit": "Different endpoints and source backgrounds; not a direct contradiction of the phosphorus uptake study.",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "VTC_2014",
+      "title": "Gerasimaitė et al. (2014). Coupled synthesis and translocation restrains polyphosphate to acidocalcisome-like vacuoles and prevents its toxicity",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25315834/",
+      "access": "pubmed_abstract",
+      "locator": "Abstract, cytosolic toxicity and coupled vacuolar import",
+      "limit": "A compartment-specific safety constraint, not a universal toxicity estimate.",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "ECH42_1999",
+      "title": "Woo et al. (1999). Disruption of the ech42 (Endochitinase-Encoding) Gene Affects Biocontrol Activity in Trichoderma harzianum P1",
+      "url": "https://doi.org/10.1094/MPMI.1999.12.5.419",
+      "access": "publisher_abstract",
+      "locator": "Abstract, host-dependent outcomes",
+      "limit": "Biocontrol endpoints differ by host; neither expression nor one perturbation is whole-biomass conversion evidence.",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "GFP_2010",
+      "title": "Drepper et al. (2010). Flavin Mononucleotide-Based Fluorescent Reporter Proteins Outperform Green Fluorescent Protein-Like Proteins as Quantitative In Vivo Real-Time Reporters",
+      "url": "https://doi.org/10.1128/AEM.00701-10",
+      "access": "publisher_abstract",
+      "locator": "Abstract, oxygen-limited E. coli batch cultures",
+      "limit": "Reporter-family/context comparison; does not negate the existence of GFP fluorescence.",
+      "accessed": "2026-11-04"
+    }
+  ],
+  "recipients": [
+    {
+      "id": "alga",
+      "organism": "Chlamydomonas reinhardtii",
+      "strain": null,
+      "context": "Potential algal recipient; actual stock, environment and endpoint not selected",
+      "role": "untested_receiving_context"
+    },
+    {
+      "id": "yeast",
+      "organism": "Saccharomyces cerevisiae",
+      "strain": null,
+      "context": "Potential yeast recipient; actual stock, environment and endpoint not selected",
+      "role": "untested_receiving_context"
+    },
+    {
+      "id": "ecoli",
+      "organism": "Escherichia coli",
+      "strain": null,
+      "context": "Literature-comparison placeholder only; strain, risk assessment and receiving context not selected",
+      "role": "untested_receiving_context"
+    }
+  ],
+  "traits": [
+    {
+      "id": "psr1-uptake",
+      "category": "nutrient-capture",
+      "name": "Regulated phosphate uptake",
+      "organism": "Chlamydomonas reinhardtii",
+      "context": "PSR1-overexpressing lines in the UVM4 background; laboratory batch cultures with phosphate initially available",
+      "system_level": "regulatory_network",
+      "endpoint": "Phosphate uptake and cellular phosphorus; recovered-product yield is separate",
+      "claims": [
+        {
+          "id": "psr1-observation",
+          "role": "documented_observation",
+          "text": "PSR1-overexpressing lines showed enhanced phosphate uptake and cellular phosphorus relative to UVM4 in the reported cultures.",
+          "source_ids": [
+            "PSR1_2023"
+          ],
+          "locator": "Results 3.2; Table 1"
+        },
+        {
+          "id": "psr1-inference",
+          "role": "evidence_backed_inference",
+          "text": "A regulator acts through native transport, storage and nutrient-response machinery; a PSR1-only transfer cannot be assumed to recreate that network.",
+          "source_ids": [
+            "PSR1_2023"
+          ],
+          "locator": "Discussion feed-forward model; transfer boundary is curator inference"
+        },
+        {
+          "id": "psr1-transfer",
+          "role": "untested_transfer_idea",
+          "text": "Investigate whether a receiving context has compatible regulation and phosphorus handling before considering trait transfer.",
+          "source_ids": [
+            "PSR1_2023"
+          ],
+          "locator": "Curator question motivated by the native study; no recipient experiment"
+        }
+      ],
+      "components": [
+        {
+          "id": "psr1",
+          "gene": "PSR1",
+          "protein": "Phosphate Starvation Response 1 transcription factor",
+          "function": "Regulatory entry point",
+          "basis": "native perturbation",
+          "source_ids": [
+            "PSR1_2023"
+          ],
+          "reference_accession": null
+        },
+        {
+          "id": "transport",
+          "gene": null,
+          "protein": "Phosphate transporter network",
+          "function": "Downstream uptake; individual necessary members not qualified here",
+          "basis": "network interpretation",
+          "source_ids": [
+            "PSR1_2023"
+          ],
+          "reference_accession": null
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "regulation",
+          "requirement": "Compatible regulation and downstream transport",
+          "basis": "evidence_backed_inference",
+          "source_ids": [
+            "PSR1_2023"
+          ],
+          "check": "Resolve recipient regulatory targets and distinguish expression from uptake."
+        },
+        {
+          "id": "storage",
+          "requirement": "Cellular storage, counter-ion balance and phosphorus supply",
+          "basis": "documented_context",
+          "source_ids": [
+            "PSR1_2023"
+          ],
+          "check": "Review compartment and ion evidence in the exact receiving stock."
+        }
+      ],
+      "open_questions": [
+        "Which exact strain/reference maps to the receiving stock?",
+        "Does uptake lead to phosphorus in a collected product?"
+      ],
+      "safety": "Human review must consider nutrient burden, unintended metabolic effects and contained handling; no field-release claim.",
+      "dossier": {
+        "evidence_map": "organism/context → observed trait → supported gene/protein associations → dependencies → recipient gaps",
+        "conflicts_and_caveats": [
+          {
+            "status": "context_tradeoff",
+            "text": "PSR1 overexpression increased starch but reduced neutral lipid in a separate study. A desired phosphorus response cannot be assumed to improve all storage endpoints.",
+            "source_ids": [
+              "PSR1_2016"
+            ],
+            "review_status": "curator_summary_human_verification_pending"
+          }
+        ],
+        "missing_information": [
+          "Exact receiving stock and reference identity",
+          "Comparable source conditions, collection definition and analytical recovery",
+          "Raw replicate data, predeclared effect threshold and independent replication"
+        ],
+        "study_plan": {
+          "status": "draft_not_lab_ready",
+          "question": "Can uptake, cellular storage and collected-product phosphorus be distinguished in a defined receiving context?",
+          "authorship": "Codex-authored candidate measurement plan, not Muse output or a source protocol",
+          "candidate_methods": [
+            {
+              "method": "Source/stock identity review",
+              "source_ids": [
+                "PSR1_2023",
+                "PSR1_2016"
+              ],
+              "basis": "candidate review method motivated by cited evidence; specific protocol not qualified"
+            },
+            {
+              "method": "Validated phosphate and total-phosphorus assays by an appropriate analytical platform",
+              "source_ids": [
+                "PSR1_2023",
+                "PSR1_2016"
+              ],
+              "basis": "candidate review method motivated by cited evidence; specific protocol not qualified"
+            },
+            {
+              "method": "Biomass, growth and compartment mass-balance assessment",
+              "source_ids": [
+                "PSR1_2023",
+                "PSR1_2016"
+              ],
+              "basis": "candidate review method motivated by cited evidence; specific protocol not qualified"
+            }
+          ],
+          "controls": [
+            "Matched native/source baseline when justified",
+            "Abiotic medium and processing blanks",
+            "Recovery standards and independent biological units"
+          ],
+          "measurements": [
+            "Medium phosphate, cellular phosphorus and collected-product phosphorus as separate endpoints",
+            "Biomass and growth with uncertainty; matched phosphorus mass basis"
+          ],
+          "design_review": [
+            "Define the independent experimental unit and avoid pseudoreplication",
+            "Choose sample size from variance and a predeclared effect threshold; no sample count is prescribed",
+            "Review randomization, blocking, blinding, exclusions, uncertainty and stopping rules before data collection"
+          ],
+          "safety_review": "Human review must consider nutrient burden, unintended metabolic effects and contained handling; no field-release claim.",
+          "signoff": {
+            "status": "pending",
+            "qualified_reviewer": null,
+            "organism_stock": null,
+            "methods_and_conditions": null,
+            "authorization": "none"
+          },
+          "source_ids": [
+            "PSR1_2023",
+            "PSR1_2016"
+          ],
+          "execution": "No protocol, reagent quantities, edit-ready sequence, culture conditions or laboratory action is generated"
+        },
+        "crispr_future": {
+          "status": "future_not_connected",
+          "purpose": "A future tool may support source-qualified identity and perturbation-evidence review after human review.",
+          "required_inputs": [
+            "Exact organism/stock and versioned reference",
+            "Source-supported target role and pathway dependencies",
+            "Reviewer-approved research question and safety scope"
+          ],
+          "required_outputs": [
+            "Tool identity/version and input hashes",
+            "Separate predicted versus measured effects",
+            "Off-target/pleiotropy uncertainties and human decision"
+          ],
+          "limit": "No guide selection, edit site, donor sequence, construct or CRISPR execution in this slice."
+        }
+      }
+    },
+    {
+      "id": "vtc-storage",
+      "category": "nutrient-capture",
+      "name": "Vacuolar polyphosphate storage",
+      "organism": "Saccharomyces cerevisiae",
+      "context": "Yeast VTC structural, biochemical and cellular studies; exact experimental strain mapping pending",
+      "system_level": "protein_complex",
+      "endpoint": "Polyphosphate synthesis and vacuolar translocation",
+      "claims": [
+        {
+          "id": "vtc-observation",
+          "role": "documented_observation",
+          "text": "The study characterized Vtc1/Vtc3/Vtc4 assembly and coupling of polyphosphate synthesis to vacuolar membrane transit.",
+          "source_ids": [
+            "VTC_2023"
+          ],
+          "locator": "Abstract"
+        },
+        {
+          "id": "vtc-inference",
+          "role": "evidence_backed_inference",
+          "text": "Storage requires a coordinated complex and cellular context; identifying a catalytic protein alone does not establish storage capacity.",
+          "source_ids": [
+            "VTC_2023"
+          ],
+          "locator": "Curator inference from coupled synthesis/translocation"
+        },
+        {
+          "id": "vtc-transfer",
+          "role": "untested_transfer_idea",
+          "text": "Compare the recipient's compartment and signaling machinery before asking whether VTC-like storage could be supported.",
+          "source_ids": [
+            "VTC_2023"
+          ],
+          "locator": "Curator question; no recipient result"
+        }
+      ],
+      "components": [
+        {
+          "id": "vtc4",
+          "gene": "VTC4",
+          "protein": "Vtc4",
+          "function": "Catalytic polyphosphate polymerase subunit",
+          "basis": "biochemical/structural evidence",
+          "source_ids": [
+            "VTC_2023"
+          ],
+          "reference_accession": null
+        },
+        {
+          "id": "partners",
+          "gene": "VTC1; VTC3 (VTC2 in an alternative complex)",
+          "protein": "Vtc1; Vtc3; Vtc2",
+          "function": "Membrane complex partners; alternatives are not a required four-gene cassette",
+          "basis": "complex composition",
+          "source_ids": [
+            "VTC_2023"
+          ],
+          "reference_accession": null
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "membrane",
+          "requirement": "Complex assembly and vacuolar membrane localization",
+          "basis": "documented_context",
+          "source_ids": [
+            "VTC_2023"
+          ],
+          "check": "Establish recipient compartment identity and localization evidence."
+        },
+        {
+          "id": "energy",
+          "requirement": "ATP supply and inositol pyrophosphate signaling",
+          "basis": "documented_context",
+          "source_ids": [
+            "VTC_2023"
+          ],
+          "check": "Review signaling compatibility and energy burden separately from synthesis."
+        }
+      ],
+      "open_questions": [
+        "Which subcomplex is relevant to the receiving context?",
+        "How would storage be distinguished from uptake and later mobilization?"
+      ],
+      "safety": "Scientific review must address phosphate homeostasis, energy burden and compartment stress.",
+      "dossier": {
+        "evidence_map": "organism/context → observed trait → supported gene/protein associations → dependencies → recipient gaps",
+        "conflicts_and_caveats": [
+          {
+            "status": "boundary_evidence",
+            "text": "Cytosolic polyphosphate production was toxic in the yeast study, while coupled vacuolar synthesis/import avoided that growth effect. More synthesis is not automatically beneficial.",
+            "source_ids": [
+              "VTC_2014"
+            ],
+            "review_status": "curator_summary_human_verification_pending"
+          }
+        ],
+        "missing_information": [
+          "Exact stock, complex composition and reference accessions",
+          "Recipient membrane localization and signaling compatibility",
+          "Assay specificity and acceptable burden"
+        ],
+        "study_plan": {
+          "status": "draft_not_lab_ready",
+          "question": "Can polymer synthesis, compartmental storage and burden be assessed separately?",
+          "authorship": "Codex-authored candidate measurement plan, not Muse output or a source protocol",
+          "candidate_methods": [
+            {
+              "method": "Reference/complex membership review",
+              "source_ids": [
+                "VTC_2023",
+                "VTC_2014"
+              ],
+              "basis": "candidate review method motivated by cited evidence; specific protocol not qualified"
+            },
+            {
+              "method": "Qualified polyphosphate measurement with an orthogonal specificity check",
+              "source_ids": [
+                "VTC_2023",
+                "VTC_2014"
+              ],
+              "basis": "candidate review method motivated by cited evidence; specific protocol not qualified"
+            },
+            {
+              "method": "Compartment/localization and cellular-burden assessment",
+              "source_ids": [
+                "VTC_2023",
+                "VTC_2014"
+              ],
+              "basis": "candidate review method motivated by cited evidence; specific protocol not qualified"
+            }
+          ],
+          "controls": [
+            "Matched native baseline and assay blank",
+            "Assay specificity/reference control",
+            "Localization control and independent biological units"
+          ],
+          "measurements": [
+            "Polyphosphate amount and compartment assignment",
+            "Growth/stress and energy-related readouts chosen by the reviewer"
+          ],
+          "design_review": [
+            "Define the independent experimental unit and avoid pseudoreplication",
+            "Choose sample size from variance and a predeclared effect threshold; no sample count is prescribed",
+            "Review randomization, blocking, blinding, exclusions, uncertainty and stopping rules before data collection"
+          ],
+          "safety_review": "Scientific review must address phosphate homeostasis, energy burden and compartment stress.",
+          "signoff": {
+            "status": "pending",
+            "qualified_reviewer": null,
+            "organism_stock": null,
+            "methods_and_conditions": null,
+            "authorization": "none"
+          },
+          "source_ids": [
+            "VTC_2023",
+            "VTC_2014"
+          ],
+          "execution": "No protocol, reagent quantities, edit-ready sequence, culture conditions or laboratory action is generated"
+        },
+        "crispr_future": {
+          "status": "future_not_connected",
+          "purpose": "A future tool may support source-qualified identity and perturbation-evidence review after human review.",
+          "required_inputs": [
+            "Exact organism/stock and versioned reference",
+            "Source-supported target role and pathway dependencies",
+            "Reviewer-approved research question and safety scope"
+          ],
+          "required_outputs": [
+            "Tool identity/version and input hashes",
+            "Separate predicted versus measured effects",
+            "Off-target/pleiotropy uncertainties and human decision"
+          ],
+          "limit": "No guide selection, edit site, donor sequence, construct or CRISPR execution in this slice."
+        }
+      }
+    },
+    {
+      "id": "community-phosphorus",
+      "category": "living-partnerships",
+      "name": "Community phosphorus accumulation",
+      "organism": "Candidatus Accumulibacter phosphatis within sludge communities",
+      "context": "Two laboratory EBPR sludge communities dominated by uncultured Accumulibacter; a community-associated process",
+      "system_level": "community_process",
+      "endpoint": "Biological phosphorus removal in a community/process context",
+      "claims": [
+        {
+          "id": "ebpr-observation",
+          "role": "documented_observation",
+          "text": "Metagenomic analysis characterized two phosphorus-removing sludge communities dominated by Accumulibacter.",
+          "source_ids": [
+            "EBPR_2006"
+          ],
+          "locator": "Abstract"
+        },
+        {
+          "id": "ebpr-inference",
+          "role": "evidence_backed_inference",
+          "text": "A community-level process and genomic potential cannot be reduced to one demonstrated sufficient gene.",
+          "source_ids": [
+            "EBPR_2006"
+          ],
+          "locator": "Curator evidence-level interpretation"
+        },
+        {
+          "id": "ebpr-transfer",
+          "role": "untested_transfer_idea",
+          "text": "First resolve population contributions, process conditions and phosphorus fate; do not treat this as a single-organism transfer recipe.",
+          "source_ids": [
+            "EBPR_2006"
+          ],
+          "locator": "Curator investigation question"
+        }
+      ],
+      "components": [
+        {
+          "id": "unresolved",
+          "gene": null,
+          "protein": null,
+          "function": "Exact metabolic loci and protein identities require full-text/genome qualification",
+          "basis": "identity not admitted from abstract",
+          "source_ids": [
+            "EBPR_2006"
+          ],
+          "reference_accession": null
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "community",
+          "requirement": "Community composition and population contributions",
+          "basis": "documented_context",
+          "source_ids": [
+            "EBPR_2006"
+          ],
+          "check": "Identify which population performs each inferred function."
+        },
+        {
+          "id": "process",
+          "requirement": "Process conditions and separate phosphorus fate accounting",
+          "basis": "evidence_backed_inference",
+          "source_ids": [
+            "EBPR_2006"
+          ],
+          "check": "Review source process conditions and distinguish cellular storage from collected phosphorus."
+        }
+      ],
+      "open_questions": [
+        "Which activities are measured versus inferred from genes?",
+        "What interactions are necessary in the exact community?"
+      ],
+      "safety": "Mixed environmental communities require specialist biosafety and contaminant review; no release or inoculation plan is provided.",
+      "dossier": {
+        "evidence_map": "organism/context → observed trait → supported gene/protein associations → dependencies → recipient gaps",
+        "conflicts_and_caveats": [
+          {
+            "status": "not_assessed",
+            "text": "No direct contradictory primary study is admitted in this bounded abstract review. Community diversity, strain differences and alternative mechanisms require a targeted follow-up search.",
+            "source_ids": [
+              "EBPR_2006"
+            ],
+            "review_status": "curator_summary_human_verification_pending"
+          }
+        ],
+        "missing_information": [
+          "Full-text method qualification and exact metabolic loci",
+          "Population contributions and necessary interactions",
+          "Matched process conditions, material balance and independent process replication"
+        ],
+        "study_plan": {
+          "status": "draft_not_lab_ready",
+          "question": "Which community members and process stages account for measured phosphorus fate?",
+          "authorship": "Codex-authored candidate measurement plan, not Muse output or a source protocol",
+          "candidate_methods": [
+            {
+              "method": "Full-text and population/genome identity review",
+              "source_ids": [
+                "EBPR_2006"
+              ],
+              "basis": "candidate review method motivated by cited evidence; specific protocol not qualified"
+            },
+            {
+              "method": "Community composition profiling paired with functional evidence",
+              "source_ids": [
+                "EBPR_2006"
+              ],
+              "basis": "candidate review method motivated by cited evidence; specific protocol not qualified"
+            },
+            {
+              "method": "Compartment-resolved phosphorus accounting",
+              "source_ids": [
+                "EBPR_2006"
+              ],
+              "basis": "candidate review method motivated by cited evidence; specific protocol not qualified"
+            }
+          ],
+          "controls": [
+            "Process/abiotic background controls",
+            "Extraction and profiling blanks where relevant",
+            "Independent process units; repeated samples are not independent systems"
+          ],
+          "measurements": [
+            "Population composition versus measured function as separate records",
+            "Phosphorus in liquid, biomass and collected material"
+          ],
+          "design_review": [
+            "Define the independent experimental unit and avoid pseudoreplication",
+            "Choose sample size from variance and a predeclared effect threshold; no sample count is prescribed",
+            "Review randomization, blocking, blinding, exclusions, uncertainty and stopping rules before data collection"
+          ],
+          "safety_review": "Mixed environmental communities require specialist biosafety and contaminant review; no release or inoculation plan is provided.",
+          "signoff": {
+            "status": "pending",
+            "qualified_reviewer": null,
+            "organism_stock": null,
+            "methods_and_conditions": null,
+            "authorization": "none"
+          },
+          "source_ids": [
+            "EBPR_2006"
+          ],
+          "execution": "No protocol, reagent quantities, edit-ready sequence, culture conditions or laboratory action is generated"
+        },
+        "crispr_future": {
+          "status": "future_not_connected",
+          "purpose": "A future tool may support source-qualified identity and perturbation-evidence review after human review.",
+          "required_inputs": [
+            "Exact organism/stock and versioned reference",
+            "Source-supported target role and pathway dependencies",
+            "Reviewer-approved research question and safety scope"
+          ],
+          "required_outputs": [
+            "Tool identity/version and input hashes",
+            "Separate predicted versus measured effects",
+            "Off-target/pleiotropy uncertainties and human decision"
+          ],
+          "limit": "No guide selection, edit site, donor sequence, construct or CRISPR execution in this slice."
+        }
+      }
+    },
+    {
+      "id": "copper-binding",
+      "category": "environmental-response",
+      "name": "Intracellular copper binding",
+      "organism": "Saccharomyces cerevisiae",
+      "context": "Native metallothionein and regulatory studies; specific copper exposure comparisons; exact strain/reference unresolved",
+      "system_level": "protein_with_regulation",
+      "endpoint": "Cu(I) buffering and copper resistance; not recovered-metal yield",
+      "claims": [
+        {
+          "id": "copper-observation",
+          "role": "documented_observation",
+          "text": "CUP1 and CRS5 comparisons supported a strong role for Cup1 in copper buffering and resistance; promoter context affected the outcome.",
+          "source_ids": [
+            "CUP1_1996"
+          ],
+          "locator": "Abstract, promoter exchange"
+        },
+        {
+          "id": "copper-regulation",
+          "role": "documented_observation",
+          "text": "CUP2 was characterized as a copper-responsive transcriptional activator of CUP1.",
+          "source_ids": [
+            "CUP2_1989"
+          ],
+          "locator": "Abstract"
+        },
+        {
+          "id": "copper-inference",
+          "role": "evidence_backed_inference",
+          "text": "Binding capacity, regulation and intracellular copper access must be considered separately from environmental capture.",
+          "source_ids": [
+            "CUP1_1996",
+            "CUP2_1989"
+          ],
+          "locator": "Curator endpoint interpretation"
+        },
+        {
+          "id": "copper-transfer",
+          "role": "untested_transfer_idea",
+          "text": "Investigate recipient copper handling and expression context before evaluating a metal-binding application.",
+          "source_ids": [
+            "CUP1_1996"
+          ],
+          "locator": "Curator question; no recipient experiment"
+        }
+      ],
+      "components": [
+        {
+          "id": "cup1",
+          "gene": "CUP1",
+          "protein": "Cup1 metallothionein",
+          "function": "Intracellular Cu(I) binding",
+          "basis": "native functional comparison",
+          "source_ids": [
+            "CUP1_1996"
+          ],
+          "reference_accession": null
+        },
+        {
+          "id": "cup2",
+          "gene": "CUP2",
+          "protein": "Cup2 copper-responsive transcription factor",
+          "function": "Native CUP1 regulation",
+          "basis": "regulatory study",
+          "source_ids": [
+            "CUP2_1989"
+          ],
+          "reference_accession": null
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "exposure",
+          "requirement": "Copper speciation, intracellular access and toxicity",
+          "basis": "evidence_backed_inference",
+          "source_ids": [
+            "CUP1_1996"
+          ],
+          "check": "Separate binding, survival and net metal removal in the intended context."
+        },
+        {
+          "id": "expression",
+          "requirement": "Expression level and regulatory compatibility",
+          "basis": "documented_context",
+          "source_ids": [
+            "CUP1_1996",
+            "CUP2_1989"
+          ],
+          "check": "Resolve stock-specific regulation without assuming native promoters function across species."
+        }
+      ],
+      "open_questions": [
+        "What metal species and compartment are relevant?",
+        "Where does retained copper go after biomass collection?"
+      ],
+      "safety": "Copper remains hazardous after binding. Human review must address exposure, residuals and disposal; binding does not detoxify the environment by itself.",
+      "dossier": {
+        "evidence_map": "organism/context → observed trait → supported gene/protein associations → dependencies → recipient gaps",
+        "conflicts_and_caveats": [
+          {
+            "status": "context_dependence",
+            "text": "The promoter-exchange comparison changed metallothionein-associated resistance. Protein identity alone does not determine the native outcome. No conflicting environmental-removal trial is admitted.",
+            "source_ids": [
+              "CUP1_1996"
+            ],
+            "review_status": "curator_summary_human_verification_pending"
+          }
+        ],
+        "missing_information": [
+          "Metal speciation, exact stock and gene-copy/reference identity",
+          "Receiving-context expression and intracellular accessibility",
+          "Residual exposure, disposal and recovery endpoints"
+        ],
+        "study_plan": {
+          "status": "draft_not_lab_ready",
+          "question": "Does copper binding change intracellular partitioning, tolerance or net recoverable copper in the intended context?",
+          "authorship": "Codex-authored candidate measurement plan, not Muse output or a source protocol",
+          "candidate_methods": [
+            {
+              "method": "Gene/protein identity and regulatory review",
+              "source_ids": [
+                "CUP1_1996",
+                "CUP2_1989"
+              ],
+              "basis": "candidate review method motivated by cited evidence; specific protocol not qualified"
+            },
+            {
+              "method": "Validated metal speciation/total-metal analysis appropriate to the matrix",
+              "source_ids": [
+                "CUP1_1996",
+                "CUP2_1989"
+              ],
+              "basis": "candidate review method motivated by cited evidence; specific protocol not qualified"
+            },
+            {
+              "method": "Separate partitioning and viability assessments",
+              "source_ids": [
+                "CUP1_1996",
+                "CUP2_1989"
+              ],
+              "basis": "candidate review method motivated by cited evidence; specific protocol not qualified"
+            }
+          ],
+          "controls": [
+            "Abiotic adsorption and matrix blanks",
+            "Unmodified stock/context baseline where appropriate",
+            "Analytical recovery standards and independent biological units"
+          ],
+          "measurements": [
+            "Copper in each material fraction, with mass balance",
+            "Viability and copper binding as distinct outcomes"
+          ],
+          "design_review": [
+            "Define the independent experimental unit and avoid pseudoreplication",
+            "Choose sample size from variance and a predeclared effect threshold; no sample count is prescribed",
+            "Review randomization, blocking, blinding, exclusions, uncertainty and stopping rules before data collection"
+          ],
+          "safety_review": "Copper remains hazardous after binding. Human review must address exposure, residuals and disposal; binding does not detoxify the environment by itself.",
+          "signoff": {
+            "status": "pending",
+            "qualified_reviewer": null,
+            "organism_stock": null,
+            "methods_and_conditions": null,
+            "authorization": "none"
+          },
+          "source_ids": [
+            "CUP1_1996",
+            "CUP2_1989"
+          ],
+          "execution": "No protocol, reagent quantities, edit-ready sequence, culture conditions or laboratory action is generated"
+        },
+        "crispr_future": {
+          "status": "future_not_connected",
+          "purpose": "A future tool may support source-qualified identity and perturbation-evidence review after human review.",
+          "required_inputs": [
+            "Exact organism/stock and versioned reference",
+            "Source-supported target role and pathway dependencies",
+            "Reviewer-approved research question and safety scope"
+          ],
+          "required_outputs": [
+            "Tool identity/version and input hashes",
+            "Separate predicted versus measured effects",
+            "Off-target/pleiotropy uncertainties and human decision"
+          ],
+          "limit": "No guide selection, edit site, donor sequence, construct or CRISPR execution in this slice."
+        }
+      }
+    },
+    {
+      "id": "fungal-wall-breakdown",
+      "category": "living-partnerships",
+      "name": "Fungal cell-wall breakdown system",
+      "organism": "Trichoderma atroviride",
+      "context": "Strain P1 (historically T. harzianum P1), fungal cell walls and chitin-related substrates; enzyme expression/secretion studies",
+      "system_level": "regulated_enzyme_system",
+      "endpoint": "Chitinolytic enzyme expression and secretion; whole-biomass conversion not quantified here",
+      "claims": [
+        {
+          "id": "fungal-observation",
+          "role": "documented_observation",
+          "text": "ech42 and nag1 showed different regulatory responses to fungal cell walls and chitin degradation products.",
+          "source_ids": [
+            "CHITIN_1999"
+          ],
+          "locator": "Abstract"
+        },
+        {
+          "id": "fungal-nutrition",
+          "role": "documented_observation",
+          "text": "Carbon and nitrogen context affected cell-wall-degrading enzyme expression and secretion in strain P1.",
+          "source_ids": [
+            "CHITIN_2001"
+          ],
+          "locator": "Abstract"
+        },
+        {
+          "id": "fungal-inference",
+          "role": "evidence_backed_inference",
+          "text": "This suggests a regulated enzyme system, with substrate access and secretion as investigation needs; transcript induction alone is not biomass conversion.",
+          "source_ids": [
+            "CHITIN_1999",
+            "CHITIN_2001"
+          ],
+          "locator": "Curator inference and measurement distinction"
+        },
+        {
+          "id": "fungal-transfer",
+          "role": "untested_transfer_idea",
+          "text": "Review substrate identity and recipient secretion before asking whether any component could support breakdown. No algae–fungus pairing is qualified.",
+          "source_ids": [
+            "CHITIN_1999",
+            "CHITIN_2001"
+          ],
+          "locator": "Curator question; no receiving-system result"
+        }
+      ],
+      "components": [
+        {
+          "id": "ech42",
+          "gene": "ech42",
+          "protein": "CHIT42 endochitinase",
+          "function": "Chitin-degrading enzyme",
+          "basis": "gene/product assignment in primary study",
+          "source_ids": [
+            "CHITIN_1999"
+          ],
+          "reference_accession": null
+        },
+        {
+          "id": "nag1",
+          "gene": "nag1",
+          "protein": "CHIT73 N-acetyl-beta-D-glucosaminidase",
+          "function": "Chitin-product processing",
+          "basis": "gene/product assignment in primary study",
+          "source_ids": [
+            "CHITIN_1999"
+          ],
+          "reference_accession": null
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "substrate",
+          "requirement": "Matching substrate and accessible cell-wall material",
+          "basis": "documented_context",
+          "source_ids": [
+            "CHITIN_1999"
+          ],
+          "check": "Distinguish fungal wall substrate from plant cellulose, algal biomass and mixed waste."
+        },
+        {
+          "id": "secretion",
+          "requirement": "Secretion and carbon/nitrogen-dependent regulation",
+          "basis": "documented_context",
+          "source_ids": [
+            "CHITIN_2001"
+          ],
+          "check": "Review extracellular activity evidence, recipient secretion and nutrient context."
+        }
+      ],
+      "open_questions": [
+        "Are the reported enzymes sufficient for the specified material?",
+        "What additional enzymes or ecological interactions matter?"
+      ],
+      "safety": "Human scientific and biosafety review must address non-target fungi, exposure and residual contaminants. Biomass breakdown does not destroy metals.",
+      "dossier": {
+        "evidence_map": "organism/context → observed trait → supported gene/protein associations → dependencies → recipient gaps",
+        "conflicts_and_caveats": [
+          {
+            "status": "opposing_context_results",
+            "text": "The ech42 disruption study reported reduced antagonism against one fungal host, unchanged protection against another, and improved protection against a third. This opposes a universal single-gene explanation; endpoints and host contexts differ.",
+            "source_ids": [
+              "ECH42_1999"
+            ],
+            "review_status": "curator_summary_human_verification_pending"
+          }
+        ],
+        "missing_information": [
+          "Specified biomass composition and accessibility",
+          "Exact species/strain mapping and additional enzyme requirements",
+          "Conversion products, residual contaminants and non-target effects"
+        ],
+        "study_plan": {
+          "status": "draft_not_lab_ready",
+          "question": "Does the specified material show measurable breakdown beyond enzyme expression?",
+          "authorship": "Codex-authored candidate measurement plan, not Muse output or a source protocol",
+          "candidate_methods": [
+            {
+              "method": "Source taxonomy and material-composition review",
+              "source_ids": [
+                "CHITIN_1999",
+                "CHITIN_2001",
+                "ECH42_1999"
+              ],
+              "basis": "candidate review method motivated by cited evidence; specific protocol not qualified"
+            },
+            {
+              "method": "Qualified enzyme activity and substrate-conversion measurements",
+              "source_ids": [
+                "CHITIN_1999",
+                "CHITIN_2001",
+                "ECH42_1999"
+              ],
+              "basis": "candidate review method motivated by cited evidence; specific protocol not qualified"
+            },
+            {
+              "method": "Orthogonal material/product characterization",
+              "source_ids": [
+                "CHITIN_1999",
+                "CHITIN_2001",
+                "ECH42_1999"
+              ],
+              "basis": "candidate review method motivated by cited evidence; specific protocol not qualified"
+            }
+          ],
+          "controls": [
+            "Material-only and enzyme/activity-negative controls chosen by reviewer",
+            "Matched biological baseline",
+            "Matrix blanks and independent material/biological units"
+          ],
+          "measurements": [
+            "Expression, secreted activity and actual material conversion separately",
+            "Residual material and contaminant fate; no destruction assumption"
+          ],
+          "design_review": [
+            "Define the independent experimental unit and avoid pseudoreplication",
+            "Choose sample size from variance and a predeclared effect threshold; no sample count is prescribed",
+            "Review randomization, blocking, blinding, exclusions, uncertainty and stopping rules before data collection"
+          ],
+          "safety_review": "Human scientific and biosafety review must address non-target fungi, exposure and residual contaminants. Biomass breakdown does not destroy metals.",
+          "signoff": {
+            "status": "pending",
+            "qualified_reviewer": null,
+            "organism_stock": null,
+            "methods_and_conditions": null,
+            "authorization": "none"
+          },
+          "source_ids": [
+            "CHITIN_1999",
+            "CHITIN_2001",
+            "ECH42_1999"
+          ],
+          "execution": "No protocol, reagent quantities, edit-ready sequence, culture conditions or laboratory action is generated"
+        },
+        "crispr_future": {
+          "status": "future_not_connected",
+          "purpose": "A future tool may support source-qualified identity and perturbation-evidence review after human review.",
+          "required_inputs": [
+            "Exact organism/stock and versioned reference",
+            "Source-supported target role and pathway dependencies",
+            "Reviewer-approved research question and safety scope"
+          ],
+          "required_outputs": [
+            "Tool identity/version and input hashes",
+            "Separate predicted versus measured effects",
+            "Off-target/pleiotropy uncertainties and human decision"
+          ],
+          "limit": "No guide selection, edit site, donor sequence, construct or CRISPR execution in this slice."
+        }
+      }
+    },
+    {
+      "id": "gfp-reporting",
+      "category": "materials",
+      "name": "Green fluorescent reporting",
+      "organism": "Aequorea victoria",
+      "context": "Native jellyfish GFP; separate published heterologous reporting in E. coli and C. elegans",
+      "system_level": "protein_with_maturation",
+      "endpoint": "Fluorescent signal; interpretation requires context-specific controls",
+      "claims": [
+        {
+          "id": "gfp-observation",
+          "role": "documented_observation",
+          "text": "Aequorea victoria GFP cDNA produced fluorescent protein in E. coli and C. elegans in the reported study.",
+          "source_ids": [
+            "GFP_1994"
+          ],
+          "locator": "Abstract"
+        },
+        {
+          "id": "gfp-maturation",
+          "role": "documented_observation",
+          "text": "Formation of the mature GFP fluorophore required molecular oxygen in the reported characterization.",
+          "source_ids": [
+            "GFP_OXYGEN_1994"
+          ],
+          "locator": "Abstract"
+        },
+        {
+          "id": "gfp-inference",
+          "role": "evidence_backed_inference",
+          "text": "Fluorescence is a reporter readout; it does not by itself establish phosphorus uptake, protein activity or another phenotype.",
+          "source_ids": [
+            "GFP_1994",
+            "GFP_OXYGEN_1994"
+          ],
+          "locator": "Curator readout interpretation"
+        },
+        {
+          "id": "gfp-transfer",
+          "role": "untested_transfer_idea",
+          "text": "Investigate expression, maturation and background fluorescence in the exact recipient before assigning a reporting role.",
+          "source_ids": [
+            "GFP_1994",
+            "GFP_OXYGEN_1994"
+          ],
+          "locator": "Curator question; prior transfers are not this recipient experiment"
+        }
+      ],
+      "components": [
+        {
+          "id": "gfp",
+          "gene": "GFP (cDNA in cited study)",
+          "protein": "Green fluorescent protein",
+          "function": "Fluorescent reporter",
+          "basis": "documented heterologous expression",
+          "source_ids": [
+            "GFP_1994"
+          ],
+          "reference_accession": null
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "maturation",
+          "requirement": "Folding and oxygen-dependent maturation",
+          "basis": "documented_context",
+          "source_ids": [
+            "GFP_OXYGEN_1994"
+          ],
+          "check": "Review maturation and localization in the actual receiving conditions."
+        },
+        {
+          "id": "measurement",
+          "requirement": "Reporter expression, background and readout specificity",
+          "basis": "evidence_backed_inference",
+          "source_ids": [
+            "GFP_1994"
+          ],
+          "check": "Define controls that separate fluorescence from the intended biological endpoint."
+        }
+      ],
+      "open_questions": [
+        "Which GFP variant and exact sequence/reference are intended?",
+        "Is the reporter linked to the desired process, or only present in the cell?"
+      ],
+      "safety": "Reporter use still requires organism-specific scientific and biosafety review. No construct or environmental use is approved.",
+      "dossier": {
+        "evidence_map": "organism/context → observed trait → supported gene/protein associations → dependencies → recipient gaps",
+        "conflicts_and_caveats": [
+          {
+            "status": "measurement_counterexample",
+            "text": "Under oxygen limitation, GFP-family fluorescence did not track reporter protein amount in E. coli batch cultures. This limits quantitative interpretation, rather than contradicting GFP expression.",
+            "source_ids": [
+              "GFP_2010"
+            ],
+            "review_status": "curator_summary_human_verification_pending"
+          }
+        ],
+        "missing_information": [
+          "Exact reporter variant and stock identity",
+          "Maturation, localization, autofluorescence and calibration",
+          "A justified relationship between signal and desired biological endpoint"
+        ],
+        "study_plan": {
+          "status": "draft_not_lab_ready",
+          "question": "Does fluorescence report the intended quantity in the exact receiving context?",
+          "authorship": "Codex-authored candidate measurement plan, not Muse output or a source protocol",
+          "candidate_methods": [
+            {
+              "method": "Exact GFP variant/reference and recipient identity review",
+              "source_ids": [
+                "GFP_1994",
+                "GFP_OXYGEN_1994",
+                "GFP_2010"
+              ],
+              "basis": "candidate review method motivated by cited evidence; specific protocol not qualified"
+            },
+            {
+              "method": "Fluorescence measurement with background/spectral controls",
+              "source_ids": [
+                "GFP_1994",
+                "GFP_OXYGEN_1994",
+                "GFP_2010"
+              ],
+              "basis": "candidate review method motivated by cited evidence; specific protocol not qualified"
+            },
+            {
+              "method": "Orthogonal reporter abundance and endpoint measurements",
+              "source_ids": [
+                "GFP_1994",
+                "GFP_OXYGEN_1994",
+                "GFP_2010"
+              ],
+              "basis": "candidate review method motivated by cited evidence; specific protocol not qualified"
+            }
+          ],
+          "controls": [
+            "Reporter-negative receiving stock",
+            "Qualified positive/reference fluorescence control",
+            "Background/autofluorescence and instrument calibration controls"
+          ],
+          "measurements": [
+            "Signal, background and reporter abundance separately",
+            "Maturation context and the desired phenotype measured independently"
+          ],
+          "design_review": [
+            "Define the independent experimental unit and avoid pseudoreplication",
+            "Choose sample size from variance and a predeclared effect threshold; no sample count is prescribed",
+            "Review randomization, blocking, blinding, exclusions, uncertainty and stopping rules before data collection"
+          ],
+          "safety_review": "Reporter use still requires organism-specific scientific and biosafety review. No construct or environmental use is approved.",
+          "signoff": {
+            "status": "pending",
+            "qualified_reviewer": null,
+            "organism_stock": null,
+            "methods_and_conditions": null,
+            "authorization": "none"
+          },
+          "source_ids": [
+            "GFP_1994",
+            "GFP_OXYGEN_1994",
+            "GFP_2010"
+          ],
+          "execution": "No protocol, reagent quantities, edit-ready sequence, culture conditions or laboratory action is generated"
+        },
+        "crispr_future": {
+          "status": "future_not_connected",
+          "purpose": "A future tool may support source-qualified identity and perturbation-evidence review after human review.",
+          "required_inputs": [
+            "Exact organism/stock and versioned reference",
+            "Source-supported target role and pathway dependencies",
+            "Reviewer-approved research question and safety scope"
+          ],
+          "required_outputs": [
+            "Tool identity/version and input hashes",
+            "Separate predicted versus measured effects",
+            "Off-target/pleiotropy uncertainties and human decision"
+          ],
+          "limit": "No guide selection, edit site, donor sequence, construct or CRISPR execution in this slice."
+        }
+      }
+    }
+  ]
+}

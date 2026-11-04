@@ -1,3 +1,39 @@
+**Guided phosphorus research — November 4:** open
+`#trait-library/walkthrough/trait` to follow one native trait through the question,
+source trail, gaps, exact saved Muse context and proposed study outline. Sources
+open in place. Reading never sends, saves a decision or marks science complete.
+Question revisions keep their own context; earlier replies remain visible.
+[Walkthrough, provenance and limits](docs/PHOSPHORUS_WALKTHROUGH.txt).
+
+**Saved research replies — November 4:** Research replies joins each imported
+actual or synthetic attempt to its exact evidence pack, original response,
+source checks, draft outline, token use and cost. Failed attempts remain visible;
+missing usage is unknown, not zero. Human decisions are separate, durable records.
+How it fits together explains the trait-library-to-study-brief flow and proposed
+interchangeable research partners. The website has no provider sender or key access.
+
+**Local demo-first website — November 4:** the default home now leads with a
+nine-scene, three-minute walkthrough: broad traits → focused phosphorus evidence
+and a saved local audit → proposed studies and future possibilities. The connected
+research homes remain usable, with exact context and provenance inspection.
+The default replay is synthetic; no new provider or lab run. See the
+[website routes, controls and limits](docs/WEBSITE_WALKTHROUGH.txt).
+
+**Local research homes — November 4:** open `#trait-library` for eight connected
+spaces: library, questions, sources, evidence, comparisons, studies, Muse context
+and review. Search and sort the pinned records, retain question/plan revisions,
+and audit exact unsent Muse context with explicit inclusions and exclusions.
+Use `--research-dir` with an external directory for restart persistence. No live
+calls or lab-ready claims. [Use, custody and limits](docs/RESEARCH_HOMES.txt).
+This design increment is isolated and uncommitted; original work is preserved.
+
+**Local draft — November 4 trait library:** six native-system dossiers, recipient
+comparisons, draft study plans and inspectable review records are available from
+**Trait Categories** or **Source-backed trait library**. Muse batches are prepared
+only; live sending is disabled. No plan is lab-ready. See
+[scope, sources, use and limits](docs/TRAIT_LIBRARY.txt). This extension is uncommitted
+and the existing publication manifests describe the base commit.
+
 **November 3 v3 local-check approval:** an editable v3 proposal now has a separate
 human approval control. Record approval, run the registered local check, then
 acknowledge its authored result summary. The execution journal distinguishes v3

@@ -1,0 +1,104 @@
+TRAITWEAVER / DEMO-FIRST WEBSITE
+Local draft, November 4, 2026. No release or publication approval.
+
+WHAT GOES IN -> WHAT HAPPENS -> WHAT COMES OUT
+Existing pinned sources, trait dossiers and a validated saved phosphorus cycle
+-> read-only presentation of the existing owners, with provenance and unknowns
+-> a nine-scene walkthrough and connected working research homes.
+
+START
+python3 -B run_workspace.py --demo --port 8877 --research-dir /absolute/external/local-records
+Open the printed loopback URL. The default home leads with Start the 3-minute demo.
+Use an external research directory to preserve user research records on restart.
+Without it, the research homes remain session-only and need a local export.
+
+NEW ROUTES
+#home                       Whole-product home and primary demo action
+#demo/possibility           Wide lens: biological capabilities
+#demo/systems               Native systems, dependencies, receiving contexts
+#demo/phosphorus            The focused uptake/recovery question
+#demo/evidence              Exact admitted culture observations
+#demo/muse                  Supplied context, fixture proposal, provenance
+#demo/audit                 Actual saved local endpoint-coverage receipt
+#demo/study                 Proposed comparison, controls, measurements, review
+#demo/iterate               Authored hypothetical revision, not pilot results
+#demo/horizon               Working today, proposed next, future possibilities
+#workspace                  Connected research-home directory
+#possibilities              Future research and CRISPR integration boundary
+
+Existing #journey and every scientific route remain available. Source records,
+schemas, backend contracts, earlier library journals and source pins are unchanged.
+
+THE WORKING RESEARCH HOMES
+#trait-library              Six native-system dossiers, searchable and sortable
+#trait-library/questions    Scope and revise a question
+#trait-library/sources      Source records and claim links
+#trait-library/evidence     Observations, inferences, untested transfer ideas
+#trait-library/compare      Native/receiving context and unresolved dependencies
+#trait-library/studies      Authored plans, local context and successor amendments
+#trait-library/muse         Exact unsent context, inclusions/exclusions and hashes
+#trait-library/review       Preserved records, separate decisions, export/reopen
+
+DEMO CONTROLS
+Next/Back, the nine scene links, and Left/Right/Home/End navigate without dispatch.
+Play tour is explicit and totals 180 seconds (20/15/20/25/25/20/20/20/15).
+Manual navigation, an inspection drawer, leaving the demo or hiding the tab stops
+playback. Play restarts the current scene's time. Reduced-motion preference keeps
+the tour manual. Presenter notes are optional. Source/provenance drawers expose
+existing records with Escape and focus restoration. Deep links open each scene.
+
+PROOF BOUNDARIES
+The default --demo cycle contains synthetic model replies. They are not actual
+Muse calls. The local check is a saved actual software computation. Its missing
+recovered-product evidence is not a measured zero, biological failure, recovery
+winner or successful trait transfer. The completed-cycle link validator must
+accept the receipt chain before a model/check attribution can appear.
+
+Published values retain source control, SE, n, units and measurement basis. The
+reference chain remains CC-503 annotation, distinct from the published UVM4
+background. No transcript/protein mapping proves expression or a designed edit.
+
+Study outlines are application-authored proposals. Organism, stock, methods,
+conditions, safety, thresholds, independent units and analysis require qualified
+human review. The illustrative revision is authored, not a preliminary lab result.
+The app does not grant lab readiness or execute a wet-lab procedure.
+
+FUTURE SCOPE
+Live literature retrieval, paid Muse research batches, a CRISPR-tool adapter,
+laboratory result ingestion/qualification, expression and functional validation
+remain future work. Context search currently covers admitted records, not all
+published or adjacent literature. A future adapter needs explicit reference,
+tool/provider/version, scoped inputs/outputs, provenance and qualified sign-off.
+No guide, cassette or operational laboratory protocol is generated.
+
+PROVIDER AND BILLING
+The new site is transport-free. Context preparation sends nothing. The research
+homes show a $0 live-spending limit. User-reported credits are not a verified
+provider balance or a credit-only overage guarantee. No new Meta or Baseten test
+has run for this increment. An official Muse logo identifies the intended research
+partner, not a claim that synthetic replies came from Muse or Meta endorsed this.
+
+VISUALS AND CUSTODY
+Image-generated concept boards and exact prompts live in the external review
+folder, not the publishing tree. Runtime uses the existing generated ecosystem
+illustration and official Muse asset with their existing provenance. Decorative
+images are not scientific evidence. The model identifier and generation cost were
+not exposed by the built-in image tool. Do not invent a DALL-E version or price.
+
+VERIFICATION
+tests/site_browser.cjs exercises actual Chromium against a fresh loopback server.
+It blocks nonlocal requests and records UI, responsive, provenance, reduced-motion,
+keyboard, timing-control, error, mutation and owner-preservation checks. It requires
+an installed Playwright/Chromium and a fresh external TRAITWEAVER_QA_OUTPUT.
+The existing journey and research-home suites cover preserved original workflows.
+Browser checks and presentation timing are not scientific or human acceptance.
+
+RECORDING
+tools/record_site_demo.cjs records the actual local UI, not a generated mockup.
+Requires explicit local browser permission and a fresh external output folder.
+TRAITWEAVER_PLAYWRIGHT and TRAITWEAVER_CHROMIUM select already installed tools;
+TRAITWEAVER_QA_OUTPUT selects the external recording folder.
+The recording is silent so the researcher can add their own voice. A timed script
+is supplied in the external review folder. No upload, submission or publication
+is performed. Exact final files need owner review before any commit; the owner
+performs every push.
