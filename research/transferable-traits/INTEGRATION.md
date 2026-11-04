@@ -22,7 +22,8 @@ flowchart LR
   A --> G[Donor / component / recipient / endpoint map]
 ```
 
-The current implementation covers synthetic input, local normalized storage,
+The current implementation covers synthetic input, six real candidate/source-note
+preparations, local normalized storage,
 offline request preparation, structural validation, durable queue/review and
 static projection. Workbook column mapping, network retrieval, live Muse
 execution, object storage and native app integration remain separate work.
@@ -80,7 +81,8 @@ resolve reference entities. Neither alone establishes claim entailment.
 
 ## Remaining engineering work before production
 
-- Real workbook inspection, column mapping and a representative source sample.
+- Binary workbook verification and reviewed normalization of the selected rows;
+  parsed text and a six-paper source sample are now available.
 - Licensed document ingestion/object store and tested provider-specific parsers.
 - A reviewed extraction contract beyond the initial immutable-record critique.
 - Actual source-entailment and reviewer-agreement evaluation.

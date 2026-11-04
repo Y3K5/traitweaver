@@ -1,0 +1,133 @@
+[
+  {
+    "workbook_id": "TW004",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/8303295/",
+    "doi": "10.1126/science.8303295",
+    "pmid": "8303295",
+    "title": "Green fluorescent protein as a marker for gene expression",
+    "locator": "PubMed abstract, single paragraph",
+    "retrieval_status": "abstract_available",
+    "short_quote": "exogenous substrates and cofactors",
+    "authored_paraphrase": "The abstract reports fluorescent GFP products in Escherichia coli and Caenorhabditis elegans cells. These are separate recipient contexts. It supports a reporter capability, not a complete jellyfish light-producing system.",
+    "coverage_gaps": [
+      "Full text not reviewed in this pass",
+      "Assay values, strain details and excitation conditions are not supplied in this source packet",
+      "Keep the two recipient contexts separate"
+    ],
+    "correction_notice": null,
+    "read_date": "2026-11-04",
+    "source_material_kind": "short attributed quotation plus assistant-authored paraphrase; not a full-paper snapshot",
+    "human_scientific_review": "pending",
+    "laboratory_protocol_included": false
+  },
+  {
+    "workbook_id": "TW009",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/17758108/",
+    "doi": "10.1126/science.234.4778.856",
+    "pmid": "17758108",
+    "title": "Transient and stable expression of the firefly luciferase gene in plant cells and transgenic plants",
+    "locator": "PubMed abstract, paragraphs 1\u20133",
+    "retrieval_status": "abstract_available",
+    "short_quote": "the pattern of luminescence",
+    "authored_paraphrase": "The abstract reports firefly luciferase in carrot cells and tobacco. It distinguishes light from cell/plant extracts from light in intact tobacco supplied with luciferin. Spatial brightness also depended on substrate distribution. These endpoints must remain separate.",
+    "coverage_gaps": [
+      "Full text and quantitative measurements not reviewed",
+      "No autonomous substrate-production claim is supported",
+      "Individual recipient and assay observations need separate normalization"
+    ],
+    "correction_notice": null,
+    "read_date": "2026-11-04",
+    "source_material_kind": "short attributed quotation plus assistant-authored paraphrase; not a full-paper snapshot",
+    "human_scientific_review": "pending",
+    "laboratory_protocol_included": false
+  },
+  {
+    "workbook_id": "TW002",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/32341562/",
+    "doi": "10.1038/s41587-020-0500-9",
+    "pmid": "32341562",
+    "title": "Plants with genetically encoded autoluminescence",
+    "locator": "PubMed abstract; Figure 1 and Figure 2 captions; Erratum in notice",
+    "retrieval_status": "abstract_available",
+    "short_quote": "visible to the naked eye",
+    "authored_paraphrase": "The abstract reports tobacco carrying a fungal system that converts caffeic acid into luciferin. Accessible figure captions identify Neonothopanus nambi and Nicotiana tabacum and describe the relevant enzyme roles. This material supports a multicomponent light pathway in a particular host, not arbitrary portability.",
+    "coverage_gaps": [
+      "Nature page redirected to inaccessible authentication; PMC page returned a browser challenge",
+      "Nicotiana benthamiana in the workbook is not verified by the supplied abstract/captions",
+      "Exact four-gene implementation requires full-paper review",
+      "Author correction exists; its effect has not been established"
+    ],
+    "correction_notice": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32499610/",
+      "doi": "10.1038/s41587-020-0578-0",
+      "scope": "unreviewed; do not infer whether scientific conclusions changed"
+    },
+    "read_date": "2026-11-04",
+    "source_material_kind": "short attributed quotation plus assistant-authored paraphrase; not a full-paper snapshot",
+    "human_scientific_review": "pending",
+    "laboratory_protocol_included": false
+  },
+  {
+    "workbook_id": "TW037",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10282039/",
+    "doi": "10.1038/s41598-023-37227-5",
+    "pmid": "37340047",
+    "title": "A PETase enzyme synthesised in the chloroplast of the microalga Chlamydomonas reinhardtii is active against post-consumer plastics",
+    "locator": "Results: Purification of recombinant PETase; The recombinant PETase is active; Figures 3\u20135; Discussion",
+    "retrieval_status": "selected_fulltext_available",
+    "short_quote": "not completely pure",
+    "authored_paraphrase": "The study reports PETase produced by Chlamydomonas reinhardtii TN72-derived lines. Extracted enzyme preparations changed plastic surfaces; PET and post-consumer material gave different chemical endpoints. Post-consumer material released BHET without a significant TPA signal in the reported assay. The preparation contained another protein. These assays do not establish living algae growing on plastic.",
+    "coverage_gaps": [
+      "Only selected result/discussion passages reviewed; no independent scientific replication",
+      "Separate plastic substrate types, surface measurements and chemical endpoints",
+      "No whole-organism PET-assimilation endpoint"
+    ],
+    "correction_notice": null,
+    "read_date": "2026-11-04",
+    "source_material_kind": "short attributed quotation plus assistant-authored paraphrase; not a full-paper snapshot",
+    "human_scientific_review": "pending",
+    "laboratory_protocol_included": false
+  },
+  {
+    "workbook_id": "TW020",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/15793573/",
+    "doi": "10.1038/nbt1082",
+    "pmid": "15793573",
+    "title": "Improving the nutritional value of Golden Rice through increased pro-vitamin A content",
+    "locator": "PubMed abstract, final three sentences; retrieved through indexed primary record",
+    "retrieval_status": "abstract_available",
+    "short_quote": "maximum 37 microg/g",
+    "authored_paraphrase": "The abstract reports maize phytoene synthase combined with Erwinia uredovora carotene desaturase in Golden Rice 2. Its maximum of 37 micrograms/g concerns total carotenoids, with preferential beta-carotene accumulation. This is composition evidence, not a population-health outcome.",
+    "coverage_gaps": [
+      "Publisher full text was inaccessible in this pass",
+      "Replicate structure, individual lines and uncertainty require full-paper review",
+      "Do not treat total carotenoids as a beta-carotene-only concentration"
+    ],
+    "correction_notice": null,
+    "read_date": "2026-11-04",
+    "source_material_kind": "short attributed quotation plus assistant-authored paraphrase; not a full-paper snapshot",
+    "human_scientific_review": "pending",
+    "laboratory_protocol_included": false
+  },
+  {
+    "workbook_id": "TW044",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/14766607/",
+    "doi": "10.1128/AEM.70.2.1207-1212.2004",
+    "pmid": "14766607",
+    "title": "Synergistic saccharification, and direct fermentation to ethanol, of amorphous cellulose by use of an engineered yeast strain codisplaying three types of cellulolytic enzyme",
+    "locator": "PubMed abstract, paragraphs describing enzyme codisplay and ethanol endpoint",
+    "retrieval_status": "abstract_available",
+    "short_quote": "approximately 3 g per liter",
+    "authored_paraphrase": "The abstract identifies three cellulolytic enzymes from Trichoderma reesei and Aspergillus aculeatus displayed on Saccharomyces cerevisiae. The three-enzyme system converted amorphous cellulose to ethanol; the comparator missing cellobiohydrolase II did not perform that direct conversion. The result supports this joint system and substrate, not untreated wood processing.",
+    "coverage_gaps": [
+      "PMC full text returned a browser challenge; abstract and listed figure captions were available",
+      "Unknown uncertainty and replicate design remain unfilled",
+      "No industrial-scale or economic performance claim"
+    ],
+    "correction_notice": null,
+    "read_date": "2026-11-04",
+    "source_material_kind": "short attributed quotation plus assistant-authored paraphrase; not a full-paper snapshot",
+    "human_scientific_review": "pending",
+    "laboratory_protocol_included": false
+  }
+]

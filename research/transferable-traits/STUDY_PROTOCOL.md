@@ -9,7 +9,7 @@ documented gap, not a successful transfer.
 
 ## Six target trails
 
-| Workbook ID supplied by the parent study | Target topic | Main distinction to review |
+| Workbook ID confirmed in parsed sheet text | Target topic | Main distinction to review |
 |---|---|---|
 | TW004 | GFP | Reference protein identity versus observed reporter expression |
 | TW009 | Firefly light | Substrate availability and host dependencies |
@@ -18,17 +18,19 @@ documented gap, not a successful transfer.
 | TW020 | Golden Rice | Tissue pathway endpoint versus nutritional/health extrapolation |
 | TW044 | Cellulose-to-ethanol yeast | Jointly measured capabilities versus an untested combination |
 
-These are supplied identifiers and questions. The workbook is blocked; no source
-links or facts have been filled in from memory. The optional supplied protocol
-file was not retrieved; this document is newly authored cloud implementation
-guidance, not a reproduction of that document.
+These identifiers are confirmed against the original Library workbook's parsed
+sheet text. The selected candidate rows and public primary-source notes are in
+`data/source-pilot-*.json`. They are not approved normalized observations. Binary
+XLSX verification and full-paper coverage remain incomplete. The optional supplied
+protocol document was not retrieved; this document is newly authored guidance.
 
 ## Evidence workflow
 
 1. Materialize the authorized workbook, verify bytes and sheet readability,
    retain version/hash, and review an explicit header-to-field map. Preserve raw
    cells, sheet and row locators in quarantine. Import 50 existing rows and 22
-   groupings only after the actual counts and contents are checked.
+   groupings only after the actual counts and contents are checked. Parsed counts
+   are now verified; binary fidelity and normalized import remain pending.
 2. Resolve each citation to its DOI/PMID/PMCID and actual primary study. Keep
    retractions, corrections and study variants separate. PubMed/Europe PMC index
    metadata is discovery evidence, not proof of a specific claim.
@@ -59,14 +61,20 @@ exercises source linkage, separation of assay scopes, null/zero, unreviewed stat
 group constraints, interrupted queues and budgets. It does **not** establish
 biological accuracy, real workbook readability or model usefulness.
 
-After access and spending conditions are resolved, prepare one exact Muse critique
-per real target (six calls, sequential, at most 8,192 output tokens each, no tools,
-no retries). Pin all code, source and wire hashes and the actual recipient/team.
-The current synthetic packet is inspectable but must be replaced and reapproved;
-it is not an approved or source-complete live experiment. Proposed application
-ceiling: $1 for that first six-call critique, subject to verified token bounds and
-provider billing protection. A later extraction-plus-verification pilot would
-be a separately reviewed 12-call study, not an implicit extension.
+A separate v2 packet now prepares one exact Muse critique per real target (six
+calls, sequential, at most 8,192 output tokens each, no tools or retries). The
+source coverage and correction gaps remain in every affected request. Code,
+source and wire hashes are pinned in `examples/source-pilot-v2/PLAN.json`.
+Reproduction is local; nothing sends. The older synthetic packet is retained only
+as software history.
+
+The owner permits existing credits only, up to $100, and explicitly prohibits
+payment-method charges. Proposed application allocation: $1 for the six-call
+critique; its byte-based planning estimate is $0.260019, not a verified billing
+maximum. Actual recipient/team, available credits, expiry, provider-enforced
+credit-only stopping and exact live approval are still required. A spend alert
+and the local ledger cannot meet that condition. Do not call if protection is
+unavailable. Any later extraction-plus-verification pilot is a separate stage.
 
 Before calling Muse, a qualified reviewer creates a held-out checklist of source
 locators, required caveats and intentionally unresolved fields. Do not put that
@@ -88,8 +96,9 @@ Proposed progression criteria (authored criteria, not achieved results):
   or unintended disclosure. Stop at any provider/access/evidence failure.
 
 Next stage: 50 candidate cases in batches of 10; audit every material claim and
-all proposed combinations. Then target 500 in batches of 25 only under a newly
-approved aggregate budget. If evidence or usefulness criteria fail, retain and
+all proposed combinations. Then target 500 in batches of 25 only after the trial succeeds, with a
+reviewed batch scope under the same $100 credit-only ceiling. Do not spend to
+reach the ceiling or exceed it to reach a case count. If evidence or usefulness criteria fail, retain and
 publish the failure report; improve the workflow before spending on more cases.
 
 ## Categorization and display

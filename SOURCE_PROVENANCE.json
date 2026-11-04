@@ -3615,5 +3615,34 @@
     "study_manifest": "research/transferable-traits/PUBLICATION_MANIFEST.json",
     "model_calls": 0,
     "scientific_status": "unreviewed; no new biological cases admitted"
+  },
+  "cloud_transferable_trait_source_preparation_2026_11_04": {
+    "base_commit": "7a2f44ae8cc7defb5283f754655529ee7706fbc2",
+    "date": "2026-11-04",
+    "scope": "Six original-workbook candidate rows from supported parsed Library read; primary-source notes with access/correction gaps; exact unsigned source-critique preparation; existing-credits-only funding policy",
+    "files": [
+      "research/transferable-traits/AGENTS.md",
+      "research/transferable-traits/README.md",
+      "research/transferable-traits/STUDY_PROTOCOL.md",
+      "research/transferable-traits/VALIDATION.md",
+      "research/transferable-traits/PUBLICATION.md",
+      "research/transferable-traits/INTEGRATION.md",
+      "research/transferable-traits/COST_AND_INFRASTRUCTURE.md",
+      "research/transferable-traits/REAL_PILOT_PREPARATION.md",
+      "research/transferable-traits/traitstudy/source_pilot.py",
+      "research/transferable-traits/tests/test_source_pilot.py",
+      "research/transferable-traits/data/source-pilot-candidates.json",
+      "research/transferable-traits/data/source-pilot-sources.json",
+      "research/transferable-traits/examples/source-pilot-v2/PLAN.json",
+      "research/transferable-traits/PUBLICATION_MANIFEST.json"
+    ],
+    "scientific_status": "No normalized real observations admitted; human review pending",
+    "model_calls": 0,
+    "model_spend_usd": 0,
+    "funding_policy": "Existing credits only, up to USD 100; no payment-method charges",
+    "xlsx_bytes_verified": false,
+    "network_policy_changed": false,
+    "validation": "research/transferable-traits/VALIDATION.md",
+    "source_rights": "User-authorized selected scientific workbook rows and short attributed public-source notes; no full papers or raw Library receipts"
   }
 }

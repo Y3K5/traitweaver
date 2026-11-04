@@ -10,3 +10,6 @@ Synthetic tests and fixtures are never scientific evidence or real Muse output.
 The workbook and protocol remain private input references; do not reconstruct an
 unavailable Library file from snippets or substitute an independently invented file.
 All future live work requires new exact payload, recipient, billing and cap review.
+The owner permits existing credits only, up to USD 100. Payment-method charges
+are explicitly forbidden. A local ledger or spend alert is not credit protection.
+Keep live work disabled unless the provider enforces the required credit-only stop.

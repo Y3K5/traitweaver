@@ -38,12 +38,22 @@ planning buffer gives about $120 in model/search cost with the allowance above;
 any unverified credit amount is therefore not a promise of completing 500 reviewed
 traits. Taxes, hosting, storage, paid access and review labor are excluded.
 
+The owner's ceiling is **$100 in existing credits only**; payment-method charges
+are forbidden. This is a maximum, not a spending target. Stop earlier when the
+evidence is inadequate or useful work is complete. No paid hosting or retrieval
+service is authorized by the model-credit allocation.
+
 The immediate six-call critique pilot is smaller than the two-pass table: one
 call per real case, sequential, 8,192 output-token limit, no tools. At 20,000 input
 tokens each, its model estimate is $0.358896. Proposed application ceiling: $1,
 only after all billing and exact-payload gates are satisfied. The generated six
 **synthetic** packets have a byte-based reservation estimate of $0.248206 total;
-it is not a verified tokenizer maximum or a live authorization.
+it is not a verified tokenizer maximum or a live authorization. The newer six
+real-source v2 requests reserve an estimated **$0.260019** total, ranging from
+$0.042891 to $0.043711 per request. Exact per-case estimates and wire hashes are
+in `examples/source-pilot-v2/PLAN.json`. Byte-based input allowances are not
+provider-verified maximum token counts; a contractual per-call billing maximum
+cannot yet be supplied. No request has been sent.
 
 ## Minimum infrastructure
 
@@ -107,6 +117,10 @@ or authenticated billing UI is available to this task. Therefore **actual team,
 balance, expiry, payment method, auto-top-up, overage behavior and provider-enforced
 credit-only stop are unverified**. No user-reported credit amount is treated as a
 measured available balance or published here. Model calls made by this study: **0**.
+
+Meta's documented spend-limit alert does not cap usage or prevent further
+charges. [Meta spend-limit alert](https://dev.meta.ai/help/billing/spend-limit-alert).
+Because this study is credit-only, that alert is insufficient.
 
 Before live work, obtain a supported account-view confirmation of those exact
 fields. Do not infer billing protection from an alert, API-key presence or local

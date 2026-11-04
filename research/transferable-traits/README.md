@@ -1,19 +1,29 @@
 # Traitweaver transferable-trait research study
 
-This is an isolated, **offline software pilot** for a literature-backed atlas
-that could grow toward 500 documented transfer cases. It contains six explicitly
-synthetic test records, a durable queue, evidence storage, a local review display,
-tests and an unsigned Muse request contract. **It contains zero newly researched
-biological cases and zero new Muse results.**
+This isolated research package prepares six **real workbook candidates** for
+source review and includes a tested, resumable offline pipeline for an atlas that
+could grow toward 500 documented transfer cases. The original workbook's complete
+parsed sheet text was read through the supported Library interface: **50 records,
+five human-curated categories and 22 groupings**. These are existing organizing
+choices; no categories have been discovered by Muse.
 
-The original workbook could not be materialized in this cloud environment through
-the supported Library route. Its download failed; the returned file host was not
-in the enforced destination policy. The previous declined host change was not
-retried or bypassed. The actual workbook rows and primary studies have therefore
-not been inspected here. Six targets supplied for subsequent review are TW004
-(GFP), TW009 (firefly light), TW002 (fungal glow), TW037 (PETase), TW020 (Golden
-Rice) and TW044 (cellulose-to-ethanol yeast). These labels are research trails,
-not a reconstructed workbook or verified observation catalog.
+The six selected rows and primary-source notes are now available as explicitly
+unreviewed candidates. Five cases have abstract-level coverage; PETase has selected
+full-text result passages. A fungal-light author correction remains unresolved.
+No new observations have been admitted to the scientific atlas, and **no Muse
+calls have been made**. The original six synthetic software fixtures remain
+separate and unchanged.
+
+Original XLSX materialization failed. The newly attached copy also has no local
+bytes; its equivalence, formulas and binary integrity remain unverified. Parsed
+Library content permits candidate preparation without rebuilding the unavailable
+file. See [real pilot preparation](REAL_PILOT_PREPARATION.md) for access history,
+source coverage, counts, exact payload reproduction and current limits.
+
+**Funding policy: existing credits only, up to $100; no payment-method charges.**
+The proposed six-call allocation is $1, with a planning estimate of $0.260019.
+Live work is disabled because account credits and credit-only enforcement remain
+unverified. This package contains no provider transport or credential reader.
 
 ## Reproduce the offline trial
 
@@ -71,8 +81,8 @@ unseen columns to biological claims. An explicit column map still requires revie
 
 ## Current limits
 
-This is not an autonomous literature crawler or a deployed service. Source APIs,
-model transport, real workbook mapping, real extraction quality, inter-reviewer
+This is not an autonomous literature crawler or a deployed service. Automated source APIs,
+model transport, normalized real-observation import, real extraction quality, inter-reviewer
 agreement and biological usefulness have not been tested. The fake model returns
 the supplied record and a synthetic gap notice; it proves plumbing, not Muse's
 reasoning ability. The proposed live pilot critiques exact supplied observations;
@@ -87,7 +97,7 @@ DOI↔PMID crosswalks, accessions and related studies require review. Multiple
 observations may belong to one trait; 500 calls, trails, observations and unique
 traits are different counts. No universal transferability score is generated.
 
-The existing app's six capability categories and the workbook's five reported
+The existing app's six capability categories and the workbook's five verified
 human-curated categories are separate schemes. New Muse groupings must retain a
 `muse_proposed_v1` label and reviewer history. No new categories have emerged from
 Muse in this trial.

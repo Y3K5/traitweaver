@@ -25,8 +25,8 @@
     },
     {
       "path": "PUBLIC_FILES.txt",
-      "sha256": "81efd8d0d945a12472a7e988205f31a2dbe98385ad2eeb3dae9e73c0f0737e7b",
-      "bytes": 8863
+      "sha256": "ecc17115b9c7c5f32879818f81f40ba38e193efe52045b67eb3ea0594836e52d",
+      "bytes": 9217
     },
     {
       "path": "README.md",
@@ -35,8 +35,8 @@
     },
     {
       "path": "SOURCE_PROVENANCE.json",
-      "sha256": "2900d187bee701a46b252d70f4d19863186562bd66ad8f075bd363ab71893868",
-      "bytes": 271111
+      "sha256": "46afd8350c39d77a63e805ea48b5ed97910cb34bae1f878778d3e0826d8747e8",
+      "bytes": 272872
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -375,43 +375,58 @@
     },
     {
       "path": "research/transferable-traits/AGENTS.md",
-      "sha256": "eef7d74c2476a97b5a55528f9aafa983be1a9a36ea58ea6d1b15333a8129560c",
-      "bytes": 817
+      "sha256": "35baf38cc84f96a41b5a3c59b4b3a44aec7d6bed2775d9b898bf87170da6c9e2",
+      "bytes": 1062
     },
     {
       "path": "research/transferable-traits/COST_AND_INFRASTRUCTURE.md",
-      "sha256": "82bd89d57a74e90a1327bc2f9967d917d799570fd99b3447e0ddd4153d6009b1",
-      "bytes": 7995
+      "sha256": "d3a903beea338e4bf362b3f6d37016b83a7a5725fb262c9ba6dbd1bf7b2671bd",
+      "bytes": 8895
     },
     {
       "path": "research/transferable-traits/INTEGRATION.md",
-      "sha256": "a2d43a5e4e083495d12d4bdbd8437d9a4ac2d7c054e1a15efba897e9eab5b2bb",
-      "bytes": 5339
+      "sha256": "430ccdc917b03208e25255327f6a86a69a5ec67095248496da0eab293fc39b6e",
+      "bytes": 5448
     },
     {
       "path": "research/transferable-traits/PUBLICATION.md",
-      "sha256": "88658fef0636bd91d738b5620d6ec3a831325a057082665527765ec3cf44855c",
-      "bytes": 2380
+      "sha256": "9c7e1a2eafdfbd45dc77d7647cca747c4c0bcc0562ca77de7d53c186e12958c7",
+      "bytes": 3003
     },
     {
       "path": "research/transferable-traits/PUBLICATION_MANIFEST.json",
-      "sha256": "cb9a895389c76a383ac6abc1462823600cc9e3b0f72873382c30f6f51575fa84",
-      "bytes": 6669
+      "sha256": "69c0d56d2986aef8b20e5cd2989c1f9dadf16887df068d918fdf70015723c5ad",
+      "bytes": 7714
     },
     {
       "path": "research/transferable-traits/README.md",
-      "sha256": "ea8d7fbeab9d5044d58bad00d01cb134b9c1a7027f8c511d9a4da238413f37b7",
-      "bytes": 5899
+      "sha256": "197d9a3657edc353787742db28311722c59c36b77f1909e0c8e51b722a70c8b1",
+      "bytes": 6524
+    },
+    {
+      "path": "research/transferable-traits/REAL_PILOT_PREPARATION.md",
+      "sha256": "4ad8e96c53d24466ea5853ffafb7fb4981783a3ec824ca5c382254fb466bd2eb",
+      "bytes": 7536
     },
     {
       "path": "research/transferable-traits/STUDY_PROTOCOL.md",
-      "sha256": "5d467e86e425500a0a7f71f5ca33c940702b6425b43049f7d7ff127a114c72eb",
-      "bytes": 6584
+      "sha256": "ec1c2e3adc03186b8aa12c4f57f35c2c72d67520e31c049963d936b53019a366",
+      "bytes": 7242
     },
     {
       "path": "research/transferable-traits/VALIDATION.md",
-      "sha256": "69f42dc2867066b0b921e8b7cafc8c8188f32b29a0179f3ee95e8b2546f03625",
-      "bytes": 3802
+      "sha256": "f0c8e9946e19645db07a4cf8d4bd551f8f27436ecca89f6cdf99dfa7eb1a60a1",
+      "bytes": 3608
+    },
+    {
+      "path": "research/transferable-traits/data/source-pilot-candidates.json",
+      "sha256": "ad950192f91a95061cb1f707ef2a90dd5ef474f133bafd0759ddba8ce5bc18ec",
+      "bytes": 7122
+    },
+    {
+      "path": "research/transferable-traits/data/source-pilot-sources.json",
+      "sha256": "74330f5a0aae6db6c4f5c648f1dc7eea8f4d5f38282e9756b659b0230aa83d6c",
+      "bytes": 8211
     },
     {
       "path": "research/transferable-traits/examples/SYNTHETIC_SCALE_500.json",
@@ -509,9 +524,19 @@
       "bytes": 2010
     },
     {
+      "path": "research/transferable-traits/examples/source-pilot-v2/PLAN.json",
+      "sha256": "d2a203a7d7e2af93a31b9e3a7531d96bd532c14f339710d836949e3380460bd5",
+      "bytes": 2581
+    },
+    {
       "path": "research/transferable-traits/tests/test_pipeline.py",
       "sha256": "6ba51f6149506925a71959f0d1bf5eb254a5df68267212c8b2c22e2215ee8588",
       "bytes": 16596
+    },
+    {
+      "path": "research/transferable-traits/tests/test_source_pilot.py",
+      "sha256": "f25f472e0d0a1d959e67c9ff70ce99e72c6a8bccb3384de2a372f08d8d5049b0",
+      "bytes": 4435
     },
     {
       "path": "research/transferable-traits/tests/ui_offline.cjs",
@@ -562,6 +587,11 @@
       "path": "research/transferable-traits/traitstudy/retrieval.py",
       "sha256": "d34889eb864c2b84388dc69980a76445407cfa15c9a94a2278d2a00b12793bcf",
       "bytes": 1248
+    },
+    {
+      "path": "research/transferable-traits/traitstudy/source_pilot.py",
+      "sha256": "dd20684b80b1e7026aa9bf02b89640b69073a9b21c22d6f212c92866084e2f23",
+      "bytes": 9096
     },
     {
       "path": "research/transferable-traits/traitstudy/workbook.py",
@@ -1985,5 +2015,34 @@
     "real_cases_imported": 0,
     "model_calls": 0,
     "remaining": "Workbook transfer, primary-source review, account/credit-only verification, exact live approval"
+  },
+  "cloud_transferable_trait_source_preparation_2026_11_04": {
+    "base_commit": "7a2f44ae8cc7defb5283f754655529ee7706fbc2",
+    "date": "2026-11-04",
+    "scope": "Six original-workbook candidate rows from supported parsed Library read; primary-source notes with access/correction gaps; exact unsigned source-critique preparation; existing-credits-only funding policy",
+    "files": [
+      "research/transferable-traits/AGENTS.md",
+      "research/transferable-traits/README.md",
+      "research/transferable-traits/STUDY_PROTOCOL.md",
+      "research/transferable-traits/VALIDATION.md",
+      "research/transferable-traits/PUBLICATION.md",
+      "research/transferable-traits/INTEGRATION.md",
+      "research/transferable-traits/COST_AND_INFRASTRUCTURE.md",
+      "research/transferable-traits/REAL_PILOT_PREPARATION.md",
+      "research/transferable-traits/traitstudy/source_pilot.py",
+      "research/transferable-traits/tests/test_source_pilot.py",
+      "research/transferable-traits/data/source-pilot-candidates.json",
+      "research/transferable-traits/data/source-pilot-sources.json",
+      "research/transferable-traits/examples/source-pilot-v2/PLAN.json",
+      "research/transferable-traits/PUBLICATION_MANIFEST.json"
+    ],
+    "scientific_status": "No normalized real observations admitted; human review pending",
+    "model_calls": 0,
+    "model_spend_usd": 0,
+    "funding_policy": "Existing credits only, up to USD 100; no payment-method charges",
+    "xlsx_bytes_verified": false,
+    "network_policy_changed": false,
+    "validation": "research/transferable-traits/VALIDATION.md",
+    "source_rights": "User-authorized selected scientific workbook rows and short attributed public-source notes; no full papers or raw Library receipts"
   }
 }

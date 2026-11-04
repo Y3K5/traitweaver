@@ -236,3 +236,9 @@ research/transferable-traits/traitstudy/queue.py
 research/transferable-traits/traitstudy/retrieval.py
 research/transferable-traits/traitstudy/workbook.py
 research/transferable-traits/verify_publication.py
+research/transferable-traits/REAL_PILOT_PREPARATION.md
+research/transferable-traits/data/source-pilot-candidates.json
+research/transferable-traits/data/source-pilot-sources.json
+research/transferable-traits/examples/source-pilot-v2/PLAN.json
+research/transferable-traits/tests/test_source_pilot.py
+research/transferable-traits/traitstudy/source_pilot.py
