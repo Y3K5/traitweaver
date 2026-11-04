@@ -1,0 +1,10 @@
+{
+  "mode": "synthetic_storage_capacity_only",
+  "records": 500,
+  "queue_items": 500,
+  "elapsed_seconds": 0.889,
+  "sqlite_bytes": 2568192,
+  "provider_calls": 0,
+  "biological_cases": 0,
+  "note": "Not source retrieval, model latency, scientific accuracy or production throughput."
+}

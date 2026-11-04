@@ -1,0 +1,107 @@
+[
+  {
+    "candidate_cases": 6,
+    "model_calls": 12,
+    "input_tokens": 240000,
+    "output_tokens_including_reasoning": 96000,
+    "paid_web_queries": 12,
+    "model_usd": "0.708",
+    "web_search_usd": "0.0300",
+    "subtotal_usd": "0.7380",
+    "with_overhead_usd": "0.959400",
+    "validated_unique_traits": null,
+    "pricing": {
+      "input_usd_per_million": "1.25",
+      "output_usd_per_million": "4.25",
+      "web_query_usd": "0.0025",
+      "checked": "2026-11-04",
+      "source": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "mode": "Standard"
+    },
+    "excluded": "Hosting, storage, taxes, human review, paid publisher access; no cache discount assumed"
+  },
+  {
+    "candidate_cases": 50,
+    "model_calls": 100,
+    "input_tokens": 2000000,
+    "output_tokens_including_reasoning": 800000,
+    "paid_web_queries": 100,
+    "model_usd": "5.90",
+    "web_search_usd": "0.2500",
+    "subtotal_usd": "6.1500",
+    "with_overhead_usd": "7.995000",
+    "validated_unique_traits": null,
+    "pricing": {
+      "input_usd_per_million": "1.25",
+      "output_usd_per_million": "4.25",
+      "web_query_usd": "0.0025",
+      "checked": "2026-11-04",
+      "source": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "mode": "Standard"
+    },
+    "excluded": "Hosting, storage, taxes, human review, paid publisher access; no cache discount assumed"
+  },
+  {
+    "candidate_cases": 500,
+    "model_calls": 1000,
+    "input_tokens": 20000000,
+    "output_tokens_including_reasoning": 8000000,
+    "paid_web_queries": 1000,
+    "model_usd": "59.00",
+    "web_search_usd": "2.5000",
+    "subtotal_usd": "61.5000",
+    "with_overhead_usd": "79.950000",
+    "validated_unique_traits": null,
+    "pricing": {
+      "input_usd_per_million": "1.25",
+      "output_usd_per_million": "4.25",
+      "web_query_usd": "0.0025",
+      "checked": "2026-11-04",
+      "source": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "mode": "Standard"
+    },
+    "excluded": "Hosting, storage, taxes, human review, paid publisher access; no cache discount assumed"
+  },
+  {
+    "candidate_cases": 750,
+    "model_calls": 1500,
+    "input_tokens": 30000000,
+    "output_tokens_including_reasoning": 12000000,
+    "paid_web_queries": 1500,
+    "model_usd": "88.50",
+    "web_search_usd": "3.7500",
+    "subtotal_usd": "92.2500",
+    "with_overhead_usd": "119.925000",
+    "validated_unique_traits": null,
+    "pricing": {
+      "input_usd_per_million": "1.25",
+      "output_usd_per_million": "4.25",
+      "web_query_usd": "0.0025",
+      "checked": "2026-11-04",
+      "source": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "mode": "Standard"
+    },
+    "excluded": "Hosting, storage, taxes, human review, paid publisher access; no cache discount assumed"
+  },
+  {
+    "candidate_cases": 1000,
+    "model_calls": 2000,
+    "input_tokens": 40000000,
+    "output_tokens_including_reasoning": 16000000,
+    "paid_web_queries": 2000,
+    "model_usd": "118.00",
+    "web_search_usd": "5.0000",
+    "subtotal_usd": "123.0000",
+    "with_overhead_usd": "159.900000",
+    "validated_unique_traits": null,
+    "pricing": {
+      "input_usd_per_million": "1.25",
+      "output_usd_per_million": "4.25",
+      "web_query_usd": "0.0025",
+      "checked": "2026-11-04",
+      "source": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "mode": "Standard"
+    },
+    "excluded": "Hosting, storage, taxes, human review, paid publisher access; no cache discount assumed"
+  }
+]

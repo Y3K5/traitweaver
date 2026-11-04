@@ -1,0 +1,613 @@
+{
+  "schema": "traitweaver.cloud-study.v1",
+  "mode": "offline",
+  "biological_validation": "not_established",
+  "model_calls": 0,
+  "observations": [
+    {
+      "id": "obs_09ced4cf38f50e58111f41e749e7a762ede7cfce7a07dac0fa5c9a8c2d20bdd5",
+      "sha256": "09ced4cf38f50e58111f41e749e7a762ede7cfce7a07dac0fa5c9a8c2d20bdd5",
+      "identity_key": "10ea38b92fae4d1e2970702ec52719a6c5a05a2c7dab5571ec0cc22aa096620a",
+      "record": {
+        "category_assignments": [
+          {
+            "category": "Test group 2",
+            "provenance": "authored_fixture",
+            "scheme": "synthetic_test_v1"
+          }
+        ],
+        "citations": [
+          {
+            "locator": "Synthetic fixture / panel B",
+            "source_id": "src_add9b1e6facd696055cd2313d1d962aa15b3ac475496938b813e456499e1a25c",
+            "supports": "Test-only endpoint; no biological evidence"
+          }
+        ],
+        "components": [
+          {
+            "accession": null,
+            "gene": null,
+            "identity_status": "synthetic",
+            "kind": "protein",
+            "name": "Fictional component 4",
+            "protein": null,
+            "version": null
+          }
+        ],
+        "condition_key": "synthetic_condition",
+        "dependencies": [
+          {
+            "citations": [],
+            "name": "Host compatibility",
+            "statement": "Not established",
+            "status": "unknown"
+          }
+        ],
+        "donor": {
+          "context": "synthetic",
+          "name": "Fictional donor D",
+          "strain": null,
+          "taxonomy_id": null
+        },
+        "endpoint": {
+          "control": null,
+          "interpretation_limit": "Synthetic only; no extrapolation beyond this assay scope.",
+          "n": null,
+          "name": "Test endpoint 4",
+          "scope": "extracted_enzyme",
+          "timepoint": null,
+          "uncertainty": null,
+          "units": null,
+          "value": null
+        },
+        "evidence_type": "qualitative",
+        "negative_results": null,
+        "provenance": {
+          "model_run": null,
+          "origin": "synthetic_fixture",
+          "workbook_ref": null
+        },
+        "recipient": {
+          "context": "synthetic",
+          "name": "Fictional recipient R",
+          "strain": null,
+          "taxonomy_id": null
+        },
+        "stability": null,
+        "study_key": "synthetic_study",
+        "trait": "Synthetic extracted enzyme",
+        "transfer_method": null,
+        "uncertainty": [
+          "Synthetic fixture only",
+          "Source entailment has not been assessed"
+        ]
+      },
+      "review_status": "unreviewed",
+      "reviews": []
+    },
+    {
+      "id": "obs_e6df1d5a659ad290435d0f32ccf66f621f3e5c3479394232084bc4f76d068879",
+      "sha256": "e6df1d5a659ad290435d0f32ccf66f621f3e5c3479394232084bc4f76d068879",
+      "identity_key": "2d3b364c934c06c30fec91a1a5949ff464f61a05176d180f039368b451deebea",
+      "record": {
+        "category_assignments": [
+          {
+            "category": "Test group 3",
+            "provenance": "authored_fixture",
+            "scheme": "synthetic_test_v1"
+          }
+        ],
+        "citations": [
+          {
+            "locator": "Synthetic fixture / panel C",
+            "source_id": "src_add9b1e6facd696055cd2313d1d962aa15b3ac475496938b813e456499e1a25c",
+            "supports": "Test-only endpoint; no biological evidence"
+          }
+        ],
+        "components": [
+          {
+            "accession": null,
+            "gene": null,
+            "identity_status": "synthetic",
+            "kind": "protein",
+            "name": "Fictional component 6",
+            "protein": null,
+            "version": null
+          }
+        ],
+        "condition_key": "synthetic_condition",
+        "dependencies": [
+          {
+            "citations": [],
+            "name": "Host compatibility",
+            "statement": "Not established",
+            "status": "unknown"
+          }
+        ],
+        "donor": {
+          "context": "synthetic",
+          "name": "Fictional donor D",
+          "strain": null,
+          "taxonomy_id": null
+        },
+        "endpoint": {
+          "control": null,
+          "interpretation_limit": "Synthetic only; no extrapolation beyond this assay scope.",
+          "n": null,
+          "name": "Test endpoint 6",
+          "scope": "intact_cell",
+          "timepoint": null,
+          "uncertainty": null,
+          "units": null,
+          "value": null
+        },
+        "evidence_type": "qualitative",
+        "negative_results": null,
+        "provenance": {
+          "model_run": null,
+          "origin": "synthetic_fixture",
+          "workbook_ref": null
+        },
+        "recipient": {
+          "context": "synthetic",
+          "name": "Fictional recipient R",
+          "strain": null,
+          "taxonomy_id": null
+        },
+        "stability": null,
+        "study_key": "synthetic_study",
+        "trait": "Synthetic joint processing",
+        "transfer_method": null,
+        "uncertainty": [
+          "Synthetic fixture only",
+          "Source entailment has not been assessed"
+        ]
+      },
+      "review_status": "unreviewed",
+      "reviews": []
+    },
+    {
+      "id": "obs_d2d00a9162b5f6dd12f1c117bffd2a9865353aaa0277fd467ee64e0c70fcddce",
+      "sha256": "d2d00a9162b5f6dd12f1c117bffd2a9865353aaa0277fd467ee64e0c70fcddce",
+      "identity_key": "8b933016ff1da6d2c328345625894dca6985089c53ad244dde4affaad08edbf8",
+      "record": {
+        "category_assignments": [
+          {
+            "category": "Test group 3",
+            "provenance": "authored_fixture",
+            "scheme": "synthetic_test_v1"
+          }
+        ],
+        "citations": [
+          {
+            "locator": "Synthetic fixture / panel C",
+            "source_id": "src_add9b1e6facd696055cd2313d1d962aa15b3ac475496938b813e456499e1a25c",
+            "supports": "Test-only endpoint; no biological evidence"
+          }
+        ],
+        "components": [
+          {
+            "accession": null,
+            "gene": null,
+            "identity_status": "synthetic",
+            "kind": "protein",
+            "name": "Fictional component 5",
+            "protein": null,
+            "version": null
+          }
+        ],
+        "condition_key": "synthetic_condition",
+        "dependencies": [
+          {
+            "citations": [],
+            "name": "Host compatibility",
+            "statement": "Not established",
+            "status": "unknown"
+          }
+        ],
+        "donor": {
+          "context": "synthetic",
+          "name": "Fictional donor D",
+          "strain": null,
+          "taxonomy_id": null
+        },
+        "endpoint": {
+          "control": null,
+          "interpretation_limit": "Synthetic only; no extrapolation beyond this assay scope.",
+          "n": null,
+          "name": "Test endpoint 5",
+          "scope": "material",
+          "timepoint": null,
+          "uncertainty": null,
+          "units": "arbitrary test units",
+          "value": 0
+        },
+        "evidence_type": "negative",
+        "negative_results": [
+          "Synthetic measured zero; not a biological result"
+        ],
+        "provenance": {
+          "model_run": null,
+          "origin": "synthetic_fixture",
+          "workbook_ref": null
+        },
+        "recipient": {
+          "context": "synthetic",
+          "name": "Fictional recipient R",
+          "strain": null,
+          "taxonomy_id": null
+        },
+        "stability": null,
+        "study_key": "synthetic_study",
+        "trait": "Synthetic material endpoint",
+        "transfer_method": null,
+        "uncertainty": [
+          "Synthetic fixture only",
+          "Source entailment has not been assessed"
+        ]
+      },
+      "review_status": "unreviewed",
+      "reviews": []
+    },
+    {
+      "id": "obs_1ed7cfc12ad9287b2d30e2d8434404ad5fbbc7424b150eb8eaf59e3ebb626a10",
+      "sha256": "1ed7cfc12ad9287b2d30e2d8434404ad5fbbc7424b150eb8eaf59e3ebb626a10",
+      "identity_key": "36c91228ae14b3e165986da866311a8d05d3890c9dae2cb9ef4e971a20af702a",
+      "record": {
+        "category_assignments": [
+          {
+            "category": "Test group 2",
+            "provenance": "authored_fixture",
+            "scheme": "synthetic_test_v1"
+          }
+        ],
+        "citations": [
+          {
+            "locator": "Synthetic fixture / panel C",
+            "source_id": "src_add9b1e6facd696055cd2313d1d962aa15b3ac475496938b813e456499e1a25c",
+            "supports": "Test-only endpoint; no biological evidence"
+          }
+        ],
+        "components": [
+          {
+            "accession": null,
+            "gene": null,
+            "identity_status": "synthetic",
+            "kind": "protein",
+            "name": "Fictional component 3",
+            "protein": null,
+            "version": null
+          }
+        ],
+        "condition_key": "synthetic_condition",
+        "dependencies": [
+          {
+            "citations": [],
+            "name": "Host compatibility",
+            "statement": "Not established",
+            "status": "unknown"
+          }
+        ],
+        "donor": {
+          "context": "synthetic",
+          "name": "Fictional donor D",
+          "strain": null,
+          "taxonomy_id": null
+        },
+        "endpoint": {
+          "control": null,
+          "interpretation_limit": "Synthetic only; no extrapolation beyond this assay scope.",
+          "n": null,
+          "name": "Test endpoint 3",
+          "scope": "whole_organism",
+          "timepoint": null,
+          "uncertainty": null,
+          "units": null,
+          "value": null
+        },
+        "evidence_type": "qualitative",
+        "negative_results": null,
+        "provenance": {
+          "model_run": null,
+          "origin": "synthetic_fixture",
+          "workbook_ref": null
+        },
+        "recipient": {
+          "context": "synthetic",
+          "name": "Fictional recipient R",
+          "strain": null,
+          "taxonomy_id": null
+        },
+        "stability": null,
+        "study_key": "synthetic_study",
+        "trait": "Synthetic pathway light",
+        "transfer_method": null,
+        "uncertainty": [
+          "Synthetic fixture only",
+          "Source entailment has not been assessed"
+        ]
+      },
+      "review_status": "unreviewed",
+      "reviews": []
+    },
+    {
+      "id": "obs_dd01a950000cc1613091eaeeb208619b7b52d7982dee1a6460009fa44c73785f",
+      "sha256": "dd01a950000cc1613091eaeeb208619b7b52d7982dee1a6460009fa44c73785f",
+      "identity_key": "759a929ad83dcb7b9e5ea8d237aca0bc9b0421b3315d12488e532f2a40c5a0a1",
+      "record": {
+        "category_assignments": [
+          {
+            "category": "Test group 1",
+            "provenance": "authored_fixture",
+            "scheme": "synthetic_test_v1"
+          }
+        ],
+        "citations": [
+          {
+            "locator": "Synthetic fixture / panel A",
+            "source_id": "src_add9b1e6facd696055cd2313d1d962aa15b3ac475496938b813e456499e1a25c",
+            "supports": "Test-only endpoint; no biological evidence"
+          }
+        ],
+        "components": [
+          {
+            "accession": null,
+            "gene": null,
+            "identity_status": "synthetic",
+            "kind": "protein",
+            "name": "Fictional component 1",
+            "protein": null,
+            "version": null
+          }
+        ],
+        "condition_key": "synthetic_condition",
+        "dependencies": [
+          {
+            "citations": [],
+            "name": "Host compatibility",
+            "statement": "Not established",
+            "status": "unknown"
+          }
+        ],
+        "donor": {
+          "context": "synthetic",
+          "name": "Fictional donor D",
+          "strain": null,
+          "taxonomy_id": null
+        },
+        "endpoint": {
+          "control": null,
+          "interpretation_limit": "Synthetic only; no extrapolation beyond this assay scope.",
+          "n": null,
+          "name": "Test endpoint 1",
+          "scope": "intact_cell",
+          "timepoint": null,
+          "uncertainty": null,
+          "units": null,
+          "value": null
+        },
+        "evidence_type": "qualitative",
+        "negative_results": null,
+        "provenance": {
+          "model_run": null,
+          "origin": "synthetic_fixture",
+          "workbook_ref": null
+        },
+        "recipient": {
+          "context": "synthetic",
+          "name": "Fictional recipient R",
+          "strain": null,
+          "taxonomy_id": null
+        },
+        "stability": null,
+        "study_key": "synthetic_study",
+        "trait": "Synthetic reporter",
+        "transfer_method": null,
+        "uncertainty": [
+          "Synthetic fixture only",
+          "Source entailment has not been assessed"
+        ]
+      },
+      "review_status": "unreviewed",
+      "reviews": []
+    },
+    {
+      "id": "obs_81740874823a342a6034e2198e9d344f9afe46b4867eb0e6f3a27d0f07ff3813",
+      "sha256": "81740874823a342a6034e2198e9d344f9afe46b4867eb0e6f3a27d0f07ff3813",
+      "identity_key": "40a2bb2ca93a8363d7a4dc272c7a104f2a5105f47208432408790401b2bff4f7",
+      "record": {
+        "category_assignments": [
+          {
+            "category": "Test group 1",
+            "provenance": "authored_fixture",
+            "scheme": "synthetic_test_v1"
+          }
+        ],
+        "citations": [
+          {
+            "locator": "Synthetic fixture / panel A",
+            "source_id": "src_add9b1e6facd696055cd2313d1d962aa15b3ac475496938b813e456499e1a25c",
+            "supports": "Test-only endpoint; no biological evidence"
+          }
+        ],
+        "components": [
+          {
+            "accession": null,
+            "gene": null,
+            "identity_status": "synthetic",
+            "kind": "protein",
+            "name": "Fictional component 2",
+            "protein": null,
+            "version": null
+          }
+        ],
+        "condition_key": "synthetic_condition",
+        "dependencies": [
+          {
+            "citations": [],
+            "name": "Host compatibility",
+            "statement": "Not established",
+            "status": "unknown"
+          }
+        ],
+        "donor": {
+          "context": "synthetic",
+          "name": "Fictional donor D",
+          "strain": null,
+          "taxonomy_id": null
+        },
+        "endpoint": {
+          "control": null,
+          "interpretation_limit": "Synthetic only; no extrapolation beyond this assay scope.",
+          "n": null,
+          "name": "Test endpoint 2",
+          "scope": "whole_organism",
+          "timepoint": null,
+          "uncertainty": null,
+          "units": null,
+          "value": null
+        },
+        "evidence_type": "qualitative",
+        "negative_results": null,
+        "provenance": {
+          "model_run": null,
+          "origin": "synthetic_fixture",
+          "workbook_ref": null
+        },
+        "recipient": {
+          "context": "synthetic",
+          "name": "Fictional recipient R",
+          "strain": null,
+          "taxonomy_id": null
+        },
+        "stability": null,
+        "study_key": "synthetic_study",
+        "trait": "Synthetic substrate-dependent light",
+        "transfer_method": null,
+        "uncertainty": [
+          "Synthetic fixture only",
+          "Source entailment has not been assessed"
+        ]
+      },
+      "review_status": "unreviewed",
+      "reviews": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_add9b1e6facd696055cd2313d1d962aa15b3ac475496938b813e456499e1a25c",
+      "sha256": "add9b1e6facd696055cd2313d1d962aa15b3ac475496938b813e456499e1a25c",
+      "record": {
+        "access": "synthetic",
+        "content": "SYNTHETIC SOFTWARE FIXTURE. Invented entity labels and test-only endpoints. Panel A: two signals measured jointly in fictional recipient R. Panel B: extracted enzyme measurement does not establish intact organism function. Panel C: unknown and measured zero are distinct. No biological result.",
+        "identifiers": {},
+        "license": "Original synthetic fixture; MIT",
+        "origin": "synthetic_fixture",
+        "retrieved_utc": "2026-11-04T00:00:00+00:00",
+        "role": "synthetic_fixture",
+        "snapshot_sha256": "7ef488c59c38e5a2d0dcfc00d12716b962d682b6501ef2818be1b395236618d1",
+        "title": "Synthetic software fixture, not a paper",
+        "url": "https://example.invalid/traitstudy/synthetic-fixture"
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "group_3690fbe4ffed0535cf2e77d9422b8f23985799cafbed2224cca32076ad77a8d8",
+      "record": {
+        "condition_key": null,
+        "demonstration": null,
+        "kind": "proposed_pairing",
+        "members": [
+          "obs_1ed7cfc12ad9287b2d30e2d8434404ad5fbbc7424b150eb8eaf59e3ebb626a10",
+          "obs_09ced4cf38f50e58111f41e749e7a762ede7cfce7a07dac0fa5c9a8c2d20bdd5"
+        ],
+        "name": "Synthetic untested pairing",
+        "provenance": "synthetic_fixture",
+        "recipient": null,
+        "study_key": null,
+        "uncertainty": [
+          "Synthetic validation fixture, not biology"
+        ]
+      }
+    },
+    {
+      "id": "group_e9675e4170247c4d7490a3cc1a41210c174765c8db5d5d4d09ca43eed7f99699",
+      "record": {
+        "condition_key": "synthetic_condition",
+        "demonstration": {
+          "locator": "Synthetic fixture / panel A",
+          "source_id": "src_add9b1e6facd696055cd2313d1d962aa15b3ac475496938b813e456499e1a25c",
+          "supports": "Synthetic panel A reports both fictional signals together"
+        },
+        "kind": "demonstrated_stack",
+        "members": [
+          "obs_dd01a950000cc1613091eaeeb208619b7b52d7982dee1a6460009fa44c73785f",
+          "obs_81740874823a342a6034e2198e9d344f9afe46b4867eb0e6f3a27d0f07ff3813"
+        ],
+        "name": "Synthetic co-measured stack",
+        "provenance": "synthetic_fixture",
+        "recipient": {
+          "context": "synthetic",
+          "name": "Fictional recipient R",
+          "strain": null,
+          "taxonomy_id": null
+        },
+        "study_key": "synthetic_study",
+        "uncertainty": [
+          "Synthetic validation fixture, not biology"
+        ]
+      }
+    }
+  ],
+  "queue": [
+    {
+      "id": "job_017bd368fd0ed41efa3a08130941993b6a14b605cfeebfce7de2c00e9dad32c8",
+      "kind": "offline_extract",
+      "state": "needs_review",
+      "attempts": 1,
+      "checkpoint": "{\"candidate_sha256\":\"b5baaf5693ebe76a2d19d280bfaa2eead822cacedc8405bc2da6c4c2495ff054\",\"muse_called\":false,\"transport\":\"synthetic_fake\"}",
+      "error_code": null
+    },
+    {
+      "id": "job_16dbbe600c0810113918dd89f17bb5582926a922d7174cc7a88e6e372831099d",
+      "kind": "offline_extract",
+      "state": "needs_review",
+      "attempts": 1,
+      "checkpoint": "{\"candidate_sha256\":\"daef315502255642342c95c35832b495b5fcd500ea55a4bd23c5dfa02dbf622c\",\"muse_called\":false,\"transport\":\"synthetic_fake\"}",
+      "error_code": null
+    },
+    {
+      "id": "job_2c7ebe989d25b3f34bcdd8bb0e368836942eff733bb9b5fe7be982c5db85175d",
+      "kind": "offline_extract",
+      "state": "needs_review",
+      "attempts": 1,
+      "checkpoint": "{\"candidate_sha256\":\"a2a959537a7ec9f43a64872652e3d03deef6f8fd216895dfb1a238d2ea9f7708\",\"muse_called\":false,\"transport\":\"synthetic_fake\"}",
+      "error_code": null
+    },
+    {
+      "id": "job_2ddcdaad0c79ac82962e180f2bd79a9f381731fec8849b9d22c86680997c64c1",
+      "kind": "offline_extract",
+      "state": "needs_review",
+      "attempts": 1,
+      "checkpoint": "{\"candidate_sha256\":\"7895f4f4813bcef0edf19a7ba590ce7ceee903219b2e582b8836c6c88f091312\",\"muse_called\":false,\"transport\":\"synthetic_fake\"}",
+      "error_code": null
+    },
+    {
+      "id": "job_46baf78afee8356f1ad442c6561d4cd30f0e659ed6af42404a3b1b63d5380487",
+      "kind": "offline_extract",
+      "state": "needs_review",
+      "attempts": 1,
+      "checkpoint": "{\"candidate_sha256\":\"a78738b7a77225e26d56189698e2d23c14a82b015e412b1446197d6f3b92407a\",\"muse_called\":false,\"transport\":\"synthetic_fake\"}",
+      "error_code": null
+    },
+    {
+      "id": "job_53b870344953f2361854d64ae24b79ff36f96f11d7ae43f7b98a316707759719",
+      "kind": "offline_extract",
+      "state": "needs_review",
+      "attempts": 1,
+      "checkpoint": "{\"candidate_sha256\":\"4be1543aba433145128f298f3a53b7f1e56756e0b1b69a2d6dfcbade9e0c74f9\",\"muse_called\":false,\"transport\":\"synthetic_fake\"}",
+      "error_code": null
+    }
+  ]
+}
