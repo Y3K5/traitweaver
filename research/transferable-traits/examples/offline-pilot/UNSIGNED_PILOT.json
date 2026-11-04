@@ -1,0 +1,45 @@
+{
+  "schema": "traitstudy.unsigned-pilot.v1",
+  "status": "blocked_not_authorized",
+  "destination": "https://api.meta.ai/v1/responses",
+  "model": "muse-spark-1.3",
+  "mode": "Standard",
+  "store": false,
+  "fixture_kind": "synthetic_software_pilot_not_workbook_cases",
+  "maximum_requests": 6,
+  "maximum_output_tokens_per_request": 8192,
+  "maximum_concurrency": 1,
+  "automatic_retries": 0,
+  "fallback": false,
+  "tools": [],
+  "suggested_application_ceiling_usd": 1.0,
+  "conservative_reservation_usd": 0.248206,
+  "wire_sha256": [
+    "f26125401774780eb2ad4ff0f0a695d8c6f79668678f2e8a58ce42dc11bbf8b5",
+    "d94a9719c0c195927367935b6e20b3a22b12451b7a1ecba4639d8a0cfeab29e3",
+    "cf749e5ac0c0a789e9f3e450cabb532db483736b85aa48ae057b74d570519c92",
+    "a93fcb4c1002214680d75bfbfae5a38b617601de061549347c184a85d750b22c",
+    "7f457b29e18b3b1ac34817278f09cddb36a60cc788a86ed2264bab7ccd4cb934",
+    "6d5f7f22fbfdf35b5ea5e7089981427bb9a89a2d0381c6a0d155740d68181116"
+  ],
+  "blocking_requirements": [
+    "Actual account recipient/team, balance and expiry verified",
+    "Provider-enforced credit-only cap verified; alerts are insufficient",
+    "Real workbook materialized and six cases/source passages reviewed",
+    "Input token bound and output/reasoning accounting verified against current provider API",
+    "Replace synthetic packets with exact real-source bodies; pin code/data/body/pricing hashes",
+    "Owner approval for exact recipient, payloads and bounded spend",
+    "Separately reviewed live transport; this package contains none"
+  ],
+  "stop_conditions": [
+    "Any access denial",
+    "Missing or partial usage",
+    "Transport outcome uncertain",
+    "Structural/evidence failure",
+    "Provider error",
+    "Budget/call/time limit reached"
+  ],
+  "approved": false,
+  "spent_usd": 0,
+  "provider_calls": 0
+}

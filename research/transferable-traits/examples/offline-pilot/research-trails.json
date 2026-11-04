@@ -1,0 +1,56 @@
+[
+  {
+    "workbook_id": "TW004",
+    "topic": "GFP",
+    "review_question": "Single reporter; distinguish reference identity from measured expression",
+    "status": "blocked_workbook_not_materialized",
+    "source": "parent-provided target list; workbook row not inspected",
+    "observation": null,
+    "scientific_review": "pending"
+  },
+  {
+    "workbook_id": "TW009",
+    "topic": "Firefly light",
+    "review_question": "Check substrate and host dependencies",
+    "status": "blocked_workbook_not_materialized",
+    "source": "parent-provided target list; workbook row not inspected",
+    "observation": null,
+    "scientific_review": "pending"
+  },
+  {
+    "workbook_id": "TW002",
+    "topic": "Fungal glow",
+    "review_question": "Check multi-component pathway and host context",
+    "status": "blocked_workbook_not_materialized",
+    "source": "parent-provided target list; workbook row not inspected",
+    "observation": null,
+    "scientific_review": "pending"
+  },
+  {
+    "workbook_id": "TW037",
+    "topic": "PETase",
+    "review_question": "Separate extracted-enzyme activity from intact-organism function",
+    "status": "blocked_workbook_not_materialized",
+    "source": "parent-provided target list; workbook row not inspected",
+    "observation": null,
+    "scientific_review": "pending"
+  },
+  {
+    "workbook_id": "TW020",
+    "topic": "Golden Rice",
+    "review_question": "Separate pathway evidence, tissue endpoint and downstream health claims",
+    "status": "blocked_workbook_not_materialized",
+    "source": "parent-provided target list; workbook row not inspected",
+    "observation": null,
+    "scientific_review": "pending"
+  },
+  {
+    "workbook_id": "TW044",
+    "topic": "Cellulose-to-ethanol yeast",
+    "review_question": "Check jointly measured functions and substrate boundaries",
+    "status": "blocked_workbook_not_materialized",
+    "source": "parent-provided target list; workbook row not inspected",
+    "observation": null,
+    "scientific_review": "pending"
+  }
+]

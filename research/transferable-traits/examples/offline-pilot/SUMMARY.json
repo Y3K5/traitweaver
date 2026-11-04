@@ -1,0 +1,11 @@
+{
+  "mode": "synthetic_offline",
+  "processed_this_run": 0,
+  "jobs": 6,
+  "awaiting_review": 6,
+  "synthetic_observations": 6,
+  "real_cases_imported": 0,
+  "muse_calls": 0,
+  "muse_cost_usd": 0,
+  "workbook_status": "blocked_not_materialized"
+}
