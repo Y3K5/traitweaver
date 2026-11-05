@@ -143,9 +143,24 @@ def validate(package, packet=None):
     elif suggestions or local.get('suggestions') not in (None, []):
         raise ValueError('A failed attempt cannot acquire model suggestions')
     source_checks = decoded.get('SOURCE_CHECKS.json')
-    if source_checks is not None:
+    if 'SOURCE_CHECKS.json' in decoded:
+        if type(source_checks) is not dict:
+            raise ValueError('Invalid source review shape')
         if source_checks.get('request_sha256') != req_hash or source_checks.get('response_sha256') != response_hash or source_checks.get('scientific_review') != 'pending' or source_checks.get('laboratory_ready') is not False:
             raise ValueError('Source review binding or role changed')
+        library.text(source_checks.get('authorship'))
+        findings = source_checks.get('findings')
+        if type(findings) is not list:
+            raise ValueError('Source review findings must be a list')
+        sources = {s['id'] for s in context['sources']}
+        for finding in findings:
+            if type(finding) is not dict:
+                raise ValueError('Invalid source review finding')
+            library.text(finding.get('status'))
+            library.text(finding.get('finding'), 8000)
+            ids = finding.get('source_ids', [])
+            if type(ids) is not list or any(type(i) is not str or i not in sources for i in ids):
+                raise ValueError('Unknown source review citation')
     error = reply.get('error') if type(reply.get('error')) is dict else {}
     return {'run_id': run_id, 'provider': 'Meta direct', 'model': body['model'], 'synthetic': synthetic,
             'outcome': 'completed' if success else 'failed', 'http_status': status,

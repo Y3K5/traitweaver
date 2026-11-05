@@ -15,7 +15,7 @@ const rhQEvents=(kind,q=rhQuestion())=>(rhOwner()?.history||[]).filter(r=>(!kind
 const rhTag=(text,cls='')=>`<span class="rh-tag ${cls}">${esc(text)}</span>`;
 const rhButton=(text,href,cls='')=>`<a class="rh-button ${cls}" href="${esc(href)}">${esc(text)} <span aria-hidden="true">↗</span></a>`;
 const rhEmpty=(title,text,action='')=>`<div class="rh-empty"><span class="rh-kicker">ROOM TO INVESTIGATE</span><h2>${esc(title)}</h2><p>${esc(text)}</p>${action}</div>`;
-const rhSources=ids=>ids.map(id=>`<a class="rh-source-link" href="${rhUrl('sources',id)}">${esc(id)} ↗</a>`).join(' ');
+const rhSources=ids=>ids.map(id=>`<a class="rh-source-link" href="${esc(rhUrl('sources',encodeURIComponent(id)))}">${esc(id)} ↗</a>`).join(' ');
 const rhTraitSelect=(name='trait_id',selected='')=>`<label>Native trait system<select name="${name}" id="rh-${name}">${rhCatalog().traits.map(t=>`<option value="${t.id}" ${t.id===selected?'selected':''}>${esc(t.name)}</option>`).join('')}</select></label>`;
 const rhRecipientSelect=(selected='',name='recipient_id')=>`<label>Receiving context<select name="${name}" id="rh-${name}">${rhCatalog().recipients.map(r=>`<option value="${r.id}" ${r.id===selected?'selected':''}>${esc(r.organism)} · stock unresolved</option>`).join('')}</select></label>`;
 function rhShell(content,home=''){

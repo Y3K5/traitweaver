@@ -82,6 +82,60 @@ class RunTests(unittest.TestCase):
         self.s.act(self.e,self.s.fingerprint())
         with self.assertRaises(ValueError):self.s.act(self.e,self.s.fingerprint())
 
+    def source_checks(self):
+        artifacts = self.e['run']['artifacts']
+        return {'request_sha256': artifacts['EXACT_REQUEST_BODY.json']['sha256'],
+                'response_sha256': artifacts['RESPONSE_BODY.json']['sha256'],
+                'scientific_review': 'pending', 'laboratory_ready': False,
+                'authorship': 'Synthetic source review',
+                'findings': [{'status': 'needs_review', 'finding': 'Synthetic qualification.',
+                              'source_ids': ['PSR1_2023']}],
+                'limits': 'Synthetic extra provenance is preserved.'}
+
+    def add_source_checks(self, value):
+        text = study.canonical(value)
+        self.e['run']['artifacts']['SOURCE_CHECKS.json'] = {
+            'text': text, 'sha256': runs.fingerprint(text)}
+
+    def test_source_checks_preserved_on_import_and_reopen(self):
+        checks = self.source_checks()
+        checks['findings'].append({'status': 'unresolved', 'finding': 'No citation selected.'})
+        self.add_source_checks(checks)
+        self.s.act(self.e, self.s.fingerprint())
+        reopened = research_homes.Session.from_package(self.s.export(self.s.fingerprint()))
+        self.assertEqual(reopened.view()['saved_runs'][0]['source_checks'], checks)
+        self.assertEqual(reopened.history[-1]['event']['run']['artifacts'], self.e['run']['artifacts'])
+
+    def test_source_checks_reject_unknown_and_malformed_citations(self):
+        for ids in (['UNKNOWN'], ['PSR1_2023" data-injected="yes'], [None],
+                    [{}], 'PSR1_2023', None):
+            with self.subTest(ids=ids):
+                checks = self.source_checks()
+                checks['findings'][0]['source_ids'] = ids
+                self.add_source_checks(checks)
+                with self.assertRaises(ValueError): self.s.act(self.e, self.s.fingerprint())
+        self.assertEqual(len(self.s.history), 2)
+
+    def test_source_checks_reject_malformed_findings(self):
+        bad = [None, [], 'not an object']
+        for field, value in [('authorship', None), ('findings', None), ('findings', {}),
+                             ('findings', [None]), ('findings', [{}]),
+                             ('findings', [{'status': [], 'finding': 'Text'}]),
+                             ('findings', [{'status': 'pending', 'finding': {}}])]:
+            checks = self.source_checks(); checks[field] = value; bad.append(checks)
+        for checks in bad:
+            with self.subTest(checks=checks):
+                self.add_source_checks(checks)
+                with self.assertRaises(ValueError): self.s.act(self.e, self.s.fingerprint())
+
+    def test_source_checks_on_failed_attempt_validate_citations(self):
+        self.e = fixture(self.packet, True)
+        self.add_source_checks(self.source_checks())
+        self.assertEqual(runs.validate(self.e['run'])['outcome'], 'failed')
+        checks = self.source_checks(); checks['findings'][0]['source_ids'] = ['UNKNOWN']
+        self.add_source_checks(checks)
+        with self.assertRaises(ValueError): runs.validate(self.e['run'])
+
     def test_unknown_usage_cannot_be_zero_cost(self):
         self.e=fixture(self.packet,True)
         self.mutate_file('USAGE_LEDGER.json',lambda x:x.update(token_derived_cost_usd='0.00'))

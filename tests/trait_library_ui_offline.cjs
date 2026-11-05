@@ -21,4 +21,12 @@ check(JSON.stringify(snapshot)===before,'browsing preserves all source and revie
 location.hash='#trait-library/gfp-reporting';snapshot.trait_library.catalog.traits.at(-1).claims[0].text='<img src=x onerror=alert(1)>';
 check(!run('traitLibraryView()').includes('<img src=x'),'claim content escaped');
 snapshot.trait_library=null;check(run('traitLibraryView()').includes('Library unavailable'),'missing catalog fails closed');
+run(fs.readFileSync('src/traitweaver/web/research-homes-ui.js','utf8'));
+for(const id of ['PSR1_2023','PSR1_2023" data-injected="yes',"quote' & <b>text</b> /?#"]){
+ const html=run('rhSources('+JSON.stringify([id])+')');
+ const expected=`<a class="rh-source-link" href="${escape('#trait-library/sources/'+encodeURIComponent(id))}">${escape(id)} ↗</a>`;
+ check(html===expected,'source IDs are URL-encoded and attribute/text escaped');
+ check((html.match(/<a /g)||[]).length===1&&(html.match(/<\/a>/g)||[]).length===1,'one source link only');
+ check(!html.includes('" data-injected=')&&!html.includes('<b>'),'source ID cannot create attributes or markup');
+}
 console.log(JSON.stringify({status:'passed',checks}));
