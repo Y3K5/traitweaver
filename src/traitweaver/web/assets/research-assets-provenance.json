@@ -1,0 +1,15 @@
+{
+  "research-ecosystem-v1.png": {
+    "mode": "built-in image_gen.imagegen",
+    "model": "not exposed by tool",
+    "purpose": "Decorative illustration, not biological evidence",
+    "sha256": "ca60c540e43f0c3f6431fa1e9d42b8a1833a8500773d17fabe2bb7e30ae3a55e",
+    "cost": "not reported by tool",
+    "private_reference_uploads": false
+  },
+  "muse-official.svg": {
+    "source": "https://muse.ai/images/landing/brand/muse-logo.svg",
+    "use": "Unmodified official public mark for the requested local Muse interface; no endorsement or actual provider call implied",
+    "sha256": "73bdf6aed3c3a03b2181c69532672554fca8a1d303644c301abb1caf5300d703"
+  }
+}

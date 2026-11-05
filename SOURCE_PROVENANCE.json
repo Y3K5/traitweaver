@@ -3684,5 +3684,74 @@
       "Unrelated application work"
     ],
     "status": "Prepared locally for owner review."
+  },
+  "local_research_homes_handoff_2026_11_04": {
+    "base_commit": "e6fa72f44ed10ad1e4d30fef6b1df38a90a5034a",
+    "scope": "Source-backed trait library, local research homes, saved-reply inspection, site presentation and guided phosphorus walkthrough",
+    "files": [
+      "README.md",
+      "data/trait-library.v1.json",
+      "docs/PHOSPHORUS_WALKTHROUGH.txt",
+      "docs/RESEARCH_HOMES.txt",
+      "docs/TRAIT_LIBRARY.txt",
+      "docs/WEBSITE_WALKTHROUGH.txt",
+      "src/traitweaver/research_homes.py",
+      "src/traitweaver/research_runs.py",
+      "src/traitweaver/trait_library.py",
+      "src/traitweaver/web/assets/muse-official.svg",
+      "src/traitweaver/web/assets/research-assets-provenance.json",
+      "src/traitweaver/web/assets/research-ecosystem-v1.png",
+      "src/traitweaver/web/completed-cycle-ui.js",
+      "src/traitweaver/web/index.html",
+      "src/traitweaver/web/phosphorus-walkthrough-ui.js",
+      "src/traitweaver/web/phosphorus-walkthrough.css",
+      "src/traitweaver/web/research-homes-ui.js",
+      "src/traitweaver/web/research-homes.css",
+      "src/traitweaver/web/research-runs-ui.js",
+      "src/traitweaver/web/site-ui.js",
+      "src/traitweaver/web/site.css",
+      "src/traitweaver/web/trait-categories-ui.js",
+      "src/traitweaver/web/trait-library-ui.js",
+      "src/traitweaver/web/trait-library.css",
+      "src/traitweaver/web/workspace.js",
+      "src/traitweaver/workspace_server.py",
+      "tests/phosphorus_walkthrough_browser.cjs",
+      "tests/research_homes_browser.cjs",
+      "tests/research_runs_browser.cjs",
+      "tests/site_browser.cjs",
+      "tests/test_research_homes.py",
+      "tests/test_research_runs.py",
+      "tests/test_trait_library.py",
+      "tests/test_trait_research_batches.py",
+      "tests/trait_library_ui_offline.cjs",
+      "tools/prepare_trait_research.py",
+      "tools/record_site_demo.cjs",
+      "docs/CLAUDE_HANDOFF.txt"
+    ],
+    "source_copy": "34 selected files byte-identical; three files have whitespace-only cleanup. Local absolute paths omitted from public metadata.",
+    "actual_owner_records_included": false,
+    "provider_calls": 0,
+    "publication_status": "Exact outgoing scope awaiting owner confirmation",
+    "upstream_cloud_study": "Preserved without modification",
+    "whitespace_only_cleanup": [
+      "src/traitweaver/web/research-homes-ui.js",
+      "tests/test_trait_library.py",
+      "tests/test_trait_research_batches.py"
+    ]
+  },
+  "pr_2_conflict_resolution_2026_11_05": {
+    "head_commit": "bd3493b2b58fbaf65283215af939f4671c3927b4",
+    "base_commit": "08f0d7cc059371b8f0f230e29c65483d918b1890",
+    "scope": "Combine the 300-trait showcase with current main; retain both provenance extensions and regenerate the exact public file inventory and byte manifest.",
+    "application_or_scientific_content_changed_by_resolution": false,
+    "new_provider_calls": 0,
+    "scientific_review_status": "Unchanged; this is a software merge repair, not scientific approval.",
+    "export_fix": {
+      "file": "research/traitweaver-300-showcase/LIBRARY.html",
+      "scope": "Include all cited record and combination source IDs in dossier and JSON exports, including native sources previously omitted for nine traits.",
+      "scientific_records_changed": false,
+      "focused_regression_checks": 901,
+      "regression_test": "tests/showcase_source_exports_offline.cjs"
+    }
   }
 }

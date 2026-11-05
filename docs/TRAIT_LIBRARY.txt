@@ -1,0 +1,114 @@
+SOURCE-BACKED TRAIT LIBRARY — LOCAL DRAFT, NOVEMBER 4, 2026
+
+Input → review → output
+Thirteen primary-literature records feed six curated native-system dossiers.
+The app separates observations, evidence-backed inferences and untested transfer
+ideas. Pick a potential receiving organism to see components, dependencies and
+unresolved receiving-context evidence. No compatibility score or sufficient gene
+set is produced. Unknown does not mean absent.
+
+Open with python3 -B run_workspace.py --demo, then choose Source-backed trait
+library or Trait Categories. Native-system cards are linked from their category.
+The phosphorus showcase and pinned quantitative records remain unchanged.
+
+Included systems
+- Chlamydomonas phosphate uptake: PSR1 and its native regulatory network.
+- Yeast polyphosphate storage: VTC complex, signaling and compartment context.
+- Community phosphorus accumulation: Accumulibacter-associated EBPR process;
+  exact loci remain unresolved in the admitted abstract-level review.
+- Yeast copper binding: CUP1 and native CUP2 regulation; not metal removal proof.
+- Fungal wall breakdown: Trichoderma P1 chitinolytic system; not proof of
+  contaminated-algae conversion or a qualified algae–fungus partnership.
+- GFP reporting: native jellyfish source, published heterologous observations,
+  maturation dependencies and oxygen-related measurement limits.
+
+Each dossier retains context, claim IDs, primary links, access depth, genes and
+proteins where supported, unqualified reference accessions as null, dependencies,
+conflicts/caveats and missing information. The opposing ech42 host-context
+outcomes and GFP oxygen-limited measurement result are explicitly retained.
+An unassessed contradiction search is labelled unassessed, never “no conflict.”
+This targeted starting set is not an exhaustive or independently reviewed atlas.
+
+Study plans
+Every plan identifies candidate methods, controls, distinct measurements,
+independent units, uncertainty/design decisions and safety review, with citations.
+Methods are candidates motivated by evidence, not copied executable protocols.
+The plan remains draft_not_lab_ready. A separate, content-bound sign-off records
+reviewer identity, stated qualification, actual stock, methods/conditions, decision
+and reason. This is the reviewer's attestation; software does not independently
+verify qualifications or grant biological execution approval. All plans remain
+not lab-ready in this version, including after a planning sign-off.
+
+Inspectable history
+Explicit local source checks record whether catalog references resolve. They do
+not test source entailment, biological activity or recipient compatibility.
+Typed model suggestions retain the exact prepared request, accepted visible
+output, citations, provenance and validation scope. Rejected imports retain an
+input hash and rejection receipt; rejected private/raw text is not copied.
+Human decisions remain separate events. Original evidence is never rewritten.
+History is append-only and hash-linked. With --data-dir it lives in a separate
+trait-library-review-v1 folder beneath the external study directory. With --demo
+it lives in session memory: export before shutdown. Browsing creates no events.
+Export requires acknowledgment of the current full history and a privacy screen.
+Flags block export without silently removing content. Reopen is read-only;
+returning to local history preserves the earlier editable history.
+
+Muse boundary
+Configured direct provider: Meta, muse-spark-1.3, Standard mode, Responses API.
+The library prepares public-only requests without reviewer notes or private runs.
+Synthetic replay is authored example output; imported output authenticity remains
+unverified. No library live adapter exists. No actual Muse call occurred here.
+Existing historical runners and saved packets are not reused or repinned.
+
+tools/prepare_trait_research.py --output EXTERNAL_NEW_DIRECTORY prepares six
+requests in three two-request batches, with exact bodies and an accounting ledger.
+Planning estimates use public pricing checked November 4: input $1.25 and output
+$4.25 per million tokens; no cache discount assumed. 8192 output tokens/request.
+At this prepared snapshot each two-request batch estimates approximately $0.076
+if its output cap is fully used. Input tokens use a heuristic, not a tokenizer.
+The proposed application ceiling is $0.20/batch; it is NOT a billing guarantee.
+All actual token/charge/receipt fields remain null until real evidence exists.
+
+Meta says its spending setting is an alert, not an enforced cap:
+https://dev.meta.ai/help/billing/spend-limit-alert
+Prices: https://dev.meta.ai/docs/pricing-rate-limits
+Live execution is disabled with an effective $0.00 limit because credit-only
+protection is not established. No credentials are read, created or exposed.
+A future batch must retain provider/model, exact outgoing hash, reservation,
+reported input/cached/output tokens, response status, uncertain usage, reconciled
+invoice cost, primary-source verification and human decision. Missing cost is
+unknown, never zero. Stop on missing usage, timeout, invalid response or exhausted
+allowance; no automatic retry/fallback. Any later live change needs exact approval.
+
+Future CRISPR-tool integration
+Planned only. Intake must bind a specific organism/stock and versioned reference
+to source-supported gene/protein/pathway evidence, including pleiotropy and gaps.
+A separate adapter would preserve tool/version, exact input/output hashes,
+prediction versus measurement, checks and reviewer decisions. Current molecular
+and public-algae contracts remain independent. No guide, edit site, donor,
+construct, sequence assembly or CRISPR execution is introduced in this slice.
+
+Baseten investigation — separate provider, no actual use
+Official pages list meta-models/muse-spark-open at
+https://inference.baseten.co/v1 using Chat Completions. This differs from the
+Meta direct model ID, provider, endpoint and response contract. Do not substitute
+it or credit its outputs to the direct Meta integration. Listed pricing was
+$1.25/input and $4.25/output per million tokens, checked November 4.
+https://www.baseten.co/library/muse-spark-open/
+https://dev.meta.ai/docs/muse-spark-open/deploy
+Implementation/test is deferred behind the demo and video. No Baseten key access,
+account setup, request, successful test or applicability of Meta credits is claimed.
+
+Checks
+Run PYTHONPATH=src python3 -B -m unittest discover -s tests.
+Focused: tests/test_trait_library.py and tests/test_trait_research_batches.py.
+UI: node tests/trait_library_ui_offline.cjs; existing category/journey/cycle checks.
+These validate software custody and boundaries, not scientific correctness.
+Final local verification, browser evidence, video and exact change inventory live
+in the separate dated review folder, outside the publishing tree.
+
+Release state
+Local draft only. New files have not been added to publication manifests, staged,
+committed, pushed or published. Existing publication manifests describe the base
+commit, not this draft. Screen actual prospective outgoing bytes and refresh
+release provenance only after owner review. The owner performs every push.

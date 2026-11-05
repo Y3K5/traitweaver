@@ -1,0 +1,53 @@
+TRAITWEAVER — CLAUDE EDITING HANDOFF
+
+Start here
+python3 -B run_workspace.py --demo --port 8877
+Open /#trait-library/walkthrough/trait for the six-step phosphorus walkthrough.
+Without a saved question this is explicitly a curated example, not a real run.
+Home, the library, the phosphorus dossier and the sidebar link to the walkthrough.
+The older /#demo/possibility presentation and original phosphorus demo remain.
+
+What goes in → what happens → what comes out
+A curated native trait and a focused question → source-linked claims, dependencies,
+gaps and inspectable AI context → a proposed study brief for qualified review.
+
+Owners and files
+- data/trait-library.v1.json: six native dossiers, 13 source records and evidence roles.
+- src/traitweaver/trait_library.py: pinned catalog, comparisons and library journal.
+- src/traitweaver/research_homes.py: local question/plan/context/review revisions.
+- src/traitweaver/research_runs.py: transport-free saved Meta receipt validator.
+- web/phosphorus-walkthrough-ui.js and .css: six guided read-only steps.
+- web/research-homes-ui.js and .css: library, questions and the research homes.
+- web/research-runs-ui.js: imported replies, failures, costs and human-readable map.
+- web/site-ui.js and .css: home and separate three-minute presentation.
+All web paths above are beneath src/traitweaver/.
+
+Important privacy and evidence boundary
+Actual owner questions, exact Meta request/response files, usage receipts, local
+records, credentials, screenshots and videos are NOT in this repository. Their
+absence must not be filled with invented real results. Browser tests seed visibly
+synthetic records. Use an external --research-dir only for explicitly selected
+local records. New paid calls, credential access and publication need separate
+authorization. No laboratory action, guide/construct design or validated transfer.
+
+Keep observations, inferences and untested transfer ideas separate. Distinguish
+water removal, cellular uptake/retention, physical product recovery and product
+use. A study remains NOT LAB-READY until qualified review of organism, methods
+and conditions. Reading a step never counts as scientific completion. A changed
+question cannot inherit an earlier reply; failed/unknown usage stays visible.
+
+Checks
+PYTHONPATH=src:tests python3 -B -m unittest -v test_research_runs test_research_homes test_trait_library test_trait_research_batches
+Node browser checks use an installed Playwright/Chromium, never install or send:
+tests/phosphorus_walkthrough_browser.cjs, tests/research_runs_browser.cjs,
+tests/research_homes_browser.cjs, tests/site_browser.cjs.
+Set TRAITWEAVER_PLAYWRIGHT, TRAITWEAVER_CHROMIUM and a fresh external
+TRAITWEAVER_QA_OUTPUT. Source records and original fixtures must remain pinned.
+Run python3 -B tools/verify_handoff.py after updating exact publication inventory.
+
+Integration boundary
+Based on public main e6fa72f44ed10ad1e4d30fef6b1df38a90a5034a. The separate
+research/transferable-traits cloud study is preserved byte-for-byte. It has its
+own instructions and contracts; the new app does not silently consume its data.
+Provider-neutral adapters, general dataset intake and scientific tool integration
+remain future work. No new model dispatch is implemented by this handoff.

@@ -13,7 +13,7 @@ from urllib.parse import urlsplit
 from traitweaver import molecular, molecular_store, muse_boundary, protein_card, study, public_algae
 from traitweaver import intelligence, intelligence_muse, intelligence_store, intelligence_muse_v2, intelligence_execution, intelligence_muse_v3
 from traitweaver import assistant_workspace
-from traitweaver import research_story
+from traitweaver import research_story, trait_library, research_homes
 from traitweaver import workbench, step_tracking, showcase, release_review
 from traitweaver.study_store import Conflict, MAX_BYTES, Store
 from traitweaver.completed_cycle import CompletedCycle
@@ -24,8 +24,22 @@ CSP = "default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; 
 
 class WorkspaceSession:
     """Imported reviews replace only the in-memory view, never the study store."""
-    def __init__(self, store):
+    def __init__(self, store, research_dir=None):
         self.active=store
+        self.trait_library_error = None
+        self.trait_library = None
+        try:
+            self.trait_library = trait_library.Session(store.root / 'trait-library-review-v1' if isinstance(store, Store) else None)
+        except (ValueError, OSError, KeyError, TypeError):
+            self.trait_library_error = 'Trait library or saved history failed validation. Existing studies are unchanged.'
+        self.trait_library_local = self.trait_library
+        self.research_homes = None
+        self.research_homes_error = None
+        try:
+            self.research_homes = research_homes.Session(research_dir or (store.root / 'research-homes-v1' if isinstance(store, Store) else None))
+        except (ValueError, OSError, KeyError, TypeError):
+            self.research_homes_error = 'Research history failed validation. Sources and original studies remain unchanged.'
+        self.research_homes_local = self.research_homes
         self.mutex=threading.RLock()
         self.molecular=None
         self.molecular_error=None
@@ -95,8 +109,8 @@ class LoopbackHTTPServer(ThreadingHTTPServer):
     request_queue_size = 64
 
 
-def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=None, completion_pilot_dir=None):
-    workspace=WorkspaceSession(store)
+def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=None, completion_pilot_dir=None, research_dir=None):
+    workspace=WorkspaceSession(store, research_dir)
     workspace.showcase_pilots={"rna":showcase.load_pilot(rna_pilot_dir,"rna"),"completion":showcase.load_pilot(completion_pilot_dir,"completion")}
     token = secrets.token_urlsafe(32)
     assets = {'/'+p.relative_to(WEB).as_posix(): p for p in WEB.rglob('*') if p.is_file() and not p.is_symlink()}
@@ -171,6 +185,12 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
                         if owner is None:raise ValueError('Selected export is unavailable')
                         if expected!=owner.current()['hash']:
                             self.send(409,{'error':'Saved state changed. Refresh Data flow before exporting; nothing was downloaded.'});return
+                    if path == '/api/research/export.json':
+                        if workspace.research_homes is None: raise ValueError('Research history unavailable')
+                        self.send(200, workspace.research_homes.export(self.headers.get('X-Traitweaver-Privacy-Reviewed')), filename='traitweaver-research-review.json'); return
+                    if path == '/api/trait-library/export.json':
+                        if workspace.trait_library is None: raise ValueError('Trait library unavailable')
+                        self.send(200, workspace.trait_library.export(self.headers.get('X-Traitweaver-Privacy-Reviewed')), filename='trait-library-review.json'); return
                     if path == '/api/session':
                         self.send(200, {'token': token}); return
                     if path == '/api/state':
@@ -178,7 +198,8 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
                             current = store.current()
                             self.send(200, {'current': current, 'evidence': study.bundle(), 'eligible_checks': study.eligible_checks(current['state']),
                                             'history': [{'revision': r['revision'], 'saved_utc': r['saved_utc'], 'action': r['action']['type'], 'hash': r['hash']} for r in store.history],
-                                            'live_enabled': False, 'baseten_live_enabled': False, 'read_only': isinstance(store, CompletedCycle), 'completed_cycle': store.summary() if isinstance(store, CompletedCycle) else None,
+                                            'research_homes':workspace.research_homes.view() if workspace.research_homes else None, 'research_homes_error':workspace.research_homes_error,
+                                            'trait_library':workspace.trait_library.view() if workspace.trait_library else None, 'trait_library_error':workspace.trait_library_error, 'live_enabled': False, 'baseten_live_enabled': False, 'read_only': isinstance(store, CompletedCycle), 'completed_cycle': store.summary() if isinstance(store, CompletedCycle) else None,
                                             'molecular':workspace.molecular.view(current) if workspace.molecular else None,'molecular_error':workspace.molecular_error,
                                             'public_algae':workspace.public_algae.view(current) if workspace.public_algae else None,'public_algae_error':workspace.public_algae_error,
                                             'intelligence':workspace.intelligence.view(current) if workspace.intelligence else None,'intelligence_error':workspace.intelligence_error,
@@ -272,7 +293,7 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
             store=workspace.active
             if not self.safe_host() or not hmac.compare_digest(self.headers.get('X-Traitweaver-Token', ''), token):
                 self.send(403, {'error': 'Same-origin session authorization required'}); return
-            if isinstance(store, CompletedCycle) and urlsplit(self.path).path not in ('/api/study-review/apply','/api/study-review/open','/api/study-review/local','/api/steps/source','/api/steps/check','/api/steps/open','/api/steps/local','/api/cycle-review/open','/api/molecular/save','/api/molecular/open','/api/public-algae/save','/api/public-algae/open','/api/intelligence/followup/prepare','/api/intelligence/followup/synthetic','/api/intelligence/followup/validate','/api/intelligence/followup/open','/api/intelligence/followup/select','/api/intelligence/execution/approve','/api/intelligence/execution/approve-followup','/api/intelligence/execution/run','/api/intelligence/execution/reassess','/api/intelligence/execution/retry','/api/intelligence/execution/cancel','/api/intelligence/execution/open','/api/intelligence/execution/local','/api/intelligence/next/prepare','/api/intelligence/next/synthetic','/api/intelligence/next/validate','/api/intelligence/next/open','/api/intelligence/next/select','/api/intelligence/revise','/api/intelligence/prepare','/api/intelligence/synthetic','/api/intelligence/accept','/api/intelligence/run','/api/intelligence/open','/api/assistant/select','/api/assistant/synthetic','/api/assistant/check','/api/assistant/open','/api/research-story/present','/api/research-story/open','/api/workbench/prepare','/api/workbench/select','/api/workbench/present','/api/workbench/save','/api/workbench/history','/api/workbench/check','/api/workbench/synthetic','/api/workbench/open'):
+            if isinstance(store, CompletedCycle) and urlsplit(self.path).path not in ('/api/research/act','/api/research/preview','/api/research/open','/api/research/local','/api/trait-library/act','/api/trait-library/prepare','/api/trait-library/open','/api/trait-library/local','/api/study-review/apply','/api/study-review/open','/api/study-review/local','/api/steps/source','/api/steps/check','/api/steps/open','/api/steps/local','/api/cycle-review/open','/api/molecular/save','/api/molecular/open','/api/public-algae/save','/api/public-algae/open','/api/intelligence/followup/prepare','/api/intelligence/followup/synthetic','/api/intelligence/followup/validate','/api/intelligence/followup/open','/api/intelligence/followup/select','/api/intelligence/execution/approve','/api/intelligence/execution/approve-followup','/api/intelligence/execution/run','/api/intelligence/execution/reassess','/api/intelligence/execution/retry','/api/intelligence/execution/cancel','/api/intelligence/execution/open','/api/intelligence/execution/local','/api/intelligence/next/prepare','/api/intelligence/next/synthetic','/api/intelligence/next/validate','/api/intelligence/next/open','/api/intelligence/next/select','/api/intelligence/revise','/api/intelligence/prepare','/api/intelligence/synthetic','/api/intelligence/accept','/api/intelligence/run','/api/intelligence/open','/api/assistant/select','/api/assistant/synthetic','/api/assistant/check','/api/assistant/open','/api/research-story/present','/api/research-story/open','/api/workbench/prepare','/api/workbench/select','/api/workbench/present','/api/workbench/save','/api/workbench/history','/api/workbench/check','/api/workbench/synthetic','/api/workbench/open'):
                 self.send(403, {'error':'Completed-cycle review is read-only. No edits, reruns or model calls are available.'}); return
             if self.headers.get('Content-Type', '').split(';')[0] != 'application/json':
                 self.send(415, {'error': 'JSON required'}); return
@@ -290,7 +311,49 @@ def make_server(store, port=0, server_factory=LoopbackHTTPServer, rna_pilot_dir=
                     if data['expected_hash'] != current['hash']:
                         raise Conflict('Study changed; reload before applying this action')
                     state = current['state']
-                    if path.startswith('/api/study-review/'):
+                    if path.startswith('/api/research/'):
+                        owner = workspace.research_homes
+                        if owner is None: raise ValueError('Research history unavailable')
+                        if data.get('research_hash') != owner.fingerprint(): raise Conflict('Research changed; refresh before acting')
+                        prefix = ('expected_hash', 'research_hash')
+                        if path == '/api/research/act':
+                            study.fields(data, (*prefix, 'action'))
+                            owner.act(data['action'], data['research_hash'])
+                        elif path == '/api/research/preview':
+                            study.fields(data, (*prefix, 'question_hash', 'selection'))
+                            self.send(200, owner.packet(data['question_hash'], data['selection'])); return
+                        elif path == '/api/research/open':
+                            study.fields(data, (*prefix, 'package_json'))
+                            if type(data['package_json']) is not str or len(data['package_json'].encode()) > trait_library.MAX_BYTES: raise ValueError('Package too large')
+                            workspace.research_homes = research_homes.Session.from_package(study.decode(data['package_json']))
+                        elif path == '/api/research/local':
+                            study.fields(data, prefix)
+                            workspace.research_homes = workspace.research_homes_local
+                        else:
+                            self.send(404, {'error': 'No registered research action or live provider route'}); return
+                        self.send(200, {'research_homes':workspace.research_homes.view()}); return
+                    if path.startswith('/api/trait-library/'):
+                        owner = workspace.trait_library
+                        if owner is None: raise ValueError('Trait library unavailable')
+                        if data.get('library_hash') != owner.fingerprint(): raise Conflict('Library review changed; refresh before acting')
+                        prefix = ('expected_hash', 'library_hash')
+                        if path == '/api/trait-library/act':
+                            study.fields(data, (*prefix, 'action'))
+                            owner.act(data['action'], data['library_hash'])
+                        elif path == '/api/trait-library/prepare':
+                            study.fields(data, (*prefix, 'trait_id', 'recipient_id'))
+                            self.send(200, trait_library.prepare_request(owner.bundle, data['trait_id'], data['recipient_id'])); return
+                        elif path == '/api/trait-library/open':
+                            study.fields(data, (*prefix, 'package_json'))
+                            if type(data['package_json']) is not str or len(data['package_json'].encode()) > trait_library.MAX_BYTES: raise ValueError('Package too large')
+                            workspace.trait_library = trait_library.Session.from_package(study.decode(data['package_json']))
+                        elif path == '/api/trait-library/local':
+                            study.fields(data, prefix)
+                            workspace.trait_library = workspace.trait_library_local
+                        else:
+                            self.send(404, {'error': 'No registered library action or live provider route'}); return
+                        self.send(200, {'trait_library': workspace.trait_library.view()}); return
+                    elif path.startswith('/api/study-review/'):
                         owner=workspace.release_review
                         if owner is None:raise ValueError('Study review unavailable')
                         if data.get('review_hash')!=owner.current()['hash']:raise Conflict('Study review changed; refresh before acting')
@@ -592,6 +655,7 @@ def main(argv=None):
     source.add_argument('--completed-cycle-file', type=Path, help='Reopen exported cycle-with-usage JSON read-only')
     source.add_argument('--demo', action='store_true', help='Clearly synthetic offline replay; no provider calls')
     parser.add_argument('--port', type=int, default=0, help='Loopback port; default chooses an available port')
+    parser.add_argument('--research-dir', type=Path, help='External directory for durable research-home records, separate from the demo')
     parser.add_argument('--rna-pilot-dir', type=Path, help='Explicit saved RNA comparison directory; read-only')
     parser.add_argument('--completion-pilot-dir', type=Path, help='Explicit saved completion comparison directory; read-only')
     options = parser.parse_args(args)
@@ -603,10 +667,12 @@ def main(argv=None):
                  CompletedCycle.from_file(options.completed_cycle_file) if options.completed_cycle_file else
                  CompletedCycle(options.completed_cycle_dir) if options.completed_cycle_dir else Store(options.data_dir))
         pilot_options={}
+        if options.research_dir is not None:pilot_options['research_dir']=options.research_dir
         if options.rna_pilot_dir is not None:pilot_options['rna_pilot_dir']=options.rna_pilot_dir
         if options.completion_pilot_dir is not None:pilot_options['completion_pilot_dir']=options.completion_pilot_dir
         server = make_server(store, options.port, **pilot_options)
-        print('Open Traitweaver: http://127.0.0.1:'+str(server.server_port)+'/#journey', flush=True)
+        entry_route = '#home' if options.demo else '#journey'
+        print('Open Traitweaver: http://127.0.0.1:'+str(server.server_port)+'/'+entry_route, flush=True)
         print('Read-only recorded cycle. No execution.' if isinstance(store,CompletedCycle) else 'Local study storage. Browser transport disabled.', flush=True)
         server.serve_forever()
     except KeyboardInterrupt:

@@ -1,0 +1,61 @@
+'use strict';
+// Local-only end-to-end checks. Uses an installed browser; never installs one.
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),cp=require('node:child_process');
+const {chromium}=require(process.env.TRAITWEAVER_PLAYWRIGHT||'playwright');
+const out=process.env.TRAITWEAVER_QA_OUTPUT;
+if(!out||!path.isAbsolute(out)||fs.existsSync(out))throw Error('Choose a fresh external absolute QA output directory');
+fs.mkdirSync(out,{recursive:true});
+let server,browser,base,checks=0;const errors=[],external=[];
+const check=(value,message)=>{assert.ok(value,message);checks++;};
+async function start(){server=cp.spawn('python3',['-B','run_workspace.py','--demo','--port','0','--research-dir',path.join(out,'records')],{cwd:process.cwd(),stdio:['ignore','pipe','pipe']});let log='';base=await new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(Error('Local server start timed out: '+log)),20000);server.stdout.on('data',d=>{log+=d;const match=log.match(/http:\/\/127\.0\.0\.1:\d+/);if(match){clearTimeout(timer);resolve(match[0]);}});server.stderr.on('data',d=>log+=d);server.on('exit',code=>{clearTimeout(timer);reject(Error('Local server stopped '+code+': '+log));});});}
+async function stop(){if(!server||server.exitCode!==null)return;await new Promise(resolve=>{server.once('exit',resolve);server.kill('SIGINT');});}
+(async()=>{try{
+ await start();browser=await chromium.launch({headless:true,...(process.env.TRAITWEAVER_CHROMIUM?{executablePath:process.env.TRAITWEAVER_CHROMIUM}:{})});
+ const context=await browser.newContext({viewport:{width:1440,height:1080},acceptDownloads:true});
+ await context.route('**/*',route=>{const u=new URL(route.request().url());if(u.hostname==='127.0.0.1')return route.continue();external.push(u.origin);return route.abort();});
+ const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
+ const go=async(route)=>{await page.goto(base+'/#trait-library'+route);await page.locator('.rh-app').waitFor();};
+ const state=()=>page.evaluate(()=>fetch('/api/state',{headers:{'X-Traitweaver-Client':'workspace'}}).then(r=>r.json()));
+ const waitHistory=async n=>page.waitForFunction(n=>typeof snapshot!=='undefined'&&snapshot.research_homes?.history.length===n,n);
+ await go('');const original=(await state()).current;check(await page.locator('.rh-trait-card').count()===6,'six dossiers');
+ await page.locator('[name=search]').fill('GFP');check(await page.locator('.rh-trait-card').count()===1,'trait search');
+ await page.locator('button[type=reset]').click();await page.waitForFunction(()=>document.querySelectorAll('.rh-trait-card').length===6);
+ await page.locator('[name=facet]').selectOption('nutrient-capture');check(await page.locator('.rh-trait-card').count()===2,'capability filter');
+ await page.locator('[name=facet]').selectOption('all');await page.locator('[name=sort]').selectOption('name_desc');
+ check((await page.locator('.rh-trait-card h2').first().innerText()).includes('Vacuolar'),'sort descending');
+ await page.screenshot({path:path.join(out,'library-desktop.png'),fullPage:true});
+ await go('/sources');await page.locator('[name=search]').fill('GFP_1994');check(await page.locator('.rh-source-card').count()===1,'source ID search');
+ await go('/evidence');await page.locator('[name=facet]').selectOption('untested_transfer_idea');check(await page.locator('.rh-evidence-untested_transfer_idea').count()===6,'role filter');
+ await go('/dossier/gfp-reporting');await page.getByRole('button',{name:'Dependencies',exact:true}).click();check(page.url().endsWith('/dossier/gfp-reporting'),'dossier section navigation preserves route');
+ await go('/compare/community-phosphorus/ecoli');check((await page.locator('.rh-comparison').innerText()).includes('Escherichia coli'),'recipient comparison');check((await page.locator('.rh-boundary').innerText()).includes('sufficiency unknown'),'no transfer promotion');
+ await go('/questions/gfp-reporting');await page.locator('#rh-question-form [name=text]').fill('Synthetic showcase: does fluorescence report the intended quantity?');await page.locator('[name=recipient_id]').selectOption('ecoli');await page.getByRole('button',{name:'Save question',exact:false}).click();await waitHistory(1);await page.locator('#rh-context-form').waitFor();
+ const question=(await state()).research_homes.questions[0],qid=question.event.question_id;
+ await go('/questions');await page.locator('[name=search]').fill('Synthetic showcase');check(await page.locator('.rh-question-card').count()===1,'question search');await page.getByRole('button',{name:'Build context',exact:false}).click();await page.locator('#rh-context-form').waitFor();
+ await page.locator('[name=include_question]').uncheck();await page.getByRole('button',{name:'Preview exact context',exact:false}).click();await page.locator('#rh-context-preview .rh-packet').waitFor();
+ let preview=await page.evaluate(()=>rhPreview);check(preview.payload.question.text===null,'question excluded on request');check(preview.payload.caveats.length>0,'caveats retained');check(preview.body.input===JSON.stringify(preview.payload,Object.keys(preview.payload).sort())||JSON.parse(preview.body.input).catalog_sha256===preview.payload.catalog_sha256,'serialized payload inspectable');
+ check(preview.sending_enabled===false&&preview.effective_limit_usd==='0.00','sending disabled');
+ await page.getByRole('button',{name:'Save an unsent snapshot'}).click();await waitHistory(2);
+ const packetRow=(await state()).research_homes.history.at(-1);
+ await page.locator('.rh-saved-packet>summary').click();await page.getByRole('button',{name:'Add labeled mock suggestion'}).click();await waitHistory(3);
+ check((await state()).research_homes.history.at(-1).event.provenance==='authored_synthetic_example_no_model_call','synthetic output truthfully labeled');
+ await go('/studies');await page.getByRole('button',{name:'Preliminary context',exact:true}).click();await page.locator('#rh-note-form [name=provenance]').selectOption('mock_pilot_note');await page.locator('#rh-note-form [name=text]').fill('Synthetic pilot note: signal overlaps background. No experiment performed.');await page.getByRole('button',{name:'Save local context'}).click();await waitHistory(4);
+ await page.getByRole('button',{name:'Revisions',exact:true}).click();await page.locator('#rh-plan-form [name=text]').fill('Synthetic amendment: review the baseline before interpreting fluorescence.');await page.locator('#rh-plan-form [name=reason]').fill('The fictional note raises a measurement interpretation question.');await page.getByRole('button',{name:'Save successor revision'}).click();await waitHistory(5);
+ await go('/muse');await page.getByRole('button',{name:'Preview exact context',exact:false}).click();await page.locator('#rh-context-preview .rh-packet').waitFor();preview=await page.evaluate(()=>rhPreview);check(preview.payload.local_notes.length===0&&preview.payload.plan_amendments.length===0,'notes and amendments default excluded');
+ await page.locator('[name=note]').check();await page.locator('[name=plan]').check();check(await page.evaluate(()=>rhPreview===null),'changed selection invalidates preview');await page.getByRole('button',{name:'Preview exact context',exact:false}).click();await page.locator('#rh-context-preview .rh-packet').waitFor();preview=await page.evaluate(()=>rhPreview);check(preview.payload.local_notes.length===1&&preview.payload.plan_amendments.length===1,'explicit context opt-in');
+ await page.screenshot({path:path.join(out,'muse-context-audit.png')});await page.evaluate(()=>window.scrollTo(0,0));await page.screenshot({path:path.join(out,'muse-context-desktop.png')});await page.getByRole('button',{name:'Save an unsent snapshot'}).click();await waitHistory(6);
+ await go('/questions/'+qid);await page.locator('#rh-question-form [name=text]').fill('Synthetic revised question: can background be distinguished from reporter signal?');await page.getByRole('button',{name:'Save new revision'}).click();await waitHistory(7);
+ check(await page.locator('.rh-saved-packet>summary').filter({hasText:'earlier question'}).count()===2,'old packets remain bound to earlier question');
+ await go('/review');await page.locator(`[data-rh-review="${packetRow.hash}"]`).click();await page.locator('#rh-review-dialog [name=reviewer]').fill('Synthetic test reviewer');await page.locator('#rh-review-dialog [name=reason]').fill('Synthetic planning decision only. Stock and methods still need review.');await page.getByRole('button',{name:'Save separate decision'}).click();await waitHistory(8);
+ let saved=(await state()).research_homes;check(saved.history[1].hash===packetRow.hash,'earlier packet immutable');check(JSON.stringify((await state()).current)===JSON.stringify(original),'phosphorus record unchanged');
+ await page.locator('#rh-export-ack').check();const downloadPromise=page.waitForEvent('download');await page.locator('#rh-export').click();const download=await downloadPromise;const exported=path.join(out,'synthetic-review.json');await download.saveAs(exported);check(JSON.parse(fs.readFileSync(exported)).history.length===8,'complete export');
+ await page.locator('#rh-import').setInputFiles(exported);await page.waitForFunction(()=>snapshot.research_homes.read_only);check((await state()).research_homes.read_only,'reopen read-only');
+ await go('/muse');check(await page.locator('#rh-save-packet').count()===0,'import has no save control');await go('/review');await page.locator('#rh-return').click();await page.waitForFunction(()=>!snapshot.research_homes.read_only);check((await state()).research_homes.history.length===8,'original local owner retained');
+ await page.setViewportSize({width:390,height:844});
+ for(const route of ['', '/questions','/sources','/evidence','/compare','/studies','/muse','/review','/dossier/gfp-reporting','/dossier/vtc-storage','/dossier/fungal-wall-breakdown']){await go(route);const size=await page.evaluate(()=>({vw:innerWidth,scroll:document.documentElement.scrollWidth}));check(size.scroll<=size.vw+1,'mobile width '+route);}
+ await go('');await page.screenshot({path:path.join(out,'library-mobile.png'),fullPage:true});await go('/muse');await page.screenshot({path:path.join(out,'muse-mobile.png'),fullPage:true});
+ await page.setViewportSize({width:1440,height:1080});await page.goto(base+'/#journey');await page.waitForLoadState('networkidle');check(!(await page.locator('body').getAttribute('class')||'').includes('research-homes-mode'),'original demo layout restored');check(JSON.stringify((await state()).current)===JSON.stringify(original),'demo preserved after navigation');await page.screenshot({path:path.join(out,'phosphorus-demo.png'),fullPage:true});
+ await stop();await start();await go('/review');assert.deepEqual((await state()).research_homes.history,saved.history,'restart replay exact');checks++;
+ check(errors.length===0,'no page errors');check(external.length===0,'no nonlocal requests');
+ fs.writeFileSync(path.join(out,'BROWSER_CHECKS.json'),JSON.stringify({status:'passed',checks,errors,externalRequests:external,scope:'Synthetic local workflow; no scientific validation or provider calls',restartVerified:true,originalDemoPreserved:true},null,2)+'\n');
+ console.log(JSON.stringify({status:'passed',checks,output:out}));
+ }catch(e){fs.writeFileSync(path.join(out,'BROWSER_FAILURE.json'),JSON.stringify({message:e.message,checks,errors,external},null,2));throw e;}finally{if(browser)await browser.close();await stop();}})().catch(e=>{console.error(e);process.exitCode=1});
