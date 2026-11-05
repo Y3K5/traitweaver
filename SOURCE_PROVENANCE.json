@@ -3645,6 +3645,46 @@
     "validation": "research/transferable-traits/VALIDATION.md",
     "source_rights": "User-authorized selected scientific workbook rows and short attributed public-source notes; no full papers or raw Library receipts"
   },
+  "traitweaver_300_showcase_2026_11_04": {
+    "base_commit": "e6fa72f44ed10ad1e4d30fef6b1df38a90a5034a",
+    "historical_study_commit": "afc63b235d7eacec7b17464b059f60fcfd9988a1",
+    "scope": "Static, source-linked showcase and downloadable projection of 300 saved trait records.",
+    "files": {
+      "root": "research/traitweaver-300-showcase",
+      "count": 592,
+      "inventory": "HANDOFF_MANIFEST.json"
+    },
+    "snapshot": {
+      "path": "research/traitweaver-300-showcase/library.json",
+      "sha256": "39a85542d7381cd90e1c838d2842aafb4b1f0b683916b4d27f203daa754fa3c7",
+      "bytes": 1743255
+    },
+    "artwork": {
+      "individual_traits": 247,
+      "shared_category_traits": 53,
+      "featured_traits": 100,
+      "role": "Concept illustration only"
+    },
+    "evidence": {
+      "traits": 300,
+      "batches": 30,
+      "recipient_entries": 125,
+      "sources": 346,
+      "combination_assessments": 6,
+      "qualified_reviews": 0
+    },
+    "exclusions": [
+      "Private workbook and protocol",
+      "Workbook-only unresolved leads and private record lineage",
+      "Database and queue",
+      "Raw dossier archives and request receipts",
+      "Billing and account data",
+      "Image prompts and working assets",
+      "Earlier gallery revisions and video",
+      "Unrelated application work"
+    ],
+    "status": "Prepared locally for owner review."
+  },
   "local_research_homes_handoff_2026_11_04": {
     "base_commit": "e6fa72f44ed10ad1e4d30fef6b1df38a90a5034a",
     "scope": "Source-backed trait library, local research homes, saved-reply inspection, site presentation and guided phosphorus walkthrough",
@@ -3698,5 +3738,20 @@
       "tests/test_trait_library.py",
       "tests/test_trait_research_batches.py"
     ]
+  },
+  "pr_2_conflict_resolution_2026_11_05": {
+    "head_commit": "bd3493b2b58fbaf65283215af939f4671c3927b4",
+    "base_commit": "08f0d7cc059371b8f0f230e29c65483d918b1890",
+    "scope": "Combine the 300-trait showcase with current main; retain both provenance extensions and regenerate the exact public file inventory and byte manifest.",
+    "application_or_scientific_content_changed_by_resolution": false,
+    "new_provider_calls": 0,
+    "scientific_review_status": "Unchanged; this is a software merge repair, not scientific approval.",
+    "export_fix": {
+      "file": "research/traitweaver-300-showcase/LIBRARY.html",
+      "scope": "Include all cited record and combination source IDs in dossier and JSON exports, including native sources previously omitted for nine traits.",
+      "scientific_records_changed": false,
+      "focused_regression_checks": 901,
+      "regression_test": "tests/showcase_source_exports_offline.cjs"
+    }
   }
 }

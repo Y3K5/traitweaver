@@ -1,0 +1,1268 @@
+{
+  "schema": "traitweaver.showcase_art.v1",
+  "assets": {
+    "bio-bamboo-density-gradient": {
+      "sha256": "20e149914b24e019b6e8be53051bc9e493d40f1660a5e81638e0452802adb5d7",
+      "alt": "Moso bamboo culm cross-section with densely packed outer fibers",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-cahs-dry": {
+      "sha256": "0a04ebca6d902b71d1483facbfab468bce6b9ab3bdf07e2611d05e00a66cb849",
+      "alt": "A small stylized tardigrade resting near a dry moss cushion in a macro scene, with faint translucent material texture nearby.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-calcification-proton": {
+      "sha256": "cb42279632a2ebf83e4f9a63acb4b7672a1aa715187897ab0903138b073ad428",
+      "alt": "A round marine microorganism covered with pale overlapping plates.",
+      "caption": "The plates evoke native coccolithophore calcification. The background specks are symbolic. A separate recipient-cell assay measured proton-channel currents."
+    },
+    "bio-chiton-tooth": {
+      "sha256": "eae6e2d43b8d19535ee2d78234b1c9b22aea4620ae8ea67e3956dd9ce8c2443c",
+      "alt": "A dark reinforced chiton radular tooth with a subtle polished cross-section over ocean-blue shadow.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-chromatophore-dynamics": {
+      "sha256": "765a28743a8cad8c4410598a1621cb172787bb499878b112254421c098e744f2",
+      "alt": "A cuttlefish mantle patterned with rust and dark brown pigment spots.",
+      "caption": "The spots evoke a pigment pattern. The study followed changes in individual chromatophore area over time."
+    },
+    "bio-corneal-antireflection": {
+      "sha256": "ffb993623662738ef1b35792e5b260e02b1db6d519b33539787fda625ece8163",
+      "alt": "A macro scene of one butterfly compound eye with softly stylized lens microtexture and a restrained reflection.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-dactyl-impact": {
+      "sha256": "89318b492138a0a39c7f64e8cfacf53018680cf3c7b2f5eea6a5059e470b86ef",
+      "alt": "A colorful mantis shrimp club with a stylized section at one edge showing gently changing material layers.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-desert-ant-sky-compass": {
+      "sha256": "db2c98e5328cba0227c1e5183c1ad9bdf86aaab180df74af0b8a3030afd3bfbe",
+      "alt": "Desert ant below a sky with stylized polarization bands",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-diatom-silica": {
+      "sha256": "90fe4e56c5dbdf101b5694cd9e2aa0355ff84ecb356380eec785380553cfb920",
+      "alt": "A glasslike diatom outline beside separated pale spheres.",
+      "caption": "The diatom and enlarged spheres are symbolic. Silica spheres formed separately in a cell-free assay."
+    },
+    "bio-dmsp": {
+      "sha256": "227551b0652a1e79b9d838cfa750d651346596ba56e902d3516ff4fa792d2182",
+      "alt": "A stylized marine microbial cell among pale suspended particles in dark seawater. The particles symbolize a dissolved microbial metabolite.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-dragonfly-intercept": {
+      "sha256": "fec615ce441c6100c036993ffe84d34d525f6d3d2e294b9c27411b3c143d2c2c",
+      "alt": "A dragonfly in flight approaching a single tiny flying insect over a blurred pond and reeds, caught before contact.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-dry-adhesion": {
+      "sha256": "1ef75e94e5558308ce5d83ddb73ad7ab67f0445d7ed1c127b6f24ea05ebc749d",
+      "alt": "Gecko toe pad lamellae meeting a smooth dry surface.",
+      "caption": "A macro illustration of a gecko toe pad. The experiment measured forces on individual setae."
+    },
+    "bio-elephant-asymmetric-trunk-stretch": {
+      "sha256": "493ac2cf61dfcba3b62abda3efb598a8d6fd6905fb054d83c1e28b193c6a0bba",
+      "alt": "Close side view of an African bush elephant's extended trunk, with natural skin wrinkles and folds running along its upper and lower surfaces.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-far-red-photochemistry": {
+      "sha256": "8dcf00f4c1d959776724e2578028252d36d0f47b00f44ddc7a5ae65a32b659a0",
+      "alt": "Generic cyanobacterial forms beneath a band of burgundy light.",
+      "caption": "The cell shapes and visible burgundy are symbolic. The study used spectroscopy on photosystems acclimated to far-red light."
+    },
+    "bio-fin-ray-stiffness": {
+      "sha256": "f6131491f9a99cc68a3ff5219085e009ea63ceada0ad29819505bff73d40f59e",
+      "alt": "Bluegill fin with curved rays visible through its membrane",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-gecko-tail-righting": {
+      "sha256": "7fb147d27735566b8a0432d8799835585fc84ce7e9f727e5e85343c7d02b9730",
+      "alt": "Falling gecko with a curved tail and faint successive body positions.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-goose-high-affinity-hb": {
+      "sha256": "cd18bbc9330e9d21fd9fc63914947cc88c59a531f3257d54574b6859b0f73cc8",
+      "alt": "Bar-headed goose over a ridge beside a red blood cell inset.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-high-mass-ha": {
+      "sha256": "3f99634aa71ec79989a675e599bfb99ad56b4943729fbc7da91dda17af5ee225",
+      "alt": "A stylized cultured cell beside an abstract translucent, softly textured extracellular matrix.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-ice-binding": {
+      "sha256": "5961df6b8a530c829c826a5b519b4d213793c216ca382defeb24760b4bc29e09",
+      "alt": "A few well separated hexagonal ice crystals in dark seawater with an ocean pout silhouette softly out of focus.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-infrared-heat-trpa1": {
+      "sha256": "ed01473a70e0a9f9b5b90df41d7c1bf686d00af6310881eb8cfbb8cda61f7fd9",
+      "alt": "Close three-quarter view of a western diamondback rattlesnake head.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-lotus-cleaning": {
+      "sha256": "96673417a337d891b695f9cb6fe323d2ec2e2bbfcd92f8ad313349c1aed2c8a2",
+      "alt": "One round lotus leaf with a bright rolling water droplet and a few small dust particles in its path.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-magnetic-orientation": {
+      "sha256": "9a6762f15b3efa7b708e2a4d7e7d858b006d35182e22c4eba7c59531d17d9f8e",
+      "alt": "Several slender aquatic bacteria loosely aligned, with symbolic mineral inclusions in one cell.",
+      "caption": "The aligned forms illustrate swimming behavior. The pale inclusions symbolize the iron-rich particles observed separately."
+    },
+    "bio-mutable-dermis": {
+      "sha256": "bc40b60cac5c97a0e80b66a317b2547bad6b9ee370a9e43918a3e0ff4c8ad283",
+      "alt": "A sea cucumber on the seafloor beside a stylized close detail of layered flexible dermis.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-nacre-toughening": {
+      "sha256": "d6331c536f962568e3ac3a158e1c87de6c2777b7a6972ee330cca00162ab7977",
+      "alt": "An iridescent abalone shell beside a stylized cross-section of overlapping nacre tablets.",
+      "caption": "The layered drawing illustrates nacre architecture. Mechanical testing supplied the evidence for tablet sliding and deformation."
+    },
+    "bio-orbweb-vibration-tuning": {
+      "sha256": "52ced64932af004c40c91b00dd53b428cd3636060b8cde8c85666e66c86613a9",
+      "alt": "Side-lit garden cross spider on a radial orb web at dawn, with a few sharp silk strands in tension and a dark natural forest backdrop.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-passive-electrosense": {
+      "sha256": "d9de6a6800fff24b9590a02d4e449e6237f68bed104c3881d589e1ae03f2f6e7",
+      "alt": "A small-spotted catshark in dark water with a subtle close view of sensory pores near the snout, natural history illustration.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-penguin-muscle-oxygen": {
+      "sha256": "09630b6dfd241e814e35d40620fa1cbf8bc8e4bc3b80899d7166864dbd96f6b7",
+      "alt": "Diving emperor penguin and a muscle-fiber inset.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-reflectin-iridescence": {
+      "sha256": "4e254499966ff5b3bd5d501ec73df586eb0182757e8ee899fae9d398be4a80ee",
+      "alt": "A squid mantle with a pearly green-to-violet sheen.",
+      "caption": "The sheen illustrates reflected structural color. The study measured changes in peak reflected wavelength and intensity separately."
+    },
+    "bio-resilin": {
+      "sha256": "1a418363029afd23d813b683849dc5dc6c885278d399217ded2fdbaeb698ba2c",
+      "alt": "An insect wing and a curved translucent material strip against a dark background.",
+      "caption": "The wing represents the natural inspiration. The strip symbolizes the crosslinked material tested after protein recovery."
+    },
+    "bio-seal-wake-sensing": {
+      "sha256": "0c9940bf2dc30e0c0ceb2160dc38c7d0f1367d86677c22f83eb146075ec61d43",
+      "alt": "Harbor seal with whiskers close to faint underwater wake contours.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-spider-electric-ballooning": {
+      "sha256": "a656c934af5bd710db48f244fa486b45606b310b0d3936562fcca3eeddd2cd88",
+      "alt": "Small spider on a stem with a lifted silk line",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-spider-hydraulic-extension": {
+      "sha256": "d3c359707a7161b965c4a898a339687c027c32e3837c1731da58d959a9c2952d",
+      "alt": "A house spider stepping on dark stone with one leg naturally extended.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-sponge-current-flow": {
+      "sha256": "78c42582a087a41f3c3b40ed477b0276b0fe24542849d8b43db5f66358a88574",
+      "alt": "Glass sponge with streamlines outside and through its body",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-sponge-spicule": {
+      "sha256": "e8f057b1367b98086999f8b5ef3345f2fa9e5308c81c5953631e8d3673d12739",
+      "alt": "A curved translucent silica spicule beside an enlarged conceptual view of a few concentric layers, with a dark deep-ocean backdrop.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-turtle-shell-buffering": {
+      "sha256": "cb6ca4b6c2526b358b0c4883878471332b73c1d7c2436c91fc97fe0e0bc3231f",
+      "alt": "Painted turtle with an inset of layered shell tissue.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-water-strider-propulsion": {
+      "sha256": "a0146223f10de42e7c44cfaadb4e82f3b251917e96a39b0a3e167468dbf1beb8",
+      "alt": "Water strider with surface dimples and faint spirals below the water.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-wet-dopa-adhesion": {
+      "sha256": "8fa20b412d435a60762248a4c201ad66b33e44ff142857f218c052a20fe0052c",
+      "alt": "Mussel attachment threads meeting a wet mineral surface.",
+      "caption": "The mussel illustrates the natural inspiration. The reported force came from a single DOPA-bearing probe at a wet titanium oxide interface."
+    },
+    "bio-woodpecker-impact-transmission": {
+      "sha256": "f780faab24cc988911541c30cfd7a6c6a7ed27b4022b7ea459ded72b51d63b92",
+      "alt": "A woodpecker in profile as the tip of its bill contacts a tree trunk, aligned head and bill, fine feather details and subtle loose bark.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-agarose-cleavage": {
+      "sha256": "9a6b10c2e85d9e06e3c36e92d0e056ea19ae63ccf02cfa228138a3b49bbaa5be",
+      "alt": "A translucent gel block and small fragments in a glass dish.",
+      "caption": "The gel and fragments symbolize the substrate and its cleavage. The reported chromatography and NMR establish product identity."
+    },
+    "micro-alginate-monomerization": {
+      "sha256": "4e580acad5dfc971785c511a29629726c0d6f9718cd1f93b9388507cabfaaf63",
+      "alt": "Kelp beside an alginate gel sample and conceptual fragments.",
+      "caption": "Kelp represents the alginate substrate context. The reported conversion used purified enzyme and defined substrates."
+    },
+    "micro-archaeal-ammonia-oxidation": {
+      "sha256": "174e83faffba95fa98d693100f3fc7172572b36b5e9256a43a03b267e6dbfd71",
+      "alt": "Small marine archaeal cells among dissolved-solute symbols.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-beta-farnesene-formation": {
+      "sha256": "3e1f2dbf80697e2456c736dbc7deb56306b9bd904ebf094d5e8ecf7aa9a0085c",
+      "alt": "Feathery sprig of sweet wormwood and one tiny amber droplet, a symbolic cue for its terpene synthase.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-curdlan-production": {
+      "sha256": "fc95064b1a5b96019f1d737e57629adbc87e09b82091f643c4d52c2b6595fd43",
+      "alt": "A translucent pale gel disc in a shallow dish.",
+      "caption": "The gel illustrates a curdlan material. Polymer production and recipient membrane localization were distinct observations."
+    },
+    "micro-dextran-production": {
+      "sha256": "610cdeea2d8b4f43c6f11775df11ff1b2895cc3493a39f0abbdbd5782103f270",
+      "alt": "Translucent ribbons in a glass vial near clear sugar-like crystals.",
+      "caption": "The ribbons are a visual metaphor for a soluble polymer. The studies distinguished dextran from acceptor-reaction products."
+    },
+    "micro-erythritol-production": {
+      "sha256": "5dc90918972f6be301fd047879047bbcbde5707b44c9b96a2dab06995235e5c8",
+      "alt": "A small group of clear crystals beside a stylized yeast cell silhouette, evoking a fermentation-derived polyol.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-fermentative-malate-production": {
+      "sha256": "7bed9a307ba76981c17b335a577b52bde57922ee1945d2c711fa6e2f0042f15b",
+      "alt": "Budding yeast in front of a vessel and a clear sample vial.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-fungal-glucose-oxidase-production": {
+      "sha256": "1973e47cac4a0cb89e0ec292dd4041656eeedf3ed165e272397deaabb443c68a",
+      "alt": "Penicillium branch beside an enzyme droplet and sugar motif",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-gellan-production": {
+      "sha256": "1f3f97b9b07ee61fd2a3d007d085f3efef0407236d52ac48a19c126abca63d3f",
+      "alt": "A translucent gel slab in a dark shallow dish.",
+      "caption": "The slab symbolizes gellan as a material. The cited mutation study measured precipitable material and broth viscosity."
+    },
+    "micro-inulin-fructose": {
+      "sha256": "ebf343c251bf6c95f6f0b18422bf4b7f4920d011f92c48f8fa4a7735707aff6c",
+      "alt": "Sliced chicory root beside a dish containing translucent shapes.",
+      "caption": "The root evokes a natural inulin source and the dish is symbolic. The reported comparisons used recipient-produced enzymes in activity assays."
+    },
+    "micro-isobutanol-biosynthesis": {
+      "sha256": "38798822e54bf3872b3982752bf519bd8ce52729912610f2b04de8b9b7ca0992",
+      "alt": "Bacterial cell with abstract branched substrate and product motifs",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-l-lactate-fermentation": {
+      "sha256": "0745c7274c5e68b8306848fd8fbaa6278a7b9680841c5cf1906df474b5c909bb",
+      "alt": "A quiet still life of pale glucose crystals and a separate glass droplet, evoking production of a fermentation acid.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-levan-production": {
+      "sha256": "7647006cebc3ae9a2b73b42ec8097a71ea8e4be08cdc7c04e89998dfa1d6a2bf",
+      "alt": "Pale crystals beside a clear droplet with fine translucent filaments.",
+      "caption": "The crystals and droplet evoke sucrose and soluble fructan. Chromatography and NMR supplied the product evidence."
+    },
+    "micro-magnetosome-biomineralization": {
+      "sha256": "b8a5cb02f22568c2cc40dd87f4ff0a3fed1309d531cdf1f6c35ac042fd845fc7",
+      "alt": "A curved bacterial cell cutaway with one schematic row of small dark mineral inclusions.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-mannitol-production": {
+      "sha256": "d44a0bd2e35c971749abdebdf33605721a3f52501e4424c73e6b4761f245e8a5",
+      "alt": "An understated glass dish with pale sugar-like crystals and a clear separate droplet, an abstract fermentation product still life.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-marine-iron-oxidation": {
+      "sha256": "4b9d9c229bb4b4ccc3065979e562d1d269d0cea84a00726ce298b9b97bf3506d",
+      "alt": "An underwater microscopic seafloor-inspired scene of a few ochre iron oxide ribbons twisting upward from a wet rock in deep teal seawater, with minute dark oval microbial silhouettes near ribbon ends.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-mouse-decarboxylase-itaconate": {
+      "sha256": "a7734935dc966d3c8d89b6425284970958882a31f095d7bba197ae7d86bbfe67",
+      "alt": "Bacterial culture and clear vial beside small-molecule symbols.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-muconate-production": {
+      "sha256": "4eb0e0a32c18502c9f8003761d91a55709b6b1032953a3a88f8e597fc006e9bf",
+      "alt": "A soft cluster of generic bacterial cells beside a clear sample droplet, an editorial concept for aromatic bioconversion.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-nondenitrifier-nitrous-oxide-reduction": {
+      "sha256": "4f8d60f7ddae12ae52d86b706411f6cba503bb057e7f3dbe4fc0aaafeb9d187c",
+      "alt": "Bacterium at a sediment boundary near two abstract gas-molecule symbols.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-pectate-cleavage": {
+      "sha256": "8ac481c408f2be9c4061b2554f84fd19e5434878487edbc6862a3f32d2cc510d",
+      "alt": "A plant tissue cross-section with conceptual separated strands in the wall.",
+      "caption": "The separated strands illustrate pectate cleavage. The reported assay measured unsaturated products from polygalacturonate."
+    },
+    "micro-polyglutamate-production": {
+      "sha256": "c7fc10ae4de3c9c63f1809a5a6b1e135d7eb302aa4fadd9dd8e1ca587654abea",
+      "alt": "A short strand of viscous translucent polymer drawn out from a clear droplet, with a shadowed bacterial motif.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-polylactide-depolymerization": {
+      "sha256": "df087d92eb9f8307ae4bff2fce60222d07b2f5cbc9ad289c4718efd3aad3b010",
+      "alt": "Macro view of a thin translucent biodegradable polymer fragment with a delicate pitted edge in water, alongside a few soft rodlike bacterial silhouettes.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-starch-liquefaction": {
+      "sha256": "ab1714409a15f59d0478bdf7bb8b6f53289de41eb6978a5edc87a29333d2bfc7",
+      "alt": "Pale starch granules in a dish with a translucent edge.",
+      "caption": "The scene symbolizes starch cleavage. The reported assay measured activity of yeast-produced enzyme on soluble starch."
+    },
+    "micro-succinate-fermentation": {
+      "sha256": "06c4f0c577c57f347bc4ce0d76b8af6817a51530e60d502bea45334194d4f93e",
+      "alt": "A quiet close-up of a small droplet and generic microbial forms in dark green, symbolizing microbial organic acid formation.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-transglutaminase-crosslinking": {
+      "sha256": "572d510a5ec803a2c290217d935197e9fee73c8e9fc707f6ec139a68a3535aa9",
+      "alt": "One conceptual close view of two soft, translucent, loosely folded protein ribbons held together at a single understated bridge, floating in deep green solution.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-ureolytic-carbonate": {
+      "sha256": "5aa4183a5165f056f8237343a8986c51f205c0bb97512a8f04883c1abb62c0c9",
+      "alt": "Tiny pale carbonate-like crystals clustered on an inert dark surface, with a subtle generic microbial silhouette in the background.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-vanillin-bioconversion": {
+      "sha256": "725f5c9d828bfc3d7b66f45b15542d17271f2356336c4214f2ab3d74dfbbcdc6",
+      "alt": "A fragrant vanilla pod beside a clear vial with a small golden sample. Symbolic product context for microbial bioconversion of a plant-derived aromatic compound.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-xylan-utilization": {
+      "sha256": "a12569ce3a59d349176f11b39a5e98d7f9074997ede7a5bdf27e572c2d40dc25",
+      "alt": "Plant fiber fragments with a generic bacterial shape in a separate plane.",
+      "caption": "The fibers and fragments are schematic. Recipient growth was tested on soluble xylobiose and xylotriose."
+    },
+    "next-01-psr1-uptake": {
+      "sha256": "3589fa6a5dbe002a4cba511cacb4233385de0cb2411ccf36f0e26a0b45469521",
+      "alt": "Green microalgal cells with amber highlights near their surfaces.",
+      "caption": "Concept for regulated phosphate uptake in algae."
+    },
+    "next-02-vtc-storage": {
+      "sha256": "a22222f1fa40f13f589bb3c5dd755fa895b3becff46d552de6768bc8d11d9144",
+      "alt": "Cutaway of a yeast cell with a central compartment.",
+      "caption": "Concept for storage in a yeast vacuole."
+    },
+    "next-03-community-phosphorus": {
+      "sha256": "75051b51f9bd0ce9ebf89d964e399643579610d3685980444d4a0d6bc12f3880",
+      "alt": "An abstract aqueous cluster of many microbial forms.",
+      "caption": "Activated sludge community concept. Individual species and accumulation are assessed in the evidence record."
+    },
+    "next-04-copper-binding": {
+      "sha256": "326163e4ba14e51fd83fb17e740bf440785a0d9edb4b4be91c91502d0d1fddbc",
+      "alt": "Stylized budding yeast with copper-colored highlights.",
+      "caption": "Concept for intracellular copper binding. Cell-associated binding and water removal are separate measurements."
+    },
+    "next-05-fungal-wall-breakdown": {
+      "sha256": "d9f5f0e5a71f6ccca7c0c9c839b04e31bf2a72db6b0ad61e5bb8a14c0d721d2e",
+      "alt": "Fungal filaments and a fragmented wall texture.",
+      "caption": "Concept for activity on a chitin-rich wall substrate."
+    },
+    "next-06-bacterial-cellulose": {
+      "sha256": "92e6e882d4f45ce0dfc8e8a450c4f371c61c46d3db4980dab197539427db5bf6",
+      "alt": "A layered, pale mat of fine fibers.",
+      "caption": "Concept for extracellular bacterial cellulose."
+    },
+    "next-07-xylose-fermentation": {
+      "sha256": "71e91014a011025a52ba023c42df101a43387fd42a8587f570595a6ff767e811",
+      "alt": "A yeast cell beside abstract sugar shapes and bubbles.",
+      "caption": "Concept for fermentation of soluble xylose."
+    },
+    "next-08-lactose-hydrolysis": {
+      "sha256": "9b1d69ec4b5a84d949a6a43b5ef7d46d97fdd1335a9753e73e6939501027fb5c",
+      "alt": "A milk sample with abstract sugar shapes.",
+      "caption": "Concept for enzyme-mediated lactose hydrolysis."
+    },
+    "next-09-riboflavin-enrichment": {
+      "sha256": "65a8b084d582c86b4a9ac13e7f48f5b3de151c2756bdf09d680f0e781bb7f168",
+      "alt": "Golden liquid with generic microbial shapes in the background.",
+      "caption": "Concept for microbial riboflavin production."
+    },
+    "next-10-sucrose-transport": {
+      "sha256": "ab9a10e817d4c65f1fef8bee131d1312b5869fc2fdccafb07fe7dca649e19525",
+      "alt": "Cross-section of a membrane with stylized sugar shapes.",
+      "caption": "Concept for membrane transport. The evidence record describes substrate specificity and direction."
+    },
+    "pilot-001-gfp": {
+      "sha256": "513129ac40f10ede2bed14bdf6bc41b75c441d84feb4e23096c2fe7d88143f79",
+      "alt": "Stylized translucent jellyfish with green highlights against blue light.",
+      "caption": "A stylized jellyfish introduces GFP. Blue excitation is shown as a cue for green fluorescence."
+    },
+    "pilot-002-fungal_bioluminescence": {
+      "sha256": "0fde39b309f694275091fcac9dc72c25325bcc72c61cf80d4f9d7cd1ac086b7e",
+      "alt": "Tobacco leaves and a flower in darkness with a mushroom silhouette nearby.",
+      "caption": "The mushroom represents the donor pathway and the tobacco represents a reported engineered recipient. Brightness is illustrative."
+    },
+    "pilot-003-betalain": {
+      "sha256": "c8bb7ae5cd0ef78e8abceecd60209075b4a322af16d61e6aed2639267eecbf7a",
+      "alt": "Sliced beetroot with rich magenta rings and red plant tissue.",
+      "caption": "Beetroot illustrates a natural source of betalain pigments. The evidence card covers measured pigments in specific recipients."
+    },
+    "pilot-004-provitamin_a": {
+      "sha256": "11afcf20092c2b139badbd417eb9ae42c454506482e2492413da867afa709235",
+      "alt": "Rice panicle and golden grains with an enlarged grain cutaway.",
+      "caption": "Golden grain is a visual cue for carotenoids in rice endosperm."
+    },
+    "pilot-005-omega3": {
+      "sha256": "5fcca0973070d6111272813777070529e44fc854bd74e71186a2bd27f12befbe",
+      "alt": "Seed pods, brown seeds and an amber oil droplet.",
+      "caption": "Camelina seeds and oil illustrate the plant material whose fatty acid composition was measured."
+    },
+    "pilot-006-phb": {
+      "sha256": "c918581e97baa896c7eee6adab52c03c5c803193ad995d165d72d6001b53d808",
+      "alt": "Conceptual green plant cell cutaway with pale inclusions in a chloroplast.",
+      "caption": "Schematic chloroplast inclusions evoke the reported plastid PHB example in Arabidopsis."
+    },
+    "pilot-007-silk": {
+      "sha256": "5dbc020ad8a6b736573085e2c5a0ac8df98b5dbe3987da11e609026127bcf4c3",
+      "alt": "Silvery strands with a gathered sample of fine fiber against a dark background.",
+      "caption": "The strands illustrate silk as a material. The studies measured protein production and processed fiber properties separately."
+    },
+    "pilot-008-phytase": {
+      "sha256": "e4e0faede3cf3e9173a0bc615b558ebf74cc4213527db35c3c94d1dbe72deea9",
+      "alt": "Small Arabidopsis rosette with fine roots and amber accents below.",
+      "caption": "The amber accents illustrate phosphorus access around roots. The study measured phosphorus in shoots in a sterile substrate."
+    },
+    "pilot-009-trehalose": {
+      "sha256": "bbd24b3f0f0d4f5251e67310c480d9fa444f782c8fa0c5b02d7f4d1581298fdd",
+      "alt": "Young rice plants and water droplets in a contained tray.",
+      "caption": "Rice seedlings introduce the controlled stress studies. The scene carries no outcome measurement."
+    },
+    "pilot-010-pet_hydrolysis": {
+      "sha256": "cd10d4b426085c0b86bf98ee712eb6597d000ab4e8c24d32fa6f7440b5bfeb9a",
+      "alt": "Translucent PET near an assay vessel, with a green culture vial in the background.",
+      "caption": "The gold marks are schematic. A separate green vial represents algal enzyme production. The study tested an extracted enzyme preparation against PET."
+    },
+    "plant-aba-stomatal-closure": {
+      "sha256": "903832e7c3eaeeed16be7ee26197bdcee41c4903af55e3c5055c5ad8874c3ea2",
+      "alt": "Leaf epidermis with two guard cells around a narrow pore.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-acquired-thermotolerance": {
+      "sha256": "de2a4f07faea774b5a1e6179720a8980a95440d962fa5d505426978effbad87a",
+      "alt": "An Arabidopsis rosette beneath a warm amber shimmer.",
+      "caption": "The shimmer illustrates heat exposure. The study measured recovery after different conditioning and challenge histories."
+    },
+    "plant-al-activated-malate-export": {
+      "sha256": "a92108331dab1fec3e051d2ceba235ad3238f46828bed3ebe8e7ee46556e84da",
+      "alt": "Wheat roots in a soil cutaway with a diffuse amber wash.",
+      "caption": "The amber wash is a visual metaphor. The studies assayed malate release and plant tolerance separately."
+    },
+    "plant-atml1-sepal-giant-cells": {
+      "sha256": "f17018a8c88f4d5c8800611a21e147a3dfffdd44331c384cc847cfeeac665b15",
+      "alt": "Arabidopsis bud with enlarged sepal epidermis and cells of varied sizes",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-boron-xylem-loading": {
+      "sha256": "57a32de023f7968271390797cee1c113f4f375b378c47a5b4ff383049f938798",
+      "alt": "A delicate plant root cross-section with a subtle pale tint near a vascular bundle, evoking the mineral transport question.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-cenh3-haploid-genome-elimination": {
+      "sha256": "be0f01f6550e11281b7b8491739e55badc9cdcfff19cd0362a7ebd21c0c1a8f9",
+      "alt": "Arabidopsis flowers beside a cell motif containing several chromosome shapes.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-chilling-calcium-response": {
+      "sha256": "8690b4f6804d0fc4cdd634eff4c180ed2fe70d5c3ab6cd1fb122c25d8750e1f6",
+      "alt": "A rice seedling in cool blue light.",
+      "caption": "Cool light represents nonfreezing chilling. Seedling survival and root calcium flux were measured separately."
+    },
+    "plant-cuticular-wax-alkanes": {
+      "sha256": "e33459528bfbff2a020a1b1e5e715e5631426b82ff32463a07b39960b78e00e5",
+      "alt": "A macro view of a green leaf surface with a soft wax-like sheen and a few tiny crystallites.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-delayed-leaf-senescence": {
+      "sha256": "94525051511b4a074659afb87ef1c45932584390678de3e027948694738e7719",
+      "alt": "A single green leaf with a narrow golden margin against a dark botanical background, evoking the timing of leaf aging.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-della-reduced-stem-extension": {
+      "sha256": "ed931dc8a294ac2e12070387de734db90f9c427be34e9d6ef2e622549a5d42bc",
+      "alt": "Wheat shoots with a close view of stem nodes and internodes",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-electrogenic-nitrate-uptake": {
+      "sha256": "b13fb6774d8d21d7e76e6f3c1fd805e376fef5ddceac47d37c64d154d1534940",
+      "alt": "A minimal plant cell membrane cutaway at the root surface with a few pale particles on either side. No arrows or tracks.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-epf1-stomatal-spacing": {
+      "sha256": "161b12e59e182a7b02b6ba8e9005270c8e063b104876f4018712414d992f571a",
+      "alt": "Leaf epidermis with stomatal pores separated by pavement cells.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-ferrous-iron-uptake": {
+      "sha256": "863c1799fc8386d92ca534d8919da63f3e1a8c9516cf3a8149460d543a3b5a93",
+      "alt": "Fine Arabidopsis roots in a dark soil cutaway with a subtle warm mineral tint in nearby pore water.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-floral-methyl-benzoate-emission": {
+      "sha256": "12daa8b25862477eae7ec23e020398d11a40abdf58e62855b9a0cc57924ddd85",
+      "alt": "Snapdragon flower spike with a scent motif near open blooms",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-florigen-long-distance-movement": {
+      "sha256": "3f9f60ae4774f7c57ea6cef05a9ea333850ee4ea97eda5405a22321a14150d6c",
+      "alt": "Plant cutaway with a highlighted vascular path from leaf to shoot tip.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-forisome-phloem-occlusion": {
+      "sha256": "ee9519c0ece91f3ca523a0fcc5b9f3c6bf9c4abb4603b5b4a42c7da02c7a78c0",
+      "alt": "Broad-bean sieve tubes with compact and expanded forisome forms",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-freezing-acclimation": {
+      "sha256": "2020cc3092d9c7ccde633f2e2e14d8fa6186bcba33d8740e6a53b37e189af98d",
+      "alt": "An Arabidopsis rosette with a light rim of frost.",
+      "caption": "The frost illustrates a freezing challenge. Cold-regulated gene expression and freezing tolerance were separate readouts."
+    },
+    "plant-gcs1-plant-gamete-fusion": {
+      "sha256": "15df29eb83cb2f87008fb12619363756dedc247cb833bf3856e7b90d26063145",
+      "alt": "Arabidopsis ovule cross-section with neighboring gamete outlines",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-grape-xylem-embolism-refilling": {
+      "sha256": "fd387c8cc1397bcc3cc763e6f7360704fadb999fb6bcc30939fb52d77636d8cb",
+      "alt": "Droplets on the wall of an air-filled grapevine xylem conduit",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-hma3-root-vacuolar-cadmium": {
+      "sha256": "d30643422f95a8b3a6bb16d7b42539e270b237123daac0ea329e78fd18311560",
+      "alt": "Rice seedling roots, with a subtle translucent close view of one root cell with a large central vacuole and a few faint amber flecks inside, a symbolic cue for sequestration.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-lax3-lateral-root-emergence": {
+      "sha256": "0736775da0400ff1068b0618e975d2fb39928372fa79c393d840be8b905ff57a",
+      "alt": "Young lateral root passing through outer layers of an Arabidopsis root",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-low-potassium-acquisition": {
+      "sha256": "251b6c8d76685a57bf7caff20d2e5fcd19de4f495400d73e4880b6cfa2e202e4",
+      "alt": "A single young Arabidopsis plant and fine roots in a small dark soil profile, with mineral specks at a distance.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-mycorrhizal-lco-signal-response": {
+      "sha256": "20c4493c2c23c83e8cfc65f8c2aef5d517552780bb4785a5b277880c5a51d517",
+      "alt": "Medicago fine root beside branching fungal hyphae",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-osbri1-lamina-joint-bending": {
+      "sha256": "29f25807a7e64caf69583eab1d7be51408f52fc597f19f5455bf325a54aea95b",
+      "alt": "Botanical side view of the naturally angled blade-sheath junction of a rice leaf, focused on the small pale lamina joint.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-photoprotection-relaxation": {
+      "sha256": "8f7a0b90ee36cc4208dc31d3a921d409d320f9b5530a38c4280f7abf9cf0009d",
+      "alt": "A tobacco leaf crossing from shade into a warm patch of sunlight.",
+      "caption": "The light boundary illustrates the transitions used to study photoprotective quenching and carbon uptake."
+    },
+    "plant-photorespiration-bypass": {
+      "sha256": "3e665b5799870aa56bf88608cf1a550f42b68adc1ce0bfbcfeea116e9d929fe8",
+      "alt": "An enlarged green chloroplast in a stylized leaf cutaway.",
+      "caption": "The cutaway locates the proposed metabolic route within a chloroplast. Biomass was measured separately in the tobacco field trial."
+    },
+    "plant-pif7-shade-elongation": {
+      "sha256": "b9e02994113eee3d344f305e5393305bbf0e7272532de8b545148849bb632f4b",
+      "alt": "Long-stemmed seedling beneath a neighboring leaf canopy.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-pip22-root-water-permeability": {
+      "sha256": "85a129cd81c01f1287fc367167177824e197f1a24a93fa3f5321611c4cd6fe7a",
+      "alt": "An Arabidopsis seedling with a fine white root system in moist dark loam.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-primary-seed-dormancy": {
+      "sha256": "5ef70dc418591b3f71e5da4d5af8f1d0b65b585b1b26fd4f953f1b14cfa29c99",
+      "alt": "A few intact dormant Arabidopsis seeds resting quietly on a dark moist substrate.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-proline-osmotic-adjustment": {
+      "sha256": "bff885959f1d212fabaad51b78f93bb666bac1eefddff54a3086d69a2dfb596e",
+      "alt": "A tobacco plant and fine roots in a cutaway of dry soil.",
+      "caption": "The plant illustrates the water-stress setting. The proline measurements and the debated physiological interpretation are documented below."
+    },
+    "plant-pulvinus-motor-organ-identity": {
+      "sha256": "ea266c28acf08ec6657322ee17ccad58aa9add4e8d7eec7b88de9cdf32129041",
+      "alt": "Medicago truncatula three-leaflet leaf partly folded, close focus on the small swollen pulvinus hinge with natural fine green leaf veins.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-rbohh-root-aerenchyma": {
+      "sha256": "7430ebd5fe9c443e4ede0291a2765e17a4ff45847abc8b5c88f1352e56f356ae",
+      "alt": "Rice root cross-section showing cortical air spaces",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-root-mca1-touch-sensing": {
+      "sha256": "15a1d17278499aa8b05980f408cb67c49efe56479e16084626843f2531d26236",
+      "alt": "Seedling root tip reaches a denser layer of soil.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-rsl4-root-hair-elongation": {
+      "sha256": "036134d667a97f5f478e02548aa6372bf7133b084f66f1f7934f12d2b124e1e9",
+      "alt": "Arabidopsis root tip with magnified root hairs",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-silicic-acid-influx": {
+      "sha256": "c58d2a95597f26245d4ef77865203550c74e9d2999485f8b74a2fede9e1d1186",
+      "alt": "A rice root cutaway in dark soil with a few pale mineral particles in the pore water.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-starch-accumulation": {
+      "sha256": "b80ab5e301295ef2181d15e4c27881ee9397b5803ecfc2e5414a67ed4a8fd325",
+      "alt": "A stylized Arabidopsis leaf-cell cutaway with pale starch granules inside a single chloroplast.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-steep-root-angle": {
+      "sha256": "47b232a0b6df7bc6739f20c8c955990ac96e7e8628b6e8d86d3d13f16caf4efd",
+      "alt": "Stylized rice plant with roots angled downward in a soil cutaway.",
+      "caption": "The stylized roots illustrate growth angle and access to deeper soil layers under the studied drought conditions."
+    },
+    "plant-submergence-quiescence": {
+      "sha256": "91da2ccae6cd0a10dda7cb4e6bf07bf424acd784ae087b894043759ae8d8454c",
+      "alt": "A young rice plant submerged in still water.",
+      "caption": "Submerged rice illustrates the experimental stress. The study measured growth during flooding and recovery after drainage."
+    },
+    "plant-tendril-coil-overwinding": {
+      "sha256": "df7478fc92223882f9d5142d8d4c5d8162ceb4222e7d097a49d7a6403d5d7bf8",
+      "alt": "Anchored cucumber tendril with an enlarged view of its helical coil",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-vnd-xylem-vessel-subtype": {
+      "sha256": "87f543e0fd882a58ba87f228ed8cf2af3b73f19a7b7c2d3426555d6fdd7bee2b",
+      "alt": "Two vessel-like cells with different patterns of wall thickening",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-xylem-sodium-exclusion": {
+      "sha256": "1ca277501e33686fa6099ddad69b6f979279496549050a55ac58074b4227a35d",
+      "alt": "A wheat stem cutaway with vascular channels and pale mineral specks.",
+      "caption": "The wheat cutaway and mineral specks are symbolic. The evidence concerns sodium retrieval from the root xylem and transport toward the shoot."
+    },
+    "tool-aequorin-calcium": {
+      "sha256": "ec2789dd50cfb8cab9832c7902c9dca4b1d0239abfd24cefacd030b3462b4a07",
+      "alt": "A translucent jellyfish and a green leaf with small blue light marks.",
+      "caption": "Jellyfish and tobacco are separate visual motifs. The study measured light from the reconstituted reporter after supplying coelenterazine."
+    },
+    "tool-anaerobic-flavin-reporter": {
+      "sha256": "12b29ecfbd57fbed20580fbee496a3e3078e1cb949f9c45ff057fadd84a2716f",
+      "alt": "A stylized green fluorescent bacterium under blue illumination.",
+      "caption": "The blue beam suggests optical excitation. The direct oxygen comparison used a specific flavin reporter in Rhodobacter capsulatus."
+    },
+    "tool-anthocyanin-fruit": {
+      "sha256": "8f31d22173f9ba6a7cff7cc936b702bd3f33c5ef6f08d60c10b2156b360d94a7",
+      "alt": "A section of deep purple fruit with an understated snapdragon bloom behind it, illustrating donor context and fruit pigment.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-astaxanthin-carotenoid": {
+      "sha256": "503583ef9b16da885dc75615d1e96c166f8188512b8090136d5c4ffd5d04e5e4",
+      "alt": "A clear sample dish with a single vivid reddish-orange pigment patch under restrained side lighting.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-bilirubin-fluorescence": {
+      "sha256": "e3c872944e72b92181bc0e0c5b7d612cffe36a0c4ebf4fbd18a1ebab79c0aa3d",
+      "alt": "Green fluorescence in a stylized cell, with a faint eel outline in the distance.",
+      "caption": "The eel represents the source. Blue light suggests excitation and the stylized green glow represents the reporter signal."
+    },
+    "tool-biliverdin-near-infrared": {
+      "sha256": "00055255fbdcae742fbc733e8b8247a8a9059cd06b840b7068c1478c0262ba60",
+      "alt": "A stylized cell with a small near-infrared reporter motif represented by muted burgundy light, with an abstract excitation glow.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-bioid-proximity-label": {
+      "sha256": "f206f4d2e3367717bd6dab3e005906cef9d6fd0ddb80b643a20957604634401a",
+      "alt": "A stylized nucleus with a thin envelope and a few amber marks nearby.",
+      "caption": "The marks near the nuclear rim are symbolic, including their positions and count. The study used mass spectrometry to identify biotinylated neighbors."
+    },
+    "tool-cassava-root-vitamin-b6": {
+      "sha256": "c610e435cd3aa8bd8729cf408cdfeb28567bd47c6287d57b7f5eaa5af1ba97df",
+      "alt": "Cassava plant with visible storage roots and one sliced root",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-cobalamin-biosynthesis": {
+      "sha256": "b9cc213e9c134467361ffe6b8101b6445c41bba43606f2da71a2b50bfb3459bf",
+      "alt": "A subtle deep-red sample drop in glass beside an abstract bacterial silhouette. Color symbolizes cobalamin as a molecule of interest.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-cytosolic-glucose-dynamics": {
+      "sha256": "3aa565145f729d307f17787f39d08484083b2fa841efd38aacdfc7a9f9c2748f",
+      "alt": "Translucent cell with a fluorescent sensor motif in the cytosol",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-cytosolic-hydrogen-peroxide-hyper": {
+      "sha256": "4aec97b99cd1fc2e075b5136adc0117a9d1031e93795b834f2fecc6951a9505f",
+      "alt": "Translucent cell with a localized fluorescent sensor motif",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-cytosolic-lactate-laconic": {
+      "sha256": "cc5d629d0c5c6cdc24598e6fa005ab4c1630df2e3a4f6b87a84b4579cc261162",
+      "alt": "Cultured cell with a two-color sensor motif in its cytosol",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-cytosolic-nadh-ratio": {
+      "sha256": "bceebd5179fca4682f3ca9dfadedc164bb4946ff8100fc8b4907abc91312d8da",
+      "alt": "Two-tone fluorescence motif within the cytosol of a stylized cell.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-dinitrogen-assimilation": {
+      "sha256": "a59bf2907245609fa66e3650ea029582535163d5613d55287efd79db0c9d2189",
+      "alt": "A stylized bacterial cell in a dark green field with a few paired pale particles far apart in the background.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-ferritin-mri": {
+      "sha256": "a8b190b8df5b073afeee5d8074b68c73fa49d0b64f857af1aeed466646668b31",
+      "alt": "A stylized brain profile with scattered rust-gold particles in the background.",
+      "caption": "The brain profile and iron-like particles are symbolic. The study measured MRI contrast in a mouse research setting."
+    },
+    "tool-genomic-locus-imaging-dcas9": {
+      "sha256": "60ee3c482729b1a8b2367c13f780680c721667b98053072034ea535f43dbdb5a",
+      "alt": "Nucleus with fluorescent spots at selected chromatin positions",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-glutathione-redox-imaging": {
+      "sha256": "8213fc7489c071a51040a8d11947fa24ae6d8c2bd95c36d7e111fa20db30a326",
+      "alt": "Cell cutaway with a localized fluorescent accent and a pair of molecule symbols.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-halotag-covalent-label": {
+      "sha256": "de781e547f688fa1a2188361f6a1fb08132cda9e0e4a464dda9ec5d4e71b2062",
+      "alt": "An amber point on a stylized cell membrane.",
+      "caption": "The amber marker symbolizes the quantum-dot probe used to label a membrane-displayed tag in COS7 cells."
+    },
+    "tool-intracellular-potassium-gepii": {
+      "sha256": "7072ccb567f730688bd70b50d96262556be9b4fd973fad39752cd847ddbd1ef5",
+      "alt": "Conceptual view of a cultured mammalian cell with paired fluorescence on a single reporter shape.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-kernel-methionine-sulfur-assimilation": {
+      "sha256": "b6bb0ec64ebe24ef7b6c67b25388fed2de738358df0db44d2a0bb90d94a0e6cd",
+      "alt": "Maize kernel cross-section with sulfur and storage-protein motifs",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-labile-zinc-ratio": {
+      "sha256": "2f716738a82f4c83fa62906f828c7d4b97ec23c44c495bb2bbea215d91dd1603",
+      "alt": "Two compartments of a cell with paired fluorescence colors",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-light-gated-neuronal-cation-conductance": {
+      "sha256": "1fb678c7658ec602afb09e464dcb235a4680a920484e08860f55253822abbe13",
+      "alt": "Cultured neuron beside a blue light spot and membrane-channel inset",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-light-to-transcription": {
+      "sha256": "f9ee686ab55be9394b5b6df49847cc537aab16fb62f242c19e83213c7bde36bd",
+      "alt": "A circular dish with red light and a dark crescent motif.",
+      "caption": "The light and crescent illustrate a projected pattern and its chemical readout. In the tested circuit, the reporter was active in dark regions."
+    },
+    "tool-membrane-phosphoinositide-redistribution": {
+      "sha256": "a4d240154042cbaa1f0ad2a53fa2fd807871ccea42dbd6d135555e5af5d8bcbc",
+      "alt": "Fluorescent probe motifs near the cell membrane and in the cytosol",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-microbial-folate": {
+      "sha256": "685d7a202318bc57510e56c190f5ad2f88bfb79bdc3a682914c5265a3fff17c3",
+      "alt": "A small still life of a pale sample droplet with a soft-focus cluster of round cells, evoking microbial folate production.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-microtubule-plus-end-tracking-eb3": {
+      "sha256": "c4eccb929de18939602e3165215bae7461ad00b0559800bf951d5e82893b3db3",
+      "alt": "Fluorescent marks at growing microtubule tips inside a cultured cell",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-mixed-linkage-cereal-glucan": {
+      "sha256": "e84c1c104c49084c010bd44bfd4a88c1e6a7b0943399dbe7364c5c90e43bdc8f",
+      "alt": "Cereal tissue cell wall with an inset of glucan strands",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-nascent-protein-translation-sites-suntag": {
+      "sha256": "b0e286325684adba9b820e3ef52ff768163abf3ba52bf8fc87462e8978374847",
+      "alt": "Conceptual microscopy of a single softly curved RNA strand with one ribosome-like bead and a few luminous spots on a short emerging thread.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-photoconvertible-time-mark": {
+      "sha256": "0f179adc641f03754983bc716b521b67b67e6dd06f1c1f4a1e772aafdc46eb72",
+      "alt": "Green reporter marks and a small patch of red marks inside an illustrated cell.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-plant-selenium-speciation-smt": {
+      "sha256": "2e7ca59546699ae090e8c3413f23d458c7d09df0e45eba85493cd3fe7aa5f07e",
+      "alt": "Astragalus sprig with a leaf tissue inset and chemical-form motifs",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-polished-rice-vitamin-b1": {
+      "sha256": "e43b4a63d4c8f5eba781b7d34c616578818c4d2fe3690c0f58bf020b8edbb72a",
+      "alt": "Polished rice grains with a magnified kernel",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-provitamin-d3-sterol-conversion": {
+      "sha256": "cc061cc39539308a0c078ea39b8ec0a729729bc3ea8b94039ed01d8d94f8eeac",
+      "alt": "A single fresh green plant leaf in close view, with a soft symbolic amber glimmer within a few leaf cells to cue a study of precursor sterols in plant tissue.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-rhodopsin-voltage": {
+      "sha256": "7cff40478728ea442bacf0c10813a386288404e0a4c451cd5c769de7183984e1",
+      "alt": "A stylized branching neuron with a subtle red glow near its membrane.",
+      "caption": "The red glow symbolizes an optical readout. The experiment compared fluorescence with electrically evoked spikes in cultured rat neurons."
+    },
+    "tool-rna-fluorogen-aptamer": {
+      "sha256": "25f18f5c6fe0326e7f4dfa723c2c504233b80761e6f41bcb1ca68a5bd4134064",
+      "alt": "A stylized RNA hairpin with a soft green optical glow.",
+      "caption": "The loop and glow are symbolic. Added DFHBI enabled fluorescence of the engineered RNA tag under optical excitation."
+    },
+    "tool-rna-thermometer": {
+      "sha256": "8ef0412e410906ab3d34ff44ee5e47736a735e414467c6b079bd7ec2a9959b72",
+      "alt": "A single abstract RNA hairpin in a dark cellular setting crossed by a warm light gradient, symbolizing a temperature-responsive RNA.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-seed-iron-storage": {
+      "sha256": "9f36dc200ddd42ac5691b23d7ca6723f81e8198f07cd452e103a34fbf58567a3",
+      "alt": "A cross-section of one seed with a faint warm tint in the central endosperm. The tint is a visual metaphor for enrichment.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-shinorine-biosynthesis": {
+      "sha256": "07d60b22e71b11795a121a4673b9c607cc049e066958123ad431e46d40fc9190",
+      "alt": "A subtle blue light falling near a stylized aquatic cyanobacterial cell and a tiny separate clear droplet.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-split-intein-ligation": {
+      "sha256": "58782a7d0abb0a207103cc36459dc9c23869a1701ac504dc048a1f2d901221c8",
+      "alt": "Two abstract soft material forms meeting at a single join in dark water. Symbolic protein ligation, no precise structures.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-split-luciferase-interaction": {
+      "sha256": "27340197fb25888966a3d549aa3966065b15684f98748e8fcb4f41a8b3bb06fd",
+      "alt": "Two protein shapes meet at a small point of light.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-theanine-production": {
+      "sha256": "b44e3bfc9eeabc2604de0c4d756e383a11df683346ab37b518f4f8bfde95cdc8",
+      "alt": "A single tea leaf beside a small clear sample drop against charcoal, linking natural product inspiration with microbial production.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-ultrasound-gas-vesicle": {
+      "sha256": "3c1d739403a40c7b5cf6b951781dc7ab54c2d9cb5117b51ae896ce27eee66bf3",
+      "alt": "A stylized bacterium with several pale internal shells and a faint ripple nearby.",
+      "caption": "The shells and ripple illustrate gas vesicles and acoustic contrast. The study measured contrast in the tested imaging setup."
+    },
+    "bio-archerfish-size-correction": {
+      "sha256": "24624507911755415b1666871dae8bff341c4cf277104b11a25589cc62ceec35",
+      "alt": "Archerfish below the waterline viewing a small overhead target",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-baleen-crossflow": {
+      "sha256": "d55197301e79be5b5a87ead7347cd37c261d0dece4c6a21c7bf337954c419d83",
+      "alt": "Baleen plates with stylized streamlines running along the rack",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-bat-doppler-feedback": {
+      "sha256": "6135dcd62e16553ffe8164b504f24831a081ba77f55378b384c0c4a0476a084d",
+      "alt": "Bat in flight beside curved sound-wave contours and a cave wall.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-beaver-floodplain-storage": {
+      "sha256": "080300606c9ea0f221ea5931acf7ad4a1fc86c055b9253561e5132a8ac17c8e8",
+      "alt": "Beaver dam with water spread across the adjacent floodplain",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-bee-floral-electric-cue": {
+      "sha256": "c09b1870c88880171fa41cad4d7aed123f0bb43ddbd528ca56610d5f0c04aa08",
+      "alt": "Bumblebee approaching a flower with stylized electric-field curves",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-circular-polarization-vision": {
+      "sha256": "6ba66240a7fadb5eb2be1ef157dde9e566149435f96fabe8cd2ee47c53888220",
+      "alt": "Mantis shrimp eye beside a helical light motif",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-cuttlefish-papillae-shape": {
+      "sha256": "fee9672485a1a54b3df9db5fbe58ddfdc7bf28699d01dbbe4a4fb0f1b24303b2",
+      "alt": "Cuttlefish skin showing smooth and raised papillae",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-fruit-fly-antenna-gravity": {
+      "sha256": "2f82e2a1e4181edd5137fe74e10608fa095e0738cc63d224535f0d822278b7fc",
+      "alt": "Fruit fly head with an enlarged antennal joint",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-fruit-fly-carbon-dioxide-reception": {
+      "sha256": "ca4528422d4f115246a2d6b563f5031549cf92e07de47e05142042e0e6927dbc",
+      "alt": "Fruit fly antennae beside a stylized gas plume",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-honeybee-optic-odometer": {
+      "sha256": "1a0b4e92e07384f85c4d4395bd02b3d17f639f083644cbbfe843b71a2718ad53",
+      "alt": "Honeybee in flight between patterned corridor walls",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-hummingbird-sugar-oxidation": {
+      "sha256": "178043461b9a61b2aff0f554dc3302f95f1db37792aa79388fd27bc83f9ab99b",
+      "alt": "Hummingbird hovering with its bill at a nectar-bearing flower.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-hydra-wnt-organizer": {
+      "sha256": "9bc9bce75626b0d5b37f014abac220df3a767da55b30d7c30ff0c72b2eeb3050",
+      "alt": "Hydra with a magnified view of its tentacle-bearing end",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-lateral-line-rheotaxis": {
+      "sha256": "07781306473ce41c897a4ea6606e438bb1e80968324506d93f2b09e467b38260",
+      "alt": "Fish facing into a current with sensory points along its flank.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-limulus-circadian-eye": {
+      "sha256": "2fe15d6b648ae75985babc2f8735011b5cd2b9403ba4caca5135b8ec83e5103e",
+      "alt": "Horseshoe crab and lateral eye against a day and night sky",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-macropod-tendon-recovery": {
+      "sha256": "f3dd8aff58de4b98eb9535ba19a32c5c8bd2c0ffe903db7d17c02e1b9b4472a3",
+      "alt": "Hopping wallaby with an anatomical inset of the hindlimb tendon",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-nematode-oxygen-taxis": {
+      "sha256": "2f845294d49e07d60cc52253afdb7488279efc1273360452fc53360d3a10a362",
+      "alt": "Nematode moving below a stylized oxygen gradient",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-octopus-peripheral-extension": {
+      "sha256": "88f402330a8ce5880306b4ee733f11c646ea1b187f02cffc4906397512b9f365",
+      "alt": "Common octopus extending one sucker-lined arm",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-owl-ruff-acoustics": {
+      "sha256": "35da1672df305dd59e921093f231418faea9dc391e8d986d8d4fc84bf77d2e54",
+      "alt": "Barn owl with a heart-shaped facial ruff and angled sound contours.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-penguin-feather-architecture": {
+      "sha256": "8f31093a9a522402c7162aaa72f03a947bda79db9a8b2ba91cde064e251bc3e5",
+      "alt": "Layered emperor penguin body feathers in cutaway",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-shark-denticle-propulsion": {
+      "sha256": "096a821e74d71f632381d3047ec84c32030f9f5753928f4a81747affd4e33cf9",
+      "alt": "Flexible foil in water beside an inset of overlapping denticles.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "bio-termite-diurnal-ventilation": {
+      "sha256": "d248b64751eff8b9e1163db7646c77741d8099d939dcbb6dc7748ae721ad4f99",
+      "alt": "Termite mound cutaway with tunnels and airflow motifs",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-algal-photohydrogen": {
+      "sha256": "7070b6139ae258a26c95964bb28c4d5a431ab7f80dcba9a200af2c5ca2df8dd3",
+      "alt": "Green Chlamydomonas cells with stylized dissolved gas motifs",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-alpha-ketoglutarate-production": {
+      "sha256": "5f7c7a97965ff37ff237e932e1ae731c6fe749840deb961225acd050fd7d1546",
+      "alt": "Budding Yarrowia cells with extracellular metabolite motifs",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-anammox-ammonium-removal": {
+      "sha256": "41bd864688c8af6bf2aa18ecd5f33db2f8450c9c513f6476d560c9e7bebf7756",
+      "alt": "Microbial granule in water with abstract solute and gas symbols.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-bacterial-alginate-biosynthesis": {
+      "sha256": "021d5d0de0c962d8d1d20dc4a00504b36786821fe317e5c417adbc5554239b4f",
+      "alt": "Bacterial microcolony inside a translucent polymer halo.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-cellulose-oxidative-scission": {
+      "sha256": "e9e7a4405665fc30ee6782001095e8469426f2cc2e7178f8423c2064870e97ac",
+      "alt": "Cellulose fibers beside a folded enzyme motif and small fiber fragments",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-chemolithotrophic-nitrite-oxidation": {
+      "sha256": "a5e9c63bfb236d6493b270be605b0906e654329bb632046859f44c71ff251ef8",
+      "alt": "Curved bacteria near a sediment grain and dissolved-solute symbols.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-chloroflexus-malonyl-reduction": {
+      "sha256": "ff2606fc0c307ec4e33c7c420ff8cec6a54c28b13c071d3f4eabe9413fb7463f",
+      "alt": "Filamentous bacteria beside an abstract enzyme and solute motif.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-cyclodextrin-cyclization": {
+      "sha256": "343a46b6d593bf9e77dab6203cff0c0f8ccd4f12932aa37d221c69a816e1895a",
+      "alt": "Starch granule with open-chain and ring-shaped sugar motifs",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-d-amino-acid-oxidation": {
+      "sha256": "7ad8ff2166644bf24b64810dc233b8540f8d1d5492052347b2143c680f9bd823",
+      "alt": "Folded enzyme motif with a flavin-colored pocket and an amino-acid motif",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-ferulate-ester-cleavage": {
+      "sha256": "ba47197ccc0a4f30f1985650af2b7b92157c684f553c18d1e5b1846d13f4f625",
+      "alt": "Plant fiber with an enzyme motif and a stylized ferulate fragment",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-formate-based-bacterial-growth": {
+      "sha256": "5690d4ed8696c858531f3591c70ca8d11e503dd8269f0e8a354f241b8ad130e5",
+      "alt": "Bacterial cells in a viewing chamber beside a small-molecule motif",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-glycerol-to-dihydroxyacetone": {
+      "sha256": "03ea56caf9ab18b32f315785dc0d15787bdec3ca43b2ccf00ae604d462cbc7e3",
+      "alt": "Gluconobacter cells beside paired small-molecule motifs",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-latex-polyisoprene-cleavage": {
+      "sha256": "f35086b3cd469dec7ec874c56c6db9e9eb7c931ad4719cd917ca6e0479426e9e",
+      "alt": "Latex droplet with stylized long and short polymer strands",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-microbial-anode-current": {
+      "sha256": "81ad5b6feb0ef7b875f5bf9ed799b16c6dabb71930f6a1dac7edfd2a19f494d2",
+      "alt": "Geobacter biofilm along a plain electrode surface",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-native-butanediol-production": {
+      "sha256": "ad2167f8151e1dec27278d3b5e2c217044dd738ce22ab6207715287674815c7e",
+      "alt": "Rod-shaped bacteria near two unmarked sample vials.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-nitrate-ammonification": {
+      "sha256": "312fb44f4acc218e76fbc48f14d69fc8ac831dfe69312c488862e9935b51f598",
+      "alt": "Shewanella cells among sediment and dissolved nitrogen motifs",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-particulate-methane-oxidation": {
+      "sha256": "e4ae62dbcc936dde408119e9de183fb7d6eba0fe4ab769a43bd6820fb94b3469",
+      "alt": "Bacterial cutaway with stacked internal membranes and nearby molecule symbols.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-phospholipid-headgroup-exchange": {
+      "sha256": "34e7f5573f40b85897762fc0bdbb6c7f70ef1b08c5f3acc9b456952b62ef617e",
+      "alt": "Membrane bilayer with contrasting head groups and an enzyme motif",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-phosphonate-bond-cleavage": {
+      "sha256": "fa915713a903e96477d8e19c74530b1470b99d3c952345f68564cd91707b8b71",
+      "alt": "Enzyme pocket beside stylized organic and phosphorus-bearing fragments",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-polymalic-acid-polymer": {
+      "sha256": "ba13770375f528cfdd62f83730f56f349edef25bf1fec00f3156b54a4453c014",
+      "alt": "Aureobasidium cells with stylized extracellular polymer in a droplet",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-polyphosphate-atp-regeneration": {
+      "sha256": "1f5b48f74dce6d359673576a744d93e25dfc8e75a246c0122fd82354f352776a",
+      "alt": "Two enzyme motifs with a phosphate chain and nucleotide motifs in solution",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-pullulan-polymer-production": {
+      "sha256": "e59c8a7947c5c12b992318a6c1abcecee69b7d248de97e1bd3db3d585a6e89fb",
+      "alt": "Fungal cell motifs beside a thin, translucent film.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-pyruvate-extracellular-accumulation": {
+      "sha256": "3974f9e5ea871f06f62fe78e6d483ded715e81cd4bb026c4a2b37866300c66c2",
+      "alt": "Escherichia coli cells with stylized metabolites in surrounding liquid",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-sorbitol-oxidation-sorbose": {
+      "sha256": "1c55b659aa715be0dcbf2ffd362691656f48ca7badc6047a2ad68f35ea96f43a",
+      "alt": "Gluconobacter cells in a droplet beside sugar motifs",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-succinoglycan-biosynthesis": {
+      "sha256": "b44baf73d292f54b25fbd3f9521e61e2dcabeb87ddadf116a20dd8ec2333f789",
+      "alt": "Rhizobial cells surrounded by stylized polysaccharide strands",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-thermovibrio-carbon-dioxide-hydration": {
+      "sha256": "52c6f91af5d4ff3345916e84dc4b7b3fc6f9d927057164bbe789063248926fea",
+      "alt": "Folded enzyme motif with gas and dissolved particles in water",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-thiosulfate-sox-oxidation": {
+      "sha256": "bd0614abb4786947f55e6b7615cdb52579cf512ed57bda9d938c0ae94c52265a",
+      "alt": "Bacterial envelope with enzyme and sulfur motifs",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "micro-xylose-to-xylitol": {
+      "sha256": "190632ac993cdcf305cc1e61a5fc0be94ba153c6bf45e2def2dbf86b76e92582",
+      "alt": "Budding yeast beside an enzyme motif and two sugar forms",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-amt1-ammonium-uptake": {
+      "sha256": "7e41507f94e9fa5a1e5907fea712bd8b68b3894ebb01da7a8cc2e9bdc15a8a52",
+      "alt": "Root hair cutaway with small solute symbols near a membrane protein.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-ethylene-dependent-fruit-ripening": {
+      "sha256": "12c49d33b12cf6ef9e1596d4d9cac788860464e647ebef5be5ff475c060d16ab",
+      "alt": "Tomato truss with green, transitional and red fruit",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-fis-endosperm-initiation": {
+      "sha256": "a29095660ba4b79c48a731cb07452abd93607c7a37b79758ed9323fd3810fd4d",
+      "alt": "Arabidopsis ovule cutaway with early endosperm nuclei",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-flytrap-touch-integration": {
+      "sha256": "68635201002d86b7ec21423928a50df114b6cb7f0641b60c7ec692870328a295",
+      "alt": "Open Venus flytrap with delicate trigger hairs inside the trap.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-gl1-leaf-trichome-differentiation": {
+      "sha256": "188601e07ee2d11b2563596cd0a74dc79af68bc7fee7a7b3c39e076f30c75bf1",
+      "alt": "Arabidopsis leaf surface with magnified branched hairs",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-gnom-embryo-pin-polarity": {
+      "sha256": "286a93c655de14c779ed73c3a8be95373262f3937a5d880042df484f7d188217",
+      "alt": "Early Arabidopsis embryo with one-sided cell boundary markers",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-iaa9-fertilization-independent-fruit-set": {
+      "sha256": "0525e4e090c5a1ca696ed6affd07c23c38bf23f0267490c2300db8c040ed7c6b",
+      "alt": "Tomato flower beside a cross-section of a developing ovary",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-lazy1-shoot-gravitropic-posture": {
+      "sha256": "ae9d22d22bdb3302a5bb2114f12a6c52d4f7cbdb3376aa46d1277e4f99ea19de",
+      "alt": "Rice tillers at different angles above a visible root crown",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-mgt6-low-magnesium-uptake": {
+      "sha256": "7bddc750286c72a81f0e73b504cbb6528854923378a8bb80e2dd3a97d2a90488",
+      "alt": "Arabidopsis fine root with stylized mineral ions nearby",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-pcpb-pollen-hydration": {
+      "sha256": "a9ec545edd807abbd37865170c9754e86d04bc7012caa2b2436202210fbdd670",
+      "alt": "Pollen grain contacting an Arabidopsis stigma papilla",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-pollen-self-recognition": {
+      "sha256": "06381fd7c2a14efc25a686af71664ed5c4271c0b2d4446c49688e4868d20bd3c",
+      "alt": "Pollen grains resting on the textured surface of a flower stigma.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-root-hydrotropic-curvature": {
+      "sha256": "59891abdcd3db538f8000242516adeaa877e1c2fc69f091030190684d2a3eda4",
+      "alt": "Seedling root curving across a dry-to-moist soil gradient.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-tillandsia-trichome-water-uptake": {
+      "sha256": "7934678c416167ae391fde4893878b9c82aa6546b65ac7c5684df89db17a9b04",
+      "alt": "Tillandsia leaf with a droplet and magnified scale-like hairs",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-vernalization-memory": {
+      "sha256": "0330d0ca9a462f48fe18d18dc25662d7c8b062a28805a133b9fec0eecccfab69",
+      "alt": "Arabidopsis rosette shown in frosty and milder settings.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "plant-wox-adventitious-root-initiation": {
+      "sha256": "ade2124b81ff5f469aef55adf84687b13c50f30225424b74dadf72d2604548cc",
+      "alt": "Arabidopsis leaf base with an adventitious root primordium",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-auxin-triggered-protein-depletion": {
+      "sha256": "e76236e0eff95ecda262f7062887be1db6327918aac7146f0df72e7297fbebd2",
+      "alt": "Tagged protein motif beside a barrel-shaped complex inside a yeast cell.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-caspase-activity-cleavage-reporter": {
+      "sha256": "14a3e7a2643c81ac02ee80d1d442485e744822250bea02e1a982ca436d53eb73",
+      "alt": "Cultured cell with a paired fluorescent reporter and separated linker motif",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-cellular-nitric-oxide-genops": {
+      "sha256": "87a109f1baba28dcbe25308fca8775d978b1b02f63f360fcf8d0315c8fbef220",
+      "alt": "Cell interior with a fluorescent sensor and signaling-gas motif",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-dopamine-transient-reporting": {
+      "sha256": "68de50e88066c43f36f498d0b2ec99cfb1ebd5f2a1487b246c9643e303288541",
+      "alt": "Tissue cutaway with a small fluorescent reporter highlight.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-extracellular-glutamate-reporting": {
+      "sha256": "3b03c785b33562f007aa691bcd67f3cbc58683b927adcf6e9602b482ea479e00",
+      "alt": "Two neuron endings with fluorescent accents at the edge of one membrane.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-grain-lysine-rich-storage-protein": {
+      "sha256": "2aae90692199381b66dc6870c18054365cd8a33b85bf9b56ac9f39e86c9f9f33",
+      "alt": "Winged bean pod and seed beside a grain cross-section",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-intracellular-chloride-ratio": {
+      "sha256": "113dd5bc363b97cf3779d44da8812cfba63a6291dc73b9730451344b9376d926",
+      "alt": "Cell cross-section with cyan and yellow reporter motifs",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-intracellular-macromolecular-crowding": {
+      "sha256": "153a899cf700b7bf42a6dfcde88cbddefa4a28add94a0d27f88ecc2e974e7b25",
+      "alt": "Compact fluorescent sensor amid crowded cytosolic macromolecule shapes",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-light-induced-protein-recruitment": {
+      "sha256": "dd217e0d0bbb3abf26c841199ed4475dac964699a3fe4dc8c1274f689bf38cea",
+      "alt": "Small protein motifs cluster near a patch of blue light inside a yeast cell.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-plant-mgatp-sensing": {
+      "sha256": "c2a221ab5bf882929540a4dc6e0045dec7871f9fa24d1ba9fe6522bd2f44801f",
+      "alt": "Seedling with false-color accents in small root and shoot regions.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-seed-free-tryptophan": {
+      "sha256": "bd9ee5dbab6b370fc99d2af4bc1626e0ccee38f53a05ae70b24efaf367325053",
+      "alt": "Rice grains and a cut kernel with a soluble-contents inset",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-steviol-glycoside-selectivity": {
+      "sha256": "a938a0b422672fa99f59a0348151418e5c0cf181eaed06a46267cb58e3c7d072",
+      "alt": "Stevia leaf and budding yeast with a metabolite motif",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-tomato-fruit-gaba-content": {
+      "sha256": "b0333c6df883beafb91a337e08c88e5cb95e80a190b363324c9c2551ba38e253",
+      "alt": "Sliced ripe tomato with a soluble-metabolite inset",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    },
+    "tool-vesicle-fusion-ph-reporting": {
+      "sha256": "d280c35c382d8cb3b4f964ff1287b0429db6860026724f05b8eebb464042552f",
+      "alt": "Round vesicle at a nerve-terminal membrane with a small fluorescent accent.",
+      "caption": "Concept illustration. Open the evidence record for the reported assay and its limits."
+    }
+  },
+  "themes": {
+    "theme-material": {
+      "sha256": "55069d351db8772702bb83296bfeb44b01f7314b907e81e0d34516a3ffd965d7",
+      "alt": "Fine fibers and translucent layered mineral shapes.",
+      "caption": "Shared illustration for materials and biophysics research."
+    },
+    "theme-microbe": {
+      "sha256": "a12b5d8022ff1621f4b56d4f8912359be6e62174d45f1a2ebb04f80cf0d5dc15",
+      "alt": "Abstract field of varied microbial shapes.",
+      "caption": "Shared illustration for microbial research."
+    },
+    "theme-plant": {
+      "sha256": "0e7c99e5e1e66cbac39f8cfb533f58efbabdadb7b77e98b5e4ef9b6653820a32",
+      "alt": "Botanical still life with leaves, roots and seeds.",
+      "caption": "Shared illustration for plant research."
+    },
+    "theme-tools": {
+      "sha256": "59d58c7e5d5ce28b9be88f60aea9b2453fd0b42bd225ec05cb5e72232d3de9a2",
+      "alt": "A glass lens with soft bands of light.",
+      "caption": "Shared illustration for research tools and biological readouts."
+    }
+  },
+  "theme_prefixes": {
+    "plant-": "theme-plant",
+    "micro-": "theme-microbe",
+    "tool-": "theme-tools",
+    "bio-": "theme-material"
+  }
+}

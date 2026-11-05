@@ -1,12 +1,12 @@
 {
   "schema_version": "traitweaver.final_repository_handoff.v1",
-  "status": "claude_handoff_screened_pending_owner_confirmation",
-  "prepared_date": "2026-11-04",
-  "refresh": "Local trait-library research homes and guided phosphorus walkthrough; upstream cloud study preserved.",
+  "status": "pr_2_conflicts_and_source_exports_repaired",
+  "prepared_date": "2026-11-05",
+  "refresh": "Combine the isolated 300-trait showcase with current main research homes and guided phosphorus walkthrough.",
   "publication_approved": false,
   "claude_review_performed": false,
-  "review_status": "Owner requested GitHub handoff; exact final file scope awaits the required pre-commit review. No new model or laboratory execution.",
-  "scope": "Public/synthetic research-workspace code plus documentation. Documentary real Meta contribution is described; real packets, media and new provider execution are excluded.",
+  "review_status": "Repository conflict repair requested by the owner. Original scientific, privacy and rights-review qualifications remain unchanged.",
+  "scope": "Existing public files from both PR #2 and main; no new source admission, provider execution or scientific approval.",
   "files": [
     {
       "path": ".gitignore",
@@ -25,8 +25,8 @@
     },
     {
       "path": "PUBLIC_FILES.txt",
-      "sha256": "b9c535e64b9aa672dfb2062ac1bce8696ab0a3e29c36de0fe2c77ad197c81406",
-      "bytes": 10332
+      "sha256": "5d4e0dbbb16c1402cc6b47afc2f25f5bd213922fc22ba599d1e6af73af9f4166",
+      "bytes": 84197
     },
     {
       "path": "README.md",
@@ -35,8 +35,8 @@
     },
     {
       "path": "SOURCE_PROVENANCE.json",
-      "sha256": "cfaa871ece32091da538ecb670896714290d6a6b69e7b6b782d8ec0c946873eb",
-      "bytes": 275332
+      "sha256": "7c9e70988d4040c760eb43e6f2440ddbc1c4b727e8cda5e3ace9725eb1d64474",
+      "bytes": 277667
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -397,6 +397,2966 @@
       "path": "examples/candidate-record.synthetic.json",
       "sha256": "9574a0e706f5dcc2d92f72ad90b6dbff29174037438266d032b4eb0f155cb60a",
       "bytes": 877
+    },
+    {
+      "path": "research/traitweaver-300-showcase/LIBRARY.html",
+      "sha256": "abbe2620148347cf20819b19eaad6282ba68a8382a780b95735eccb6bc5998df",
+      "bytes": 1429036
+    },
+    {
+      "path": "research/traitweaver-300-showcase/README.md",
+      "sha256": "f437a72d5cce8447ec79cf36c047faf654882b2fceeb78751767d690c36c9be8",
+      "bytes": 1440
+    },
+    {
+      "path": "research/traitweaver-300-showcase/library.json",
+      "sha256": "39a85542d7381cd90e1c838d2842aafb4b1f0b683916b4d27f203daa754fa3c7",
+      "bytes": 1743255
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/index.html",
+      "sha256": "a36a752a58626025dc30bf52befc8738efc56c875b8837ff70deb9fc869c23b6",
+      "bytes": 11328
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B001/index.html",
+      "sha256": "3a6fbb109f30f9215b51228b9149ed286475538156a8dd948c6d257f0b65d687",
+      "bytes": 8624
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B001/pilot-001-gfp.html",
+      "sha256": "77ed0cf3ab92955445a90b18c9cd10785a06ac8fdbc15e61fa0475c1d8fbbc59",
+      "bytes": 5130
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B001/pilot-002-fungal_bioluminescence.html",
+      "sha256": "3dcbe03929f29c386a6a2d43b8a9d6403163fc45435ff9e495231cfa8d1915d2",
+      "bytes": 4758
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B001/pilot-003-betalain.html",
+      "sha256": "f3f6658219f90a45d201799612a2f9ae899f3a52c30fa91906b933d6a5f662e7",
+      "bytes": 6357
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B001/pilot-004-provitamin_a.html",
+      "sha256": "a67f1533d75904eaa816901c0361e471af1fb1a072e92a5077c2065cd8884213",
+      "bytes": 4251
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B001/pilot-005-omega3.html",
+      "sha256": "f296aee72b18aa4f3b4c67039cd940c96be38e04bc938ef10f03cc163a936ae3",
+      "bytes": 3956
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B001/pilot-006-phb.html",
+      "sha256": "bb5d91ab52d578a95dd94d28690aba8a636cbcb9e8991f95c2f348bbfdf06695",
+      "bytes": 4682
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B001/pilot-007-silk.html",
+      "sha256": "cdb3928a159748162b3a69907dc4ed0ebf30129820abac7ade731d846264a6ac",
+      "bytes": 4897
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B001/pilot-008-phytase.html",
+      "sha256": "5f9478a02404e8efee7edbb5d41bd7f39215919220443620a92efe0f6d4eb7a3",
+      "bytes": 4400
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B001/pilot-009-trehalose.html",
+      "sha256": "c5ce2435a56d187b03cf115d29c29bd79ae1a6fc2a18d230d74b8d6102a38c13",
+      "bytes": 5294
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B001/pilot-010-pet_hydrolysis.html",
+      "sha256": "69729005857b3768d610e2cf2cf31930274d5f3f1bb4383404ab41966ab199f8",
+      "bytes": 4442
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B002/index.html",
+      "sha256": "0ff4bd3f818d8f020ebdc61d3aa35f7bfb34f55d8710eeffb519212839e0c9c0",
+      "bytes": 7941
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B002/next-01-psr1-uptake.html",
+      "sha256": "eaef41d9df3ef706c28e5dc931f0f692d36100522ea0c9ea1686fea2c52e4d8f",
+      "bytes": 3217
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B002/next-02-vtc-storage.html",
+      "sha256": "4379023b8780be959e442dcc229703f75307633b690ba6c855705d6ef44f8fbd",
+      "bytes": 3020
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B002/next-03-community-phosphorus.html",
+      "sha256": "465cde564b64c7e396c19f240c0dc0c672fa5f5912f450ff8417f23846cbe2fc",
+      "bytes": 4031
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B002/next-04-copper-binding.html",
+      "sha256": "9c80dc32e14f16a5e9d66997db23170e130c673ed5f17153d750fb77ed2c1d89",
+      "bytes": 3926
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B002/next-05-fungal-wall-breakdown.html",
+      "sha256": "ce65a42c5cce749d7ad3ef8725a92812797916202e0ad24e18e2d1e2228c9003",
+      "bytes": 3710
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B002/next-06-bacterial-cellulose.html",
+      "sha256": "a00acce90ae37462b98aaf1c4849951e843cb7f81895f6d17607a0b0075e3f97",
+      "bytes": 3655
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B002/next-07-xylose-fermentation.html",
+      "sha256": "e6981ea4ab4c5ffb518c8cd2496cb2fd59e46f0bd2778200ca6917b02fc8e689",
+      "bytes": 4031
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B002/next-08-lactose-hydrolysis.html",
+      "sha256": "c32ba131388b783952cd666d32759e1290f163ee1669dc6da7a0145f3a877049",
+      "bytes": 3500
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B002/next-09-riboflavin-enrichment.html",
+      "sha256": "bf1a16006d8aafb00add593aad4008fb82b556348e05c21e92d989891159567a",
+      "bytes": 3110
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B002/next-10-sucrose-transport.html",
+      "sha256": "bde200684bd9e61cbe716f4da4a2a3a49e7c4c4e9d92149da92cfd5eb4ab28c3",
+      "bytes": 3033
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B003/bio-dry-adhesion.html",
+      "sha256": "6e13211d1b23447481cc4cff64e16771979ff4dba55429ae4b3d03dcbcf84bd9",
+      "bytes": 2666
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B003/bio-wet-dopa-adhesion.html",
+      "sha256": "d71a58fd40385e95220b01a78f33796a9dcf8a88d27577a91b14002e0b12ff7f",
+      "bytes": 2810
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B003/index.html",
+      "sha256": "6cc04261623d8fffd64cd62c0ed099cb0d9f3505eddcdcf5f01cde90479236ce",
+      "bytes": 7729
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B003/micro-agarose-cleavage.html",
+      "sha256": "5b6bfc60d5e23f78ffd2446e316ee3034823fde6b022043d4b059906b3837a71",
+      "bytes": 3635
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B003/micro-alginate-monomerization.html",
+      "sha256": "eaac3b83bf41c299f547ae505225efb2e4eb6a9fa37afb428f91698dd1a057ba",
+      "bytes": 3077
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B003/micro-pectate-cleavage.html",
+      "sha256": "d04c318f14fe74cab7cfa68782dcef6c606ae8320194555f253dedddc067852e",
+      "bytes": 2923
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B003/plant-steep-root-angle.html",
+      "sha256": "9a0e00e0aff5cd2c17b71694a5c7d5b6bebf72a15bbe89fd7eb304377a7e573e",
+      "bytes": 3086
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B003/plant-submergence-quiescence.html",
+      "sha256": "a4fbe25811d04c486e8c56c78884e8cedda6092c8d013b0d7672e64a8066d8ff",
+      "bytes": 3094
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B003/plant-xylem-sodium-exclusion.html",
+      "sha256": "2bf42d6a5f45855a6ae588bafd74aa2a0e344aad2360e1f0160355e27290ce71",
+      "bytes": 3127
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B003/tool-aequorin-calcium.html",
+      "sha256": "9d0c898a8d5661cffe2361395bb22c42d895bf1e64d9bd23c044c146afbeac96",
+      "bytes": 2890
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B003/tool-bilirubin-fluorescence.html",
+      "sha256": "00cfb053b935d81687bae00a7a17b3e183f5c0e11f163dd76d4e68dd2b847407",
+      "bytes": 2840
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B004/bio-calcification-proton.html",
+      "sha256": "7afb5f50e4e97f7887f5cdab8bf6aece15ab9e809439d902c3b02acda8df1c7f",
+      "bytes": 4162
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B004/bio-diatom-silica.html",
+      "sha256": "950ffcdb7ab6fc6671d2757388638724dc00e89a1a3f7b621bec87f083695971",
+      "bytes": 2727
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B004/bio-nacre-toughening.html",
+      "sha256": "0ea56a9d767b954d3df2bb0692aa5e0c55ec835be387d8401a837906af7edcdc",
+      "bytes": 2946
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B004/index.html",
+      "sha256": "a1c22d98a9770a62c11510ecef31a20583bf26f0317ce9de271a92209cf5cfee",
+      "bytes": 7778
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B004/micro-starch-liquefaction.html",
+      "sha256": "4a2d50761cd51e6d9d4a5289f05031c4388a4e91074b7a1ac7d45cb4e6e283d1",
+      "bytes": 3033
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B004/micro-xylan-utilization.html",
+      "sha256": "3522059fe85a28310e4b3e85bb44a054cedeabcd4ec7635c77e7b4cd0b2fcba0",
+      "bytes": 3737
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B004/plant-al-activated-malate-export.html",
+      "sha256": "c1cad0106d7e17f4f9e7d1681a23ac3e39b2d5d339601d33c91ac449f5f2c0bb",
+      "bytes": 3685
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B004/plant-chilling-calcium-response.html",
+      "sha256": "eafb0a66a9cfe8c7ea031af0e68ea109e822f9aea2ce31ae2f708abfaa125885",
+      "bytes": 2930
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B004/tool-bioid-proximity-label.html",
+      "sha256": "3fe84378af648f93e9d4e8618d2935203bc911db1b6920b1248caa5d8688ba79",
+      "bytes": 3049
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B004/tool-halotag-covalent-label.html",
+      "sha256": "1fe08e285efe9df6b9b9541720837b6719633813efdb1e54fc6a734b3b3a612a",
+      "bytes": 3412
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B004/tool-rna-fluorogen-aptamer.html",
+      "sha256": "c7735bb356f493eb9ca7bff3435b78bbc46b779ca3f56a2e4eae851046a270fc",
+      "bytes": 2977
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B005/bio-magnetic-orientation.html",
+      "sha256": "b83fe3881d4f5a33b059efc4d4b509e347991dcaed571655bb6f0d4920eadc2a",
+      "bytes": 2856
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B005/bio-resilin.html",
+      "sha256": "e0c35bd81ced227d6da3127181514a54dad7c5092de9792298f6f8ac8e400b55",
+      "bytes": 2895
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B005/index.html",
+      "sha256": "d51b6f713523d0b8adf8469d390f0abe01a704726f7e89377bf21efd14280576",
+      "bytes": 7784
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B005/micro-curdlan-production.html",
+      "sha256": "c837ed8b656d4f6be4f860912fc63978adc12a1e866f473a9a55f8dc87f105e4",
+      "bytes": 2927
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B005/micro-dextran-production.html",
+      "sha256": "6b00893240f1126655872d2ba915a17b2ffecc7251c108d143fc8303968f1ce0",
+      "bytes": 2995
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B005/micro-inulin-fructose.html",
+      "sha256": "bb15b1fd1f23ccb539bf2dadfc00c2249a2a68987e17c485bef4fd6cc3a41d75",
+      "bytes": 3082
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B005/plant-acquired-thermotolerance.html",
+      "sha256": "b360e750d350fbb9df798022c26604cc0b6855f3e8ae0fa5649c5f2b433d9e2c",
+      "bytes": 3003
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B005/plant-freezing-acclimation.html",
+      "sha256": "35743f6ffa2b1e0168652599745b4a256f3da2e607df3a5224f58ffa01b2495e",
+      "bytes": 2974
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B005/plant-proline-osmotic-adjustment.html",
+      "sha256": "c6209e9f2bfc2c35caf39f0f3044ea283b506c39b38d68f15def900d6f205085",
+      "bytes": 3160
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B005/tool-light-to-transcription.html",
+      "sha256": "4935751ecb483a6566c55f84ad82f0660f9f83abccb3154b1197f5527584d503",
+      "bytes": 2891
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B005/tool-ultrasound-gas-vesicle.html",
+      "sha256": "b199e4ef96552cc56668e32e30f97721f60006f22dd2660390539b28aed8001b",
+      "bytes": 2999
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B006/bio-chromatophore-dynamics.html",
+      "sha256": "2f22035ebbebd0ff26dd74f9d7b064f12d2cb2619cf689bb36d9c9a2f2f6b25d",
+      "bytes": 2848
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B006/bio-far-red-photochemistry.html",
+      "sha256": "b1a86d5e9135b71962305e83a902ca9d3cb22e476cdace4a877bcbe9e4a4f285",
+      "bytes": 2763
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B006/bio-reflectin-iridescence.html",
+      "sha256": "0e5513844895bda0b1f4d0765fd4a426316078ee4e0fd2b746d2ee8d9920e9f0",
+      "bytes": 2754
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B006/index.html",
+      "sha256": "bdb8dbd4b590325e65867108de3c0ecd534c022ca76411f8cdcff1016a276598",
+      "bytes": 7835
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B006/micro-gellan-production.html",
+      "sha256": "cb7a04b33f051bc7b001eefa5d33c848c81f4bc260e0d9755ec2331c2700f3e9",
+      "bytes": 2924
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B006/micro-levan-production.html",
+      "sha256": "51c43927172493f14f1d90c984f1617ffb7ab6dfdb7d887da7086f4ce73e0c90",
+      "bytes": 3032
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B006/plant-photoprotection-relaxation.html",
+      "sha256": "c1e06e70c73c13c355ec19a94bd08b3c534272d2e2d1b8c67e5bc3e277c975bd",
+      "bytes": 3204
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B006/plant-photorespiration-bypass.html",
+      "sha256": "3d526d4182f2b02f766096f3732833440c70cab71da8080ebaf353e88a1d4306",
+      "bytes": 3129
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B006/tool-anaerobic-flavin-reporter.html",
+      "sha256": "dc47bb594037e281052bd96e34aa4061904bfb6d0348ee52e979c5f1f8d548e8",
+      "bytes": 2938
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B006/tool-ferritin-mri.html",
+      "sha256": "32b5f10c81aaa505c667cf0e9010e7b2887ce713d0674b5c88ddbcf04f4fea4b",
+      "bytes": 2976
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B006/tool-rhodopsin-voltage.html",
+      "sha256": "5ff8619067d6a63d5b83b61fd72b16dfea01da70735da52df7f6e11ad86379fd",
+      "bytes": 3021
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B007/bio-dmsp.html",
+      "sha256": "f5965fd93c1c027fc682da068e9ff0c867cd58a5791c0f12c343421a08f2b931",
+      "bytes": 2847
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B007/bio-ice-binding.html",
+      "sha256": "ed393f7d575777e5752e1ba91d138c7e1d8e0a89f5ae9073802920a6ff196447",
+      "bytes": 2859
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B007/index.html",
+      "sha256": "2ff78c3fa7fcd63e7aebf801198fa2213ddae1c74728bdfe22272b4ca1376d64",
+      "bytes": 8293
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B007/micro-l-lactate-fermentation.html",
+      "sha256": "cec7d1d6a9960d80fbb59aa9563f3b4162cd9eb190c4952f1099d69384365de1",
+      "bytes": 3053
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B007/micro-magnetosome-biomineralization.html",
+      "sha256": "9b3704790300ce53bd91719d4c10e5eb504d1da5d6a8b7407773e1cf77dae164",
+      "bytes": 3618
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B007/micro-vanillin-bioconversion.html",
+      "sha256": "83d62aa21b0984ce31af2147171219050ae45149d38347aeeee89dbf883f9f05",
+      "bytes": 3056
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B007/plant-boron-xylem-loading.html",
+      "sha256": "25d8dccdcac903494d422f40d038178a9bc0009fe6b75fa244860897b3f16d06",
+      "bytes": 3549
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B007/plant-ferrous-iron-uptake.html",
+      "sha256": "42524f5506574132cb5d275f295cb6e44d141f8a7a9d4f97ae30dd4df6dba11f",
+      "bytes": 3594
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B007/plant-starch-accumulation.html",
+      "sha256": "83b7c5f625ab558d12033ea37240523f99853b5ea285a8a9c5a4bf30b09aeb2a",
+      "bytes": 3065
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B007/tool-anthocyanin-fruit.html",
+      "sha256": "f1cf9f2aec926b8c3a89c6a8dd668309034b3907fe5a1600de820d12c1b6e891",
+      "bytes": 3004
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B007/tool-astaxanthin-carotenoid.html",
+      "sha256": "d7ceaf37d71ba5953ef1db71b991918c85744aacbad53705e0461d4df71dcb5b",
+      "bytes": 3235
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B008/bio-cahs-dry.html",
+      "sha256": "119be32ce7a41a239e69e560448c73e0c4eed526b8e185fb3b634f2d434bb33d",
+      "bytes": 3597
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B008/bio-high-mass-ha.html",
+      "sha256": "78b3da2b10bc4dcf0ba3ea43f01eb17f866cfa30502cc774b086e87879436a9e",
+      "bytes": 2773
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B008/bio-sponge-spicule.html",
+      "sha256": "811722b338c8ea09de23da9c1e06fe540a5228634701fdcfd75a1e88b7393801",
+      "bytes": 2788
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B008/index.html",
+      "sha256": "ebea1b4491ebcb7818c100aeeeb9cf284cfa852495badc1e3cbdbe705c041878",
+      "bytes": 8227
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B008/micro-muconate-production.html",
+      "sha256": "1e53fc50a7f7c567aedf7268330962725a9b462b88653ea72d56869de19d99cd",
+      "bytes": 3093
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B008/micro-ureolytic-carbonate.html",
+      "sha256": "c39a5d372a973910a766fcfe37f5ed37bd93efc22faf00c9d449d52d64f371a3",
+      "bytes": 3098
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B008/plant-low-potassium-acquisition.html",
+      "sha256": "71ad7594e72489c49d21aa96ad9ace5b6b8b4b0bba6583039fb4062852835185",
+      "bytes": 3016
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B008/plant-silicic-acid-influx.html",
+      "sha256": "ab165bc4b58a7c8bdaec643da590621b4ab2eaeef23aad2696de93955b161393",
+      "bytes": 3461
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B008/tool-cobalamin-biosynthesis.html",
+      "sha256": "242707c6c720ba9cad857168bccc26d77168378b51a2ccb0c0baec52c0dc5a1d",
+      "bytes": 3201
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B008/tool-microbial-folate.html",
+      "sha256": "404d0fc75c49952053a7bc26c20e325bb1c513a31a60a4e08120323a8bb5f123",
+      "bytes": 2929
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B008/tool-seed-iron-storage.html",
+      "sha256": "6ee765dd24ae52a012f4d4db75321a55ad4f9499a6b01d6c134e7defbf98e91c",
+      "bytes": 2978
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B009/bio-dactyl-impact.html",
+      "sha256": "199b0c61184014c1d291fb2d0edceb13e2362bd5d05e732bd1226e754374dfee",
+      "bytes": 2887
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B009/bio-mutable-dermis.html",
+      "sha256": "c13ca9c2f0fd3c722cb0fc51581e2a204c401414217b370e52e029b710f30c3f",
+      "bytes": 2854
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B009/index.html",
+      "sha256": "0e617bfd75c8dcbfce2be92fed82e627a1c34d33789869a68d098d61dc783e19",
+      "bytes": 8316
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B009/micro-erythritol-production.html",
+      "sha256": "bb914cdef64e446e7110d3c9e936462d1055fbac32c257628230bb664e1ec919",
+      "bytes": 3601
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B009/micro-mannitol-production.html",
+      "sha256": "a9bf5761f8dece0f6de6309c3d280b2170f40d3d3f5b9983ceb7ce9305270633",
+      "bytes": 3164
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B009/micro-polyglutamate-production.html",
+      "sha256": "305b190684596f3d24e06505ebb2f0d9fb74c5bd53c02bbdcb244026b93b5243",
+      "bytes": 3726
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B009/plant-cuticular-wax-alkanes.html",
+      "sha256": "72479fba165780d939c13bd7d9a2ac3df1719f7eff3b22f4a49be3941c65c457",
+      "bytes": 3193
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B009/plant-electrogenic-nitrate-uptake.html",
+      "sha256": "b9fa516db55237e361b15705d647639bb4b6c301cbf01970eddc495407cd5d4c",
+      "bytes": 3619
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B009/plant-primary-seed-dormancy.html",
+      "sha256": "05bd9ff6047ca5c9c139f4a06c65c67a227fe2f476f73b197955fd7d7a2ebdf5",
+      "bytes": 2951
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B009/tool-shinorine-biosynthesis.html",
+      "sha256": "cd054270cdbcd65679ba86521db591aac47cd7fd128f69b00162d60452f144df",
+      "bytes": 2970
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B009/tool-theanine-production.html",
+      "sha256": "9866e73553a65c7712f79efd9ecf9912272fae9cab6faea593c19ddda1506038",
+      "bytes": 3115
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B010/bio-chiton-tooth.html",
+      "sha256": "c4529475d98e70442bb6b608dfb43d659dec233dba5f37518486e291e619464a",
+      "bytes": 2845
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B010/bio-corneal-antireflection.html",
+      "sha256": "1b09133d2de8273db3a36a59d984e059203a7957fde588868efeda7eb5c9cf66",
+      "bytes": 2900
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B010/bio-lotus-cleaning.html",
+      "sha256": "9f893a8040b30c23ce0ed6e20debb7cc5d000a23d8afce3242444913b5d26774",
+      "bytes": 2868
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B010/bio-passive-electrosense.html",
+      "sha256": "1904d87714e395aaca4bf75d30868834378b905f8f7443321666043fd5c25bf3",
+      "bytes": 2870
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B010/index.html",
+      "sha256": "a5f95ffbfc9aa4d48db629b8df7b81bc6077dd86cd0f801d4d311691f5621882",
+      "bytes": 8405
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B010/micro-succinate-fermentation.html",
+      "sha256": "41fddc315ae9dc0e8533bb6644138930db9c9d17cd9ed7c35335529461d127f2",
+      "bytes": 3769
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B010/plant-delayed-leaf-senescence.html",
+      "sha256": "68196047e398b0c72affafaeedb72be2218c271a07290278b52e2546bd46a64a",
+      "bytes": 3349
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B010/tool-biliverdin-near-infrared.html",
+      "sha256": "760050fc7b8ba1204a06f9f4a8d18656e997027413037627c1ef6ba8b4d9a77f",
+      "bytes": 2883
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B010/tool-dinitrogen-assimilation.html",
+      "sha256": "a046814009ed6b20b3bb3e16387b32ec78e799d81b6083809a8594da3212587b",
+      "bytes": 3125
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B010/tool-rna-thermometer.html",
+      "sha256": "c470157e9746c7e5c84454786de959b5ed514412a7f1e850fcd0508ce5491f46",
+      "bytes": 2866
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B010/tool-split-intein-ligation.html",
+      "sha256": "c69fdcb7b95b0449a544e6773c678c021d2e21dd9ed1200594923dd0d3beb31b",
+      "bytes": 2858
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B011/bio-lateral-line-rheotaxis.html",
+      "sha256": "cd0afdb68dc2afeeedb5b82954ed1facbf9177d3a67ba0b12f259f66b4cba889",
+      "bytes": 2862
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B011/bio-seal-wake-sensing.html",
+      "sha256": "d665c2fb6343224c855117cc2a33b643498aa80b2afd6fe175f75dc62e4d326e",
+      "bytes": 2751
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B011/index.html",
+      "sha256": "81a592b8d4be655d35f9bac90ec7accdfbd5d43ee2944569147535ea6166962d",
+      "bytes": 8117
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B011/micro-fermentative-malate-production.html",
+      "sha256": "0b88944124c9f0bc1f2bde26d5598f72fc65ec0f6ce6075eb0b981eb227741ca",
+      "bytes": 2961
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B011/micro-native-butanediol-production.html",
+      "sha256": "8db58bf076be1f052c68aff5fa3fd8e915275538c1440abb57a87e193787719e",
+      "bytes": 2784
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B011/micro-particulate-methane-oxidation.html",
+      "sha256": "b407c9424c8f96f5f25baf693393f1a6013725de7aa2335abdca861f5ec6f433",
+      "bytes": 2863
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B011/plant-aba-stomatal-closure.html",
+      "sha256": "68005a9e230cf7c5fd4e3026a43ac2815ba6dbc6cf50d2e8b1e9da200241ea9b",
+      "bytes": 3003
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B011/plant-epf1-stomatal-spacing.html",
+      "sha256": "0bc406f594b98ae85a92dd4d0627fafff8278aadfec758c18191abe7e5694cfd",
+      "bytes": 2889
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B011/plant-root-hydrotropic-curvature.html",
+      "sha256": "96f2919775f1a9b577b78b46d34979d0c8cab2ad1c0d0bc7fb05efc7c40db0f1",
+      "bytes": 2784
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B011/tool-photoconvertible-time-mark.html",
+      "sha256": "9de5b4d533baa3ffcf60547182aa0f66a2274e9fc5319c71121982d029f254f2",
+      "bytes": 3003
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B011/tool-split-luciferase-interaction.html",
+      "sha256": "3edcfdf30d43f965a3441b4b155610907f28b5eed0340f1b14f76dc9837b571b",
+      "bytes": 3070
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B012/bio-bat-doppler-feedback.html",
+      "sha256": "c84d0b891cf266e6838333e438076b2de59d2eb47ec21e3c8b002e339f5aabab",
+      "bytes": 2763
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B012/bio-infrared-heat-trpa1.html",
+      "sha256": "95c62e9796eed029e4a7254e63d0542d36cf1a92869e7a60d9afca95b6eccd9b",
+      "bytes": 3331
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B012/bio-owl-ruff-acoustics.html",
+      "sha256": "a4604a9b7a592f4c43a67693568e52e2541f1b867e59569a11af94be361c8c29",
+      "bytes": 2864
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B012/index.html",
+      "sha256": "dd855e71b001048cb46fa68a9fec114fdab4ed26b66120957ea2ecf4c5041e3d",
+      "bytes": 8117
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B012/micro-archaeal-ammonia-oxidation.html",
+      "sha256": "850ab8ec666678fa641bbb0c7fe59af04501be10dd72904177c230f9a06b2a46",
+      "bytes": 3504
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B012/micro-chemolithotrophic-nitrite-oxidation.html",
+      "sha256": "e4f7f03526726309cfe22630420927532db56b46be5a6565db04183911d48282",
+      "bytes": 2990
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B012/plant-flytrap-touch-integration.html",
+      "sha256": "93f1ed1733a00265472b4674f31dc41a21d1828fb1ea333ef61a91e07940c47a",
+      "bytes": 3165
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B012/plant-root-mca1-touch-sensing.html",
+      "sha256": "1db349bff9507609e7ec242312729c50c534f785d7c55a29eef795fec51572c4",
+      "bytes": 3706
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B012/tool-dopamine-transient-reporting.html",
+      "sha256": "0162227ef4f5f307852ebe4125c1b2bbae909050065bfd9a673065e283b00223",
+      "bytes": 3037
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B012/tool-extracellular-glutamate-reporting.html",
+      "sha256": "7e42f50aca9659259c1bd37052cbe16514fdf4d406534b2cf3491f5881a72d6c",
+      "bytes": 3129
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B012/tool-vesicle-fusion-ph-reporting.html",
+      "sha256": "b39eb09392ab87e911db1a1f30a5ebaa600386336d5ea6bd81b6f94b2e378a06",
+      "bytes": 3053
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B013/bio-goose-high-affinity-hb.html",
+      "sha256": "ea12a90ea4e97a871871fe92a9076769561ec8bd25b94887fb83ba994b842e7a",
+      "bytes": 2873
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B013/bio-hummingbird-sugar-oxidation.html",
+      "sha256": "89b86978d774d1c5cfbf465b960132175fb33c39232b6304d17ba58bff0df31c",
+      "bytes": 2831
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B013/index.html",
+      "sha256": "5a7e450accbb34e0d215fd71e7be221361be01e4346acd2c252af952951a4cc5",
+      "bytes": 8195
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B013/micro-anammox-ammonium-removal.html",
+      "sha256": "0ad15d16b83ac520f8af35946f0abb1cd23304860a55b9ac333fc368fde18805",
+      "bytes": 2935
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B013/micro-bacterial-alginate-biosynthesis.html",
+      "sha256": "dccfac41b4f7ed4bb8ad06bc03556b6acf962ce24bc789a93f7b47b8bea6ec1b",
+      "bytes": 2899
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B013/micro-nondenitrifier-nitrous-oxide-reduction.html",
+      "sha256": "53a7bd5085e2d9189358c2c9294bdc92eb380c9c7bbc2d1cc7dfe87b5cbec24e",
+      "bytes": 2949
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B013/plant-florigen-long-distance-movement.html",
+      "sha256": "e59d97631dade591e18e86d86a19d6bc04cab3f1c2f7af6756fb6e96cc8b2f04",
+      "bytes": 3160
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B013/plant-phototropin-light-activation.html",
+      "sha256": "3fed26379aa48f16183e3e3c00353cdf750d2883c32d389b3a3e46baf513a2d0",
+      "bytes": 2812
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B013/plant-pif7-shade-elongation.html",
+      "sha256": "7cff5f5e760da3dd0b45b12b1aa2c1a5b4a859d28fbdbf242efefe9fba5ab012",
+      "bytes": 2924
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B013/tool-cytosolic-nadh-ratio.html",
+      "sha256": "9d668df7af36c166b0b064d14a769dcee780ab0c15eeeaf3fcdcd98158fc3a36",
+      "bytes": 3020
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B013/tool-glutathione-redox-imaging.html",
+      "sha256": "0fe3860950284651f6efe2b463a9d8cc559b9b4faf3bc65512051c358d24322c",
+      "bytes": 3168
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B014/bio-gecko-tail-righting.html",
+      "sha256": "5d8ca79a4eaa7ce601c99f6471d2cae3cd01edd46f41af8b83253e8b9343d9f6",
+      "bytes": 2704
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B014/bio-penguin-muscle-oxygen.html",
+      "sha256": "dff3dcc48a6aadc3e2a34f2a8e64bf49ae382605fff2e45d5d648c98e3e42200",
+      "bytes": 2918
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B014/bio-turtle-shell-buffering.html",
+      "sha256": "decb046eed9242c4eb823ae71d84b94b71b19d0a2dbc453efe4cf04d0cfa77bd",
+      "bytes": 2882
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B014/index.html",
+      "sha256": "26d1f2a7b903ac8de1f90a279b4dcb3d06763baaaf9dceb13da12dc129d70893",
+      "bytes": 7973
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B014/micro-chloroflexus-malonyl-reduction.html",
+      "sha256": "8a7b4b12f348a70b441f9f1eba9440abad798a56d7a56b903e6924a7fb341e0c",
+      "bytes": 2975
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B014/micro-mouse-decarboxylase-itaconate.html",
+      "sha256": "0a35ab9a3fc8c9560d7d114985a5458f9ff56d3c2d77ea9c4a73b9e38e46f67a",
+      "bytes": 3031
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B014/plant-pollen-self-recognition.html",
+      "sha256": "59ea4698a2936f3afb75729983ef237bf34bf0eec9d662ef192b0e01687c49b3",
+      "bytes": 2861
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B014/plant-vernalization-memory.html",
+      "sha256": "6807cb8555a503ab3fa3d823a47ab4be99839767e85cdb20a9396f0ec3e71941",
+      "bytes": 3034
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B014/tool-light-induced-protein-recruitment.html",
+      "sha256": "a5ffa77219b68a5a58a20c19b62b415e83df63e9fab04e2b4296ea38cdbd6fca",
+      "bytes": 3099
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B014/tool-noncanonical-aa-translation.html",
+      "sha256": "f3d268a9cc327eab4ec9296ef7abb0d419e3887c968ae9c319b18e3cfc487f49",
+      "bytes": 3007
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B014/tool-plant-mgatp-sensing.html",
+      "sha256": "d9b9736ed8368d7de5a849d21eb00fe691f7d65f808d90d25fb442ff10db5bd0",
+      "bytes": 2979
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B015/bio-shark-denticle-propulsion.html",
+      "sha256": "ff658649a1ef07bd9c6d4005239f1f3b6b8fc192c195697c52673ed31a7884f4",
+      "bytes": 2826
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B015/bio-water-strider-propulsion.html",
+      "sha256": "4ed224fb9101233c95d72238d0cc4f657c88f064159b67ddf30ee80d666156df",
+      "bytes": 2769
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B015/index.html",
+      "sha256": "6ce2b6110f8c0d5d0ccdc86218e245c60726c3272024057f9016c8af88fa77f0",
+      "bytes": 7990
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B015/micro-polylactide-depolymerization.html",
+      "sha256": "c7946b429aec020b7a839569be61c58b92a7a14724e023c88e35c3deeeb7b8ec",
+      "bytes": 3061
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B015/micro-pullulan-polymer-production.html",
+      "sha256": "6ff147b195b32289dc769040a4461614e81199be9ee26026e158fa7e2945a1c6",
+      "bytes": 2907
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B015/micro-yeast-chitin-deacetylation.html",
+      "sha256": "cebb0f1a40e090b36c186942be59e1fbedd266361ae394f74ebdc8664ee82e95",
+      "bytes": 2832
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B015/plant-cenh3-haploid-genome-elimination.html",
+      "sha256": "9b9963bbec977638192b4f7069d76de577062c0dec0f6bd6f4ba926544a29cd2",
+      "bytes": 3055
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B015/plant-compound-leaf-initiation.html",
+      "sha256": "67e28eb9739865e6eeae027bdb6bc5261b1bcf57984299c2f96c5a2eafacc9c5",
+      "bytes": 2847
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B015/plant-strigolactone-bud-outgrowth.html",
+      "sha256": "e8e11863ec0d3586921bbe1bcc405613d84207b1efe00428bac5ba1c78681120",
+      "bytes": 2805
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B015/tool-peroxidase-em-contrast.html",
+      "sha256": "99592c3a5a9d1c88735c782bbb4280b0746e9e32c71e0f8ba9f8fafd8e748b4c",
+      "bytes": 3094
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B015/tool-yeast-cell-surface-protein-display.html",
+      "sha256": "396bbf21762dd5d398d132b4500f5a6e76040de460896f7101fcb4701f3a78cf",
+      "bytes": 2986
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B016/bio-hagfish-slime-net.html",
+      "sha256": "49ff110c054e83884f655e13731819deb12eb87aac68d35d7d8380e76071f107",
+      "bytes": 2692
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B016/bio-octopus-suction.html",
+      "sha256": "7f487d7d09a81216274d5f531f9bb9eb9fa6b4a8e114aa28b0d2de9b843f0435",
+      "bytes": 2755
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B016/bio-spider-hydraulic-extension.html",
+      "sha256": "6284ee08aa97444427a417f2a72c7b7bee4927b2b2862923aad02a51ad357759",
+      "bytes": 2693
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B016/index.html",
+      "sha256": "99562b453b11f85853b765d087b4431c0871a8d87fd73e8940b1e40cebad2c95",
+      "bytes": 7798
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B016/micro-marine-manganese-oxidation.html",
+      "sha256": "34a6da14553ca4abc06707667cc4c3ef82e3d9227699f8cadac221750b072f28",
+      "bytes": 2876
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B016/micro-nylon-cyclic-oligomer-hydrolysis.html",
+      "sha256": "8563909b91887ed3b6fd1ea108928e902a98e6a36a6cb558c4ee8e9c50d64a70",
+      "bytes": 2925
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B016/plant-cluster-root-citrate-conductance.html",
+      "sha256": "d2134b6b6529280a24421a65f4d3cd72f228e08bf5e5cbcdb6e796d2bb5ca7ce",
+      "bytes": 2903
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B016/plant-pip22-root-water-permeability.html",
+      "sha256": "9143a2fbfa73d85786e00b2d23d78edc6deab8aef92d4f1f7664ecf1d4bf9e88",
+      "bytes": 2942
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B016/tool-auxin-triggered-protein-depletion.html",
+      "sha256": "47d6d15f083989a68eb0d789cfd8be365acbc2cdf394ac1a6e4cd07e3f0bc3b7",
+      "bytes": 3038
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B016/tool-light-gated-camp-synthesis.html",
+      "sha256": "dd5c02c7bd8adf51ca108b6beda31d4e5c324907ce5912a59a608918f184a698",
+      "bytes": 2962
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B016/tool-vinculin-molecular-force.html",
+      "sha256": "8ca0990343972dd5533df0e26c3187fe915e1f29b0242c4fb46ec952fa755ca4",
+      "bytes": 2886
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B017/bio-buzz-pollination.html",
+      "sha256": "2b11766113ccc4341cbcdfd29dd593ef45c7b50c12bc9b63f565014421a2687c",
+      "bytes": 2765
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B017/bio-dragonfly-intercept.html",
+      "sha256": "0561971382cb5a5d9b81937323a2e5e0d007ddd53e6b33f22079e6e534ceee12",
+      "bytes": 2819
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B017/index.html",
+      "sha256": "3a1f6596fa126df022bb912cd2f5fae58138968fb8c3cf7c81765aaf4666cff7",
+      "bytes": 8106
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B017/micro-fungal-lignin-mineralization.html",
+      "sha256": "6194a05057c36ff3a908d1bd102eb99b46c14d0ddb04ed8a78e2576fcfee24cd",
+      "bytes": 2839
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B017/micro-laccase-textile-dye-oxidation.html",
+      "sha256": "b68781b932264af9265d468fe34f3b8822b3cbb9f758477edbdc612fe965b48b",
+      "bytes": 2885
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B017/micro-marine-iron-oxidation.html",
+      "sha256": "3f502a74402294a85c5afe5413ebf2c939d722b794033b5bad11138dbb21cec9",
+      "bytes": 3758
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B017/plant-amt1-ammonium-uptake.html",
+      "sha256": "ab9a24da9025b4b9ddf509781e866e67ce0d9291bd826a8a4ba821b21770db06",
+      "bytes": 3559
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B017/plant-hma3-root-vacuolar-cadmium.html",
+      "sha256": "69dc74e075f6b9393da60a5130f3725956a52fb3e61ae2513aaa8fbea797f1a8",
+      "bytes": 4110
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B017/plant-sultr1-sulfate-uptake.html",
+      "sha256": "1fc94c956ed0fd3d672e055d1ba69ab242711a826f4daff4dfedab954d775b99",
+      "bytes": 2988
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B017/tool-grain-zinc-nicotianamine.html",
+      "sha256": "9bd5d6200af9b23cb65a23e2a8d96be1f5547eb7683c0c5115a3e04ba19b46a8",
+      "bytes": 2997
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B017/tool-seed-alpha-tocopherol.html",
+      "sha256": "60800a4ea392fd49d0b575824fd8df49def8fd67ed150e419432dcf51ce47c3b",
+      "bytes": 2814
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B018/bio-fly-haltere-stabilization.html",
+      "sha256": "2e53c96312fc14fc5ce74ada687f3ea26b29bea027aa81574cb719aff58b7a5a",
+      "bytes": 2662
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B018/bio-lobster-odor-sampling.html",
+      "sha256": "d11177af7e1b5da4f97715556330a3cb6742ba5224caabd5dc03a900282f2548",
+      "bytes": 2785
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B018/bio-monarch-sun-clock.html",
+      "sha256": "3477980aead91aae5b2a11136c65478e7f399b66bd0a200bd6df8d6839a77f2a",
+      "bytes": 2718
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B018/index.html",
+      "sha256": "208617549440edba49a653578d9a7fc951aea746a913b482dc89f0d051ce75ba",
+      "bytes": 7832
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B018/micro-beta-farnesene-formation.html",
+      "sha256": "c0d8db05f91e8272ecdd5983d82ad242638c92fc2fd4ba48143c25f056240741",
+      "bytes": 2964
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B018/micro-lipase-oil-ester-exchange.html",
+      "sha256": "9cae153322d7a827f77aa92cba9b7dca71345e92dd1ad95c1b741770126682ae",
+      "bytes": 2891
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B018/plant-cca1-free-running-oscillation.html",
+      "sha256": "acdbc9282339ffa8ebd27cb1dfae2e0ac8aedcd60f9ce265e1fbc14881e34925",
+      "bytes": 2951
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B018/plant-qsh1-grain-retention.html",
+      "sha256": "beb01cf833a9be5a01d6aa523345cb7670b6699e10b315f8d071ad1eacb948af",
+      "bytes": 2765
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B018/tool-fruit-ascorbate-ggp.html",
+      "sha256": "94183a200569ec4bd1a2d4cc8ab5df31d6bcf4020b6c95c0a20d32ddbc639b77",
+      "bytes": 3006
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B018/tool-fruit-resveratrol-stilbene.html",
+      "sha256": "309d83c9b3a9be3bd5125941e0912b85c2f924282a10a4d1aa0d9b7723375b0b",
+      "bytes": 2985
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B018/tool-provitamin-d3-sterol-conversion.html",
+      "sha256": "442609eed51c0ba2174fa2a2928849d1dcfba9ee40fb2d1709e19ba6c975a9b0",
+      "bytes": 3207
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B019/bio-bamboo-density-gradient.html",
+      "sha256": "3e5a09191dc40274c98ac2067f1ef3123bd418e24ca083dc7a4112762226e94b",
+      "bytes": 2782
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B019/bio-spider-electric-ballooning.html",
+      "sha256": "3986af451ed1e16ba1d66c37760ae897372b0a1155ff6a5ad071184b8134571d",
+      "bytes": 2769
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B019/index.html",
+      "sha256": "3e4f45822be3ee3a31663190b433a16fa8872c8b8381bd0cd46744681fd4b6b8",
+      "bytes": 8313
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B019/micro-fungal-glucose-oxidase-production.html",
+      "sha256": "4c381ab521dad3fec65ebd497a1b5f1c350b0812be8d009bf038b0e432fba5ef",
+      "bytes": 3052
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B019/micro-sorbitol-oxidation-sorbose.html",
+      "sha256": "96dd3517a144eab836a65dd2e9f74f436c470d3996736daab28e0467e77aa414",
+      "bytes": 2973
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B019/micro-thermovibrio-carbon-dioxide-hydration.html",
+      "sha256": "6454ede9eee88e437d6ae21e139e98f048621cf07d864ac9c787b8b301272843",
+      "bytes": 2980
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B019/plant-della-reduced-stem-extension.html",
+      "sha256": "9ad9843290711696968458c872dfcf1db04d0aa9d599d14e9fd7936bf47c3268",
+      "bytes": 3420
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B019/plant-ethylene-dependent-fruit-ripening.html",
+      "sha256": "d182da9e553faf689c1c04eced5043a99720883c6e69b107670047839fb53440",
+      "bytes": 2982
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B019/plant-mycorrhizal-lco-signal-response.html",
+      "sha256": "32ab68f6ba61b512b25da1aa6b86c203dcd2731980ac18e51c01fa91ff47ec5f",
+      "bytes": 3154
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B019/tool-grain-lysine-rich-storage-protein.html",
+      "sha256": "a6f1c1340c4acfc827081c4665eb7c897f82941edae3ce9da73db3be6ef18d57",
+      "bytes": 3112
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B019/tool-mixed-linkage-cereal-glucan.html",
+      "sha256": "502a8e9f48827700445832258c837bfbc56fb6f06f70186888f756e2e04a9126",
+      "bytes": 3107
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B020/bio-bee-floral-electric-cue.html",
+      "sha256": "c04d3702c9806a38a0b0d230f64a0ea8653898155819dadc4838563e0fa935b0",
+      "bytes": 2669
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B020/bio-cuttlefish-papillae-shape.html",
+      "sha256": "83d8d5065d8fb229c25027f62ac764d5e65b01a6ccc158cc6bd1236867655768",
+      "bytes": 2869
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B020/bio-limulus-circadian-eye.html",
+      "sha256": "afbe0638882e1a317dd2e1fe929b91bd2d26a2477056085ddb5f0bfe961d901a",
+      "bytes": 2764
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B020/index.html",
+      "sha256": "29a966f67280870163ca949e4c25a26f54c6adec29921a23cb0e61ebf9b0be31",
+      "bytes": 8266
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B020/micro-formate-based-bacterial-growth.html",
+      "sha256": "70c3a55ff4f9342a4636cd0907cd90662c160db22b2595ba44de7fc4d4d4888b",
+      "bytes": 3853
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B020/micro-phospholipid-headgroup-exchange.html",
+      "sha256": "1d332967bb87dcb5e582ad7f3725929669df1a31ad32a4642acc7403610d6e69",
+      "bytes": 3007
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B020/plant-floral-methyl-benzoate-emission.html",
+      "sha256": "8144f60970d269d4f7466c40687e6e05bec9b4e7d005143408a2ea688db8855f",
+      "bytes": 2971
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B020/plant-iaa9-fertilization-independent-fruit-set.html",
+      "sha256": "7b5e96865ee82bcd2f9152c9bca2b505d2a245d122be2930889d1d8f8e63095b",
+      "bytes": 2996
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B020/tool-kernel-methionine-sulfur-assimilation.html",
+      "sha256": "9fd1ab286d2c2e2981ec94004d0a8a0443a29a2074e70371afc0ea5e41e2a956",
+      "bytes": 3153
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B020/tool-seed-free-tryptophan.html",
+      "sha256": "6988335288f0c0a515fbafda13e03c0a06b9bee15feb8f58c169bbfbad35a79a",
+      "bytes": 2949
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B020/tool-steviol-glycoside-selectivity.html",
+      "sha256": "2233f39a60b69e892dc2bb0b5acff926344232ea4a27ae8c03af05d9e91247a9",
+      "bytes": 3087
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B021/bio-circular-polarization-vision.html",
+      "sha256": "ecb3dd3168d19de1248517ac362632bf8b0074ea883f95ff24209fdc6784c102",
+      "bytes": 2893
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B021/bio-desert-ant-sky-compass.html",
+      "sha256": "d3994e9c9048dfec8665de55677b855851bdbfe19922f6c064a7bb52781b634f",
+      "bytes": 2884
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B021/index.html",
+      "sha256": "e87494d044194ec8a2368f812684aff012d1632c1ca2e3c0fb0b53c5f6056ba7",
+      "bytes": 8141
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B021/micro-alpha-ketoglutarate-production.html",
+      "sha256": "ccde8f18da04e384bbe1eda13dd410e78ad40c008f7e20bdc28f4822287c856b",
+      "bytes": 2914
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B021/micro-polyphosphate-atp-regeneration.html",
+      "sha256": "003dafd60bacf2afd094cee25f5a4af7ab966c34b7db46b529ad97e626951394",
+      "bytes": 2965
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B021/micro-xylose-to-xylitol.html",
+      "sha256": "33b25a0ad141f2aa4b808023c720ba03e9b6e5be3e7f9f7b7b0a798c8b922932",
+      "bytes": 3047
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B021/plant-lax3-lateral-root-emergence.html",
+      "sha256": "bc634c1882ff9880410eb3b4ea07b3fcdc5665e9f844c65ea675218bbdd7673b",
+      "bytes": 2897
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B021/plant-rsl4-root-hair-elongation.html",
+      "sha256": "ad03e4def7f180d9b361f1f53733810ec7567b56f7c7c327813dbfa44c7dfdf1",
+      "bytes": 2803
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B021/plant-wox-adventitious-root-initiation.html",
+      "sha256": "58de4ba9e166b470e3bdea2068125e2c78dbc9868ccb1d02cb8114dad7230809",
+      "bytes": 3076
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B021/tool-cytosolic-glucose-dynamics.html",
+      "sha256": "04f80cb4f77d36c61e7e5d60d79e4497fa35ae73d743f5f1d0eb59c4710255ad",
+      "bytes": 3132
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B021/tool-labile-zinc-ratio.html",
+      "sha256": "05670d98316868589c61799f6192388f5efd39efa12fc16cf1b8234100455182",
+      "bytes": 3055
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B022/bio-archerfish-size-correction.html",
+      "sha256": "d05bdd18a61b1e257f88242efe784b629b1015f6382992d46e7081ed2c085e8d",
+      "bytes": 2928
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B022/bio-baleen-crossflow.html",
+      "sha256": "64afe98f13a32ba22a26e4623a27e20a1211067ad61223c10716b37ce5b2558e",
+      "bytes": 2796
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B022/bio-honeybee-optic-odometer.html",
+      "sha256": "a05ae122a99c8c82b39c80372654ebd44796a2a3c425f90023ce02fc2e850831",
+      "bytes": 2790
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B022/index.html",
+      "sha256": "636213b8fdb5ae19723601782b1a17229e05a09017e1e239f00aafb0d4e19941",
+      "bytes": 8146
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B022/micro-nitrate-ammonification.html",
+      "sha256": "6f11fde8df03127489fb201efe79ed48aea218f989bda5e08c8157e798d9ad34",
+      "bytes": 2967
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B022/micro-succinoglycan-biosynthesis.html",
+      "sha256": "49b96b19ec48bea72eb90383faf15742280fcc06d6b3354562314ef2f07743a8",
+      "bytes": 2944
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B022/plant-lazy1-shoot-gravitropic-posture.html",
+      "sha256": "052ea889ae8ac9bcf4e207c3c0fa61ab5a690c6621cd88af097ea2677cd48940",
+      "bytes": 2948
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B022/plant-tendril-coil-overwinding.html",
+      "sha256": "a7c846e72decefe20ad98ad3a89c1587303d817e6c6a438c22bd57771ad2f9bd",
+      "bytes": 2964
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B022/tool-cytosolic-hydrogen-peroxide-hyper.html",
+      "sha256": "bfebdc5eb65327c887c0cd58bea2157457953e8e2b0c89f3b7eab0347ee7bea6",
+      "bytes": 3116
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B022/tool-cytosolic-lactate-laconic.html",
+      "sha256": "59e25bfa7739d8d9447b449d6c14a24a53ee29b38412c7b45b6da842538856e9",
+      "bytes": 2946
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B022/tool-intracellular-chloride-ratio.html",
+      "sha256": "f5820f3fa99298cb4458102de003217bc3bfc3e49f452ab43a52bda1a61f9d15",
+      "bytes": 3145
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B023/bio-octopus-peripheral-extension.html",
+      "sha256": "b19bc150b7964ee86074a745edcdfe942f9de20a047f838d295680077efcdfb8",
+      "bytes": 2788
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B023/bio-sponge-current-flow.html",
+      "sha256": "5aa866c6751d8e1572641e50fe995b243be96fbe14700dcfa01bdee276236d40",
+      "bytes": 2880
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B023/index.html",
+      "sha256": "5e4dc1e5602e262740efc58adf0e3f9c5d893fcb3e8340f0bd6f6f10fcbdbfd1",
+      "bytes": 8272
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B023/micro-algal-photohydrogen.html",
+      "sha256": "7493cd3111c93f8d95ed4da0ec42bbcf7f4c1f2a5006e6af5a63dbc869ee222d",
+      "bytes": 3046
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B023/micro-isoamyl-acetate-biosynthesis.html",
+      "sha256": "39421fa294658f656682eae9618ee1521f41f45ed66c193dc94ffd30092cb19e",
+      "bytes": 2821
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B023/micro-phosphonate-bond-cleavage.html",
+      "sha256": "8c931c65bb19283e0f5acc15fa159285f2773c2ccd4a723ae4a23832b2ebc0ca",
+      "bytes": 2994
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B023/plant-osbri1-lamina-joint-bending.html",
+      "sha256": "6b73ce50032bf19891cfad597471e645dcb5cd701db6854177f2f00069470e56",
+      "bytes": 3059
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B023/plant-phytochrome-photoreversible-germination.html",
+      "sha256": "b5779941977d61e6bdfd3e4f48db201adf495d1c5f94f64b5b7ccfcabf122579",
+      "bytes": 2830
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B023/plant-pulvinus-motor-organ-identity.html",
+      "sha256": "6660ddb51baf0c8b01ace3a471c9a06419dea644d06e8136270480170d33cb86",
+      "bytes": 3038
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B023/tool-caspase-activity-cleavage-reporter.html",
+      "sha256": "7e0ac41681ede3b71003760206d3ad53ba70932031818489fd8bba4aef60c2a2",
+      "bytes": 3112
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B023/tool-cellular-nitric-oxide-genops.html",
+      "sha256": "190b77993f4595a90700599cbbd040c278456fb51e12dadeb6f888c1d51a5ef0",
+      "bytes": 3093
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B024/bio-fin-ray-stiffness.html",
+      "sha256": "7ab022889a2135e955c02698ba5452f5c4f6e659daf814a8491ac18d18f1097d",
+      "bytes": 2780
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B024/bio-silver-ant-radiative-cooling.html",
+      "sha256": "550fb3665c0d3342446a97c4b4327b44469de977afd8b8dd4b9e2d9efd7a6c36",
+      "bytes": 2694
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B024/bio-snake-glide-kinematics.html",
+      "sha256": "5eb3a63fa322c58797e5a645d67f16a57e6affdc46b49afc4f9cf63865ff1063",
+      "bytes": 2640
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B024/index.html",
+      "sha256": "51cf97ace05472ce88f4db7092cf211000ab3a103eb570d8687eaaa7a53df1b5",
+      "bytes": 8005
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B024/micro-allulose-epimerization.html",
+      "sha256": "24f7fd67ea21c385a972d3062d079f4eba8d49119cd1bbdd6ab4208208023f0c",
+      "bytes": 2960
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B024/micro-d-amino-acid-oxidation.html",
+      "sha256": "5449e5b6c478c1d88de71458ec905b98fa223470c4a550fae0b390beb572fd2d",
+      "bytes": 3123
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B024/plant-lg1-ligule-auricle-identity.html",
+      "sha256": "3731a238198bcbc14186592a104b874ac84626ad99bbd7796cf0892e4be37876",
+      "bytes": 2970
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B024/plant-lure-pollen-tube-attraction.html",
+      "sha256": "87e95045c1e8b132fc1cde4166a83d4ccb9b3c89fc4be2d0978cf261867476c7",
+      "bytes": 2792
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B024/tool-cyclic-gmp-fret-reporter.html",
+      "sha256": "6939e643ee67dc8bdbdf8948f7b39c09ef98455e27dd6cd5976cffb97a78a318",
+      "bytes": 2793
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B024/tool-intracellular-potassium-gepii.html",
+      "sha256": "1b0a3c67f39d9fcd7bbec93f3c6719f663845f9668b33cf204a5152be13ee8af",
+      "bytes": 3089
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B024/tool-nascent-protein-translation-sites-suntag.html",
+      "sha256": "72127381b61e4e8d4656852f63ace57a432a1882d9d0dea90e8a1b9a95bcfc3e",
+      "bytes": 3283
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B025/bio-penguin-feather-architecture.html",
+      "sha256": "e8c97f281cb8bc8ec9c3a93435f540a1503e2dd28314a99d4863be80af1ddc57",
+      "bytes": 2897
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B025/bio-termite-diurnal-ventilation.html",
+      "sha256": "f96a6263140eb839f008834b8230a3d59d2bfbf735abb097f9d7cbb07de9ca83",
+      "bytes": 2821
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B025/index.html",
+      "sha256": "94c1527b62715894a2a73b51e7a46a8e240ed90dd91d43f28d5b2b3689d3f46c",
+      "bytes": 8161
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B025/micro-isobutanol-biosynthesis.html",
+      "sha256": "b357f92c057c61fa311e8d6f584e72e0bed9c5ee06f8e24d4d4385ccd42ca454",
+      "bytes": 3070
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B025/micro-latex-polyisoprene-cleavage.html",
+      "sha256": "7735c6e9391871039aed2b63f13dda0ec8953e8386c7dadab96072fe4b9856f2",
+      "bytes": 2917
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B025/micro-polymalic-acid-polymer.html",
+      "sha256": "8fed4367eb26b0199871090b9037c57dd76a1b2d828e90899d935a128d98f2c2",
+      "bytes": 2981
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B025/plant-gcs1-plant-gamete-fusion.html",
+      "sha256": "1cba93d94a20a4cd9fb0dda76b90798124108b3f0555c358faf2928b97d0db3d",
+      "bytes": 2836
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B025/plant-gnom-embryo-pin-polarity.html",
+      "sha256": "95a5e767bf8519e41428afb86bbd0d0d56b91d07dd9c9c290a90981cb3f87a1f",
+      "bytes": 2844
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B025/plant-pcpb-pollen-hydration.html",
+      "sha256": "59864fb3a94024c29cbabb32eb25cf458754290cc5363076a7355aa8ad23b00a",
+      "bytes": 2920
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B025/tool-genomic-locus-imaging-dcas9.html",
+      "sha256": "19bb0535258f2135e9512d0a4422a1ccf0314ff8c65abc40e8e6942c575b99bd",
+      "bytes": 2952
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B025/tool-membrane-phosphoinositide-redistribution.html",
+      "sha256": "c378f7b79253ad122855cb8437d7950d71a978ba9f98433fd5f1d0574f34050a",
+      "bytes": 3246
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B026/bio-beaver-floodplain-storage.html",
+      "sha256": "f8e9c4d266d5612092c848a1830bd5869ba230bb593655811b7fb1568edb1b0d",
+      "bytes": 2924
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B026/bio-elephant-asymmetric-trunk-stretch.html",
+      "sha256": "f3686fd35759522d56abd79e3fee2e740eba1467d2ade642feb95c943ea12cfe",
+      "bytes": 2934
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B026/bio-orbweb-vibration-tuning.html",
+      "sha256": "32471a8d6892356b66ab404664a683244dd601f03bdf98982a0a5cda173aa7da",
+      "bytes": 2907
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B026/index.html",
+      "sha256": "b76e2e632a89a23188bf55d78771a5b2d39fadfae5320e147a670eb1047c398b",
+      "bytes": 8428
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B026/micro-cyclodextrin-cyclization.html",
+      "sha256": "55042fbfe235dab457c315435db95f2d3865d7496175bbaccfc595511194788a",
+      "bytes": 2898
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B026/micro-ferulate-ester-cleavage.html",
+      "sha256": "5303d2687aecad064de4719af73fd5e5e56fb06ddd4a54b86b748859d06b0279",
+      "bytes": 2928
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B026/plant-fis-endosperm-initiation.html",
+      "sha256": "5af072f6794d01bc5ab4996fb3dc136aae1ba2578361388935c47519dca7d666",
+      "bytes": 2958
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B026/plant-gl1-leaf-trichome-differentiation.html",
+      "sha256": "e56b6d66599cc123119d12bb1900acdf9dead77b719557156180feb675663ade",
+      "bytes": 2876
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B026/tool-intracellular-macromolecular-crowding.html",
+      "sha256": "ac117e26edd3249d9faefc56eff6972743a50c1ad2209ff559b0ae24c866ba54",
+      "bytes": 3112
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B026/tool-light-gated-neuronal-cation-conductance.html",
+      "sha256": "350dc07a141b7e80fd7aa9d0d7c48fd6a103ed217c2f683b63c473bffcda6e4c",
+      "bytes": 3118
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B026/tool-microtubule-plus-end-tracking-eb3.html",
+      "sha256": "02460eedc8a1468e4dfb7fe8f3f1dc105df7bbe00bb1daef8572f27b288496d4",
+      "bytes": 2947
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B027/bio-fruit-fly-carbon-dioxide-reception.html",
+      "sha256": "6425407e3c0f7b4a3109d99b89c7e14699f2e876a5b493adbd1bd3b8312c6ab8",
+      "bytes": 2854
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B027/bio-nematode-oxygen-taxis.html",
+      "sha256": "8c96d10aa67c0505ff48598d8e512642e688b71f6ab34286b82c7ba091521bd2",
+      "bytes": 2838
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B027/index.html",
+      "sha256": "77110dfe04489662615bbf4476c0856f9dd3eecb426341c3339ae80bd87a710e",
+      "bytes": 8230
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B027/micro-cellulose-oxidative-scission.html",
+      "sha256": "b83b42e8b5123dc1cd461800a79f18ef6696295fabea7e2e832ca0550fbbe0a2",
+      "bytes": 2907
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B027/micro-glycerol-to-dihydroxyacetone.html",
+      "sha256": "c26d08794527c77e3d870e6117fa8e5433bcdc4a2da90881fe9a6a65d6ecdc59",
+      "bytes": 2885
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B027/micro-pyruvate-extracellular-accumulation.html",
+      "sha256": "650adb364bfbf9dd3283a6256aff3521a7e2ee0dca515c8f3511c2e4b90b752e",
+      "bytes": 3039
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B027/plant-grape-xylem-embolism-refilling.html",
+      "sha256": "a27bd57dba3308fd7bfa76c38e1cb2e97f340c992766a98af09b5524885d2dca",
+      "bytes": 3072
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B027/plant-rbohh-root-aerenchyma.html",
+      "sha256": "8e34ca58808f34c9f7c467dcb0d21c0cde7b3ee8121b0f5c23531e75674896a0",
+      "bytes": 2851
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B027/plant-tillandsia-trichome-water-uptake.html",
+      "sha256": "e682ad136068cd4e7f2cdf84d9096ef334082743d8e30e5d3e0e99a726a11104",
+      "bytes": 3790
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B027/tool-cassava-root-vitamin-b6.html",
+      "sha256": "95db4bedc7a7a9fa602c4694781585beea5bfdb1d7470caab8ca2f85a7aef3f0",
+      "bytes": 2991
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B027/tool-tomato-fruit-gaba-content.html",
+      "sha256": "12cd9d76f9b184a8a9afe721435deef09f4f6b3723b1f13a491624f0630ca81b",
+      "bytes": 2861
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B028/bio-fruit-fly-antenna-gravity.html",
+      "sha256": "f9c64456c86dcceb30756c7652250f38e7ada695f19451b9e154f0526b6e3614",
+      "bytes": 2774
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B028/bio-hydra-wnt-organizer.html",
+      "sha256": "46be2846233af873d3f82782e90a4277b402e90243ce8a69253e87cb326b29dd",
+      "bytes": 2850
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B028/bio-macropod-tendon-recovery.html",
+      "sha256": "aa72984ada9a87aef7151b2d4302309d9ba3a4f70f838faaae1df77ac40d6e96",
+      "bytes": 2776
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B028/index.html",
+      "sha256": "f06c6303852eb80b2a4c29d9dba854a38e22eb9abc6dbd9d13c213ac093b92ed",
+      "bytes": 8199
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B028/micro-thiosulfate-sox-oxidation.html",
+      "sha256": "6326660ff8a3a54358445e71b3b5c1071cc25e162afd73694f64cf5ddcde0e98",
+      "bytes": 2837
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B028/micro-transglutaminase-crosslinking.html",
+      "sha256": "5694e85fa7146d0b2e78a00ba09603b31cb6a75d2bbb3212f8c870f0a104521f",
+      "bytes": 3257
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B028/plant-forisome-phloem-occlusion.html",
+      "sha256": "a6fdf98b7fd7bbf07ec98cd0cedc4f76140871b42a8cb6048db5fcd8d39379ea",
+      "bytes": 3024
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B028/plant-vnd-xylem-vessel-subtype.html",
+      "sha256": "fec1d1fd91e0868160b170727cdf6743406e203128ab916883b61f6ef9493707",
+      "bytes": 3718
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B028/tool-plant-selenium-speciation-smt.html",
+      "sha256": "31f5b20c7e5bd2d12d23f0898f267d33797c6dc39095179b4e25716d00a0325d",
+      "bytes": 3151
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B028/tool-polished-rice-vitamin-b1.html",
+      "sha256": "a15f543e2e112b7a3880b185a90e873ac3e48d37856ab9559b980bc896c359b2",
+      "bytes": 2804
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B028/tool-soybean-high-oleic-seed-oil.html",
+      "sha256": "2ed909c8d0a6adabb878e33c77f8663ddc7751911ec1046a9b33c39cc4978ffd",
+      "bytes": 2876
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B029/bio-cheetah-pursuit-maneuvering.html",
+      "sha256": "0c8e8d5ffedeb9a815a592142c6d8a059f289430c024f88b3b4afcddf3a107dd",
+      "bytes": 2725
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B029/bio-woodpecker-impact-transmission.html",
+      "sha256": "67f93380939f14f3af2b221bc5d12f37ffb5e9ab53b643df261995aca21b36e3",
+      "bytes": 2895
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B029/index.html",
+      "sha256": "72fd6c98ee7d73c12c39ced27fcfc73e617c842f1eb0aecbec6aff3ecac415e6",
+      "bytes": 7938
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B029/micro-fatty-acid-photodecarboxylation.html",
+      "sha256": "2ac5265e9baf2eb679a945221eda1a8cf8b4eb854d27fae4a92a4ab967f2b9f2",
+      "bytes": 2718
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B029/micro-microbial-anode-current.html",
+      "sha256": "05bc5913b76582d33fe18d87891f2e17dee946e6f2f461530adee2921e34dbc7",
+      "bytes": 3004
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B029/micro-sophorolipid-synthesis.html",
+      "sha256": "9f81309b07f373d83eacc9ac11d714c0481ce6a76ba75d1c7828e26358a40972",
+      "bytes": 2806
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B029/plant-atml1-sepal-giant-cells.html",
+      "sha256": "9049283e2e672342a2c4ea5f66c8ae4dc412efe896b99c114e770410e64b1176",
+      "bytes": 2940
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B029/plant-mgt6-low-magnesium-uptake.html",
+      "sha256": "46da31dd7fc75a14b7b5713fd9ef8e6d1a248a6d86bc7ab0b5c275ea56c99111",
+      "bytes": 2923
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B029/plant-mot1-molybdate-uptake.html",
+      "sha256": "e3003eab2e070d72066d31e4dd480b63d34fba5b70001835b4558e4e77f0f7b3",
+      "bytes": 3541
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B029/tool-potato-lower-cooking-acrylamide.html",
+      "sha256": "d3f8608b71eaf1e45b8bb3de91ede7fd1b9f086be741d7237301f9798797baf6",
+      "bytes": 2863
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B029/tool-tomato-chlorogenic-acid-content.html",
+      "sha256": "63dd93c4fbfc301afcea8aad865d1c18effc7c5be03e4d832d4d69c691104a98",
+      "bytes": 2752
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B030/bio-coho-odor-imprinting.html",
+      "sha256": "57e362a2c25723c9d8b65bb95597f830f9e8af42325dbffdc6e58924d043deaf",
+      "bytes": 2830
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B030/bio-planthopper-gear-synchronization.html",
+      "sha256": "c9758f0050dcd16a9015a97c6ab4ba7813acd74d2c484f74a9b6a7e2d387fe52",
+      "bytes": 2761
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B030/bio-squid-jet-mode.html",
+      "sha256": "5584e5799b220efb3669c854b830210a50cf4fa52c5772a5f15a5618c249db00",
+      "bytes": 2829
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B030/index.html",
+      "sha256": "77fc751ad3b5b6673ca8377cb062a6993a5f516b94c76aaa2df0d80b35843d1e",
+      "bytes": 7802
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B030/micro-endo-mannan-hydrolysis.html",
+      "sha256": "a17aa3ac4eb78dc81fe14610aaeef6a33c8cb22780806f44d63154ce25f9e655",
+      "bytes": 2809
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B030/micro-wood-ljungdahl-acetate.html",
+      "sha256": "3d70e6786288c782081c8920d3f667d965397185cd5f11ddd169c6b92c23fb66",
+      "bytes": 2963
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B030/plant-glr-leaf-to-leaf-wound-signaling.html",
+      "sha256": "cbb020e736c435b51876b7c7e5546050b25741100771f35d10b52688351b435a",
+      "bytes": 2914
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B030/plant-nramp1-high-affinity-manganese.html",
+      "sha256": "0389508dfaf85ec1997ebd7d609ac2bbda588b66ad23ae56ea7278b1621add0e",
+      "bytes": 2960
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B030/tool-onion-reduced-lachrymatory-factor.html",
+      "sha256": "23333288ab97059d4ddb0c3e0827554d35c3fb74b14e378c9beb0e3378c42556",
+      "bytes": 2870
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B030/tool-potato-reduced-cut-surface-browning.html",
+      "sha256": "9f82e8531098b36471cd187044135d78324e1d2c8f96504b165d9ae17d7b4abd",
+      "bytes": 2796
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/B030/tool-soybean-reduced-kunitz-inhibitor-expression.html",
+      "sha256": "ad12afce077b87cd3103565734da882a91daa12329aa6baef95478ce0d6bad72",
+      "bytes": 2963
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/manifest.json",
+      "sha256": "3ab2c2f6aea0a6501755b85a9df2e7351daa46af86d02c632ff47844c4d44e7a",
+      "bytes": 173673
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/style.css",
+      "sha256": "c3ee3a48faddf81351aa626643c1881a10c572f72189fd8397ea40d5f01ff907",
+      "bytes": 2898
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/top-100.html",
+      "sha256": "a85e5bc2df79993ed7e9cb3e17831d9d15ab3c20a12d743e36f8c7eaff4aee16",
+      "bytes": 87750
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/revisions/d1e32c9a082347d52e081e26416963a3b2ed7519e8a233f0bad6efea487fa415/trait-weaver-animation.html",
+      "sha256": "38b6f7e316801dc78713f15a19a0746d3c516744aa8152c035bbdedd12338c68",
+      "bytes": 3022010
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/top-100.html",
+      "sha256": "466bb95e87df4c2eec22c99bb959976c1c3743e7378efe4a36f9c83fa2fe4772",
+      "bytes": 94113
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-300/trait-weaver-animation.html",
+      "sha256": "38b6f7e316801dc78713f15a19a0746d3c516744aa8152c035bbdedd12338c68",
+      "bytes": 3022010
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-archerfish-size-correction.jpg",
+      "sha256": "24624507911755415b1666871dae8bff341c4cf277104b11a25589cc62ceec35",
+      "bytes": 195713
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-baleen-crossflow.jpg",
+      "sha256": "d55197301e79be5b5a87ead7347cd37c261d0dece4c6a21c7bf337954c419d83",
+      "bytes": 236435
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-bamboo-density-gradient.jpg",
+      "sha256": "20e149914b24e019b6e8be53051bc9e493d40f1660a5e81638e0452802adb5d7",
+      "bytes": 216421
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-bat-doppler-feedback.jpg",
+      "sha256": "6135dcd62e16553ffe8164b504f24831a081ba77f55378b384c0c4a0476a084d",
+      "bytes": 175546
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-beaver-floodplain-storage.jpg",
+      "sha256": "080300606c9ea0f221ea5931acf7ad4a1fc86c055b9253561e5132a8ac17c8e8",
+      "bytes": 204212
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-bee-floral-electric-cue.jpg",
+      "sha256": "c09b1870c88880171fa41cad4d7aed123f0bb43ddbd528ca56610d5f0c04aa08",
+      "bytes": 181779
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-cahs-dry.jpg",
+      "sha256": "0a04ebca6d902b71d1483facbfab468bce6b9ab3bdf07e2611d05e00a66cb849",
+      "bytes": 209801
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-calcification-proton.jpg",
+      "sha256": "cb42279632a2ebf83e4f9a63acb4b7672a1aa715187897ab0903138b073ad428",
+      "bytes": 105713
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-chiton-tooth.jpg",
+      "sha256": "eae6e2d43b8d19535ee2d78234b1c9b22aea4620ae8ea67e3956dd9ce8c2443c",
+      "bytes": 126031
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-chromatophore-dynamics.jpg",
+      "sha256": "765a28743a8cad8c4410598a1621cb172787bb499878b112254421c098e744f2",
+      "bytes": 240180
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-circular-polarization-vision.jpg",
+      "sha256": "6ba66240a7fadb5eb2be1ef157dde9e566149435f96fabe8cd2ee47c53888220",
+      "bytes": 231553
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-corneal-antireflection.jpg",
+      "sha256": "ffb993623662738ef1b35792e5b260e02b1db6d519b33539787fda625ece8163",
+      "bytes": 183702
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-cuttlefish-papillae-shape.jpg",
+      "sha256": "fee9672485a1a54b3df9db5fbe58ddfdc7bf28699d01dbbe4a4fb0f1b24303b2",
+      "bytes": 221031
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-dactyl-impact.jpg",
+      "sha256": "89318b492138a0a39c7f64e8cfacf53018680cf3c7b2f5eea6a5059e470b86ef",
+      "bytes": 195499
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-desert-ant-sky-compass.jpg",
+      "sha256": "db2c98e5328cba0227c1e5183c1ad9bdf86aaab180df74af0b8a3030afd3bfbe",
+      "bytes": 175935
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-diatom-silica.jpg",
+      "sha256": "90fe4e56c5dbdf101b5694cd9e2aa0355ff84ecb356380eec785380553cfb920",
+      "bytes": 125709
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-dmsp.jpg",
+      "sha256": "227551b0652a1e79b9d838cfa750d651346596ba56e902d3516ff4fa792d2182",
+      "bytes": 106440
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-dragonfly-intercept.jpg",
+      "sha256": "fec615ce441c6100c036993ffe84d34d525f6d3d2e294b9c27411b3c143d2c2c",
+      "bytes": 147287
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-dry-adhesion.jpg",
+      "sha256": "1ef75e94e5558308ce5d83ddb73ad7ab67f0445d7ed1c127b6f24ea05ebc749d",
+      "bytes": 197886
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-elephant-asymmetric-trunk-stretch.jpg",
+      "sha256": "493ac2cf61dfcba3b62abda3efb598a8d6fd6905fb054d83c1e28b193c6a0bba",
+      "bytes": 249482
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-far-red-photochemistry.jpg",
+      "sha256": "8dcf00f4c1d959776724e2578028252d36d0f47b00f44ddc7a5ae65a32b659a0",
+      "bytes": 78027
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-fin-ray-stiffness.jpg",
+      "sha256": "f6131491f9a99cc68a3ff5219085e009ea63ceada0ad29819505bff73d40f59e",
+      "bytes": 230232
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-fruit-fly-antenna-gravity.jpg",
+      "sha256": "2f82e2a1e4181edd5137fe74e10608fa095e0738cc63d224535f0d822278b7fc",
+      "bytes": 198087
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-fruit-fly-carbon-dioxide-reception.jpg",
+      "sha256": "ca4528422d4f115246a2d6b563f5031549cf92e07de47e05142042e0e6927dbc",
+      "bytes": 166180
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-gecko-tail-righting.jpg",
+      "sha256": "7fb147d27735566b8a0432d8799835585fc84ce7e9f727e5e85343c7d02b9730",
+      "bytes": 161386
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-goose-high-affinity-hb.jpg",
+      "sha256": "cd18bbc9330e9d21fd9fc63914947cc88c59a531f3257d54574b6859b0f73cc8",
+      "bytes": 224766
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-high-mass-ha.jpg",
+      "sha256": "3f99634aa71ec79989a675e599bfb99ad56b4943729fbc7da91dda17af5ee225",
+      "bytes": 189655
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-honeybee-optic-odometer.jpg",
+      "sha256": "1a0b4e92e07384f85c4d4395bd02b3d17f639f083644cbbfe843b71a2718ad53",
+      "bytes": 220817
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-hummingbird-sugar-oxidation.jpg",
+      "sha256": "178043461b9a61b2aff0f554dc3302f95f1db37792aa79388fd27bc83f9ab99b",
+      "bytes": 192943
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-hydra-wnt-organizer.jpg",
+      "sha256": "9bc9bce75626b0d5b37f014abac220df3a767da55b30d7c30ff0c72b2eeb3050",
+      "bytes": 206099
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-ice-binding.jpg",
+      "sha256": "5961df6b8a530c829c826a5b519b4d213793c216ca382defeb24760b4bc29e09",
+      "bytes": 92658
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-infrared-heat-trpa1.jpg",
+      "sha256": "ed01473a70e0a9f9b5b90df41d7c1bf686d00af6310881eb8cfbb8cda61f7fd9",
+      "bytes": 198483
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-lateral-line-rheotaxis.jpg",
+      "sha256": "07781306473ce41c897a4ea6606e438bb1e80968324506d93f2b09e467b38260",
+      "bytes": 231333
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-limulus-circadian-eye.jpg",
+      "sha256": "2fe15d6b648ae75985babc2f8735011b5cd2b9403ba4caca5135b8ec83e5103e",
+      "bytes": 221324
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-lotus-cleaning.jpg",
+      "sha256": "96673417a337d891b695f9cb6fe323d2ec2e2bbfcd92f8ad313349c1aed2c8a2",
+      "bytes": 136681
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-macropod-tendon-recovery.jpg",
+      "sha256": "f3dd8aff58de4b98eb9535ba19a32c5c8bd2c0ffe903db7d17c02e1b9b4472a3",
+      "bytes": 228835
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-magnetic-orientation.jpg",
+      "sha256": "9a6762f15b3efa7b708e2a4d7e7d858b006d35182e22c4eba7c59531d17d9f8e",
+      "bytes": 85970
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-mutable-dermis.jpg",
+      "sha256": "bc40b60cac5c97a0e80b66a317b2547bad6b9ee370a9e43918a3e0ff4c8ad283",
+      "bytes": 239869
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-nacre-toughening.jpg",
+      "sha256": "d6331c536f962568e3ac3a158e1c87de6c2777b7a6972ee330cca00162ab7977",
+      "bytes": 194684
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-nematode-oxygen-taxis.jpg",
+      "sha256": "2f845294d49e07d60cc52253afdb7488279efc1273360452fc53360d3a10a362",
+      "bytes": 148707
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-octopus-peripheral-extension.jpg",
+      "sha256": "88f402330a8ce5880306b4ee733f11c646ea1b187f02cffc4906397512b9f365",
+      "bytes": 225940
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-orbweb-vibration-tuning.jpg",
+      "sha256": "52ced64932af004c40c91b00dd53b428cd3636060b8cde8c85666e66c86613a9",
+      "bytes": 215747
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-owl-ruff-acoustics.jpg",
+      "sha256": "35da1672df305dd59e921093f231418faea9dc391e8d986d8d4fc84bf77d2e54",
+      "bytes": 209337
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-passive-electrosense.jpg",
+      "sha256": "d9de6a6800fff24b9590a02d4e449e6237f68bed104c3881d589e1ae03f2f6e7",
+      "bytes": 141860
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-penguin-feather-architecture.jpg",
+      "sha256": "8f31093a9a522402c7162aaa72f03a947bda79db9a8b2ba91cde064e251bc3e5",
+      "bytes": 241150
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-penguin-muscle-oxygen.jpg",
+      "sha256": "09630b6dfd241e814e35d40620fa1cbf8bc8e4bc3b80899d7166864dbd96f6b7",
+      "bytes": 231990
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-reflectin-iridescence.jpg",
+      "sha256": "4e254499966ff5b3bd5d501ec73df586eb0182757e8ee899fae9d398be4a80ee",
+      "bytes": 112671
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-resilin.jpg",
+      "sha256": "1a418363029afd23d813b683849dc5dc6c885278d399217ded2fdbaeb698ba2c",
+      "bytes": 118061
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-seal-wake-sensing.jpg",
+      "sha256": "0c9940bf2dc30e0c0ceb2160dc38c7d0f1367d86677c22f83eb146075ec61d43",
+      "bytes": 253248
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-shark-denticle-propulsion.jpg",
+      "sha256": "096a821e74d71f632381d3047ec84c32030f9f5753928f4a81747affd4e33cf9",
+      "bytes": 251425
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-spider-electric-ballooning.jpg",
+      "sha256": "a656c934af5bd710db48f244fa486b45606b310b0d3936562fcca3eeddd2cd88",
+      "bytes": 175358
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-spider-hydraulic-extension.jpg",
+      "sha256": "d3c359707a7161b965c4a898a339687c027c32e3837c1731da58d959a9c2952d",
+      "bytes": 175555
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-sponge-current-flow.jpg",
+      "sha256": "78c42582a087a41f3c3b40ed477b0276b0fe24542849d8b43db5f66358a88574",
+      "bytes": 219672
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-sponge-spicule.jpg",
+      "sha256": "e8f057b1367b98086999f8b5ef3345f2fa9e5308c81c5953631e8d3673d12739",
+      "bytes": 117777
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-termite-diurnal-ventilation.jpg",
+      "sha256": "d248b64751eff8b9e1163db7646c77741d8099d939dcbb6dc7748ae721ad4f99",
+      "bytes": 218106
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-turtle-shell-buffering.jpg",
+      "sha256": "cb6ca4b6c2526b358b0c4883878471332b73c1d7c2436c91fc97fe0e0bc3231f",
+      "bytes": 217822
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-water-strider-propulsion.jpg",
+      "sha256": "a0146223f10de42e7c44cfaadb4e82f3b251917e96a39b0a3e167468dbf1beb8",
+      "bytes": 157741
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-wet-dopa-adhesion.jpg",
+      "sha256": "8fa20b412d435a60762248a4c201ad66b33e44ff142857f218c052a20fe0052c",
+      "bytes": 218930
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/bio-woodpecker-impact-transmission.jpg",
+      "sha256": "f780faab24cc988911541c30cfd7a6c6a7ed27b4022b7ea459ded72b51d63b92",
+      "bytes": 251334
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/manifest.json",
+      "sha256": "6ebdfabaec59d33d522541148dd1dc606902de9de5f70cd435fe025f8cdf2d7d",
+      "bytes": 83178
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-agarose-cleavage.jpg",
+      "sha256": "9a6b10c2e85d9e06e3c36e92d0e056ea19ae63ccf02cfa228138a3b49bbaa5be",
+      "bytes": 217804
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-algal-photohydrogen.jpg",
+      "sha256": "7070b6139ae258a26c95964bb28c4d5a431ab7f80dcba9a200af2c5ca2df8dd3",
+      "bytes": 161670
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-alginate-monomerization.jpg",
+      "sha256": "4e580acad5dfc971785c511a29629726c0d6f9718cd1f93b9388507cabfaaf63",
+      "bytes": 190549
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-alpha-ketoglutarate-production.jpg",
+      "sha256": "5f7c7a97965ff37ff237e932e1ae731c6fe749840deb961225acd050fd7d1546",
+      "bytes": 162270
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-anammox-ammonium-removal.jpg",
+      "sha256": "41bd864688c8af6bf2aa18ecd5f33db2f8450c9c513f6476d560c9e7bebf7756",
+      "bytes": 207458
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-archaeal-ammonia-oxidation.jpg",
+      "sha256": "174e83faffba95fa98d693100f3fc7172572b36b5e9256a43a03b267e6dbfd71",
+      "bytes": 140318
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-bacterial-alginate-biosynthesis.jpg",
+      "sha256": "021d5d0de0c962d8d1d20dc4a00504b36786821fe317e5c417adbc5554239b4f",
+      "bytes": 215004
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-beta-farnesene-formation.jpg",
+      "sha256": "3e1f2dbf80697e2456c736dbc7deb56306b9bd904ebf094d5e8ecf7aa9a0085c",
+      "bytes": 207458
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-cellulose-oxidative-scission.jpg",
+      "sha256": "e9e7a4405665fc30ee6782001095e8469426f2cc2e7178f8423c2064870e97ac",
+      "bytes": 206367
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-chemolithotrophic-nitrite-oxidation.jpg",
+      "sha256": "a5e9c63bfb236d6493b270be605b0906e654329bb632046859f44c71ff251ef8",
+      "bytes": 216846
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-chloroflexus-malonyl-reduction.jpg",
+      "sha256": "ff2606fc0c307ec4e33c7c420ff8cec6a54c28b13c071d3f4eabe9413fb7463f",
+      "bytes": 232879
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-curdlan-production.jpg",
+      "sha256": "fc95064b1a5b96019f1d737e57629adbc87e09b82091f643c4d52c2b6595fd43",
+      "bytes": 118020
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-cyclodextrin-cyclization.jpg",
+      "sha256": "343a46b6d593bf9e77dab6203cff0c0f8ccd4f12932aa37d221c69a816e1895a",
+      "bytes": 172559
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-d-amino-acid-oxidation.jpg",
+      "sha256": "7ad8ff2166644bf24b64810dc233b8540f8d1d5492052347b2143c680f9bd823",
+      "bytes": 202944
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-dextran-production.jpg",
+      "sha256": "610cdeea2d8b4f43c6f11775df11ff1b2895cc3493a39f0abbdbd5782103f270",
+      "bytes": 100013
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-erythritol-production.jpg",
+      "sha256": "5dc90918972f6be301fd047879047bbcbde5707b44c9b96a2dab06995235e5c8",
+      "bytes": 135641
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-fermentative-malate-production.jpg",
+      "sha256": "7bed9a307ba76981c17b335a577b52bde57922ee1945d2c711fa6e2f0042f15b",
+      "bytes": 204992
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-ferulate-ester-cleavage.jpg",
+      "sha256": "ba47197ccc0a4f30f1985650af2b7b92157c684f553c18d1e5b1846d13f4f625",
+      "bytes": 226848
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-formate-based-bacterial-growth.jpg",
+      "sha256": "5690d4ed8696c858531f3591c70ca8d11e503dd8269f0e8a354f241b8ad130e5",
+      "bytes": 217665
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-fungal-glucose-oxidase-production.jpg",
+      "sha256": "1973e47cac4a0cb89e0ec292dd4041656eeedf3ed165e272397deaabb443c68a",
+      "bytes": 195020
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-gellan-production.jpg",
+      "sha256": "1f3f97b9b07ee61fd2a3d007d085f3efef0407236d52ac48a19c126abca63d3f",
+      "bytes": 165117
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-glycerol-to-dihydroxyacetone.jpg",
+      "sha256": "03ea56caf9ab18b32f315785dc0d15787bdec3ca43b2ccf00ae604d462cbc7e3",
+      "bytes": 193198
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-inulin-fructose.jpg",
+      "sha256": "ebf343c251bf6c95f6f0b18422bf4b7f4920d011f92c48f8fa4a7735707aff6c",
+      "bytes": 164731
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-isobutanol-biosynthesis.jpg",
+      "sha256": "38798822e54bf3872b3982752bf519bd8ce52729912610f2b04de8b9b7ca0992",
+      "bytes": 221144
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-l-lactate-fermentation.jpg",
+      "sha256": "0745c7274c5e68b8306848fd8fbaa6278a7b9680841c5cf1906df474b5c909bb",
+      "bytes": 118071
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-latex-polyisoprene-cleavage.jpg",
+      "sha256": "f35086b3cd469dec7ec874c56c6db9e9eb7c931ad4719cd917ca6e0479426e9e",
+      "bytes": 172535
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-levan-production.jpg",
+      "sha256": "7647006cebc3ae9a2b73b42ec8097a71ea8e4be08cdc7c04e89998dfa1d6a2bf",
+      "bytes": 116266
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-magnetosome-biomineralization.jpg",
+      "sha256": "b8a5cb02f22568c2cc40dd87f4ff0a3fed1309d531cdf1f6c35ac042fd845fc7",
+      "bytes": 141522
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-mannitol-production.jpg",
+      "sha256": "d44a0bd2e35c971749abdebdf33605721a3f52501e4424c73e6b4761f245e8a5",
+      "bytes": 151142
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-marine-iron-oxidation.jpg",
+      "sha256": "4b9d9c229bb4b4ccc3065979e562d1d269d0cea84a00726ce298b9b97bf3506d",
+      "bytes": 157993
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-microbial-anode-current.jpg",
+      "sha256": "81ad5b6feb0ef7b875f5bf9ed799b16c6dabb71930f6a1dac7edfd2a19f494d2",
+      "bytes": 177427
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-mouse-decarboxylase-itaconate.jpg",
+      "sha256": "a7734935dc966d3c8d89b6425284970958882a31f095d7bba197ae7d86bbfe67",
+      "bytes": 203837
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-muconate-production.jpg",
+      "sha256": "4eb0e0a32c18502c9f8003761d91a55709b6b1032953a3a88f8e597fc006e9bf",
+      "bytes": 165691
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-native-butanediol-production.jpg",
+      "sha256": "ad2167f8151e1dec27278d3b5e2c217044dd738ce22ab6207715287674815c7e",
+      "bytes": 222037
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-nitrate-ammonification.jpg",
+      "sha256": "312fb44f4acc218e76fbc48f14d69fc8ac831dfe69312c488862e9935b51f598",
+      "bytes": 211758
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-nondenitrifier-nitrous-oxide-reduction.jpg",
+      "sha256": "4f8d60f7ddae12ae52d86b706411f6cba503bb057e7f3dbe4fc0aaafeb9d187c",
+      "bytes": 210254
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-particulate-methane-oxidation.jpg",
+      "sha256": "e4ae62dbcc936dde408119e9de183fb7d6eba0fe4ab769a43bd6820fb94b3469",
+      "bytes": 184365
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-pectate-cleavage.jpg",
+      "sha256": "8ac481c408f2be9c4061b2554f84fd19e5434878487edbc6862a3f32d2cc510d",
+      "bytes": 186582
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-phospholipid-headgroup-exchange.jpg",
+      "sha256": "34e7f5573f40b85897762fc0bdbb6c7f70ef1b08c5f3acc9b456952b62ef617e",
+      "bytes": 168912
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-phosphonate-bond-cleavage.jpg",
+      "sha256": "fa915713a903e96477d8e19c74530b1470b99d3c952345f68564cd91707b8b71",
+      "bytes": 159733
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-polyglutamate-production.jpg",
+      "sha256": "c7fc10ae4de3c9c63f1809a5a6b1e135d7eb302aa4fadd9dd8e1ca587654abea",
+      "bytes": 113045
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-polylactide-depolymerization.jpg",
+      "sha256": "df087d92eb9f8307ae4bff2fce60222d07b2f5cbc9ad289c4718efd3aad3b010",
+      "bytes": 156720
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-polymalic-acid-polymer.jpg",
+      "sha256": "ba13770375f528cfdd62f83730f56f349edef25bf1fec00f3156b54a4453c014",
+      "bytes": 248021
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-polyphosphate-atp-regeneration.jpg",
+      "sha256": "1f5b48f74dce6d359673576a744d93e25dfc8e75a246c0122fd82354f352776a",
+      "bytes": 205970
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-pullulan-polymer-production.jpg",
+      "sha256": "e59c8a7947c5c12b992318a6c1abcecee69b7d248de97e1bd3db3d585a6e89fb",
+      "bytes": 188424
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-pyruvate-extracellular-accumulation.jpg",
+      "sha256": "3974f9e5ea871f06f62fe78e6d483ded715e81cd4bb026c4a2b37866300c66c2",
+      "bytes": 183684
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-sorbitol-oxidation-sorbose.jpg",
+      "sha256": "1c55b659aa715be0dcbf2ffd362691656f48ca7badc6047a2ad68f35ea96f43a",
+      "bytes": 191293
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-starch-liquefaction.jpg",
+      "sha256": "ab1714409a15f59d0478bdf7bb8b6f53289de41eb6978a5edc87a29333d2bfc7",
+      "bytes": 143934
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-succinate-fermentation.jpg",
+      "sha256": "06c4f0c577c57f347bc4ce0d76b8af6817a51530e60d502bea45334194d4f93e",
+      "bytes": 127702
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-succinoglycan-biosynthesis.jpg",
+      "sha256": "b44baf73d292f54b25fbd3f9521e61e2dcabeb87ddadf116a20dd8ec2333f789",
+      "bytes": 206084
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-thermovibrio-carbon-dioxide-hydration.jpg",
+      "sha256": "52c6f91af5d4ff3345916e84dc4b7b3fc6f9d927057164bbe789063248926fea",
+      "bytes": 253471
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-thiosulfate-sox-oxidation.jpg",
+      "sha256": "bd0614abb4786947f55e6b7615cdb52579cf512ed57bda9d938c0ae94c52265a",
+      "bytes": 253050
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-transglutaminase-crosslinking.jpg",
+      "sha256": "572d510a5ec803a2c290217d935197e9fee73c8e9fc707f6ec139a68a3535aa9",
+      "bytes": 126696
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-ureolytic-carbonate.jpg",
+      "sha256": "5aa4183a5165f056f8237343a8986c51f205c0bb97512a8f04883c1abb62c0c9",
+      "bytes": 126256
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-vanillin-bioconversion.jpg",
+      "sha256": "725f5c9d828bfc3d7b66f45b15542d17271f2356336c4214f2ab3d74dfbbcdc6",
+      "bytes": 168305
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-xylan-utilization.jpg",
+      "sha256": "a12569ce3a59d349176f11b39a5e98d7f9074997ede7a5bdf27e572c2d40dc25",
+      "bytes": 154083
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/micro-xylose-to-xylitol.jpg",
+      "sha256": "190632ac993cdcf305cc1e61a5fc0be94ba153c6bf45e2def2dbf86b76e92582",
+      "bytes": 159170
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/next-01-psr1-uptake.jpg",
+      "sha256": "3589fa6a5dbe002a4cba511cacb4233385de0cb2411ccf36f0e26a0b45469521",
+      "bytes": 116708
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/next-02-vtc-storage.jpg",
+      "sha256": "a22222f1fa40f13f589bb3c5dd755fa895b3becff46d552de6768bc8d11d9144",
+      "bytes": 163011
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/next-03-community-phosphorus.jpg",
+      "sha256": "75051b51f9bd0ce9ebf89d964e399643579610d3685980444d4a0d6bc12f3880",
+      "bytes": 230904
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/next-04-copper-binding.jpg",
+      "sha256": "326163e4ba14e51fd83fb17e740bf440785a0d9edb4b4be91c91502d0d1fddbc",
+      "bytes": 146100
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/next-05-fungal-wall-breakdown.jpg",
+      "sha256": "d9f5f0e5a71f6ccca7c0c9c839b04e31bf2a72db6b0ad61e5bb8a14c0d721d2e",
+      "bytes": 227331
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/next-06-bacterial-cellulose.jpg",
+      "sha256": "92e6e882d4f45ce0dfc8e8a450c4f371c61c46d3db4980dab197539427db5bf6",
+      "bytes": 214058
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/next-07-xylose-fermentation.jpg",
+      "sha256": "71e91014a011025a52ba023c42df101a43387fd42a8587f570595a6ff767e811",
+      "bytes": 154910
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/next-08-lactose-hydrolysis.jpg",
+      "sha256": "9b1d69ec4b5a84d949a6a43b5ef7d46d97fdd1335a9753e73e6939501027fb5c",
+      "bytes": 171618
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/next-09-riboflavin-enrichment.jpg",
+      "sha256": "65a8b084d582c86b4a9ac13e7f48f5b3de151c2756bdf09d680f0e781bb7f168",
+      "bytes": 146139
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/next-10-sucrose-transport.jpg",
+      "sha256": "ab9a10e817d4c65f1fef8bee131d1312b5869fc2fdccafb07fe7dca649e19525",
+      "bytes": 150612
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/pilot-001-gfp.jpg",
+      "sha256": "513129ac40f10ede2bed14bdf6bc41b75c441d84feb4e23096c2fe7d88143f79",
+      "bytes": 149646
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/pilot-002-fungal_bioluminescence.jpg",
+      "sha256": "0fde39b309f694275091fcac9dc72c25325bcc72c61cf80d4f9d7cd1ac086b7e",
+      "bytes": 127567
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/pilot-003-betalain.jpg",
+      "sha256": "c8bb7ae5cd0ef78e8abceecd60209075b4a322af16d61e6aed2639267eecbf7a",
+      "bytes": 252428
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/pilot-004-provitamin_a.jpg",
+      "sha256": "11afcf20092c2b139badbd417eb9ae42c454506482e2492413da867afa709235",
+      "bytes": 228218
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/pilot-005-omega3.jpg",
+      "sha256": "5fcca0973070d6111272813777070529e44fc854bd74e71186a2bd27f12befbe",
+      "bytes": 182810
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/pilot-006-phb.jpg",
+      "sha256": "c918581e97baa896c7eee6adab52c03c5c803193ad995d165d72d6001b53d808",
+      "bytes": 208670
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/pilot-007-silk.jpg",
+      "sha256": "5dbc020ad8a6b736573085e2c5a0ac8df98b5dbe3987da11e609026127bcf4c3",
+      "bytes": 188793
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/pilot-008-phytase.jpg",
+      "sha256": "e4e0faede3cf3e9173a0bc615b558ebf74cc4213527db35c3c94d1dbe72deea9",
+      "bytes": 184337
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/pilot-009-trehalose.jpg",
+      "sha256": "bbd24b3f0f0d4f5251e67310c480d9fa444f782c8fa0c5b02d7f4d1581298fdd",
+      "bytes": 165586
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/pilot-010-pet_hydrolysis.jpg",
+      "sha256": "cd10d4b426085c0b86bf98ee712eb6597d000ab4e8c24d32fa6f7440b5bfeb9a",
+      "bytes": 164954
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-aba-stomatal-closure.jpg",
+      "sha256": "903832e7c3eaeeed16be7ee26197bdcee41c4903af55e3c5055c5ad8874c3ea2",
+      "bytes": 194402
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-acquired-thermotolerance.jpg",
+      "sha256": "de2a4f07faea774b5a1e6179720a8980a95440d962fa5d505426978effbad87a",
+      "bytes": 149128
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-al-activated-malate-export.jpg",
+      "sha256": "a92108331dab1fec3e051d2ceba235ad3238f46828bed3ebe8e7ee46556e84da",
+      "bytes": 138891
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-amt1-ammonium-uptake.jpg",
+      "sha256": "7e41507f94e9fa5a1e5907fea712bd8b68b3894ebb01da7a8cc2e9bdc15a8a52",
+      "bytes": 234636
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-atml1-sepal-giant-cells.jpg",
+      "sha256": "f17018a8c88f4d5c8800611a21e147a3dfffdd44331c384cc847cfeeac665b15",
+      "bytes": 187312
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-boron-xylem-loading.jpg",
+      "sha256": "57a32de023f7968271390797cee1c113f4f375b378c47a5b4ff383049f938798",
+      "bytes": 183288
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-cenh3-haploid-genome-elimination.jpg",
+      "sha256": "be0f01f6550e11281b7b8491739e55badc9cdcfff19cd0362a7ebd21c0c1a8f9",
+      "bytes": 197496
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-chilling-calcium-response.jpg",
+      "sha256": "8690b4f6804d0fc4cdd634eff4c180ed2fe70d5c3ab6cd1fb122c25d8750e1f6",
+      "bytes": 118972
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-cuticular-wax-alkanes.jpg",
+      "sha256": "e33459528bfbff2a020a1b1e5e715e5631426b82ff32463a07b39960b78e00e5",
+      "bytes": 159413
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-delayed-leaf-senescence.jpg",
+      "sha256": "94525051511b4a074659afb87ef1c45932584390678de3e027948694738e7719",
+      "bytes": 121459
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-della-reduced-stem-extension.jpg",
+      "sha256": "ed931dc8a294ac2e12070387de734db90f9c427be34e9d6ef2e622549a5d42bc",
+      "bytes": 196205
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-electrogenic-nitrate-uptake.jpg",
+      "sha256": "b13fb6774d8d21d7e76e6f3c1fd805e376fef5ddceac47d37c64d154d1534940",
+      "bytes": 170129
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-epf1-stomatal-spacing.jpg",
+      "sha256": "161b12e59e182a7b02b6ba8e9005270c8e063b104876f4018712414d992f571a",
+      "bytes": 223612
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-ethylene-dependent-fruit-ripening.jpg",
+      "sha256": "12c49d33b12cf6ef9e1596d4d9cac788860464e647ebef5be5ff475c060d16ab",
+      "bytes": 185580
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-ferrous-iron-uptake.jpg",
+      "sha256": "863c1799fc8386d92ca534d8919da63f3e1a8c9516cf3a8149460d543a3b5a93",
+      "bytes": 215517
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-fis-endosperm-initiation.jpg",
+      "sha256": "a29095660ba4b79c48a731cb07452abd93607c7a37b79758ed9323fd3810fd4d",
+      "bytes": 185360
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-floral-methyl-benzoate-emission.jpg",
+      "sha256": "12daa8b25862477eae7ec23e020398d11a40abdf58e62855b9a0cc57924ddd85",
+      "bytes": 174289
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-florigen-long-distance-movement.jpg",
+      "sha256": "3f9f60ae4774f7c57ea6cef05a9ea333850ee4ea97eda5405a22321a14150d6c",
+      "bytes": 207310
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-flytrap-touch-integration.jpg",
+      "sha256": "68635201002d86b7ec21423928a50df114b6cb7f0641b60c7ec692870328a295",
+      "bytes": 190492
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-forisome-phloem-occlusion.jpg",
+      "sha256": "ee9519c0ece91f3ca523a0fcc5b9f3c6bf9c4abb4603b5b4a42c7da02c7a78c0",
+      "bytes": 216048
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-freezing-acclimation.jpg",
+      "sha256": "2020cc3092d9c7ccde633f2e2e14d8fa6186bcba33d8740e6a53b37e189af98d",
+      "bytes": 175757
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-gcs1-plant-gamete-fusion.jpg",
+      "sha256": "15df29eb83cb2f87008fb12619363756dedc247cb833bf3856e7b90d26063145",
+      "bytes": 172789
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-gl1-leaf-trichome-differentiation.jpg",
+      "sha256": "188601e07ee2d11b2563596cd0a74dc79af68bc7fee7a7b3c39e076f30c75bf1",
+      "bytes": 211319
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-gnom-embryo-pin-polarity.jpg",
+      "sha256": "286a93c655de14c779ed73c3a8be95373262f3937a5d880042df484f7d188217",
+      "bytes": 162348
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-grape-xylem-embolism-refilling.jpg",
+      "sha256": "fd387c8cc1397bcc3cc763e6f7360704fadb999fb6bcc30939fb52d77636d8cb",
+      "bytes": 253966
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-hma3-root-vacuolar-cadmium.jpg",
+      "sha256": "d30643422f95a8b3a6bb16d7b42539e270b237123daac0ea329e78fd18311560",
+      "bytes": 188920
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-iaa9-fertilization-independent-fruit-set.jpg",
+      "sha256": "0525e4e090c5a1ca696ed6affd07c23c38bf23f0267490c2300db8c040ed7c6b",
+      "bytes": 184218
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-lax3-lateral-root-emergence.jpg",
+      "sha256": "0736775da0400ff1068b0618e975d2fb39928372fa79c393d840be8b905ff57a",
+      "bytes": 215346
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-lazy1-shoot-gravitropic-posture.jpg",
+      "sha256": "ae9d22d22bdb3302a5bb2114f12a6c52d4f7cbdb3376aa46d1277e4f99ea19de",
+      "bytes": 239079
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-low-potassium-acquisition.jpg",
+      "sha256": "251b6c8d76685a57bf7caff20d2e5fcd19de4f495400d73e4880b6cfa2e202e4",
+      "bytes": 170721
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-mgt6-low-magnesium-uptake.jpg",
+      "sha256": "7bddc750286c72a81f0e73b504cbb6528854923378a8bb80e2dd3a97d2a90488",
+      "bytes": 247893
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-mycorrhizal-lco-signal-response.jpg",
+      "sha256": "20c4493c2c23c83e8cfc65f8c2aef5d517552780bb4785a5b277880c5a51d517",
+      "bytes": 249441
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-osbri1-lamina-joint-bending.jpg",
+      "sha256": "29f25807a7e64caf69583eab1d7be51408f52fc597f19f5455bf325a54aea95b",
+      "bytes": 123610
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-pcpb-pollen-hydration.jpg",
+      "sha256": "a9ec545edd807abbd37865170c9754e86d04bc7012caa2b2436202210fbdd670",
+      "bytes": 164481
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-photoprotection-relaxation.jpg",
+      "sha256": "8f7a0b90ee36cc4208dc31d3a921d409d320f9b5530a38c4280f7abf9cf0009d",
+      "bytes": 129127
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-photorespiration-bypass.jpg",
+      "sha256": "3e665b5799870aa56bf88608cf1a550f42b68adc1ce0bfbcfeea116e9d929fe8",
+      "bytes": 177324
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-pif7-shade-elongation.jpg",
+      "sha256": "b9e02994113eee3d344f305e5393305bbf0e7272532de8b545148849bb632f4b",
+      "bytes": 161226
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-pip22-root-water-permeability.jpg",
+      "sha256": "85a129cd81c01f1287fc367167177824e197f1a24a93fa3f5321611c4cd6fe7a",
+      "bytes": 224960
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-pollen-self-recognition.jpg",
+      "sha256": "06381fd7c2a14efc25a686af71664ed5c4271c0b2d4446c49688e4868d20bd3c",
+      "bytes": 148204
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-primary-seed-dormancy.jpg",
+      "sha256": "5ef70dc418591b3f71e5da4d5af8f1d0b65b585b1b26fd4f953f1b14cfa29c99",
+      "bytes": 155261
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-proline-osmotic-adjustment.jpg",
+      "sha256": "bff885959f1d212fabaad51b78f93bb666bac1eefddff54a3086d69a2dfb596e",
+      "bytes": 195353
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-pulvinus-motor-organ-identity.jpg",
+      "sha256": "ea266c28acf08ec6657322ee17ccad58aa9add4e8d7eec7b88de9cdf32129041",
+      "bytes": 135839
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-rbohh-root-aerenchyma.jpg",
+      "sha256": "7430ebd5fe9c443e4ede0291a2765e17a4ff45847abc8b5c88f1352e56f356ae",
+      "bytes": 216728
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-root-hydrotropic-curvature.jpg",
+      "sha256": "59891abdcd3db538f8000242516adeaa877e1c2fc69f091030190684d2a3eda4",
+      "bytes": 229724
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-root-mca1-touch-sensing.jpg",
+      "sha256": "15a1d17278499aa8b05980f408cb67c49efe56479e16084626843f2531d26236",
+      "bytes": 225075
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-rsl4-root-hair-elongation.jpg",
+      "sha256": "036134d667a97f5f478e02548aa6372bf7133b084f66f1f7934f12d2b124e1e9",
+      "bytes": 192042
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-silicic-acid-influx.jpg",
+      "sha256": "c58d2a95597f26245d4ef77865203550c74e9d2999485f8b74a2fede9e1d1186",
+      "bytes": 229646
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-starch-accumulation.jpg",
+      "sha256": "b80ab5e301295ef2181d15e4c27881ee9397b5803ecfc2e5414a67ed4a8fd325",
+      "bytes": 195890
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-steep-root-angle.jpg",
+      "sha256": "47b232a0b6df7bc6739f20c8c955990ac96e7e8628b6e8d86d3d13f16caf4efd",
+      "bytes": 147606
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-submergence-quiescence.jpg",
+      "sha256": "91da2ccae6cd0a10dda7cb4e6bf07bf424acd784ae087b894043759ae8d8454c",
+      "bytes": 99013
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-tendril-coil-overwinding.jpg",
+      "sha256": "df7478fc92223882f9d5142d8d4c5d8162ceb4222e7d097a49d7a6403d5d7bf8",
+      "bytes": 174600
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-tillandsia-trichome-water-uptake.jpg",
+      "sha256": "7934678c416167ae391fde4893878b9c82aa6546b65ac7c5684df89db17a9b04",
+      "bytes": 200990
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-vernalization-memory.jpg",
+      "sha256": "0330d0ca9a462f48fe18d18dc25662d7c8b062a28805a133b9fec0eecccfab69",
+      "bytes": 241081
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-vnd-xylem-vessel-subtype.jpg",
+      "sha256": "87f543e0fd882a58ba87f228ed8cf2af3b73f19a7b7c2d3426555d6fdd7bee2b",
+      "bytes": 198133
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-wox-adventitious-root-initiation.jpg",
+      "sha256": "ade2124b81ff5f469aef55adf84687b13c50f30225424b74dadf72d2604548cc",
+      "bytes": 192180
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/plant-xylem-sodium-exclusion.jpg",
+      "sha256": "1ca277501e33686fa6099ddad69b6f979279496549050a55ac58074b4227a35d",
+      "bytes": 228689
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/theme-material.jpg",
+      "sha256": "55069d351db8772702bb83296bfeb44b01f7314b907e81e0d34516a3ffd965d7",
+      "bytes": 235631
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/theme-microbe.jpg",
+      "sha256": "a12b5d8022ff1621f4b56d4f8912359be6e62174d45f1a2ebb04f80cf0d5dc15",
+      "bytes": 170329
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/theme-plant.jpg",
+      "sha256": "0e7c99e5e1e66cbac39f8cfb533f58efbabdadb7b77e98b5e4ef9b6653820a32",
+      "bytes": 198810
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/theme-tools.jpg",
+      "sha256": "59d58c7e5d5ce28b9be88f60aea9b2453fd0b42bd225ec05cb5e72232d3de9a2",
+      "bytes": 178825
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-aequorin-calcium.jpg",
+      "sha256": "ec2789dd50cfb8cab9832c7902c9dca4b1d0239abfd24cefacd030b3462b4a07",
+      "bytes": 121429
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-anaerobic-flavin-reporter.jpg",
+      "sha256": "12b29ecfbd57fbed20580fbee496a3e3078e1cb949f9c45ff057fadd84a2716f",
+      "bytes": 78482
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-anthocyanin-fruit.jpg",
+      "sha256": "8f31d22173f9ba6a7cff7cc936b702bd3f33c5ef6f08d60c10b2156b360d94a7",
+      "bytes": 133732
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-astaxanthin-carotenoid.jpg",
+      "sha256": "503583ef9b16da885dc75615d1e96c166f8188512b8090136d5c4ffd5d04e5e4",
+      "bytes": 129872
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-auxin-triggered-protein-depletion.jpg",
+      "sha256": "e76236e0eff95ecda262f7062887be1db6327918aac7146f0df72e7297fbebd2",
+      "bytes": 200189
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-bilirubin-fluorescence.jpg",
+      "sha256": "e3c872944e72b92181bc0e0c5b7d612cffe36a0c4ebf4fbd18a1ebab79c0aa3d",
+      "bytes": 135766
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-biliverdin-near-infrared.jpg",
+      "sha256": "00055255fbdcae742fbc733e8b8247a8a9059cd06b840b7068c1478c0262ba60",
+      "bytes": 130042
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-bioid-proximity-label.jpg",
+      "sha256": "f206f4d2e3367717bd6dab3e005906cef9d6fd0ddb80b643a20957604634401a",
+      "bytes": 96635
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-caspase-activity-cleavage-reporter.jpg",
+      "sha256": "14a3e7a2643c81ac02ee80d1d442485e744822250bea02e1a982ca436d53eb73",
+      "bytes": 202697
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-cassava-root-vitamin-b6.jpg",
+      "sha256": "c610e435cd3aa8bd8729cf408cdfeb28567bd47c6287d57b7f5eaa5af1ba97df",
+      "bytes": 185462
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-cellular-nitric-oxide-genops.jpg",
+      "sha256": "87a109f1baba28dcbe25308fca8775d978b1b02f63f360fcf8d0315c8fbef220",
+      "bytes": 205263
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-cobalamin-biosynthesis.jpg",
+      "sha256": "b9cc213e9c134467361ffe6b8101b6445c41bba43606f2da71a2b50bfb3459bf",
+      "bytes": 154693
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-cytosolic-glucose-dynamics.jpg",
+      "sha256": "3aa565145f729d307f17787f39d08484083b2fa841efd38aacdfc7a9f9c2748f",
+      "bytes": 169660
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-cytosolic-hydrogen-peroxide-hyper.jpg",
+      "sha256": "4aec97b99cd1fc2e075b5136adc0117a9d1031e93795b834f2fecc6951a9505f",
+      "bytes": 186074
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-cytosolic-lactate-laconic.jpg",
+      "sha256": "cc5d629d0c5c6cdc24598e6fa005ab4c1630df2e3a4f6b87a84b4579cc261162",
+      "bytes": 190142
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-cytosolic-nadh-ratio.jpg",
+      "sha256": "bceebd5179fca4682f3ca9dfadedc164bb4946ff8100fc8b4907abc91312d8da",
+      "bytes": 186824
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-dinitrogen-assimilation.jpg",
+      "sha256": "a59bf2907245609fa66e3650ea029582535163d5613d55287efd79db0c9d2189",
+      "bytes": 113007
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-dopamine-transient-reporting.jpg",
+      "sha256": "68de50e88066c43f36f498d0b2ec99cfb1ebd5f2a1487b246c9643e303288541",
+      "bytes": 242115
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-extracellular-glutamate-reporting.jpg",
+      "sha256": "3b03c785b33562f007aa691bcd67f3cbc58683b927adcf6e9602b482ea479e00",
+      "bytes": 169466
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-ferritin-mri.jpg",
+      "sha256": "a8b190b8df5b073afeee5d8074b68c73fa49d0b64f857af1aeed466646668b31",
+      "bytes": 104741
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-genomic-locus-imaging-dcas9.jpg",
+      "sha256": "60ee3c482729b1a8b2367c13f780680c721667b98053072034ea535f43dbdb5a",
+      "bytes": 216841
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-glutathione-redox-imaging.jpg",
+      "sha256": "8213fc7489c071a51040a8d11947fa24ae6d8c2bd95c36d7e111fa20db30a326",
+      "bytes": 217143
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-grain-lysine-rich-storage-protein.jpg",
+      "sha256": "2aae90692199381b66dc6870c18054365cd8a33b85bf9b56ac9f39e86c9f9f33",
+      "bytes": 203883
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-halotag-covalent-label.jpg",
+      "sha256": "de781e547f688fa1a2188361f6a1fb08132cda9e0e4a464dda9ec5d4e71b2062",
+      "bytes": 81997
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-intracellular-chloride-ratio.jpg",
+      "sha256": "113dd5bc363b97cf3779d44da8812cfba63a6291dc73b9730451344b9376d926",
+      "bytes": 227717
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-intracellular-macromolecular-crowding.jpg",
+      "sha256": "153a899cf700b7bf42a6dfcde88cbddefa4a28add94a0d27f88ecc2e974e7b25",
+      "bytes": 215556
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-intracellular-potassium-gepii.jpg",
+      "sha256": "7072ccb567f730688bd70b50d96262556be9b4fd973fad39752cd847ddbd1ef5",
+      "bytes": 94855
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-kernel-methionine-sulfur-assimilation.jpg",
+      "sha256": "b6bb0ec64ebe24ef7b6c67b25388fed2de738358df0db44d2a0bb90d94a0e6cd",
+      "bytes": 218873
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-labile-zinc-ratio.jpg",
+      "sha256": "2f716738a82f4c83fa62906f828c7d4b97ec23c44c495bb2bbea215d91dd1603",
+      "bytes": 212855
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-light-gated-neuronal-cation-conductance.jpg",
+      "sha256": "1fb678c7658ec602afb09e464dcb235a4680a920484e08860f55253822abbe13",
+      "bytes": 161363
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-light-induced-protein-recruitment.jpg",
+      "sha256": "dd217e0d0bbb3abf26c841199ed4475dac964699a3fe4dc8c1274f689bf38cea",
+      "bytes": 163483
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-light-to-transcription.jpg",
+      "sha256": "f9ee686ab55be9394b5b6df49847cc537aab16fb62f242c19e83213c7bde36bd",
+      "bytes": 102396
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-membrane-phosphoinositide-redistribution.jpg",
+      "sha256": "a4d240154042cbaa1f0ad2a53fa2fd807871ccea42dbd6d135555e5af5d8bcbc",
+      "bytes": 178920
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-microbial-folate.jpg",
+      "sha256": "685d7a202318bc57510e56c190f5ad2f88bfb79bdc3a682914c5265a3fff17c3",
+      "bytes": 119263
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-microtubule-plus-end-tracking-eb3.jpg",
+      "sha256": "c4eccb929de18939602e3165215bae7461ad00b0559800bf951d5e82893b3db3",
+      "bytes": 185490
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-mixed-linkage-cereal-glucan.jpg",
+      "sha256": "e84c1c104c49084c010bd44bfd4a88c1e6a7b0943399dbe7364c5c90e43bdc8f",
+      "bytes": 217477
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-nascent-protein-translation-sites-suntag.jpg",
+      "sha256": "b0e286325684adba9b820e3ef52ff768163abf3ba52bf8fc87462e8978374847",
+      "bytes": 121625
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-photoconvertible-time-mark.jpg",
+      "sha256": "0f179adc641f03754983bc716b521b67b67e6dd06f1c1f4a1e772aafdc46eb72",
+      "bytes": 175208
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-plant-mgatp-sensing.jpg",
+      "sha256": "c2a221ab5bf882929540a4dc6e0045dec7871f9fa24d1ba9fe6522bd2f44801f",
+      "bytes": 151222
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-plant-selenium-speciation-smt.jpg",
+      "sha256": "2e7ca59546699ae090e8c3413f23d458c7d09df0e45eba85493cd3fe7aa5f07e",
+      "bytes": 254321
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-polished-rice-vitamin-b1.jpg",
+      "sha256": "e43b4a63d4c8f5eba781b7d34c616578818c4d2fe3690c0f58bf020b8edbb72a",
+      "bytes": 193318
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-provitamin-d3-sterol-conversion.jpg",
+      "sha256": "cc061cc39539308a0c078ea39b8ec0a729729bc3ea8b94039ed01d8d94f8eeac",
+      "bytes": 167546
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-rhodopsin-voltage.jpg",
+      "sha256": "7cff40478728ea442bacf0c10813a386288404e0a4c451cd5c769de7183984e1",
+      "bytes": 68919
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-rna-fluorogen-aptamer.jpg",
+      "sha256": "25f18f5c6fe0326e7f4dfa723c2c504233b80761e6f41bcb1ca68a5bd4134064",
+      "bytes": 120008
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-rna-thermometer.jpg",
+      "sha256": "8ef0412e410906ab3d34ff44ee5e47736a735e414467c6b079bd7ec2a9959b72",
+      "bytes": 104286
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-seed-free-tryptophan.jpg",
+      "sha256": "bd9ee5dbab6b370fc99d2af4bc1626e0ccee38f53a05ae70b24efaf367325053",
+      "bytes": 227266
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-seed-iron-storage.jpg",
+      "sha256": "9f36dc200ddd42ac5691b23d7ca6723f81e8198f07cd452e103a34fbf58567a3",
+      "bytes": 126947
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-shinorine-biosynthesis.jpg",
+      "sha256": "07d60b22e71b11795a121a4673b9c607cc049e066958123ad431e46d40fc9190",
+      "bytes": 107382
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-split-intein-ligation.jpg",
+      "sha256": "58782a7d0abb0a207103cc36459dc9c23869a1701ac504dc048a1f2d901221c8",
+      "bytes": 112554
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-split-luciferase-interaction.jpg",
+      "sha256": "27340197fb25888966a3d549aa3966065b15684f98748e8fcb4f41a8b3bb06fd",
+      "bytes": 152329
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-steviol-glycoside-selectivity.jpg",
+      "sha256": "a938a0b422672fa99f59a0348151418e5c0cf181eaed06a46267cb58e3c7d072",
+      "bytes": 199692
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-theanine-production.jpg",
+      "sha256": "b44e3bfc9eeabc2604de0c4d756e383a11df683346ab37b518f4f8bfde95cdc8",
+      "bytes": 145238
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-tomato-fruit-gaba-content.jpg",
+      "sha256": "b0333c6df883beafb91a337e08c88e5cb95e80a190b363324c9c2551ba38e253",
+      "bytes": 218043
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-ultrasound-gas-vesicle.jpg",
+      "sha256": "3c1d739403a40c7b5cf6b951781dc7ab54c2d9cb5117b51ae896ce27eee66bf3",
+      "bytes": 103311
+    },
+    {
+      "path": "research/traitweaver-300-showcase/showcase-art/tool-vesicle-fusion-ph-reporting.jpg",
+      "sha256": "d280c35c382d8cb3b4f964ff1287b0429db6860026724f05b8eebb464042552f",
+      "bytes": 156936
     },
     {
       "path": "research/transferable-traits/.gitignore",
@@ -1077,6 +4037,11 @@
       "path": "tests/research_story_ui_offline.cjs",
       "sha256": "90c979355c8deab519789f8f935c29438d91f31bb0f517215fd7633f98f7b701",
       "bytes": 12219
+    },
+    {
+      "path": "tests/showcase_source_exports_offline.cjs",
+      "sha256": "6f4e8baf1573ee153f71075e32b433af5d192a19f83a63fdf27f2717beeb1d64",
+      "bytes": 1607
     },
     {
       "path": "tests/site_browser.cjs",
@@ -2205,6 +5170,22 @@
     "validation": "research/transferable-traits/VALIDATION.md",
     "source_rights": "User-authorized selected scientific workbook rows and short attributed public-source notes; no full papers or raw Library receipts"
   },
+  "traitweaver_300_showcase_2026_11_04": {
+    "base_commit": "e6fa72f44ed10ad1e4d30fef6b1df38a90a5034a",
+    "snapshot": {
+      "path": "research/traitweaver-300-showcase/library.json",
+      "sha256": "39a85542d7381cd90e1c838d2842aafb4b1f0b683916b4d27f203daa754fa3c7",
+      "bytes": 1743255
+    },
+    "package_files": 592,
+    "prior_handoff_status": {
+      "status": "trait_categories_screened_for_publication",
+      "refresh": "Capability-first category browsing, source-bound trait details and explicit open/future roles.",
+      "publication_approved": true,
+      "review_status": "Owner explicitly authorized publishing the screened cloud design upgrade to Y3K5/traitweaver main. No Muse execution, private records, submission or local Mac changes.",
+      "scope": "Public/synthetic research-workspace code plus documentation. Documentary real Meta contribution is described; real packets, media and new provider execution are excluded."
+    }
+  },
   "local_research_homes_handoff_2026_11_04": {
     "scope": [
       "README.md",
@@ -2250,5 +5231,30 @@
     "private_run_records_included": false,
     "model_calls": 0,
     "upstream_cloud_study_modified": false
+  },
+  "pr_2_conflict_resolution_2026_11_05": {
+    "head_commit": "bd3493b2b58fbaf65283215af939f4671c3927b4",
+    "base_commit": "08f0d7cc059371b8f0f230e29c65483d918b1890",
+    "scope": "Combine the 300-trait showcase with current main; retain both provenance extensions and regenerate the exact public file inventory and byte manifest.",
+    "application_or_scientific_content_changed_by_resolution": false,
+    "new_provider_calls": 0,
+    "scientific_review_status": "Unchanged; this is a software merge repair, not scientific approval.",
+    "export_fix": {
+      "file": "research/traitweaver-300-showcase/LIBRARY.html",
+      "scope": "Include all cited record and combination source IDs in dossier and JSON exports, including native sources previously omitted for nine traits.",
+      "scientific_records_changed": false,
+      "focused_regression_checks": 901,
+      "regression_test": "tests/showcase_source_exports_offline.cjs"
+    },
+    "validation": {
+      "exact_file_inventory": 869,
+      "focused_python_tests": 72,
+      "study_python_tests": 49,
+      "offline_ui_suites": "All eleven app controller suites and isolated-study controller passed.",
+      "http_integration": "Both loopback HTTP suites passed.",
+      "export_regression_checks": 901,
+      "browser": "Not run: installed Chromium could not start under executor socket restriction.",
+      "aggregate_python": "Still running at publication time; separate result will be checked."
+    }
   }
 }
